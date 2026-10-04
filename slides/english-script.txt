@@ -1,0 +1,14 @@
+Slide 1
+Our main question is who is likely to buy again within ninety days. Prediction alone does not explain what different customers are like. We therefore add customer segmentation and group-level exploration. Clustering has two roles: it may help improve predictive features, and it provides customer insights for differentiated business recommendations. We will evaluate both roles rather than assuming clustering must improve the model.
+
+Slide 2
+We use the orders, order items and customers tables. We aggregate item amounts to each order, then connect orders to unique buyers. This produces customer snapshots at defined dates. Product metadata can support category profiles. IDs are categorical, money is numeric, and timestamps define what information was available. The displayed counts describe raw tables, not the final modelling sample.
+
+Slide 3
+At each analysis date, we use six months of historical activity to predict an approved, positive-value order in the next ninety days. Candidate inputs include RFM, order size, recent activity and region. Earlier snapshots support development; a later period is reserved for final evaluation. Group-level findings suggest candidate features, but we only keep changes supported by validation. All inputs must be available at the prediction date.
+
+Slide 4
+The workflow starts with overall exploration and feature engineering. We then run two parallel paths. The main path compares classification models. The supporting path clusters the full eligible customer population and explores each group separately. Group findings suggest feature changes, which return to the prediction pipeline and are checked on validation data. They also produce business insights in their own right. After development is frozen, we evaluate predictions on a later held-out period and combine both outputs.
+
+Slide 5
+The final report will deliver more than a prediction tool. It will show how well repurchase can be predicted, describe the different customer groups, and connect both to business recommendations. Clustering may remain valuable even if it adds little predictive improvement, provided its profiles are stable and decision-relevant. Recommendations are hypotheses for future experiments: predicting a purchase does not show that marketing caused it.

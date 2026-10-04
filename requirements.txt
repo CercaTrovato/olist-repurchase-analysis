@@ -1,0 +1,11 @@
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.5.1
+catboost==1.2.8
+matplotlib==3.9.2
+threadpoolctl==3.6.0
+nbformat==5.10.4
+nbclient>=0.10,<0.11
+nbconvert>=7.16,<8
+ipykernel>=6.29,<7
+jupyterlab>=4.2,<5

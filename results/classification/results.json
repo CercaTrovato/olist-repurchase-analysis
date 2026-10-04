@@ -1,0 +1,227 @@
+{
+  "purpose": "Briefing exploratory feasibility only; not confirmatory evaluation or marketing uplift",
+  "model": "CatBoost",
+  "catboost_version": "1.2.8",
+  "target": "at least one further approved order with positive item amount in next 90 days; final cancellation/delivery status not filtered",
+  "features": [
+    "R",
+    "F",
+    "M",
+    "average_order_value",
+    "max_order_value",
+    "average_item_rows",
+    "freight_share",
+    "observed_history_days",
+    "recent30_orders",
+    "recent30_spend",
+    "state"
+  ],
+  "cohorts": [
+    {
+      "snapshot": "2017-10-01",
+      "history_start": "2017-04-01",
+      "outcome_end_exclusive": "2017-12-30",
+      "customers": 21160,
+      "repeaters": 211,
+      "prevalence": 0.00997164461247637,
+      "history_orders": 21757
+    },
+    {
+      "snapshot": "2018-01-01",
+      "history_start": "2017-07-01",
+      "outcome_end_exclusive": "2018-04-01",
+      "customers": 29368,
+      "repeaters": 230,
+      "prevalence": 0.007831653500408608,
+      "history_orders": 30134
+    },
+    {
+      "snapshot": "2018-04-01",
+      "history_start": "2017-10-01",
+      "outcome_end_exclusive": "2018-06-30",
+      "customers": 37813,
+      "repeaters": 299,
+      "prevalence": 0.007907333456747679,
+      "history_orders": 38715
+    }
+  ],
+  "selection": "3 configs; early stopping on validation PRAUC, select by sklearn validation AP; refit train+validation at chosen tree count; test once",
+  "trials": [
+    {
+      "config": {
+        "name": "depth4_unweighted",
+        "depth": 4
+      },
+      "trees": 49,
+      "validation": {
+        "AP": 0.029509024650261534,
+        "ROC_AUC": 0.5652205994264177,
+        "Precision_at_10pct": 0.01634320735444331,
+        "Recall_at_10pct": 0.20869565217391303,
+        "selected": 2937,
+        "hits": 48
+      }
+    },
+    {
+      "config": {
+        "name": "depth6_unweighted",
+        "depth": 6
+      },
+      "trees": 48,
+      "validation": {
+        "AP": 0.033199067975299125,
+        "ROC_AUC": 0.5677967214484597,
+        "Precision_at_10pct": 0.013278855975485188,
+        "Recall_at_10pct": 0.16956521739130434,
+        "selected": 2937,
+        "hits": 39
+      }
+    },
+    {
+      "config": {
+        "name": "depth4_balanced",
+        "depth": 4,
+        "auto_class_weights": "Balanced"
+      },
+      "trees": 5,
+      "validation": {
+        "AP": 0.015353224403348366,
+        "ROC_AUC": 0.5688157851543033,
+        "Precision_at_10pct": 0.017024174327545116,
+        "Recall_at_10pct": 0.21739130434782608,
+        "selected": 2937,
+        "hits": 50
+      }
+    }
+  ],
+  "selected": {
+    "config": {
+      "name": "depth6_unweighted",
+      "depth": 6
+    },
+    "trees": 48,
+    "validation": {
+      "AP": 0.033199067975299125,
+      "ROC_AUC": 0.5677967214484597,
+      "Precision_at_10pct": 0.013278855975485188,
+      "Recall_at_10pct": 0.16956521739130434,
+      "selected": 2937,
+      "hits": 39
+    }
+  },
+  "test_catboost": {
+    "AP": 0.021203697981760448,
+    "ROC_AUC": 0.6037685729991906,
+    "Precision_at_10pct": 0.01850872554204125,
+    "Recall_at_10pct": 0.23411371237458195,
+    "selected": 3782,
+    "hits": 70
+  },
+  "test_recency_baseline": {
+    "AP": 0.011044364849078496,
+    "ROC_AUC": 0.573229650896887,
+    "Precision_at_10pct": 0.011898466419883659,
+    "Recall_at_10pct": 0.1505016722408027,
+    "selected": 3782,
+    "hits": 45
+  },
+  "random_ranking_reference": {
+    "AP_approximately": 0.007907333456747679,
+    "ROC_AUC": 0.5,
+    "Precision_at_10pct_expected": 0.007907333456747679,
+    "Recall_at_10pct_expected": 0.10001851215190542
+  },
+  "customer_overlap": {
+    "train_test": 361,
+    "validation_test": 17391,
+    "note": "Same customer can recur in historical snapshots, consistent with scoring existing customers. IDs not features; target periods do not overlap. Not an unseen-customer generalisation test."
+  },
+  "deciles": [
+    {
+      "decile": 1,
+      "n": 3782,
+      "repeaters": 70,
+      "repeat_rate": 0.01850872554204125
+    },
+    {
+      "decile": 2,
+      "n": 3782,
+      "repeaters": 34,
+      "repeat_rate": 0.008989952406134321
+    },
+    {
+      "decile": 3,
+      "n": 3782,
+      "repeaters": 27,
+      "repeat_rate": 0.007139079851930196
+    },
+    {
+      "decile": 4,
+      "n": 3781,
+      "repeaters": 31,
+      "repeat_rate": 0.008198889182755884
+    },
+    {
+      "decile": 5,
+      "n": 3781,
+      "repeaters": 29,
+      "repeat_rate": 0.0076699285903200215
+    },
+    {
+      "decile": 6,
+      "n": 3781,
+      "repeaters": 31,
+      "repeat_rate": 0.008198889182755884
+    },
+    {
+      "decile": 7,
+      "n": 3781,
+      "repeaters": 15,
+      "repeat_rate": 0.003967204443268976
+    },
+    {
+      "decile": 8,
+      "n": 3781,
+      "repeaters": 18,
+      "repeat_rate": 0.004760645331922771
+    },
+    {
+      "decile": 9,
+      "n": 3781,
+      "repeaters": 16,
+      "repeat_rate": 0.004231684739486909
+    },
+    {
+      "decile": 10,
+      "n": 3781,
+      "repeaters": 28,
+      "repeat_rate": 0.007405448294102089
+    }
+  ],
+  "importance": {
+    "F": 17.23120730763474,
+    "average_item_rows": 16.325231772207694,
+    "observed_history_days": 13.343726824151464,
+    "R": 10.084919659522974,
+    "freight_share": 9.943183151125009,
+    "max_order_value": 7.8749520252652845,
+    "recent30_spend": 7.352481801057447,
+    "recent30_orders": 6.619634781810078,
+    "M": 6.149988463320487,
+    "average_order_value": 5.074674213904807,
+    "state": 0.0
+  },
+  "caveats": [
+    "Single held-out quarter with few positives; no confidence intervals or multiple-period validation",
+    "Targets capture observed approvals only, not complete customer retention or net completed purchases",
+    "Snapshot eligibility excludes customers without approval in prior six months",
+    "Repeated customers across historical snapshots are intentional; historical spending is not profit",
+    "No causal or marketing-treatment effect",
+    "Do not interpret class-weighted scores as calibrated probabilities"
+  ],
+  "source_sha256": {
+    "olist_orders_dataset.csv": "8df58ef3d2d7e9944010f7beecd9b75367f5588ec6e3c91cec19ae3345ef9ecf",
+    "olist_order_items_dataset.csv": "0bc4d068c4fe38cbb01bd90e8746e3c613fe7b4baef75fab7b0e329701c3e279",
+    "olist_customers_dataset.csv": "983a422239e1712ded753b3bf9ecf47dc73f144d306029dcfa99e70a226883d2"
+  }
+}

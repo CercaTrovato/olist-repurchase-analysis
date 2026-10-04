@@ -1,0 +1,971 @@
+{
+  "design": {
+    "start": "2017-10-01",
+    "cutoff": "2018-04-01",
+    "valid_orders": "purchased in window, delivered before cutoff, current status delivered, positive summed item value",
+    "window_orders_before_filter": 39056,
+    "included_orders": 34054,
+    "customers": 33299,
+    "train_customers": 23309,
+    "test_customers": 9990,
+    "R_threshold_days": 30,
+    "M_threshold_BRL": 88.89,
+    "K": 4,
+    "seed": 2026,
+    "resamples": "5 x 80% training sample, without replacement; refit scaler, model and monetary threshold",
+    "future_validation": false,
+    "single_order_share": 0.9788582239706898,
+    "unknown_category_item_rows": 715,
+    "posthoc_diagnostic": "Rules-with-F was added after observing the RFM repeat-buyer cluster. Diagnostic only, not an independent confirmatory test; fresh holdout is needed for formal selection."
+  },
+  "metrics": {
+    "Rules": {
+      "silhouette_same_RM_space": 0.298026752345557,
+      "smallest_group": 458,
+      "largest_group": 4545,
+      "resample_ARI_mean": 0.9870019834796648,
+      "resample_ARI_min": 0.9798674628588676
+    },
+    "KMeans-RM": {
+      "silhouette_same_RM_space": 0.3314346288895798,
+      "smallest_group": 1813,
+      "largest_group": 3735,
+      "resample_ARI_mean": 0.8734016663712847,
+      "resample_ARI_min": 0.8278047040891263,
+      "seed_ARI_min": 0.8210845258017583
+    },
+    "KMeans-RFM": {
+      "silhouette_same_RM_space": 0.3301370113615148,
+      "smallest_group": 202,
+      "largest_group": 3857,
+      "silhouette_RFM_space": 0.38442271798716154,
+      "resample_ARI_mean": 0.9965796038867681,
+      "resample_ARI_min": 0.991632592775004,
+      "seed_ARI_min": 0.9988978058570203
+    },
+    "Rules-with-F": {
+      "silhouette_same_RM_space": 0.287480299202823,
+      "smallest_group": 202,
+      "largest_group": 4513,
+      "resample_ARI_mean": 0.9872424364991137,
+      "resample_ARI_min": 0.9802113862011184
+    }
+  },
+  "resample_ARI": {
+    "Rules": [
+      0.9976835600141583,
+      0.9798674628588676,
+      0.9977239688075631,
+      0.9798674628588676,
+      0.9798674628588676
+    ],
+    "KMeans-RM": [
+      0.838564530116178,
+      0.8748405267666692,
+      0.9117465653380415,
+      0.8278047040891263,
+      0.9140520055464088
+    ],
+    "KMeans-RFM": [
+      0.9953687541212852,
+      0.9967056392986345,
+      0.9997242841831725,
+      0.9994667490557446,
+      0.991632592775004
+    ],
+    "Rules-with-F": [
+      0.9977890325696902,
+      0.9802113862011184,
+      0.9977889913225236,
+      0.9802113862011184,
+      0.9802113862011184
+    ]
+  },
+  "seed_ARI": {
+    "KMeans-RM": [
+      0.8210845258017583,
+      0.9222594944455338,
+      0.8765429512035574
+    ],
+    "KMeans-RFM": [
+      0.9991911438227519,
+      0.9988978058570203,
+      0.9994575514332353
+    ]
+  },
+  "profiles": {
+    "Rules": [
+      {
+        "group": 0,
+        "n": 522,
+        "R_median": 20.0,
+        "F_median": 1.0,
+        "M_median": 45.925,
+        "F_gt1_share": 0.005747126436781609
+      },
+      {
+        "group": 1,
+        "n": 458,
+        "R_median": 22.0,
+        "F_median": 1.0,
+        "M_median": 156.66000000000003,
+        "F_gt1_share": 0.05895196506550218
+      },
+      {
+        "group": 2,
+        "n": 4545,
+        "R_median": 104.0,
+        "F_median": 1.0,
+        "M_median": 47.99,
+        "F_gt1_share": 0.0070407040704070405
+      },
+      {
+        "group": 3,
+        "n": 4465,
+        "R_median": 108.0,
+        "F_median": 1.0,
+        "M_median": 149.99,
+        "F_gt1_share": 0.03135498320268757
+      }
+    ],
+    "KMeans-RM": [
+      {
+        "group": 0,
+        "n": 3735,
+        "R_median": 125.0,
+        "F_median": 1.0,
+        "M_median": 93.55,
+        "F_gt1_share": 0.01285140562248996
+      },
+      {
+        "group": 1,
+        "n": 2140,
+        "R_median": 32.0,
+        "F_median": 1.0,
+        "M_median": 82.9,
+        "F_gt1_share": 0.02850467289719626
+      },
+      {
+        "group": 2,
+        "n": 1813,
+        "R_median": 91.0,
+        "F_median": 1.0,
+        "M_median": 278.0,
+        "F_gt1_share": 0.049089906232763374
+      },
+      {
+        "group": 3,
+        "n": 2302,
+        "R_median": 96.0,
+        "F_median": 1.0,
+        "M_median": 29.9,
+        "F_gt1_share": 0.0017376194613379669
+      }
+    ],
+    "KMeans-RFM": [
+      {
+        "group": 0,
+        "n": 2275,
+        "R_median": 33.0,
+        "F_median": 1.0,
+        "M_median": 81.4,
+        "F_gt1_share": 0.0
+      },
+      {
+        "group": 1,
+        "n": 3656,
+        "R_median": 117.0,
+        "F_median": 1.0,
+        "M_median": 44.99,
+        "F_gt1_share": 0.0
+      },
+      {
+        "group": 2,
+        "n": 3857,
+        "R_median": 117.0,
+        "F_median": 1.0,
+        "M_median": 149.99,
+        "F_gt1_share": 0.0
+      },
+      {
+        "group": 3,
+        "n": 202,
+        "R_median": 66.0,
+        "F_median": 2.0,
+        "M_median": 189.22500000000002,
+        "F_gt1_share": 1.0
+      }
+    ],
+    "Rules-with-F": [
+      {
+        "group": 0,
+        "n": 950,
+        "R_median": 21.0,
+        "F_median": 1.0,
+        "M_median": 79.9,
+        "F_gt1_share": 0.0
+      },
+      {
+        "group": 1,
+        "n": 4513,
+        "R_median": 104.0,
+        "F_median": 1.0,
+        "M_median": 47.9,
+        "F_gt1_share": 0.0
+      },
+      {
+        "group": 2,
+        "n": 4325,
+        "R_median": 109.0,
+        "F_median": 1.0,
+        "M_median": 149.9,
+        "F_gt1_share": 0.0
+      },
+      {
+        "group": 3,
+        "n": 202,
+        "R_median": 66.0,
+        "F_median": 2.0,
+        "M_median": 189.22500000000002,
+        "F_gt1_share": 1.0
+      }
+    ]
+  },
+  "top5_categories_training": [
+    "bed_bath_table",
+    "sports_leisure",
+    "health_beauty",
+    "computers_accessories",
+    "furniture_decor"
+  ],
+  "category_lifts": {
+    "Rules": [
+      {
+        "group": 0,
+        "category": "bed_bath_table",
+        "group_n": 522,
+        "category_buyers": 44,
+        "share": 0.0842911877394636,
+        "overall_share": 0.09329329329329329,
+        "lift": 0.9035074737309458
+      },
+      {
+        "group": 1,
+        "category": "bed_bath_table",
+        "group_n": 458,
+        "category_buyers": 53,
+        "share": 0.11572052401746726,
+        "overall_share": 0.09329329329329329,
+        "lift": 1.2403948872687747
+      },
+      {
+        "group": 2,
+        "category": "bed_bath_table",
+        "group_n": 4545,
+        "category_buyers": 405,
+        "share": 0.0891089108910891,
+        "overall_share": 0.09329329329329329,
+        "lift": 0.9551480899162877
+      },
+      {
+        "group": 3,
+        "category": "bed_bath_table",
+        "group_n": 4465,
+        "category_buyers": 430,
+        "share": 0.09630459126539753,
+        "overall_share": 0.09329329329329329,
+        "lift": 1.0322777540142933
+      },
+      {
+        "group": 0,
+        "category": "sports_leisure",
+        "group_n": 522,
+        "category_buyers": 43,
+        "share": 0.08237547892720307,
+        "overall_share": 0.08398398398398399,
+        "lift": 0.980847478525338
+      },
+      {
+        "group": 1,
+        "category": "sports_leisure",
+        "group_n": 458,
+        "category_buyers": 45,
+        "share": 0.0982532751091703,
+        "overall_share": 0.08398398398398399,
+        "lift": 1.169904908630049
+      },
+      {
+        "group": 2,
+        "category": "sports_leisure",
+        "group_n": 4545,
+        "category_buyers": 349,
+        "share": 0.07678767876787679,
+        "overall_share": 0.08398398398398399,
+        "lift": 0.914313362206304
+      },
+      {
+        "group": 3,
+        "category": "sports_leisure",
+        "group_n": 4465,
+        "category_buyers": 402,
+        "share": 0.09003359462486002,
+        "overall_share": 0.08398398398398399,
+        "lift": 1.0720329085844476
+      },
+      {
+        "group": 0,
+        "category": "health_beauty",
+        "group_n": 522,
+        "category_buyers": 48,
+        "share": 0.09195402298850575,
+        "overall_share": 0.08188188188188188,
+        "lift": 1.123008178062558
+      },
+      {
+        "group": 1,
+        "category": "health_beauty",
+        "group_n": 458,
+        "category_buyers": 40,
+        "share": 0.08733624454148471,
+        "overall_share": 0.08188188188188188,
+        "lift": 1.0666125708672767
+      },
+      {
+        "group": 2,
+        "category": "health_beauty",
+        "group_n": 4545,
+        "category_buyers": 372,
+        "share": 0.08184818481848184,
+        "overall_share": 0.08188188188188188,
+        "lift": 0.9995884674041976
+      },
+      {
+        "group": 3,
+        "category": "health_beauty",
+        "group_n": 4465,
+        "category_buyers": 358,
+        "share": 0.08017917133258678,
+        "overall_share": 0.08188188188188188,
+        "lift": 0.979205283144917
+      },
+      {
+        "group": 0,
+        "category": "computers_accessories",
+        "group_n": 522,
+        "category_buyers": 45,
+        "share": 0.08620689655172414,
+        "overall_share": 0.07657657657657657,
+        "lift": 1.1257606490872212
+      },
+      {
+        "group": 1,
+        "category": "computers_accessories",
+        "group_n": 458,
+        "category_buyers": 47,
+        "share": 0.10262008733624454,
+        "overall_share": 0.07657657657657657,
+        "lift": 1.3400976110968406
+      },
+      {
+        "group": 2,
+        "category": "computers_accessories",
+        "group_n": 4545,
+        "category_buyers": 307,
+        "share": 0.06754675467546754,
+        "overall_share": 0.07657657657657657,
+        "lift": 0.8820811492913997
+      },
+      {
+        "group": 3,
+        "category": "computers_accessories",
+        "group_n": 4465,
+        "category_buyers": 366,
+        "share": 0.08197088465845465,
+        "overall_share": 0.07657657657657657,
+        "lift": 1.0704433173045254
+      },
+      {
+        "group": 0,
+        "category": "furniture_decor",
+        "group_n": 522,
+        "category_buyers": 36,
+        "share": 0.06896551724137931,
+        "overall_share": 0.06026026026026026,
+        "lift": 1.1444609920953144
+      },
+      {
+        "group": 1,
+        "category": "furniture_decor",
+        "group_n": 458,
+        "category_buyers": 34,
+        "share": 0.07423580786026202,
+        "overall_share": 0.06026026026026026,
+        "lift": 1.2319198015349129
+      },
+      {
+        "group": 2,
+        "category": "furniture_decor",
+        "group_n": 4545,
+        "category_buyers": 276,
+        "share": 0.06072607260726073,
+        "overall_share": 0.06026026026026026,
+        "lift": 1.0077300088812868
+      },
+      {
+        "group": 3,
+        "category": "furniture_decor",
+        "group_n": 4465,
+        "category_buyers": 256,
+        "share": 0.05733482642777156,
+        "overall_share": 0.06026026026026026,
+        "lift": 0.9514533488595314
+      }
+    ],
+    "KMeans-RM": [
+      {
+        "group": 0,
+        "category": "bed_bath_table",
+        "group_n": 3735,
+        "category_buyers": 421,
+        "share": 0.11271753681392235,
+        "overall_share": 0.09329329329329329,
+        "lift": 1.2082062154196185
+      },
+      {
+        "group": 1,
+        "category": "bed_bath_table",
+        "group_n": 2140,
+        "category_buyers": 212,
+        "share": 0.09906542056074766,
+        "overall_share": 0.09329329329329329,
+        "lift": 1.0618707633067266
+      },
+      {
+        "group": 2,
+        "category": "bed_bath_table",
+        "group_n": 1813,
+        "category_buyers": 133,
+        "share": 0.07335907335907337,
+        "overall_share": 0.09329329329329329,
+        "lift": 0.7863274064990804
+      },
+      {
+        "group": 3,
+        "category": "bed_bath_table",
+        "group_n": 2302,
+        "category_buyers": 166,
+        "share": 0.07211120764552563,
+        "overall_share": 0.09329329329329329,
+        "lift": 0.7729516785180269
+      },
+      {
+        "group": 0,
+        "category": "sports_leisure",
+        "group_n": 3735,
+        "category_buyers": 335,
+        "share": 0.08969210174029452,
+        "overall_share": 0.08398398398398399,
+        "lift": 1.0679667418182863
+      },
+      {
+        "group": 1,
+        "category": "sports_leisure",
+        "group_n": 2140,
+        "category_buyers": 206,
+        "share": 0.09626168224299066,
+        "overall_share": 0.08398398398398399,
+        "lift": 1.1461909482806634
+      },
+      {
+        "group": 2,
+        "category": "sports_leisure",
+        "group_n": 1813,
+        "category_buyers": 152,
+        "share": 0.08383894098179813,
+        "overall_share": 0.08398398398398399,
+        "lift": 0.9982729683053198
+      },
+      {
+        "group": 3,
+        "category": "sports_leisure",
+        "group_n": 2302,
+        "category_buyers": 146,
+        "share": 0.0634231103388358,
+        "overall_share": 0.08398398398398399,
+        "lift": 0.7551810158342903
+      },
+      {
+        "group": 0,
+        "category": "health_beauty",
+        "group_n": 3735,
+        "category_buyers": 319,
+        "share": 0.08540829986613119,
+        "overall_share": 0.08188188188188188,
+        "lift": 1.04306713406192
+      },
+      {
+        "group": 1,
+        "category": "health_beauty",
+        "group_n": 2140,
+        "category_buyers": 185,
+        "share": 0.08644859813084112,
+        "overall_share": 0.08188188188188188,
+        "lift": 1.0557719991773873
+      },
+      {
+        "group": 2,
+        "category": "health_beauty",
+        "group_n": 1813,
+        "category_buyers": 157,
+        "share": 0.08659680088251517,
+        "overall_share": 0.08188188188188188,
+        "lift": 1.0575819569881744
+      },
+      {
+        "group": 3,
+        "category": "health_beauty",
+        "group_n": 2302,
+        "category_buyers": 157,
+        "share": 0.0682015638575152,
+        "overall_share": 0.08188188188188188,
+        "lift": 0.8329261894090183
+      },
+      {
+        "group": 0,
+        "category": "computers_accessories",
+        "group_n": 3735,
+        "category_buyers": 189,
+        "share": 0.05060240963855422,
+        "overall_share": 0.07657657657657657,
+        "lift": 0.6608079376328845
+      },
+      {
+        "group": 1,
+        "category": "computers_accessories",
+        "group_n": 2140,
+        "category_buyers": 251,
+        "share": 0.11728971962616823,
+        "overall_share": 0.07657657657657657,
+        "lift": 1.5316657504123146
+      },
+      {
+        "group": 2,
+        "category": "computers_accessories",
+        "group_n": 1813,
+        "category_buyers": 165,
+        "share": 0.09100937672366244,
+        "overall_share": 0.07657657657657657,
+        "lift": 1.1884753901560625
+      },
+      {
+        "group": 3,
+        "category": "computers_accessories",
+        "group_n": 2302,
+        "category_buyers": 160,
+        "share": 0.06950477845351868,
+        "overall_share": 0.07657657657657657,
+        "lift": 0.9076506362753617
+      },
+      {
+        "group": 0,
+        "category": "furniture_decor",
+        "group_n": 3735,
+        "category_buyers": 257,
+        "share": 0.06880856760374833,
+        "overall_share": 0.06026026026026026,
+        "lift": 1.1418564623944283
+      },
+      {
+        "group": 1,
+        "category": "furniture_decor",
+        "group_n": 2140,
+        "category_buyers": 143,
+        "share": 0.06682242990654205,
+        "overall_share": 0.06026026026026026,
+        "lift": 1.1088971341633806
+      },
+      {
+        "group": 2,
+        "category": "furniture_decor",
+        "group_n": 1813,
+        "category_buyers": 94,
+        "share": 0.05184776613348042,
+        "overall_share": 0.06026026026026026,
+        "lift": 0.8603973150722083
+      },
+      {
+        "group": 3,
+        "category": "furniture_decor",
+        "group_n": 2302,
+        "category_buyers": 108,
+        "share": 0.04691572545612511,
+        "overall_share": 0.06026026026026026,
+        "lift": 0.778551656655631
+      }
+    ],
+    "KMeans-RFM": [
+      {
+        "group": 0,
+        "category": "bed_bath_table",
+        "group_n": 2275,
+        "category_buyers": 217,
+        "share": 0.09538461538461539,
+        "overall_share": 0.09329329329329329,
+        "lift": 1.0224166391548366
+      },
+      {
+        "group": 1,
+        "category": "bed_bath_table",
+        "group_n": 3656,
+        "category_buyers": 307,
+        "share": 0.08397155361050328,
+        "overall_share": 0.09329329329329329,
+        "lift": 0.900081352541768
+      },
+      {
+        "group": 2,
+        "category": "bed_bath_table",
+        "group_n": 3857,
+        "category_buyers": 373,
+        "share": 0.09670728545501685,
+        "overall_share": 0.09329329329329329,
+        "lift": 1.0365941863686892
+      },
+      {
+        "group": 3,
+        "category": "bed_bath_table",
+        "group_n": 202,
+        "category_buyers": 35,
+        "share": 0.17326732673267325,
+        "overall_share": 0.09329329329329329,
+        "lift": 1.8572323970594484
+      },
+      {
+        "group": 0,
+        "category": "sports_leisure",
+        "group_n": 2275,
+        "category_buyers": 207,
+        "share": 0.090989010989011,
+        "overall_share": 0.08398398398398399,
+        "lift": 1.0834090819788078
+      },
+      {
+        "group": 1,
+        "category": "sports_leisure",
+        "group_n": 3656,
+        "category_buyers": 280,
+        "share": 0.07658643326039387,
+        "overall_share": 0.08398398398398399,
+        "lift": 0.9119171254723893
+      },
+      {
+        "group": 2,
+        "category": "sports_leisure",
+        "group_n": 3857,
+        "category_buyers": 326,
+        "share": 0.08452164894996111,
+        "overall_share": 0.08398398398398399,
+        "lift": 1.0064019940525764
+      },
+      {
+        "group": 3,
+        "category": "sports_leisure",
+        "group_n": 202,
+        "category_buyers": 26,
+        "share": 0.12871287128712872,
+        "overall_share": 0.08398398398398399,
+        "lift": 1.5325883005463836
+      },
+      {
+        "group": 0,
+        "category": "health_beauty",
+        "group_n": 2275,
+        "category_buyers": 192,
+        "share": 0.0843956043956044,
+        "overall_share": 0.08188188188188188,
+        "lift": 1.0306993739756576
+      },
+      {
+        "group": 1,
+        "category": "health_beauty",
+        "group_n": 3656,
+        "category_buyers": 263,
+        "share": 0.07193654266958424,
+        "overall_share": 0.08188188188188188,
+        "lift": 0.8785404171994458
+      },
+      {
+        "group": 2,
+        "category": "health_beauty",
+        "group_n": 3857,
+        "category_buyers": 336,
+        "share": 0.08711433756805807,
+        "overall_share": 0.08188188188188188,
+        "lift": 1.063902484480318
+      },
+      {
+        "group": 3,
+        "category": "health_beauty",
+        "group_n": 202,
+        "category_buyers": 27,
+        "share": 0.13366336633663367,
+        "overall_share": 0.08188188188188188,
+        "lift": 1.632392456849597
+      },
+      {
+        "group": 0,
+        "category": "computers_accessories",
+        "group_n": 2275,
+        "category_buyers": 260,
+        "share": 0.11428571428571428,
+        "overall_share": 0.07657657657657657,
+        "lift": 1.492436974789916
+      },
+      {
+        "group": 1,
+        "category": "computers_accessories",
+        "group_n": 3656,
+        "category_buyers": 215,
+        "share": 0.058807439824945296,
+        "overall_share": 0.07657657657657657,
+        "lift": 0.7679559788904622
+      },
+      {
+        "group": 2,
+        "category": "computers_accessories",
+        "group_n": 3857,
+        "category_buyers": 259,
+        "share": 0.06715063520871144,
+        "overall_share": 0.07657657657657657,
+        "lift": 0.876908295078467
+      },
+      {
+        "group": 3,
+        "category": "computers_accessories",
+        "group_n": 202,
+        "category_buyers": 31,
+        "share": 0.15346534653465346,
+        "overall_share": 0.07657657657657657,
+        "lift": 2.004076878276063
+      },
+      {
+        "group": 0,
+        "category": "furniture_decor",
+        "group_n": 2275,
+        "category_buyers": 143,
+        "share": 0.06285714285714286,
+        "overall_share": 0.06026026026026026,
+        "lift": 1.043094447081158
+      },
+      {
+        "group": 1,
+        "category": "furniture_decor",
+        "group_n": 3656,
+        "category_buyers": 233,
+        "share": 0.0637308533916849,
+        "overall_share": 0.06026026026026026,
+        "lift": 1.0575933976460665
+      },
+      {
+        "group": 2,
+        "category": "furniture_decor",
+        "group_n": 3857,
+        "category_buyers": 195,
+        "share": 0.050557428052890846,
+        "overall_share": 0.06026026026026026,
+        "lift": 0.8389845618743846
+      },
+      {
+        "group": 3,
+        "category": "furniture_decor",
+        "group_n": 202,
+        "category_buyers": 31,
+        "share": 0.15346534653465346,
+        "overall_share": 0.06026026026026026,
+        "lift": 2.5467089898358606
+      }
+    ],
+    "Rules-with-F": [
+      {
+        "group": 0,
+        "category": "bed_bath_table",
+        "group_n": 950,
+        "category_buyers": 91,
+        "share": 0.09578947368421052,
+        "overall_share": 0.09329329329329329,
+        "lift": 1.0267562683532867
+      },
+      {
+        "group": 1,
+        "category": "bed_bath_table",
+        "group_n": 4513,
+        "category_buyers": 402,
+        "share": 0.08907600265898516,
+        "overall_share": 0.09329329329329329,
+        "lift": 0.9547953503897658
+      },
+      {
+        "group": 2,
+        "category": "bed_bath_table",
+        "group_n": 4325,
+        "category_buyers": 404,
+        "share": 0.09341040462427745,
+        "overall_share": 0.09329329329329329,
+        "lift": 1.0012553027859783
+      },
+      {
+        "group": 3,
+        "category": "bed_bath_table",
+        "group_n": 202,
+        "category_buyers": 35,
+        "share": 0.17326732673267325,
+        "overall_share": 0.09329329329329329,
+        "lift": 1.8572323970594484
+      },
+      {
+        "group": 0,
+        "category": "sports_leisure",
+        "group_n": 950,
+        "category_buyers": 83,
+        "share": 0.08736842105263158,
+        "overall_share": 0.08398398398398399,
+        "lift": 1.040298601091525
+      },
+      {
+        "group": 1,
+        "category": "sports_leisure",
+        "group_n": 4513,
+        "category_buyers": 346,
+        "share": 0.07666740527365389,
+        "overall_share": 0.08398398398398399,
+        "lift": 0.9128812618400504
+      },
+      {
+        "group": 2,
+        "category": "sports_leisure",
+        "group_n": 4325,
+        "category_buyers": 384,
+        "share": 0.08878612716763006,
+        "overall_share": 0.08398398398398399,
+        "lift": 1.0571792734262506
+      },
+      {
+        "group": 3,
+        "category": "sports_leisure",
+        "group_n": 202,
+        "category_buyers": 26,
+        "share": 0.12871287128712872,
+        "overall_share": 0.08398398398398399,
+        "lift": 1.5325883005463836
+      },
+      {
+        "group": 0,
+        "category": "health_beauty",
+        "group_n": 950,
+        "category_buyers": 84,
+        "share": 0.08842105263157894,
+        "overall_share": 0.08188188188188188,
+        "lift": 1.0798610217475229
+      },
+      {
+        "group": 1,
+        "category": "health_beauty",
+        "group_n": 4513,
+        "category_buyers": 368,
+        "share": 0.08154221138931975,
+        "overall_share": 0.08188188188188188,
+        "lift": 0.9958517014416923
+      },
+      {
+        "group": 2,
+        "category": "health_beauty",
+        "group_n": 4325,
+        "category_buyers": 339,
+        "share": 0.07838150289017341,
+        "overall_share": 0.08188188188188188,
+        "lift": 0.9572508727051742
+      },
+      {
+        "group": 3,
+        "category": "health_beauty",
+        "group_n": 202,
+        "category_buyers": 27,
+        "share": 0.13366336633663367,
+        "overall_share": 0.08188188188188188,
+        "lift": 1.632392456849597
+      },
+      {
+        "group": 0,
+        "category": "computers_accessories",
+        "group_n": 950,
+        "category_buyers": 89,
+        "share": 0.09368421052631579,
+        "overall_share": 0.07657657657657657,
+        "lift": 1.223405572755418
+      },
+      {
+        "group": 1,
+        "category": "computers_accessories",
+        "group_n": 4513,
+        "category_buyers": 304,
+        "share": 0.06736095723465543,
+        "overall_share": 0.07657657657657657,
+        "lift": 0.879654853299618
+      },
+      {
+        "group": 2,
+        "category": "computers_accessories",
+        "group_n": 4325,
+        "category_buyers": 341,
+        "share": 0.07884393063583815,
+        "overall_share": 0.07657657657657657,
+        "lift": 1.0296089765385925
+      },
+      {
+        "group": 3,
+        "category": "computers_accessories",
+        "group_n": 202,
+        "category_buyers": 31,
+        "share": 0.15346534653465346,
+        "overall_share": 0.07657657657657657,
+        "lift": 2.004076878276063
+      },
+      {
+        "group": 0,
+        "category": "furniture_decor",
+        "group_n": 950,
+        "category_buyers": 63,
+        "share": 0.06631578947368422,
+        "overall_share": 0.06026026026026026,
+        "lift": 1.1004895960832315
+      },
+      {
+        "group": 1,
+        "category": "furniture_decor",
+        "group_n": 4513,
+        "category_buyers": 270,
+        "share": 0.05982716596499003,
+        "overall_share": 0.06026026026026026,
+        "lift": 0.992812936860881
+      },
+      {
+        "group": 2,
+        "category": "furniture_decor",
+        "group_n": 4325,
+        "category_buyers": 238,
+        "share": 0.055028901734104047,
+        "overall_share": 0.06026026026026026,
+        "lift": 0.9131872563516602
+      },
+      {
+        "group": 3,
+        "category": "furniture_decor",
+        "group_n": 202,
+        "category_buyers": 31,
+        "share": 0.15346534653465346,
+        "overall_share": 0.06026026026026026,
+        "lift": 2.5467089898358606
+      }
+    ]
+  }
+}

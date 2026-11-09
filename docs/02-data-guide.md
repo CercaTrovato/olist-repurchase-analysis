@@ -1,5 +1,7 @@
 # 九张表与完整字段解释
 
+[项目首页](../README.md) · [接着看名单方法](03-methodology.md) · [当前进度](team/current-status.md)
+
 ## 先读懂统计单位
 
 Olist不是一张客户大表。一次下单可以有多个商品、多个支付记录和多条评价。把表连接成功，不代表统计口径正确。
@@ -17,6 +19,12 @@ Olist不是一张客户大表。一次下单可以有多个商品、多个支付
 | translation | 一个品类名称映射 | product_category_name |
 
 例如一笔订单有2条商品明细、2条支付，直接按订单号合并会得到4行；原金额可能被重复计算。先各自汇总到订单，再连接，最后按customer_unique_id汇总到客户。示例见 [教学Notebook](../notebooks/01-data-guide.ipynb)。
+
+## 两张图怎样读
+
+先在 [九表关系图](team/evidence/images/olist-table-relationships.png) 找到中央的 orders（订单）。一笔订单可以连到多条商品、支付或评价记录。按图中关系连接时，要先判断哪一侧会出现多行。买家编号 `customer_unique_id` 在 customers 表里，用它可以跨不同订单辨认同一位匿名买家。
+
+再看 [从九张表到一行一订单](team/evidence/images/olist-order-grain.png)。从商品明细沿箭头到商品订单汇总，把同一笔订单的商品金额加起来。支付也单独按订单汇总，然后才与 orders 连接。例如一单有两条商品和两条支付，先汇总后都只剩一行，连接不会把金额再算一遍。图底部是一行一单，再按买家和分析日汇成一行客户快照。图里的地理、支付和评价是可连接的资料，能否用于某个预测字段，还要核分析日之前是否已知。
 
 ## 已核数据质量提醒
 

@@ -1,0 +1,4 @@
+snapshot_date,cluster_version,cluster_id,customers,positives,model_selected,model_hits,model_missed,recency_selected,recency_hits,recency_missed
+2018-01-01,H05-km3-v1,0,16335,112,2228,18,94,2870,26,86
+2018-01-01,H05-km3-v1,1,12330,90,17,0,90,0,0,90
+2018-01-01,H05-km3-v1,2,703,28,692,28,0,67,4,24

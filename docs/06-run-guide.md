@@ -1,5 +1,7 @@
 # 从下载到运行：零基础操作指南
 
+[项目首页](../README.md) · [当前首轮结果](team/evidence/README.md)
+
 ## 1. 只想阅读，不想运行
 
 直接打开README、术语表、结果说明即可。PPT文件在 `slides/olist-repurchase-briefing.pptx`，点击文件后选择下载。Markdown讲稿可以在GitHub网页直接阅读。
@@ -59,9 +61,9 @@ SHA-256相当于文件指纹，只证明字节与保存的原件相同，不保�
 
 Notebook里的数据路径自动识别项目根目录。若找不到 `data/raw`，先确认已执行解压脚本，再确认启动位置。Notebook只做数据认识，不训练分类模型。
 
-## 6. 复现分类实验
+## 6. 复现历史分类实验
 
-必须按顺序：
+以下命令会读取并评价 2018-04-01 的历史探索窗口。要重跑当前团队的一月验证，先向 3 号取得首轮脚本和 1 号的数据版本，并按 [当前口径](team/current-status.md) 只用训练与验证两期做特征反馈。复现旧探索时按以下顺序运行。
 
 ```powershell
 .\.venv\Scripts\python.exe scripts/run_catboost.py
@@ -76,13 +78,13 @@ Notebook里的数据路径自动识别项目根目录。若找不到 `data/raw`�
 
 同版本、同种子通常应接近已记录结果；小数差异先核环境与输入哈希，不能为了“对上数字”修改数据。若在另一个版本运行，应记录版本与差异。
 
-## 7. 复现分群实验
+## 7. 复现历史分群实验
 
 ```powershell
 .\.venv\Scripts\python.exe scripts/run_segmentation.py
 ```
 
-结果在 `outputs/segmentation/`。它比较简单规则、R/M聚类、RFM聚类，并含一个事后诊断规则。该实验的客户资格和分类实验不同，详见结果说明。
+结果在 `outputs/segmentation/`。旧实验用的是已送达订单样本。团队首轮 H05 使用与分类一致的批准订单客户资格，复跑入口待 4 号补齐。见 [首轮分群说明](team/evidence/README.md)。
 
 绘图需要中文字体。Windows通常有Microsoft YaHei；Linux可安装Noto Sans CJK或使用英文图标签。字体缺失不一定影响数值计算，但可能让图中文字显示方框。
 

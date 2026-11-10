@@ -1,0 +1,5 @@
+group,customers,repurchasers,unweighted_selected,unweighted_hits,unweighted_missed,weighted_selected,weighted_hits,weighted_missed
+0,16335,112,2228,18,94,2184,21,91
+1,12330,90,17,0,90,79,2,88
+2,703,28,692,28,0,674,27,1
+total,29368,230,2937,46,184,2937,50,180

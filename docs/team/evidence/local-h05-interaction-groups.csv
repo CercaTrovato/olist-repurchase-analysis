@@ -1,0 +1,13 @@
+method,group,n,positives,selected,hits
+weighted_lr8,0,16335,112,2184,21
+weighted_lr8,1,12330,90,79,2
+weighted_lr8,2,703,28,674,27
+plus_group,0,16335,112,2094,21
+plus_group,1,12330,90,172,3
+plus_group,2,703,28,671,28
+plus_group_and_interactions,0,16335,112,2226,18
+plus_group_and_interactions,1,12330,90,176,3
+plus_group_and_interactions,2,703,28,535,21
+plus_group_and_supported_interactions,0,16335,112,2243,18
+plus_group_and_supported_interactions,1,12330,90,172,3
+plus_group_and_supported_interactions,2,703,28,522,21

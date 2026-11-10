@@ -1,0 +1,4 @@
+capacity_percent,selected,random_expected_hits,recency_hits,multi_then_recency_hits,weighted_lr8_hits
+5,1469,11.504698992100245,17,32,31
+10,2937,23.001566330700083,30,48,50
+20,5874,46.003132661400166,55,68,74

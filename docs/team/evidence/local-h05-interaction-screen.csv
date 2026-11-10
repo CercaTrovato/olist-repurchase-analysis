@@ -1,0 +1,7 @@
+feature,mean_improvement,improved_folds,supported_groups,positive_cv_evidence,selected
+M,0.0018438323113961097,3,"0,1,2",True,True
+recent30_orders,-0.001245981064250712,0,"0,2",False,True
+average_item_rows,-0.0020715205046234033,2,"0,1,2",False,False
+recent30_spend,-0.002195715804866527,0,"0,2",False,False
+R,-0.002676823521573013,2,"0,1,2",False,False
+freight_share,-0.0046768891726509665,3,"0,1,2",False,False

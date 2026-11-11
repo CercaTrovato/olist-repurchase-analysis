@@ -1,0 +1,14 @@
+{
+  "as_of": "2026-11-11",
+  "phase": "documentation_and_design_only",
+  "new_experiments_run": 0,
+  "issues": 18,
+  "execution_gate": "awaiting_explicit_user_start",
+  "files": {
+    "docs/team/research-questions.md": "79fc53cedb560e4a1d793207ff47e18b417f007f958f572da90b0c39157cb75a",
+    "docs/team/research-protocol-draft.md": "7e35f0399f77db7cd15ab2fa6de51e95e0c8224402ab25255bece5757a21b66a",
+    "docs/team/mvsib-transfer-notes.md": "7efc54ccc08b140d1901a5d28bd5aa0ba8290fdcdc6577043b1ef113a8cc046a",
+    "research/question-design-20261111/question-register.json": "3e096b270d98c09a281df5439acdde5c8a3485b7626759d16406741689354f04",
+    "research/question-design-20261111/source-version-addendum.json": "b466535fe12f49789f138c40d50b4d290329d544b35e9bf013033373a4677de0"
+  }
+}

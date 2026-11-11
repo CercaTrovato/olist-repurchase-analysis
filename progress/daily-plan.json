@@ -4,7 +4,7 @@
   "course": "IS6400",
   "as_of": "2026-11-11",
   "timezone": "Asia/Shanghai",
-  "source_revision": "9311ba7bba962db6245832176403649dd3a26037688baaf39d63322cd8f68519",
+  "source_revision": "5878883332dca3dd94d40051ad3a2fef02e9c93e01efece9312ec75a19104582",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
   "stale": false,
   "scheduling_policy": {
@@ -37,7 +37,7 @@
       "title": "确定最终评价口径",
       "owner": "本人 · 总监督",
       "status": "needs_review",
-      "personal_action": "按统一指标比较并确认展示采用方法。",
+      "personal_action": "审阅Q01–Q18并确认后续科学层和策略层指标主次。",
       "readiness": "ready",
       "target": {
         "value": "2026-11-12",
@@ -65,6 +65,23 @@
       "estimated_minutes": null,
       "observed_on": "2026-11-11",
       "date_state": "next_7_days"
+    },
+    {
+      "id": "research-questions-and-design",
+      "title": "建模质疑记录与验证设计",
+      "owner": "本人 · 6号与本课程会话",
+      "status": "needs_review",
+      "personal_action": "审阅解释，继续提出疑问，再明确统一开测指令。",
+      "readiness": "ready",
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "blocked_by": [],
+      "estimated_minutes": null,
+      "observed_on": "2026-11-11",
+      "date_state": "unscheduled"
     },
     {
       "id": "my-liu-reminder-20261116",

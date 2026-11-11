@@ -4,9 +4,9 @@
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
   "as_of": "2026-11-11",
-  "basis_revision": "011881d83a23ec73c532de8b16969f0af3a830d5de98448d695f8ac3206bf2d9",
+  "basis_revision": "d4e39e175b724bcba01d449d649cdcc868b4994cf12c3e5b35f0bfdfccbf8165",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "本人已确认第三轮发群，成员回传待收。本地后续11候选已核：卖家54/久单固定2，卖家与交易组合56/1，浅树14字段未加权50/3，原加权50/2；条件差异区间仍跨0。新增5幅PNG/SVG，合计18幅素材。最终采用、H04说明和H07仍待，四月未参与本轮。",
+  "summary": "用户开始重新审阅建模，18条质疑已登记并形成只读事实核查、验证方案草案及MVSIB迁移摘要。用户明确先记录解释设计，等明确开测，本批新增实验0。原八字段/全量输入/K口径已澄清，预测质量与商业策略的指标主次仍待用户决定；成员第三轮已发群、回传待收。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
@@ -16,10 +16,10 @@
       "owner": "本人 · 总监督",
       "owner_role": "me",
       "scope": "team",
-      "summary": "主目标和截止已由本人确认；最终采用模型及真实冻结版本/理由待统一比较后记录。",
+      "summary": "用户正审阅固定K与纯预测质量目标；此前A目标和历史结果保留，新主指标与最终模型尚待决定。",
       "deliverable": "决定方法冻结后怎样评价，并清楚披露哪些时期已经看过。",
-      "next_action": "对照第三轮本地与成员回件，记录实际采用版本、依据和真实时间。",
-      "my_next_action": "按统一指标比较并确认展示采用方法。",
+      "next_action": "先解释全量输入、概率质量与商业名单的区别，累计质疑后记录本人主目标决定。",
+      "my_next_action": "审阅Q01–Q18并确认后续科学层和策略层指标主次。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -59,6 +59,11 @@
           "observed_on": "2026-11-10",
           "status": "needs_review",
           "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        },
+        {
+          "observed_on": "2026-11-11",
+          "status": "needs_review",
+          "note": "新目标为审阅中的提问，未代本人定稿；本地新实验按D08等待明确开测。"
         }
       ]
     },
@@ -371,9 +376,9 @@
       "owner": "本地辅助 1–5 号；本人核取舍",
       "owner_role": "member",
       "scope": "supporting",
-      "summary": "原第三轮四线及13图已完成，后续11候选和5图已核；卖家54/2、组合56/1、浅树14未权50/3为同期候选，待与成员回件及最终采用对照。",
+      "summary": "既有本地实验与18图完成，现进入质疑记录、论文核读和新方案设计阶段，新增实验等待明确指令。",
       "deliverable": "用锁定的十月拟合管线、相同四月客户与前 10% 名额，对照原版和最近购买基线。",
-      "next_action": "保留完整负结果和条件区间，收真实回件并比较。",
+      "next_action": "保留旧结果并完善问题设计，开测后再执行新验证。",
       "my_next_action": null,
       "depends_on": [],
       "dependency_gates": [],
@@ -1874,6 +1879,57 @@
           "observed_on": "2026-11-11",
           "status": "waiting",
           "note": "已发群后的成员接单/承诺与实际回件待收。"
+        }
+      ]
+    },
+    {
+      "id": "research-questions-and-design",
+      "title": "建模质疑记录与验证设计",
+      "status": "needs_review",
+      "owner": "本人 · 6号与本课程会话",
+      "owner_role": "me",
+      "scope": "supporting",
+      "summary": "18条问题、现有实现核查与MVSIB迁移设计已准备；本地新实验统一等待本人明确开测。",
+      "deliverable": "持续问题台账、事实解释和待验证方案，保留执行门禁。",
+      "next_action": "继续阅读建模和追加问题，待本人明确开测后按问题表执行。",
+      "my_next_action": "审阅解释，继续提出疑问，再明确统一开测指令。",
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "register",
+          "label": "18条问题及已有证据/拟验证已记录",
+          "status": "pass",
+          "evidence": []
+        },
+        {
+          "id": "start",
+          "label": "本人已明确启动后续实验",
+          "status": "unknown",
+          "evidence": []
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": "2026-11-11",
+      "completed_on": null,
+      "observed_on": "2026-11-11",
+      "estimated_minutes": null,
+      "state_basis": "仅记录、解释和设计；新增实验0，方案与主指标未代用户决定。",
+      "evidence": [
+        {
+          "label": "研究质疑台账",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/research-questions.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-11",
+          "status": "needs_review",
+          "note": "用户要求先记录解释，开测待本人明确指令。"
         }
       ]
     }

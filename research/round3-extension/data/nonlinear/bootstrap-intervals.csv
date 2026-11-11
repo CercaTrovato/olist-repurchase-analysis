@@ -1,0 +1,9 @@
+scope,n,positives,k,method,comparator,observed_hits,baseline_hits,observed_difference,bootstrap_mean_difference,percentile_2_5,percentile_97_5,replicates,seed
+global,29368,230,2937,CB8-unweighted,weightedLR,48,50,-2,-1.975,-12.0,8.0,2000,20261111
+global,29368,230,2937,CB8-balanced,weightedLR,49,50,-1,-1.6875,-12.0,9.0,2000,20261111
+global,29368,230,2937,CB14-unweighted,weightedLR,50,50,0,-0.449,-10.0,9.0,2000,20261111
+global,29368,230,2937,CB14-balanced,weightedLR,41,50,-9,-8.872,-20.0,2.0,2000,20261111
+long_fixed79,12330,90,79,CB8-unweighted,weightedLR,0,2,-2,-1.871,-5.0,0.0,2000,20261112
+long_fixed79,12330,90,79,CB8-balanced,weightedLR,0,2,-2,-1.9785,-5.0,0.0,2000,20261112
+long_fixed79,12330,90,79,CB14-unweighted,weightedLR,3,2,1,1.014,-2.0,4.0,2000,20261112
+long_fixed79,12330,90,79,CB14-balanced,weightedLR,1,2,-1,-0.9925,-4.0,2.0,2000,20261112

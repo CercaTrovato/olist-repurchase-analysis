@@ -1,0 +1,37 @@
+[
+  {
+    "id": "14-shallow-tree-inputs",
+    "title": "A shallow learner uses the same extra information differently",
+    "caption_zh": "四版CatBoost固定300轮、深度3和种子。主容量命中48/49/50/41，久单固定79命中0/0/3/1。14字段未加权版在全局实际未选久单，固定群内多1人的条件区间[-2,4]，两项诊断分开读。",
+    "png": "figures/14-shallow-tree-inputs.png",
+    "svg": "figures/14-shallow-tree-inputs.svg"
+  },
+  {
+    "id": "15-seller-commerce-context",
+    "title": "Seller context increases total hits while retaining two fixed-group hits",
+    "caption_zh": "卖家组54/2、交易组51/1、组合56/1，依次为全局命中/固定久单79命中，原版50/2。卖家统计排除当前买家且只用历史。正向差异的条件区间仍跨0，支付及产品静态时点假设保留。",
+    "png": "figures/15-seller-commerce-context.png",
+    "svg": "figures/15-seller-commerce-context.svg"
+  },
+  {
+    "id": "16-fusion-and-group-shrink",
+    "title": "Fixed fusion and group shrinkage yield limited changes",
+    "caption_zh": "三种等权全体排名融合与一个训练支持量收缩群模型，未扫描融合权重。全局50/51/46/47，久单2/2/1/1；相对原版的主指标区间均跨0。",
+    "png": "figures/16-fusion-and-group-shrink.png",
+    "svg": "figures/16-fusion-and-group-shrink.svg"
+  },
+  {
+    "id": "17-extension-conditional-intervals",
+    "title": "Candidate gains remain uncertain in the reused development sample",
+    "caption_zh": "11个新候选全部列出。点为观察差，线为2,000次配对客户重采样95%百分位区间，条件于已拟合分数；不包含重训、模型搜索和新时期不确定性。",
+    "png": "figures/17-extension-conditional-intervals.png",
+    "svg": "figures/17-extension-conditional-intervals.svg"
+  },
+  {
+    "id": "18-global-and-within-group-diagnostics",
+    "title": "Global coverage and within-group ranking show different trade-offs",
+    "caption_zh": "包含6个既有对照和11个新候选。横轴是全局命中变化，纵轴是独立固定久单79的命中变化，均相对50/2。点重叠时表示同一组诊断值，候选方法的完整结果见CSV；本图不表示统计显著性。",
+    "png": "figures/18-global-and-within-group-diagnostics.png",
+    "svg": "figures/18-global-and-within-group-diagnostics.svg"
+  }
+]

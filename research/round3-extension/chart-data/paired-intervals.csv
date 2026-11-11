@@ -1,0 +1,23 @@
+family,source_method,label,scope,observed_difference,lower,upper,replicates
+nonlinear,CB8-unweighted,CB8-U,global,-2,-12.0,8.0,2000
+nonlinear,CB8-balanced,CB8-B,global,-1,-12.0,9.0,2000
+nonlinear,CB14-unweighted,CB14-U,global,0,-10.0,9.0,2000
+nonlinear,CB14-balanced,CB14-B,global,-9,-20.0,2.0,2000
+nonlinear,CB8-unweighted,CB8-U,long_fixed79,-2,-5.0,0.0,2000
+nonlinear,CB8-balanced,CB8-B,long_fixed79,-2,-5.0,0.0,2000
+nonlinear,CB14-unweighted,CB14-U,long_fixed79,1,-2.0,4.0,2000
+nonlinear,CB14-balanced,CB14-B,long_fixed79,-1,-4.0,2.0,2000
+context,seller,Seller,global,4,-2.0,10.0,2000
+context,commerce,Commerce,global,1,-7.0,10.0,2000
+context,both,Seller+commerce,global,6,-4.0,14.0,2000
+context,seller,Seller,long_fixed79,0,0.0,0.0,2000
+context,commerce,Commerce,long_fixed79,-1,-4.0,3.0,2000
+context,both,Seller+commerce,long_fixed79,-1,-4.024999999999999,2.024999999999864,2000
+strategies,rank-W-LR3,Rank W+LR3,global,0,-8.0,8.0,2000
+strategies,rank-W-groupOnly,Rank W+group,global,1,-4.0,5.0,2000
+strategies,rank-W-delivery-review,Rank W+experience,global,-4,-11.0,4.0,2000
+strategies,group-shrink100,Group shrink100,global,-3,-10.0,4.0,2000
+strategies,rank-W-LR3,Rank W+LR3,long_fixed79,0,0.0,0.0,2000
+strategies,rank-W-groupOnly,Rank W+group,long_fixed79,0,0.0,0.0,2000
+strategies,rank-W-delivery-review,Rank W+experience,long_fixed79,-1,-3.0,2.0,2000
+strategies,group-shrink100,Group shrink100,long_fixed79,-1,-3.0,1.0,2000

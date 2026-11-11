@@ -1,0 +1,17 @@
+scope,capacity_fraction,k,before,after,overlap,overlap_hits,changed_seats,added_hits,dropped_hits,net_hits
+global,0.05,1469,weightedLR,rank-W-LR3,1117,29,352,7,2,5
+global,0.05,1469,weightedLR,rank-W-groupOnly,1353,30,116,2,1,1
+global,0.05,1469,weightedLR,rank-W-delivery-review,1290,28,179,3,3,0
+global,0.05,1469,weightedLR,group-shrink100,1112,27,357,7,4,3
+global,0.1,2937,weightedLR,rank-W-LR3,2349,42,588,8,8,0
+global,0.1,2937,weightedLR,rank-W-groupOnly,2752,48,185,3,2,1
+global,0.1,2937,weightedLR,rank-W-delivery-review,2530,42,407,4,8,-4
+global,0.1,2937,weightedLR,group-shrink100,2367,42,570,5,8,-3
+global,0.2,5874,weightedLR,rank-W-LR3,5107,67,767,4,7,-3
+global,0.2,5874,weightedLR,rank-W-groupOnly,5591,72,283,3,2,1
+global,0.2,5874,weightedLR,rank-W-delivery-review,5270,66,604,4,8,-4
+global,0.2,5874,weightedLR,group-shrink100,5101,71,773,2,3,-1
+long_fixed79,,79,weightedLR,rank-W-LR3,15,2,64,0,0,0
+long_fixed79,,79,weightedLR,rank-W-groupOnly,75,2,4,0,0,0
+long_fixed79,,79,weightedLR,rank-W-delivery-review,50,1,29,0,1,-1
+long_fixed79,,79,weightedLR,group-shrink100,32,1,47,0,1,-1

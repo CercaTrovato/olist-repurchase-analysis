@@ -1,0 +1,7 @@
+scope,method,baseline,n,k,observed_difference,bootstrap_mean_difference,percentile_2_5,percentile_97_5,replicates,seed
+global,seller,baseline,29368,2937,4,3.81,-2.0,10.0,2000,20261111
+global,commerce,baseline,29368,2937,1,1.255,-7.0,10.0,2000,20261111
+global,both,baseline,29368,2937,6,5.3435,-4.0,14.0,2000,20261111
+long_fixed79,seller,baseline,12330,79,0,-0.002,0.0,0.0,2000,20261112
+long_fixed79,commerce,baseline,12330,79,-1,-0.6595,-4.0,3.0,2000,20261112
+long_fixed79,both,baseline,12330,79,-1,-0.833,-4.024999999999999,2.0249999999998636,2000,20261112

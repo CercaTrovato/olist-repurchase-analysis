@@ -1,0 +1,17 @@
+scope,capacity_fraction,k,method,comparator,observed_difference,bootstrap_mean_difference,percentile_2_5,percentile_97_5,replicates,seed
+global,0.05,1469,rank-W-LR3,weightedLR,5,4.452,-1.0,10.0,2000,20261111
+global,0.05,1469,rank-W-groupOnly,weightedLR,1,0.615,-3.0,4.0,2000,20261111
+global,0.05,1469,rank-W-delivery-review,weightedLR,0,0.1975,-5.0,5.0,2000,20261111
+global,0.05,1469,group-shrink100,weightedLR,3,2.4475,-3.0249999999999986,9.0,2000,20261111
+global,0.1,2937,rank-W-LR3,weightedLR,0,0.1835,-8.0,8.0,2000,20261111
+global,0.1,2937,rank-W-groupOnly,weightedLR,1,0.5545,-4.0,5.0,2000,20261111
+global,0.1,2937,rank-W-delivery-review,weightedLR,-4,-3.265,-11.0,4.0,2000,20261111
+global,0.1,2937,group-shrink100,weightedLR,-3,-3.2465,-10.0,4.0,2000,20261111
+global,0.2,5874,rank-W-LR3,weightedLR,-3,-3.7745,-10.0,2.0,2000,20261111
+global,0.2,5874,rank-W-groupOnly,weightedLR,1,0.2815,-4.0,5.0,2000,20261111
+global,0.2,5874,rank-W-delivery-review,weightedLR,-4,-4.41,-11.0,3.0,2000,20261111
+global,0.2,5874,group-shrink100,weightedLR,-1,-2.7595,-8.0,2.0,2000,20261111
+long_fixed79,,79,rank-W-LR3,weightedLR,0,-0.002,0.0,0.0,2000,20261112
+long_fixed79,,79,rank-W-groupOnly,weightedLR,0,-0.002,0.0,0.0,2000,20261112
+long_fixed79,,79,rank-W-delivery-review,weightedLR,-1,-0.529,-3.0,2.0,2000,20261112
+long_fixed79,,79,group-shrink100,weightedLR,-1,-0.8855,-3.0,1.0,2000,20261112

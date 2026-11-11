@@ -4,9 +4,9 @@
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
   "as_of": "2026-11-11",
-  "basis_revision": "c187209308461fe38583a7a365d84114d4e323e00c99e8451e426cf3648a04db",
+  "basis_revision": "011881d83a23ec73c532de8b16969f0af3a830d5de98448d695f8ac3206bf2d9",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "6号已确认全局命中优先、久单诊断及12日21:00展示方法冻结。第三轮本地六基线、配送评价消融、时间审计和内容试验草案已完成，13幅PNG/SVG及成员独立策略任务包已准备。新增字段主K未改善，强方法小差异仍不确定。第三轮待本人实际分发；最终采用模型及H07仍待确认。",
+  "summary": "本人已确认第三轮发群，成员回传待收。本地后续11候选已核：卖家54/久单固定2，卖家与交易组合56/1，浅树14字段未加权50/3，原加权50/2；条件差异区间仍跨0。新增5幅PNG/SVG，合计18幅素材。最终采用、H04说明和H07仍待，四月未参与本轮。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
@@ -371,9 +371,9 @@
       "owner": "本地辅助 1–5 号；本人核取舍",
       "owner_role": "member",
       "scope": "supporting",
-      "summary": "第三轮六基线、配送评价、时间审计、画像及13幅图已完成；仍待与真实成员方案对照和本人决定采用。",
+      "summary": "原第三轮四线及13图已完成，后续11候选和5图已核；卖家54/2、组合56/1、浅树14未权50/3为同期候选，待与成员回件及最终采用对照。",
       "deliverable": "用锁定的十月拟合管线、相同四月客户与前 10% 名额，对照原版和最近购买基线。",
-      "next_action": "分发共同目标任务包，收成员独立策略后比较。",
+      "next_action": "保留完整负结果和条件区间，收真实回件并比较。",
       "my_next_action": null,
       "depends_on": [],
       "dependency_gates": [],
@@ -441,6 +441,11 @@
           "observed_on": "2026-11-11",
           "status": "needs_review",
           "note": "新增第三轮本地四线结果与13幅图，正式采用保持待决定。"
+        },
+        {
+          "observed_on": "2026-11-11",
+          "status": "needs_review",
+          "note": "新增11个本地候选，不升级成员成果或最终采用。"
         }
       ]
     },
@@ -532,7 +537,7 @@
       "owner": "全组；本人负责统筹",
       "owner_role": "team",
       "scope": "team",
-      "summary": "H06、H05 和 v0.4 四月名单已核。H07 合稿、说明修正、真实正式冻结和最终提交仍待完成。 待收 Slides、英文讲稿、报告要点；不能把完成评分记为完成汇报或已提交。",
+      "summary": "第三轮已发群；本地18图及完整对照已备。真实成员第三轮结果、最终采用与H07仍待，按12日21:00展示采用截止推进。",
       "deliverable": "按同一版结论交 Slides、讲稿与报告，再核排练和提交回执。",
       "next_action": "并行收 H07，补交接说明并记录真实正式冻结。四月结果作为已见补充评估披露。",
       "my_next_action": null,
@@ -1733,20 +1738,117 @@
     {
       "id": "my-round3-dispatch",
       "title": "分发第三轮独立策略任务包",
-      "status": "planned",
+      "status": "done",
       "owner": "本人 · 6号",
       "owner_role": "me",
       "scope": "team",
-      "summary": "准备好的1-5号MD任务包待本人实际分发。",
-      "deliverable": "准备好的1-5号MD任务包待本人实际分发。",
-      "next_action": "本人发群并收各岗预计交付时间，记录实际接单。",
-      "my_next_action": "本人发群并收各岗预计交付时间，记录实际接单。",
+      "summary": "本人已于本课程会话确认第三轮任务已发群。",
+      "deliverable": "第三轮1–5号任务实际发群确认。",
+      "next_action": "收成员接单与预计交付时间，按同口径核新回件。",
+      "my_next_action": "收第三轮回件与预计时间。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
         {
           "id": "result",
           "label": "准备好的1-5号MD任务包待本人实际分发。",
+          "status": "pass",
+          "evidence": []
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": "2026-11-11",
+      "completed_on": "2026-11-11",
+      "observed_on": "2026-11-11",
+      "estimated_minutes": null,
+      "state_basis": "本人2026-11-11直接确认发群；不推定成员已接单或已交付。",
+      "evidence": [
+        {
+          "label": "第三轮研究与任务包",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/tree/main/docs/team/round-3"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-11",
+          "status": "planned",
+          "note": "准备好的1-5号MD任务包待本人实际分发。"
+        },
+        {
+          "observed_on": "2026-11-11",
+          "status": "done",
+          "note": "用户明确说已发群，派发完成。"
+        }
+      ]
+    },
+    {
+      "id": "local-round3-extension",
+      "title": "本地后续11候选与5幅新图",
+      "status": "done",
+      "owner": "本地辅助；本人核取舍",
+      "owner_role": "me",
+      "scope": "supporting",
+      "summary": "11候选、完整对照及5幅PNG/SVG已核，共18幅素材。",
+      "deliverable": "11候选、完整对照及5幅PNG/SVG已核，共18幅素材。",
+      "next_action": "与成员回件并列比较并确定展示采用。",
+      "my_next_action": "与成员回件并列比较并确定展示采用。",
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "result",
+          "label": "11候选、完整对照及5幅PNG/SVG已核，共18幅素材。",
+          "status": "pass",
+          "evidence": []
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": "2026-11-11",
+      "completed_on": "2026-11-11",
+      "observed_on": "2026-11-11",
+      "estimated_minutes": null,
+      "state_basis": "本地辅助与组员实际回传分开，最终模型采用未代本人决定。",
+      "evidence": [
+        {
+          "label": "本地后续结果与可视化",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/round-3-extension.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-11",
+          "status": "done",
+          "note": "11候选、完整对照及5幅PNG/SVG已核，共18幅素材。"
+        }
+      ]
+    },
+    {
+      "id": "round3-member-returns",
+      "title": "收第三轮组员策略与结果",
+      "status": "waiting",
+      "owner": "1–5号；本人统筹",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "已发群后的成员接单/承诺与实际回件待收。",
+      "deliverable": "已发群后的成员接单/承诺与实际回件待收。",
+      "next_action": "按共同键、窗口、名额、方法定义和完整结果核验。",
+      "my_next_action": null,
+      "depends_on": [
+        "my-round3-dispatch"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "result",
+          "label": "已发群后的成员接单/承诺与实际回件待收。",
           "status": "unknown",
           "evidence": []
         }
@@ -1760,18 +1862,18 @@
       "completed_on": null,
       "observed_on": "2026-11-11",
       "estimated_minutes": null,
-      "state_basis": "本地影子结果与成员实际交件分开；实际发群状态待本人确认。",
+      "state_basis": "本地辅助与组员实际回传分开，最终模型采用未代本人决定。",
       "evidence": [
         {
-          "label": "第三轮研究与任务包",
-          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/tree/main/docs/team/round-3"
+          "label": "本地后续结果与可视化",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/round-3-extension.md"
         }
       ],
       "history": [
         {
           "observed_on": "2026-11-11",
-          "status": "planned",
-          "note": "准备好的1-5号MD任务包待本人实际分发。"
+          "status": "waiting",
+          "note": "已发群后的成员接单/承诺与实际回件待收。"
         }
       ]
     }

@@ -2,7 +2,7 @@
 
 [当前结果](round-3-results.md) · [第三轮成员任务](round-3/README.md) · [绘图源码与数据](../../research/round3/README.md)
 
-2026-11-11。共13幅图，每幅提供PNG、可编辑SVG、数据和中文读法。默认图内英文，适合英文展示。LR为逻辑回归，GCN为图卷积模型。K代表名单人数。
+2026-11-11。共18幅图（前一批13幅＋后续5幅），每幅提供PNG、可编辑SVG、数据和中文读法。默认图内英文，适合英文展示。LR为逻辑回归，GCN为图卷积模型。K代表名单人数。
 
 ## 建议用于主线的图
 
@@ -97,3 +97,37 @@
 一月是已见开发验证，三种随机种子属于同一时期。09的区间条件于已拟合分数，没有重训，模型选择过程与时间泛化未包含。10标的是目标日历重叠与事件日期范围，不能直接解释为逐客户标签相同或源系统完整。13为未来试验设计假设，未执行。
 
 所有图支持结论与限制一并展示。正式采用的模型版本、时间和理由由6号在统一比较后记录。
+
+## 后续5幅素材
+
+14–18承接同一十月/一月口径。全局与固定久单排名分别解释，正向差异的条件区间仍跨0，模型搜索与未来时间泛化未包含。具体方法见 [后续探索](round-3-extension.md)。
+
+### 14-shallow-tree-inputs
+
+四版CatBoost固定300轮、深度3和种子。主容量命中48/49/50/41，久单固定79命中0/0/3/1。14字段未加权版在全局实际未选久单，固定群内多1人的条件区间[-2,4]，两项诊断分开读。
+
+[PNG](../../research/round3-extension/figures/14-shallow-tree-inputs.png) · [SVG](../../research/round3-extension/figures/14-shallow-tree-inputs.svg) · [共同数据](../../research/round3-extension/chart-data/all-methods.csv) · [条件区间](../../research/round3-extension/chart-data/paired-intervals.csv)
+
+### 15-seller-commerce-context
+
+卖家组54/2、交易组51/1、组合56/1，依次为全局命中/固定久单79命中，原版50/2。卖家统计排除当前买家且只用历史。正向差异的条件区间仍跨0，支付及产品静态时点假设保留。
+
+[PNG](../../research/round3-extension/figures/15-seller-commerce-context.png) · [SVG](../../research/round3-extension/figures/15-seller-commerce-context.svg) · [共同数据](../../research/round3-extension/chart-data/all-methods.csv) · [条件区间](../../research/round3-extension/chart-data/paired-intervals.csv)
+
+### 16-fusion-and-group-shrink
+
+三种等权全体排名融合与一个训练支持量收缩群模型，未扫描融合权重。全局50/51/46/47，久单2/2/1/1；相对原版的主指标区间均跨0。
+
+[PNG](../../research/round3-extension/figures/16-fusion-and-group-shrink.png) · [SVG](../../research/round3-extension/figures/16-fusion-and-group-shrink.svg) · [共同数据](../../research/round3-extension/chart-data/all-methods.csv) · [条件区间](../../research/round3-extension/chart-data/paired-intervals.csv)
+
+### 17-extension-conditional-intervals
+
+11个新候选全部列出。点为观察差，线为2,000次配对客户重采样95%百分位区间，条件于已拟合分数；不包含重训、模型搜索和新时期不确定性。
+
+[PNG](../../research/round3-extension/figures/17-extension-conditional-intervals.png) · [SVG](../../research/round3-extension/figures/17-extension-conditional-intervals.svg) · [共同数据](../../research/round3-extension/chart-data/all-methods.csv) · [条件区间](../../research/round3-extension/chart-data/paired-intervals.csv)
+
+### 18-global-and-within-group-diagnostics
+
+包含6个既有对照和11个新候选。横轴是全局命中变化，纵轴是独立固定久单79的命中变化，均相对50/2。点重叠时表示同一组诊断值，候选方法的完整结果见CSV；本图不表示统计显著性。
+
+[PNG](../../research/round3-extension/figures/18-global-and-within-group-diagnostics.png) · [SVG](../../research/round3-extension/figures/18-global-and-within-group-diagnostics.svg) · [共同数据](../../research/round3-extension/chart-data/all-methods.csv) · [条件区间](../../research/round3-extension/chart-data/paired-intervals.csv)

@@ -1,0 +1,18 @@
+family,source_method,label,global_hits,long_fixed79_hits,long_global_seats,long_global_hits,hits_5pct,hits_20pct
+reference,recency,recency,30,1,0,0,17,55
+reference,simpleMulti,simpleMulti,48,1,0,0,32,68
+reference,LR3,LR3,51,2,0,0,33,67
+reference,LR8,LR8,46,1,17,0,31,73
+reference,weightedLR,weightedLR,50,2,79,2,31,74
+reference,groupOnly,groupOnly,52,2,172,3,31,74
+nonlinear,CB8-unweighted,CB8-U,48,0,5,0,36,72
+nonlinear,CB8-balanced,CB8-B,49,0,8,0,32,67
+nonlinear,CB14-unweighted,CB14-U,50,3,0,0,31,72
+nonlinear,CB14-balanced,CB14-B,41,1,3,0,29,66
+context,seller,Seller,54,2,100,2,33,73
+context,commerce,Commerce,51,1,184,2,39,80
+context,both,Seller+commerce,56,1,200,3,36,73
+strategies,rank-W-LR3,Rank W+LR3,50,2,0,0,36,71
+strategies,rank-W-groupOnly,Rank W+group,51,2,100,2,32,75
+strategies,rank-W-delivery-review,Rank W+experience,46,1,109,2,31,70
+strategies,group-shrink100,Group shrink100,47,1,70,1,34,73

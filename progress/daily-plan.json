@@ -4,7 +4,7 @@
   "course": "IS6400",
   "as_of": "2026-11-11",
   "timezone": "Asia/Shanghai",
-  "source_revision": "a4816b7dd95ce129c87f293d31221d0647e5d8e00126c1603221a769ad5ad2b8",
+  "source_revision": "afec9f926b2aa25e209424d08a323d5e98dc4e22fc64c594aff712f2225862cf",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
   "stale": false,
   "scheduling_policy": {
@@ -65,23 +65,6 @@
       "estimated_minutes": null,
       "observed_on": "2026-11-11",
       "date_state": "next_7_days"
-    },
-    {
-      "id": "my-round3-dispatch",
-      "title": "分发第三轮独立策略任务包",
-      "owner": "本人 · 6号",
-      "status": "planned",
-      "personal_action": "本人发群并收各岗预计交付时间，记录实际接单。",
-      "readiness": "ready",
-      "target": {
-        "value": null,
-        "precision": "unknown",
-        "basis": "unknown"
-      },
-      "blocked_by": [],
-      "estimated_minutes": null,
-      "observed_on": "2026-11-11",
-      "date_state": "unscheduled"
     },
     {
       "id": "my-liu-reminder-20261116",

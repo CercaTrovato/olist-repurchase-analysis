@@ -4,7 +4,7 @@
   "course": "IS6400",
   "as_of": "2026-11-11",
   "timezone": "Asia/Shanghai",
-  "source_revision": "42d19d7063be79424af4a8054773633a2cf99acc60a8cdb64dcaae1f2939ecb8",
+  "source_revision": "825d2d47963385120d5d38302bf3a3f3eebe0d8ef40792e335bfcd251fa86d46",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
   "stale": false,
   "scheduling_policy": {
@@ -47,6 +47,42 @@
       "blocked_by": [],
       "estimated_minutes": null,
       "observed_on": "2026-11-10",
+      "date_state": "next_7_days"
+    },
+    {
+      "id": "my-liu-invite-20261115",
+      "title": "周日邮件联系 Liu Junming，约周一小组讨论",
+      "owner": "本人 · 6 号统筹",
+      "status": "planned",
+      "personal_action": "11 月 15 日发送邀约邮件，询问并确认 11 月 16 日的可用会面时段；收到回复后更新具体时间。",
+      "readiness": "ready",
+      "target": {
+        "value": "2026-11-15",
+        "precision": "date",
+        "basis": "agreed"
+      },
+      "blocked_by": [],
+      "estimated_minutes": null,
+      "observed_on": "2026-11-11",
+      "date_state": "next_7_days"
+    },
+    {
+      "id": "my-liu-reminder-20261116",
+      "title": "周一见面前 20 分钟给 Liu Junming 发 reminder（时刻待定）",
+      "owner": "本人 · 6 号统筹",
+      "status": "waiting",
+      "personal_action": "收到并确认周一会面时刻后，计算“会面开始时间 − 20 分钟”，在该时刻向 Liu Junming 发送 reminder。",
+      "readiness": "waiting_dependency",
+      "target": {
+        "value": "2026-11-16",
+        "precision": "date",
+        "basis": "proposed"
+      },
+      "blocked_by": [
+        "my-liu-invite-20261115"
+      ],
+      "estimated_minutes": null,
+      "observed_on": "2026-11-11",
       "date_state": "next_7_days"
     },
     {

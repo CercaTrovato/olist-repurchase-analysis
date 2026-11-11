@@ -1579,6 +1579,101 @@
           "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
         }
       ]
+    },
+    {
+      "id": "my-liu-invite-20261115",
+      "title": "周日邮件联系 Liu Junming，约周一小组讨论",
+      "status": "planned",
+      "owner": "本人 · 6 号统筹",
+      "owner_role": "me",
+      "scope": "team",
+      "summary": "本周日（11 月 15 日）发邮件给 Liu Junming，邀约周一（11 月 16 日）的小组讨论会；具体会面时间尚未确定。",
+      "deliverable": "周日邮件联系 Liu Junming，约周一小组讨论的发送记录",
+      "next_action": "11 月 15 日发送邀约邮件，询问并确认 11 月 16 日的可用会面时段；收到回复后更新具体时间。",
+      "my_next_action": null,
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "sent",
+          "label": "已发出小组讨论邀约，并保留发送记录",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-15",
+        "precision": "date",
+        "basis": "agreed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-11",
+      "estimated_minutes": null,
+      "state_basis": "本人明确要求记录看板待办；尚未发出邀约，周一具体会面时刻未定，仅记录相对提前 20 分钟要求，不设置定时通知。",
+      "evidence": [
+        {
+          "label": "本人于 2026-11-11 在总监督会话安排：只记看板，周一会面时间未定。",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-11",
+          "status": "planned",
+          "note": "根据本人指示新增；会面日期为拟约周一，教师回复和具体时刻待确认。"
+        }
+      ]
+    },
+    {
+      "id": "my-liu-reminder-20261116",
+      "title": "周一见面前 20 分钟给 Liu Junming 发 reminder（时刻待定）",
+      "status": "waiting",
+      "owner": "本人 · 6 号统筹",
+      "owner_role": "me",
+      "scope": "team",
+      "summary": "拟于周一（11 月 16 日）去找 Liu Junming。见面前需提前 20 分钟发 reminder；具体会面时刻待教师确认，目前没有可计算的精确发送时间。",
+      "deliverable": "周一见面前 20 分钟给 Liu Junming 发 reminder（时刻待定）的发送记录",
+      "next_action": "收到并确认周一会面时刻后，计算“会面开始时间 − 20 分钟”，在该时刻向 Liu Junming 发送 reminder。",
+      "my_next_action": null,
+      "depends_on": [
+        "my-liu-invite-20261115"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "meeting-time",
+          "label": "已确认周一会面的具体时刻",
+          "status": "unknown"
+        },
+        {
+          "id": "sent",
+          "label": "已在会面前 20 分钟发送 reminder，并保留记录",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-16",
+        "precision": "date",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-11",
+      "estimated_minutes": null,
+      "state_basis": "本人明确要求记录看板待办；尚未发出邀约，周一具体会面时刻未定，仅记录相对提前 20 分钟要求，不设置定时通知。",
+      "evidence": [
+        {
+          "label": "本人于 2026-11-11 在总监督会话安排：只记看板，周一会面时间未定。",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-11",
+          "status": "waiting",
+          "note": "根据本人指示新增；会面日期为拟约周一，教师回复和具体时刻待确认。"
+        }
+      ]
     }
   ],
   "basis_management_revision": "2e4845d102e2e71bfe9e569f522ad3d79a9f5f72f857855c8877c6d31a1c1bdd"

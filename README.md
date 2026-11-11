@@ -1,5 +1,13 @@
 # Olist 复购预测与客户分群
 
+## 进度与每日事项入口
+
+- [项目时间线：已完成、当前与未来](TIMELINE.md)
+- [个人助手读取说明](ASSISTANT-README.md) · [结构化时间线](progress/timeline.json) · [总监督每日事项候选](progress/daily-plan.json)
+
+时间线按可核事实维护，建议日期需确认，等待回件与已验收分开。线上只读看板：https://cityu-board-online.vercel.app/
+
+
 IS6400 小组项目｜Six Sigma
 
 我们用过去 6 个自然月的订单给已有客户排序，比较同等名额下能找到多少未来 90 天的复购者。主比较把名单容量设为 10%，并与最近购买优先等简单策略对照。分群用于定位漏判，也给内容试验提供线索。

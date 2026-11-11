@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "assignment_id": "IS6400-A06",
+  "course": "IS6400",
+  "as_of": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "source_revision": "42d19d7063be79424af4a8054773633a2cf99acc60a8cdb64dcaae1f2939ecb8",
+  "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
+  "stale": false,
+  "scheduling_policy": {
+    "advisory_only": true,
+    "unknown_effort_is_null": true,
+    "confirm_proposed_dates": true,
+    "do_not_schedule_blocked_execution": true,
+    "recheck_current_date_and_latest_revision": true
+  },
+  "actions": [
+    {
+      "id": "my-delivery",
+      "title": "本人下一步：冻结方法、合稿与提交",
+      "owner": "本人 · 统筹",
+      "status": "planned",
+      "personal_action": "向各岗核对 H07 的 Slides、英文讲稿和报告要点预计交稿时间。",
+      "readiness": "ready",
+      "target": {
+        "value": "2026-11-12",
+        "precision": "date",
+        "basis": "proposed"
+      },
+      "blocked_by": [],
+      "estimated_minutes": null,
+      "observed_on": "2026-11-10",
+      "date_state": "next_7_days"
+    },
+    {
+      "id": "scope",
+      "title": "确定最终评价口径",
+      "owner": "本人 · 总监督",
+      "status": "needs_review",
+      "personal_action": "确认原八字段加权全局方案是否正式冻结，并记录真实选择依据、版本与时间。",
+      "readiness": "ready",
+      "target": {
+        "value": "2026-11-12",
+        "precision": "date",
+        "basis": "proposed"
+      },
+      "blocked_by": [],
+      "estimated_minutes": null,
+      "observed_on": "2026-11-10",
+      "date_state": "next_7_days"
+    },
+    {
+      "id": "my-team-april",
+      "title": "本人下一步：团队四月名单复现与交接说明",
+      "owner": "本人 · 统筹",
+      "status": "waiting",
+      "personal_action": "核对 3 号修订后的交接说明，不再催已经验收的四月评分材料。",
+      "readiness": "waiting_external",
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "blocked_by": [],
+      "estimated_minutes": null,
+      "observed_on": "2026-11-10",
+      "date_state": "unscheduled"
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "date-slides",
+      "title": "展示 Slides 上传",
+      "target": {
+        "value": "2026-11-15T23:59:00+08:00",
+        "precision": "datetime",
+        "basis": "official"
+      },
+      "status": "planned"
+    },
+    {
+      "id": "date-report",
+      "title": "最终报告",
+      "target": {
+        "value": "2026-12-06T23:59:00+08:00",
+        "precision": "datetime",
+        "basis": "official"
+      },
+      "status": "planned"
+    }
+  ]
+}

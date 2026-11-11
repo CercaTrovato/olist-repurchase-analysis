@@ -1,0 +1,1585 @@
+{
+  "schema_version": 1,
+  "assignment_id": "IS6400-A06",
+  "course": "IS6400",
+  "timezone": "Asia/Shanghai",
+  "as_of": "2026-11-11",
+  "basis_revision": "830bda6cf09bd00b63e8f86bd96e464fc69afe4086880aa378ee107b950ebd91",
+  "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
+  "summary": "H04 v0.4 已补齐四月评分材料，课程会话复跑三份名单逐人一致，命中 45／64／65，19 项文件校验通过。一月 H06 已核 46→50。剩余工作是修正交接措辞、记录真实正式冻结并收 H07；四月保持已见补充评估。",
+  "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
+  "items": [
+    {
+      "id": "scope",
+      "title": "确定最终评价口径",
+      "status": "needs_review",
+      "owner": "本人 · 总监督",
+      "owner_role": "me",
+      "scope": "team",
+      "summary": "主方案候选为原八字段＋类别加权逻辑回归＋全局 Top 10%；6号已认可可行，本地已做独立四月回测。 真实正式冻结版本、时间与选型依据待记录；评分后生成的配置 JSON 不等于事前冻结证明。",
+      "deliverable": "决定方法冻结后怎样评价，并清楚披露哪些时期已经看过。",
+      "next_action": "6 号确认实际选择及其依据；如缺早期记录就如实标明，不倒填冻结时间。",
+      "my_next_action": "确认原八字段加权全局方案是否正式冻结，并记录真实选择依据、版本与时间。",
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "direction",
+          "label": "业务方向及开发窗口有记录",
+          "status": "pass",
+          "evidence": [
+            "supervision-report"
+          ]
+        },
+        {
+          "id": "final",
+          "label": "团队正式冻结的版本、时间和依据已记录",
+          "status": "unknown",
+          "evidence": []
+        }
+      ],
+      "target": {
+        "value": "2026-11-12",
+        "precision": "date",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用已有核验；未凭文件存在推定正式提交。 本日期为总监督建议，待相关成员确认，不改变正式截止。",
+      "evidence": [
+        {
+          "label": "课程监督回传，分列真实团队与本地对照",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "needs_review",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "title": "统一数据与整体检查",
+      "status": "done",
+      "owner": "1、2 号 · 数据与 EDA",
+      "owner_role": "member",
+      "scope": "team",
+      "summary": "H02、H03 已收到；共同两期 50,528 个键、标签和字段已对齐。 首轮数据核对没有已登记的阻塞；后续改字段仍需重新对版本。",
+      "deliverable": "交版本化客户快照、字段说明和数据检查，供模型与分群使用。",
+      "next_action": "保留已验收成果和版本；后续修订作为新状态记录。",
+      "my_next_action": null,
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "received",
+          "label": "数据及检查材料已收到",
+          "status": "pass",
+          "evidence": [
+            "team-wechat-verification"
+          ]
+        },
+        {
+          "id": "keys",
+          "label": "组合键与标签已核对",
+          "status": "pass",
+          "evidence": [
+            "team-wechat-verification"
+          ]
+        },
+        {
+          "id": "fields",
+          "label": "共同字段与版本已对齐",
+          "status": "pass",
+          "evidence": [
+            "team-wechat-verification"
+          ]
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用已有核验；未凭文件存在推定正式提交。",
+      "evidence": [
+        {
+          "label": "五份群附件哈希、与本地逐键核对和组员指标复算",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "done",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ]
+    },
+    {
+      "id": "prediction",
+      "title": "团队 H04 v0.4 交件与文件校验",
+      "status": "done",
+      "owner": "3 号 · 预测",
+      "owner_role": "member",
+      "scope": "team",
+      "summary": "v0.4 新增四月评分脚本、配置、逐人分数和结果表；19 项文件校验全部通过。原有 13 项文件与 v0.2 相同。 原两项校验问题已关闭；四月的说明措辞在四月交接环节单列待办。",
+      "deliverable": "交逐行预测和同容量基线，保证每种方法比较的是同一批客户。",
+      "next_action": "保留已验收成果和版本；后续修订作为新状态记录。",
+      "my_next_action": null,
+      "depends_on": [
+        "data"
+      ],
+      "dependency_gates": [
+        {
+          "task_id": "data",
+          "check_ids": [],
+          "note": "统一客户与标签"
+        }
+      ],
+      "acceptance": [
+        {
+          "id": "rows",
+          "label": "逐行客户键、标签和名单已核；浮点分数有差异",
+          "status": "pass",
+          "evidence": [
+            "team-h04-v04-verified"
+          ]
+        },
+        {
+          "id": "capacity",
+          "label": "名单容量与基线一致",
+          "status": "pass",
+          "evidence": [
+            "team-h04-v04-verified"
+          ]
+        },
+        {
+          "id": "metrics",
+          "label": "首轮计数已复算",
+          "status": "pass",
+          "evidence": [
+            "team-h04-v04-verified"
+          ]
+        },
+        {
+          "id": "manifest",
+          "label": "本版 19 项文件校验通过",
+          "status": "pass",
+          "evidence": [
+            "team-h04-v04-verified"
+          ]
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用已有核验；未凭文件存在推定正式提交。",
+      "evidence": [
+        {
+          "label": "H04 v0.4 四月评分补件核验摘要",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "done",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ]
+    },
+    {
+      "id": "clusters",
+      "title": "分群结果与复跑",
+      "status": "done",
+      "owner": "4 号 · 分群",
+      "owner_role": "member",
+      "scope": "team",
+      "summary": "4号补交脚本已复跑，一月29,368个群标记逐键匹配。品类筛查本轮没有推荐可靠的单一新增字段。 一月H05补件已闭合；不由此推定四月群标记或新字段效果已核。",
+      "deliverable": "交群标签、画像、代码版本和可运行命令。",
+      "next_action": "保留已验收成果和版本；后续修订作为新状态记录。",
+      "my_next_action": null,
+      "depends_on": [
+        "data"
+      ],
+      "dependency_gates": [
+        {
+          "task_id": "data",
+          "check_ids": [],
+          "note": "统一客户与字段"
+        }
+      ],
+      "acceptance": [
+        {
+          "id": "groups",
+          "label": "群标签与验证键一致",
+          "status": "pass",
+          "evidence": [
+            "team-role04-h05-verified"
+          ]
+        },
+        {
+          "id": "profile",
+          "label": "画像及结果表已收到",
+          "status": "pass",
+          "evidence": [
+            "team-role04-h05-verified"
+          ]
+        },
+        {
+          "id": "code",
+          "label": "可运行脚本与命令齐全",
+          "status": "pass",
+          "evidence": [
+            "team-role04-h05-verified"
+          ]
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用已有核验；未凭文件存在推定正式提交。",
+      "evidence": [
+        {
+          "label": "4 号 ZIP、群号复跑和品类逐项核验",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "done",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ]
+    },
+    {
+      "id": "feedback",
+      "title": "团队一月 H06 加权前后对照",
+      "status": "done",
+      "owner": "2、3、4、5 号 · 联合反馈",
+      "owner_role": "member",
+      "scope": "team",
+      "summary": "一月H06已交并复核：29,368人、230正例、同取2,937。全体46→50；近期单单+3、久单+2、多单−1，合计+4。久单仍漏掉90人中的88人。 一月 H06 核验完成；v0.4 四月名单也已有课程会话复跑记录。",
+      "deliverable": "按同一套H02/H04/H05、同一客户与名额，核两版名单及全体、各群前后变化。",
+      "next_action": "保留已验收成果和版本；后续修订作为新状态记录。",
+      "my_next_action": null,
+      "depends_on": [
+        "prediction",
+        "clusters"
+      ],
+      "dependency_gates": [
+        {
+          "task_id": "prediction",
+          "check_ids": [
+            "rows",
+            "capacity",
+            "metrics"
+          ],
+          "note": "数据与名单已可供正式验收"
+        },
+        {
+          "task_id": "clusters",
+          "check_ids": [
+            "groups"
+          ],
+          "note": "群标签已可用于分析"
+        }
+      ],
+      "acceptance": [
+        {
+          "id": "diagnosis",
+          "label": "一月H06前后表已收并有逐人核验记录",
+          "status": "pass",
+          "evidence": [
+            "published-status-86d0ead",
+            "h06-latest-86d0ead"
+          ]
+        },
+        {
+          "id": "new",
+          "label": "一月样本、群标记与2,937名额一致",
+          "status": "pass",
+          "evidence": [
+            "published-status-86d0ead",
+            "h06-latest-86d0ead"
+          ]
+        },
+        {
+          "id": "comparison",
+          "label": "全体与逐群汇总已核对一致",
+          "status": "pass",
+          "evidence": [
+            "h06-latest-86d0ead"
+          ]
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用已有核验；未凭文件存在推定正式提交。",
+      "evidence": [
+        {
+          "label": "最新团队进度与验收边界（固定 GitHub 版本）",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/86d0ead3d597e571cdf4fe7c13501cf3216181d1/docs/team/current-status.md"
+        },
+        {
+          "label": "H06 一月加权前后对照（固定 GitHub 版本）",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/86d0ead3d597e571cdf4fe7c13501cf3216181d1/docs/team/evidence/h06-weighting-comparison.csv"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "done",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ]
+    },
+    {
+      "id": "local-comparison",
+      "title": "本地探索与四月已见回测（辅助）",
+      "status": "needs_review",
+      "owner": "本地辅助 1–5 号；本人核取舍",
+      "owner_role": "member",
+      "scope": "supporting",
+      "summary": "本地一月10%多单规则48、三字段未加权51、八字段加权50。H05四版全体50／52／42／42，固定久单79人命中2／2／0／0。GCN残差＋对比全体46／48／44、久单0／1／0。本地四月回测45／64／65有独立记录。 本地探索与组员交件分开；v0.4 团队四月名单已有独立复跑依据。三种子共享一月，不是三期外推。",
+      "deliverable": "用锁定的十月拟合管线、相同四月客户与前 10% 名额，对照原版和最近购买基线。",
+      "next_action": "保留完整公开汇总作对照；后续选择只用十月训练与一月开发，不用四月反馈挑方法。",
+      "my_next_action": null,
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "material",
+          "label": "本地各类完整汇总已公开并核版本",
+          "status": "pass",
+          "evidence": [
+            "published-exploration-86d0ead",
+            "published-evidence-86d0ead"
+          ]
+        },
+        {
+          "id": "checked",
+          "label": "本地四月同口径结果有独立记录",
+          "status": "pass",
+          "evidence": [
+            "april-latest-86d0ead",
+            "local-april-weighted-verified"
+          ]
+        },
+        {
+          "id": "adopted",
+          "label": "团队正式冻结与汇报采用已记录",
+          "status": "unknown",
+          "evidence": []
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用已有核验；未凭文件存在推定正式提交。",
+      "evidence": [
+        {
+          "label": "本地探索与更强基线对照（固定 GitHub 版本）",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/86d0ead3d597e571cdf4fe7c13501cf3216181d1/docs/team/local-exploration.md"
+        },
+        {
+          "label": "公开汇总证据索引（固定 GitHub 版本）",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/86d0ead3d597e571cdf4fe7c13501cf3216181d1/docs/team/evidence/README.md"
+        },
+        {
+          "label": "本地已见四月回测汇总（固定 GitHub 版本）",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/86d0ead3d597e571cdf4fe7c13501cf3216181d1/docs/team/evidence/april-seen-window.csv"
+        },
+        {
+          "label": "加权版本冻结及四月同容量核验",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "needs_review",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ]
+    },
+    {
+      "id": "team-april",
+      "title": "团队四月名单复现与交接说明",
+      "status": "needs_review",
+      "owner": "3 号修说明；课程会话已复跑",
+      "owner_role": "member",
+      "scope": "team",
+      "summary": "v0.4 材料齐备。课程会话复跑最近购买／原版／加权三份名单，均与交件逐人一致；3,782 名额下命中 45／64／65。 交接单仍需改正“不重新训练”及四月独立测试的表述；真实正式冻结另在方向环节待办。",
+      "deliverable": "提供评分入口、所用配置、逐人分数和入选名单，并在交接说明中准确说明训练与评价过程；真实正式冻结由方向环节单列。",
+      "next_action": "只修准确的交接说明，不再催已交的评分材料；6 号另记真实冻结。",
+      "my_next_action": null,
+      "depends_on": [
+        "feedback"
+      ],
+      "dependency_gates": [
+        {
+          "task_id": "feedback",
+          "check_ids": [
+            "comparison"
+          ],
+          "note": "沿用已核一月版本作过程核对"
+        }
+      ],
+      "acceptance": [
+        {
+          "id": "entry",
+          "label": "评分入口已提供并检查",
+          "status": "pass",
+          "evidence": [
+            "team-h04-v04-verified"
+          ]
+        },
+        {
+          "id": "model",
+          "label": "十月重新拟合所用配置可追溯",
+          "status": "pass",
+          "evidence": [
+            "team-h04-v04-verified"
+          ]
+        },
+        {
+          "id": "rows",
+          "label": "三份逐人名单复现一致",
+          "status": "pass",
+          "evidence": [
+            "team-h04-v04-verified"
+          ]
+        },
+        {
+          "id": "wording",
+          "label": "交接说明准确交代重新拟合与四月已见",
+          "status": "gap",
+          "evidence": [
+            "team-h04-v04-verified"
+          ]
+        }
+      ],
+      "target": {
+        "value": "2026-11-12",
+        "precision": "date",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用已有核验；未凭文件存在推定正式提交。 本日期为总监督建议，待相关成员确认，不改变正式截止。",
+      "evidence": [
+        {
+          "label": "H04 v0.4 四月评分补件核验摘要",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "needs_review",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "title": "冻结方法、合稿与提交",
+      "status": "unknown",
+      "owner": "全组；本人负责统筹",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "H06、H05 和 v0.4 四月名单已核。H07 合稿、说明修正、真实正式冻结和最终提交仍待完成。 待收 Slides、英文讲稿、报告要点；不能把完成评分记为完成汇报或已提交。",
+      "deliverable": "按同一版结论交 Slides、讲稿与报告，再核排练和提交回执。",
+      "next_action": "并行收 H07，补交接说明并记录真实正式冻结。四月结果作为已见补充评估披露。",
+      "my_next_action": null,
+      "depends_on": [
+        "clusters",
+        "scope",
+        "feedback",
+        "prediction",
+        "team-april"
+      ],
+      "dependency_gates": [
+        {
+          "task_id": "clusters",
+          "check_ids": [
+            "code"
+          ],
+          "note": "复跑材料齐全"
+        },
+        {
+          "task_id": "scope",
+          "check_ids": [
+            "final"
+          ],
+          "note": "基于十月/一月的正式冻结记录"
+        },
+        {
+          "task_id": "feedback",
+          "check_ids": [
+            "comparison"
+          ],
+          "note": "已核一月H06可用于合稿"
+        },
+        {
+          "task_id": "prediction",
+          "check_ids": [
+            "manifest"
+          ],
+          "note": "已核文件与一月结果用于合稿"
+        },
+        {
+          "task_id": "team-april",
+          "check_ids": [
+            "entry",
+            "model",
+            "rows",
+            "wording"
+          ],
+          "note": "数字已核；合稿时写准确的评价说明"
+        }
+      ],
+      "acceptance": [
+        {
+          "id": "freeze",
+          "label": "方法与最终评价已冻结",
+          "status": "unknown",
+          "evidence": []
+        },
+        {
+          "id": "slides",
+          "label": "Slides／讲稿已合并并核数",
+          "status": "unknown",
+          "evidence": []
+        },
+        {
+          "id": "receipt",
+          "label": "正式提交回执已核验",
+          "status": "unknown",
+          "evidence": []
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用已有核验；未凭文件存在推定正式提交。",
+      "evidence": [
+        {
+          "label": "课程当前进度记录及总监督管理复核；依据日期 2026-11-10",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "unknown",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ]
+    },
+    {
+      "id": "my-delivery",
+      "title": "本人下一步：冻结方法、合稿与提交",
+      "status": "planned",
+      "owner": "本人 · 统筹",
+      "owner_role": "me",
+      "scope": "team",
+      "summary": "向各岗核对 H07 的 Slides、英文讲稿和报告要点预计交稿时间。",
+      "deliverable": "完成核对或交接，并将实际答复更新回任务记录。",
+      "next_action": "向各岗核对 H07 的 Slides、英文讲稿和报告要点预计交稿时间。",
+      "my_next_action": "向各岗核对 H07 的 Slides、英文讲稿和报告要点预计交稿时间。",
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "followup",
+          "label": "已核对并登记实际结果或待回复内容",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-12",
+        "precision": "date",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "总监督根据现有缺口拟定的行动建议，未冒充已经开展。 本日期为总监督建议，待相关成员确认，不改变正式截止。",
+      "evidence": [
+        {
+          "label": "课程当前进度记录及总监督管理复核；依据日期 2026-11-10",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "planned",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ]
+    },
+    {
+      "id": "my-team-april",
+      "title": "本人下一步：团队四月名单复现与交接说明",
+      "status": "waiting",
+      "owner": "本人 · 统筹",
+      "owner_role": "me",
+      "scope": "team",
+      "summary": "核对 3 号修订后的交接说明，不再催已经验收的四月评分材料。",
+      "deliverable": "完成核对或交接，并将实际答复更新回任务记录。",
+      "next_action": "核对 3 号修订后的交接说明，不再催已经验收的四月评分材料。",
+      "my_next_action": null,
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "followup",
+          "label": "已核对并登记实际结果或待回复内容",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "先等 3 号返回修订说明，收到后才能核阅；已交评分材料不重复催。",
+      "evidence": [
+        {
+          "label": "H04 v0.4 四月评分补件核验摘要",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "waiting",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ]
+    },
+    {
+      "id": "date-slides",
+      "title": "展示 Slides 上传",
+      "status": "planned",
+      "owner": "全组；提交代表待确认",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "渠道：Canvas。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "deliverable": "展示 Slides 上传",
+      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "my_next_action": null,
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "receipt",
+          "label": "对应交件或活动有可核完成记录",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-15T23:59:00+08:00",
+        "precision": "datetime",
+        "basis": "official"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "11 月 7 日整理各课程作业截止时间表（已登录 Canvas 核对）",
+          "url": null
+        },
+        {
+          "label": "Canvas Slides 正式截止（沿用已核会话）",
+          "url": "https://canvas.cityu.edu.hk/courses/71457/assignments/339540"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "planned",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ],
+      "milestone_kind": "submission"
+    },
+    {
+      "id": "date-presentation",
+      "title": "Six Sigma 课堂展示",
+      "status": "planned",
+      "owner": "全组；提交代表待确认",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "渠道：课堂；第 12–13 周，具体场次待核。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "deliverable": "Six Sigma 课堂展示",
+      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "my_next_action": null,
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "receipt",
+          "label": "对应交件或活动有可核完成记录",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "11 月 7 日整理各课程作业截止时间表（已登录 Canvas 核对）",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "planned",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ],
+      "milestone_kind": "presentation"
+    },
+    {
+      "id": "date-report",
+      "title": "最终报告",
+      "status": "planned",
+      "owner": "全组；提交代表待确认",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "渠道：Canvas。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "deliverable": "最终报告",
+      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "my_next_action": null,
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "receipt",
+          "label": "对应交件或活动有可核完成记录",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-12-06T23:59:00+08:00",
+        "precision": "datetime",
+        "basis": "official"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "11 月 7 日整理各课程作业截止时间表（已登录 Canvas 核对）",
+          "url": null
+        },
+        {
+          "label": "Canvas 最终报告正式截止（沿用 11 月 7 日已核会话）",
+          "url": "https://canvas.cityu.edu.hk/courses/71457/assignments/339541"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "planned",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ],
+      "milestone_kind": "submission"
+    },
+    {
+      "id": "date-direction",
+      "title": "同步已定方向、核 H01 口径并收各岗回报（建议）",
+      "status": "planned",
+      "owner": "全组；提交代表待确认",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "deliverable": "同步已定方向、核 H01 口径并收各岗回报（建议）",
+      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "my_next_action": null,
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "receipt",
+          "label": "对应交件或活动有可核完成记录",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-07T21:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "本人确认 A 主线，B 为分群后的补充",
+          "url": null
+        },
+        {
+          "label": "GitHub 已回读：六岗任务卡及交接协议",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/93ec8b34756f93ff0129520780a1c31a6f831672/docs/team/README.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "planned",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "date-data-v1",
+      "title": "统一数据、整体 EDA 与比较框架交接（建议）",
+      "status": "done",
+      "owner": "全组；提交代表待确认",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "渠道：组内拟定。既有记录已完成。",
+      "deliverable": "统一数据、整体 EDA 与比较框架交接（建议）",
+      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "my_next_action": null,
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "receipt",
+          "label": "对应交件或活动有可核完成记录",
+          "status": "pass"
+        }
+      ],
+      "target": {
+        "value": "2026-11-08T21:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "已发布的六人协作与交付倒排",
+          "url": null
+        },
+        {
+          "label": "真实组员微信交付核对，覆盖 11 月 8–9 日",
+          "url": null
+        },
+        {
+          "label": "五份群附件哈希、与本地逐键核对和组员指标复算",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "done",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "date-model-v1",
+      "title": "初版分类、分群与验证交接（建议）",
+      "status": "done",
+      "owner": "全组；提交代表待确认",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "渠道：组内拟定。既有记录已完成。",
+      "deliverable": "初版分类、分群与验证交接（建议）",
+      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "my_next_action": null,
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "receipt",
+          "label": "对应交件或活动有可核完成记录",
+          "status": "pass"
+        }
+      ],
+      "target": {
+        "value": "2026-11-09T21:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "已发布的六人协作与交付倒排",
+          "url": null
+        },
+        {
+          "label": "真实组员微信交付核对，覆盖 11 月 8–9 日",
+          "url": null
+        },
+        {
+          "label": "五份群附件哈希、与本地逐键核对和组员指标复算",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "done",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "date-method-freeze",
+      "title": "冻结分析方法（建议）",
+      "status": "planned",
+      "owner": "全组；提交代表待确认",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "deliverable": "冻结分析方法（建议）",
+      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "my_next_action": null,
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "receipt",
+          "label": "对应交件或活动有可核完成记录",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-12T21:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "已发布的六人协作与交付倒排",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "planned",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "date-slides-sections",
+      "title": "各岗交 Slides、讲稿与主要数字（建议）",
+      "status": "planned",
+      "owner": "全组；提交代表待确认",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "deliverable": "各岗交 Slides、讲稿与主要数字（建议）",
+      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "my_next_action": null,
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "receipt",
+          "label": "对应交件或活动有可核完成记录",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-13T21:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "已发布的六人协作与交付倒排",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "planned",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "date-slides-merge",
+      "title": "合稿、核数（建议）",
+      "status": "planned",
+      "owner": "全组；提交代表待确认",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "deliverable": "合稿、核数（建议）",
+      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "my_next_action": null,
+      "depends_on": [
+        "date-slides-sections"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "receipt",
+          "label": "对应交件或活动有可核完成记录",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-14T12:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "已发布的六人协作与交付倒排",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "planned",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "date-slides-rehearse",
+      "title": "全员计时排练和问答（建议）",
+      "status": "planned",
+      "owner": "全组；提交代表待确认",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "deliverable": "全员计时排练和问答（建议）",
+      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "my_next_action": null,
+      "depends_on": [
+        "date-slides-merge"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "receipt",
+          "label": "对应交件或活动有可核完成记录",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-14T19:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "已发布的六人协作与交付倒排",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "planned",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "date-slides-freeze",
+      "title": "团队核对并冻结 Slides（建议）",
+      "status": "planned",
+      "owner": "全组；提交代表待确认",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "deliverable": "团队核对并冻结 Slides（建议）",
+      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "my_next_action": null,
+      "depends_on": [
+        "date-slides-rehearse"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "receipt",
+          "label": "对应交件或活动有可核完成记录",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-15T13:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "已发布的六人协作与交付倒排",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "planned",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "date-slides-target",
+      "title": "经确认的代表上传并核回执（建议）",
+      "status": "planned",
+      "owner": "全组；提交代表待确认",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "deliverable": "经确认的代表上传并核回执（建议）",
+      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "my_next_action": null,
+      "depends_on": [
+        "date-slides-freeze"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "receipt",
+          "label": "对应交件或活动有可核完成记录",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-15T18:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "已发布的六人协作与交付倒排",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "planned",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "date-report-sections",
+      "title": "交完整报告段落与复跑入口（建议）",
+      "status": "planned",
+      "owner": "全组；提交代表待确认",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "deliverable": "交完整报告段落与复跑入口（建议）",
+      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "my_next_action": null,
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "receipt",
+          "label": "对应交件或活动有可核完成记录",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-28T21:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "已发布的六人协作与交付倒排",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "planned",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "date-report-review",
+      "title": "报告合稿、复跑与核数（建议）",
+      "status": "planned",
+      "owner": "全组；提交代表待确认",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "deliverable": "报告合稿、复跑与核数（建议）",
+      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "my_next_action": null,
+      "depends_on": [
+        "date-report-sections"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "receipt",
+          "label": "对应交件或活动有可核完成记录",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-12-02T21:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "已发布的六人协作与交付倒排",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "planned",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "date-report-freeze",
+      "title": "团队核准报告定稿（建议）",
+      "status": "planned",
+      "owner": "全组；提交代表待确认",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "deliverable": "团队核准报告定稿（建议）",
+      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "my_next_action": null,
+      "depends_on": [
+        "date-report-review"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "receipt",
+          "label": "对应交件或活动有可核完成记录",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-12-04T18:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "已发布的六人协作与交付倒排",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "planned",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "date-report-target",
+      "title": "经确认的代表提交报告（建议）",
+      "status": "planned",
+      "owner": "全组；提交代表待确认",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "deliverable": "经确认的代表提交报告（建议）",
+      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "my_next_action": null,
+      "depends_on": [
+        "date-report-freeze"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "receipt",
+          "label": "对应交件或活动有可核完成记录",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-12-05T18:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "已发布的六人协作与交付倒排",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "planned",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "history-briefing",
+      "title": "Project Briefing",
+      "status": "done",
+      "owner": "全组",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "依据本人在进度会话中的确认。",
+      "deliverable": "Project Briefing",
+      "next_action": "保留已有依据，新增工作另列任务。",
+      "my_next_action": null,
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "evidence",
+          "label": "已有完成依据",
+          "status": "pass"
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用已有核验；未凭文件存在推定正式提交。",
+      "evidence": [
+        {
+          "label": "梳理 IS6400 小组作业进度",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "done",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ]
+    },
+    {
+      "id": "history-team-plan",
+      "title": "六人职责与交接方案",
+      "status": "done",
+      "owner": "全组",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "六岗已认领；协作指南已发布，本人已分发任务。11 月 8–9 日各岗首轮附件已在群里交接。 GitHub 已同步首轮交接与当前待办。",
+      "deliverable": "六人职责与交接方案",
+      "next_action": "保留已有依据，新增工作另列任务。",
+      "my_next_action": null,
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "evidence",
+          "label": "已有完成依据",
+          "status": "pass"
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-10",
+      "estimated_minutes": null,
+      "state_basis": "沿用已有核验；未凭文件存在推定正式提交。",
+      "evidence": [
+        {
+          "label": "本人于总监督会话确认六岗已认领，等待本人（6 号）给方向",
+          "url": null
+        },
+        {
+          "label": "已发布的六人协作与交付倒排",
+          "url": null
+        },
+        {
+          "label": "GitHub 已回读：六岗任务卡及交接协议",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/93ec8b34756f93ff0129520780a1c31a6f831672/docs/team/README.md"
+        },
+        {
+          "label": "本人确认已向真实组员发出任务",
+          "url": null
+        },
+        {
+          "label": "真实组员微信交付核对，覆盖 11 月 8–9 日",
+          "url": null
+        },
+        {
+          "label": "已回读 GitHub 当前进度与首轮公开汇总",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/f37413386e54873e5a09ac9fe06b4682818b1d8e/docs/team/current-status.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "done",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        }
+      ]
+    }
+  ],
+  "basis_management_revision": "2e4845d102e2e71bfe9e569f522ad3d79a9f5f72f857855c8877c6d31a1c1bdd"
+}

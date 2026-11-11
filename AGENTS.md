@@ -9,3 +9,7 @@
 - 本规则不授权代发群消息、邮件、正式提交课程作业或改变访问权限。
 
 本机统一规则：[SUPERVISION.md](D:/上课资料/CityU/_meta/assignment-board/SUPERVISION.md)。线上步骤：[ONLINE-SYNC.md](D:/上课资料/CityU/_meta/assignment-board/ONLINE-SYNC.md)。离开本机时可从[课程库规则](https://github.com/CercaTrovato/cityu-ai-course-notes/blob/main/_meta/assignment-board/SUPERVISION.md)读取同一流程。
+
+## 时间线维护
+
+每批维护 `progress/timeline.json` 的事实、状态变化、依赖与未来计划，并同源生成 `TIMELINE.md` 和 `progress/daily-plan.json`。本人资料库中的本课 `timeline.json` 与此版本保持一致；更新前先核远端，不能用旧本地覆盖新稿。实际完成日期未知留 null，建议日期明确 proposed，history 追加变化。个人助手按 `ASSISTANT-README.md` 使用候选事项，不自动承诺交期或代发消息。

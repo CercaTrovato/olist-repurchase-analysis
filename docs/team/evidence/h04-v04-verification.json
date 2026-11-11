@@ -1,0 +1,33 @@
+{
+  "source_version": "H04-v0.4",
+  "verified_by": "课程会话原核验；总监督回读记录并核原包哈希，未再次训练",
+  "zip_sha256": "d22c2e9f8290f590dabf7e30c174ebd5209baa840eff1a13e775fbec30ded3b7",
+  "checksums_passed": 19,
+  "v02_members_unchanged": 13,
+  "april_rows": 37813,
+  "april_positives": 299,
+  "k": 3782,
+  "sklearn": "1.5.1",
+  "methods": {
+    "LogisticRegression": {
+      "hits": 64,
+      "clean_replay_hits": 64,
+      "list_overlap": 3782,
+      "different_flags": 0,
+      "max_abs_score_difference": 3.1807889655510735e-13
+    },
+    "LogisticRegressionWeighted": {
+      "hits": 65,
+      "clean_replay_hits": 65,
+      "list_overlap": 3782,
+      "different_flags": 0,
+      "max_abs_score_difference": 8.050649325647141e-05
+    },
+    "RecencyBaseline": {
+      "hits": 45,
+      "clean_replay_hits": 45,
+      "list_overlap": 3782,
+      "different_flags": 0
+    }
+  }
+}

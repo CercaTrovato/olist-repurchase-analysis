@@ -4,7 +4,7 @@
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
   "as_of": "2026-11-11",
-  "basis_revision": "a19613b27a097c6616d4384a5d526469fd27d2107bc602b8e99c48cfdad01c89",
+  "basis_revision": "3e2c702f5288c99a889deb4c92c21efc573dc03ec10fd4abd60a1316fc03cdac",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
   "summary": "用户已明确授权按18条质疑开测。P1概率/基率、P2全字段与地理文本、P3异常和聚类、P4群权重/分支/损失采样/注意力及论文启发表征已完成首批受控验证；数值收敛控制单列。全量客户评分，科学概率与原名单指标并列，四月本轮不新评分。未自动采用新模型；最终系统消融待候选冻结，成员第三轮实际回件仍待收。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
@@ -1971,5 +1971,5 @@
       ]
     }
   ],
-  "basis_management_revision": "33f0ce18f9adaf63a7548b846bb7fc4a1a6d39947645657e6815bffe06e9d424"
+  "basis_management_revision": "593b8e4fdd465ea2b8a3cce9338c0359922485b05dbec97f25d01281e9e9f7f0"
 }

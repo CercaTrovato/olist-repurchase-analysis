@@ -2,7 +2,22 @@
 
 [当前结果](round-3-results.md) · [第三轮成员任务](round-3/README.md) · [绘图源码与数据](../../research/round3/README.md)
 
-2026-11-11。共18幅图（前一批13幅＋后续5幅），每幅提供PNG、可编辑SVG、数据和中文读法。默认图内英文，适合英文展示。LR为逻辑回归，GCN为图卷积模型。K代表名单人数。
+2026-11-11。当前共40幅图：前两批18幅加本轮逐步验证22幅。每幅提供PNG、可编辑SVG、聚合数据与源码。默认图内英文，适合英文展示。LR为逻辑回归，GCN为图卷积模型。K代表名单人数。不同训练人数/预处理/停止精度的矩阵分别解读，不能拼成同一因果排行榜。
+
+## 本轮新增22幅
+
+|组|图数|看什么|素材与数据|
+|---|---:|---|---|
+|P1 概率|7|全体/群内校准、每箱人数事件、概率尺度和proper loss|[P1](../../research/validation-20261111/probability/README.md)|
+|P2 全字段|2|不同信息和模型的概率/排序及多个容量|[P2](../../research/validation-20261111/features/README.md)|
+|P3 异常/分群|2|异常目标交集、K和GMM训练准则|[P3](../../research/validation-20261111/structure/README.md)|
+|P4A 群学习|2|群斜率、初值和共享支路|[P4A](../../research/validation-20261111/group-learning/README.md)|
+|P4B 损失/采样|3|raw/prior/Platt概率差及固定名单|[P4B](../../research/validation-20261111/objectives/README.md)|
+|P4C 融合/表征|2|注意力、列门与预训练，三seed范围|[P4C](../../research/validation-20261111/representations/README.md)|
+|LR停止控制|2|训练梯度、概率/名单对停止条件的敏感性|[数值控制](../../research/validation-20261111/convergence/README.md)|
+|群成员后端|2|原50epoch拟合不足与同成员LR控制|[后端控制](../../research/validation-20261111/cluster-head-control/README.md)|
+
+读图时先看训练人数和排名规则。seed范围是初始化波动，固定分数bootstrap是条件区间，二者都不等于新时期验证。新优化分数不能承接旧bootstrap区间。以下18幅保留原历史配置，具体数字按其当时模型解释。
 
 ## 建议用于主线的图
 

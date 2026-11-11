@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "reviewer": "root coordinator did not author or train P4C",
+  "models": 39,
+  "probability_rows": 78,
+  "capacity_rows": 390,
+  "authoritative_H05_n_positive": [
+    12330,
+    90
+  ],
+  "platt_maps_replayed": 39,
+  "scope": "independent saved-score and map recomputation; architecture/time-boundary code read; no retraining",
+  "limitations": [
+    "Finite optimization budget limits original cluster-only heads; separate optimizer control required.",
+    "AE to AE-NCE also changes masking; cannot isolate NCE.",
+    "Prototype consistency is simplified latent regularization, not MVSIB reproduction or positive-class data augmentation.",
+    "Only one reused January period; seeds do not prove temporal generalization."
+  ]
+}

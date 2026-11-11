@@ -1,0 +1,34 @@
+{
+  "feature_sha256": {
+    "E:\\app-data\\codex\\outputs\\is6400-validation-20261111\\features\\private\\october-features.csv": "8256ca2e751c0165f23c0abecc9a3f2cf39a1142db1674c2e2838a01b32ad82d",
+    "E:\\app-data\\codex\\outputs\\is6400-validation-20261111\\features\\private\\january-features.csv": "6cf64b69e4298b0db3d91a7ff12dc198d8a6eef4619ed177226caeeec914e19e",
+    "E:\\app-data\\codex\\outputs\\is6400-validation-20261111\\features\\feature-views.json": "2a76bd2de7353d4849f4751a97f4302bbf3487e31e7c8aabcecdeae23520e6eb"
+  },
+  "fit_n": 16928,
+  "fit_positive": 169,
+  "cal_n": 4232,
+  "cal_positive": 42,
+  "jan_n": 29368,
+  "jan_positive": 230,
+  "dims": [
+    46,
+    507,
+    103,
+    102,
+    42,
+    14
+  ],
+  "view_order": [
+    "behavior",
+    "geography",
+    "products",
+    "commerce",
+    "service",
+    "seller_context"
+  ],
+  "total_encoded": 814,
+  "preprocess_fit": "fit16928 only",
+  "split_sha256": "a816a3f569df4e88ceac7133e569b630e062dd24a21023c0af57c0c93e456520",
+  "H05_authority_sha256": "509e6df79c758be73c693ea63a5e1ff9a33db97bcbc168d218b47dfe02d55f85",
+  "april_snapshot_rows_read": 0
+}

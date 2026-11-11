@@ -1,0 +1,74 @@
+{
+  "time_audit": [
+    {
+      "snapshot_date": "2017-10-01",
+      "history_orders": 21757,
+      "history_customers": 21160,
+      "start_inclusive": "2017-04-01 00:00:00",
+      "end_exclusive": "2017-10-01",
+      "max_approval": "2017-09-30 23:29:05",
+      "known_answer_rows": 19527,
+      "max_known_answer": "2017-09-30 23:59:53",
+      "future_answers_excluded": 2063,
+      "future_deliveries_excluded": 1543,
+      "future_carrier_excluded": 343,
+      "F_exact": true,
+      "M_allclose_atol": 1e-08,
+      "M_max_abs_error": 1.1368683772161603e-13,
+      "missing_buyer_coordinate_orders": 62,
+      "missing_seller_coordinate_items": 71,
+      "missing_distance_items": 141
+    },
+    {
+      "snapshot_date": "2018-01-01",
+      "history_orders": 30134,
+      "history_customers": 29368,
+      "start_inclusive": "2017-07-01 00:00:00",
+      "end_exclusive": "2018-01-01",
+      "max_approval": "2017-12-31 23:32:40",
+      "known_answer_rows": 27024,
+      "max_known_answer": "2017-12-31 23:27:08",
+      "future_answers_excluded": 2863,
+      "future_deliveries_excluded": 2439,
+      "future_carrier_excluded": 572,
+      "F_exact": true,
+      "M_allclose_atol": 1e-08,
+      "M_max_abs_error": 1.1368683772161603e-13,
+      "missing_buyer_coordinate_orders": 85,
+      "missing_seller_coordinate_items": 105,
+      "missing_distance_items": 199
+    }
+  ],
+  "reuse_sha256": {
+    "E:\\app-data\\codex\\outputs\\is6400-round3-extension-20261111\\context\\private\\context-features.csv": "f33ca055d075f7da56546da7e79995a57c476a6342c9b4c3d8d65f04a8ea5e6c",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-20261111\\features\\internal-october-features.csv": "dc9d5d0a11f67cb802966adc5de135cdb1cf92c1d733124366185c16c5737e09",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-20261111\\features\\internal-january-row-scores.csv": "5ed014f00cda4b4ee2864a97013c96b14981cb603248661b93a8c739c46aea35"
+  },
+  "cache_allowlist": [
+    "seller_other_buyers_log_mean",
+    "seller_other_orders_log_mean",
+    "seller_other_repeat_smoothed_mean",
+    "basket_sellers_mean",
+    "basket_products_mean",
+    "basket_categories_mean",
+    "credit_order_share",
+    "boleto_order_share",
+    "installments_max_mean",
+    "delivery_known_any",
+    "known_late_rate",
+    "last_order_late",
+    "known_delivery_days_mean",
+    "review_known_any",
+    "latest_known_review_score"
+  ],
+  "cache_score_y_never_loaded": true,
+  "geo_feature_count": 21,
+  "structural_raw_columns": 141,
+  "categorical_raw_columns": 8,
+  "assumptions": [
+    "Static product/customer/seller/geolocation attributes assumed valid historically; no change logs",
+    "Payments/estimated dates/shipping limit assumed known at approval without subsequent rewrites",
+    "As-of frequency uses unlabeled snapshot history including customer own events",
+    "Postcode median location is approximate; distances item-weighted and last-order item mean"
+  ]
+}

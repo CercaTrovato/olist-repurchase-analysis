@@ -1,0 +1,45 @@
+{
+  "timings": [
+    {
+      "kind": "mean",
+      "epochs": 2,
+      "seconds": 0.15484046936035156,
+      "parameters": 13137
+    },
+    {
+      "kind": "global",
+      "epochs": 2,
+      "seconds": 0.17714595794677734,
+      "parameters": 13143
+    },
+    {
+      "kind": "view-attention",
+      "epochs": 2,
+      "seconds": 0.22161293029785156,
+      "parameters": 13282
+    },
+    {
+      "kind": "column-gate",
+      "epochs": 2,
+      "seconds": 0.260906457901001,
+      "parameters": 14765
+    },
+    {
+      "kind": "AE",
+      "epochs": 2,
+      "seconds": 0.5710768699645996,
+      "parameters": 26975
+    },
+    {
+      "kind": "AE-NCE-FN-prototype-centroid",
+      "epochs": 2,
+      "seconds": 1.599191427230835,
+      "parameters": 26975
+    }
+  ],
+  "total_input_prepare_and_pilot_seconds": 8.664119958877563,
+  "estimated_supervised27_seconds": 176.11185908317566,
+  "estimated_pretrain15_seconds": 239.87871408462524,
+  "deep_cluster_heads_and_silhouette_not_estimated": true,
+  "formal_models_trained": false
+}

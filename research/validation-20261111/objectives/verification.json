@@ -1,0 +1,40 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 32.33000919999904,
+  "fit_counts": {
+    "fit_n": 16928,
+    "fit_positive": 169,
+    "fit_negative": 16759,
+    "cal_n": 4232,
+    "cal_positive": 42,
+    "original_positive_prior": 0.009983459357277883,
+    "sampling_target": "balanced1to1"
+  },
+  "january_n": 29368,
+  "january_events": 230,
+  "base_runs": 20,
+  "score_variants": 50,
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "split_seed": 20261111,
+  "input_sha256": {
+    "E:\\app-data\\codex\\outputs\\is6400-validation-20261111\\probability\\run_probability.py": "fb49bc33ad50b78e0b3a0f362b96a9ce5501cd095bc6af823805cc83c47272ad",
+    "E:\\app-data\\codex\\outputs\\is6400-rfm-weighted-2x2-20261110\\run_rfm_2x2.py": "bef49bcd721ac0c6952e7e43ef9595255439203e8ccf71e56356800d92dd6d3a",
+    "E:\\app-data\\codex\\outputs\\is6400-team-intake-20261110\\H02_candidate_v2.zip": "3b58f4e493e825a76ccc569f205cfa0db5d27e22b13389c3c00ff958a316419a",
+    "E:\\app-data\\codex\\outputs\\is6400-local-round2-20261110\\role-04\\train_clusters.csv": "157eaf5a5a32c86a7c04916bd39f48f2ef49d6af8bc7db67e05458787f30ca27",
+    "E:\\app-data\\codex\\outputs\\is6400-h05-january-handoff-20261110\\validation_clusters.csv": "509e6df79c758be73c693ea63a5e1ff9a33db97bcbc168d218b47dfe02d55f85",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-20261111\\baselines\\private\\january-scores.csv": "15dea3b683fb470912772e18284155bf036dcc1b3b73424082abe65bece48c00"
+  },
+  "april_snapshot_rows_parsed": 0,
+  "april_label_rows_parsed": 0,
+  "jan_used_for_hyperparameter_or_calibration_fit": false,
+  "octave_calibration": "heldout Oct20 percent; all preprocessing fit only on Oct80; Platt in-sample cal metrics are diagnostic",
+  "sklearn_version": "1.5.1",
+  "imblearn_version": "0.12.3",
+  "torch_version": "2.8.0+cpu",
+  "script_sha256": "abece3cb2a2554456ea0139066d3fa7d3fed3636e5a2f522f5b10dc520c195ee",
+  "frozen_plan_sha256": "692dd9b7660dbbe1869a73b93a8e38928de676bc9e051aa56be79e0bfff55ed9"
+}

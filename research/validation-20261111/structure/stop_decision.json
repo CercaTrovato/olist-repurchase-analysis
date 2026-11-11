@@ -1,0 +1,8 @@
+{
+  "predefined_rule_weak": true,
+  "action": "stop_no_backend_expansion",
+  "reference_weighted_hits": 50,
+  "reference_weighted_ap": 0.029796574055586278,
+  "main_space": "original8",
+  "jan_seen": true
+}

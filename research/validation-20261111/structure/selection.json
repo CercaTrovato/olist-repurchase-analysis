@@ -1,0 +1,13 @@
+{
+  "rfm": {
+    "kmeans_silhouette_winner": 2,
+    "kmeans_best_silhouette": 0.7279240016119529,
+    "h05_jan_ari": 1.0,
+    "gmm_bic_winner": 8
+  },
+  "original8": {
+    "kmeans_silhouette_winner": 2,
+    "kmeans_best_silhouette": 0.4583949554858656,
+    "gmm_bic_winner": 8
+  }
+}

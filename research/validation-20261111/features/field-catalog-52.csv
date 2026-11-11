@@ -1,0 +1,53 @@
+table,position,field,status,derived_destination,reason
+olist_customers_dataset.csv,1,customer_id,key,join/dedup/tie-break only; never X,Pure identifiers
+olist_customers_dataset.csv,2,customer_unique_id,key,join/dedup/tie-break only; never X,Pure identifiers
+olist_customers_dataset.csv,3,customer_zip_code_prefix,assumption,last_customer_zip_code_prefix; locality nunique; state comparison; postcode coordinate join,Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_customers_dataset.csv,4,customer_city,assumption,last_customer_city; locality nunique; state comparison; postcode coordinate join,Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_customers_dataset.csv,5,customer_state,assumption,last_customer_state; locality nunique; state comparison; postcode coordinate join,Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_geolocation_dataset.csv,1,geolocation_zip_code_prefix,assumption,exact-dedup postcode median coordinates -> Haversine history/last-order distance,Geo static mapping assumption; not individual-address truth
+olist_geolocation_dataset.csv,2,geolocation_lat,assumption,exact-dedup postcode median coordinates -> Haversine history/last-order distance,Geo static mapping assumption; not individual-address truth
+olist_geolocation_dataset.csv,3,geolocation_lng,assumption,exact-dedup postcode median coordinates -> Haversine history/last-order distance,Geo static mapping assumption; not individual-address truth
+olist_geolocation_dataset.csv,4,geolocation_city,redundant,buyer/seller table locality labels retained,Geo labels excluded from coordinates; duplicate postcode labels do not multiply joins
+olist_geolocation_dataset.csv,5,geolocation_state,redundant,buyer/seller table locality labels retained,Geo labels excluded from coordinates; duplicate postcode labels do not multiply joins
+olist_order_items_dataset.csv,1,order_id,key,join/dedup/tie-break only; never X,Pure identifiers
+olist_order_items_dataset.csv,2,order_item_id,key,item/payment counts; item last-order stable ordering,Partition keys; raw sequence excluded
+olist_order_items_dataset.csv,3,product_id,included,"product_id_historical_frequency_{mean,max,std}, product_id_nunique",As-of unlabeled frequency; raw ID excluded
+olist_order_items_dataset.csv,4,seller_id,included,"seller_id_historical_frequency_{mean,max,std}, seller_id_nunique",As-of unlabeled frequency; raw ID excluded
+olist_order_items_dataset.csv,5,shipping_limit_date,assumption,"shipping_limit_days_{mean,max,std}",Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_order_items_dataset.csv,6,price,included,"M/F audit, price_{mean,max,std}, H02 AOV/max",Observed historical fields or derived summaries only
+olist_order_items_dataset.csv,7,freight_value,included,"freight_value_{mean,max,std}, H02 freight_share",Observed historical fields or derived summaries only
+olist_order_payments_dataset.csv,1,order_id,key,join/dedup/tie-break only; never X,Pure identifiers
+olist_order_payments_dataset.csv,2,payment_sequential,key,item/payment counts; item last-order stable ordering,Partition keys; raw sequence excluded
+olist_order_payments_dataset.csv,3,payment_type,assumption,payment type per-order shares / total payment / installments summaries,Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_order_payments_dataset.csv,4,payment_installments,assumption,payment type per-order shares / total payment / installments summaries,Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_order_payments_dataset.csv,5,payment_value,assumption,payment type per-order shares / total payment / installments summaries,Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_order_reviews_dataset.csv,1,review_id,key,join/dedup/tie-break only; never X,Pure identifiers
+olist_order_reviews_dataset.csv,2,order_id,key,join/dedup/tie-break only; never X,Pure identifiers
+olist_order_reviews_dataset.csv,3,review_score,included,valid answer<t review score/response/text summaries,"Creation<=answer, approval<=answer<t"
+olist_order_reviews_dataset.csv,4,review_comment_title,included,"past_review_text TFIDF (train-only vocabulary), text length/presence",Only valid answered records with answer<t
+olist_order_reviews_dataset.csv,5,review_comment_message,included,"past_review_text TFIDF (train-only vocabulary), text length/presence",Only valid answered records with answer<t
+olist_order_reviews_dataset.csv,6,review_creation_date,included,valid answer<t review score/response/text summaries,"Creation<=answer, approval<=answer<t"
+olist_order_reviews_dataset.csv,7,review_answer_timestamp,included,valid answer<t review score/response/text summaries,"Creation<=answer, approval<=answer<t"
+olist_orders_dataset.csv,1,order_id,key,join/dedup/tie-break only; never X,Pure identifiers
+olist_orders_dataset.csv,2,customer_id,key,join/dedup/tie-break only; never X,Pure identifiers
+olist_orders_dataset.csv,3,order_status,unknown_at_t,excluded,Final extract status has no status-change log
+olist_orders_dataset.csv,4,order_purchase_timestamp,included,"approval_delay_days, purchase_hour, purchase_weekday historical summaries",Observed historical fields or derived summaries only
+olist_orders_dataset.csv,5,order_approved_at,included,"6-month window, R/F/M and recency, observed days, event legality",Observed historical fields or derived summaries only
+olist_orders_dataset.csv,6,order_delivered_carrier_date,included,only event<t carrier/delivery known summaries,Future actual event excluded; negative durations invalid
+olist_orders_dataset.csv,7,order_delivered_customer_date,included,only event<t carrier/delivery known summaries,Future actual event excluded; negative durations invalid
+olist_orders_dataset.csv,8,order_estimated_delivery_date,assumption,promised_delivery_days; known_late_rate/last_order_late,Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_products_dataset.csv,1,product_id,included,"product_id_historical_frequency_{mean,max,std}, product_id_nunique",As-of unlabeled frequency; raw ID excluded
+olist_products_dataset.csv,2,product_category_name,assumption,"historical_category_mode, categories_nunique, basket_categories_mean",Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_products_dataset.csv,3,product_name_lenght,assumption,"product_name_lenght_{mean,max,std}; dimensions -> product_volume_cm3_{mean,max,std}",Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_products_dataset.csv,4,product_description_lenght,assumption,"product_description_lenght_{mean,max,std}; dimensions -> product_volume_cm3_{mean,max,std}",Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_products_dataset.csv,5,product_photos_qty,assumption,"product_photos_qty_{mean,max,std}; dimensions -> product_volume_cm3_{mean,max,std}",Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_products_dataset.csv,6,product_weight_g,assumption,"product_weight_g_{mean,max,std}; dimensions -> product_volume_cm3_{mean,max,std}",Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_products_dataset.csv,7,product_length_cm,assumption,"product_length_cm_{mean,max,std}; dimensions -> product_volume_cm3_{mean,max,std}",Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_products_dataset.csv,8,product_height_cm,assumption,"product_height_cm_{mean,max,std}; dimensions -> product_volume_cm3_{mean,max,std}",Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_products_dataset.csv,9,product_width_cm,assumption,"product_width_cm_{mean,max,std}; dimensions -> product_volume_cm3_{mean,max,std}",Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_sellers_dataset.csv,1,seller_id,included,"seller_id_historical_frequency_{mean,max,std}, seller_id_nunique",As-of unlabeled frequency; raw ID excluded
+olist_sellers_dataset.csv,2,seller_zip_code_prefix,assumption,last_seller_zip_code_prefix; locality nunique; state comparison; postcode coordinate join,Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_sellers_dataset.csv,3,seller_city,assumption,last_seller_city; locality nunique; state comparison; postcode coordinate join,Static extract lacks attribute/backfill/change log; assumes values known at approval
+olist_sellers_dataset.csv,4,seller_state,assumption,last_seller_state; locality nunique; state comparison; postcode coordinate join,Static extract lacks attribute/backfill/change log; assumes values known at approval
+product_category_name_translation.csv,1,product_category_name,assumption,"historical_category_mode, categories_nunique, basket_categories_mean",Static extract lacks attribute/backfill/change log; assumes values known at approval
+product_category_name_translation.csv,2,product_category_name_english,redundant,"product_category_name_english_{mean,max,std}; dimensions -> product_volume_cm3_{mean,max,std}",Translation repeats original category

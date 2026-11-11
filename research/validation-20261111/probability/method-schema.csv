@@ -1,0 +1,22 @@
+method,score_kind,probability_eligible,original17,source,oct_bin_source
+recency,rank_only,False,True,E:\app-data\codex\outputs\is6400-round3-20261111\baselines\private\january-scores.csv,not probability
+simpleMulti,rank_only,False,True,E:\app-data\codex\outputs\is6400-round3-20261111\baselines\private\january-scores.csv,not probability
+LR3,probability,True,True,E:\app-data\codex\outputs\is6400-round3-20261111\baselines\private\january-scores.csv,Oct OOF
+LR8,probability,True,True,E:\app-data\codex\outputs\is6400-round3-20261111\baselines\private\january-scores.csv,Oct OOF
+weightedLR,probability,True,True,E:\app-data\codex\outputs\is6400-round3-20261111\baselines\private\january-scores.csv,Oct OOF
+groupOnly,probability,True,True,E:\app-data\codex\outputs\is6400-round3-20261111\baselines\private\january-scores.csv,"Oct full-fit, bin edges only"
+context_seller,probability,True,True,E:\app-data\codex\outputs\is6400-round3-extension-20261111\context\private\january-scores.csv,"Oct full-fit, bin edges only"
+context_commerce,probability,True,True,E:\app-data\codex\outputs\is6400-round3-extension-20261111\context\private\january-scores.csv,"Oct full-fit, bin edges only"
+context_both,probability,True,True,E:\app-data\codex\outputs\is6400-round3-extension-20261111\context\private\january-scores.csv,"Oct full-fit, bin edges only"
+CB8-unweighted,probability,True,True,E:\app-data\codex\outputs\is6400-round3-extension-20261111\nonlinear\private\january-scores.csv,"Oct full-fit, bin edges only"
+CB8-balanced,probability,True,True,E:\app-data\codex\outputs\is6400-round3-extension-20261111\nonlinear\private\january-scores.csv,"Oct full-fit, bin edges only"
+CB14-unweighted,probability,True,True,E:\app-data\codex\outputs\is6400-round3-extension-20261111\nonlinear\private\january-scores.csv,"Oct full-fit, bin edges only"
+CB14-balanced,probability,True,True,E:\app-data\codex\outputs\is6400-round3-extension-20261111\nonlinear\private\january-scores.csv,"Oct full-fit, bin edges only"
+rank-W-LR3,rank_only,False,True,E:\app-data\codex\outputs\is6400-round3-extension-20261111\strategies\private\january-scores.csv,not probability
+rank-W-groupOnly,rank_only,False,True,E:\app-data\codex\outputs\is6400-round3-extension-20261111\strategies\private\january-scores.csv,not probability
+rank-W-delivery-review,rank_only,False,True,E:\app-data\codex\outputs\is6400-round3-extension-20261111\strategies\private\january-scores.csv,not probability
+group-shrink100,logit_only,False,True,E:\app-data\codex\outputs\is6400-round3-extension-20261111\strategies\private\january-scores.csv,not probability
+group-shrink100-sigmoid,probability_transformed_logit,True,False,explicit sigmoid of saved corrected logit; no Jan fitting,"Oct full-fit, bin edges only"
+weightedLR-prior-corrected,probability_prior_corrected,True,False,Oct class-weight ratio analytic correction,Oct OOF
+weightedLR-oof-Platt,probability_oof_calibrated,True,False,Oct OOF natural-prevalence Platt; Jan untouched,Oct OOF
+constant-Oct,probability_constant,True,False,211/21160,Oct OOF

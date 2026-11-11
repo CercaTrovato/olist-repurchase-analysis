@@ -1,0 +1,88 @@
+{
+  "status": "complete",
+  "single_new_fit": 1,
+  "fit_n": 16928,
+  "fit_events": 169,
+  "train_seconds": 0.06216539999877568,
+  "n_iter": 130,
+  "parameters": {
+    "C": 1,
+    "class_weight": null,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": null,
+    "max_iter": 2000,
+    "multi_class": "deprecated",
+    "n_jobs": null,
+    "penalty": "l2",
+    "random_state": 2026,
+    "solver": "lbfgs",
+    "tol": 1e-10,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "A_objective": {
+    "sum_objective": 921.2987451815945,
+    "sum_gradient_max": 8.801647287953393e-05,
+    "mean_gradient_max": 5.1994608270046036e-09
+  },
+  "B_default_objective": {
+    "sum_objective": 922.1618522054939,
+    "sum_gradient_max": 1.472542789301726,
+    "mean_gradient_max": 8.698858632453485e-05
+  },
+  "strict_objective": {
+    "sum_objective": 921.298745176727,
+    "sum_gradient_max": 0.00034171118538478887,
+    "mean_gradient_max": 2.018615225571768e-08
+  },
+  "max_theta_diff_vs_A": 3.985302825382231e-05,
+  "max_theta_diff_vs_B": 0.3409834868213957,
+  "periods": {
+    "cal": {
+      "logloss": 0.0558238462437156,
+      "brier": 0.009827952439613994,
+      "AP": 0.019648007554578708,
+      "AUC": 0.5525116490510285,
+      "max_prob_diff_vs_A": 1.1500674356595963e-06,
+      "max_prob_diff_vs_B": 0.008851036125477094,
+      "k": 424,
+      "hits": 6,
+      "selection_changed_vs_A": 0,
+      "selection_changed_vs_B": 68
+    },
+    "jan": {
+      "logloss": 0.0452868912686513,
+      "brier": 0.0077215652206715875,
+      "AP": 0.028528579570746435,
+      "AUC": 0.569079074986496,
+      "max_prob_diff_vs_A": 2.1758758468326533e-06,
+      "max_prob_diff_vs_B": 0.030343678295457532,
+      "k": 2937,
+      "hits": 44,
+      "selection_changed_vs_A": 0,
+      "selection_changed_vs_B": 410,
+      "long79_hits": 1
+    }
+  },
+  "april_rows_parsed": 0,
+  "input_sha256": {
+    "E:\\app-data\\codex\\outputs\\is6400-validation-20261111\\group-learning\\private\\features.npz": "efa3ff9c3e12dcdd7d04ae345d72e7eb9f6b24406237b36e0d9ea0ad13db8b03",
+    "E:\\app-data\\codex\\outputs\\is6400-validation-20261111\\objectives\\private\\fit-transformed-original.npz": "ab38c3416c89c61337b4681724022f0600936378d09e34c1afa965102f062878",
+    "E:\\app-data\\codex\\outputs\\is6400-validation-20261111\\group-learning\\private\\lr_unweighted-linear.npz": "de215a8a902a42659a383526b0ebe79b5b4db97d45fc35d326c6d00e70a53c6e",
+    "E:\\app-data\\codex\\outputs\\is6400-validation-20261111\\objectives\\private\\LR-unweighted.joblib": "5673d47130ba37a134bd26c3e28c70ffa42b07df4d5e85f0bedd4a0923ec1ed4",
+    "E:\\app-data\\codex\\outputs\\is6400-validation-20261111\\group-learning\\private\\fit-keys-outcomes.csv": "3c800fa7755777f270a4ec7570cd18f2621b4672aff4f65c5ec4fb10e4a4ff54",
+    "E:\\app-data\\codex\\outputs\\is6400-validation-20261111\\group-learning\\private\\cal-keys-outcomes.csv": "724ca2394af53211ff2662447039cd5d727ba0a7b8ccbec2baf1995cdd0304e3",
+    "E:\\app-data\\codex\\outputs\\is6400-validation-20261111\\group-learning\\private\\jan-keys-outcomes.csv": "0f70845c778295d8bfcdccf84f17398ffc5591b1b527858d08f613cca13715cc",
+    "E:\\app-data\\codex\\outputs\\is6400-validation-20261111\\numerical-convergence-audit\\plan.md": "28cbc7a185e1ebd6189b3e0491e1af99045e15ae1f227ed068833e9d288d1fe2",
+    "E:\\app-data\\codex\\outputs\\is6400-validation-20261111\\numerical-convergence-audit\\run_audit.py": "2f1227827ef543d2bef64369e3e1f4a28af1752113c6cf3501acf52d8f5eaee0"
+  },
+  "output_sha256": {
+    "plan.md": "28cbc7a185e1ebd6189b3e0491e1af99045e15ae1f227ed068833e9d288d1fe2",
+    "run_audit.py": "2f1227827ef543d2bef64369e3e1f4a28af1752113c6cf3501acf52d8f5eaee0",
+    "private\\cal-scores.csv": "546c7f55e1d164416f7875344edd23e402427104368cc21589a2fd4dbbd533c7",
+    "private\\jan-scores.csv": "70c43d378695ca02fb5d9fc2c592b0fb2ea343b8ce274307e4b0251b5c694d66",
+    "private\\strict-unweighted-LR.joblib": "0616f532fca14fb6861e5fc7622ba4ba8ae1c911242ff575461e6c0d9baa9a0c"
+  }
+}

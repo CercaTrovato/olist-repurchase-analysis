@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "split_recomputed": true,
+  "fit_only_scaler_means_categories_verified": true,
+  "exact_transformed_arrays_verified": true,
+  "group_predictions_recomputed": true,
+  "correlation_init_fit_only_recomputed": true,
+  "candidate_score_variants": 16,
+  "max_saved_logit_differences": {
+    "lr_unweighted": 0.0,
+    "lr_balanced": 0.0,
+    "hard3_fixedcorr": 0.0,
+    "hard3_delta_zero": 0.0,
+    "hard3_delta_corr": 0.0,
+    "hard_geometry_delta_corr": 0.0,
+    "soft_bic_delta_corr": 0.0,
+    "hard3_intercept": 0.0,
+    "lr_balanced_prior": 0.0,
+    "constant_fit_prior": 0.0,
+    "residual_identity_s2026": 0.0,
+    "residual_identity_s2027": 0.0,
+    "residual_identity_s2028": 0.0,
+    "residual_relu_s2026": 0.0,
+    "residual_relu_s2027": 0.0,
+    "residual_relu_s2028": 0.0
+  },
+  "natural_metric_rows_recomputed": 64,
+  "capacity_metric_rows_recomputed": 224,
+  "model_platt_predictions_recomputed": true,
+  "calibration_resubstitution_disclosed": true,
+  "april_rows_parsed": 0,
+  "code_sha256": "00939acf7fae55a4cc7918d8aa40aae68f5397761792d0eb7da73cf045226300"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "source_hashes_unchanged": 19,
+  "only_tol_and_maxiter_changed": true,
+  "old_new_models_readback": 14,
+  "new_models": 7,
+  "exact_january_score_max_error": 0.0,
+  "objectives_and_gradients_recomputed": true,
+  "natural_metrics_and_fixed_lists_recomputed": true,
+  "january_n": 29368,
+  "january_positive": 230,
+  "april_rows_parsed": 0,
+  "code_sha256": "7d963863a1c4347391c0dc5b2aaeb78552681734eab2d3c2cc03a5aeb9d46126"
+}

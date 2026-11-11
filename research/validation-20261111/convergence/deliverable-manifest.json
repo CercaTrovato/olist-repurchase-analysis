@@ -1,0 +1,121 @@
+{
+  "files": {
+    "numerical-control-deltas.png": {
+      "sha256": "0fd06978978e2f99a06cc35c4848b61d86e76cbaca183f658462c5dee72a3c68",
+      "bytes": 76006
+    },
+    "numerical-control-deltas.svg": {
+      "sha256": "87af720cd6a4bceb512eb94f74a683091ab5fc1b8c4717c9fdd47b959cccf275",
+      "bytes": 79019
+    },
+    "old-new-metrics.csv": {
+      "sha256": "895f94772b462e9e23318d53133ac3793e3b3106bc7aeea18ec5998aaf17f716",
+      "bytes": 5243
+    },
+    "plan.md": {
+      "sha256": "b38035241e351ed26c48cdffd8e7de9ffb3a3eb299c442b4e1179fc92b6034e1",
+      "bytes": 2171
+    },
+    "readback-verification.json": {
+      "sha256": "2392352c4eb7c4ef97615f38ba7be63b3db36626742c50a48af1d398519ee045",
+      "bytes": 463
+    },
+    "README.md": {
+      "sha256": "17b81156de5b7b5be36fdeaf4b2e8985de3b346abe129f691b9686de99d5f84a",
+      "bytes": 6419
+    },
+    "run_convergence.py": {
+      "sha256": "5e8197177c539c20be5cf799bb0b17d67c54a8b2db0994049f70f45834edb43c",
+      "bytes": 10797
+    },
+    "score-and-list-changes.csv": {
+      "sha256": "f197d88583a2dc330c987c68504b320b52f6c7dc1c274419c1eb561f459cba58",
+      "bytes": 943
+    },
+    "training-gradient.png": {
+      "sha256": "ddde5d725f2c58731918dfebb2b4ac613287298f0c5a7a63d8975ec5884c3472",
+      "bytes": 56352
+    },
+    "training-gradient.svg": {
+      "sha256": "1d318649147aa99682db69ae30aa6c1e3ddd14942514fd9b90aff0b7289fa9b3",
+      "bytes": 52379
+    },
+    "verification.json": {
+      "sha256": "0c5c4d9e3eb10c3e8fbe0917d96ec03fb78ec3aecf04ac2e23352b3d23f2e9c0",
+      "bytes": 4123
+    },
+    "verify_convergence.py": {
+      "sha256": "7d963863a1c4347391c0dc5b2aaeb78552681734eab2d3c2cc03a5aeb9d46126",
+      "bytes": 5064
+    },
+    "private/baseline__LR3-high-precision.joblib": {
+      "sha256": "cf8e8900084591975d03f3025b8aedd21e05f1f326770efaa4556abd34f66809",
+      "bytes": 863
+    },
+    "private/baseline__LR3-scores.npz": {
+      "sha256": "4ebb8ac1f47b7cb8ffbc29e6a0964d4525af2cd402c1138cf3471545a592bb90",
+      "bytes": 748945
+    },
+    "private/baseline__LR8-high-precision.joblib": {
+      "sha256": "bab7be4e41d0d2bb6f649a22947ee2f1a8647f59040cdbf5281075847c4a3f28",
+      "bytes": 1103
+    },
+    "private/baseline__LR8-scores.npz": {
+      "sha256": "a52a9af09c4340005eb80a32b8a60e2e9a1ba131bcf49992a09277b07939c85d",
+      "bytes": 753934
+    },
+    "private/baseline__weightedLR-high-precision.joblib": {
+      "sha256": "c2026034f6095a786b3c7e29015c957aa8e8eed37eec6fcc21c3c77700add8a9",
+      "bytes": 1119
+    },
+    "private/baseline__weightedLR-scores.npz": {
+      "sha256": "9d20c6352ea850bfc0f351d0eb991e8b4ed562d6a0e64864da3fc00931b7c8b2",
+      "bytes": 764621
+    },
+    "private/features__full-structure-high-precision.joblib": {
+      "sha256": "d2a586c7438dd05ca1b9ec6d846cedb5dfd5b545c02dad8bcc86546bfc70f8ac",
+      "bytes": 8143
+    },
+    "private/features__full-structure-scores.npz": {
+      "sha256": "6c46a5ebdfac609c0d62335122c238b057648431123b48fa5a73005aeba2d369",
+      "bytes": 761695
+    },
+    "private/features__lr8-geo-high-precision.joblib": {
+      "sha256": "b0e0d6c4185e0a6d6c2635a7c1002cf34c8bf552700bbdacf9ee75ef3b0c4d18",
+      "bytes": 5967
+    },
+    "private/features__lr8-geo-scores.npz": {
+      "sha256": "35755675b3752201339bcda629b9d8d2f3828528696aa2f1d5ab133c0007576c",
+      "bytes": 760568
+    },
+    "private/features__lr8-high-precision.joblib": {
+      "sha256": "2a4f3d9315c233cb326930d0ff422a4c63e787ce80d5b4bae3d1f6f483a5956f",
+      "bytes": 1151
+    },
+    "private/features__lr8-scores.npz": {
+      "sha256": "fe80a44906f7b952a3e2453954ebf081a2657eef33cac4a6c7375ce4091f02f0",
+      "bytes": 753874
+    },
+    "private/features__structure-text-high-precision.joblib": {
+      "sha256": "13e4ec4155f9afa799151e3938f49d397bc9f4cedebfdbaa81b9d01d2192e8b8",
+      "bytes": 18671
+    },
+    "private/features__structure-text-scores.npz": {
+      "sha256": "5d6ff2c55791f2907c0b5dfc06a405c3e643895d251ff58d96b26c48ecdd5c00",
+      "bytes": 761774
+    },
+    "private/jan-keys-outcomes-h05.csv": {
+      "sha256": "0f70845c778295d8bfcdccf84f17398ffc5591b1b527858d08f613cca13715cc",
+      "bytes": 1409710
+    },
+    "private/model-specs.json": {
+      "sha256": "9fe7b78a3adae8a7e736b2d8bfe3bcd0bbc597974e422b1b8fef2de6662140f1",
+      "bytes": 8846
+    },
+    "private/train-keys-outcomes.csv": {
+      "sha256": "e32228910eed7e849a0e263389296ed5af203c34559622f5a42e39a86dce9797",
+      "bytes": 973395
+    }
+  },
+  "count": 29
+}

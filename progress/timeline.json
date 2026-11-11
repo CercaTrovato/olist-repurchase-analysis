@@ -4,9 +4,9 @@
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
   "as_of": "2026-11-11",
-  "basis_revision": "d4e39e175b724bcba01d449d649cdcc868b4994cf12c3e5b35f0bfdfccbf8165",
+  "basis_revision": "a19613b27a097c6616d4384a5d526469fd27d2107bc602b8e99c48cfdad01c89",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "用户开始重新审阅建模，18条质疑已登记并形成只读事实核查、验证方案草案及MVSIB迁移摘要。用户明确先记录解释设计，等明确开测，本批新增实验0。原八字段/全量输入/K口径已澄清，预测质量与商业策略的指标主次仍待用户决定；成员第三轮已发群、回传待收。",
+  "summary": "用户已明确授权按18条质疑开测。P1概率/基率、P2全字段与地理文本、P3异常和聚类、P4群权重/分支/损失采样/注意力及论文启发表征已完成首批受控验证；数值收敛控制单列。全量客户评分，科学概率与原名单指标并列，四月本轮不新评分。未自动采用新模型；最终系统消融待候选冻结，成员第三轮实际回件仍待收。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
@@ -16,10 +16,10 @@
       "owner": "本人 · 总监督",
       "owner_role": "me",
       "scope": "team",
-      "summary": "用户正审阅固定K与纯预测质量目标；此前A目标和历史结果保留，新主指标与最终模型尚待决定。",
+      "summary": "用户已授权开测，科学概率和原同容量名单并列验证；最终主指标和团队正式采用版本仍待决定。",
       "deliverable": "决定方法冻结后怎样评价，并清楚披露哪些时期已经看过。",
-      "next_action": "先解释全量输入、概率质量与商业名单的区别，累计质疑后记录本人主目标决定。",
-      "my_next_action": "审阅Q01–Q18并确认后续科学层和策略层指标主次。",
+      "next_action": "审阅已核结果与成员回件，记录真实模型采用、主指标及冻结依据。",
+      "my_next_action": "比较候选的概率质量、全局和久单效果，再确认展示采用版本。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -64,6 +64,11 @@
           "observed_on": "2026-11-11",
           "status": "needs_review",
           "note": "新目标为审阅中的提问，未代本人定稿；本地新实验按D08等待明确开测。"
+        },
+        {
+          "observed_on": "2026-11-11",
+          "status": "needs_review",
+          "note": "D10已解除D08开测门禁；正式主指标与采用仍未代本人决定。"
         }
       ]
     },
@@ -376,9 +381,9 @@
       "owner": "本地辅助 1–5 号；本人核取舍",
       "owner_role": "member",
       "scope": "supporting",
-      "summary": "既有本地实验与18图完成，现进入质疑记录、论文核读和新方案设计阶段，新增实验等待明确指令。",
+      "summary": "本地首批P1–P4受控验证完成，补数值收敛控制与图；保留既有四月历史，本批无新四月评分。",
       "deliverable": "用锁定的十月拟合管线、相同四月客户与前 10% 名额，对照原版和最近购买基线。",
-      "next_action": "保留旧结果并完善问题设计，开测后再执行新验证。",
+      "next_action": "与成员第三轮回件并列，冻结候选后做最终系统消融。",
       "my_next_action": null,
       "depends_on": [],
       "dependency_gates": [],
@@ -451,6 +456,11 @@
           "observed_on": "2026-11-11",
           "status": "needs_review",
           "note": "新增11个本地候选，不升级成员成果或最终采用。"
+        },
+        {
+          "observed_on": "2026-11-11",
+          "status": "needs_review",
+          "note": "本地研究结果与真实组员交付分开；不是最终采用或正式提交。"
         }
       ]
     },
@@ -1884,15 +1894,15 @@
     },
     {
       "id": "research-questions-and-design",
-      "title": "建模质疑记录与验证设计",
-      "status": "needs_review",
+      "title": "建模质疑与逐步受控验证",
+      "status": "in_progress",
       "owner": "本人 · 6号与本课程会话",
       "owner_role": "me",
       "scope": "supporting",
-      "summary": "18条问题、现有实现核查与MVSIB迁移设计已准备；本地新实验统一等待本人明确开测。",
-      "deliverable": "持续问题台账、事实解释和待验证方案，保留执行门禁。",
-      "next_action": "继续阅读建模和追加问题，待本人明确开测后按问题表执行。",
-      "my_next_action": "审阅解释，继续提出疑问，再明确统一开测指令。",
+      "summary": "18条质疑已开测；P1–P4首批冻结矩阵已核，最终系统消融与采用决定仍待。",
+      "deliverable": "逐问题假设、配置、全部结果、局限与可编辑可视化，保留负结果和纠正历史。",
+      "next_action": "审阅本批统一对照和数值控制，冻结研究候选后做最终消融；继续收组员独立策略。",
+      "my_next_action": "本批无需补充信息；审阅候选后决定展示版本与正式主指标。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -1905,6 +1915,24 @@
         {
           "id": "start",
           "label": "本人已明确启动后续实验",
+          "status": "pass",
+          "evidence": []
+        },
+        {
+          "id": "foundation",
+          "label": "P1–P3基础结果与回源/模型核验完成",
+          "status": "pass",
+          "evidence": []
+        },
+        {
+          "id": "modules",
+          "label": "P4固定矩阵及跨模块数值差异已核",
+          "status": "pass",
+          "evidence": []
+        },
+        {
+          "id": "ablation",
+          "label": "冻结最终候选后的系统消融完成",
           "status": "unknown",
           "evidence": []
         }
@@ -1918,11 +1946,15 @@
       "completed_on": null,
       "observed_on": "2026-11-11",
       "estimated_minutes": null,
-      "state_basis": "仅记录、解释和设计；新增实验0，方案与主指标未代用户决定。",
+      "state_basis": "D10为本人明确开测授权；所有研究完成仅限已核矩阵，不宣称穷尽或独立盲测。",
       "evidence": [
         {
           "label": "研究质疑台账",
           "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/research-questions.md"
+        },
+        {
+          "label": "本地逐步验证结果与下一步",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/validation-execution.md"
         }
       ],
       "history": [
@@ -1930,6 +1962,11 @@
           "observed_on": "2026-11-11",
           "status": "needs_review",
           "note": "用户要求先记录解释，开测待本人明确指令。"
+        },
+        {
+          "observed_on": "2026-11-11",
+          "status": "in_progress",
+          "note": "用户明确开始逐步验证，原新增实验0只属设计阶段历史。P1–P4首批实际结果已核。"
         }
       ]
     }

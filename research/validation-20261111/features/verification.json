@@ -1,0 +1,21 @@
+{
+  "completed_candidates": [
+    "lr8",
+    "lr8-geo",
+    "full-structure",
+    "structure-text",
+    "structure-catboost"
+  ],
+  "same_y": true,
+  "train_rows": 21160,
+  "train_positive": 211,
+  "january_rows": 29368,
+  "january_positive": 230,
+  "raw_field_positions": 52,
+  "april_snapshot_rows_read": 0,
+  "feature_spec_sha256": "8bbac0a85c8840cf8295f4c7d02520f4090ee73d8f3940dd7241cb1e340cd74d",
+  "elapsed_seconds": 55.50727343559265,
+  "python": "3.12.3",
+  "models_adopted": false,
+  "long_slice_corrected_without_retraining": true
+}

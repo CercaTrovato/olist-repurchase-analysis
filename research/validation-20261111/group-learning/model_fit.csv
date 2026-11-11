@@ -1,0 +1,17 @@
+name,family,seed,parameters,fitted_parameters,success,message,iterations,objective,gradient_max,fit_seconds,balanced,init
+lr_unweighted,convex_linear,,35,35,True,CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH,107,921.2987451815945,8.801647287953393e-05,0.06654524803161621,False,zero
+lr_balanced,convex_linear,,35,35,True,CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH,410,11081.291632289573,0.005045416467946949,0.2933778762817383,True,zero
+hard3_fixedcorr,convex_linear,,35,35,True,CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH,114,921.0703560346705,0.0004400831022258467,0.07617306709289551,False,zero
+hard3_delta_zero,convex_linear,,137,137,True,CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH,115,918.8626437715216,0.00043870258314757105,0.3357677459716797,False,zero
+hard3_delta_corr,convex_linear,,137,137,True,CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH,114,918.8626437554645,0.00020086684296549695,0.31562280654907227,False,corr
+hard_geometry_delta_corr,convex_linear,,103,103,True,CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH,112,919.8670595828366,0.001056125373065181,0.28830432891845703,False,corr
+soft_bic_delta_corr,convex_linear,,307,307,True,CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH,117,919.0765903120516,0.0003739067961772806,0.4392275810241699,False,corr
+hard3_intercept,convex_linear,,38,38,True,CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH,113,921.073227253671,0.0003548653078196129,0.08446264266967773,False,zero
+lr_balanced_prior,prior_corrected_balanced_LR,,35,0,True,fixed_train_prior_offset_no_new_fit,0,,,0.0,True,
+constant_fit_prior,constant,,1,1,True,fit_prevalence,0,,,0.0,False,
+residual_identity_s2026,shared_residual_identity,2026.0,643,643,True,fixed_epoch_budget_completed_not_convergence_claim,50,0.05416344851255417,,1.6198465824127197,False,matched_LR_base_zero_group_head
+residual_identity_s2027,shared_residual_identity,2027.0,643,643,True,fixed_epoch_budget_completed_not_convergence_claim,50,0.05413190275430679,,1.6429097652435303,False,matched_LR_base_zero_group_head
+residual_identity_s2028,shared_residual_identity,2028.0,643,643,True,fixed_epoch_budget_completed_not_convergence_claim,50,0.0541590116918087,,1.639927864074707,False,matched_LR_base_zero_group_head
+residual_relu_s2026,shared_residual_relu,2026.0,643,643,True,fixed_epoch_budget_completed_not_convergence_claim,50,0.05425617843866348,,1.6130270957946777,False,matched_LR_base_zero_group_head
+residual_relu_s2027,shared_residual_relu,2027.0,643,643,True,fixed_epoch_budget_completed_not_convergence_claim,50,0.05422564223408699,,1.6256611347198486,False,matched_LR_base_zero_group_head
+residual_relu_s2028,shared_residual_relu,2028.0,643,643,True,fixed_epoch_budget_completed_not_convergence_claim,50,0.054241713136434555,,1.607569932937622,False,matched_LR_base_zero_group_head

@@ -1,0 +1,14 @@
+{
+  "portable_predictor_max_errors": {
+    "score_LR3": 0.0,
+    "score_LR8": 0.0,
+    "score_weightedLR": 0.0,
+    "score_weightedLR-prior-corrected": 0.0,
+    "score_weightedLR-oof-Platt": 0.0,
+    "score_constant-Oct": 0.0
+  },
+  "april_rows_parsed": 0,
+  "all_january_customers_scored": 29368,
+  "bootstrap_replicates": 2000,
+  "oracle_baseline": "Jan event rate is an explanatory minimum constant loss only; not a deployable model"
+}

@@ -4,7 +4,7 @@
   "course": "IS6400",
   "as_of": "2026-11-11",
   "timezone": "Asia/Shanghai",
-  "source_revision": "4e4686004d554e96eaa5f16c9b4ee633dbdc5627d39cf9a799221710a752ac5d",
+  "source_revision": "9b88e29b51ef3b674c8bc0ae4775f67d3134bc840cfe8e2cc6ec72626e4163a1",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
   "stale": false,
   "scheduling_policy": {
@@ -37,7 +37,7 @@
       "title": "确定最终评价口径",
       "owner": "本人 · 总监督",
       "status": "needs_review",
-      "personal_action": "审阅Q01–Q18并确认后续科学层和策略层指标主次。",
+      "personal_action": "比较候选的概率质量、全局和久单效果，再确认展示采用版本。",
       "readiness": "ready",
       "target": {
         "value": "2026-11-12",
@@ -68,10 +68,10 @@
     },
     {
       "id": "research-questions-and-design",
-      "title": "建模质疑记录与验证设计",
+      "title": "建模质疑与逐步受控验证",
       "owner": "本人 · 6号与本课程会话",
-      "status": "needs_review",
-      "personal_action": "审阅解释，继续提出疑问，再明确统一开测指令。",
+      "status": "in_progress",
+      "personal_action": "本批无需补充信息；审阅候选后决定展示版本与正式主指标。",
       "readiness": "ready",
       "target": {
         "value": null,

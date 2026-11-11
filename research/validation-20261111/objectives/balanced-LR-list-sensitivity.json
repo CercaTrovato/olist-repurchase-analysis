@@ -1,0 +1,26 @@
+{
+  "same_fit_repeat": [
+    {
+      "repeat_threads": 1,
+      "max_absolute_score_error": 0.0,
+      "top10_changed": 0,
+      "baseline_hits": 42,
+      "repeat_hits": 42,
+      "baseline_boundary_gap": 7.854692856468226e-06
+    },
+    {
+      "repeat_threads": 2,
+      "max_absolute_score_error": 0.0,
+      "top10_changed": 0,
+      "baseline_hits": 42,
+      "repeat_hits": 42,
+      "baseline_boundary_gap": 7.854692856468226e-06
+    }
+  ],
+  "historical_fullOct_comparison": {
+    "reason": "different training population 21160 vs16928, not numerical noise",
+    "changed": 988,
+    "fullOct_hits": 50,
+    "fitOnly_hits": 42
+  }
+}

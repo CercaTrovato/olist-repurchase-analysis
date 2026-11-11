@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "metric_checks": [
+    {
+      "candidate": "lr8",
+      "metrics_and_capacities_recomputed": true,
+      "serialized_lr_matrix_scores_reproduced": true
+    },
+    {
+      "candidate": "lr8-geo",
+      "metrics_and_capacities_recomputed": true,
+      "serialized_lr_matrix_scores_reproduced": true
+    },
+    {
+      "candidate": "full-structure",
+      "metrics_and_capacities_recomputed": true,
+      "serialized_lr_matrix_scores_reproduced": true
+    },
+    {
+      "candidate": "structure-text",
+      "metrics_and_capacities_recomputed": true,
+      "serialized_lr_matrix_scores_reproduced": true
+    },
+    {
+      "candidate": "structure-catboost",
+      "metrics_and_capacities_recomputed": true,
+      "serialized_lr_matrix_scores_reproduced": false
+    }
+  ],
+  "cached_X_rebuilt_from_hash_verified_raw": [
+    {
+      "snapshot_date": "2017-10-01",
+      "all_15_allowlisted_cache_columns_rebuilt_equal": true
+    },
+    {
+      "snapshot_date": "2018-01-01",
+      "all_15_allowlisted_cache_columns_rebuilt_equal": true
+    }
+  ],
+  "all_H02_keys_retained": true,
+  "excluded_metadata_absent_from_X": true,
+  "field_positions": 52,
+  "field_status_counts": {
+    "assumption": 23,
+    "included": 15,
+    "key": 10,
+    "redundant": 3,
+    "unknown_at_t": 1
+  },
+  "all_missing_numeric_fields_by_period": [],
+  "graph_visual_review": "Both final PNG figures actually viewed; candidate labels, metrics, denominators/legend readable; source also emits SVG",
+  "April_snapshot_rows_read": 0,
+  "catboost_serialized_score_max_difference": 9.974659986866641e-17,
+  "purchase_timestamp_checks": [
+    {
+      "snapshot_date": "2017-10-01",
+      "approved_history_future_purchase_timestamps": 0
+    },
+    {
+      "snapshot_date": "2018-01-01",
+      "approved_history_future_purchase_timestamps": 0
+    }
+  ],
+  "long_group_correction": {
+    "authoritative_cluster_id": 1,
+    "n": 12330,
+    "positive": 90,
+    "authority_sha256": "509e6df79c758be73c693ea63a5e1ff9a33db97bcbc168d218b47dfe02d55f85",
+    "all_saved_cluster_assignments_equal_authority": true,
+    "lr8_fixed79_hits": 1,
+    "models_retrained": false
+  }
+}

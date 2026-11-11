@@ -1,0 +1,50 @@
+[
+  {
+    "candidate": "lr8",
+    "raw_columns": 8,
+    "encoded_columns": 40,
+    "seconds": 0.18976235389709473,
+    "warnings": [],
+    "iterations": [
+      27
+    ]
+  },
+  {
+    "candidate": "lr8-geo",
+    "raw_columns": 29,
+    "encoded_columns": 641,
+    "seconds": 0.6869480609893799,
+    "warnings": [],
+    "iterations": [
+      72
+    ]
+  },
+  {
+    "candidate": "full-structure",
+    "raw_columns": 141,
+    "encoded_columns": 913,
+    "seconds": 2.5452346801757812,
+    "warnings": [],
+    "iterations": [
+      115
+    ]
+  },
+  {
+    "candidate": "structure-text",
+    "raw_columns": 141,
+    "encoded_columns": 2230,
+    "seconds": 3.0984575748443604,
+    "warnings": [],
+    "iterations": [
+      118
+    ]
+  },
+  {
+    "candidate": "structure-catboost",
+    "raw_columns": 141,
+    "encoded_columns": 141,
+    "seconds": 8.631498098373413,
+    "warnings": [],
+    "iterations": 300
+  }
+]

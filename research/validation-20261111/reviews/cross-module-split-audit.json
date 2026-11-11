@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "A": 16928,
+    "B": 16928,
+    "C": 16928
+  },
+  "overlap_AB": 16928,
+  "overlap_AC": 16928,
+  "overlap_BC": 16928,
+  "sorted_fit_key_sha": {
+    "A": "037940a31f4faca2a82b84c59e72a890ff021cfbde14a9bd443973121ff028b9",
+    "B": "037940a31f4faca2a82b84c59e72a890ff021cfbde14a9bd443973121ff028b9",
+    "C": "037940a31f4faca2a82b84c59e72a890ff021cfbde14a9bd443973121ff028b9"
+  }
+}

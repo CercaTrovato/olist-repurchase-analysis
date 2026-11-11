@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "ranking_metric_rows_recomputed": 40,
+  "selected_model_arrays_verified": [
+    "rfm-kmeans-k2-oct",
+    "rfm-kmeans-k2-jan",
+    "rfm-kmeans-k3-oct",
+    "rfm-kmeans-k3-jan",
+    "rfm-gmm-k3-oct",
+    "rfm-gmm-k3-jan",
+    "rfm-gmm-k8-oct",
+    "rfm-gmm-k8-jan",
+    "original8-kmeans-k2-oct",
+    "original8-kmeans-k2-jan",
+    "original8-kmeans-k3-oct",
+    "original8-kmeans-k3-jan",
+    "original8-gmm-k3-oct",
+    "original8-gmm-k3-jan",
+    "original8-gmm-k8-oct",
+    "original8-gmm-k8-jan"
+  ],
+  "rows_order_verified": {
+    "oct": 21160,
+    "jan": 29368
+  },
+  "soft_weight_sums_verified": true,
+  "exact_float64_transforms_verified": true,
+  "manifest_existing_files_verified": 120,
+  "no_april_read": true,
+  "code_sha256": "ffdf70fad61b6b1a7dabc100853d436f0505f38ac71a8f8f9ef6f5a68d63bde0"
+}

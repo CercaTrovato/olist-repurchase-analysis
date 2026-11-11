@@ -1,0 +1,11 @@
+{
+  "kmeans_winner": 2,
+  "gmm_winner": 8,
+  "fit_n": 16928,
+  "cal_n": 4232,
+  "fit_positive": 169,
+  "cal_positive": 42,
+  "feature_dimensions": 34,
+  "prior_probability": 0.009983459357277883,
+  "silhouette_sample_seed": 2026
+}

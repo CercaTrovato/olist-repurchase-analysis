@@ -1,0 +1,7 @@
+method,threshold,oct_oof_development_F1,rule,platt_same_oof_labels
+LR3,0.0280879276009413,0.062157221206581355,maximum F1; highest threshold on tie,False
+LR8,0.025799769044267253,0.05651491365777081,maximum F1; highest threshold on tie,False
+weightedLR,0.7635241483651295,0.05,maximum F1; highest threshold on tie,False
+weightedLR-prior-corrected,0.031568360244029064,0.05010438413361169,maximum F1; highest threshold on tie,False
+weightedLR-oof-Platt,0.014130044939141344,0.05,maximum F1; highest threshold on tie,True
+constant-Oct,0.00997164461247637,0.019746385288475034,maximum F1; highest threshold on tie,False

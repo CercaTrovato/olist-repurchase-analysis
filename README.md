@@ -12,9 +12,9 @@ IS6400 小组项目｜Six Sigma
 
 我们用过去 6 个自然月的订单给已有客户排序，比较同等名额下能找到多少未来 90 天的复购者。主比较把名单容量设为 10%，并与最近购买优先等简单策略对照。分群用于定位漏判，也给内容试验提供线索。
 
-**当前正在重新审阅建模。** 用户提出18条质疑，本地先记录、解释和设计，统一等明确开测。既有结果和图表作为历史证据保留，新的科学主指标及架构尚未定稿。
+**建模质疑已开始逐步验证。** 用户已明确授权开测。全体概率与名单面板、全字段/地区/距离、异常和分群，以及群权重/注意力/不平衡首批固定矩阵已核，并补数值优化控制。最终模型、正式主指标和候选冻结后的系统消融仍待收尾。
 
-[建模质疑台账](docs/team/research-questions.md) · [验证设计草案](docs/team/research-protocol-draft.md) · [MVSIB迁移核读](docs/team/mvsib-transfer-notes.md)
+[当前验证进度](docs/team/validation-execution.md) · [建模质疑台账](docs/team/research-questions.md) · [验证设计草案](docs/team/research-protocol-draft.md) · [MVSIB迁移核读](docs/team/mvsib-transfer-notes.md)
 
 ## 项目现在到哪了
 

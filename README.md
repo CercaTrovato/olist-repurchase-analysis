@@ -18,6 +18,10 @@ IS6400 小组项目｜Six Sigma
 
 [小组最新进度](docs/team/current-status.md) · [本地探索与对照](docs/team/local-exploration.md) · [汇总表与图](docs/team/evidence/README.md) · [各岗入口](docs/team/README.md)
 
+**第三轮已准备。** 6 号已确认业务取舍和展示采用截止。本地六基线、新增信息、时间审计与内容试验设计已完成，另备13幅可编辑图。组员按同目标独立设计策略，实际分发与新回件另记。
+
+[第三轮成员任务](docs/team/round-3/README.md) · [本地结果](docs/team/round-3-results.md) · [PPT／报告图表素材](docs/team/visual-assets.md)
+
 ## 顺着读就能接上
 
 1. [项目在解决什么问题](docs/01-project-explained.md)。用同一个运营场景理解候选名单、分群和特征反馈。

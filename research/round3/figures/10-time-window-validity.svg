@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="900pt" height="489.6pt" viewBox="0 0 900 489.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-11T17:53:46.690948</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 489.6
+L 900 489.6
+L 900 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 135 337.824
+L 810 337.824
+L 810 88.128
+L 135 88.128
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 144.955752 337.824
+L 503.362832 337.824
+L 503.362832 88.128
+L 144.955752 88.128
+z
+" clip-path="url(#pb753b43a07)" style="fill: #d7783d; opacity: 0.13; stroke: #d7783d; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m3c0594b325" d="M 0 0
+L 0 3.5
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m3c0594b325" x="144.955752" y="337.824" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="144.955752" y="353.942125" transform="rotate(-0 144.955752 353.942125)">Jan</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m3c0594b325" x="206.681416" y="337.824" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="206.681416" y="353.942125" transform="rotate(-0 206.681416 353.942125)">Feb</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m3c0594b325" x="262.433628" y="337.824" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="262.433628" y="353.942125" transform="rotate(-0 262.433628 353.942125)">Mar</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m3c0594b325" x="324.159292" y="337.824" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="324.159292" y="353.942125" transform="rotate(-0 324.159292 353.942125)">Apr</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m3c0594b325" x="383.893805" y="337.824" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="383.893805" y="353.942125" transform="rotate(-0 383.893805 353.942125)">May</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m3c0594b325" x="445.619469" y="337.824" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="445.619469" y="353.942125" transform="rotate(-0 445.619469 353.942125)">Jun</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m3c0594b325" x="505.353982" y="337.824" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="505.353982" y="353.942125" transform="rotate(-0 505.353982 353.942125)">Jul</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m3c0594b325" x="567.079646" y="337.824" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="567.079646" y="353.942125" transform="rotate(-0 567.079646 353.942125)">Aug</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m3c0594b325" x="628.80531" y="337.824" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="628.80531" y="353.942125" transform="rotate(-0 628.80531 353.942125)">Sep</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m3c0594b325" x="688.539823" y="337.824" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="688.539823" y="353.942125" transform="rotate(-0 688.539823 353.942125)">Oct</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m3c0594b325" x="750.265487" y="337.824" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="750.265487" y="353.942125" transform="rotate(-0 750.265487 353.942125)">Nov</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m3c0594b325" x="810" y="337.824" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="810" y="353.942125" transform="rotate(-0 810 353.942125)">Dec</text>
+     </g>
+    </g>
+    <g id="text_13">
+     <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="472.5" y="369.555875" transform="rotate(-0 472.5 369.555875)">2018 outcome-calendar dates</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13">
+      <defs>
+       <path id="mecbe145b36" d="M 0 0
+L -3.5 0
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mecbe145b36" x="135" y="99.477818" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: end" x="128" y="104.036881" transform="rotate(-0 128 104.036881)">2018-01-01</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#mecbe145b36" x="135" y="144.877091" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: end" x="128" y="149.436153" transform="rotate(-0 128 149.436153)">2018-02-01</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#mecbe145b36" x="135" y="190.276364" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: end" x="128" y="194.835426" transform="rotate(-0 128 194.835426)">2018-03-01</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#mecbe145b36" x="135" y="235.675636" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: end" x="128" y="240.234699" transform="rotate(-0 128 240.234699)">2018-05-01</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#mecbe145b36" x="135" y="281.074909" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: end" x="128" y="285.633972" transform="rotate(-0 128 285.633972)">2018-06-01</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#mecbe145b36" x="135" y="326.474182" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: end" x="128" y="331.033244" transform="rotate(-0 128 331.033244)">2018-07-01</text>
+     </g>
+    </g>
+    <g id="text_20">
+     <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="51.765625" y="212.976" transform="rotate(-90 51.765625 212.976)">Candidate snapshot</text>
+    </g>
+   </g>
+   <g id="line2d_19">
+    <path d="M 144.955752 99.477818
+L 324.159292 99.477818
+" clip-path="url(#pb753b43a07)" style="fill: none; stroke: #3967a6; stroke-width: 9"/>
+   </g>
+   <g id="line2d_20">
+    <path d="M 144.955752 99.477818
+L 324.159292 99.477818
+" clip-path="url(#pb753b43a07)" style="fill: none; stroke: #d7783d; stroke-width: 9"/>
+   </g>
+   <g id="line2d_21">
+    <path d="M 206.681416 144.877091
+L 385.884956 144.877091
+" clip-path="url(#pb753b43a07)" style="fill: none; stroke: #3967a6; stroke-width: 9"/>
+   </g>
+   <g id="line2d_22">
+    <path d="M 206.681416 144.877091
+L 385.884956 144.877091
+" clip-path="url(#pb753b43a07)" style="fill: none; stroke: #d7783d; stroke-width: 9"/>
+   </g>
+   <g id="line2d_23">
+    <path d="M 262.433628 190.276364
+L 441.637168 190.276364
+" clip-path="url(#pb753b43a07)" style="fill: none; stroke: #3967a6; stroke-width: 9"/>
+   </g>
+   <g id="line2d_24">
+    <path d="M 262.433628 190.276364
+L 441.637168 190.276364
+" clip-path="url(#pb753b43a07)" style="fill: none; stroke: #d7783d; stroke-width: 9"/>
+   </g>
+   <g id="line2d_25">
+    <path d="M 383.893805 235.675636
+L 563.097345 235.675636
+" clip-path="url(#pb753b43a07)" style="fill: none; stroke: #3967a6; stroke-width: 9"/>
+   </g>
+   <g id="line2d_26">
+    <path d="M 383.893805 235.675636
+L 503.362832 235.675636
+" clip-path="url(#pb753b43a07)" style="fill: none; stroke: #d7783d; stroke-width: 9"/>
+   </g>
+   <g id="line2d_27">
+    <path d="M 445.619469 281.074909
+L 624.823009 281.074909
+" clip-path="url(#pb753b43a07)" style="fill: none; stroke: #3967a6; stroke-width: 9"/>
+   </g>
+   <g id="line2d_28">
+    <path d="M 445.619469 281.074909
+L 503.362832 281.074909
+" clip-path="url(#pb753b43a07)" style="fill: none; stroke: #d7783d; stroke-width: 9"/>
+   </g>
+   <g id="line2d_29">
+    <path d="M 505.353982 326.474182
+L 634.778761 326.474182
+" clip-path="url(#pb753b43a07)" style="fill: none; stroke: #3967a6; stroke-width: 9"/>
+   </g>
+   <g id="line2d_30">
+    <path d="M 634.778761 326.474182
+L 684.557522 326.474182
+" clip-path="url(#pb753b43a07)" style="fill: none; stroke-dasharray: 3,4.95; stroke-dashoffset: 0; stroke: #7b8794; stroke-width: 3"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 135 337.824
+L 135 88.128
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 135 337.824
+L 810 337.824
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_21">
+    <text style="font: 10px 'DejaVu Sans'; text-anchor: start" x="330.132743" y="102.237193" transform="rotate(-0 330.132743 102.237193)">90/90 days overlap</text>
+   </g>
+   <g id="text_22">
+    <text style="font: 10px 'DejaVu Sans'; text-anchor: start" x="391.858407" y="147.636466" transform="rotate(-0 391.858407 147.636466)">90/90 days overlap</text>
+   </g>
+   <g id="text_23">
+    <text style="font: 10px 'DejaVu Sans'; text-anchor: start" x="447.610619" y="193.035739" transform="rotate(-0 447.610619 193.035739)">90/90 days overlap</text>
+   </g>
+   <g id="text_24">
+    <text style="font: 10px 'DejaVu Sans'; text-anchor: start" x="569.070796" y="238.435011" transform="rotate(-0 569.070796 238.435011)">60/90 days overlap</text>
+   </g>
+   <g id="text_25">
+    <text style="font: 10px 'DejaVu Sans'; text-anchor: start" x="630.79646" y="283.834284" transform="rotate(-0 630.79646 283.834284)">29/90 days overlap</text>
+   </g>
+   <g id="text_26">
+    <text style="font: 10px 'DejaVu Sans'; text-anchor: start" x="690.530973" y="329.233557" transform="rotate(-0 690.530973 329.233557)">25 days beyond observed dates</text>
+   </g>
+  </g>
+  <g id="text_27">
+   <text style="fill: #536171; font: 9px 'DejaVu Sans'; text-anchor: start" x="54" y="478.665169" transform="rotate(-0 54 478.665169)">Calendar audit of 90-day targets | Raw approved positive-value orders | Outcome labels were not regenerated</text>
+  </g>
+  <g id="text_28">
+   <text style="font: 700 19px 'DejaVu Sans'; text-anchor: start" x="54" y="34.021031" transform="rotate(-0 54 34.021031)">New snapshot dates still need exposure and coverage checks</text>
+  </g>
+  <g id="legend_1">
+   <g id="line2d_31">
+    <path d="M 138.6 420.681656
+L 147.6 420.681656
+L 156.6 420.681656
+" style="fill: none; stroke: #d7783d; stroke-width: 7; stroke-linecap: square"/>
+   </g>
+   <g id="text_29">
+    <text style="font: 9px 'DejaVu Sans'; text-anchor: start" x="163.8" y="423.831656" transform="rotate(-0 163.8 423.831656)">Overlap with previously seen target calendars</text>
+   </g>
+   <g id="line2d_32">
+    <path d="M 138.6 433.891969
+L 147.6 433.891969
+L 156.6 433.891969
+" style="fill: none; stroke: #3967a6; stroke-width: 7; stroke-linecap: square"/>
+   </g>
+   <g id="text_30">
+    <text style="font: 9px 'DejaVu Sans'; text-anchor: start" x="163.8" y="437.041969" transform="rotate(-0 163.8 437.041969)">Within observed event-date envelope</text>
+   </g>
+   <g id="line2d_33">
+    <path d="M 138.6 447.102281
+L 147.6 447.102281
+L 156.6 447.102281
+" style="fill: none; stroke-dasharray: 2,3.3; stroke-dashoffset: 0; stroke: #7b8794; stroke-width: 2"/>
+   </g>
+   <g id="text_31">
+    <text style="font: 9px 'DejaVu Sans'; text-anchor: start" x="163.8" y="450.252281" transform="rotate(-0 163.8 450.252281)">Beyond observed event dates</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb753b43a07">
+   <rect x="135" y="88.128" width="675" height="249.696"/>
+  </clipPath>
+ </defs>
+</svg>

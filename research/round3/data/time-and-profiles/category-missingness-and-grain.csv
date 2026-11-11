@@ -1,0 +1,7 @@
+snapshot_date,cluster_id,customers,history_orders,category_customer_pairs,customers_with_missing_category,customers_with_known_category,customers_with_both_known_and_missing,customers_without_any_known_category,source_item_rows
+2017-10-01,0,11489,11489,11599,168,11326,5,163,13086
+2017-10-01,1,9121,9121,9170,204,8922,5,199,10202
+2017-10-01,2,550,1147,807,16,550,16,0,1352
+2018-01-01,0,16335,16335,16457,297,16053,15,282,18755
+2018-01-01,1,12330,12330,12437,172,12163,5,167,14000
+2018-01-01,2,703,1469,1072,26,703,26,0,1785

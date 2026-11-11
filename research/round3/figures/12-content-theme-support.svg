@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="849.6pt" height="489.6pt" viewBox="0 0 849.6 489.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-11T17:53:48.106556</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 489.6
+L 849.6 489.6
+L 849.6 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 106.2 391.68
+L 764.64 391.68
+L 764.64 88.128
+L 106.2 88.128
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 136.129091 391.68
+L 267.068864 391.68
+L 267.068864 295.172702
+L 136.129091 295.172702
+z
+" clip-path="url(#p888c1d3e64)" style="fill: #3967a6"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 369.950114 391.68
+L 500.889886 391.68
+L 500.889886 280.484282
+L 369.950114 280.484282
+z
+" clip-path="url(#p888c1d3e64)" style="fill: #d7783d"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 603.771136 391.68
+L 734.710909 391.68
+L 734.710909 154.19266
+L 603.771136 154.19266
+z
+" clip-path="url(#p888c1d3e64)" style="fill: #16806a"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m25efe356de" d="M 0 0
+L 0 3.5
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m25efe356de" x="201.598977" y="391.68" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="201.598977" y="407.798125" transform="rotate(-0 201.598977 407.798125)">Recent single</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m25efe356de" x="435.42" y="391.68" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="435.42" y="407.798125" transform="rotate(-0 435.42 407.798125)">Long single</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m25efe356de" x="669.241023" y="391.68" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="669.241023" y="407.798125" transform="rotate(-0 669.241023 407.798125)">Multiple orders</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <defs>
+       <path id="m399a0239cf" d="M 0 0
+L -3.5 0
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m399a0239cf" x="106.2" y="391.68" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: end" x="99.2" y="396.239062" transform="rotate(-0 99.2 396.239062)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m399a0239cf" x="106.2" y="341.088" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: end" x="99.2" y="345.647062" transform="rotate(-0 99.2 345.647062)">5</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m399a0239cf" x="106.2" y="290.496" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: end" x="99.2" y="295.055062" transform="rotate(-0 99.2 295.055062)">10</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m399a0239cf" x="106.2" y="239.904" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: end" x="99.2" y="244.463063" transform="rotate(-0 99.2 244.463063)">15</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m399a0239cf" x="106.2" y="189.312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: end" x="99.2" y="193.871062" transform="rotate(-0 99.2 193.871062)">20</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m399a0239cf" x="106.2" y="138.72" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: end" x="99.2" y="143.279062" transform="rotate(-0 99.2 143.279062)">25</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m399a0239cf" x="106.2" y="88.128" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: end" x="99.2" y="92.687063" transform="rotate(-0 99.2 92.687063)">30</text>
+     </g>
+    </g>
+    <g id="text_11">
+     <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="77.434375" y="239.904" transform="rotate(-90 77.434375 239.904)">Customers with bed / bath / table purchases (%)</text>
+    </g>
+   </g>
+   <g id="line2d_11">
+    <path d="M 106.2 285.63112
+L 764.64 285.63112
+" clip-path="url(#p888c1d3e64)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #7b8794; stroke-width: 1.5"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 106.2 391.68
+L 106.2 88.128
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 106.2 391.68
+L 764.64 391.68
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="font: 12px 'DejaVu Sans'" transform="translate(182.538665 273.239702)">9.54%</text>
+    <text style="font: 12px 'DejaVu Sans'" transform="translate(161.406477 286.677077)">1,558/16,335</text>
+   </g>
+   <g id="text_13">
+    <text style="font: 12px 'DejaVu Sans'" transform="translate(412.542187 258.551282)">10.99%</text>
+    <text style="font: 12px 'DejaVu Sans'" transform="translate(395.2275 271.988657)">1,355/12,330</text>
+   </g>
+   <g id="text_14">
+    <text style="font: 12px 'DejaVu Sans'" transform="translate(646.36321 132.25966)">23.47%</text>
+    <text style="font: 12px 'DejaVu Sans'" transform="translate(644.314773 145.697035)">165/703</text>
+   </g>
+   <g id="legend_1">
+    <g id="line2d_12">
+     <path d="M 116.1 102.536281
+L 127.1 102.536281
+L 138.1 102.536281
+" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #7b8794; stroke-width: 1.5"/>
+    </g>
+    <g id="text_15">
+     <text style="font: 11px 'DejaVu Sans'; text-anchor: start" x="146.9" y="106.386281" transform="rotate(-0 146.9 106.386281)">All January customers: 10.48%</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="fill: #536171; font: 9px 'DejaVu Sans'; text-anchor: start" x="50.976" y="478.665169" transform="rotate(-0 50.976 478.665169)">Jan historical purchases, t-6 months to t | Theme selected using October support counts</text>
+  </g>
+  <g id="text_17">
+   <text style="font: 700 19px 'DejaVu Sans'; text-anchor: start" x="50.976" y="34.021031" transform="rotate(-0 50.976 34.021031)">Historical category support can motivate a content hypothesis</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p888c1d3e64">
+   <rect x="106.2" y="88.128" width="658.44" height="303.552"/>
+  </clipPath>
+ </defs>
+</svg>

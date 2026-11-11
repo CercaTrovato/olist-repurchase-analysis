@@ -4,7 +4,7 @@
   "course": "IS6400",
   "as_of": "2026-11-11",
   "timezone": "Asia/Shanghai",
-  "source_revision": "825d2d47963385120d5d38302bf3a3f3eebe0d8ef40792e335bfcd251fa86d46",
+  "source_revision": "df3f4cd981b1a82e246aae58ba02236c33865e55454f9ce51ad15cb7b554d8fe",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
   "stale": false,
   "scheduling_policy": {
@@ -37,7 +37,7 @@
       "title": "确定最终评价口径",
       "owner": "本人 · 总监督",
       "status": "needs_review",
-      "personal_action": "确认原八字段加权全局方案是否正式冻结，并记录真实选择依据、版本与时间。",
+      "personal_action": "按统一指标比较并确认展示采用方法。",
       "readiness": "ready",
       "target": {
         "value": "2026-11-12",
@@ -46,7 +46,7 @@
       },
       "blocked_by": [],
       "estimated_minutes": null,
-      "observed_on": "2026-11-10",
+      "observed_on": "2026-11-11",
       "date_state": "next_7_days"
     },
     {
@@ -65,6 +65,23 @@
       "estimated_minutes": null,
       "observed_on": "2026-11-11",
       "date_state": "next_7_days"
+    },
+    {
+      "id": "my-round3-dispatch",
+      "title": "分发第三轮独立策略任务包",
+      "owner": "本人 · 6号",
+      "status": "planned",
+      "personal_action": "本人发群并收各岗预计交付时间，记录实际接单。",
+      "readiness": "ready",
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "blocked_by": [],
+      "estimated_minutes": null,
+      "observed_on": "2026-11-11",
+      "date_state": "unscheduled"
     },
     {
       "id": "my-liu-reminder-20261116",

@@ -1,0 +1,4 @@
+category,planning_control_rate,absolute_effect,relative_effect,alpha_two_sided,target_power,required_per_arm,required_total,historical_max_eligible,balanced_available_per_arm,feasible_before_contactability_losses,baseline_expected_events_per_available_arm,observed_control_rate_for_this_category
+bed_bath_table,0.00783165350041,0.005,0.638434782609,0.05,0.8,6420,12840,3078,1539,False,12.0529147371,not_estimated_not_used_to_choose_theme
+bed_bath_table,0.00783165350041,0.01,1.27686956522,0.05,0.8,1988,3976,3078,1539,False,12.0529147371,not_estimated_not_used_to_choose_theme
+bed_bath_table,0.00783165350041,0.02,2.55373913043,0.05,0.8,687,1374,3078,1539,True,12.0529147371,not_estimated_not_used_to_choose_theme

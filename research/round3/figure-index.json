@@ -1,0 +1,106 @@
+[
+  {
+    "id": "01-group-size-and-rates",
+    "title": "The customer pool is mostly single-order buyers",
+    "caption_zh": "一月分群规模与复购率。近期单单16,335人、久单12,330人、多单703人。多单群复购率较高。单单指历史半年内只买一次。",
+    "png": "figures/01-group-size-and-rates.png",
+    "svg": "figures/01-group-size-and-rates.svg",
+    "source": "Jan 2018 | N=29,368; positives=230 | H02 + H05-km3-v1 | Observed historical repurchases"
+  },
+  {
+    "id": "02-fields-by-weighting",
+    "title": "Class weighting helps one input set and hurts another",
+    "caption_zh": "一月相同2,937个名额，三字段加权51→48，八字段加权46→50。加权收益取决于输入组合。",
+    "png": "figures/02-fields-by-weighting.png",
+    "svg": "figures/02-fields-by-weighting.svg",
+    "source": "Oct 2017 training; Jan 2018 development | K=2,937 | Four controlled fits"
+  },
+  {
+    "id": "03-global-versus-fixed-group",
+    "title": "Global coverage and fixed-group ranking answer different questions",
+    "caption_zh": "加入群号全局50→52，但固定久单79名额仍命中2人。两项交互和金额单项交互都降为全局42、固定久单0。",
+    "png": "figures/03-global-versus-fixed-group.png",
+    "svg": "figures/03-global-versus-fixed-group.svg",
+    "source": "Oct training; Jan development | Same H05 groups | Fixed-group evaluation is a diagnostic"
+  },
+  {
+    "id": "04-graph-design-grid",
+    "title": "Graph construction and depth change the result",
+    "caption_zh": "格内为三种子命中中位数，括号为最小—最大。所有结果来自同一已见一月，不是三期验证。",
+    "png": "figures/04-graph-design-grid.png",
+    "svg": "figures/04-graph-design-grid.svg",
+    "source": "Jan 2018 development | K=2,937 | Median (min-max), seeds 2026/2027/2028 | Seed ranges within one development period"
+  },
+  {
+    "id": "05-gcn-residual-contrast",
+    "title": "Residual connections restore total hits while long-single hits fall",
+    "caption_zh": "同卖家图、两层8维。加残差与对比后的全局命中46/48/44，久单0/1/0。点是随机种子，不能解释为时间稳定性。",
+    "png": "figures/05-gcn-residual-contrast.png",
+    "svg": "figures/05-gcn-residual-contrast.svg",
+    "source": "Oct training; Jan development | Same-seller graph, two layers / 8 units | Three fixed seeds"
+  },
+  {
+    "id": "06-feature-evidence-shift",
+    "title": "A promising training difference shrinks in development",
+    "caption_zh": "久单群家具装饰候选在十月差异较大，到一月差距收窄。历史比例用于提出特征假设，模型增益另验。",
+    "png": "figures/06-feature-evidence-shift.png",
+    "svg": "figures/06-feature-evidence-shift.svg",
+    "source": "Long-single group | Training-selected category | Repeated buyers may appear across periods"
+  },
+  {
+    "id": "07-six-method-comparison",
+    "title": "Simple history-based rules are strong competitors",
+    "caption_zh": "一月同取2,937人，最近购买30，多单优先48，三字段51，原八字段46，加权50，加群号52。较高的单期分数仍需结合差异区间判断。",
+    "png": "figures/07-six-method-comparison.png",
+    "svg": "figures/07-six-method-comparison.svg",
+    "source": "Oct training; Jan development | N=29,368; positives=230 | Six fixed methods"
+  },
+  {
+    "id": "08-capacity-sensitivity",
+    "title": "Method rankings depend on list capacity",
+    "caption_zh": "统一比较5%、10%、20%容量，候选排序随名额改变。连线辅助读取三个已计算容量点。",
+    "png": "figures/08-capacity-sensitivity.png",
+    "svg": "figures/08-capacity-sensitivity.svg",
+    "source": "Jan 2018 development | Same customers and score tie-breaking rule | Computed capacities: 5%, 10%, 20%"
+  },
+  {
+    "id": "09-conditional-uncertainty",
+    "title": "Small differences remain uncertain on the January sample",
+    "caption_zh": "点为观察到的命中差，线为2,000次配对客户重采样95%百分位区间。加权相对最近购买+20[7,34]，与另外三种强对照的区间均跨0。已拟合分数条件下的区间不包含重训或新时期的不确定性。",
+    "png": "figures/09-conditional-uncertainty.png",
+    "svg": "figures/09-conditional-uncertainty.svg",
+    "source": "Jan development, K=2,937 | 2,000 paired customer resamples | Conditional on fitted scores"
+  },
+  {
+    "id": "10-time-window-validity",
+    "title": "New snapshot dates still need exposure and coverage checks",
+    "caption_zh": "候选日期的90天目标与已见一月/四月目标日历重叠。7月目标虽不重叠，但有25天超出源合格事件日期上界。日历重叠不是逐客户标签完全相同的证明，数据日期覆盖也不证明无漏采。",
+    "png": "figures/10-time-window-validity.png",
+    "svg": "figures/10-time-window-validity.svg",
+    "source": "Calendar audit of 90-day targets | Raw approved positive-value orders | Outcome labels were not regenerated"
+  },
+  {
+    "id": "11-new-information-ablation",
+    "title": "New delivery and review fields do not improve the main comparison",
+    "caption_zh": "冻结两个新字段组后，一月全局原版50，配送46、评价45、组合46；久单固定79人分别2、2、1、1。组合版在全局给久单281个名额、命中4，与固定名额结果同时报告。",
+    "png": "figures/11-new-information-ablation.png",
+    "svg": "figures/11-new-information-ablation.svg",
+    "source": "Oct training; Jan development | Four pre-specified weighted LR input sets | Timestamp-safe features"
+  },
+  {
+    "id": "12-content-theme-support",
+    "title": "Historical category support can motivate a content hypothesis",
+    "caption_zh": "床品/卫浴/餐桌用品主题按十月全体历史支持人数选择。一月三群买过的客户为1558/16335、1355/12330、165/703，整体3078/29368。客户按类别去重，比例为历史支持。",
+    "png": "figures/12-content-theme-support.png",
+    "svg": "figures/12-content-theme-support.svg",
+    "source": "Jan historical purchases, t-6 months to t | Theme selected using October support counts"
+  },
+  {
+    "id": "13-content-trial-feasibility",
+    "title": "Illustrative sample-size planning for a future content trial",
+    "caption_zh": "假设控制率0.783%、双侧5%、80%功效，识别绝对+0.5个百分点约需每组6420人。历史主题支持池3078人只是联系资格损失前的上限。最小效应需由真实业务价值确定。",
+    "png": "figures/13-content-trial-feasibility.png",
+    "svg": "figures/13-content-trial-feasibility.svg",
+    "source": "Proposed trial, not an observed effect | Two-arm normal approximation | No treatment records in Olist"
+  }
+]

@@ -1,0 +1,13 @@
+snapshot_date,window,start_inclusive,end_exclusive,calendar_days,eligible_orders,days_with_eligible_order,zero_order_days,longest_zero_order_run,days_outside_observed_event_date_envelope,min_daily_orders,median_daily_orders,first_observed_eligible_order_day,last_observed_eligible_order_day,source_system_completeness_proven
+2018-01-01,history_6calendar_months,2017-07-01,2018-01-01,184,30134,184,0,0,0,52,146,2017-07-01,2017-12-31,False
+2018-01-01,target_90days,2018-01-01,2018-04-01,90,21084,90,0,0,0,5,229.5,2018-01-01,2018-03-31,False
+2018-02-01,history_6calendar_months,2017-08-01,2018-02-01,184,33352,184,0,0,0,5,160.5,2017-08-01,2018-01-31,False
+2018-02-01,target_90days,2018-02-01,2018-05-02,90,21122,87,3,3,0,0,225,2018-02-01,2018-05-01,False
+2018-03-01,history_6calendar_months,2017-09-01,2018-03-01,181,35710,181,0,0,0,5,180,2017-09-01,2018-02-28,False
+2018-03-01,target_90days,2018-03-01,2018-05-30,90,20798,87,3,3,0,0,224,2018-03-01,2018-05-29,False
+2018-05-01,history_6calendar_months,2017-11-01,2018-05-01,181,40954,178,3,3,0,0,220,2017-11-01,2018-04-30,False
+2018-05-01,target_90days,2018-05-01,2018-07-30,90,18747,89,1,1,0,0,195.5,2018-05-01,2018-07-29,False
+2018-06-01,history_6calendar_months,2017-12-01,2018-06-01,182,40692,179,3,3,0,0,220,2017-12-01,2018-05-31,False
+2018-06-01,target_90days,2018-06-01,2018-08-30,90,18928,88,2,1,0,0,206.5,2018-06-01,2018-08-29,False
+2018-07-01,history_6calendar_months,2018-01-01,2018-07-01,181,41060,178,3,3,0,0,223,2018-01-01,2018-06-30,False
+2018-07-01,target_90days,2018-07-01,2018-09-29,90,12772,59,31,25,25,0,128,2018-07-01,2018-09-03,False

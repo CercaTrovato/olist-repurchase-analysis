@@ -4,9 +4,9 @@
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
   "as_of": "2026-11-11",
-  "basis_revision": "830bda6cf09bd00b63e8f86bd96e464fc69afe4086880aa378ee107b950ebd91",
+  "basis_revision": "c187209308461fe38583a7a365d84114d4e323e00c99e8451e426cf3648a04db",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "H04 v0.4 已补齐四月评分材料，课程会话复跑三份名单逐人一致，命中 45／64／65，19 项文件校验通过。一月 H06 已核 46→50。剩余工作是修正交接措辞、记录真实正式冻结并收 H07；四月保持已见补充评估。",
+  "summary": "6号已确认全局命中优先、久单诊断及12日21:00展示方法冻结。第三轮本地六基线、配送评价消融、时间审计和内容试验草案已完成，13幅PNG/SVG及成员独立策略任务包已准备。新增字段主K未改善，强方法小差异仍不确定。第三轮待本人实际分发；最终采用模型及H07仍待确认。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
@@ -16,10 +16,10 @@
       "owner": "本人 · 总监督",
       "owner_role": "me",
       "scope": "team",
-      "summary": "主方案候选为原八字段＋类别加权逻辑回归＋全局 Top 10%；6号已认可可行，本地已做独立四月回测。 真实正式冻结版本、时间与选型依据待记录；评分后生成的配置 JSON 不等于事前冻结证明。",
+      "summary": "主目标和截止已由本人确认；最终采用模型及真实冻结版本/理由待统一比较后记录。",
       "deliverable": "决定方法冻结后怎样评价，并清楚披露哪些时期已经看过。",
-      "next_action": "6 号确认实际选择及其依据；如缺早期记录就如实标明，不倒填冻结时间。",
-      "my_next_action": "确认原八字段加权全局方案是否正式冻结，并记录真实选择依据、版本与时间。",
+      "next_action": "对照第三轮本地与成员回件，记录实际采用版本、依据和真实时间。",
+      "my_next_action": "按统一指标比较并确认展示采用方法。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -45,7 +45,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-10",
+      "observed_on": "2026-11-11",
       "estimated_minutes": null,
       "state_basis": "沿用已有核验；未凭文件存在推定正式提交。 本日期为总监督建议，待相关成员确认，不改变正式截止。",
       "evidence": [
@@ -371,9 +371,9 @@
       "owner": "本地辅助 1–5 号；本人核取舍",
       "owner_role": "member",
       "scope": "supporting",
-      "summary": "本地一月10%多单规则48、三字段未加权51、八字段加权50。H05四版全体50／52／42／42，固定久单79人命中2／2／0／0。GCN残差＋对比全体46／48／44、久单0／1／0。本地四月回测45／64／65有独立记录。 本地探索与组员交件分开；v0.4 团队四月名单已有独立复跑依据。三种子共享一月，不是三期外推。",
+      "summary": "第三轮六基线、配送评价、时间审计、画像及13幅图已完成；仍待与真实成员方案对照和本人决定采用。",
       "deliverable": "用锁定的十月拟合管线、相同四月客户与前 10% 名额，对照原版和最近购买基线。",
-      "next_action": "保留完整公开汇总作对照；后续选择只用十月训练与一月开发，不用四月反馈挑方法。",
+      "next_action": "分发共同目标任务包，收成员独立策略后比较。",
       "my_next_action": null,
       "depends_on": [],
       "dependency_gates": [],
@@ -410,7 +410,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-10",
+      "observed_on": "2026-11-11",
       "estimated_minutes": null,
       "state_basis": "沿用已有核验；未凭文件存在推定正式提交。",
       "evidence": [
@@ -436,6 +436,11 @@
           "observed_on": "2026-11-10",
           "status": "needs_review",
           "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        },
+        {
+          "observed_on": "2026-11-11",
+          "status": "needs_review",
+          "note": "新增第三轮本地四线结果与13幅图，正式采用保持待决定。"
         }
       ]
     },
@@ -1031,13 +1036,13 @@
       "target": {
         "value": "2026-11-12T21:00:00+08:00",
         "precision": "datetime",
-        "basis": "proposed"
+        "basis": "agreed"
       },
       "started_on": null,
       "completed_on": null,
       "observed_on": "2026-11-10",
       "estimated_minutes": null,
-      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "state_basis": "本人2026-11-11明确同意展示方法采用截止；成员交付承诺另记。",
       "evidence": [
         {
           "label": "已发布的六人协作与交付倒排",
@@ -1049,6 +1054,11 @@
           "observed_on": "2026-11-10",
           "status": "planned",
           "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        },
+        {
+          "observed_on": "2026-11-11",
+          "status": "planned",
+          "note": "本人确认11月12日21:00展示采用截止，最终方法尚待选择。"
         }
       ],
       "milestone_kind": "internal"
@@ -1672,6 +1682,96 @@
           "observed_on": "2026-11-11",
           "status": "waiting",
           "note": "根据本人指示新增；会面日期为拟约周一，教师回复和具体时刻待确认。"
+        }
+      ]
+    },
+    {
+      "id": "local-round3-research",
+      "title": "本地第三轮四线与可视化素材",
+      "status": "done",
+      "owner": "本人 · 6号",
+      "owner_role": "me",
+      "scope": "supporting",
+      "summary": "六基线、新字段、时间审计、群画像及13幅PNG/SVG研究图已核。",
+      "deliverable": "六基线、新字段、时间审计、群画像及13幅PNG/SVG研究图已核。",
+      "next_action": "与成员新回件对照并决定展示采用内容。",
+      "my_next_action": "与成员新回件对照并决定展示采用内容。",
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "result",
+          "label": "六基线、新字段、时间审计、群画像及13幅PNG/SVG研究图已核。",
+          "status": "pass",
+          "evidence": []
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": "2026-11-11",
+      "completed_on": "2026-11-11",
+      "observed_on": "2026-11-11",
+      "estimated_minutes": null,
+      "state_basis": "本地影子结果与成员实际交件分开；实际发群状态待本人确认。",
+      "evidence": [
+        {
+          "label": "第三轮研究与任务包",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/tree/main/docs/team/round-3"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-11",
+          "status": "done",
+          "note": "六基线、新字段、时间审计、群画像及13幅PNG/SVG研究图已核。"
+        }
+      ]
+    },
+    {
+      "id": "my-round3-dispatch",
+      "title": "分发第三轮独立策略任务包",
+      "status": "planned",
+      "owner": "本人 · 6号",
+      "owner_role": "me",
+      "scope": "team",
+      "summary": "准备好的1-5号MD任务包待本人实际分发。",
+      "deliverable": "准备好的1-5号MD任务包待本人实际分发。",
+      "next_action": "本人发群并收各岗预计交付时间，记录实际接单。",
+      "my_next_action": "本人发群并收各岗预计交付时间，记录实际接单。",
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "result",
+          "label": "准备好的1-5号MD任务包待本人实际分发。",
+          "status": "unknown",
+          "evidence": []
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-11",
+      "estimated_minutes": null,
+      "state_basis": "本地影子结果与成员实际交件分开；实际发群状态待本人确认。",
+      "evidence": [
+        {
+          "label": "第三轮研究与任务包",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/tree/main/docs/team/round-3"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-11",
+          "status": "planned",
+          "note": "准备好的1-5号MD任务包待本人实际分发。"
         }
       ]
     }

@@ -1,0 +1,5 @@
+scope,n,positives,k,method,comparator,observed_weighted_hits,observed_comparator_hits,observed_difference,bootstrap_mean_difference,percentile_2_5,percentile_97_5,replicates,seed
+global,29368,230,2937,weightedLR,simpleMulti,50,48,2,1.9015,-7.0,11.0,2000,20261111
+global,29368,230,2937,weightedLR,LR3,50,51,-1,-0.276,-9.0,9.0,2000,20261111
+global,29368,230,2937,weightedLR,groupOnly,50,52,-2,-1.2945,-8.0,6.0,2000,20261111
+global,29368,230,2937,weightedLR,recency,50,30,20,19.846,7.0,34.0,2000,20261111

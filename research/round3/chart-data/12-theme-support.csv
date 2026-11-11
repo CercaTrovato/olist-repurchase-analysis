@@ -1,0 +1,4 @@
+snapshot_date,cluster_id,category,group_support_customers,group_denominator,group_share,all_support_customers,all_denominator,all_share,descriptive_ratio_to_all
+2018-01-01,0,bed_bath_table,1558,16335,0.0953780226507,3078,29368,0.104807954236,0.910026565694
+2018-01-01,1,bed_bath_table,1355,12330,0.109894566099,3078,29368,0.104807954236,1.04853268915
+2018-01-01,2,bed_bath_table,165,703,0.234708392603,3078,29368,0.104807954236,2.23941392916

@@ -48,3 +48,6 @@
 第三轮成员仍按已发任务自由设计策略，回传后与本地同容量结果并列检查。正式采用版本与真实冻结由6号决定，H07继续收稿。图内CB8/CB14分别指8/14个逻辑输入字段，U/B分别指未加权/平衡权重。
 
 ![全局与群内诊断](../../research/round3-extension/figures/18-global-and-within-group-diagnostics.png)
+
+
+[总监督接续思路与成员回传边界](round-3-extension-board-note.md)。

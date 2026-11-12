@@ -7,3 +7,6 @@
 [完整验收、问题和最小安排](../../research/team-round3-20261112/README.md) · [本批13图](round3-team-figures.md) · [逐岗状态](../../research/team-round3-20261112/acceptance.json) · [可复制群回复](../../research/team-round3-20261112/group-update.md)
 
 本地固定研究仍已收尾；这次2次已有配置复跑用于一致性核验，不是新候选搜索。四月无新评分。组员自报冻结、课程数值验收、6号正式采用和提交回执分开记录。
+
+
+[总监督接续：验收与合稿补件](round3-team-board-note.md) · [看板同源85图索引](board-85-figures.md)。

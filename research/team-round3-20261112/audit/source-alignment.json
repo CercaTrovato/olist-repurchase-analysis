@@ -1,0 +1,27 @@
+{
+  "H02_archive_sha256": "3b58f4e493e825a76ccc569f205cfa0db5d27e22b13389c3c00ff958a316419a",
+  "h02_rows": 88341,
+  "asof_rows": 88341,
+  "asof_duplicate_keys": 0,
+  "source_date_counts": [
+    {
+      "snapshot_date": "2017-10-01",
+      "n": 21160,
+      "positives": 211
+    },
+    {
+      "snapshot_date": "2018-01-01",
+      "n": 29368,
+      "positives": 230
+    },
+    {
+      "snapshot_date": "2018-04-01",
+      "n": 37813,
+      "positives": 299
+    }
+  ],
+  "external_role01_csv_matches": {
+    "field-time-audit.csv": true,
+    "time-window-audit.csv": true
+  }
+}

@@ -1,0 +1,35 @@
+check,status,expected,observed,note
+hash:snapshot_features.csv,PASS,ce62dedacb5af0e0...,ce62dedacb5af0e0...,MEMBER_HOME/xwechat_files\PRIVATE_WECHAT_ID\msg\file\2026-11\H02_candidate_v2\snapshot_features.csv
+hash:snapshot_labels.csv,PASS,5e75eae468449bb9...,5e75eae468449bb9...,MEMBER_HOME/xwechat_files\PRIVATE_WECHAT_ID\msg\file\2026-11\H02_candidate_v2\snapshot_labels.csv
+hash:coverage-and-cohorts.csv,PASS,a1003f7847e19428...,a1003f7847e19428...,MEMBER_HOME/xwechat_files\PRIVATE_WECHAT_ID\msg\file\2026-11\H02_candidate_v2\coverage-and-cohorts.csv
+hash:validation_clusters.csv,PASS,509e6df79c758be7...,509e6df79c758be7...,MEMBER_HOME/WorkBuddy AI\2026-11-08-15-56-13\private_inputs\H05_role04_2026-11-10\results\validation_clusters.csv
+hash:snapshot-asof-features.csv,PASS,549f050219929146...,549f050219929146...,MEMBER_HOME/WorkBuddy AI\2026-11-08-15-56-13\private_inputs\Round3_role01_time_v1\snapshot-asof-features.csv
+hash:H02_candidate_v2.zip,PASS,3b58f4e493e825a7...,3b58f4e493e825a7...,MEMBER_HOME/xwechat_files\PRIVATE_WECHAT_ID\msg\file\2026-11\H02_candidate_v2.zip
+hash:H04_role03_prediction_v0.4.zip,PASS,d22c2e9f8290f590...,d22c2e9f8290f590...,MEMBER_HOME/xwechat_files\PRIVATE_WECHAT_ID\msg\file\2026-11\H04_role03_prediction_v0.4.zip
+hash:H05_role04_2026-11-10(1).zip,PASS,7fd04f2ed38f3537...,7fd04f2ed38f3537...,MEMBER_HOME/xwechat_files\PRIVATE_WECHAT_ID\msg\file\2026-11\H05_role04_2026-11-10.zip
+hash:olist_orders_dataset.csv,PASS,8df58ef3d2d7e994...,8df58ef3d2d7e994...,
+hash:olist_customers_dataset.csv,PASS,983a422239e1712d...,983a422239e1712d...,
+hash:olist_order_items_dataset.csv,PASS,0bc4d068c4fe38cb...,0bc4d068c4fe38cb...,
+hash:olist_order_reviews_dataset.csv,PASS,012b61c7593e34f5...,012b61c7593e34f5...,
+role01 CHECKSUMS.sha256,PASS,0 mismatches,0 mismatches,CRLF-tolerant Python comparison
+H02 feature rows,PASS,88341,88341,
+asof rows,PASS,88341,88341,
+H02 feature key unique,PASS,0 duplicates,0,
+asof key unique,PASS,0 duplicates,0,
+feature/asof key alignment,PASS,all both,"{'both': 88341, 'left_only': 0, 'right_only': 0}",
+feature/label key alignment,PASS,all both,"{'both': 88341, 'left_only': 0, 'right_only': 0}",
+label domain,PASS,"{0,1}","[0, 1]",
+asof version,PASS,round3-role01-time-v1,['round3-role01-time-v1'],
+asof base version,PASS,H02-v2-candidate-reviewed,['H02-v2-candidate-reviewed'],
+October cluster labels cover all training customers,PASS,21160 keys,21160 keys,
+October cluster domain,PASS,"{0,1,2}","[0, 1, 2]",
+train_audit R/F/M/y == H02 (<=1e-10),PASS,<=1e-10,"{'R': 6e-14, 'F': 0.0, 'M': 0.0, 'y': 0.0}",
+January cluster labels cover all validation customers,PASS,29368 keys,29368 keys,
+January cluster counts,PASS,"{0:16335,1:12330,2:703}","{0: 16335, 1: 12330, 2: 703}",
+January cluster version,PASS,H05-km3-v1,['H05-km3-v1'],
+October cluster 1 recent30_orders all zero,PASS,all zero,max=0 nonzero=0,
+October cluster sizes == public support table,PASS,"{0: 11489, 1: 9121, 2: 550}","{0: 11489, 1: 9121, 2: 550}",
+asof key coverage 2017-10-01,PASS,all both,"{'both': 21160, 'left_only': 0, 'right_only': 0}",
+asof recompute 2017-10-01 (7 fields),PASS,7/7 PASS,7/7 PASS,independent implementation from raw CSVs; prediction-day truncation re-checked
+asof key coverage 2018-01-01,PASS,all both,"{'both': 29368, 'left_only': 0, 'right_only': 0}",
+asof recompute 2018-01-01 (7 fields),PASS,7/7 PASS,7/7 PASS,independent implementation from raw CSVs; prediction-day truncation re-checked

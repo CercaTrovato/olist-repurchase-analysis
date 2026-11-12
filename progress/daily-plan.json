@@ -4,7 +4,7 @@
   "course": "IS6400",
   "as_of": "2026-11-12",
   "timezone": "Asia/Shanghai",
-  "source_revision": "fbfbaf57a89f5c71a5934e913f53be05b13daf8688f05dbc26feddf6b2df3806",
+  "source_revision": "2a266f7100713f14465419165fe2e1a7530a83e8a7e6daa8245e1b793f7da0d6",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
   "stale": false,
   "scheduling_policy": {
@@ -84,11 +84,11 @@
       "date_state": "unscheduled"
     },
     {
-      "id": "research-questions-and-design",
-      "title": "建模质疑与逐步受控验证",
-      "owner": "本人 · 6号与本课程会话",
+      "id": "round3-member-returns",
+      "title": "收第三轮组员策略与结果",
+      "owner": "1–5号；本人统筹",
       "status": "in_progress",
-      "personal_action": "阅读目标取舍及真实团队版本，完成合稿。",
+      "personal_action": "按同版本验收汇总，确认正式采用并收H07。",
       "readiness": "ready",
       "target": {
         "value": null,
@@ -124,7 +124,7 @@
       "title": "本人下一步：团队四月名单复现与交接说明",
       "owner": "本人 · 统筹",
       "status": "waiting",
-      "personal_action": "核对 3 号修订后的交接说明，不再催已经验收的四月评分材料。",
+      "personal_action": "仅收3号已见窗口/冻结说明修订；数值已有历史复现，无需新跑四月。",
       "readiness": "waiting_external",
       "target": {
         "value": null,
@@ -133,7 +133,7 @@
       },
       "blocked_by": [],
       "estimated_minutes": null,
-      "observed_on": "2026-11-10",
+      "observed_on": "2026-11-12",
       "date_state": "unscheduled"
     }
   ],

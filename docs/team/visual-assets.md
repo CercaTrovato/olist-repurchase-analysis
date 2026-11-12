@@ -1,5 +1,7 @@
 # PPT与报告图表素材：累计72幅
 
+> 最新累计85幅：此前72幅＋本批13幅。[本批13图与当前画像](round3-team-figures.md) · [85图总入口](all-85-figures.md)。旧批次数量仅为历史。
+
 **当前累计72幅主图：此前66幅＋最后概率/价值/容量6幅。** [最新6图及图义](final-validation-figures.md) · [最终研究主线](final-research-closeout.md) · [含历史66图入口](all-66-figures.md)。每幅PNG/SVG按同一主图计数；不把两个格式算两幅。
 
 

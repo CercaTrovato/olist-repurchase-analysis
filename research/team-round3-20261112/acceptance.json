@@ -1,0 +1,63 @@
+{
+  "batch": "round3-team-intake-20261112",
+  "source_type": "real_member_deliveries",
+  "received_roles": [1, 2, 3, 4],
+  "role05_round3_final_receipt_received": false,
+  "formal_team_adoption_recorded": false,
+  "new_candidate_fits": 0,
+  "existing_config_replay_fits": 2,
+  "new_april_predictions": 0,
+  "role01": {
+    "status": "technical_acceptance_with_timestamp_assumptions",
+    "asof_rows": 88341,
+    "raw_oct_jan_field_compares": 14,
+    "external_csv_byte_matches": true,
+    "limits": ["Promise date historical version unverified", "Calendar maturity does not prove source completeness or ingestion timeliness"]
+  },
+  "role02": {
+    "status": "point_evidence_accepted_interval_derivative_corrected_author_ack_pending",
+    "training_point_effect_rows_recomputed": 56,
+    "interval_support_count_rows_corrected": 20,
+    "retained_january_direction_checks": 6,
+    "direction_flips": 2,
+    "private_candidate_original_tables_supplied": false,
+    "original_private_hashes_verified": false,
+    "feature_groups_tested_by_role03": false,
+    "minimal_followup": ["Use nonmissing positive/negative counts in d SE", "Update affected table/figure/checksums", "Do not relabel descriptive evidence as model gain"]
+  },
+  "role03": {
+    "status": "january_results_accepted_metadata_wording_and_environment_followup",
+    "january_customers": 29368,
+    "january_positives": 230,
+    "summary_rows_recomputed": 27,
+    "group_slice_rows_recomputed": 81,
+    "cv_rows_read_back_not_all_models_retrained": 45,
+    "base_weighted_global_K": 2937,
+    "base_weighted_hits": 50,
+    "base_weighted_long_selected": 73,
+    "base_weighted_long_hits": 2,
+    "independent_long_K": 79,
+    "independent_long_hits": 2,
+    "f0_replay_selected_key_matches": 2937,
+    "f0_replay_max_absolute_score_diff": 0.000052752416918044887,
+    "base_cv_preprocess_fit_within_fold": true,
+    "group_cv_representation_fixed_from_all_october": true,
+    "april_rows_never_parsed_claim_supported": false,
+    "april_fit_or_new_scoring_observed_in_reviewed_paths": false,
+    "minimal_followup": ["Label B/C CV conditional on fixed all-October H05 mapping", "Make final metadata regeneration reproducible", "Use seen-window backtest wording", "Record runtime versions and optimization diagnostics", "Explicitly state Role02 proposed groups not tested"]
+  },
+  "role04": {
+    "status": "profiles_categories_and_trial_math_accepted_new_score_cards_derived_locally",
+    "raw_category_rows_recomputed": 429,
+    "sample_size_scenarios_recomputed": 3,
+    "MDE_scenarios_recomputed": 3,
+    "original_profile_prediction_hits": 46,
+    "current_R3_profile_prediction_hits": 50,
+    "trial_executed": false,
+    "reachable_population_known": false,
+    "minimal_followup": ["Use current R3-bound profile cards for presentation", "Keep experiment design distinct from observed intervention effectiveness"]
+  },
+  "team_followup": ["Role05 final independent member acceptance", "Role06 formal objective/model/formula/capacity and actual freeze time", "Slides and English scripts collection and merge", "Actual submission receipt"],
+  "source_originals_preserved": true,
+  "private_row_tables_or_chat_images_for_publication": false
+}

@@ -1,0 +1,28 @@
+{
+  "status": "CORE_AGGREGATE_READBACK_PASS_WITH_EXPLICIT_SOURCE_GAPS",
+  "package_checks": 160,
+  "checksum_mismatches": [],
+  "h02_and_asof_rows": 88341,
+  "prediction_summary_rows_recomputed": 27,
+  "group_slice_rows_recomputed": 81,
+  "group_alignment": [
+    {
+      "date": "2017-10-01",
+      "rows": 21160,
+      "duplicates": 0,
+      "unmatched": 0,
+      "mismatched_labels": 0
+    },
+    {
+      "date": "2018-01-01",
+      "rows": 29368,
+      "duplicates": 0,
+      "unmatched": 0,
+      "mismatched_labels": 0
+    }
+  ],
+  "role02_group_integration_pending": true,
+  "role04_stale_prediction_columns_replaced_in_derivative_only": true,
+  "new_model_fits": 0,
+  "new_april_predictions": 0
+}

@@ -1,0 +1,11 @@
+event,date_or_rule,status,used_for
+history window start,2017-04-01,included,eligible purchase / approval
+order approval,< 2017-10-01,available,"H02 eligibility; F, M, R"
+actual delivery,< 2017-10-01,available,G1 fulfilment fields
+review answer,< 2017-10-01,available,G2 review fields
+snapshot t,2017-10-01,cut,prediction day; cut strictly before t
+label window start,2017-10-01,excluded,future repurchase y
+label window end,2017-12-30,excluded,"90-day target, right-open"
+final order_status,n/a,excluded,no state snapshot / change log
+estimated delivery date,may be > t,conditional,promise-date assumption unverified
+delivery / answer at or after t,>= 2017-10-01,excluded,future information

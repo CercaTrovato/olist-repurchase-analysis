@@ -1,0 +1,26 @@
+{
+  "base_version": "H02-v2-candidate-reviewed",
+  "feature_version": "round3-role01-time-v1",
+  "snapshot_rows": 88341,
+  "key": [
+    "customer_unique_id",
+    "snapshot_date"
+  ],
+  "raw_and_H02_sha256": {
+    "olist_orders_dataset.csv": "8df58ef3d2d7e9944010f7beecd9b75367f5588ec6e3c91cec19ae3345ef9ecf",
+    "olist_customers_dataset.csv": "983a422239e1712ded753b3bf9ecf47dc73f144d306029dcfa99e70a226883d2",
+    "olist_order_items_dataset.csv": "0bc4d068c4fe38cbb01bd90e8746e3c613fe7b4baef75fab7b0e329701c3e279",
+    "olist_order_reviews_dataset.csv": "012b61c7593e34f51fa614efdf802b9c7056ce6aae5307ddb93236e7cfc797d7",
+    "snapshot_features.csv": "ce62dedacb5af0e08c419586ff55e45043de56771553620ef3f08100e12712b9",
+    "snapshot_labels.csv": "5e75eae468449bb9810e8ac0b796bea588762dd6c3335f2923da91a46220888f",
+    "coverage-and-cohorts.csv": "a1003f7847e194281307f6c9f7ceb9a8a5ada1673bbd9e361875f04fa815c242"
+  },
+  "april_prior_summary_sha256": "f07735a540cae972b86250fc0907533799274da9199797a5ac14a3de1985d895",
+  "date_bounds": "left-closed right-open, source timestamps",
+  "python": "3.12.5",
+  "pandas": "2.3.3",
+  "matplotlib": "3.9.2",
+  "label_differences": 0,
+  "review_tie_break": "answer, creation, review_id, score; latest",
+  "privacy": "snapshot-asof-features.csv is team-only"
+}

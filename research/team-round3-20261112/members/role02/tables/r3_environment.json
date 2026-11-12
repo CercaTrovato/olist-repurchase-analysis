@@ -1,0 +1,16 @@
+{
+  "python": "3.13.14",
+  "pandas": "3.1.1",
+  "numpy": "2.5.4",
+  "matplotlib": "3.11.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seed": 2026,
+  "smoke": false,
+  "base_version": "H02-v2-candidate-reviewed",
+  "asof_version": "round3-role01-time-v1",
+  "cluster_version": "H05-km3-v1",
+  "sources": {
+    "H02_dir": "MEMBER_HOME/xwechat_files\\PRIVATE_WECHAT_ID\\msg\\file\\2026-11\\H02_candidate_v2",
+    "role01_dir": "MEMBER_HOME/WorkBuddy AI\\2026-11-08-15-56-13\\private_inputs\\Round3_role01_time_v1"
+  }
+}

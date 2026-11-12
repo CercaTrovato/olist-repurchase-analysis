@@ -1,0 +1,4 @@
+source,sha256,check
+field-time-audit.csv,13a5149195d15e964e4d84f724db8a166e54b509414978a536dc5bd91266db0a,external CSV byte-identical to ZIP member
+time-window-audit.csv,f0180de3a94aa000808ef96700fe6de09a577261f9132bdc4f50b3009024946c,external CSV byte-identical to ZIP member
+Round3_role01_time_v1.zip,a6242468f9af3bf4a0688f0e9c53a7b441b98b21c084650776219d2da3712f80,read-only reference; ZIP and private features excluded

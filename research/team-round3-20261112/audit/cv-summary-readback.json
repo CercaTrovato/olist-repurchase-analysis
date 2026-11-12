@@ -1,0 +1,84 @@
+{
+  "checks": [
+    {
+      "table": "basic",
+      "variant": "('F0_base', False)",
+      "folds": 5,
+      "summary_matches": true
+    },
+    {
+      "table": "basic",
+      "variant": "('F0_base', True)",
+      "folds": 5,
+      "summary_matches": true
+    },
+    {
+      "table": "basic",
+      "variant": "('F1_delivery', False)",
+      "folds": 5,
+      "summary_matches": true
+    },
+    {
+      "table": "basic",
+      "variant": "('F1_delivery', True)",
+      "folds": 5,
+      "summary_matches": true
+    },
+    {
+      "table": "basic",
+      "variant": "('F2_review', False)",
+      "folds": 5,
+      "summary_matches": true
+    },
+    {
+      "table": "basic",
+      "variant": "('F2_review', True)",
+      "folds": 5,
+      "summary_matches": true
+    },
+    {
+      "table": "group",
+      "variant": "('B_global_with_cluster',)",
+      "folds": 5,
+      "summary_matches": true
+    },
+    {
+      "table": "group",
+      "variant": "('C_segmented_group2_global_fallback',)",
+      "folds": 5,
+      "summary_matches": true
+    },
+    {
+      "table": "group",
+      "variant": "('F0_global_weighted',)",
+      "folds": 5,
+      "summary_matches": true
+    }
+  ],
+  "basic_rows": 30,
+  "group_rows": 15,
+  "fold_pool_counts": {
+    "1": [
+      4232,
+      42
+    ],
+    "2": [
+      4232,
+      42
+    ],
+    "3": [
+      4232,
+      42
+    ],
+    "4": [
+      4232,
+      42
+    ],
+    "5": [
+      4232,
+      43
+    ]
+  },
+  "new_model_fits": 0,
+  "not_claiming_cv_model_predictions_replayed": true
+}

@@ -1,0 +1,26 @@
+{
+  "status": "ACTUALLY_VIEWED_PASS",
+  "png_count": 13,
+  "new_candidate_fits": 0,
+  "existing_config_replays_separate": 2,
+  "figures": {
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\private\\extracted\\role01\\Round3_role01_time_v1\\time-boundaries.png": "d92137505ff5fd2ede43f78b3832fbfc466aad651b16781dda5a12ed4cb2363c",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\private\\extracted\\role02\\Round3_role02\\figures\\01-october-groups.png": "29825f680169cb108a4848108d029776f41f270309fa9d2425ffefd25cb4f8cc",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\private\\extracted\\role02\\Round3_role02\\figures\\03-fulfilment-distribution.png": "ba260b8eb018392253ebac8a0088f5c3acb8a1d15f2fdb8541b9ac68d177df3e",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\private\\extracted\\role02\\Round3_role02\\figures\\04-review-distribution.png": "cca818ce436eb5e99815cbdad95a3b4896f2896089c66957ffe39fed6441fbe2",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\private\\extracted\\role02\\Round3_role02\\figures\\05-support-and-missing.png": "8706543ef7b95b9005517bf20aab82ee7cfde2b94addf24da5a55191f96430cd",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\private\\extracted\\role02\\Round3_role02\\figures\\06-fold-selection.png": "a2cf224ce4f1f8bba552703f64ada908e1cb07d682a08d94f9fe65b7a5d627d2",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\private\\extracted\\role02\\Round3_role02\\figures\\07-october-january-direction.png": "829f8f2e8fbcea607705ab986e37ae71575fb06bef16e4174061ce0f57c7c09a",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\private\\extracted\\role02\\Round3_role02\\figures\\08-prediction-day-availability.png": "6085db0f9b45c9f10f23b7cdca835504b19c4782523563edc83b53187151ef17",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\figures\\01-team-models-and-long79.png": "73d2839f524c09f4ea5e43a9db71ab1dc823863ea02a726ea811b1edb228a92e",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\figures\\02-role02-corrected-effect-intervals.png": "92f9877ceeb0405093379585882c69ef61c491add96695da6751774f2796b0bd",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\figures\\03-current-group-0.png": "5f5061c2ab7ac5615723e9f2bc7a5a5efc188142e05741dac21dbd0ea2a57b89",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\figures\\03-current-group-1.png": "21b70bf10cfb290aa398d79c31dd29202d43463373e8d0d0586f3509f68768f7",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\figures\\03-current-group-2.png": "4bcda956164b47601c60b5047ce79e9dd9e5c1c99400a07f52dc399671b475c9"
+  },
+  "notes": [
+    "Eight original images actually viewed; all five derivative images actually viewed.",
+    "Original role02 interval image and old role04 profile cards excluded from current public PPT figure set.",
+    "Role02 distribution N can count a customer once per field; fold rows are not independent future periods."
+  ]
+}

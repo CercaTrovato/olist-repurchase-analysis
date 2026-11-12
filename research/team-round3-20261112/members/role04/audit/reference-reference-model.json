@@ -1,0 +1,24 @@
+{
+  "train_snapshot": "2017-10-01",
+  "validation_snapshot": "2018-01-01",
+  "model_features": [
+    "R",
+    "F",
+    "M",
+    "average_item_rows",
+    "freight_share",
+    "recent30_orders",
+    "recent30_spend",
+    "state"
+  ],
+  "numeric_transform": "log1p then StandardScaler, fitted on training snapshot only",
+  "categorical_transform": "state OneHotEncoder(handle_unknown=ignore)",
+  "ranking": "score descending, customer_unique_id ascending for ties",
+  "capacity": "K=ceil(0.10*N)",
+  "parameters": {
+    "C": 1.0,
+    "max_iter": 2000,
+    "class_weight": "balanced",
+    "random_state": 2026
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "group_profile_denominators_match": true,
+  "legacy_selected_total": 2937,
+  "legacy_hits_total": 46,
+  "new_selected_total": 2937,
+  "new_hits_total": 50,
+  "sample_size": [
+    {
+      "relative_lift": 0.25,
+      "n_per_arm": 38392,
+      "total": 76784,
+      "matches": true
+    },
+    {
+      "relative_lift": 0.5,
+      "n_per_arm": 10654,
+      "total": 21308,
+      "matches": true
+    },
+    {
+      "relative_lift": 1.0,
+      "n_per_arm": 3190,
+      "total": 6380,
+      "matches": true
+    }
+  ],
+  "trial_not_executed": true
+}

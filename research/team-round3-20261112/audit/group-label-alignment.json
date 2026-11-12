@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2017-10-01",
+    "rows": 21160,
+    "duplicates": 0,
+    "unmatched": 0,
+    "mismatched_labels": 0
+  },
+  {
+    "date": "2018-01-01",
+    "rows": 29368,
+    "duplicates": 0,
+    "unmatched": 0,
+    "mismatched_labels": 0
+  }
+]

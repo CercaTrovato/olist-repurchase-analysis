@@ -1,0 +1,17 @@
+{
+  "new_png_svg_pairs": 5,
+  "new_fits": 0,
+  "actual_view_status": "PENDING",
+  "files": {
+    "figures/01-team-models-and-long79.png": "73d2839f524c09f4ea5e43a9db71ab1dc823863ea02a726ea811b1edb228a92e",
+    "figures/01-team-models-and-long79.svg": "cfe8704b76cfbb5718da82f8c5a3a64730d4ec8d783ff8cff95dd313b22941dc",
+    "figures/02-role02-corrected-effect-intervals.png": "92f9877ceeb0405093379585882c69ef61c491add96695da6751774f2796b0bd",
+    "figures/02-role02-corrected-effect-intervals.svg": "326d2bbbb8af1ad0edb67053a8fafeef37cba62a5d7166f22090d67ec3fcc0f2",
+    "figures/03-current-group-0.png": "5f5061c2ab7ac5615723e9f2bc7a5a5efc188142e05741dac21dbd0ea2a57b89",
+    "figures/03-current-group-0.svg": "2718eaba816a135c84c507f4dd916a1f5b25d9ece21d1d038154e8f2f0c4d60e",
+    "figures/03-current-group-1.png": "21b70bf10cfb290aa398d79c31dd29202d43463373e8d0d0586f3509f68768f7",
+    "figures/03-current-group-1.svg": "82a4704dcd02dbf3ff20524da5e6c187224a496302c5443c7135dcaa826a6df5",
+    "figures/03-current-group-2.png": "4bcda956164b47601c60b5047ce79e9dd9e5c1c99400a07f52dc399671b475c9",
+    "figures/03-current-group-2.svg": "d15d79b08348a8b60cf61c1e00a75973f75f36b2f008f181bda9516826a317a4"
+  }
+}

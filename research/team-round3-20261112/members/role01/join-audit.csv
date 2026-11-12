@@ -1,0 +1,8 @@
+stage,input_rows,output_rows,distinct_stage_key,unmatched_left
+orders raw,99441,99441,99441,0
+customers raw,99441,99441,99441,0
+items to order,112650,98666,98666,0
+orders left join items by order_id,99441,99441,99441,775
+orders left join customers by customer_id,99441,99441,99441,0
+H02 qualified orders,99441,98652,98652,0
+reviews raw; order_id can repeat,99224,99224,98673,0

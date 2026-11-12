@@ -1,0 +1,11 @@
+{
+  "status": "POINT_ESTIMATES_PASS_CI_SUPPORT_COUNTS_CORRECTED_IN_DERIVATIVE",
+  "evidence_rows_point_recomputed": 56,
+  "ci_rows_using_larger_full_cohort_n": 20,
+  "january_direction_rows": 6,
+  "sign_flips": 2,
+  "source_files_unchanged": true,
+  "original_private_candidate_table_not_supplied": true,
+  "no_claim_original_private_sha_matched": true,
+  "new_model_fits": 0
+}

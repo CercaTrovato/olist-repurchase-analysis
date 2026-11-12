@@ -1,0 +1,137 @@
+{
+  "scope": "packaging checks only; no model/time audit recomputation",
+  "checks": [
+    {
+      "check": "unchanged audit\\checks.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged audit\\environment.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged audit\\reference-input-versions.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged audit\\reference-README.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged audit\\reference-reference-model.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged audit\\reference-role-04.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged audit\\source-hashes.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged docs\\content-experiment.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged docs\\profile-cards.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged results\\available-pool-mde.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged results\\category-support.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged results\\profile-summary.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged results\\sample-size-scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged results\\theme-candidates.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged images\\zh\\profile-0.png",
+      "passed": true
+    },
+    {
+      "check": "unchanged images\\zh\\profile-0.svg",
+      "passed": true
+    },
+    {
+      "check": "unchanged images\\zh\\profile-1.png",
+      "passed": true
+    },
+    {
+      "check": "unchanged images\\zh\\profile-1.svg",
+      "passed": true
+    },
+    {
+      "check": "unchanged images\\zh\\profile-2.png",
+      "passed": true
+    },
+    {
+      "check": "unchanged images\\zh\\profile-2.svg",
+      "passed": true
+    },
+    {
+      "check": "population",
+      "passed": true
+    },
+    {
+      "check": "positives",
+      "passed": true
+    },
+    {
+      "check": "legacy capacity",
+      "passed": true
+    },
+    {
+      "check": "sample text 76784",
+      "passed": true
+    },
+    {
+      "check": "sample text 21308",
+      "passed": true
+    },
+    {
+      "check": "sample text 6380",
+      "passed": true
+    },
+    {
+      "check": "SVG population 0",
+      "passed": true
+    },
+    {
+      "check": "card population 0",
+      "passed": true
+    },
+    {
+      "check": "SVG population 1",
+      "passed": true
+    },
+    {
+      "check": "card population 1",
+      "passed": true
+    },
+    {
+      "check": "SVG population 2",
+      "passed": true
+    },
+    {
+      "check": "card population 2",
+      "passed": true
+    },
+    {
+      "check": "no private filenames",
+      "passed": true
+    }
+  ]
+}

@@ -4,9 +4,9 @@
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
   "as_of": "2026-11-12",
-  "basis_revision": "984db2b05f2aef6232b0b14849f616002884cb25089dfb9101efcc6d404a4ddf",
+  "basis_revision": "e250938d59dc028756bfd9cb4bfc3ecb803db08eb0fef6406c558f561759fb56",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "最终固定研究收尾：3滚动期/单多期、25新+5复用概率模型、6金额模型、18全量经理私表、20质疑结案，新增6图累计72。全体预测后再按pFM/预计金额选名单；两价值规则各15/18组合捕额优于p，但人数/久单有取舍，无统一赢家。四月无新评分；正式指标/团队采用与H07按事实确认。",
+  "summary": "真实第三轮1–4号四包已收验：160附件hash全过，14时点字段/56特征点差/429品类行与27预测指标、81群切片回算。R3加权全局50、久单73席/2命中；2号组合未被3号实际测试，20行区间已补算，4号原46命中卡已衍生对齐当前R3。5号回签、2/3记录修订、6号正式采用与H07仍待；新增13图累计85，本地研究不重开。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
@@ -18,7 +18,7 @@
       "scope": "team",
       "summary": "全体概率→客户价值→可调名额已验证；正式主目标/采用版本与冻结时间仍需本人确认。",
       "deliverable": "决定方法冻结后怎样评价，并清楚披露哪些时期已经看过。",
-      "next_action": "记录采用模型、公式、容量、时间和依据，再核H07实际材料。",
+      "next_action": "记录6号真实采用版本/依据/时间；3号21:38自报不能倒填21:00。",
       "my_next_action": "沿人数主线或正式改金额主线需明确；不把研究建议当已定。",
       "depends_on": [],
       "dependency_gates": [],
@@ -730,7 +730,7 @@
       "scope": "team",
       "summary": "核对 3 号修订后的交接说明，不再催已经验收的四月评分材料。",
       "deliverable": "完成核对或交接，并将实际答复更新回任务记录。",
-      "next_action": "核对 3 号修订后的交接说明，不再催已经验收的四月评分材料。",
+      "next_action": "仅收3号已见窗口/冻结说明修订；数值已有历史复现，无需新跑四月。",
       "my_next_action": null,
       "depends_on": [],
       "dependency_gates": [],
@@ -748,7 +748,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-10",
+      "observed_on": "2026-11-12",
       "estimated_minutes": null,
       "state_basis": "先等 3 号返回修订说明，收到后才能核阅；已交评分材料不重复催。",
       "evidence": [
@@ -1066,13 +1066,13 @@
     {
       "id": "date-method-freeze",
       "title": "冻结分析方法（建议）",
-      "status": "planned",
+      "status": "needs_review",
       "owner": "全组；提交代表待确认",
       "owner_role": "team",
       "scope": "team",
-      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "summary": "原内部21:00节点已到；成员之后自报冻结，6号正式采用/时间未核，不自动完成或改期。",
       "deliverable": "冻结分析方法（建议）",
-      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "next_action": "记录6号真实采用版本/依据/时间；3号21:38自报不能倒填21:00。",
       "my_next_action": null,
       "depends_on": [],
       "dependency_gates": [],
@@ -1090,7 +1090,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-10",
+      "observed_on": "2026-11-12",
       "estimated_minutes": null,
       "state_basis": "本人2026-11-11明确同意展示方法采用截止；成员交付承诺另记。",
       "evidence": [
@@ -1878,14 +1878,14 @@
     {
       "id": "round3-member-returns",
       "title": "收第三轮组员策略与结果",
-      "status": "waiting",
+      "status": "in_progress",
       "owner": "1–5号；本人统筹",
       "owner_role": "team",
       "scope": "team",
-      "summary": "已发群后的成员接单/承诺与实际回件待收。",
+      "summary": "1–4号四包已实际收到并完成有界数值验收，2/3号最小记录修订与5号团队回签待；无新增候选搜索。",
       "deliverable": "已发群后的成员接单/承诺与实际回件待收。",
-      "next_action": "按共同键、窗口、名额、方法定义和完整结果核验。",
-      "my_next_action": null,
+      "next_action": "2号确认CI修正，3号修记录与字段版本，4号使用对齐卡，5号回正式验收。",
+      "my_next_action": "按同版本验收汇总，确认正式采用并收H07。",
       "depends_on": [
         "my-round3-dispatch"
       ],
@@ -1905,7 +1905,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-11",
+      "observed_on": "2026-11-12",
       "estimated_minutes": null,
       "state_basis": "本地辅助与组员实际回传分开，最终模型采用未代本人决定。",
       "evidence": [
@@ -1919,20 +1919,25 @@
           "observed_on": "2026-11-11",
           "status": "waiting",
           "note": "已发群后的成员接单/承诺与实际回件待收。"
+        },
+        {
+          "observed_on": "2026-11-12",
+          "status": "in_progress",
+          "note": "本人上传四包/两CSV及六截图；技术验收与5号回签/本人采用分开。"
         }
       ]
     },
     {
       "id": "research-questions-and-design",
       "title": "建模质疑与逐步受控验证",
-      "status": "in_progress",
+      "status": "done",
       "owner": "本人 · 6号与本课程会话",
       "owner_role": "me",
       "scope": "supporting",
-      "summary": "基础研究、统一比较与AE研究对象预算/六块消融和早期时间诊断均已核；最终团队系统选型/验证仍待。 最终滚动/价值验证已收尾，详见辅助最终研究节点。",
+      "summary": "原18+2问题固定研究与最终滚动/价值清单已完成；此前in_progress标记现按已核final-research-closeout收束。",
       "deliverable": "逐问题假设、配置、全部结果、局限与可编辑可视化，保留负结果和纠正历史。",
-      "next_action": "保留完整结果，转真实成员回件验收和合稿；无本冻结清单计算欠账。",
-      "my_next_action": "阅读目标取舍及真实团队版本，完成合稿。",
+      "next_action": "保留完整证据；本批成员验收不重开研究。",
+      "my_next_action": "据已完成研究和真实成员版本决定采用，不继续追加模型。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -1962,9 +1967,11 @@
         },
         {
           "id": "ablation",
-          "label": "冻结最终候选后的系统消融完成",
-          "status": "unknown",
-          "evidence": []
+          "label": "冻结AE研究对象后的预算/信息块消融完成（正式团队采用另列）",
+          "status": "pass",
+          "evidence": [
+            "supervision-report"
+          ]
         }
       ],
       "target": {
@@ -1973,7 +1980,7 @@
         "basis": "unknown"
       },
       "started_on": "2026-11-11",
-      "completed_on": null,
+      "completed_on": "2026-11-12",
       "observed_on": "2026-11-12",
       "estimated_minutes": null,
       "state_basis": "D10为本人明确开测授权；所有研究完成仅限已核矩阵，不宣称穷尽或独立盲测。",
@@ -2012,6 +2019,11 @@
           "observed_on": "2026-11-12",
           "status": "in_progress",
           "note": "最后固定清单已收尾，新增3滚动期/价值层与20Q；不存在本批待跑模型，正式团队采用另记。"
+        },
+        {
+          "observed_on": "2026-11-12",
+          "status": "done",
+          "note": "按此前最终科研实际完成证据校正辅助节点旧进行中状态，不计入团队主完成度。 旧ablation验收项以此前已核AE对象消融证据收束，限定为本地研究，不表示团队采用。"
         }
       ]
     },
@@ -2194,6 +2206,65 @@
           "observed_on": "2026-11-12",
           "status": "done",
           "note": "最后一次固定清单完成，原目标价值层补齐，无新四月评分。"
+        }
+      ]
+    },
+    {
+      "id": "round3-team-intake-audit",
+      "title": "真实第三轮四岗交件技术验收（辅助）",
+      "status": "done",
+      "owner": "本课程会话核技术；成员确认/本人采用另列",
+      "owner_role": "me",
+      "scope": "supporting",
+      "summary": "真实第三轮1–4号四包已收验：160附件hash全过，14时点字段/56特征点差/429品类行与27预测指标、81群切片回算。R3加权全局50、久单73席/2命中；2号组合未被3号实际测试，20行区间已补算，4号原46命中卡已衍生对齐当前R3。5号回签、2/3记录修订、6号正式采用与H07仍待；新增13图累计85，本地研究不重开。",
+      "deliverable": "四包原件哈希、聚合/原始回算、当前三卡、13图与独审。",
+      "next_action": "技术验收已完成，转成员最小记录修订、5号团队回签和6号采用/合稿。",
+      "my_next_action": "核正式采用版本与时间，收H07材料。",
+      "depends_on": [
+        "round3-member-returns"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "numeric",
+          "label": "真实逐人预测/群/字段与品类聚合关键数值有界回算",
+          "status": "pass",
+          "evidence": []
+        },
+        {
+          "id": "review",
+          "label": "未参写代理独审并定向关闭说明问题",
+          "status": "pass",
+          "evidence": []
+        },
+        {
+          "id": "visual",
+          "label": "13当前PNG/SVG实际查看，排除旧名单卡/旧CI图",
+          "status": "pass",
+          "evidence": []
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": "2026-11-12",
+      "completed_on": "2026-11-12",
+      "observed_on": "2026-11-12",
+      "estimated_minutes": null,
+      "state_basis": "完成课程技术验收范围；不替代5号回签、2/3号原包修订、6号正式采用或提交。",
+      "evidence": [
+        {
+          "label": "第三轮真实交件验收",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/round3-team-intake.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-12",
+          "status": "done",
+          "note": "四包原件保留，2次旧配置复跑无新候选/四月评分，13图共85。"
         }
       ]
     }

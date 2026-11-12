@@ -1,0 +1,8 @@
+{
+  "path": "E:\\app-data\\codex\\outputs\\is6400-h04-v02-intake-20261110\\H04-role03-v02.zip",
+  "sha256": "b4a7f59c817d4199569ea23ec83d52c5cd4d9069c552b648705200d0b7c604bd",
+  "read_only": true,
+  "new_fits": 0,
+  "v04_zip_current_temp_path_missing": true,
+  "scope": "Compare cached Jan v0.2, not a fresh v0.4 replay."
+}

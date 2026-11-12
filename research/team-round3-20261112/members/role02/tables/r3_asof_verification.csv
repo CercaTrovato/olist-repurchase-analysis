@@ -1,0 +1,15 @@
+snapshot_date,field,compared_rows,max_abs_diff,nan_pattern_mismatches,status
+2017-10-01,delivered_known_n,21160,0.0,0,PASS
+2017-10-01,delivery_days_mean,21160,0.0,0,PASS
+2017-10-01,delivery_promise_known_n,21160,0.0,0,PASS
+2017-10-01,late_delivery_share,21160,0.0,0,PASS
+2017-10-01,review_known_n,21160,0.0,0,PASS
+2017-10-01,review_score_mean,21160,0.0,0,PASS
+2017-10-01,low_review_share,21160,0.0,0,PASS
+2018-01-01,delivered_known_n,29368,0.0,0,PASS
+2018-01-01,delivery_days_mean,29368,0.0,0,PASS
+2018-01-01,delivery_promise_known_n,29368,0.0,0,PASS
+2018-01-01,late_delivery_share,29368,0.0,0,PASS
+2018-01-01,review_known_n,29368,0.0,0,PASS
+2018-01-01,review_score_mean,29368,0.0,0,PASS
+2018-01-01,low_review_share,29368,0.0,0,PASS

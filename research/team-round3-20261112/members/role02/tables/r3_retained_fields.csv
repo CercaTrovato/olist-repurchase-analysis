@@ -1,0 +1,7 @@
+candidate_id,field,group,unit,formula,available_at,missing_rule,decision
+C02,delivery_pending_n,G1_fulfilment,orders,F - delivered_known_n,delivery timestamp strictly < snapshot,no missing; F>=1 for every snapshot customer,retained
+C03,delivery_days_log,G1_fulfilment,log(days),"log1p(max(delivery_days_mean, 0))",actual delivery strictly < snapshot; duration from approval,NaN when no known valid delivery; explicit missing indicator,retained
+C04,delivery_days_mean_missing,G1_fulfilment,binary,1{delivery_days_mean is NaN},derived from prediction-day truncation only,no missing; explicit zero/one,attached_missing_indicator
+C08,review_score_mean,G2_review,stars 1-5,asof.review_score_mean as delivered,review answer strictly < snapshot; per-order latest valid answer,NaN when no known answered review; explicit missing indicator,retained
+C09,review_score_mean_missing,G2_review,binary,1{review_score_mean is NaN},derived from prediction-day truncation only,no missing; explicit zero/one,attached_missing_indicator
+C11,known_review_ratio,G2_review,fraction,review_known_n / F,review answer strictly < snapshot,no missing; F>=1 for every snapshot customer,retained

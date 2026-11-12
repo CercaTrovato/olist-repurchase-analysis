@@ -1,0 +1,64 @@
+{
+  "new_candidate_fits": 0,
+  "existing_configuration_replay_fits": 2,
+  "april_predictions": 0,
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "sklearn": "1.5.1",
+    "scipy": "1.13.1"
+  },
+  "same_order_preprocessed_matrix_max_diff": 1.968175622479862e-12,
+  "results": [
+    {
+      "replay": "current_R3_declared",
+      "new_candidate": false,
+      "train_rows": 21160,
+      "val_rows": 29368,
+      "hits": 50,
+      "max_abs_diff_to_R3": 5.2752416918044887e-05,
+      "max_abs_diff_to_H04_v02": 0.005664704131700449,
+      "n_iter": 109,
+      "score_min": 0.01140024706770105,
+      "score_max": 0.9840517675772118,
+      "params": {
+        "C": 1.0,
+        "class_weight": "balanced",
+        "max_iter": 2000,
+        "tol": 0.0001,
+        "solver": "lbfgs",
+        "random_state": 2026
+      },
+      "list_intersection_to_R3": 2937,
+      "different_flags_to_R3": 0,
+      "long_seats": 73,
+      "long_hits": 2
+    },
+    {
+      "replay": "legacy_H04_declared_same_row_order",
+      "new_candidate": false,
+      "train_rows": 21160,
+      "val_rows": 29368,
+      "hits": 50,
+      "max_abs_diff_to_R3": 0.0011844594269263542,
+      "max_abs_diff_to_H04_v02": 0.006226227356096903,
+      "n_iter": 109,
+      "score_min": 0.011428825986013804,
+      "score_max": 0.9839685779212314,
+      "params": {
+        "C": 1.0,
+        "class_weight": "balanced",
+        "max_iter": 2000,
+        "tol": 0.0001,
+        "solver": "lbfgs",
+        "random_state": 2026
+      },
+      "list_intersection_to_R3": 2934,
+      "different_flags_to_R3": 6,
+      "long_seats": 74,
+      "long_hits": 2
+    }
+  ],
+  "scope": "Replaying declared existing base configs under current local dependencies; not changing tol, not searching, not establishing original runtime or freeze provenance."
+}

@@ -1,0 +1,33 @@
+{
+  "role02_groups": {
+    "G1_fulfilment": [
+      "delivery_pending_n",
+      "delivery_days_log"
+    ],
+    "G2_review": [
+      "review_score_mean",
+      "known_review_ratio"
+    ]
+  },
+  "role02_retained_flags": [
+    "delivery_days_mean_missing",
+    "review_score_mean_missing"
+  ],
+  "role03_variants": {
+    "F0_base": [],
+    "F1_delivery": [
+      "delivered_known_n",
+      "delivery_days_mean",
+      "late_delivery_share"
+    ],
+    "F2_review": [
+      "review_known_n",
+      "review_score_mean",
+      "low_review_share"
+    ]
+  },
+  "same_feature_sets": false,
+  "role03_includes_conditional_late_delivery_share": true,
+  "role02_rejects_late_delivery_share": true,
+  "not_evidence_role02_groups_failed": true
+}

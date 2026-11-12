@@ -1,0 +1,52 @@
+{
+  "round": "round3",
+  "feature_version": "round3-role01-time-v1",
+  "train_snapshot": "2017-10-01",
+  "validation_snapshot": "2018-01-01",
+  "cv": {
+    "method": "StratifiedKFold",
+    "folds": 5,
+    "shuffle": true,
+    "random_state": 2026,
+    "fit_scope": "October training snapshot only"
+  },
+  "variants": {
+    "F0_base": [],
+    "F1_delivery": [
+      "delivered_known_n",
+      "delivery_days_mean",
+      "late_delivery_share"
+    ],
+    "F2_review": [
+      "review_known_n",
+      "review_score_mean",
+      "low_review_share"
+    ]
+  },
+  "models": [
+    "LogisticRegression",
+    "LogisticRegressionWeighted"
+  ],
+  "ranking": "score descending, customer_unique_id ascending for ties",
+  "capacities": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "group_labels": {
+    "training": "training_clusters.csv",
+    "validation": "validation_clusters.csv",
+    "cluster_version": "H05-km3-v1",
+    "training_label_source": "Recomputed by build_training_clusters.py using the H05-km3-v1 configuration."
+  },
+  "group_models": {
+    "status": "run",
+    "script": "run_group_models.py",
+    "methods": [
+      "F0_global_weighted",
+      "B_global_with_cluster",
+      "C_segmented_group2_global_fallback"
+    ],
+    "selection": "F0 remains primary; B is secondary because Top 10% hits tie F0; C is not selected."
+  }
+}

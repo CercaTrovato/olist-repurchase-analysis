@@ -1,0 +1,91 @@
+{
+  "spec_version": "R3-role02-feature-v1",
+  "train_snapshot": "2017-10-01",
+  "note": "All fit statistics use only 2017-10-01 training rows. Apply these fixed values to 2018-01-01; never refit on validation.",
+  "fields": {
+    "known_delivery_ratio": {
+      "impute_median_train": 1.0,
+      "standard_mean_train": 0.9023078134845621,
+      "standard_std_train": 0.29533418104204345,
+      "missing_indicator": false
+    },
+    "delivery_pending_n": {
+      "impute_median_train": 0.0,
+      "standard_mean_train": 0.10047258979206049,
+      "standard_std_train": 0.3032897192216421,
+      "missing_indicator": false
+    },
+    "delivery_days_log": {
+      "impute_median_train": 2.3726519246163433,
+      "standard_mean_train": 2.3493623089971036,
+      "standard_std_train": 0.5205314521963771,
+      "missing_indicator": false
+    },
+    "delivery_days_mean_missing": {
+      "impute_median_train": 0.0,
+      "standard_mean_train": 0.09588846880907373,
+      "standard_std_train": 0.2944382284258024,
+      "missing_indicator": true
+    },
+    "delivered_known_log": {
+      "impute_median_train": 0.6931471805599453,
+      "standard_mean_train": 0.6360518260162964,
+      "standard_std_train": 0.2167008533232128,
+      "missing_indicator": false
+    },
+    "delivery_known_any": {
+      "impute_median_train": 1.0,
+      "standard_mean_train": 0.9041115311909262,
+      "standard_std_train": 0.2944382284258024,
+      "missing_indicator": false
+    },
+    "late_delivery_share": {
+      "impute_median_train": 0.0,
+      "standard_mean_train": 0.026291745431632006,
+      "standard_std_train": 0.15908821195179618,
+      "missing_indicator": false
+    },
+    "review_score_mean": {
+      "impute_median_train": 5.0,
+      "standard_mean_train": 4.280458412098299,
+      "standard_std_train": 1.1980505720465975,
+      "missing_indicator": false
+    },
+    "review_score_mean_missing": {
+      "impute_median_train": 0.0,
+      "standard_mean_train": 0.10137051039697542,
+      "standard_std_train": 0.3018187038916444,
+      "missing_indicator": true
+    },
+    "low_review_share": {
+      "impute_median_train": 0.0,
+      "standard_mean_train": 0.1050488342785129,
+      "standard_std_train": 0.3056579423202185,
+      "missing_indicator": false
+    },
+    "known_review_ratio": {
+      "impute_median_train": 1.0,
+      "standard_mean_train": 0.8975582860743543,
+      "standard_std_train": 0.30231237576828063,
+      "missing_indicator": false
+    },
+    "review_per_delivery": {
+      "impute_median_train": 1.0,
+      "standard_mean_train": 0.9727095148078134,
+      "standard_std_train": 0.17069064599662592,
+      "missing_indicator": false
+    },
+    "review_known_any": {
+      "impute_median_train": 1.0,
+      "standard_mean_train": 0.8986294896030246,
+      "standard_std_train": 0.3018187038916444,
+      "missing_indicator": false
+    },
+    "review_known_log": {
+      "impute_median_train": 0.6931471805599453,
+      "standard_mean_train": 0.6325794347845883,
+      "standard_std_train": 0.2221281802043991,
+      "missing_indicator": false
+    }
+  }
+}

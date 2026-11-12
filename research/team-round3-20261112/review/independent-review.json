@@ -1,0 +1,67 @@
+{
+  "reviewer": {
+    "identity": "independent subagent uninvolved in authorship",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high"
+  },
+  "date": "2026-11-12",
+  "status": "PASS_WITH_EXPLICIT_SOURCE_LIMITATIONS",
+  "full_read_targets": [
+    "README.md",
+    "group-update.md"
+  ],
+  "directed_followup": {
+    "publication_wording": "closed",
+    "total_sample_size_wording": "closed",
+    "F1_weighted_long_seats_hits": [
+      148,
+      3
+    ],
+    "F2_weighted_long_seats_hits": [
+      189,
+      2
+    ],
+    "matches_existing_audit": true
+  },
+  "scientific_sources_modified": false,
+  "attachment_code_executed": false,
+  "reviewer_new_model_fits": 0,
+  "reviewer_new_april_scores": 0,
+  "open_narrative_blockers": [],
+  "source_limitations_remain": [
+    "group B/C CV conditional on all-October unsupervised cluster map",
+    "source files read all H02 rows before Oct/Jan fit-score filtering",
+    "prospective freeze provenance not independently established",
+    "role03 metadata generator needs record correction",
+    "role02 authors need acknowledge and republish CI-support correction",
+    "team role05 signoff and role06 formal adoption pending"
+  ],
+  "not_certified_by_this_review": [
+    "all thirteen figures visual review",
+    "GitHub push",
+    "local board writeback",
+    "online publication",
+    "full original environment rerun"
+  ],
+  "sha256": {
+    "README.md": "7731a2917ebf0b86cec60b8a4e14391427551d63662c33dd631400726a15e219",
+    "group-update.md": "2ced3b3317e5a11c89137f9ed6c6e547b90728f921dbf56e9331911518e8d2f3",
+    "intake-manifest.json": "0726e824efd246a887d3330413d4cf20932be4a2ef337a1c16a408ccac8e886e",
+    "audit/base-replay.json": "9377d78d7eef24fcc9e2a7788258d6b25c9bfd9ebb499a4340e14e5cdf30f0dd",
+    "audit/january-recomputed.csv": "ce57e03677fbd35912080e67527e2b0a7b5bc77a73c82b265c3d00b2fa309f01",
+    "audit/january-groups-recomputed.csv": "218883989cd068af9130f5a00055c3a71e56d9131b767a99898ade4591554dfa",
+    "audit/role02-evidence-recomputed-corrected.csv": "6b8bedf3837008e3ca00f9caf5836e2b30d7128d80d8a7124c7629d228f570e9",
+    "audit/h04-v02-vs-round3-F0.csv": "aa53636a3d3886492cdaf1510bfdb094c181b7ab77e76850f9bdd7c14b1a6b98",
+    "audit/current-profile-summary.csv": "943745d0c1f66759c52435a2f850289f47356784d957c08451f115dd35648c06",
+    "private/extracted/role03/Round3_role03_prediction_v1/run_round3.py": "cb52be785c6863ee66df1b1f7c02d2163998cfc4904109348d2d54f4444dd943",
+    "private/extracted/role03/Round3_role03_prediction_v1/run_group_models.py": "027122f1fc5c018869af50985f93b812d0f8894bd3fbd62b11426d7ccba690bd",
+    "private/extracted/role03/Round3_role03_prediction_v1/build_training_clusters.py": "de473e8710c1bc1631541c9a37218c0ff5eb667dd3cdd145f8ef5c2f58d29f21",
+    "private/extracted/role03/Round3_role03_prediction_v1/training_clusters.csv": "ccafa2e968ef7f43a32ae825c771f51647a39ddf6d5a625b1be74e5db39775bf",
+    "private/extracted/role03/Round3_role03_prediction_v1/validation_clusters.csv": "509e6df79c758be73c693ea63a5e1ff9a33db97bcbc168d218b47dfe02d55f85",
+    "private/extracted/role02/Round3_role02/scripts/r3_evidence.py": "5941ccb449ceaf49dc5087c409894fe31c53a25a0c87c5a345848def7d744d7f",
+    "private/extracted/role02/Round3_role02/scripts/r3_common.py": "1254d5404d095c625d668012eeb31f7ac9a677d23f620476f08aff9ae31395d9",
+    "review/role03-source-review.md": "38197ff2b4f9042982c32a604a238db3fc5d1ca1397d20dffc5cf5342e88a54e",
+    "review/role02-ci-targeted-review.md": "944cd5c1a6e1829f2d8a5645e0700efdf1423c1f61813adb65af109310da3657",
+    "review/intake-narrative-review.md": "4d74cb9e94049848c5b9377e52855773a07cac308b1105a9cf78403138fe370f"
+  }
+}

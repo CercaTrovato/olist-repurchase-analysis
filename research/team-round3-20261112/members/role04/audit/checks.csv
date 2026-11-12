@@ -1,0 +1,42 @@
+check,actual,expected,passed
+H05left duplicates,0,0,True
+H05left null keys,0,0,True
+H05right duplicates,0,0,True
+H05right null keys,0,0,True
+H05 unmatched,0,0,True
+labels 2017-10-01left duplicates,0,0,True
+labels 2017-10-01left null keys,0,0,True
+labels 2017-10-01right duplicates,0,0,True
+labels 2017-10-01right null keys,0,0,True
+labels 2017-10-01 unmatched,0,0,True
+cached train labels,0,0,True
+version 2017-10-01,H02-v2-candidate-reviewed,H02-v2-candidate-reviewed,True
+labels 2018-01-01left duplicates,0,0,True
+labels 2018-01-01left null keys,0,0,True
+labels 2018-01-01right duplicates,0,0,True
+labels 2018-01-01right null keys,0,0,True
+labels 2018-01-01 unmatched,0,0,True
+version 2018-01-01,H02-v2-candidate-reviewed,H02-v2-candidate-reviewed,True
+cached trainleft duplicates,0,0,True
+cached trainleft null keys,0,0,True
+cached trainright duplicates,0,0,True
+cached trainright null keys,0,0,True
+cached train unmatched,0,0,True
+cached train R,0.0,0.0,True
+cached train F,0.0,0.0,True
+cached train M,0.0,0.0,True
+January N,29368,29368,True
+January positives,230,230,True
+group1 N,12330,12330,True
+group1 positives,90,90,True
+H02_candidate_v2.zip fingerprint,3b58f4e493e825a76ccc569f205cfa0db5d27e22b13389c3c00ff958a316419a,3b58f4e493e825a76ccc569f205cfa0db5d27e22b13389c3c00ff958a316419a,True
+snapshot_features.csv fingerprint,ce62dedacb5af0e08c419586ff55e45043de56771553620ef3f08100e12712b9,ce62dedacb5af0e08c419586ff55e45043de56771553620ef3f08100e12712b9,True
+snapshot_labels.csv fingerprint,5e75eae468449bb9810e8ac0b796bea588762dd6c3335f2923da91a46220888f,5e75eae468449bb9810e8ac0b796bea588762dd6c3335f2923da91a46220888f,True
+outputs/H05-km3-v1/local_data/validation_clusters.csv fingerprint,509e6df79c758be73c693ea63a5e1ff9a33db97bcbc168d218b47dfe02d55f85,509e6df79c758be73c693ea63a5e1ff9a33db97bcbc168d218b47dfe02d55f85,True
+legacy selected sum,2937,2937,True
+train pair duplicates,0,0,True
+train history pool,0,0,True
+validation pair duplicates,0,0,True
+validation history pool,0,0,True
+profile sum,29368,29368,True
+positive sum,230,230,True

@@ -1,0 +1,8 @@
+{
+  "max_abs_diff_two_F0_tables": 0.0,
+  "january_prediction_tables": 2,
+  "rows_each": 29368,
+  "summary_rows": 27,
+  "future_labels_used_only_for_evaluation": true,
+  "new_model_fits": 0
+}

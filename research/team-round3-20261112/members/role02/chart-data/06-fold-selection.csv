@@ -1,0 +1,15 @@
+candidate_id,field,pass_fold
+C01,known_delivery_ratio,0.8
+C02,delivery_pending_n,1.0
+C03,delivery_days_log,0.8
+C04,delivery_days_mean_missing,0.4
+C05,delivered_known_log,0.2
+C06,delivery_known_any,0.4
+C07,late_delivery_share,1.0
+C08,review_score_mean,1.0
+C09,review_score_mean_missing,0.8
+C10,low_review_share,1.0
+C11,known_review_ratio,0.8
+C12,review_per_delivery,0.2
+C13,review_known_any,0.8
+C14,review_known_log,0.0

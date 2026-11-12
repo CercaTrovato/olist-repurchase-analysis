@@ -9,3 +9,6 @@
 [经理规则与目标取舍](final-value-guide.md) · [六图读法](final-validation-figures.md) · [20项质疑结案](research-questions.md) · [当前团队事项](current-status.md)
 
 没有新增四月快照/标签/评分；已见历史不是独立盲测。正式采用和提交由本人/团队据真实版本决定，利润和触达增量缺相应数据。旧[AE消融及时间结论](ae-validation-results.md)与[同口径比较](common-candidate-comparison.md)保持历史。
+
+
+[总监督简报与待决定事项](final-board-note.md) · [历史与本批 72 图统一索引](all-72-figures.md)。

@@ -1,0 +1,137 @@
+[
+  {
+    "model": "base8::AE",
+    "n_models": 3,
+    "run_ids": [
+      "split20261111__base8__AE__s2026",
+      "split20261111__base8__AE__s2027",
+      "split20261111__base8__AE__s2028"
+    ],
+    "rule": "mean(calibrated probability)",
+    "proper_and_policy_same_score": true
+  },
+  {
+    "model": "base8::column-gate",
+    "n_models": 3,
+    "run_ids": [
+      "split20261111__base8__column-gate__s2026",
+      "split20261111__base8__column-gate__s2027",
+      "split20261111__base8__column-gate__s2028"
+    ],
+    "rule": "mean(calibrated probability)",
+    "proper_and_policy_same_score": true
+  },
+  {
+    "model": "base8::encodedCatBoost",
+    "n_models": 3,
+    "run_ids": [
+      "encodedCatBoost-base8-split20261111-seed2026",
+      "encodedCatBoost-base8-split20261111-seed2027",
+      "encodedCatBoost-base8-split20261111-seed2028"
+    ],
+    "rule": "mean(calibrated probability)",
+    "proper_and_policy_same_score": true
+  },
+  {
+    "model": "base8::mean",
+    "n_models": 3,
+    "run_ids": [
+      "split20261111__base8__mean__s2026",
+      "split20261111__base8__mean__s2027",
+      "split20261111__base8__mean__s2028"
+    ],
+    "rule": "mean(calibrated probability)",
+    "proper_and_policy_same_score": true
+  },
+  {
+    "model": "base8::unweightedLR",
+    "n_models": 1,
+    "run_ids": [
+      "unweightedLR-base8-split20261111"
+    ],
+    "rule": "mean(calibrated probability)",
+    "proper_and_policy_same_score": true
+  },
+  {
+    "model": "base8::weightedLR",
+    "n_models": 1,
+    "run_ids": [
+      "weightedLR-base8-split20261111"
+    ],
+    "rule": "mean(calibrated probability)",
+    "proper_and_policy_same_score": true
+  },
+  {
+    "model": "full141::AE",
+    "n_models": 3,
+    "run_ids": [
+      "split20261111__full141__AE__s2026",
+      "split20261111__full141__AE__s2027",
+      "split20261111__full141__AE__s2028"
+    ],
+    "rule": "mean(calibrated probability)",
+    "proper_and_policy_same_score": true
+  },
+  {
+    "model": "full141::column-gate",
+    "n_models": 3,
+    "run_ids": [
+      "split20261111__full141__column-gate__s2026",
+      "split20261111__full141__column-gate__s2027",
+      "split20261111__full141__column-gate__s2028"
+    ],
+    "rule": "mean(calibrated probability)",
+    "proper_and_policy_same_score": true
+  },
+  {
+    "model": "full141::encodedCatBoost",
+    "n_models": 3,
+    "run_ids": [
+      "encodedCatBoost-full141-split20261111-seed2026",
+      "encodedCatBoost-full141-split20261111-seed2027",
+      "encodedCatBoost-full141-split20261111-seed2028"
+    ],
+    "rule": "mean(calibrated probability)",
+    "proper_and_policy_same_score": true
+  },
+  {
+    "model": "full141::mean",
+    "n_models": 3,
+    "run_ids": [
+      "split20261111__full141__mean__s2026",
+      "split20261111__full141__mean__s2027",
+      "split20261111__full141__mean__s2028"
+    ],
+    "rule": "mean(calibrated probability)",
+    "proper_and_policy_same_score": true
+  },
+  {
+    "model": "full141::nativeCatBoost",
+    "n_models": 3,
+    "run_ids": [
+      "nativeCatBoost-full141-split20261111-seed2026",
+      "nativeCatBoost-full141-split20261111-seed2027",
+      "nativeCatBoost-full141-split20261111-seed2028"
+    ],
+    "rule": "mean(calibrated probability)",
+    "proper_and_policy_same_score": true
+  },
+  {
+    "model": "full141::unweightedLR",
+    "n_models": 1,
+    "run_ids": [
+      "unweightedLR-full141-split20261111"
+    ],
+    "rule": "mean(calibrated probability)",
+    "proper_and_policy_same_score": true
+  },
+  {
+    "model": "full141::weightedLR",
+    "n_models": 1,
+    "run_ids": [
+      "weightedLR-full141-split20261111"
+    ],
+    "rule": "mean(calibrated probability)",
+    "proper_and_policy_same_score": true
+  }
+]

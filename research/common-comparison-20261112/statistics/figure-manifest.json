@@ -1,0 +1,35 @@
+{
+  "status": "PLOTS_RENDERED_FROM_FROZEN_AGGREGATES_ONLY",
+  "model_fits": 0,
+  "evaluation_configuration_changes": 0,
+  "source_csv_sha256": {
+    "main-model-information-by-split.csv": "45676618b8d05c71bfed7a1b83db6137a8ac1528f61f68fe55f7185aadd94d46",
+    "controlled-paired-differences-by-split.csv": "b171f45498e40968b2c6c3a3d5422009e93dbf8c8f2e163fd9c81c51268c7bf0",
+    "canonical-paired-bootstrap-intervals.csv": "7807f17c106049ccfd646351fe8e0df68b6f6775d9d474f6c555cfc8bb422b5c",
+    "selection-stability-pairs.csv": "6c94d5ba5279060ce383bd7dc5288323a8db46ca2fc9198ed0279f48aaf0373a",
+    "canonical-calibration-all-bins.csv": "61eeb824fbffe6605eb0a14ef5004b0ba07129d340b4aa4d7e10e4ebba5a0b91"
+  },
+  "figure_sha256": {
+    "calibration-base8-weightedLR.png": "675034119706a8fab76b5426a936d4000d7c049cafa934a7f400baa537137e89",
+    "calibration-base8-weightedLR.svg": "86f6d80b09c3f26b0e83596bc3252cde2c4888a36c0578c6fe8a49c5d9e9e406",
+    "calibration-full141-AE.png": "7331b283adc6b419b979ac8ad4b0b475f29d50db037542d7c6cc3d1fbfbc508a",
+    "calibration-full141-AE.svg": "1d2ed3291537a4a6d648a330f944fde653a3c8aa5af9e6c905806acd436eead9",
+    "calibration-full141-column-gate.png": "a4f3f2a23bdb6da025727b0a44a124965140086c408da967ebb5d23559c695df",
+    "calibration-full141-column-gate.svg": "7d3849d6833ec0dab345523b3a6e74edb964e109ebfb9ee929cbd57e3fb558cf",
+    "calibration-full141-encodedCatBoost.png": "1f51bda8303f5a591ebd38f618c1190a151bb62722e9fda62ba2ab8cb9e827dd",
+    "calibration-full141-encodedCatBoost.svg": "275fa4958702f97b82bdb021ef7dbf8113b6497b95f9f13e42e0bd4d61e064f0",
+    "calibration-full141-nativeCatBoost.png": "f94710b4b06feffda836592b3acbf2e7386400610951f54a254f90a5a9906a12",
+    "calibration-full141-nativeCatBoost.svg": "8b5124c0db4b96ecf8f7900a555eb86b1f08f4875adc74403ea2f59d22f0ae19",
+    "canonical-paired-brier-AP.png": "989af2e0309079e5153c998112415e5216da189509dcdc0353b5240ae4c7f40a",
+    "canonical-paired-brier-AP.svg": "fc5496fa59d7a0956c57c950f31a8743e5174a9cbe14a4d2bc7973255914463c",
+    "canonical-paired-loss-hits.png": "f7c3085b75c88bf241e52c647fa08b3d89bb2d4c4cde93aa5fecf7394c60c7c7",
+    "canonical-paired-loss-hits.svg": "49b6b77c0ccbe28b5ffe036c6990f7c824c14e32ed5732a83fb8880419a1c74b",
+    "model-information-split-ranges.png": "f1025e9f4b12d27abfb6f1812608a5f6c5ae5b3043a3b3552bfe81fdce92292c",
+    "model-information-split-ranges.svg": "de95d3517e228062cacb93170f845e7ea5a6e4014ab026c8fe7f32daa93729fb",
+    "paired-information-effects.png": "92578be27285b94e03d1ef0c57181bdda97c6622438eb89896af9492215f9efe",
+    "paired-information-effects.svg": "95b6b529a63732d43e63be0626f76ad4a12541606448c912e980c460fd40d739",
+    "selection-stability.png": "b968a8218f7ec84e2f6fc6f2c09b453122e2ff2df500fa37433b9ee665f222d9",
+    "selection-stability.svg": "5972d59006bcd9a02b8cf9fd880dbb5ca0ab893bd43f36d23d32ed02835b9b6a"
+  },
+  "code_sha256": "6585891256f4540184c95e0911ac89c5e50f8bb76de0ae88f11a6f6fbb8c5419"
+}

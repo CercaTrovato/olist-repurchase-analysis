@@ -1,0 +1,22 @@
+{
+  "status": "complete_readback_pass",
+  "supervised_models": 90,
+  "AE_pretraining_runs": 30,
+  "supervised_epoch_rows": 4500,
+  "pretraining_epoch_rows": 600,
+  "CPU_threads": 2,
+  "april_rows_read": 0,
+  "code_sha256": "dfd6eece94597674680829a2f5cd91ca2cba6ef778c8018a4ff8150d74f2dca5",
+  "model_code_sha256": "1a698710eb09f85455a15f4e2d374789291225e654e3164c041da71effe41926",
+  "plan_sha256": "b27a347866ca6ba4fedf1938f6882a7f10ee7f5796ebc133bb85c0591f9fa196",
+  "elapsed_seconds": 702.3917556000015,
+  "torch": "2.8.0+cpu",
+  "failure_count": 0,
+  "no_matrix_construction_or_split_generation": true,
+  "readback_sha256": "f931273a67fc851f8c77323ed705828bfe9e7478241b09215d6452accad9f8f2",
+  "common_metric_rows": 1800,
+  "common_capacity_rows": 720,
+  "calibration_success_count": 90,
+  "calibration_boundary_count": 5,
+  "all_three_png_figures_actually_viewed": true
+}

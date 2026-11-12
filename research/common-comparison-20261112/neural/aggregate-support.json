@@ -1,0 +1,101 @@
+{
+  "status": "finalized_readback_separate",
+  "supervised_models": 90,
+  "AE_pretraining_runs": 30,
+  "common_metric_rows": 1800,
+  "common_capacity_rows": 720,
+  "calibration_success_count": 90,
+  "calibration_boundary_count": 5,
+  "calibration_selection_changed_runs": 0,
+  "final_fit_BCE_minus_constant_min": -0.0086721287050447,
+  "final_fit_BCE_minus_constant_max": -0.0001397923540069,
+  "parameter_counts_by_dimension": [
+    {
+      "total_input_columns": 808,
+      "family": "mean",
+      "supervised_parameters": 13041,
+      "pretraining_parameters": 0,
+      "pretraining_active_parameters": 0
+    },
+    {
+      "total_input_columns": 808,
+      "family": "column-gate",
+      "supervised_parameters": 14657,
+      "pretraining_parameters": 0,
+      "pretraining_active_parameters": 0
+    },
+    {
+      "total_input_columns": 808,
+      "family": "AE",
+      "supervised_parameters": 13041,
+      "pretraining_parameters": 26777,
+      "pretraining_active_parameters": 26760
+    },
+    {
+      "total_input_columns": 813,
+      "family": "mean",
+      "supervised_parameters": 13121,
+      "pretraining_parameters": 0,
+      "pretraining_active_parameters": 0
+    },
+    {
+      "total_input_columns": 813,
+      "family": "column-gate",
+      "supervised_parameters": 14747,
+      "pretraining_parameters": 0,
+      "pretraining_active_parameters": 0
+    },
+    {
+      "total_input_columns": 813,
+      "family": "AE",
+      "supervised_parameters": 13121,
+      "pretraining_parameters": 26942,
+      "pretraining_active_parameters": 26925
+    },
+    {
+      "total_input_columns": 817,
+      "family": "mean",
+      "supervised_parameters": 13185,
+      "pretraining_parameters": 0,
+      "pretraining_active_parameters": 0
+    },
+    {
+      "total_input_columns": 817,
+      "family": "column-gate",
+      "supervised_parameters": 14819,
+      "pretraining_parameters": 0,
+      "pretraining_active_parameters": 0
+    },
+    {
+      "total_input_columns": 817,
+      "family": "AE",
+      "supervised_parameters": 13185,
+      "pretraining_parameters": 27074,
+      "pretraining_active_parameters": 27057
+    },
+    {
+      "total_input_columns": 812,
+      "family": "mean",
+      "supervised_parameters": 13105,
+      "pretraining_parameters": 0,
+      "pretraining_active_parameters": 0
+    },
+    {
+      "total_input_columns": 812,
+      "family": "column-gate",
+      "supervised_parameters": 14729,
+      "pretraining_parameters": 0,
+      "pretraining_active_parameters": 0
+    },
+    {
+      "total_input_columns": 812,
+      "family": "AE",
+      "supervised_parameters": 13105,
+      "pretraining_parameters": 26909,
+      "pretraining_active_parameters": 26892
+    }
+  ],
+  "supervised_seconds_sum": 483.5597484000391,
+  "AE_pretraining_seconds_sum": 180.73509029999695,
+  "finalize_code_sha256": "626049b644fb854db956a61cdb1ffa312bd45ffdfd7703abaf2520fa87eb60fa"
+}

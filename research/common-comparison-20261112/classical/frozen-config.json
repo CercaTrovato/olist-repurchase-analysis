@@ -1,0 +1,33 @@
+{
+  "plan_sha256": "8b4101ca445be95649fe7a9b454a8e20f78ff2b1aaff6616dce4608913d4f34d",
+  "root_plan_sha256": "1a2a957a7e0a2046cba77a77184ceb88079644893a1a56ea4cfab7c721c1fc6f",
+  "engine_sha256": "a6fa1c0cbda5d3435f32d00caee7cb9d7ec65f93070618c1ce185989848edc59",
+  "driver_sha256": "099bdab2ce1723e52a1d33459d424ae23110054640006e0ed8f8a77a7d919142",
+  "eval_harness_sha256": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+  "shared_manifest_sha256": "1be6816d26676a2ed08a83be4f7f212e79d13c7fba88d663f84e9d3b904e8d57",
+  "specifications_sha256": "afaf0bba9c9f811072ec1273b40c00e9e7436a2a3fc2589bb67f9617e2290bfe",
+  "LR_parameters": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "solver": "lbfgs",
+    "tol": 1e-10,
+    "max_iter": 5000,
+    "random_state": 2026
+  },
+  "ULR_change": {
+    "class_weight": null
+  },
+  "CB_parameters": {
+    "depth": 3,
+    "iterations": 300,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 10,
+    "loss_function": "Logloss",
+    "thread_count": 2,
+    "verbose": false,
+    "allow_writing_files": false,
+    "task_type": "CPU",
+    "use_best_model": false
+  },
+  "total_models": 65
+}

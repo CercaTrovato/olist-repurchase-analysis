@@ -1,0 +1,476 @@
+{
+  "reviewer": "/root/common_release_review",
+  "candidate_sha256": "aee005a01c798c51e680a5a61b9d1c887cb10920461896a5a4cfdc0cc246e5f1",
+  "candidate_unchanged_during_check": true,
+  "status": "PASS_NUMERIC_CHECKS",
+  "main_table_rows_source_recomputed": 7,
+  "five_split_table_rows_source_recomputed": 5,
+  "CI_table_rows_recomputed_from_existing_replicates": 5,
+  "point_rows_recomputed": 70,
+  "score_files_SHA_checked": 85,
+  "main_table": [
+    {
+      "model": "base8::weightedLR",
+      "all_hits": 43,
+      "long79_hits": 2,
+      "long_seats": 79,
+      "long_hits_in_global": 2,
+      "logloss": 0.045788094414107056,
+      "AP": 0.026113783325388062
+    },
+    {
+      "model": "base8::unweightedLR",
+      "all_hits": 44,
+      "long79_hits": 1,
+      "long_seats": 5,
+      "long_hits_in_global": 0,
+      "logloss": 0.045462283155692576,
+      "AP": 0.028528592847327675
+    },
+    {
+      "model": "full141::mean",
+      "all_hits": 52,
+      "long79_hits": 3,
+      "long_seats": 573,
+      "long_hits_in_global": 10,
+      "logloss": 0.04530234692612537,
+      "AP": 0.021851545822107712
+    },
+    {
+      "model": "full141::column-gate",
+      "all_hits": 52,
+      "long79_hits": 3,
+      "long_seats": 538,
+      "long_hits_in_global": 10,
+      "logloss": 0.0454677788776729,
+      "AP": 0.018026216201138007
+    },
+    {
+      "model": "full141::AE",
+      "all_hits": 51,
+      "long79_hits": 4,
+      "long_seats": 594,
+      "long_hits_in_global": 11,
+      "logloss": 0.04558191899158361,
+      "AP": 0.022033030533230982
+    },
+    {
+      "model": "full141::encodedCatBoost",
+      "all_hits": 46,
+      "long79_hits": 1,
+      "long_seats": 58,
+      "long_hits_in_global": 1,
+      "logloss": 0.044854346731619886,
+      "AP": 0.035415249147375136
+    },
+    {
+      "model": "full141::nativeCatBoost",
+      "all_hits": 49,
+      "long79_hits": 2,
+      "long_seats": 73,
+      "long_hits_in_global": 2,
+      "logloss": 0.0448642846876822,
+      "AP": 0.03562276665578032
+    }
+  ],
+  "five_split_directions": [
+    {
+      "model": "full141::mean",
+      "scopes": {
+        "all": {
+          "differences": [
+            9,
+            8,
+            -1,
+            11,
+            -1
+          ],
+          "wins": 3,
+          "ties": 0,
+          "losses": 2
+        },
+        "long": {
+          "differences": [
+            1,
+            2,
+            -1,
+            1,
+            1
+          ],
+          "wins": 4,
+          "ties": 0,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "model": "full141::column-gate",
+      "scopes": {
+        "all": {
+          "differences": [
+            9,
+            8,
+            -1,
+            10,
+            0
+          ],
+          "wins": 3,
+          "ties": 1,
+          "losses": 1
+        },
+        "long": {
+          "differences": [
+            1,
+            2,
+            0,
+            1,
+            1
+          ],
+          "wins": 4,
+          "ties": 1,
+          "losses": 0
+        }
+      }
+    },
+    {
+      "model": "full141::AE",
+      "scopes": {
+        "all": {
+          "differences": [
+            8,
+            8,
+            0,
+            10,
+            4
+          ],
+          "wins": 4,
+          "ties": 1,
+          "losses": 0
+        },
+        "long": {
+          "differences": [
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "wins": 5,
+          "ties": 0,
+          "losses": 0
+        }
+      }
+    },
+    {
+      "model": "full141::encodedCatBoost",
+      "scopes": {
+        "all": {
+          "differences": [
+            3,
+            2,
+            1,
+            4,
+            2
+          ],
+          "wins": 5,
+          "ties": 0,
+          "losses": 0
+        },
+        "long": {
+          "differences": [
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "wins": 0,
+          "ties": 4,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "model": "full141::nativeCatBoost",
+      "scopes": {
+        "all": {
+          "differences": [
+            6,
+            6,
+            -2,
+            4,
+            6
+          ],
+          "wins": 4,
+          "ties": 0,
+          "losses": 1
+        },
+        "long": {
+          "differences": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "wins": 2,
+          "ties": 3,
+          "losses": 0
+        }
+      }
+    }
+  ],
+  "conditional_CI": [
+    {
+      "model": "full141::mean",
+      "scopes": {
+        "all": {
+          "observed_difference": 9.0,
+          "interval": [
+            -4.0,
+            22.0
+          ],
+          "contains_zero": true,
+          "saved_replicates_read": 2000
+        },
+        "long": {
+          "observed_difference": 1.0,
+          "interval": [
+            -3.0,
+            6.0
+          ],
+          "contains_zero": true,
+          "saved_replicates_read": 2000
+        }
+      }
+    },
+    {
+      "model": "full141::column-gate",
+      "scopes": {
+        "all": {
+          "observed_difference": 9.0,
+          "interval": [
+            -3.0,
+            21.0
+          ],
+          "contains_zero": true,
+          "saved_replicates_read": 2000
+        },
+        "long": {
+          "observed_difference": 1.0,
+          "interval": [
+            -3.0,
+            6.0
+          ],
+          "contains_zero": true,
+          "saved_replicates_read": 2000
+        }
+      }
+    },
+    {
+      "model": "full141::AE",
+      "scopes": {
+        "all": {
+          "observed_difference": 8.0,
+          "interval": [
+            -4.0,
+            20.0
+          ],
+          "contains_zero": true,
+          "saved_replicates_read": 2000
+        },
+        "long": {
+          "observed_difference": 2.0,
+          "interval": [
+            -3.0,
+            6.0
+          ],
+          "contains_zero": true,
+          "saved_replicates_read": 2000
+        }
+      }
+    },
+    {
+      "model": "full141::encodedCatBoost",
+      "scopes": {
+        "all": {
+          "observed_difference": 3.0,
+          "interval": [
+            -6.0,
+            13.0
+          ],
+          "contains_zero": true,
+          "saved_replicates_read": 2000
+        },
+        "long": {
+          "observed_difference": -1.0,
+          "interval": [
+            -4.0,
+            3.0
+          ],
+          "contains_zero": true,
+          "saved_replicates_read": 2000
+        }
+      }
+    },
+    {
+      "model": "full141::nativeCatBoost",
+      "scopes": {
+        "all": {
+          "observed_difference": 6.0,
+          "interval": [
+            -5.0,
+            17.0
+          ],
+          "contains_zero": true,
+          "saved_replicates_read": 2000
+        },
+        "long": {
+          "observed_difference": 0.0,
+          "interval": [
+            -3.0,
+            4.0
+          ],
+          "contains_zero": true,
+          "saved_replicates_read": 2000
+        }
+      }
+    }
+  ],
+  "CatBoost_logloss_intervals": [
+    {
+      "model": "full141::encodedCatBoost",
+      "scope": "all",
+      "interval": [
+        -0.0016034194841225,
+        -0.0003721252960862
+      ]
+    },
+    {
+      "model": "full141::encodedCatBoost",
+      "scope": "long",
+      "interval": [
+        -0.0005410875510278,
+        -5.814639806167852e-05
+      ]
+    },
+    {
+      "model": "full141::nativeCatBoost",
+      "scope": "all",
+      "interval": [
+        -0.0016305890443942,
+        -0.0003242453806606
+      ]
+    },
+    {
+      "model": "full141::nativeCatBoost",
+      "scope": "long",
+      "interval": [
+        -0.0005985248773257,
+        -9.858703237819376e-05
+      ]
+    }
+  ],
+  "new_fits": 0,
+  "new_bootstrap": 0,
+  "source_score_mutations": 0,
+  "errors": [],
+  "source_score_SHA256": {
+    "classical/private/weightedLR-base8-split20261111-scores.npz": "5d0fef75bc0f85b5c0d5c64ebc3e07e5ebbb3ff8e10778dc0276b898aa799b36",
+    "classical/private/unweightedLR-base8-split20261111-scores.npz": "6ed8c4bf9459faf43533a644cc9ed704cc8df0caa531db4bc433ee8bdcd3355e",
+    "neural/private/split20261111__full141__mean__s2026-scores.npz": "e3c6a015e49dac48e3a8502716c6a29e57caa254358f980275f5b045271ad01c",
+    "neural/private/split20261111__full141__mean__s2027-scores.npz": "7e78bdb9b27b10e47fe43b2b72a7d111792d9f40bb5322d4644435b90ad0f361",
+    "neural/private/split20261111__full141__mean__s2028-scores.npz": "567aefb85885b79cd5d40ed0a4e83a7b4e1be75a5f5d3ed2d7a6d307bef20540",
+    "neural/private/split20261111__full141__column-gate__s2026-scores.npz": "750a23b49630cd697ebb540d593f8ea43371e7d84f0c1900a46b45cd5d757489",
+    "neural/private/split20261111__full141__column-gate__s2027-scores.npz": "a7b5fd93cc5d6dd620c958a386dda5a27b688165d7d73e346cf7283baea45296",
+    "neural/private/split20261111__full141__column-gate__s2028-scores.npz": "3738e42912d67e258d8e02c309c506625209f878d707e18df3b8419c22c1c37a",
+    "neural/private/split20261111__full141__AE__s2026-scores.npz": "390a8cc25643639412d2e0c40ca028c6a47faa8a79956409ddfd0fa80b6d419f",
+    "neural/private/split20261111__full141__AE__s2027-scores.npz": "f9c2b34e71a55dd03b5fe79d9dc4f2b2b0d0a5e382444c0e3bd1adc8a25a89de",
+    "neural/private/split20261111__full141__AE__s2028-scores.npz": "4be60ad1d66444ac5d38f1243a92ae29e05390ca7269ad38440306f74b30e9b6",
+    "classical/private/encodedCatBoost-full141-split20261111-seed2026-scores.npz": "0bea5676e348a38b62c59c32a1f43726c5b881566652f28cf9a74c92914b45f8",
+    "classical/private/encodedCatBoost-full141-split20261111-seed2027-scores.npz": "01a0b6c888af44ff0e6610603e1d8354e7bde52eb7452413a42c818684db2d6a",
+    "classical/private/encodedCatBoost-full141-split20261111-seed2028-scores.npz": "a50f33534313cdc474917296b8fa6a24741a016338ac035de3b28f94bdd68acb",
+    "classical/private/nativeCatBoost-full141-split20261111-seed2026-scores.npz": "dced19773bbfe978093841ab668aff7c56e44e688e3a9d9164b8ebf00e5ea15a",
+    "classical/private/nativeCatBoost-full141-split20261111-seed2027-scores.npz": "67d8294e5ab752e30677746c628974780c8d7c78da0283085f6d6e288365b161",
+    "classical/private/nativeCatBoost-full141-split20261111-seed2028-scores.npz": "27c1251f6ac9fda35525fe3533727c125a4a5fd9bbe1c64b4d823d0bc3ed1ba9",
+    "classical/private/weightedLR-base8-split20261112-scores.npz": "ff71e3dcd0924bc70cc6cde487e835f20fb636037b825f1257ef819cde380a77",
+    "classical/private/unweightedLR-base8-split20261112-scores.npz": "501d05fa1448a64b52f654ef0a94a55331b890b07090cda774b85429deac7a4f",
+    "neural/private/split20261112__full141__mean__s2026-scores.npz": "698c85af09e08d724a473112ad1840d77dab57e4139d1cb432def4a97689dfa8",
+    "neural/private/split20261112__full141__mean__s2027-scores.npz": "974dfd670ae1347444c00cb3b195013836de3546e6940964c1f4cde252450ba4",
+    "neural/private/split20261112__full141__mean__s2028-scores.npz": "08b3a86d305fea5457f0fb3744deec3c72252e3a65b806854c917af0cf0f03cb",
+    "neural/private/split20261112__full141__column-gate__s2026-scores.npz": "d0ae21cd9b3271fe2e081d2879079e2f2a4954ce2938ebe85311ff96f9bf1ba5",
+    "neural/private/split20261112__full141__column-gate__s2027-scores.npz": "9f524063b398339c410498a8ce6b0d024af3d998837d8698ae2f3c416b7dca1d",
+    "neural/private/split20261112__full141__column-gate__s2028-scores.npz": "7d3147bb9fa47155f60673574f831402de416d256fd9d6306aea85dd394b5c89",
+    "neural/private/split20261112__full141__AE__s2026-scores.npz": "9933ead696362601e272edca3d7aaf52b72d11d7e6ea571b3ec2f15b5c2b38ee",
+    "neural/private/split20261112__full141__AE__s2027-scores.npz": "3210ad987b0170ad2bac7a2289c272f417b9b042829cdde9f5160c7d3f6158b7",
+    "neural/private/split20261112__full141__AE__s2028-scores.npz": "7be1d67d5643b721230f44f3c9bbbda903e6b382ea4c9272873ab73faea9c64b",
+    "classical/private/encodedCatBoost-full141-split20261112-seed2026-scores.npz": "fd2e7875479cf3cc28e6f3e36c011463e8957a287ac2fda676fbce2feb15bff9",
+    "classical/private/encodedCatBoost-full141-split20261112-seed2027-scores.npz": "8ec93f3b3dd7c0373d197dfa25d3033f2d9b51a17fd3ac65b5f4ed446ac9b939",
+    "classical/private/encodedCatBoost-full141-split20261112-seed2028-scores.npz": "8f60fbe17de04eb5c26b2bad56e806cae490efceaa91990f35dddd4c4824a4fa",
+    "classical/private/nativeCatBoost-full141-split20261112-seed2026-scores.npz": "81035db70df073e49e04677d9a2ea045b99bd141fea40068f719f81e8883c745",
+    "classical/private/nativeCatBoost-full141-split20261112-seed2027-scores.npz": "5f8757acee23fb72e1e6868c41aced2948299cc53f887070f3249334c0870c14",
+    "classical/private/nativeCatBoost-full141-split20261112-seed2028-scores.npz": "0a5186ec66bc191c6ecf738c5ecf2605a967be1bb609deaecb84abd474300515",
+    "classical/private/weightedLR-base8-split20261113-scores.npz": "fd8bf24f37d2213a924d380c2faeabfb989159e8506d88ed1019552d6b2d345e",
+    "classical/private/unweightedLR-base8-split20261113-scores.npz": "ecaf78aadf7f75b7a84c98f4b523052a24ec77e3869772dba3446d47c78fbfb4",
+    "neural/private/split20261113__full141__mean__s2026-scores.npz": "80ed0f0f1534e86f47bc92f2f833a83e2e130d6eda1e2cf53ea79c69593470de",
+    "neural/private/split20261113__full141__mean__s2027-scores.npz": "b9c66f14969c7d6d2d5f044a2f3d627b8d06810af21e2f58756dbb83ba5c2a17",
+    "neural/private/split20261113__full141__mean__s2028-scores.npz": "2c240205b6643050f5ac38efa7288d5388d6a9b42a4b67e26e8b654c974ac411",
+    "neural/private/split20261113__full141__column-gate__s2026-scores.npz": "cd2e8d13659aaeee7b29dd3fb99de06c804570cb57ba9a208c97b479c7de2d4f",
+    "neural/private/split20261113__full141__column-gate__s2027-scores.npz": "871d0691cff4757b0da23624c87cef798d3e82acb197fa50dc44ce559d8fd43c",
+    "neural/private/split20261113__full141__column-gate__s2028-scores.npz": "57015ab1cd3d436e26cec1d1cffc436f3af319228ad44855a8b47c5ab1321edc",
+    "neural/private/split20261113__full141__AE__s2026-scores.npz": "a4447f2af70cdf366bf041a9dd45220a4a1e3b1c80221adce57f9b2a4fbb3489",
+    "neural/private/split20261113__full141__AE__s2027-scores.npz": "06e4c9024af48e617fe7aa4bf21246a3ad587dfcaf35db476c6ee6b7afb566f6",
+    "neural/private/split20261113__full141__AE__s2028-scores.npz": "ee75a0739cccedc19a1baf7a506436f051e74343f1ab6246a8e5fdff80c0556c",
+    "classical/private/encodedCatBoost-full141-split20261113-seed2026-scores.npz": "0ba965ee4484839833040316d77fd598eb168f01d9532bd20a136021205bb05c",
+    "classical/private/encodedCatBoost-full141-split20261113-seed2027-scores.npz": "12cc005fd97d51e5997e4b02fa64c93aba96b707b12f64a4af537aa61d7dabe4",
+    "classical/private/encodedCatBoost-full141-split20261113-seed2028-scores.npz": "b984e6f58a2fbe4d3bb6e3f3a58344d648702b5b3c33756a3eb38718033f3ba1",
+    "classical/private/nativeCatBoost-full141-split20261113-seed2026-scores.npz": "df2a453f82557f88e596a3e0300ce9b323784e6e7141e6c9adcb101e0031106c",
+    "classical/private/nativeCatBoost-full141-split20261113-seed2027-scores.npz": "0aac05a7b11a690f89aa4103cb9df353dbae54ed124246e146169a2e6c0cfd27",
+    "classical/private/nativeCatBoost-full141-split20261113-seed2028-scores.npz": "d4df5e20aa8fec4a920ce69114dc11408b2931af9e818fc05f958b0eec320463",
+    "classical/private/weightedLR-base8-split20261114-scores.npz": "c25a5d251e0fd3a024ae4cab2860cb28692212a0ac2ef01b6e3716d460f45abd",
+    "classical/private/unweightedLR-base8-split20261114-scores.npz": "ce971cf817fe75707f8525d0cdb6ced1ad0a01b6a8aacac96f1a2d9e29fa44f4",
+    "neural/private/split20261114__full141__mean__s2026-scores.npz": "fab96f3309baae69afa3380eef7182cb232096954e89c833460c8b2b6b36aa3b",
+    "neural/private/split20261114__full141__mean__s2027-scores.npz": "2113dc8622df92cee96b3e934b2cdf80efe8af656bed3bd97a44947259182e86",
+    "neural/private/split20261114__full141__mean__s2028-scores.npz": "682c8c31d797bd898885f1b313243b65c5762b96db483fd17881a1b98633077c",
+    "neural/private/split20261114__full141__column-gate__s2026-scores.npz": "3c80943e4837d1e9c68fe370188b6231077054dea77f9a6ed66910bf9feda08b",
+    "neural/private/split20261114__full141__column-gate__s2027-scores.npz": "6cbd5669463efdb79ae4a74206a0cd2f85498c8be61a6c083b80dc57df5c3ef1",
+    "neural/private/split20261114__full141__column-gate__s2028-scores.npz": "9c069cefc6b58d0e5540f5c0b30343029f3ac3053a2fcb5078312a993ba4cfec",
+    "neural/private/split20261114__full141__AE__s2026-scores.npz": "5c8c8fddf14c0e4bb9955ee65e58708d9ee14d17346a6500ad34101ba15bbaed",
+    "neural/private/split20261114__full141__AE__s2027-scores.npz": "2fafb321fc2120384994060cb2fe071b95dded86cfc4dc62727cff6f7d137058",
+    "neural/private/split20261114__full141__AE__s2028-scores.npz": "d59412c640c7bce9b74528c08bba8518c59fe55d17e0d0ad0670fd8c805ed333",
+    "classical/private/encodedCatBoost-full141-split20261114-seed2026-scores.npz": "d3c3f0ad805fce215536576046241209a1a5357b9bf26ffe0f313d1c0545b0ac",
+    "classical/private/encodedCatBoost-full141-split20261114-seed2027-scores.npz": "c6c957f4ac22bcfbc49854adf7e8991f7267a61c219a418919db7a3be063ffaf",
+    "classical/private/encodedCatBoost-full141-split20261114-seed2028-scores.npz": "f3b996f7085f8fe272c2587457e8b0d1fa50b22b0887a6a13a8df87ad9055b25",
+    "classical/private/nativeCatBoost-full141-split20261114-seed2026-scores.npz": "be8a7784f1ac61daceec82cde44c25625c12fba9f860fef0e0ff3fe3a81c5a84",
+    "classical/private/nativeCatBoost-full141-split20261114-seed2027-scores.npz": "05d595e6c78efa21ea39ce636612a9ecbec6cbd11cdb3b5b76eb397c5e008925",
+    "classical/private/nativeCatBoost-full141-split20261114-seed2028-scores.npz": "f48388cb11a0b1e6d2d68df44619dd147e85a02ef7faa66b666d402b9c005510",
+    "classical/private/weightedLR-base8-split20261115-scores.npz": "0fc857f49881fa92edecb1c6f86a83489f342678c02bd950c7db34427549b132",
+    "classical/private/unweightedLR-base8-split20261115-scores.npz": "5485182b1f9d016362ee4f186a5795c29ebd64af40c946d9bd84ccd5c8207496",
+    "neural/private/split20261115__full141__mean__s2026-scores.npz": "2071d1c7490a553c3403b3381cc7cfc129810d719319fe757d61313e9e4116bf",
+    "neural/private/split20261115__full141__mean__s2027-scores.npz": "d03f72b5fa609704272be8cf1748796ec4a9aaa81103febe3b873adbbdb80ac6",
+    "neural/private/split20261115__full141__mean__s2028-scores.npz": "d2ac7d31c5ec442eee0b47dadc748ee35a685062a89d261434205e89eda9fe0f",
+    "neural/private/split20261115__full141__column-gate__s2026-scores.npz": "e5ebef66fcb3bcc3aba966c78cfbd8d70df9d642e28b447924b5a1bd4b29e89c",
+    "neural/private/split20261115__full141__column-gate__s2027-scores.npz": "b719ba45821e973e5da0a4f774cf470ee3f01b4552d41d02d8e12023f908e177",
+    "neural/private/split20261115__full141__column-gate__s2028-scores.npz": "9ce49c8b1e0ed9d08494524efff94dd97369692f021a313da7089356653e3c35",
+    "neural/private/split20261115__full141__AE__s2026-scores.npz": "c9961017d0b5166feffe51009f6ec1868ef4d5757bb1a7a24032e44e0a1e38fc",
+    "neural/private/split20261115__full141__AE__s2027-scores.npz": "0822316a51563912458b9647747afc70db60b7eacc9e362c3905d70cdfbfc912",
+    "neural/private/split20261115__full141__AE__s2028-scores.npz": "a47a279d52800b4d97006deaf5286a98e2912f4606dbd62750ac51528fb5d6cf",
+    "classical/private/encodedCatBoost-full141-split20261115-seed2026-scores.npz": "024a1e3a75cbfe8a3329bb2eaa17f59264388bf9f3aec0c4a973a0d2d5b4460e",
+    "classical/private/encodedCatBoost-full141-split20261115-seed2027-scores.npz": "6b5e5bd25f206d0c3090be81b982228fadf933fc6ba125b16cdeac6bd3fa1db9",
+    "classical/private/encodedCatBoost-full141-split20261115-seed2028-scores.npz": "e9caa4ff5998b5f3d7df52555b446eb2cca6c1851d6ad615f626f03f0bec2e3c",
+    "classical/private/nativeCatBoost-full141-split20261115-seed2026-scores.npz": "7d2dfd7e1f0167ce4ee900449c0018a80a299b587d18f6c26b3a1052ef7f146d",
+    "classical/private/nativeCatBoost-full141-split20261115-seed2027-scores.npz": "d191bc620fa1361d20cb5344f84925c1b80a83fdb5cca77c61fca7433c918aac",
+    "classical/private/nativeCatBoost-full141-split20261115-seed2028-scores.npz": "d2457e842263d48c25f140c19e25cf0dbcb8d30412f25d342780d3631c12ad21"
+  },
+  "review_assets_SHA256": {
+    "README.md": "aee005a01c798c51e680a5a61b9d1c887cb10920461896a5a4cfdc0cc246e5f1",
+    "review-final-explanation.md": "b727d9c1439031af41b5b515265659ac250095fd6f67b20108438fbcc0ddbe09",
+    "figures/coverage-versus-within-long79.png": "0ba1b30c9728bbee9822565f67fffbe9e727b4fef70a9b1ac274bd1c8e9490fe",
+    "figures/ensemble-five-split-hits.png": "57439680c77a75d2251fbafee45363d12227d9826c13d45538ee8a71eb9153ac",
+    "task_plan.md": "1a2a957a7e0a2046cba77a77184ceb88079644893a1a56ea4cfab7c721c1fc6f",
+    "protocol-clarification.md": "9215da90b5a3029618f3afdeb6e7cbd050df3262a7af03c397da8bc0157ff521",
+    "ensemble-stability-supplement.md": "74f9346d50fe988be2c22388fe82ec2b8911c8481451af107ba599297830e3e9"
+  },
+  "explanation_review_status": "PASS_AFTER_TARGETED_FIX",
+  "unresolved": []
+}

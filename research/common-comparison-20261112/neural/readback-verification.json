@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "supervised_runs_verified": 90,
+  "AE_pretraining_runs": 30,
+  "inference_arrays_verified": 270,
+  "all_saved_logits_exact": true,
+  "float64_container_verified": true,
+  "paired_initialization_and_batch_orders_verified": true,
+  "final_model_fit_BCE_recomputed": true,
+  "no_fit_calls": true,
+  "april_rows_read": 0,
+  "eval_metrics_delegated_to_root_common_harness": true,
+  "code_sha256": "a3c619bfb43bf09dd3dbacb319e00fc47cf37ae3b93e8fa7fe6f76daa2820a2d"
+}

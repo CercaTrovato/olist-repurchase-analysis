@@ -1,0 +1,146 @@
+{
+  "status": "PASS_SHARED_BIND_ONLY",
+  "split_count": 5,
+  "authoritative_counts": {
+    "oct": 21160,
+    "oct_events": 211,
+    "jan": 29368,
+    "jan_events": 230,
+    "long": 12330,
+    "long_events": 90
+  },
+  "shared_shapes_and_lineage_verified": true,
+  "fit_cal_indices_recomputed": true,
+  "actual_canonical_loader_mask_verified": true,
+  "bounded_H02_keys_y_original8_exactly_matched": true,
+  "authoritative_H05_Oct_Jan_groups_keyed_exactly_matched": true,
+  "Platt_math": {
+    "analytic_vs_finite_difference_max_error": 5.094719313092355e-09,
+    "projection_cases": [
+      {
+        "a": 1e-06,
+        "gradient": 0.3,
+        "projected_gradient_mapping": 0.0
+      },
+      {
+        "a": 1e-06,
+        "gradient": -0.3,
+        "projected_gradient_mapping": -0.3
+      },
+      {
+        "a": 0.2,
+        "gradient": 0.3,
+        "projected_gradient_mapping": 0.199999
+      },
+      {
+        "a": 0.2,
+        "gradient": -0.3,
+        "projected_gradient_mapping": -0.3
+      }
+    ],
+    "study_fits": 0,
+    "derivative": "(sum((sigmoid(a*z+b)-y)*z)+a/1e6, sum(sigmoid(a*z+b)-y))",
+    "KKT": "at a_min, grad_a>=0; b gradient zero; mapping theta-project(theta-grad)",
+    "objective_convex": true,
+    "active_bound_is_tolerance_label_not_gradient_certificate": true
+  },
+  "matrix_audit": [
+    {
+      "split_id": 20261111,
+      "total_width": 808,
+      "view_dims": [
+        40,
+        507,
+        103,
+        102,
+        42,
+        14
+      ],
+      "base8_encoded_columns": 34,
+      "full_nonzero_columns": 745,
+      "full_nonconstant_columns": 745,
+      "base_nonconstant_columns": 34,
+      "base_extra_nonzeros": 0,
+      "original8_independent_transform_max_abs_difference": 1.8643975252530254e-12
+    },
+    {
+      "split_id": 20261112,
+      "total_width": 813,
+      "view_dims": [
+        40,
+        511,
+        104,
+        102,
+        42,
+        14
+      ],
+      "base8_encoded_columns": 34,
+      "full_nonzero_columns": 750,
+      "full_nonconstant_columns": 750,
+      "base_nonconstant_columns": 34,
+      "base_extra_nonzeros": 0,
+      "original8_independent_transform_max_abs_difference": 4.007461029686965e-12
+    },
+    {
+      "split_id": 20261113,
+      "total_width": 817,
+      "view_dims": [
+        40,
+        515,
+        104,
+        102,
+        42,
+        14
+      ],
+      "base8_encoded_columns": 34,
+      "full_nonzero_columns": 753,
+      "full_nonconstant_columns": 753,
+      "base_nonconstant_columns": 34,
+      "base_extra_nonzeros": 0,
+      "original8_independent_transform_max_abs_difference": 4.355626970209414e-12
+    },
+    {
+      "split_id": 20261114,
+      "total_width": 813,
+      "view_dims": [
+        40,
+        512,
+        103,
+        102,
+        42,
+        14
+      ],
+      "base8_encoded_columns": 34,
+      "full_nonzero_columns": 750,
+      "full_nonconstant_columns": 750,
+      "base_nonconstant_columns": 34,
+      "base_extra_nonzeros": 0,
+      "original8_independent_transform_max_abs_difference": 4.192202140984591e-12
+    },
+    {
+      "split_id": 20261115,
+      "total_width": 812,
+      "view_dims": [
+        40,
+        510,
+        104,
+        102,
+        42,
+        14
+      ],
+      "base8_encoded_columns": 34,
+      "full_nonzero_columns": 749,
+      "full_nonconstant_columns": 749,
+      "base_nonconstant_columns": 34,
+      "base_extra_nonzeros": 0,
+      "original8_independent_transform_max_abs_difference": 1.8796630918416213e-12
+    }
+  ],
+  "model_records_read": false,
+  "study_scores_read": false,
+  "study_models_trained": 0,
+  "study_bootstrap_replicates": 0,
+  "producer_harness_sha256": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+  "protocol_addendum_sha256": "9215da90b5a3029618f3afdeb6e7cbd050df3262a7af03c397da8bc0157ff521",
+  "code_sha256": "ac0ec034705a6d6a8bb46102e4682d37eb7d91d7f233ff4f3fbcdc71318069cd"
+}

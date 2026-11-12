@@ -1,0 +1,369 @@
+{
+  "status": "PASS",
+  "model_count": 65,
+  "family_counts": {
+    "encodedCatBoost": 30,
+    "nativeCatBoost": 15,
+    "weightedLR": 10,
+    "unweightedLR": 10
+  },
+  "model_period_replays": 195,
+  "max_logit_replay_error": 0.0,
+  "float64_score_arrays_match_root": true,
+  "metric_rows": 1400,
+  "capacity_rows": 560,
+  "LR_actual_gtol_reached": 0,
+  "LR_optimizer_messages": {
+    "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH": 20
+  },
+  "LR_warning_runs": 0,
+  "CB_all_actual_iterations": 300,
+  "CB_fit_loss_rows": 13500,
+  "input_sha_checks": {
+    "E:\\app-data\\codex\\outputs\\is6400-validation-20261111\\features\\private\\october-features.csv": true,
+    "E:\\app-data\\codex\\outputs\\is6400-validation-20261111\\features\\private\\january-features.csv": true,
+    "E:\\app-data\\codex\\outputs\\is6400-validation-20261111\\features\\feature-views.json": true,
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\task_plan.md": true,
+    "E:\\app-data\\codex\\outputs\\is6400-rfm-weighted-2x2-20261110\\run_rfm_2x2.py": true,
+    "E:\\app-data\\codex\\outputs\\is6400-team-intake-20261110\\H02_candidate_v2.zip": true,
+    "E:\\app-data\\codex\\outputs\\is6400-local-round2-20261110\\role-04\\train_clusters.csv": true,
+    "E:\\app-data\\codex\\outputs\\is6400-h05-january-handoff-20261110\\validation_clusters.csv": true
+  },
+  "models": [
+    {
+      "model_id": "weightedLR-base8-split20261111",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "weightedLR-full141-split20261111",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-full141-split20261111-seed2026",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "nativeCatBoost-full141-split20261111-seed2026",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "unweightedLR-base8-split20261111",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-base8-split20261111-seed2026",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-base8-split20261111-seed2027",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-base8-split20261111-seed2028",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "unweightedLR-full141-split20261111",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-full141-split20261111-seed2027",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-full141-split20261111-seed2028",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "nativeCatBoost-full141-split20261111-seed2027",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "nativeCatBoost-full141-split20261111-seed2028",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "weightedLR-base8-split20261112",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "unweightedLR-base8-split20261112",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-base8-split20261112-seed2026",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-base8-split20261112-seed2027",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-base8-split20261112-seed2028",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "weightedLR-full141-split20261112",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "unweightedLR-full141-split20261112",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-full141-split20261112-seed2026",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-full141-split20261112-seed2027",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-full141-split20261112-seed2028",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "nativeCatBoost-full141-split20261112-seed2026",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "nativeCatBoost-full141-split20261112-seed2027",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "nativeCatBoost-full141-split20261112-seed2028",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "weightedLR-base8-split20261113",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "unweightedLR-base8-split20261113",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-base8-split20261113-seed2026",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-base8-split20261113-seed2027",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-base8-split20261113-seed2028",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "weightedLR-full141-split20261113",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "unweightedLR-full141-split20261113",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-full141-split20261113-seed2026",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-full141-split20261113-seed2027",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-full141-split20261113-seed2028",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "nativeCatBoost-full141-split20261113-seed2026",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "nativeCatBoost-full141-split20261113-seed2027",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "nativeCatBoost-full141-split20261113-seed2028",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "weightedLR-base8-split20261114",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "unweightedLR-base8-split20261114",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-base8-split20261114-seed2026",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-base8-split20261114-seed2027",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-base8-split20261114-seed2028",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "weightedLR-full141-split20261114",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "unweightedLR-full141-split20261114",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-full141-split20261114-seed2026",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-full141-split20261114-seed2027",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-full141-split20261114-seed2028",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "nativeCatBoost-full141-split20261114-seed2026",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "nativeCatBoost-full141-split20261114-seed2027",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "nativeCatBoost-full141-split20261114-seed2028",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "weightedLR-base8-split20261115",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "unweightedLR-base8-split20261115",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-base8-split20261115-seed2026",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-base8-split20261115-seed2027",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-base8-split20261115-seed2028",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "weightedLR-full141-split20261115",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "unweightedLR-full141-split20261115",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-full141-split20261115-seed2026",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-full141-split20261115-seed2027",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "encodedCatBoost-full141-split20261115-seed2028",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "nativeCatBoost-full141-split20261115-seed2026",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "nativeCatBoost-full141-split20261115-seed2027",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    },
+    {
+      "model_id": "nativeCatBoost-full141-split20261115-seed2028",
+      "three_periods_reloaded": true,
+      "root_record_and_float64_scores_match": true
+    }
+  ],
+  "April_snapshot_rows_read": 0,
+  "new_April_scores": 0,
+  "root_harness_sha256": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+  "actual_visual_review": {
+    "files": {
+      "LR-optimization.png": "7f01a90b55d50d712c6c715e8693b148f653384d3a8ad7fc2426a27881dfa117",
+      "CB-fit-curves.png": "f2fcea0958aaa4381f2a6e3c392893b269548497916a1f358855add842eac86e"
+    },
+    "observed": "Both PNGs actually viewed; source emits same SVG; axes/legend distinguish gradient gtol vs actual ftol stop and canonical fit curves vs Jan performance."
+  }
+}

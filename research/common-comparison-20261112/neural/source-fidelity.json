@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "tiny synthetic code-fidelity; not customer data or experiment runs",
+  "reference_sha256": "dc8e08850cb9fa37f20eba8a30969aa43773d92c362c536f5135dadf80d1d56d",
+  "current_sha256": "1a698710eb09f85455a15f4e2d374789291225e654e3164c041da71effe41926",
+  "checks": [
+    {
+      "family": "mean",
+      "initial_parameters_exact": true,
+      "forward_exact": true,
+      "two_epoch_supervised_state_exact": true,
+      "two_epoch_AE_state_exact": false
+    },
+    {
+      "family": "column-gate",
+      "initial_parameters_exact": true,
+      "forward_exact": true,
+      "two_epoch_supervised_state_exact": true,
+      "two_epoch_AE_state_exact": false
+    },
+    {
+      "family": "AE",
+      "initial_parameters_exact": true,
+      "forward_exact": true,
+      "two_epoch_supervised_state_exact": true,
+      "two_epoch_AE_state_exact": true
+    }
+  ],
+  "real_customer_rows_read": 0,
+  "jan_rows_read": 0
+}

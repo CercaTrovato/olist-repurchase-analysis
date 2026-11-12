@@ -1,0 +1,147 @@
+[
+  {
+    "candidate": "base8::AE",
+    "reference": "base8::weightedLR",
+    "kind": "primary_vs_weightedLR_base8"
+  },
+  {
+    "candidate": "base8::column-gate",
+    "reference": "base8::weightedLR",
+    "kind": "primary_vs_weightedLR_base8"
+  },
+  {
+    "candidate": "base8::encodedCatBoost",
+    "reference": "base8::weightedLR",
+    "kind": "primary_vs_weightedLR_base8"
+  },
+  {
+    "candidate": "base8::mean",
+    "reference": "base8::weightedLR",
+    "kind": "primary_vs_weightedLR_base8"
+  },
+  {
+    "candidate": "base8::unweightedLR",
+    "reference": "base8::weightedLR",
+    "kind": "primary_vs_weightedLR_base8"
+  },
+  {
+    "candidate": "full141::AE",
+    "reference": "base8::weightedLR",
+    "kind": "primary_vs_weightedLR_base8"
+  },
+  {
+    "candidate": "full141::column-gate",
+    "reference": "base8::weightedLR",
+    "kind": "primary_vs_weightedLR_base8"
+  },
+  {
+    "candidate": "full141::encodedCatBoost",
+    "reference": "base8::weightedLR",
+    "kind": "primary_vs_weightedLR_base8"
+  },
+  {
+    "candidate": "full141::mean",
+    "reference": "base8::weightedLR",
+    "kind": "primary_vs_weightedLR_base8"
+  },
+  {
+    "candidate": "full141::nativeCatBoost",
+    "reference": "base8::weightedLR",
+    "kind": "primary_vs_weightedLR_base8"
+  },
+  {
+    "candidate": "full141::unweightedLR",
+    "reference": "base8::weightedLR",
+    "kind": "primary_vs_weightedLR_base8"
+  },
+  {
+    "candidate": "full141::weightedLR",
+    "reference": "base8::weightedLR",
+    "kind": "primary_vs_weightedLR_base8"
+  },
+  {
+    "candidate": "full141::weightedLR",
+    "reference": "base8::weightedLR",
+    "kind": "information"
+  },
+  {
+    "candidate": "full141::unweightedLR",
+    "reference": "base8::unweightedLR",
+    "kind": "information"
+  },
+  {
+    "candidate": "full141::encodedCatBoost",
+    "reference": "base8::encodedCatBoost",
+    "kind": "information"
+  },
+  {
+    "candidate": "full141::mean",
+    "reference": "base8::mean",
+    "kind": "information"
+  },
+  {
+    "candidate": "full141::column-gate",
+    "reference": "base8::column-gate",
+    "kind": "information"
+  },
+  {
+    "candidate": "full141::AE",
+    "reference": "base8::AE",
+    "kind": "information"
+  },
+  {
+    "candidate": "base8::unweightedLR",
+    "reference": "base8::weightedLR",
+    "kind": "model_within_information"
+  },
+  {
+    "candidate": "base8::encodedCatBoost",
+    "reference": "base8::weightedLR",
+    "kind": "model_within_information"
+  },
+  {
+    "candidate": "base8::mean",
+    "reference": "base8::weightedLR",
+    "kind": "model_within_information"
+  },
+  {
+    "candidate": "base8::column-gate",
+    "reference": "base8::weightedLR",
+    "kind": "model_within_information"
+  },
+  {
+    "candidate": "base8::AE",
+    "reference": "base8::weightedLR",
+    "kind": "model_within_information"
+  },
+  {
+    "candidate": "full141::unweightedLR",
+    "reference": "full141::weightedLR",
+    "kind": "model_within_information"
+  },
+  {
+    "candidate": "full141::encodedCatBoost",
+    "reference": "full141::weightedLR",
+    "kind": "model_within_information"
+  },
+  {
+    "candidate": "full141::mean",
+    "reference": "full141::weightedLR",
+    "kind": "model_within_information"
+  },
+  {
+    "candidate": "full141::column-gate",
+    "reference": "full141::weightedLR",
+    "kind": "model_within_information"
+  },
+  {
+    "candidate": "full141::AE",
+    "reference": "full141::weightedLR",
+    "kind": "model_within_information"
+  },
+  {
+    "candidate": "full141::nativeCatBoost",
+    "reference": "full141::encodedCatBoost",
+    "kind": "encoding_missing_processing_package_bridge"
+  }
+]

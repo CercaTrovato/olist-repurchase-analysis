@@ -1,0 +1,13 @@
+{
+  "status": "frozen_before_pilot_and_formal_runs",
+  "files_sha256": {
+    "plan.md": "b27a347866ca6ba4fedf1938f6882a7f10ee7f5796ebc133bb85c0591f9fa196",
+    "neural_models.py": "1a698710eb09f85455a15f4e2d374789291225e654e3164c041da71effe41926",
+    "run_neural.py": "dfd6eece94597674680829a2f5cd91ca2cba6ef778c8018a4ff8150d74f2dca5",
+    "verify_neural.py": "a3c619bfb43bf09dd3dbacb319e00fc47cf37ae3b93e8fa7fe6f76daa2820a2d",
+    "root_manifest": "1be6816d26676a2ed08a83be4f7f212e79d13c7fba88d663f84e9d3b904e8d57",
+    "root_harness": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c"
+  },
+  "models": 90,
+  "AE_pretraining_runs": 30
+}

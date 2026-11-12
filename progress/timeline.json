@@ -3,10 +3,10 @@
   "assignment_id": "IS6400-A06",
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
-  "as_of": "2026-11-11",
-  "basis_revision": "3e2c702f5288c99a889deb4c92c21efc573dc03ec10fd4abd60a1316fc03cdac",
+  "as_of": "2026-11-12",
+  "basis_revision": "1b14ee0c5255a08eda480ace9d75a90b8b7af52e581357c6c023eea574febc90",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "用户已明确授权按18条质疑开测。P1概率/基率、P2全字段与地理文本、P3异常和聚类、P4群权重/分支/损失采样/注意力及论文启发表征已完成首批受控验证；数值收敛控制单列。全量客户评分，科学概率与原名单指标并列，四月本轮不新评分。未自动采用新模型；最终系统消融待候选冻结，成员第三轮实际回件仍待收。",
+  "summary": "本地155模型统一比较已核：同字段/模型、五重叠fit-cal划分、三seed。AE概率融合为优先研究线索（参考51/久单4 vs基线43/2，五split全体4胜1平/久单5胜），名单差条件区间仍含0；CatBoost概率质量较好。未确认新正式模型，系统消融后置，四月无新评分。新17图累计57，成员回件/采用仍按实际。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
@@ -16,10 +16,10 @@
       "owner": "本人 · 总监督",
       "owner_role": "me",
       "scope": "team",
-      "summary": "用户已授权开测，科学概率和原同容量名单并列验证；最终主指标和团队正式采用版本仍待决定。",
+      "summary": "统一比较已完成，AE融合和CB概率质量各有线索，正式主指标与团队冻结版本仍待本人确认。",
       "deliverable": "决定方法冻结后怎样评价，并清楚披露哪些时期已经看过。",
-      "next_action": "审阅已核结果与成员回件，记录真实模型采用、主指标及冻结依据。",
-      "my_next_action": "比较候选的概率质量、全局和久单效果，再确认展示采用版本。",
+      "next_action": "据完整结果及成员回件记录真实采用版本、时间和依据。",
+      "my_next_action": "按展示目标选择采用版本，不把已见一月条件区间当新时期证明。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -45,7 +45,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-11",
+      "observed_on": "2026-11-12",
       "estimated_minutes": null,
       "state_basis": "沿用已有核验；未凭文件存在推定正式提交。 本日期为总监督建议，待相关成员确认，不改变正式截止。",
       "evidence": [
@@ -69,6 +69,11 @@
           "observed_on": "2026-11-11",
           "status": "needs_review",
           "note": "D10已解除D08开测门禁；正式主指标与采用仍未代本人决定。"
+        },
+        {
+          "observed_on": "2026-11-12",
+          "status": "needs_review",
+          "note": "新增155格统一比较、17图和条件区间；AE列研究线索，未确认正式模型，系统消融仍后置。"
         }
       ]
     },
@@ -381,9 +386,9 @@
       "owner": "本地辅助 1–5 号；本人核取舍",
       "owner_role": "member",
       "scope": "supporting",
-      "summary": "本地首批P1–P4受控验证完成，补数值收敛控制与图；保留既有四月历史，本批无新四月评分。",
+      "summary": "首批与本轮统一比较均已核；155新模型/17图，四月本批无新评分。",
       "deliverable": "用锁定的十月拟合管线、相同四月客户与前 10% 名额，对照原版和最近购买基线。",
-      "next_action": "与成员第三轮回件并列，冻结候选后做最终系统消融。",
+      "next_action": "保留全结果，与真实成员回件核口径；候选锁定后消融/新时间验证。",
       "my_next_action": null,
       "depends_on": [],
       "dependency_gates": [],
@@ -420,7 +425,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-11",
+      "observed_on": "2026-11-12",
       "estimated_minutes": null,
       "state_basis": "沿用已有核验；未凭文件存在推定正式提交。",
       "evidence": [
@@ -461,6 +466,11 @@
           "observed_on": "2026-11-11",
           "status": "needs_review",
           "note": "本地研究结果与真实组员交付分开；不是最终采用或正式提交。"
+        },
+        {
+          "observed_on": "2026-11-12",
+          "status": "needs_review",
+          "note": "新增155格统一比较、17图和条件区间；AE列研究线索，未确认正式模型，系统消融仍后置。"
         }
       ]
     },
@@ -1899,10 +1909,10 @@
       "owner": "本人 · 6号与本课程会话",
       "owner_role": "me",
       "scope": "supporting",
-      "summary": "18条质疑已开测；P1–P4首批冻结矩阵已核，最终系统消融与采用决定仍待。",
+      "summary": "Q01–Q18基础验证与四候选统一比较已核；研究候选范围收窄，正式采用及系统消融仍待。",
       "deliverable": "逐问题假设、配置、全部结果、局限与可编辑可视化，保留负结果和纠正历史。",
-      "next_action": "审阅本批统一对照和数值控制，冻结研究候选后做最终消融；继续收组员独立策略。",
-      "my_next_action": "本批无需补充信息；审阅候选后决定展示版本与正式主指标。",
+      "next_action": "先据完整证据锁定研究候选和正式采用取舍，再做系统消融。",
+      "my_next_action": "阅读统一比较，决定展示采用口径与正式版本。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -1944,7 +1954,7 @@
       },
       "started_on": "2026-11-11",
       "completed_on": null,
-      "observed_on": "2026-11-11",
+      "observed_on": "2026-11-12",
       "estimated_minutes": null,
       "state_basis": "D10为本人明确开测授权；所有研究完成仅限已核矩阵，不宣称穷尽或独立盲测。",
       "evidence": [
@@ -1967,6 +1977,70 @@
           "observed_on": "2026-11-11",
           "status": "in_progress",
           "note": "用户明确开始逐步验证，原新增实验0只属设计阶段历史。P1–P4首批实际结果已核。"
+        },
+        {
+          "observed_on": "2026-11-12",
+          "status": "in_progress",
+          "note": "新增155格统一比较、17图和条件区间；AE列研究线索，未确认正式模型，系统消融仍后置。"
+        }
+      ]
+    },
+    {
+      "id": "common-candidate-comparison",
+      "title": "本地四候选同口径比较（辅助）",
+      "status": "done",
+      "owner": "本课程会话本地研究；本人核采用",
+      "owner_role": "me",
+      "scope": "supporting",
+      "summary": "本地155模型统一比较已核：同字段/模型、五重叠fit-cal划分、三seed。AE概率融合为优先研究线索（参考51/久单4 vs基线43/2，五split全体4胜1平/久单5胜），名单差条件区间仍含0；CatBoost概率质量较好。未确认新正式模型，系统消融后置，四月无新评分。新17图累计57，成员回件/采用仍按实际。",
+      "deliverable": "155模型共享矩阵与完整对照、稳定性/条件区间、17图与独立读回。",
+      "next_action": "研究候选锁定后正式消融；团队采用与真实成员回件另列。",
+      "my_next_action": "据完整结果核对展示采用版本；不凭最高seed或单一一月分数定稿。",
+      "depends_on": [
+        "research-questions-and-design"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "comparison",
+          "label": "同矩阵/字段×模型155格与实际优化诊断齐",
+          "status": "pass",
+          "evidence": []
+        },
+        {
+          "id": "readback",
+          "label": "模型重放、统计及最终说明独立核验通过",
+          "status": "pass",
+          "evidence": []
+        },
+        {
+          "id": "visual",
+          "label": "17新PNG/SVG及数据源码实际检查",
+          "status": "pass",
+          "evidence": []
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": "2026-11-12",
+      "completed_on": "2026-11-12",
+      "observed_on": "2026-11-12",
+      "estimated_minutes": null,
+      "state_basis": "仅本地辅助比较范围完成，不代表团队采用、系统消融或正式提交。",
+      "evidence": [
+        {
+          "label": "统一比较结果与研究候选",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/common-candidate-comparison.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-12",
+          "status": "done",
+          "note": "用户明确同口径继续，完整比较及复核完成；quota恢复后接续不重训。"
         }
       ]
     }

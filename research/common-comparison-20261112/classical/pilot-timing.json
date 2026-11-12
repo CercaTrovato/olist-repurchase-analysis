@@ -1,0 +1,17 @@
+{
+  "mode": "pilot",
+  "completed_models": 4,
+  "executed_seconds": 49.44893210000009,
+  "training_seconds": 28.794375099998433,
+  "calibration_only_via_root_harness": true,
+  "root_eval_harness_pending": false,
+  "April_rows_read": 0,
+  "pilot_training_seconds": {
+    "weightedLR-base8": 2.630964899995888,
+    "weightedLR-full141": 9.718612699994992,
+    "encodedCatBoost-full141": 4.8612787000020035,
+    "nativeCatBoost-full141": 11.58351880000555
+  },
+  "rough_full_training_seconds": 513.9633970000432,
+  "estimate_note": "Extrapolated using slower pilot LR for WLR/ULR and full CB for both information slots; includes all65 training, excludes replay/evaluation/IO; no Jan result used"
+}

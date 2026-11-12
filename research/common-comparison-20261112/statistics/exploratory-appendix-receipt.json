@@ -1,0 +1,16 @@
+{
+  "status": "EXPLORATORY_APPENDIX_COMPLETE_ORIGINAL_TABLES_UNCHANGED",
+  "model_pairs": 36,
+  "new_model_fits": 0,
+  "new_bootstrap_resamples": 0,
+  "original_source_SHA256": {
+    "canonical-bootstrap-observed.csv": "c108c48c84169090c8d07bc67150ffbe80adfa1bece9ef36758b31f11a360750",
+    "canonical-bootstrap-replicates.csv.gz": "15a4c1f351020f0196a3a4828066918b0c236051d8154f0f869ffec154fd6a15",
+    "canonical-contrasts.json": "d911547270bca5a4c1fa547f4a97cfe113d0e64fa6a0798dd2a9a9ecb8e352ee",
+    "canonical-paired-bootstrap-intervals.csv": "7807f17c106049ccfd646351fe8e0df68b6f6775d9d474f6c555cfc8bb422b5c",
+    "all-run-metrics.csv": "7b61a8361a16ccf25560704e2fb37953aa5f9bcde7adebfde2be3e186200eb72",
+    "all-run-capacities.csv": "36aadb25f446c1fec2a7d2ecf31ad6d2493486a20f18e17a640f18f1af5f340f"
+  },
+  "plan_sha256": "9e87abe2d2ede37dbcb5e0ee87c91f3f4b97ab95b829c29a5822cd9615a90830",
+  "code_sha256": "377871abef63a68d568e05025b95f5763cb9c319f908d82a2fa188c7858dabf8"
+}

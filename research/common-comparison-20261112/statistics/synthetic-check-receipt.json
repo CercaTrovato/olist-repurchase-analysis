@@ -1,0 +1,12 @@
+{
+  "status": "PASS_SYNTHETIC_PRIMITIVES_ONLY",
+  "expanded_copy_topk_checks": 303,
+  "weighted_ties_metrics_cases": 101,
+  "keyed_ensemble_aligned": true,
+  "mean_probability_not_mean_loss_verified": true,
+  "common_bootstrap_counts_verified": true,
+  "study_scores_read": false,
+  "models_trained": 0,
+  "bootstrap_study_replicates": 0,
+  "code_sha256": "8ce1cfb672cc71554d7a05db5597045de2b86fd36499db15076bd2ed8c32e3d6"
+}

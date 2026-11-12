@@ -1,0 +1,9 @@
+{
+  "mode": "full",
+  "completed_models": 65,
+  "executed_seconds": 841.8218822999988,
+  "training_seconds": 364.70206840000174,
+  "calibration_only_via_root_harness": true,
+  "root_eval_harness_pending": false,
+  "April_rows_read": 0
+}

@@ -1,0 +1,352 @@
+[
+  {
+    "split": 20261111,
+    "information": "base8",
+    "description": {
+      "dims": [
+        40,
+        507,
+        103,
+        102,
+        42,
+        14
+      ],
+      "dimension": 808,
+      "base8_encoded": 34,
+      "fit_n": 16928,
+      "fit_positive": 169,
+      "cal_n": 4232,
+      "cal_positive": 42,
+      "fit_key_sha256": "037940a31f4faca2a82b84c59e72a890ff021cfbde14a9bd443973121ff028b9",
+      "original8_transform_max_abs_diff": 1.8643975252530254e-12,
+      "seconds": 1.8643648000070243,
+      "files": {
+        "base8-mask.npy": "d5b050017a28718401a525a150a1144fa486f8224fb56e1b0ed956a0cc8f357d",
+        "cal.npz": "052ef5d5cf2063b3452f41ba450c96c04d2219d1f26f40869eea76db7882726d",
+        "fit.npz": "de425ae06492a8ee7dbead9a2e60ab60ecd4e5bfd1b9180322d27b1624fdaca3",
+        "indices.npz": "5bacb9262b864446918d029e8f77f90434fc9bdd79f874dc7876767c278fcb24",
+        "jan.npz": "2c87ad9c5f6f183569b5936043690e9bcee8a405ed0ced7f1b2fc91480d9db04",
+        "lineage.json": "c6e48ad386aba21be8f60d31631814ce6182110ddec9489a39e400be5e7e86ce",
+        "transformers.joblib": "1d18e2705f231ff65af7c397733d9e2b23b23b3fdfc54c37a2fc23a6f9fb742f"
+      }
+    },
+    "manifest_sha256": "1be6816d26676a2ed08a83be4f7f212e79d13c7fba88d663f84e9d3b904e8d57",
+    "eval_harness_sha256": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+    "source": "root load_split(dense=True,dtype=float32); no local masking/preprocessing"
+  },
+  {
+    "split": 20261111,
+    "information": "full141",
+    "description": {
+      "dims": [
+        40,
+        507,
+        103,
+        102,
+        42,
+        14
+      ],
+      "dimension": 808,
+      "base8_encoded": 34,
+      "fit_n": 16928,
+      "fit_positive": 169,
+      "cal_n": 4232,
+      "cal_positive": 42,
+      "fit_key_sha256": "037940a31f4faca2a82b84c59e72a890ff021cfbde14a9bd443973121ff028b9",
+      "original8_transform_max_abs_diff": 1.8643975252530254e-12,
+      "seconds": 1.8643648000070243,
+      "files": {
+        "base8-mask.npy": "d5b050017a28718401a525a150a1144fa486f8224fb56e1b0ed956a0cc8f357d",
+        "cal.npz": "052ef5d5cf2063b3452f41ba450c96c04d2219d1f26f40869eea76db7882726d",
+        "fit.npz": "de425ae06492a8ee7dbead9a2e60ab60ecd4e5bfd1b9180322d27b1624fdaca3",
+        "indices.npz": "5bacb9262b864446918d029e8f77f90434fc9bdd79f874dc7876767c278fcb24",
+        "jan.npz": "2c87ad9c5f6f183569b5936043690e9bcee8a405ed0ced7f1b2fc91480d9db04",
+        "lineage.json": "c6e48ad386aba21be8f60d31631814ce6182110ddec9489a39e400be5e7e86ce",
+        "transformers.joblib": "1d18e2705f231ff65af7c397733d9e2b23b23b3fdfc54c37a2fc23a6f9fb742f"
+      }
+    },
+    "manifest_sha256": "1be6816d26676a2ed08a83be4f7f212e79d13c7fba88d663f84e9d3b904e8d57",
+    "eval_harness_sha256": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+    "source": "root load_split(dense=True,dtype=float32); no local masking/preprocessing"
+  },
+  {
+    "split": 20261112,
+    "information": "base8",
+    "description": {
+      "dims": [
+        40,
+        511,
+        104,
+        102,
+        42,
+        14
+      ],
+      "dimension": 813,
+      "base8_encoded": 34,
+      "fit_n": 16928,
+      "fit_positive": 169,
+      "cal_n": 4232,
+      "cal_positive": 42,
+      "fit_key_sha256": "078acb8ab6ab4ad43b2028754c7f71067428be39c519c220bd023f19ed278617",
+      "original8_transform_max_abs_diff": 4.007461029686965e-12,
+      "seconds": 1.933387800003402,
+      "files": {
+        "base8-mask.npy": "0bb66e3fdfd81c22b4b359a221186b1fdc91916ecbb9eaf4c601cdcba1fcc851",
+        "cal.npz": "12a04294dd2ae08ffed53997d2eabb55c2a88bfe90e1beb3e644c2315053006a",
+        "fit.npz": "e23b6a2168e8d06a974c26bf6fc4c967752c4cfb53c451204f60963322ae0a8a",
+        "indices.npz": "2f87e84f53f58603da0287b704a89eef6fa21f519cc0ef254fbd776dc504f7d2",
+        "jan.npz": "043e60d8019dc0a212cc8fc74bf6a144c9933d31f2d2aab9c4c4aa092e841bae",
+        "lineage.json": "245137db5eda68efc4118b052315dd562b24254f23338537f6c4462308c6a0dc",
+        "transformers.joblib": "c15a35f48064151c38b6c9d6645bdce37826791e178767bebe7a83142656d9da"
+      }
+    },
+    "manifest_sha256": "1be6816d26676a2ed08a83be4f7f212e79d13c7fba88d663f84e9d3b904e8d57",
+    "eval_harness_sha256": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+    "source": "root load_split(dense=True,dtype=float32); no local masking/preprocessing"
+  },
+  {
+    "split": 20261112,
+    "information": "full141",
+    "description": {
+      "dims": [
+        40,
+        511,
+        104,
+        102,
+        42,
+        14
+      ],
+      "dimension": 813,
+      "base8_encoded": 34,
+      "fit_n": 16928,
+      "fit_positive": 169,
+      "cal_n": 4232,
+      "cal_positive": 42,
+      "fit_key_sha256": "078acb8ab6ab4ad43b2028754c7f71067428be39c519c220bd023f19ed278617",
+      "original8_transform_max_abs_diff": 4.007461029686965e-12,
+      "seconds": 1.933387800003402,
+      "files": {
+        "base8-mask.npy": "0bb66e3fdfd81c22b4b359a221186b1fdc91916ecbb9eaf4c601cdcba1fcc851",
+        "cal.npz": "12a04294dd2ae08ffed53997d2eabb55c2a88bfe90e1beb3e644c2315053006a",
+        "fit.npz": "e23b6a2168e8d06a974c26bf6fc4c967752c4cfb53c451204f60963322ae0a8a",
+        "indices.npz": "2f87e84f53f58603da0287b704a89eef6fa21f519cc0ef254fbd776dc504f7d2",
+        "jan.npz": "043e60d8019dc0a212cc8fc74bf6a144c9933d31f2d2aab9c4c4aa092e841bae",
+        "lineage.json": "245137db5eda68efc4118b052315dd562b24254f23338537f6c4462308c6a0dc",
+        "transformers.joblib": "c15a35f48064151c38b6c9d6645bdce37826791e178767bebe7a83142656d9da"
+      }
+    },
+    "manifest_sha256": "1be6816d26676a2ed08a83be4f7f212e79d13c7fba88d663f84e9d3b904e8d57",
+    "eval_harness_sha256": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+    "source": "root load_split(dense=True,dtype=float32); no local masking/preprocessing"
+  },
+  {
+    "split": 20261113,
+    "information": "base8",
+    "description": {
+      "dims": [
+        40,
+        515,
+        104,
+        102,
+        42,
+        14
+      ],
+      "dimension": 817,
+      "base8_encoded": 34,
+      "fit_n": 16928,
+      "fit_positive": 169,
+      "cal_n": 4232,
+      "cal_positive": 42,
+      "fit_key_sha256": "487c79babd64973f9ef9ba4863d6e05cbbd042df7c5bea5d67979712e835591f",
+      "original8_transform_max_abs_diff": 4.355626970209414e-12,
+      "seconds": 1.8414875999951619,
+      "files": {
+        "base8-mask.npy": "6a216d3f596c5661aec64dec70af0b41f1acbecf5f774c9e55be818267177f7e",
+        "cal.npz": "5ea6d438a43c0313e6915244281cee71fd80dfea6b8006c84fb340a87ddb597c",
+        "fit.npz": "c23f7f03dc2f3a69f2c89ec55a5b72ba6fdce2c18984e40847721244ccaee59c",
+        "indices.npz": "2b5ac9db168bb26193e297297e02d4b3eda090328c5d5f1fb42121e93a4d9afc",
+        "jan.npz": "90ce0c8f715ffd2f2fa1b896671291e10d4986e2484c99878960318c479e95ec",
+        "lineage.json": "60bfe193189c747c6fb8c384c9b36a2939168c9506fcabe7d297f123009e2f66",
+        "transformers.joblib": "490dba1c56b625e9393583680a9db600b7ee8a453699f41224ba18b39982dd9f"
+      }
+    },
+    "manifest_sha256": "1be6816d26676a2ed08a83be4f7f212e79d13c7fba88d663f84e9d3b904e8d57",
+    "eval_harness_sha256": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+    "source": "root load_split(dense=True,dtype=float32); no local masking/preprocessing"
+  },
+  {
+    "split": 20261113,
+    "information": "full141",
+    "description": {
+      "dims": [
+        40,
+        515,
+        104,
+        102,
+        42,
+        14
+      ],
+      "dimension": 817,
+      "base8_encoded": 34,
+      "fit_n": 16928,
+      "fit_positive": 169,
+      "cal_n": 4232,
+      "cal_positive": 42,
+      "fit_key_sha256": "487c79babd64973f9ef9ba4863d6e05cbbd042df7c5bea5d67979712e835591f",
+      "original8_transform_max_abs_diff": 4.355626970209414e-12,
+      "seconds": 1.8414875999951619,
+      "files": {
+        "base8-mask.npy": "6a216d3f596c5661aec64dec70af0b41f1acbecf5f774c9e55be818267177f7e",
+        "cal.npz": "5ea6d438a43c0313e6915244281cee71fd80dfea6b8006c84fb340a87ddb597c",
+        "fit.npz": "c23f7f03dc2f3a69f2c89ec55a5b72ba6fdce2c18984e40847721244ccaee59c",
+        "indices.npz": "2b5ac9db168bb26193e297297e02d4b3eda090328c5d5f1fb42121e93a4d9afc",
+        "jan.npz": "90ce0c8f715ffd2f2fa1b896671291e10d4986e2484c99878960318c479e95ec",
+        "lineage.json": "60bfe193189c747c6fb8c384c9b36a2939168c9506fcabe7d297f123009e2f66",
+        "transformers.joblib": "490dba1c56b625e9393583680a9db600b7ee8a453699f41224ba18b39982dd9f"
+      }
+    },
+    "manifest_sha256": "1be6816d26676a2ed08a83be4f7f212e79d13c7fba88d663f84e9d3b904e8d57",
+    "eval_harness_sha256": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+    "source": "root load_split(dense=True,dtype=float32); no local masking/preprocessing"
+  },
+  {
+    "split": 20261114,
+    "information": "base8",
+    "description": {
+      "dims": [
+        40,
+        512,
+        103,
+        102,
+        42,
+        14
+      ],
+      "dimension": 813,
+      "base8_encoded": 34,
+      "fit_n": 16928,
+      "fit_positive": 169,
+      "cal_n": 4232,
+      "cal_positive": 42,
+      "fit_key_sha256": "b368aa3926f3e8cb3ff1501e2aa9c1df259083a5409071da5ae59d1f5d40c51b",
+      "original8_transform_max_abs_diff": 4.192202140984591e-12,
+      "seconds": 1.908036600005289,
+      "files": {
+        "base8-mask.npy": "0bb66e3fdfd81c22b4b359a221186b1fdc91916ecbb9eaf4c601cdcba1fcc851",
+        "cal.npz": "366265f0da49f1ca72afc638d1052a74c0e15b5dcd15eca0332dc47b6fb4ac2c",
+        "fit.npz": "2092f7ca9873bdfec5274a44f735796607d103654ae9584775f1be7b31c59c26",
+        "indices.npz": "08c3c2bbe279d1b1ec35015eddf19934dc9e99880b12886082144deee0e31fec",
+        "jan.npz": "4855aa9aa5b4b1cd845fb5c6ddf4ecc027581c9f3450b8bd59a73eba33207c8a",
+        "lineage.json": "9db151a9281b7b76efc6abebb8ac1ba189ff5fa44d7ff1411077e185fdad0615",
+        "transformers.joblib": "069cc27c604bd7d0bbaae0fd4e7e05985801b6fbce9c93a652e07402abd12296"
+      }
+    },
+    "manifest_sha256": "1be6816d26676a2ed08a83be4f7f212e79d13c7fba88d663f84e9d3b904e8d57",
+    "eval_harness_sha256": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+    "source": "root load_split(dense=True,dtype=float32); no local masking/preprocessing"
+  },
+  {
+    "split": 20261114,
+    "information": "full141",
+    "description": {
+      "dims": [
+        40,
+        512,
+        103,
+        102,
+        42,
+        14
+      ],
+      "dimension": 813,
+      "base8_encoded": 34,
+      "fit_n": 16928,
+      "fit_positive": 169,
+      "cal_n": 4232,
+      "cal_positive": 42,
+      "fit_key_sha256": "b368aa3926f3e8cb3ff1501e2aa9c1df259083a5409071da5ae59d1f5d40c51b",
+      "original8_transform_max_abs_diff": 4.192202140984591e-12,
+      "seconds": 1.908036600005289,
+      "files": {
+        "base8-mask.npy": "0bb66e3fdfd81c22b4b359a221186b1fdc91916ecbb9eaf4c601cdcba1fcc851",
+        "cal.npz": "366265f0da49f1ca72afc638d1052a74c0e15b5dcd15eca0332dc47b6fb4ac2c",
+        "fit.npz": "2092f7ca9873bdfec5274a44f735796607d103654ae9584775f1be7b31c59c26",
+        "indices.npz": "08c3c2bbe279d1b1ec35015eddf19934dc9e99880b12886082144deee0e31fec",
+        "jan.npz": "4855aa9aa5b4b1cd845fb5c6ddf4ecc027581c9f3450b8bd59a73eba33207c8a",
+        "lineage.json": "9db151a9281b7b76efc6abebb8ac1ba189ff5fa44d7ff1411077e185fdad0615",
+        "transformers.joblib": "069cc27c604bd7d0bbaae0fd4e7e05985801b6fbce9c93a652e07402abd12296"
+      }
+    },
+    "manifest_sha256": "1be6816d26676a2ed08a83be4f7f212e79d13c7fba88d663f84e9d3b904e8d57",
+    "eval_harness_sha256": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+    "source": "root load_split(dense=True,dtype=float32); no local masking/preprocessing"
+  },
+  {
+    "split": 20261115,
+    "information": "base8",
+    "description": {
+      "dims": [
+        40,
+        510,
+        104,
+        102,
+        42,
+        14
+      ],
+      "dimension": 812,
+      "base8_encoded": 34,
+      "fit_n": 16928,
+      "fit_positive": 169,
+      "cal_n": 4232,
+      "cal_positive": 42,
+      "fit_key_sha256": "33c761d721c9b4b78ef0e0a2a2607dc07eb4e5f44e31de7ab72d9e5e3dafd7d2",
+      "original8_transform_max_abs_diff": 1.8796630918416213e-12,
+      "seconds": 1.8468309000018053,
+      "files": {
+        "base8-mask.npy": "7dc4de98bac6c7c7d5102ec945bdd81ecebb36605fab8c00b91081c433dd421d",
+        "cal.npz": "7c2804590478082160cb12880bbab54bf06f1a0cec8001064856853ae56f3e97",
+        "fit.npz": "8bd08fc93d7d972b16b50d42c3d9d5ba4df416ea1127ba6099723f78b9e2b69c",
+        "indices.npz": "778c3d3444b0ad92cf08de57790da012d6d48399841210369dd3a26a9c8373c3",
+        "jan.npz": "5a782cc8d1b501a7927c902ea6e4b45a0946b5801815b161c0408ac0c3642f71",
+        "lineage.json": "4024738087018c9c51180fa756db6329bc97713946a7f51ab51d092110095ffa",
+        "transformers.joblib": "169ffc6a1ea7b5f88e66ebb6d1e3eba7d065a358dfea4afaabf27b486901536c"
+      }
+    },
+    "manifest_sha256": "1be6816d26676a2ed08a83be4f7f212e79d13c7fba88d663f84e9d3b904e8d57",
+    "eval_harness_sha256": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+    "source": "root load_split(dense=True,dtype=float32); no local masking/preprocessing"
+  },
+  {
+    "split": 20261115,
+    "information": "full141",
+    "description": {
+      "dims": [
+        40,
+        510,
+        104,
+        102,
+        42,
+        14
+      ],
+      "dimension": 812,
+      "base8_encoded": 34,
+      "fit_n": 16928,
+      "fit_positive": 169,
+      "cal_n": 4232,
+      "cal_positive": 42,
+      "fit_key_sha256": "33c761d721c9b4b78ef0e0a2a2607dc07eb4e5f44e31de7ab72d9e5e3dafd7d2",
+      "original8_transform_max_abs_diff": 1.8796630918416213e-12,
+      "seconds": 1.8468309000018053,
+      "files": {
+        "base8-mask.npy": "7dc4de98bac6c7c7d5102ec945bdd81ecebb36605fab8c00b91081c433dd421d",
+        "cal.npz": "7c2804590478082160cb12880bbab54bf06f1a0cec8001064856853ae56f3e97",
+        "fit.npz": "8bd08fc93d7d972b16b50d42c3d9d5ba4df416ea1127ba6099723f78b9e2b69c",
+        "indices.npz": "778c3d3444b0ad92cf08de57790da012d6d48399841210369dd3a26a9c8373c3",
+        "jan.npz": "5a782cc8d1b501a7927c902ea6e4b45a0946b5801815b161c0408ac0c3642f71",
+        "lineage.json": "4024738087018c9c51180fa756db6329bc97713946a7f51ab51d092110095ffa",
+        "transformers.joblib": "169ffc6a1ea7b5f88e66ebb6d1e3eba7d065a358dfea4afaabf27b486901536c"
+      }
+    },
+    "manifest_sha256": "1be6816d26676a2ed08a83be4f7f212e79d13c7fba88d663f84e9d3b904e8d57",
+    "eval_harness_sha256": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+    "source": "root load_split(dense=True,dtype=float32); no local masking/preprocessing"
+  }
+]

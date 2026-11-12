@@ -1,0 +1,1172 @@
+[
+  {
+    "split": 20261111,
+    "information": "base8",
+    "family": "weightedLR",
+    "seed": null,
+    "model_id": "weightedLR-base8-split20261111",
+    "private_directory": "private/weightedLR-base8-split20261111",
+    "logits_path": "private/weightedLR-base8-split20261111/logits.npz",
+    "metadata_path": "private/weightedLR-base8-split20261111/metadata.json",
+    "training_seconds": 2.630964899995888,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "31d84a0569c3965af487a094965625ecb370d6dbb6f2e83074908a9eef199877",
+    "root_record_path": "weightedLR-base8-split20261111-record.json"
+  },
+  {
+    "split": 20261111,
+    "information": "full141",
+    "family": "weightedLR",
+    "seed": null,
+    "model_id": "weightedLR-full141-split20261111",
+    "private_directory": "private/weightedLR-full141-split20261111",
+    "logits_path": "private/weightedLR-full141-split20261111/logits.npz",
+    "metadata_path": "private/weightedLR-full141-split20261111/metadata.json",
+    "training_seconds": 9.718612699994992,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "54ae47097a3b9c274ed6d3ae489a791ce3a6c81dd7ff916ea8953ce5e51cf45d",
+    "root_record_path": "weightedLR-full141-split20261111-record.json"
+  },
+  {
+    "split": 20261111,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2026,
+    "model_id": "encodedCatBoost-full141-split20261111-seed2026",
+    "private_directory": "private/encodedCatBoost-full141-split20261111-seed2026",
+    "logits_path": "private/encodedCatBoost-full141-split20261111-seed2026/logits.npz",
+    "metadata_path": "private/encodedCatBoost-full141-split20261111-seed2026/metadata.json",
+    "training_seconds": 4.8612787000020035,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "84af9798aa6b98986cb9f322a2c295bf18b8fbb8d85af829661525d03c54d706",
+    "root_record_path": "encodedCatBoost-full141-split20261111-seed2026-record.json"
+  },
+  {
+    "split": 20261111,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2026,
+    "model_id": "nativeCatBoost-full141-split20261111-seed2026",
+    "private_directory": "private/nativeCatBoost-full141-split20261111-seed2026",
+    "logits_path": "private/nativeCatBoost-full141-split20261111-seed2026/logits.npz",
+    "metadata_path": "private/nativeCatBoost-full141-split20261111-seed2026/metadata.json",
+    "training_seconds": 11.58351880000555,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "f8418f3ead229348bf03ad38ea59820fd94cc7d4fd533509c647910cc830c1a8",
+    "root_record_path": "nativeCatBoost-full141-split20261111-seed2026-record.json"
+  },
+  {
+    "split": 20261111,
+    "information": "base8",
+    "family": "unweightedLR",
+    "seed": null,
+    "model_id": "unweightedLR-base8-split20261111",
+    "private_directory": "private/unweightedLR-base8-split20261111",
+    "logits_path": "private/unweightedLR-base8-split20261111/logits.npz",
+    "metadata_path": "private/unweightedLR-base8-split20261111/metadata.json",
+    "training_seconds": 1.0216610999996192,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "47784f3022cbfefaf89f4fae9e4c632fcd1c36b88d1e47ac9dfb0100f69e3385",
+    "root_record_path": "unweightedLR-base8-split20261111-record.json"
+  },
+  {
+    "split": 20261111,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2026,
+    "model_id": "encodedCatBoost-base8-split20261111-seed2026",
+    "private_directory": "private/encodedCatBoost-base8-split20261111-seed2026",
+    "logits_path": "private/encodedCatBoost-base8-split20261111-seed2026/logits.npz",
+    "metadata_path": "private/encodedCatBoost-base8-split20261111-seed2026/metadata.json",
+    "training_seconds": 3.792743600002723,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "09106a08257c004d9198cf47e0f54525196551ca6e7f2058866b7cd4b112d05e",
+    "root_record_path": "encodedCatBoost-base8-split20261111-seed2026-record.json"
+  },
+  {
+    "split": 20261111,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2027,
+    "model_id": "encodedCatBoost-base8-split20261111-seed2027",
+    "private_directory": "private/encodedCatBoost-base8-split20261111-seed2027",
+    "logits_path": "private/encodedCatBoost-base8-split20261111-seed2027/logits.npz",
+    "metadata_path": "private/encodedCatBoost-base8-split20261111-seed2027/metadata.json",
+    "training_seconds": 3.5079937999980757,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "514499496092841c1f4fdd27c85554f9e19387560c0c4574a0cc20914130a3ea",
+    "root_record_path": "encodedCatBoost-base8-split20261111-seed2027-record.json"
+  },
+  {
+    "split": 20261111,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2028,
+    "model_id": "encodedCatBoost-base8-split20261111-seed2028",
+    "private_directory": "private/encodedCatBoost-base8-split20261111-seed2028",
+    "logits_path": "private/encodedCatBoost-base8-split20261111-seed2028/logits.npz",
+    "metadata_path": "private/encodedCatBoost-base8-split20261111-seed2028/metadata.json",
+    "training_seconds": 3.8168679000009433,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "614e93d2a0e3f92c4836c3e97437972d89b5bd79dc52f761d7da688721ec4c4a",
+    "root_record_path": "encodedCatBoost-base8-split20261111-seed2028-record.json"
+  },
+  {
+    "split": 20261111,
+    "information": "full141",
+    "family": "unweightedLR",
+    "seed": null,
+    "model_id": "unweightedLR-full141-split20261111",
+    "private_directory": "private/unweightedLR-full141-split20261111",
+    "logits_path": "private/unweightedLR-full141-split20261111/logits.npz",
+    "metadata_path": "private/unweightedLR-full141-split20261111/metadata.json",
+    "training_seconds": 5.8466531000012765,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "60feac021a4de2ffffafbba18a51a3ea60ec1e8bc45fcac1856396c2954280fb",
+    "root_record_path": "unweightedLR-full141-split20261111-record.json"
+  },
+  {
+    "split": 20261111,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2027,
+    "model_id": "encodedCatBoost-full141-split20261111-seed2027",
+    "private_directory": "private/encodedCatBoost-full141-split20261111-seed2027",
+    "logits_path": "private/encodedCatBoost-full141-split20261111-seed2027/logits.npz",
+    "metadata_path": "private/encodedCatBoost-full141-split20261111-seed2027/metadata.json",
+    "training_seconds": 5.1882387999939965,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "360ff373f0c07a60144bd15086850a0bdab44e01cab67f513234495a47ff1b1d",
+    "root_record_path": "encodedCatBoost-full141-split20261111-seed2027-record.json"
+  },
+  {
+    "split": 20261111,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2028,
+    "model_id": "encodedCatBoost-full141-split20261111-seed2028",
+    "private_directory": "private/encodedCatBoost-full141-split20261111-seed2028",
+    "logits_path": "private/encodedCatBoost-full141-split20261111-seed2028/logits.npz",
+    "metadata_path": "private/encodedCatBoost-full141-split20261111-seed2028/metadata.json",
+    "training_seconds": 5.2660543999954825,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "da54cd619faf7d8f76f444eb369566d2b8bdcaee53f0859ad5df5749c3dcb765",
+    "root_record_path": "encodedCatBoost-full141-split20261111-seed2028-record.json"
+  },
+  {
+    "split": 20261111,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2027,
+    "model_id": "nativeCatBoost-full141-split20261111-seed2027",
+    "private_directory": "private/nativeCatBoost-full141-split20261111-seed2027",
+    "logits_path": "private/nativeCatBoost-full141-split20261111-seed2027/logits.npz",
+    "metadata_path": "private/nativeCatBoost-full141-split20261111-seed2027/metadata.json",
+    "training_seconds": 11.344609399995534,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "39df609bc17020f51a074ba25af847ac8d9b5997b2d2f531d80462923cb872b7",
+    "root_record_path": "nativeCatBoost-full141-split20261111-seed2027-record.json"
+  },
+  {
+    "split": 20261111,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2028,
+    "model_id": "nativeCatBoost-full141-split20261111-seed2028",
+    "private_directory": "private/nativeCatBoost-full141-split20261111-seed2028",
+    "logits_path": "private/nativeCatBoost-full141-split20261111-seed2028/logits.npz",
+    "metadata_path": "private/nativeCatBoost-full141-split20261111-seed2028/metadata.json",
+    "training_seconds": 10.882646999998542,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "cc7784cc91b2bcb63d5c95d620568e26cb755d3ff173da52da1feb92c771fb52",
+    "root_record_path": "nativeCatBoost-full141-split20261111-seed2028-record.json"
+  },
+  {
+    "split": 20261112,
+    "information": "base8",
+    "family": "weightedLR",
+    "seed": null,
+    "model_id": "weightedLR-base8-split20261112",
+    "private_directory": "private/weightedLR-base8-split20261112",
+    "logits_path": "private/weightedLR-base8-split20261112/logits.npz",
+    "metadata_path": "private/weightedLR-base8-split20261112/metadata.json",
+    "training_seconds": 2.8188421000013477,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "25c6abb545c961c373a94b8f05f39e05f65d9e1c2463643ba0f63c0fbdda4e2b",
+    "root_record_path": "weightedLR-base8-split20261112-record.json"
+  },
+  {
+    "split": 20261112,
+    "information": "base8",
+    "family": "unweightedLR",
+    "seed": null,
+    "model_id": "unweightedLR-base8-split20261112",
+    "private_directory": "private/unweightedLR-base8-split20261112",
+    "logits_path": "private/unweightedLR-base8-split20261112/logits.npz",
+    "metadata_path": "private/unweightedLR-base8-split20261112/metadata.json",
+    "training_seconds": 0.996596099997987,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "c75d2889e71ca662ed8d27261a8ec327a6d80cfd3c67af48e9df3150c339a1df",
+    "root_record_path": "unweightedLR-base8-split20261112-record.json"
+  },
+  {
+    "split": 20261112,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2026,
+    "model_id": "encodedCatBoost-base8-split20261112-seed2026",
+    "private_directory": "private/encodedCatBoost-base8-split20261112-seed2026",
+    "logits_path": "private/encodedCatBoost-base8-split20261112-seed2026/logits.npz",
+    "metadata_path": "private/encodedCatBoost-base8-split20261112-seed2026/metadata.json",
+    "training_seconds": 3.7323662000053446,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "6299f469c0e4391a295b4a7e07ac559facd2a117e76930945d6a7a6e03d52238",
+    "root_record_path": "encodedCatBoost-base8-split20261112-seed2026-record.json"
+  },
+  {
+    "split": 20261112,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2027,
+    "model_id": "encodedCatBoost-base8-split20261112-seed2027",
+    "private_directory": "private/encodedCatBoost-base8-split20261112-seed2027",
+    "logits_path": "private/encodedCatBoost-base8-split20261112-seed2027/logits.npz",
+    "metadata_path": "private/encodedCatBoost-base8-split20261112-seed2027/metadata.json",
+    "training_seconds": 3.873550799995428,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "4b2dcd8135c5520ddc14ce04beed39d40b93213bc821b45fd3c2137f837f4bbb",
+    "root_record_path": "encodedCatBoost-base8-split20261112-seed2027-record.json"
+  },
+  {
+    "split": 20261112,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2028,
+    "model_id": "encodedCatBoost-base8-split20261112-seed2028",
+    "private_directory": "private/encodedCatBoost-base8-split20261112-seed2028",
+    "logits_path": "private/encodedCatBoost-base8-split20261112-seed2028/logits.npz",
+    "metadata_path": "private/encodedCatBoost-base8-split20261112-seed2028/metadata.json",
+    "training_seconds": 3.7695160000002943,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "2e9464027920bc13cb3332163fc1d45f35c9c08c1c88e591a168c50e5a83d6cd",
+    "root_record_path": "encodedCatBoost-base8-split20261112-seed2028-record.json"
+  },
+  {
+    "split": 20261112,
+    "information": "full141",
+    "family": "weightedLR",
+    "seed": null,
+    "model_id": "weightedLR-full141-split20261112",
+    "private_directory": "private/weightedLR-full141-split20261112",
+    "logits_path": "private/weightedLR-full141-split20261112/logits.npz",
+    "metadata_path": "private/weightedLR-full141-split20261112/metadata.json",
+    "training_seconds": 11.936742999998387,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "4b50af2081573555e704db350991342ab6948011a4eacf80e804d5e3f68d4655",
+    "root_record_path": "weightedLR-full141-split20261112-record.json"
+  },
+  {
+    "split": 20261112,
+    "information": "full141",
+    "family": "unweightedLR",
+    "seed": null,
+    "model_id": "unweightedLR-full141-split20261112",
+    "private_directory": "private/unweightedLR-full141-split20261112",
+    "logits_path": "private/unweightedLR-full141-split20261112/logits.npz",
+    "metadata_path": "private/unweightedLR-full141-split20261112/metadata.json",
+    "training_seconds": 4.6897228000016185,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "126f6f234beb6b6d791ddbfa20638fd9194c947adb7457e7704969354acecc40",
+    "root_record_path": "unweightedLR-full141-split20261112-record.json"
+  },
+  {
+    "split": 20261112,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2026,
+    "model_id": "encodedCatBoost-full141-split20261112-seed2026",
+    "private_directory": "private/encodedCatBoost-full141-split20261112-seed2026",
+    "logits_path": "private/encodedCatBoost-full141-split20261112-seed2026/logits.npz",
+    "metadata_path": "private/encodedCatBoost-full141-split20261112-seed2026/metadata.json",
+    "training_seconds": 5.616572000006272,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "e55ef8cc7c043dc7e39652eda73afb1de2440447d3022b4ca8204ee2035dfa3b",
+    "root_record_path": "encodedCatBoost-full141-split20261112-seed2026-record.json"
+  },
+  {
+    "split": 20261112,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2027,
+    "model_id": "encodedCatBoost-full141-split20261112-seed2027",
+    "private_directory": "private/encodedCatBoost-full141-split20261112-seed2027",
+    "logits_path": "private/encodedCatBoost-full141-split20261112-seed2027/logits.npz",
+    "metadata_path": "private/encodedCatBoost-full141-split20261112-seed2027/metadata.json",
+    "training_seconds": 4.975143600000592,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "80fedac8ae68c7263a7b9024b3f67656c943ad413ccaf55614ff6e70515c3192",
+    "root_record_path": "encodedCatBoost-full141-split20261112-seed2027-record.json"
+  },
+  {
+    "split": 20261112,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2028,
+    "model_id": "encodedCatBoost-full141-split20261112-seed2028",
+    "private_directory": "private/encodedCatBoost-full141-split20261112-seed2028",
+    "logits_path": "private/encodedCatBoost-full141-split20261112-seed2028/logits.npz",
+    "metadata_path": "private/encodedCatBoost-full141-split20261112-seed2028/metadata.json",
+    "training_seconds": 5.136952799999563,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "debe20a1eae020cab2a036c5b4372620149c788895fc34d74aad7260b462c70b",
+    "root_record_path": "encodedCatBoost-full141-split20261112-seed2028-record.json"
+  },
+  {
+    "split": 20261112,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2026,
+    "model_id": "nativeCatBoost-full141-split20261112-seed2026",
+    "private_directory": "private/nativeCatBoost-full141-split20261112-seed2026",
+    "logits_path": "private/nativeCatBoost-full141-split20261112-seed2026/logits.npz",
+    "metadata_path": "private/nativeCatBoost-full141-split20261112-seed2026/metadata.json",
+    "training_seconds": 9.553736699999718,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "645b2f5b70557ab42c85f7b6d7d61d3f8da7a0db75a773379d131517b554cabe",
+    "root_record_path": "nativeCatBoost-full141-split20261112-seed2026-record.json"
+  },
+  {
+    "split": 20261112,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2027,
+    "model_id": "nativeCatBoost-full141-split20261112-seed2027",
+    "private_directory": "private/nativeCatBoost-full141-split20261112-seed2027",
+    "logits_path": "private/nativeCatBoost-full141-split20261112-seed2027/logits.npz",
+    "metadata_path": "private/nativeCatBoost-full141-split20261112-seed2027/metadata.json",
+    "training_seconds": 9.468891199998325,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "4d5ea23d4152105384b3915634ad6590bca062aa51bf913d118d7ce2d3055465",
+    "root_record_path": "nativeCatBoost-full141-split20261112-seed2027-record.json"
+  },
+  {
+    "split": 20261112,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2028,
+    "model_id": "nativeCatBoost-full141-split20261112-seed2028",
+    "private_directory": "private/nativeCatBoost-full141-split20261112-seed2028",
+    "logits_path": "private/nativeCatBoost-full141-split20261112-seed2028/logits.npz",
+    "metadata_path": "private/nativeCatBoost-full141-split20261112-seed2028/metadata.json",
+    "training_seconds": 9.797874999996566,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "34f9f7287cda701301bd96da8095abb6450df34608ee4e31bd7b556ab7523c3d",
+    "root_record_path": "nativeCatBoost-full141-split20261112-seed2028-record.json"
+  },
+  {
+    "split": 20261113,
+    "information": "base8",
+    "family": "weightedLR",
+    "seed": null,
+    "model_id": "weightedLR-base8-split20261113",
+    "private_directory": "private/weightedLR-base8-split20261113",
+    "logits_path": "private/weightedLR-base8-split20261113/logits.npz",
+    "metadata_path": "private/weightedLR-base8-split20261113/metadata.json",
+    "training_seconds": 2.837108599997009,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "2ef3c4274f103bd02962fcbf144e6144cea0b466f5805a73dfdb5ed2f884022e",
+    "root_record_path": "weightedLR-base8-split20261113-record.json"
+  },
+  {
+    "split": 20261113,
+    "information": "base8",
+    "family": "unweightedLR",
+    "seed": null,
+    "model_id": "unweightedLR-base8-split20261113",
+    "private_directory": "private/unweightedLR-base8-split20261113",
+    "logits_path": "private/unweightedLR-base8-split20261113/logits.npz",
+    "metadata_path": "private/unweightedLR-base8-split20261113/metadata.json",
+    "training_seconds": 0.8999079000059282,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "78309b56f3a27e46ee54bbd97ccc34c322fe9c8bb56509b9e2f903bac4675819",
+    "root_record_path": "unweightedLR-base8-split20261113-record.json"
+  },
+  {
+    "split": 20261113,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2026,
+    "model_id": "encodedCatBoost-base8-split20261113-seed2026",
+    "private_directory": "private/encodedCatBoost-base8-split20261113-seed2026",
+    "logits_path": "private/encodedCatBoost-base8-split20261113-seed2026/logits.npz",
+    "metadata_path": "private/encodedCatBoost-base8-split20261113-seed2026/metadata.json",
+    "training_seconds": 3.775783199998841,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "a3553c810d75d388af129ac8ad7c7fef5e15d5a0b9e1043769be449c6fcbe8cb",
+    "root_record_path": "encodedCatBoost-base8-split20261113-seed2026-record.json"
+  },
+  {
+    "split": 20261113,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2027,
+    "model_id": "encodedCatBoost-base8-split20261113-seed2027",
+    "private_directory": "private/encodedCatBoost-base8-split20261113-seed2027",
+    "logits_path": "private/encodedCatBoost-base8-split20261113-seed2027/logits.npz",
+    "metadata_path": "private/encodedCatBoost-base8-split20261113-seed2027/metadata.json",
+    "training_seconds": 3.718701699996018,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "9f15c9e459a92b7d4ebba30a2890bf21ca0a248a26b9e999ef81b2c3da1c2c6c",
+    "root_record_path": "encodedCatBoost-base8-split20261113-seed2027-record.json"
+  },
+  {
+    "split": 20261113,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2028,
+    "model_id": "encodedCatBoost-base8-split20261113-seed2028",
+    "private_directory": "private/encodedCatBoost-base8-split20261113-seed2028",
+    "logits_path": "private/encodedCatBoost-base8-split20261113-seed2028/logits.npz",
+    "metadata_path": "private/encodedCatBoost-base8-split20261113-seed2028/metadata.json",
+    "training_seconds": 3.7298669000010705,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "fff76592d56b81b2d8e988e6116034add138fce1d542018a44e113e603fc4ecb",
+    "root_record_path": "encodedCatBoost-base8-split20261113-seed2028-record.json"
+  },
+  {
+    "split": 20261113,
+    "information": "full141",
+    "family": "weightedLR",
+    "seed": null,
+    "model_id": "weightedLR-full141-split20261113",
+    "private_directory": "private/weightedLR-full141-split20261113",
+    "logits_path": "private/weightedLR-full141-split20261113/logits.npz",
+    "metadata_path": "private/weightedLR-full141-split20261113/metadata.json",
+    "training_seconds": 11.393430199997965,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "2ba79793a6637115ccc85e1474d8f4a8b20792f3a4b62beb75dacdb1f3a4f637",
+    "root_record_path": "weightedLR-full141-split20261113-record.json"
+  },
+  {
+    "split": 20261113,
+    "information": "full141",
+    "family": "unweightedLR",
+    "seed": null,
+    "model_id": "unweightedLR-full141-split20261113",
+    "private_directory": "private/unweightedLR-full141-split20261113",
+    "logits_path": "private/unweightedLR-full141-split20261113/logits.npz",
+    "metadata_path": "private/unweightedLR-full141-split20261113/metadata.json",
+    "training_seconds": 3.5651018000062322,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "ce69efb50ef706e36b070bf056ecfb3d07174dcb046e2ebe516543d9c9ed2558",
+    "root_record_path": "unweightedLR-full141-split20261113-record.json"
+  },
+  {
+    "split": 20261113,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2026,
+    "model_id": "encodedCatBoost-full141-split20261113-seed2026",
+    "private_directory": "private/encodedCatBoost-full141-split20261113-seed2026",
+    "logits_path": "private/encodedCatBoost-full141-split20261113-seed2026/logits.npz",
+    "metadata_path": "private/encodedCatBoost-full141-split20261113-seed2026/metadata.json",
+    "training_seconds": 4.913502100003825,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "c672e8c424754ca574584e381031601d4d67ffb3b3fc8c024384a560587e54ae",
+    "root_record_path": "encodedCatBoost-full141-split20261113-seed2026-record.json"
+  },
+  {
+    "split": 20261113,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2027,
+    "model_id": "encodedCatBoost-full141-split20261113-seed2027",
+    "private_directory": "private/encodedCatBoost-full141-split20261113-seed2027",
+    "logits_path": "private/encodedCatBoost-full141-split20261113-seed2027/logits.npz",
+    "metadata_path": "private/encodedCatBoost-full141-split20261113-seed2027/metadata.json",
+    "training_seconds": 4.805094499999541,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "afb5afbbc7e2d4c56db57e08d1068f9938553f9b1755598972800ef2c1383159",
+    "root_record_path": "encodedCatBoost-full141-split20261113-seed2027-record.json"
+  },
+  {
+    "split": 20261113,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2028,
+    "model_id": "encodedCatBoost-full141-split20261113-seed2028",
+    "private_directory": "private/encodedCatBoost-full141-split20261113-seed2028",
+    "logits_path": "private/encodedCatBoost-full141-split20261113-seed2028/logits.npz",
+    "metadata_path": "private/encodedCatBoost-full141-split20261113-seed2028/metadata.json",
+    "training_seconds": 4.786616400000639,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "9a33ef383b5e2d5e25002cafde825f7a98cfd3be8253b6eac7f4edf7a3eaec70",
+    "root_record_path": "encodedCatBoost-full141-split20261113-seed2028-record.json"
+  },
+  {
+    "split": 20261113,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2026,
+    "model_id": "nativeCatBoost-full141-split20261113-seed2026",
+    "private_directory": "private/nativeCatBoost-full141-split20261113-seed2026",
+    "logits_path": "private/nativeCatBoost-full141-split20261113-seed2026/logits.npz",
+    "metadata_path": "private/nativeCatBoost-full141-split20261113-seed2026/metadata.json",
+    "training_seconds": 8.735704600003373,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "99f4e033bc1d8f813684d4abb36326360f7df1933180dc49b3b184b246773222",
+    "root_record_path": "nativeCatBoost-full141-split20261113-seed2026-record.json"
+  },
+  {
+    "split": 20261113,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2027,
+    "model_id": "nativeCatBoost-full141-split20261113-seed2027",
+    "private_directory": "private/nativeCatBoost-full141-split20261113-seed2027",
+    "logits_path": "private/nativeCatBoost-full141-split20261113-seed2027/logits.npz",
+    "metadata_path": "private/nativeCatBoost-full141-split20261113-seed2027/metadata.json",
+    "training_seconds": 8.713611200000742,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "3b99b54c5da5c7753ad96a97ee97b6a2310988edf83f7927d7c2756525194114",
+    "root_record_path": "nativeCatBoost-full141-split20261113-seed2027-record.json"
+  },
+  {
+    "split": 20261113,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2028,
+    "model_id": "nativeCatBoost-full141-split20261113-seed2028",
+    "private_directory": "private/nativeCatBoost-full141-split20261113-seed2028",
+    "logits_path": "private/nativeCatBoost-full141-split20261113-seed2028/logits.npz",
+    "metadata_path": "private/nativeCatBoost-full141-split20261113-seed2028/metadata.json",
+    "training_seconds": 8.956450500001665,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "5b017cc13d06d2bbd6e3d51e514f92d80d3a765d21259ab0a3d91bacdfcafb9b",
+    "root_record_path": "nativeCatBoost-full141-split20261113-seed2028-record.json"
+  },
+  {
+    "split": 20261114,
+    "information": "base8",
+    "family": "weightedLR",
+    "seed": null,
+    "model_id": "weightedLR-base8-split20261114",
+    "private_directory": "private/weightedLR-base8-split20261114",
+    "logits_path": "private/weightedLR-base8-split20261114/logits.npz",
+    "metadata_path": "private/weightedLR-base8-split20261114/metadata.json",
+    "training_seconds": 2.866763300000457,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "e13a8f3d49084a0a79f5d17d4182d295932d80d0dc73353e865225fcdca9ea2a",
+    "root_record_path": "weightedLR-base8-split20261114-record.json"
+  },
+  {
+    "split": 20261114,
+    "information": "base8",
+    "family": "unweightedLR",
+    "seed": null,
+    "model_id": "unweightedLR-base8-split20261114",
+    "private_directory": "private/unweightedLR-base8-split20261114",
+    "logits_path": "private/unweightedLR-base8-split20261114/logits.npz",
+    "metadata_path": "private/unweightedLR-base8-split20261114/metadata.json",
+    "training_seconds": 0.851951900003769,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "b888d7d2dc41c2f6e64f041dbf9fec944b97956d60eabdf1837e5678184015f5",
+    "root_record_path": "unweightedLR-base8-split20261114-record.json"
+  },
+  {
+    "split": 20261114,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2026,
+    "model_id": "encodedCatBoost-base8-split20261114-seed2026",
+    "private_directory": "private/encodedCatBoost-base8-split20261114-seed2026",
+    "logits_path": "private/encodedCatBoost-base8-split20261114-seed2026/logits.npz",
+    "metadata_path": "private/encodedCatBoost-base8-split20261114-seed2026/metadata.json",
+    "training_seconds": 3.4543119999943883,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "a9a40904d4f5b02caecdd7bbd28e3d523c80afaeba83074e6f03a047c6af997b",
+    "root_record_path": "encodedCatBoost-base8-split20261114-seed2026-record.json"
+  },
+  {
+    "split": 20261114,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2027,
+    "model_id": "encodedCatBoost-base8-split20261114-seed2027",
+    "private_directory": "private/encodedCatBoost-base8-split20261114-seed2027",
+    "logits_path": "private/encodedCatBoost-base8-split20261114-seed2027/logits.npz",
+    "metadata_path": "private/encodedCatBoost-base8-split20261114-seed2027/metadata.json",
+    "training_seconds": 3.4713871000058134,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "d7d067fad6db86ead8960c803b6cbb09172e61a484790950179d8d42370d4120",
+    "root_record_path": "encodedCatBoost-base8-split20261114-seed2027-record.json"
+  },
+  {
+    "split": 20261114,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2028,
+    "model_id": "encodedCatBoost-base8-split20261114-seed2028",
+    "private_directory": "private/encodedCatBoost-base8-split20261114-seed2028",
+    "logits_path": "private/encodedCatBoost-base8-split20261114-seed2028/logits.npz",
+    "metadata_path": "private/encodedCatBoost-base8-split20261114-seed2028/metadata.json",
+    "training_seconds": 3.41135999999824,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "dba806dafe534acd6a7c979aa51decf1335f7f275c9791f73009e3fb666a250d",
+    "root_record_path": "encodedCatBoost-base8-split20261114-seed2028-record.json"
+  },
+  {
+    "split": 20261114,
+    "information": "full141",
+    "family": "weightedLR",
+    "seed": null,
+    "model_id": "weightedLR-full141-split20261114",
+    "private_directory": "private/weightedLR-full141-split20261114",
+    "logits_path": "private/weightedLR-full141-split20261114/logits.npz",
+    "metadata_path": "private/weightedLR-full141-split20261114/metadata.json",
+    "training_seconds": 11.649416300002486,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "e196d8e6762fdadc707062852abcc065ece200767eadb0c03e5117132a27d438",
+    "root_record_path": "weightedLR-full141-split20261114-record.json"
+  },
+  {
+    "split": 20261114,
+    "information": "full141",
+    "family": "unweightedLR",
+    "seed": null,
+    "model_id": "unweightedLR-full141-split20261114",
+    "private_directory": "private/unweightedLR-full141-split20261114",
+    "logits_path": "private/unweightedLR-full141-split20261114/logits.npz",
+    "metadata_path": "private/unweightedLR-full141-split20261114/metadata.json",
+    "training_seconds": 4.260420699996757,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "3169451e31b472cbc7483a886e1ea2fd3d1d6b256c70bb604f54b84a68d4aaf0",
+    "root_record_path": "unweightedLR-full141-split20261114-record.json"
+  },
+  {
+    "split": 20261114,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2026,
+    "model_id": "encodedCatBoost-full141-split20261114-seed2026",
+    "private_directory": "private/encodedCatBoost-full141-split20261114-seed2026",
+    "logits_path": "private/encodedCatBoost-full141-split20261114-seed2026/logits.npz",
+    "metadata_path": "private/encodedCatBoost-full141-split20261114-seed2026/metadata.json",
+    "training_seconds": 4.836013399995863,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "7930b47042e270f561d57838006db54e9e824b553b45e5209b72f0ad4c4ece0f",
+    "root_record_path": "encodedCatBoost-full141-split20261114-seed2026-record.json"
+  },
+  {
+    "split": 20261114,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2027,
+    "model_id": "encodedCatBoost-full141-split20261114-seed2027",
+    "private_directory": "private/encodedCatBoost-full141-split20261114-seed2027",
+    "logits_path": "private/encodedCatBoost-full141-split20261114-seed2027/logits.npz",
+    "metadata_path": "private/encodedCatBoost-full141-split20261114-seed2027/metadata.json",
+    "training_seconds": 4.717642199997499,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "d75a36ef3b7ce9f407d0f644fc3f0a49ab7f092de0a9b8afb54e2decf1c4c07f",
+    "root_record_path": "encodedCatBoost-full141-split20261114-seed2027-record.json"
+  },
+  {
+    "split": 20261114,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2028,
+    "model_id": "encodedCatBoost-full141-split20261114-seed2028",
+    "private_directory": "private/encodedCatBoost-full141-split20261114-seed2028",
+    "logits_path": "private/encodedCatBoost-full141-split20261114-seed2028/logits.npz",
+    "metadata_path": "private/encodedCatBoost-full141-split20261114-seed2028/metadata.json",
+    "training_seconds": 4.833593300005305,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "53cbefc44b501768132dc5f4e10ce36d5ff9fe934a69da2a95ae8ed14897aee0",
+    "root_record_path": "encodedCatBoost-full141-split20261114-seed2028-record.json"
+  },
+  {
+    "split": 20261114,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2026,
+    "model_id": "nativeCatBoost-full141-split20261114-seed2026",
+    "private_directory": "private/nativeCatBoost-full141-split20261114-seed2026",
+    "logits_path": "private/nativeCatBoost-full141-split20261114-seed2026/logits.npz",
+    "metadata_path": "private/nativeCatBoost-full141-split20261114-seed2026/metadata.json",
+    "training_seconds": 8.73257680000097,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "ceb0928d2a0302c674ac22923bde15c36b988f39096e16b8553bb3a14e0813ac",
+    "root_record_path": "nativeCatBoost-full141-split20261114-seed2026-record.json"
+  },
+  {
+    "split": 20261114,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2027,
+    "model_id": "nativeCatBoost-full141-split20261114-seed2027",
+    "private_directory": "private/nativeCatBoost-full141-split20261114-seed2027",
+    "logits_path": "private/nativeCatBoost-full141-split20261114-seed2027/logits.npz",
+    "metadata_path": "private/nativeCatBoost-full141-split20261114-seed2027/metadata.json",
+    "training_seconds": 9.543772400000307,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "22b82ff81fc63ae956f7528a3e761740e75ed35522bbc01e476ab1f5de564165",
+    "root_record_path": "nativeCatBoost-full141-split20261114-seed2027-record.json"
+  },
+  {
+    "split": 20261114,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2028,
+    "model_id": "nativeCatBoost-full141-split20261114-seed2028",
+    "private_directory": "private/nativeCatBoost-full141-split20261114-seed2028",
+    "logits_path": "private/nativeCatBoost-full141-split20261114-seed2028/logits.npz",
+    "metadata_path": "private/nativeCatBoost-full141-split20261114-seed2028/metadata.json",
+    "training_seconds": 8.337007200003427,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "32c5c58e5046b043a4c229195ce4b13194900c76064d1f5e7e5493344df82130",
+    "root_record_path": "nativeCatBoost-full141-split20261114-seed2028-record.json"
+  },
+  {
+    "split": 20261115,
+    "information": "base8",
+    "family": "weightedLR",
+    "seed": null,
+    "model_id": "weightedLR-base8-split20261115",
+    "private_directory": "private/weightedLR-base8-split20261115",
+    "logits_path": "private/weightedLR-base8-split20261115/logits.npz",
+    "metadata_path": "private/weightedLR-base8-split20261115/metadata.json",
+    "training_seconds": 2.6172068000014406,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "acf5d0fe8f05208db4be546bb4e5bad4b33acda598718877f5afc51f45fd2ff1",
+    "root_record_path": "weightedLR-base8-split20261115-record.json"
+  },
+  {
+    "split": 20261115,
+    "information": "base8",
+    "family": "unweightedLR",
+    "seed": null,
+    "model_id": "unweightedLR-base8-split20261115",
+    "private_directory": "private/unweightedLR-base8-split20261115",
+    "logits_path": "private/unweightedLR-base8-split20261115/logits.npz",
+    "metadata_path": "private/unweightedLR-base8-split20261115/metadata.json",
+    "training_seconds": 0.8461365999974078,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "4cd4924b21542fc02443c5acb4afea44a34e473757997698117fba6ac32f089e",
+    "root_record_path": "unweightedLR-base8-split20261115-record.json"
+  },
+  {
+    "split": 20261115,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2026,
+    "model_id": "encodedCatBoost-base8-split20261115-seed2026",
+    "private_directory": "private/encodedCatBoost-base8-split20261115-seed2026",
+    "logits_path": "private/encodedCatBoost-base8-split20261115-seed2026/logits.npz",
+    "metadata_path": "private/encodedCatBoost-base8-split20261115-seed2026/metadata.json",
+    "training_seconds": 3.368316299995058,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "f3334d9de6b0f163de3878c3c126f20be4feeccf88e3b03a6edfadbdfbf6e248",
+    "root_record_path": "encodedCatBoost-base8-split20261115-seed2026-record.json"
+  },
+  {
+    "split": 20261115,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2027,
+    "model_id": "encodedCatBoost-base8-split20261115-seed2027",
+    "private_directory": "private/encodedCatBoost-base8-split20261115-seed2027",
+    "logits_path": "private/encodedCatBoost-base8-split20261115-seed2027/logits.npz",
+    "metadata_path": "private/encodedCatBoost-base8-split20261115-seed2027/metadata.json",
+    "training_seconds": 3.4381867999982205,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "3147c0d55e31d485f8d83c8bb1901627b443831298b20517fac1d24ae7e43f59",
+    "root_record_path": "encodedCatBoost-base8-split20261115-seed2027-record.json"
+  },
+  {
+    "split": 20261115,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2028,
+    "model_id": "encodedCatBoost-base8-split20261115-seed2028",
+    "private_directory": "private/encodedCatBoost-base8-split20261115-seed2028",
+    "logits_path": "private/encodedCatBoost-base8-split20261115-seed2028/logits.npz",
+    "metadata_path": "private/encodedCatBoost-base8-split20261115-seed2028/metadata.json",
+    "training_seconds": 3.2942661000051885,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "34fbb400649a491b67eba8d7b0feb7f0ce2f700f8a717d7f6f83581ea330b1b1",
+    "root_record_path": "encodedCatBoost-base8-split20261115-seed2028-record.json"
+  },
+  {
+    "split": 20261115,
+    "information": "full141",
+    "family": "weightedLR",
+    "seed": null,
+    "model_id": "weightedLR-full141-split20261115",
+    "private_directory": "private/weightedLR-full141-split20261115",
+    "logits_path": "private/weightedLR-full141-split20261115/logits.npz",
+    "metadata_path": "private/weightedLR-full141-split20261115/metadata.json",
+    "training_seconds": 10.325009899999714,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "2882f36e0e60ba2ca499ba04e2b0f8894cae8a921c650b4b75ec12dea66cc6ec",
+    "root_record_path": "weightedLR-full141-split20261115-record.json"
+  },
+  {
+    "split": 20261115,
+    "information": "full141",
+    "family": "unweightedLR",
+    "seed": null,
+    "model_id": "unweightedLR-full141-split20261115",
+    "private_directory": "private/unweightedLR-full141-split20261115",
+    "logits_path": "private/unweightedLR-full141-split20261115/logits.npz",
+    "metadata_path": "private/unweightedLR-full141-split20261115/metadata.json",
+    "training_seconds": 3.8747790999987046,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "91487d57ceced775e1e20c59f2765a161ce6aa8ac863dfc486928b0d71f90f40",
+    "root_record_path": "unweightedLR-full141-split20261115-record.json"
+  },
+  {
+    "split": 20261115,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2026,
+    "model_id": "encodedCatBoost-full141-split20261115-seed2026",
+    "private_directory": "private/encodedCatBoost-full141-split20261115-seed2026",
+    "logits_path": "private/encodedCatBoost-full141-split20261115-seed2026/logits.npz",
+    "metadata_path": "private/encodedCatBoost-full141-split20261115-seed2026/metadata.json",
+    "training_seconds": 4.799124299999676,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "c2a63b1b7cf2de5304ef4b7807a476dc93452ebc25e7e145a2ce10b5dceee81b",
+    "root_record_path": "encodedCatBoost-full141-split20261115-seed2026-record.json"
+  },
+  {
+    "split": 20261115,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2027,
+    "model_id": "encodedCatBoost-full141-split20261115-seed2027",
+    "private_directory": "private/encodedCatBoost-full141-split20261115-seed2027",
+    "logits_path": "private/encodedCatBoost-full141-split20261115-seed2027/logits.npz",
+    "metadata_path": "private/encodedCatBoost-full141-split20261115-seed2027/metadata.json",
+    "training_seconds": 4.4575024000005214,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "2039417eeeaadd6d4d56ad16ffadcf8fbf27f19f829285da8d16d2dd621b9b2f",
+    "root_record_path": "encodedCatBoost-full141-split20261115-seed2027-record.json"
+  },
+  {
+    "split": 20261115,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2028,
+    "model_id": "encodedCatBoost-full141-split20261115-seed2028",
+    "private_directory": "private/encodedCatBoost-full141-split20261115-seed2028",
+    "logits_path": "private/encodedCatBoost-full141-split20261115-seed2028/logits.npz",
+    "metadata_path": "private/encodedCatBoost-full141-split20261115-seed2028/metadata.json",
+    "training_seconds": 4.555303300003288,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "de3e094b44d4c5153b4c4015dbc6a0f2ebe805c50f7b8fee5175c7e60ac21b70",
+    "root_record_path": "encodedCatBoost-full141-split20261115-seed2028-record.json"
+  },
+  {
+    "split": 20261115,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2026,
+    "model_id": "nativeCatBoost-full141-split20261115-seed2026",
+    "private_directory": "private/nativeCatBoost-full141-split20261115-seed2026",
+    "logits_path": "private/nativeCatBoost-full141-split20261115-seed2026/logits.npz",
+    "metadata_path": "private/nativeCatBoost-full141-split20261115-seed2026/metadata.json",
+    "training_seconds": 8.20672100000229,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "f1b29bc6d437a4f13ca8083064274255cafe6879794ee3503c0369a5b40941f3",
+    "root_record_path": "nativeCatBoost-full141-split20261115-seed2026-record.json"
+  },
+  {
+    "split": 20261115,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2027,
+    "model_id": "nativeCatBoost-full141-split20261115-seed2027",
+    "private_directory": "private/nativeCatBoost-full141-split20261115-seed2027",
+    "logits_path": "private/nativeCatBoost-full141-split20261115-seed2027/logits.npz",
+    "metadata_path": "private/nativeCatBoost-full141-split20261115-seed2027/metadata.json",
+    "training_seconds": 8.584417699996266,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "885141a49a9f2699e10c8bcd0a209f17352233d01cc41968e4b1c3b3a8d86ada",
+    "root_record_path": "nativeCatBoost-full141-split20261115-seed2027-record.json"
+  },
+  {
+    "split": 20261115,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2028,
+    "model_id": "nativeCatBoost-full141-split20261115-seed2028",
+    "private_directory": "private/nativeCatBoost-full141-split20261115-seed2028",
+    "logits_path": "private/nativeCatBoost-full141-split20261115-seed2028/logits.npz",
+    "metadata_path": "private/nativeCatBoost-full141-split20261115-seed2028/metadata.json",
+    "training_seconds": 8.709649399999762,
+    "reloaded_logit_max_errors": {
+      "fit": 0.0,
+      "cal": 0.0,
+      "jan": 0.0
+    },
+    "metadata_sha256": "a6e5c6e36ce578e86abb3770e5d8eee3e743c48e28edc5c3c713914db6e81859",
+    "root_record_path": "nativeCatBoost-full141-split20261115-seed2028-record.json"
+  }
+]

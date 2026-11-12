@@ -1,0 +1,27 @@
+{
+  "status": "IMPLEMENTATION_FROZEN_BEFORE_FIRST_STUDY_SCORE_READ",
+  "statistical_configuration": "statistics-plan.md plus root protocol addendum; no model/training/contrast tuning",
+  "source_sha256": {
+    "run_statistics.py": "fa86c466f483a4d25241769ab94acc7e10ab7929051e61273f2401ac0ed89734",
+    "producer_adapter.py": "2ddd520ac27a3092bd9a94ebd21570901812728541faa93f7ff095953a81a703",
+    "statistics_core.py": "8ce1cfb672cc71554d7a05db5597045de2b86fd36499db15076bd2ed8c32e3d6",
+    "statistics-plan.md": "c71dd22d5cf2a0bb70800c74f7867a55bbd87469eba33e2f57ac8f3dbafe3eb4",
+    "schema-contract.md": "c96a0b7844aacedefd8090dbbc43c58c4f03c0bc831e9b03038b8b10196222ba"
+  },
+  "producer_source_sha256": {
+    "task_plan.md": "1a2a957a7e0a2046cba77a77184ceb88079644893a1a56ea4cfab7c721c1fc6f",
+    "protocol-clarification.md": "9215da90b5a3029618f3afdeb6e7cbd050df3262a7af03c397da8bc0157ff521",
+    "eval_harness.py": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+    "prepare_shared.py": "f1f6ffe776ebd5d3f5be8a48511f34766f2425dab0edd4c9535d3263c7f75221",
+    "shared/data-manifest.json": "1be6816d26676a2ed08a83be4f7f212e79d13c7fba88d663f84e9d3b904e8d57"
+  },
+  "bootstrap_replicates": 2000,
+  "bootstrap_seeds": {
+    "all": 2026111201,
+    "long": 2026111202
+  },
+  "canonical_split": 20261111,
+  "main_rule": "mean calibrated probability; same score for proper metrics and policies",
+  "study_records_read": false,
+  "study_scores_read": false
+}

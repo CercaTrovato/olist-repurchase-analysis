@@ -1,5 +1,7 @@
 # 建模质疑与逐步验证
 
+> 2026-11-12接续：本轮 [四候选统一比较](common-candidate-comparison.md) 已完成，补Q02/Q04/Q08/Q10/Q11/Q13/Q18的同输入证据与稳定性。完整字段AE融合保留研究候选、CatBoost保留概率质量对照；没有确认新正式模型，系统消融仍后置。原问题与上一批结果保留。
+
 2026-11-11，用户已明确“可以逐步推进验证……规划一下进度就开始”。此前等待开测是设计阶段的历史决定，现已解除。本表保留 Q01–Q18 原问题；不把完成一组实验写成穷尽所有方法。
 
 [当前执行进度与结果](validation-execution.md) · [开测前设计](research-protocol-draft.md) · [论文迁移核读](mvsib-transfer-notes.md) · [机器可读状态](../../research/validation-20261111/question-register.json)

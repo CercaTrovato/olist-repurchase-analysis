@@ -1,0 +1,19 @@
+{
+  "status": "timing_only_no_cal_or_jan_scoring",
+  "split": 20261111,
+  "seed": 2026,
+  "family": "mean",
+  "epochs": 2,
+  "fit_n": 16928,
+  "dims": [
+    40,
+    507,
+    103,
+    102,
+    42,
+    14
+  ],
+  "seconds": 0.1717417000036221,
+  "linear_extrapolation_mean50_seconds": 4.2935425000905525,
+  "caveat": "Mean timing excludes AE pretraining, input load, inference, I/O; not a measured total runtime"
+}

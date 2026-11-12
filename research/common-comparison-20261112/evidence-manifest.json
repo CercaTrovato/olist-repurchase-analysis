@@ -1,0 +1,748 @@
+{
+  "schema_version": 1,
+  "scope": "public aggregate tables and inspected figures; no individual rows/models/raw paper",
+  "source_stage": "common comparison 2026-11-12",
+  "text_policy": "UTF8 LF; SVG trailing whitespace normalized; relocated review links adjusted",
+  "files": [
+    {
+      "path": "research/common-comparison-20261112/classical/calibration-diagnostics.csv",
+      "sha256": "d676ea5266acaa9efe29334d435567f3d467b436834ce25a269649fe70544c9b",
+      "bytes": 20546
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/capacities.csv",
+      "sha256": "e95473e1ee40254329c9f15c1fee2b4e5468896430bd835464ff37755603132f",
+      "bytes": 89931
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/CB-fit-curves.png",
+      "sha256": "f2fcea0958aaa4381f2a6e3c392893b269548497916a1f358855add842eac86e",
+      "bytes": 87002
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/CB-fit-curves.svg",
+      "sha256": "d030914156adc5cf90d588a5385afc260593aaffa13f39e557becc33cbd529e3",
+      "bytes": 75181
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/CB-fit-loss.csv",
+      "sha256": "4f1c7609bce1aac19a9b26289797f6720cd6a28d4fc867e363325b0f3d4d0de3",
+      "bytes": 1424725
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/classical_engine.py",
+      "sha256": "a6fa1c0cbda5d3435f32d00caee7cb9d7ec65f93070618c1ce185989848edc59",
+      "bytes": 7741
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/finalize_classical.py",
+      "sha256": "0b0748ce5e442750992398ee48d4a90b3f8036f2f0cdd2d1829990800ac7dd4a",
+      "bytes": 12446
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/frozen-config.json",
+      "sha256": "0a6c3136f11dc3c956f138c25fa963966f54df2021fd3b9e474d63bb3c77e8ad",
+      "bytes": 1144
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/LR-optimization-diagnostics.csv",
+      "sha256": "8bb3df2fc2a1a6d37963a1329761e41715dc1e9dabe964ed0eec00f88673706f",
+      "bytes": 7638
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/LR-optimization.png",
+      "sha256": "7f01a90b55d50d712c6c715e8693b148f653384d3a8ad7fc2426a27881dfa117",
+      "bytes": 135011
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/LR-optimization.svg",
+      "sha256": "d1617f78756b3deb8cf47b442221c55c9ccf0f76845f619655380fd54634bf09",
+      "bytes": 76370
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/metrics.csv",
+      "sha256": "114e8dc09a199facff040f3b1a97c15a92986040a111e71c6a36b5f9fddae690",
+      "bytes": 337710
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/model-specifications.json",
+      "sha256": "911820c431fca438d197d63384b63da9d09e9ea827bd85a3941da6016f2783d9",
+      "bytes": 7138
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/models-index.json",
+      "sha256": "465f89dbb849c44c329ada54365f931db3481ae40ef708f4df04ac6ebb40f58b",
+      "bytes": 47463
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/pilot-timing.json",
+      "sha256": "c598adda03b72171390bb29491d1c4465c793034641ff9c33399457f1c03ae5c",
+      "bytes": 695
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/plan.md",
+      "sha256": "8b4101ca445be95649fe7a9b454a8e20f78ff2b1aaff6616dce4608913d4f34d",
+      "bytes": 2910
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/README.md",
+      "sha256": "0635ae3d083b03d3b8660ce818ff046fbdde31257cd8c2e63971acd7d6724c66",
+      "bytes": 4274
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/run_classical.py",
+      "sha256": "099bdab2ce1723e52a1d33459d424ae23110054640006e0ed8f8a77a7d919142",
+      "bytes": 8088
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/seal_classical.py",
+      "sha256": "8d9fdeb483ccfc7f1ad322034ccada0e7af2f2b69432651d50fb2a67961f80a2",
+      "bytes": 1092
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/training-summary.csv",
+      "sha256": "046ae57e23eb3b159ef33c82702ae5f6012c25593f94222ef8562cf37a420d9e",
+      "bytes": 16267
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/training-verification.json",
+      "sha256": "562063ab1cc36eb47cd73aafa200c47b332db63992176a176412829129995467",
+      "bytes": 237
+    },
+    {
+      "path": "research/common-comparison-20261112/classical/verification.json",
+      "sha256": "c4d43f463f780eba9198d93ef567e47b1c0d678ecf323a23bed0619d341e4c82",
+      "bytes": 12675
+    },
+    {
+      "path": "research/common-comparison-20261112/ensemble-five-split-directions.csv",
+      "sha256": "a4a95a11e305fc8e17ed305d219d4541e08b2123c0dfad813887634b246b1fdb",
+      "bytes": 37488
+    },
+    {
+      "path": "research/common-comparison-20261112/ensemble-five-split-results.csv",
+      "sha256": "9f403627d4f6a3b3f90d6e8e346a8b14e0c0d93c2466f371246867620dce45ea",
+      "bytes": 20090
+    },
+    {
+      "path": "research/common-comparison-20261112/ensemble-five-split-selection-stability.csv",
+      "sha256": "8f771d7e4abd82a4af2848c48febf1241debe0970801f66104aeec04c7720055",
+      "bytes": 16302
+    },
+    {
+      "path": "research/common-comparison-20261112/ensemble-split-audit-verification.json",
+      "sha256": "d40a389f017b39e43bdec84c9cff59e9172b8c4fcfeb79796491f35719820d03",
+      "bytes": 22603
+    },
+    {
+      "path": "research/common-comparison-20261112/ensemble-stability-supplement.md",
+      "sha256": "74f9346d50fe988be2c22388fe82ec2b8911c8481451af107ba599297830e3e9",
+      "bytes": 1474
+    },
+    {
+      "path": "research/common-comparison-20261112/ensemble_split_audit.py",
+      "sha256": "05539786596f889d1018731d5d7d59108dba29455ea4245e8ed05697c66c93fe",
+      "bytes": 4996
+    },
+    {
+      "path": "research/common-comparison-20261112/eval_harness.py",
+      "sha256": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+      "bytes": 8441
+    },
+    {
+      "path": "research/common-comparison-20261112/figures/coverage-versus-within-long79.png",
+      "sha256": "0ba1b30c9728bbee9822565f67fffbe9e727b4fef70a9b1ac274bd1c8e9490fe",
+      "bytes": 214556
+    },
+    {
+      "path": "research/common-comparison-20261112/figures/coverage-versus-within-long79.svg",
+      "sha256": "9b326b80de18e2a8d542b4c02fd145aed970b04448d5609941458a3a801778bc",
+      "bytes": 30323
+    },
+    {
+      "path": "research/common-comparison-20261112/figures/ensemble-five-split-hits.png",
+      "sha256": "57439680c77a75d2251fbafee45363d12227d9826c13d45538ee8a71eb9153ac",
+      "bytes": 409074
+    },
+    {
+      "path": "research/common-comparison-20261112/figures/ensemble-five-split-hits.svg",
+      "sha256": "c34e1a4bb7d9445561609e056ffaf23ba34b72d944e89d6702c273fb4cf7ff6b",
+      "bytes": 38156
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/AE-reconstruction-curves.png",
+      "sha256": "8b28755e3cb7610d5a136253a859a4c01dedcfc912cab8c729ec8b8bce5ab32c",
+      "bytes": 75779
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/AE-reconstruction-curves.svg",
+      "sha256": "036672cc04b4a6bad87c646a08ac4a31910203e9b6875b845e6179519b88a6cf",
+      "bytes": 41874
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/aggregate-support.json",
+      "sha256": "31bafd963211caee35941bfc0cac920fa3e72b1e048400f35fac74c5d70c94f6",
+      "bytes": 2900
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/calibration-status.csv",
+      "sha256": "361922bcc9f87f9eb9e455890d49e2c38268d796e5355cc4677bd562c7096988",
+      "bytes": 15130
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/common-capacities.csv",
+      "sha256": "7141826d11d254ee874ac991e4b59111dd04bfa21e11d55c23a9a547c383dbad",
+      "bytes": 107048
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/common-metrics.csv",
+      "sha256": "e8dc8878bc3cb2b45d5d22c78804083806a2b94967959db6ecf102281d473b37",
+      "bytes": 407711
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/deliverable-manifest.json",
+      "sha256": "7bf1365ecf733143e8facd49f9790a433b14b22c8902be3b49993a9572e2200e",
+      "bytes": 118215
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/failures.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/finalize_neural.py",
+      "sha256": "626049b644fb854db956a61cdb1ffa312bd45ffdfd7703abaf2520fa87eb60fa",
+      "bytes": 13668
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/fit-optimization-support.png",
+      "sha256": "a80df51aa9bca852a1a6a0101626f6c3c5555fc4bcae2b4e1551f210f9d599f5",
+      "bytes": 89542
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/fit-optimization-support.svg",
+      "sha256": "e3ec5d969f32178229413a19ca62b14408cc03d8e4b666625a4b59289ed0a80a",
+      "bytes": 60878
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/input-audit.json",
+      "sha256": "fa46828416bc6ed0c1a26c3d8cbdbe79e56369d3fa2ff07d35b4c8441cba1ff4",
+      "bytes": 14663
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/model-replay.csv",
+      "sha256": "14b8b1536224a5976101f0d7b7f016ac1c786ffc10187ce874015f4d4be22d00",
+      "bytes": 5532
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/neural_models.py",
+      "sha256": "1a698710eb09f85455a15f4e2d374789291225e654e3164c041da71effe41926",
+      "bytes": 4561
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/pilot-timing.json",
+      "sha256": "4b55873b83b26b7a7530aa4dd6a298a412c8f35fcf71ef5027367ddf4dadb1a0",
+      "bytes": 412
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/plan.md",
+      "sha256": "b27a347866ca6ba4fedf1938f6882a7f10ee7f5796ebc133bb85c0591f9fa196",
+      "bytes": 3801
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/pretrain-curves.csv",
+      "sha256": "400889b837125a6fe769eb062126eb3092a22d0736f26c1976e9fd03a30f5bab",
+      "bytes": 53756
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/readback-verification.json",
+      "sha256": "47fd1d20f51a561e38481e9909b5305f79c65cc5373205442f0950c76dc6157f",
+      "bytes": 485
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/README.md",
+      "sha256": "9e0a84377212f3e3b340913b6d13a175ad687911b22d866d1ba5c3b679ce0fe0",
+      "bytes": 6275
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/run-support.csv",
+      "sha256": "67033330638390df0eff91334e24437bb8deccda8721f85680936438a94904e6",
+      "bytes": 62204
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/run_neural.py",
+      "sha256": "dfd6eece94597674680829a2f5cd91ca2cba6ef778c8018a4ff8150d74f2dca5",
+      "bytes": 10869
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/source-fidelity.json",
+      "sha256": "78b9f5ee60018aeac3b6c4080e01052b960028dee5f053b4dc7d99a34727d570",
+      "bytes": 940
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/source-freeze.json",
+      "sha256": "25e321e8c6da9d734623ad35a238adac3afaea2cb82b97d4a08ca794bc35fca8",
+      "bytes": 656
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/supervised-curves.csv",
+      "sha256": "5f0873252110c206842a34bc9e7d8f0742d565c1ad1a8b97c817e8d440fac369",
+      "bytes": 433029
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/supervised-training-curves.png",
+      "sha256": "d07e26a01c82aa90c4d04fe485bf269d4ffcdabb3b47359953952481c8a3dded",
+      "bytes": 135314
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/supervised-training-curves.svg",
+      "sha256": "32f016d57d83a260ccf11037e16ec94fb7397a996246bd91102c29e2bf8f268e",
+      "bytes": 76169
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/training-support-by-split.csv",
+      "sha256": "351a674ec62548cf0caf5b8053224ce6411824ec040b298063d934d86d6c1196",
+      "bytes": 4349
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/verification.json",
+      "sha256": "072f430527dc03717b0a5ddbe45584ca26091e84c4ca54e37d7044869b87436b",
+      "bytes": 877
+    },
+    {
+      "path": "research/common-comparison-20261112/neural/verify_neural.py",
+      "sha256": "a3c619bfb43bf09dd3dbacb319e00fc47cf37ae3b93e8fa7fe6f76daa2820a2d",
+      "bytes": 4748
+    },
+    {
+      "path": "research/common-comparison-20261112/plot_ensemble_comparison.py",
+      "sha256": "183972b312eef0591fd7f8990e22f9165713c9c31a9d7a7afcaa8120f4dac342",
+      "bytes": 3604
+    },
+    {
+      "path": "research/common-comparison-20261112/prepare_shared.py",
+      "sha256": "f1f6ffe776ebd5d3f5be8a48511f34766f2425dab0edd4c9535d3263c7f75221",
+      "bytes": 8370
+    },
+    {
+      "path": "research/common-comparison-20261112/protocol-clarification.md",
+      "sha256": "9215da90b5a3029618f3afdeb6e7cbd050df3262a7af03c397da8bc0157ff521",
+      "bytes": 1366
+    },
+    {
+      "path": "research/common-comparison-20261112/README.md",
+      "sha256": "aee005a01c798c51e680a5a61b9d1c887cb10920461896a5a4cfdc0cc246e5f1",
+      "bytes": 12188
+    },
+    {
+      "path": "research/common-comparison-20261112/reviews/review-classical-and-integration.md",
+      "sha256": "bd2ffabbbcecd736adb02350309273ab6c8385ed55d7c3ef340992abc4ee614f",
+      "bytes": 7593
+    },
+    {
+      "path": "research/common-comparison-20261112/reviews/review-final-explanation-checks.json",
+      "sha256": "0f7ae3838beea2f0778a7ecbf6d469f814fae2b5e78bce8c92ba76b367ca1137",
+      "bytes": 20766
+    },
+    {
+      "path": "research/common-comparison-20261112/reviews/review-final-explanation.md",
+      "sha256": "b727d9c1439031af41b5b515265659ac250095fd6f67b20108438fbcc0ddbe09",
+      "bytes": 8412
+    },
+    {
+      "path": "research/common-comparison-20261112/reviews/review-neural-and-information.md",
+      "sha256": "37d7e536288521003426c8f24f7de635cfc580a8ad2ed4f1c0d4beba41a53d03",
+      "bytes": 10515
+    },
+    {
+      "path": "research/common-comparison-20261112/root-independent-run-summary.csv",
+      "sha256": "73eea6f43c6a33d183651a833c7426f54d613623aeb24ac02b0b22e7d18c232f",
+      "bytes": 3931
+    },
+    {
+      "path": "research/common-comparison-20261112/root-independent-split-means.csv",
+      "sha256": "db88ca781a6d17e3b3e416716ec188eb049d19ebf6bc9099d1837bf804dee9b3",
+      "bytes": 7340
+    },
+    {
+      "path": "research/common-comparison-20261112/shared/data-manifest.json",
+      "sha256": "4b69be54cde20e1c698ec0a6419303b6a28efe4e60de8bf7e0e1224405b10270",
+      "bytes": 12464
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/adapter-binding.json",
+      "sha256": "c43068faf7ce18170da7b335b59a84ba838d4bd8a5b1cbf4c0c0e6faa4357e38",
+      "bytes": 6570
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/add_exploratory_pairs.py",
+      "sha256": "377871abef63a68d568e05025b95f5763cb9c319f908d82a2fa188c7858dabf8",
+      "bytes": 5175
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/all-run-capacities.csv",
+      "sha256": "36aadb25f446c1fec2a7d2ecf31ad6d2493486a20f18e17a640f18f1af5f340f",
+      "bytes": 226144
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/all-run-metrics.csv",
+      "sha256": "7b61a8361a16ccf25560704e2fb37953aa5f9bcde7adebfde2be3e186200eb72",
+      "bytes": 1045293
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/all-run-training-metadata.json",
+      "sha256": "065e31e14ec58203675076ba43e2121adaebe498d25590e1388ce57b4bed8d01",
+      "bytes": 847883
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/audit_shared_and_bind.py",
+      "sha256": "ac0ec034705a6d6a8bb46102e4682d37eb7d91d7f233ff4f3fbcdc71318069cd",
+      "bytes": 8487
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/calibration-optimization-audit.csv",
+      "sha256": "5790599b47276c62b1077d89d8d5f7358f449c001a1a92bc48c297a83a07d38f",
+      "bytes": 35323
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/canonical-bootstrap-observed.csv",
+      "sha256": "c108c48c84169090c8d07bc67150ffbe80adfa1bece9ef36758b31f11a360750",
+      "bytes": 5101
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/canonical-bootstrap-replicates.csv.gz",
+      "sha256": "15a4c1f351020f0196a3a4828066918b0c236051d8154f0f869ffec154fd6a15",
+      "bytes": 2629004
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/canonical-calibration-all-bins.csv",
+      "sha256": "61eeb824fbffe6605eb0a14ef5004b0ba07129d340b4aa4d7e10e4ebba5a0b91",
+      "bytes": 32092
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/canonical-contrasts.json",
+      "sha256": "507fc85a08b1e07a34dd3ee0f7876d2a675778dfdc608d5c88d8ce50bfd00cd8",
+      "bytes": 3602
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/canonical-ensemble-capacities.csv",
+      "sha256": "7da5034c482e5fef30dad2f3fd36e61ebf16d580a621900f60748a9ee7d80a46",
+      "bytes": 6925
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/canonical-ensemble-manifest.json",
+      "sha256": "85037e56df99349fa320c50cfb98a0f9261fc15d0da26bc1f84c7f13d494c5a1",
+      "bytes": 3704
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/canonical-ensemble-metrics.csv",
+      "sha256": "2898022d0d5a9c4f1f008d3f68224b33a2c2cd4ab6f9a45199f1f3018aebdf91",
+      "bytes": 16608
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/canonical-paired-bootstrap-intervals.csv",
+      "sha256": "7807f17c106049ccfd646351fe8e0df68b6f6775d9d474f6c555cfc8bb422b5c",
+      "bytes": 79664
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/canonical-raw-mean-logit-diagnostic.csv",
+      "sha256": "4ffbd974dcbb6571590d13b4cafc90e5f796d4f860ae859d90e3c2205801aacd",
+      "bytes": 3067
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/completion-receipt.json",
+      "sha256": "c7f4c8f262061ccb4a52ccef1e03eb82f401bfe02ba240590d2035c29586f8ac",
+      "bytes": 605
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/controlled-paired-differences-by-seed.csv",
+      "sha256": "a4c99da55868639b3a31b36651acec4eac1899064b47598794cb9b3bac1d83ca",
+      "bytes": 290966
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/controlled-paired-differences-by-split.csv",
+      "sha256": "b171f45498e40968b2c6c3a3d5422009e93dbf8c8f2e163fd9c81c51268c7bf0",
+      "bytes": 218178
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/exploratory-appendix-plan.md",
+      "sha256": "9e87abe2d2ede37dbcb5e0ee87c91f3f4b97ab95b829c29a5822cd9615a90830",
+      "bytes": 1133
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/exploratory-appendix-receipt.json",
+      "sha256": "e645fefd6f7b2803cd39acbec3cd2653bbb626202ca959e7ea6be303c32d1541",
+      "bytes": 984
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/exploratory-complete-same-information-by-seed.csv",
+      "sha256": "d253a2c90b18c80f89eb7c64ca02573af94558c994cf8c68f2bf92bf1634d3b2",
+      "bytes": 295788
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/exploratory-complete-same-information-by-split.csv",
+      "sha256": "75df2c49419385f0ceb8c8a4ace2c1da7d95e6fd59c67f7e9659850c8a2aad16",
+      "bytes": 235081
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/exploratory-complete-same-information-canonical-CI.csv",
+      "sha256": "0a653b6e0ebb677212078cc70fa9f14a4e62cf560f98b2861ade741a3981ea33",
+      "bytes": 118782
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/exploratory-complete-same-information-directions.csv",
+      "sha256": "a88b58277108f20df2cc98a36db2ab7f8d40b3361abce8fcd84584b7bc9add74",
+      "bytes": 96295
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figure-manifest.json",
+      "sha256": "02b97578492b9dc156f97460458e7f30ed298702d965a7ca89ba9ec49284b8da",
+      "bytes": 2972
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/calibration-base8-weightedLR.png",
+      "sha256": "675034119706a8fab76b5426a936d4000d7c049cafa934a7f400baa537137e89",
+      "bytes": 189889
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/calibration-base8-weightedLR.svg",
+      "sha256": "ddd7991631ddd676067fd646435d70e53e8399a2c94d62c4db87572e7a23d790",
+      "bytes": 134613
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/calibration-full141-AE.png",
+      "sha256": "7331b283adc6b419b979ac8ad4b0b475f29d50db037542d7c6cc3d1fbfbc508a",
+      "bytes": 187533
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/calibration-full141-AE.svg",
+      "sha256": "3857bb1531a5d4435f6e9be7c4db8eefa50d97f719ea3bc76fed0c8fb4f4ecef",
+      "bytes": 135858
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/calibration-full141-column-gate.png",
+      "sha256": "a4f3f2a23bdb6da025727b0a44a124965140086c408da967ebb5d23559c695df",
+      "bytes": 186687
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/calibration-full141-column-gate.svg",
+      "sha256": "c6b3696bbd4ee4a6bca04a50bf5278f421e00ec41d3bd316ec2584d1771a0969",
+      "bytes": 133065
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/calibration-full141-encodedCatBoost.png",
+      "sha256": "1f51bda8303f5a591ebd38f618c1190a151bb62722e9fda62ba2ab8cb9e827dd",
+      "bytes": 184254
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/calibration-full141-encodedCatBoost.svg",
+      "sha256": "34214e1bb5f760821e6752157299b6969edffe414a31eca3fec55a9a5c76c345",
+      "bytes": 129833
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/calibration-full141-nativeCatBoost.png",
+      "sha256": "f94710b4b06feffda836592b3acbf2e7386400610951f54a254f90a5a9906a12",
+      "bytes": 182906
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/calibration-full141-nativeCatBoost.svg",
+      "sha256": "0e6247be3e9c6639fd81774d7ca9703aa64645cfbf2df0cdf7fcc8e35a58b092",
+      "bytes": 129654
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/canonical-paired-brier-AP.png",
+      "sha256": "989af2e0309079e5153c998112415e5216da189509dcdc0353b5240ae4c7f40a",
+      "bytes": 212563
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/canonical-paired-brier-AP.svg",
+      "sha256": "7aac7c5acc300af74fa0a68c0b28ce8e9c58b938976da53f42c218001b185c00",
+      "bytes": 154745
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/canonical-paired-loss-hits.png",
+      "sha256": "f7c3085b75c88bf241e52c647fa08b3d89bb2d4c4cde93aa5fecf7394c60c7c7",
+      "bytes": 204895
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/canonical-paired-loss-hits.svg",
+      "sha256": "02b3bd274f45053bd748acc71c7bf0b3eea3086a5e32d020802539c7854fce08",
+      "bytes": 146187
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/model-information-split-ranges.png",
+      "sha256": "f1025e9f4b12d27abfb6f1812608a5f6c5ae5b3043a3b3552bfe81fdce92292c",
+      "bytes": 285891
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/model-information-split-ranges.svg",
+      "sha256": "633ba68cba78697b4c1b8d618d09690fe62e1bc5c57e9b7ca6e12d4f480d1967",
+      "bytes": 185420
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/paired-information-effects.png",
+      "sha256": "92578be27285b94e03d1ef0c57181bdda97c6622438eb89896af9492215f9efe",
+      "bytes": 214320
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/paired-information-effects.svg",
+      "sha256": "4bd211e58b7e20c9e1f01346782a35267961e11c78523fcc1768d1e8a3bafd8b",
+      "bytes": 117644
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/selection-stability.png",
+      "sha256": "b968a8218f7ec84e2f6fc6f2c09b453122e2ff2df500fa37433b9ee665f222d9",
+      "bytes": 264000
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/figures/selection-stability.svg",
+      "sha256": "ab6e64a1bf0277785907bc383291435033258e38bd0fe4c2738d3b8421e9ae7d",
+      "bytes": 145962
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/finite-ranking-correspondence.csv",
+      "sha256": "0ba9e104f87f4cbd08c21073213a1073aa1b0512c94b5da9647140fc54622a99",
+      "bytes": 33848
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/five-overlapping-split-directions.csv",
+      "sha256": "136584ebe5267eab46d58c7fd0404f82b4d31a76bc4b20ef361aadac435a321c",
+      "bytes": 98827
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/gate-check-receipt.json",
+      "sha256": "19c087c53ff3b76f47a69ca5bed554500cafcbc5b8d2afe774e8faf40de42f2e",
+      "bytes": 328
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/main-model-information-by-split.csv",
+      "sha256": "45676618b8d05c71bfed7a1b83db6137a8ac1528f61f68fe55f7185aadd94d46",
+      "bytes": 100867
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/main-model-information-five-split.csv",
+      "sha256": "2cfe7a8f07a7c7141ebd0752059de1f0db2682f8ae915518ed8c00368d502a50",
+      "bytes": 9691
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/mean-run-metrics-versus-ensemble.csv",
+      "sha256": "41c5fede74e1b42bfd13b994b66c2fc028226c799fcb0641bea69e7ccc90b200",
+      "bytes": 1730
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/point-estimates-ready.json",
+      "sha256": "0383baa34276ac0eb3760369171cd263a4edf1d3c2ce4833c353a0233b689968",
+      "bytes": 578
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/producer_adapter.py",
+      "sha256": "2ddd520ac27a3092bd9a94ebd21570901812728541faa93f7ff095953a81a703",
+      "bytes": 7936
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/readback-verification.json",
+      "sha256": "3a53dbb8078be7064e9ed61e22aa931fe8964f8c144ea8c7b4cdbf4ee1e2ebe6",
+      "bytes": 1806
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/README.md",
+      "sha256": "b70a5d3a9d64ba9db5d1c85ba057903284133016882046475f5731dcb2160457",
+      "bytes": 4840
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/render_statistics.py",
+      "sha256": "6585891256f4540184c95e0911ac89c5e50f8bb76de0ae88f11a6f6fbb8c5419",
+      "bytes": 9622
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/root-ensemble-supplement-review.json",
+      "sha256": "0308d3ca9ef07f2f0febe3ca332758246308acec2222dffc6177840f66208893",
+      "bytes": 785
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/root-independent-summary-crosscheck.csv",
+      "sha256": "94c2000b9664bff6ee2744ea3b06c45f9b1c52cf430e70550ff2066c283bf970",
+      "bytes": 18164
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/run_statistics.py",
+      "sha256": "fa86c466f483a4d25241769ab94acc7e10ab7929051e61273f2401ac0ed89734",
+      "bytes": 24910
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/runner-freeze.json",
+      "sha256": "178905e2acfc2a92beabbbffef3c88fcd75906f8d76aa38b1c1f4b477fb793b9",
+      "bytes": 1477
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/schema-contract.md",
+      "sha256": "c96a0b7844aacedefd8090dbbc43c58c4f03c0bc831e9b03038b8b10196222ba",
+      "bytes": 3441
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/selection-stability-pairs.csv",
+      "sha256": "6c94d5ba5279060ce383bd7dc5288323a8db46ca2fc9198ed0279f48aaf0373a",
+      "bytes": 189495
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/shared-matrix-audit.csv",
+      "sha256": "ca159341ecd5675f43009f2f45396b55aafed1581e5c04c18e2c9c76bd100b96",
+      "bytes": 602
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/shared-source-audit.json",
+      "sha256": "a4b347bdbcd95b2449416c09db05705ab90e296997a203d3faf1fcda7276b6d0",
+      "bytes": 3892
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/shared-source-review.md",
+      "sha256": "0d7fe153a365d1ea095b7c70b27d1eb1bcd598077f3668e4219ac5249a12d9f5",
+      "bytes": 2327
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/shared-support-audit.csv",
+      "sha256": "ae5d7b7407d553f9d3c8b5c1c8d85c423ce1637e53c6c5e3269a6c0de7a56b75",
+      "bytes": 1732
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/statistics-plan.md",
+      "sha256": "c71dd22d5cf2a0bb70800c74f7867a55bbd87469eba33e2f57ac8f3dbafe3eb4",
+      "bytes": 5886
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/statistics-verification.json",
+      "sha256": "26191a6db61ef0562190d3fdb3719b6345c9e3b1dc702e721987701600adb255",
+      "bytes": 5513
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/statistics_core.py",
+      "sha256": "8ce1cfb672cc71554d7a05db5597045de2b86fd36499db15076bd2ed8c32e3d6",
+      "bytes": 11635
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/synthetic-check-receipt.json",
+      "sha256": "16443f4ffaba8486e7f09355cd51871a51db147f7cd60fefc4c60ddcca215a24",
+      "bytes": 425
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/verify_statistics.py",
+      "sha256": "0a80bceec7fa41a8d7e2eeba591301d4bb163561a4b9ee54b370d7a6d5d0d4c1",
+      "bytes": 15523
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/within-split-seed-capacities.csv",
+      "sha256": "f5139fceb604514b026b0da556bd9eae985caf2b9bca8765629f3c3469a1aa49",
+      "bytes": 153527
+    },
+    {
+      "path": "research/common-comparison-20261112/statistics/within-split-seed-metrics.csv",
+      "sha256": "9765026733234e019b50c9ea11464de6f8a425a4497c03fb5045f3114c4545e7",
+      "bytes": 750252
+    },
+    {
+      "path": "research/common-comparison-20261112/task_plan.md",
+      "sha256": "1a2a957a7e0a2046cba77a77184ceb88079644893a1a56ea4cfab7c721c1fc6f",
+      "bytes": 6438
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE_WITH_INDEPENDENT_READBACK_AND_ROOT_VISUAL_REVIEW",
+  "model_fits": 0,
+  "new_April_scores": 0,
+  "statistics_readback_sha256": "ff4ea999b4801a3a25201e043f5676c06b9ced614621fa4fd8a9ce67d27415df",
+  "historical_statistics_receipt_sha256": "ee8fdca5a324f0d23b93402d12616d0b0f33781ee32eb5d63b4d52059e8b6c99",
+  "retired_README_sha256": "f407fc345148c78729f57486a2c6282726f2ff5b869a957635bdaf64f8536e7c",
+  "current_README_sha256": "b70a5d3a9d64ba9db5d1c85ba057903284133016882046475f5731dcb2160457",
+  "statistics_png": 10,
+  "all_new_batch_png": 17,
+  "plots_reviewed_by_root": true
+}

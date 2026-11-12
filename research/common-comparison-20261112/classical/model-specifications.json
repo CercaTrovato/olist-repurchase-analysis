@@ -1,0 +1,392 @@
+[
+  {
+    "split": 20261111,
+    "information": "base8",
+    "family": "weightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261111,
+    "information": "base8",
+    "family": "unweightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261111,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2026
+  },
+  {
+    "split": 20261111,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2027
+  },
+  {
+    "split": 20261111,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2028
+  },
+  {
+    "split": 20261111,
+    "information": "full141",
+    "family": "weightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261111,
+    "information": "full141",
+    "family": "unweightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261111,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2026
+  },
+  {
+    "split": 20261111,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2027
+  },
+  {
+    "split": 20261111,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2028
+  },
+  {
+    "split": 20261111,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2026
+  },
+  {
+    "split": 20261111,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2027
+  },
+  {
+    "split": 20261111,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2028
+  },
+  {
+    "split": 20261112,
+    "information": "base8",
+    "family": "weightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261112,
+    "information": "base8",
+    "family": "unweightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261112,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2026
+  },
+  {
+    "split": 20261112,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2027
+  },
+  {
+    "split": 20261112,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2028
+  },
+  {
+    "split": 20261112,
+    "information": "full141",
+    "family": "weightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261112,
+    "information": "full141",
+    "family": "unweightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261112,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2026
+  },
+  {
+    "split": 20261112,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2027
+  },
+  {
+    "split": 20261112,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2028
+  },
+  {
+    "split": 20261112,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2026
+  },
+  {
+    "split": 20261112,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2027
+  },
+  {
+    "split": 20261112,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2028
+  },
+  {
+    "split": 20261113,
+    "information": "base8",
+    "family": "weightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261113,
+    "information": "base8",
+    "family": "unweightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261113,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2026
+  },
+  {
+    "split": 20261113,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2027
+  },
+  {
+    "split": 20261113,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2028
+  },
+  {
+    "split": 20261113,
+    "information": "full141",
+    "family": "weightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261113,
+    "information": "full141",
+    "family": "unweightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261113,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2026
+  },
+  {
+    "split": 20261113,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2027
+  },
+  {
+    "split": 20261113,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2028
+  },
+  {
+    "split": 20261113,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2026
+  },
+  {
+    "split": 20261113,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2027
+  },
+  {
+    "split": 20261113,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2028
+  },
+  {
+    "split": 20261114,
+    "information": "base8",
+    "family": "weightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261114,
+    "information": "base8",
+    "family": "unweightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261114,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2026
+  },
+  {
+    "split": 20261114,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2027
+  },
+  {
+    "split": 20261114,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2028
+  },
+  {
+    "split": 20261114,
+    "information": "full141",
+    "family": "weightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261114,
+    "information": "full141",
+    "family": "unweightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261114,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2026
+  },
+  {
+    "split": 20261114,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2027
+  },
+  {
+    "split": 20261114,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2028
+  },
+  {
+    "split": 20261114,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2026
+  },
+  {
+    "split": 20261114,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2027
+  },
+  {
+    "split": 20261114,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2028
+  },
+  {
+    "split": 20261115,
+    "information": "base8",
+    "family": "weightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261115,
+    "information": "base8",
+    "family": "unweightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261115,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2026
+  },
+  {
+    "split": 20261115,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2027
+  },
+  {
+    "split": 20261115,
+    "information": "base8",
+    "family": "encodedCatBoost",
+    "seed": 2028
+  },
+  {
+    "split": 20261115,
+    "information": "full141",
+    "family": "weightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261115,
+    "information": "full141",
+    "family": "unweightedLR",
+    "seed": null
+  },
+  {
+    "split": 20261115,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2026
+  },
+  {
+    "split": 20261115,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2027
+  },
+  {
+    "split": 20261115,
+    "information": "full141",
+    "family": "encodedCatBoost",
+    "seed": 2028
+  },
+  {
+    "split": 20261115,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2026
+  },
+  {
+    "split": 20261115,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2027
+  },
+  {
+    "split": 20261115,
+    "information": "full141",
+    "family": "nativeCatBoost",
+    "seed": 2028
+  }
+]

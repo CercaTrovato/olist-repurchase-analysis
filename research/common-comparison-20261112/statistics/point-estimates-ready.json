@@ -1,0 +1,18 @@
+{
+  "status": "POINT_ESTIMATES_AND_FIVE_SPLIT_DIRECTIONS_READY_BOOTSTRAP_PENDING",
+  "supervised_runs": 155,
+  "all_variant_metric_rows": 3200,
+  "all_variant_capacity_rows": 1280,
+  "canonical_ensembles": 13,
+  "point_files": [
+    "main-model-information-by-split.csv",
+    "main-model-information-five-split.csv",
+    "five-overlapping-split-directions.csv",
+    "canonical-ensemble-metrics.csv",
+    "canonical-ensemble-capacities.csv"
+  ],
+  "source_records_checked": 155,
+  "score_SHA_checked": 155,
+  "producer_metric_discrepancies": 0,
+  "formal_model_adopted": false
+}

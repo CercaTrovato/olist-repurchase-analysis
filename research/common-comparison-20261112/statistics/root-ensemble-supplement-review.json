@@ -1,0 +1,13 @@
+{
+  "status": "PASS_TARGETED_POST_RESULT_SENSITIVITY_REVIEW",
+  "source_code": "ensemble_split_audit.py",
+  "source_code_sha256": "05539786596f889d1018731d5d7d59108dba29455ea4245e8ed05697c66c93fe",
+  "ensemble_rows_independently_recomputed": 130,
+  "selection_pairs_recomputed": 260,
+  "direction_rows_recomputed": 130,
+  "maximum_metric_difference": 0,
+  "interpretation": "all 13 pre-existing mean(calibrated probability) systems rescored across five overlapping splits; results-after supplementary sensitivity, not new periods or a prespecified independent confirmatory test",
+  "new_fits": 0,
+  "new_bootstrap": 0,
+  "implementation_caveat": "root sort uses customer key only, whereas canonical key includes date; all cohort dates identical, so the rankings are equivalent here"
+}

@@ -1,0 +1,899 @@
+{
+  "status": "RESEARCH_CANDIDATE_FIXED_BEFORE_NEW_RUNS",
+  "frozen_at": "2026-11-12T20:16:27+08:00",
+  "scope": "AE research candidate ablation only; no formal team adoption",
+  "candidate": "full141 six-view16 AE20 reconstruction+50BCE, three monotone-calibrated probabilities averaged",
+  "canonical_split": 20261111,
+  "splits": [
+    20261111,
+    20261112,
+    20261113,
+    20261114,
+    20261115
+  ],
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "new_case_ids": [
+    "mean70",
+    "mean3040",
+    "AE-shuffled",
+    "AE-drop-behavior",
+    "AE-drop-geography",
+    "AE-drop-products",
+    "AE-drop-commerce",
+    "AE-drop-service",
+    "AE-drop-seller-context"
+  ],
+  "new_supervised_runs": 135,
+  "new_AE_pretrains": 105,
+  "reused_source_models": 65,
+  "shuffled_definition": "per-batch random permutation conditioned on no fixed points; same permutation for all six views; target RNG seed+1901 separate from input RNG seed+901",
+  "source_sha256": {
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\shared\\data-manifest.json": "1be6816d26676a2ed08a83be4f7f212e79d13c7fba88d663f84e9d3b904e8d57",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\eval_harness.py": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\neural\\neural_models.py": "1a698710eb09f85455a15f4e2d374789291225e654e3164c041da71effe41926",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\ae-followup\\task_plan.md": "0d90f392b7c6af9e211d6a2ae295cf170b792e1ae371d5c78436b9df091ffad4"
+  },
+  "old_reference_records": [
+    {
+      "family": "encodedCatBoost",
+      "information": "full141",
+      "split_id": 20261111,
+      "seed": 2026,
+      "run_id": "encodedCatBoost-full141-split20261111-seed2026",
+      "record": "classical\\encodedCatBoost-full141-split20261111-seed2026-record.json",
+      "record_sha256": "3603510c247e26fc822ba2f376c6233bd57be2295f4d38685f14393787cbfa86",
+      "score_file": "classical/private/encodedCatBoost-full141-split20261111-seed2026-scores.npz",
+      "score_sha256": "0bea5676e348a38b62c59c32a1f43726c5b881566652f28cf9a74c92914b45f8",
+      "model_sha256": {}
+    },
+    {
+      "family": "encodedCatBoost",
+      "information": "full141",
+      "split_id": 20261111,
+      "seed": 2027,
+      "run_id": "encodedCatBoost-full141-split20261111-seed2027",
+      "record": "classical\\encodedCatBoost-full141-split20261111-seed2027-record.json",
+      "record_sha256": "6c795ad7ec58b3463c0a445b436e3674d67b7d271e020d9e36842cc70e3c3317",
+      "score_file": "classical/private/encodedCatBoost-full141-split20261111-seed2027-scores.npz",
+      "score_sha256": "01a0b6c888af44ff0e6610603e1d8354e7bde52eb7452413a42c818684db2d6a",
+      "model_sha256": {}
+    },
+    {
+      "family": "encodedCatBoost",
+      "information": "full141",
+      "split_id": 20261111,
+      "seed": 2028,
+      "run_id": "encodedCatBoost-full141-split20261111-seed2028",
+      "record": "classical\\encodedCatBoost-full141-split20261111-seed2028-record.json",
+      "record_sha256": "2b8289d1fc139f6cb47e93cdaf2772abac38521b7abc472d6f1dc76461486cc5",
+      "score_file": "classical/private/encodedCatBoost-full141-split20261111-seed2028-scores.npz",
+      "score_sha256": "a50f33534313cdc474917296b8fa6a24741a016338ac035de3b28f94bdd68acb",
+      "model_sha256": {}
+    },
+    {
+      "family": "encodedCatBoost",
+      "information": "full141",
+      "split_id": 20261112,
+      "seed": 2026,
+      "run_id": "encodedCatBoost-full141-split20261112-seed2026",
+      "record": "classical\\encodedCatBoost-full141-split20261112-seed2026-record.json",
+      "record_sha256": "67804fc50d8359a3b79582902a8e632fa9624884f8fba16b8c8d13c52bf814cc",
+      "score_file": "classical/private/encodedCatBoost-full141-split20261112-seed2026-scores.npz",
+      "score_sha256": "fd2e7875479cf3cc28e6f3e36c011463e8957a287ac2fda676fbce2feb15bff9",
+      "model_sha256": {}
+    },
+    {
+      "family": "encodedCatBoost",
+      "information": "full141",
+      "split_id": 20261112,
+      "seed": 2027,
+      "run_id": "encodedCatBoost-full141-split20261112-seed2027",
+      "record": "classical\\encodedCatBoost-full141-split20261112-seed2027-record.json",
+      "record_sha256": "e7c677153edeee0bd0106cb9a2e4160ec5d6186dc5d59cbf869b7c0dc30579eb",
+      "score_file": "classical/private/encodedCatBoost-full141-split20261112-seed2027-scores.npz",
+      "score_sha256": "8ec93f3b3dd7c0373d197dfa25d3033f2d9b51a17fd3ac65b5f4ed446ac9b939",
+      "model_sha256": {}
+    },
+    {
+      "family": "encodedCatBoost",
+      "information": "full141",
+      "split_id": 20261112,
+      "seed": 2028,
+      "run_id": "encodedCatBoost-full141-split20261112-seed2028",
+      "record": "classical\\encodedCatBoost-full141-split20261112-seed2028-record.json",
+      "record_sha256": "b4e423e994de78fd861dcdb80fd5b5eba0edbd2ffc08f21ac65e6bbd7aee5f53",
+      "score_file": "classical/private/encodedCatBoost-full141-split20261112-seed2028-scores.npz",
+      "score_sha256": "8f60fbe17de04eb5c26b2bad56e806cae490efceaa91990f35dddd4c4824a4fa",
+      "model_sha256": {}
+    },
+    {
+      "family": "encodedCatBoost",
+      "information": "full141",
+      "split_id": 20261113,
+      "seed": 2026,
+      "run_id": "encodedCatBoost-full141-split20261113-seed2026",
+      "record": "classical\\encodedCatBoost-full141-split20261113-seed2026-record.json",
+      "record_sha256": "0ccea42d31eb0bee6b54cc9079bc2fdf4b6d4651a562ac34ed3e07df6043c20d",
+      "score_file": "classical/private/encodedCatBoost-full141-split20261113-seed2026-scores.npz",
+      "score_sha256": "0ba965ee4484839833040316d77fd598eb168f01d9532bd20a136021205bb05c",
+      "model_sha256": {}
+    },
+    {
+      "family": "encodedCatBoost",
+      "information": "full141",
+      "split_id": 20261113,
+      "seed": 2027,
+      "run_id": "encodedCatBoost-full141-split20261113-seed2027",
+      "record": "classical\\encodedCatBoost-full141-split20261113-seed2027-record.json",
+      "record_sha256": "b843fc74188afc0fb3f5bd6b3e78e66a1480e6fcd239ff82db155d7cf86f05d4",
+      "score_file": "classical/private/encodedCatBoost-full141-split20261113-seed2027-scores.npz",
+      "score_sha256": "12cc005fd97d51e5997e4b02fa64c93aba96b707b12f64a4af537aa61d7dabe4",
+      "model_sha256": {}
+    },
+    {
+      "family": "encodedCatBoost",
+      "information": "full141",
+      "split_id": 20261113,
+      "seed": 2028,
+      "run_id": "encodedCatBoost-full141-split20261113-seed2028",
+      "record": "classical\\encodedCatBoost-full141-split20261113-seed2028-record.json",
+      "record_sha256": "d1562c398178d059b1df8eccbfea29c475a84964cbdad6e43ff2e661d8875a1e",
+      "score_file": "classical/private/encodedCatBoost-full141-split20261113-seed2028-scores.npz",
+      "score_sha256": "b984e6f58a2fbe4d3bb6e3f3a58344d648702b5b3c33756a3eb38718033f3ba1",
+      "model_sha256": {}
+    },
+    {
+      "family": "encodedCatBoost",
+      "information": "full141",
+      "split_id": 20261114,
+      "seed": 2026,
+      "run_id": "encodedCatBoost-full141-split20261114-seed2026",
+      "record": "classical\\encodedCatBoost-full141-split20261114-seed2026-record.json",
+      "record_sha256": "bfb844682b69c34b86d3eeca86bf4818a49970beccc2944bae2a3781d59c1606",
+      "score_file": "classical/private/encodedCatBoost-full141-split20261114-seed2026-scores.npz",
+      "score_sha256": "d3c3f0ad805fce215536576046241209a1a5357b9bf26ffe0f313d1c0545b0ac",
+      "model_sha256": {}
+    },
+    {
+      "family": "encodedCatBoost",
+      "information": "full141",
+      "split_id": 20261114,
+      "seed": 2027,
+      "run_id": "encodedCatBoost-full141-split20261114-seed2027",
+      "record": "classical\\encodedCatBoost-full141-split20261114-seed2027-record.json",
+      "record_sha256": "3908c64d228d9d54ef5db4e00697eeb6234f55ec206eeb7313eb3dc487a54bce",
+      "score_file": "classical/private/encodedCatBoost-full141-split20261114-seed2027-scores.npz",
+      "score_sha256": "c6c957f4ac22bcfbc49854adf7e8991f7267a61c219a418919db7a3be063ffaf",
+      "model_sha256": {}
+    },
+    {
+      "family": "encodedCatBoost",
+      "information": "full141",
+      "split_id": 20261114,
+      "seed": 2028,
+      "run_id": "encodedCatBoost-full141-split20261114-seed2028",
+      "record": "classical\\encodedCatBoost-full141-split20261114-seed2028-record.json",
+      "record_sha256": "e9a0536a25753f0deab0ab80287f18fdf5e11bfe40f8ae23c1ca4ece36ed719a",
+      "score_file": "classical/private/encodedCatBoost-full141-split20261114-seed2028-scores.npz",
+      "score_sha256": "f3b996f7085f8fe272c2587457e8b0d1fa50b22b0887a6a13a8df87ad9055b25",
+      "model_sha256": {}
+    },
+    {
+      "family": "encodedCatBoost",
+      "information": "full141",
+      "split_id": 20261115,
+      "seed": 2026,
+      "run_id": "encodedCatBoost-full141-split20261115-seed2026",
+      "record": "classical\\encodedCatBoost-full141-split20261115-seed2026-record.json",
+      "record_sha256": "4dc942b852653f6eb1b260248d15366ad11eb462b9c6e9fd55c1028e1f19093e",
+      "score_file": "classical/private/encodedCatBoost-full141-split20261115-seed2026-scores.npz",
+      "score_sha256": "024a1e3a75cbfe8a3329bb2eaa17f59264388bf9f3aec0c4a973a0d2d5b4460e",
+      "model_sha256": {}
+    },
+    {
+      "family": "encodedCatBoost",
+      "information": "full141",
+      "split_id": 20261115,
+      "seed": 2027,
+      "run_id": "encodedCatBoost-full141-split20261115-seed2027",
+      "record": "classical\\encodedCatBoost-full141-split20261115-seed2027-record.json",
+      "record_sha256": "43d26a674c48a7df152db2be089b1cdce9834263ea8deec2bb01a2211d860069",
+      "score_file": "classical/private/encodedCatBoost-full141-split20261115-seed2027-scores.npz",
+      "score_sha256": "6b5e5bd25f206d0c3090be81b982228fadf933fc6ba125b16cdeac6bd3fa1db9",
+      "model_sha256": {}
+    },
+    {
+      "family": "encodedCatBoost",
+      "information": "full141",
+      "split_id": 20261115,
+      "seed": 2028,
+      "run_id": "encodedCatBoost-full141-split20261115-seed2028",
+      "record": "classical\\encodedCatBoost-full141-split20261115-seed2028-record.json",
+      "record_sha256": "2d46829c78d4fcea18fe31375f488f73ca56c6fc8be6ff34260779670cfc93c5",
+      "score_file": "classical/private/encodedCatBoost-full141-split20261115-seed2028-scores.npz",
+      "score_sha256": "e9caa4ff5998b5f3d7df52555b446eb2cca6c1851d6ad615f626f03f0bec2e3c",
+      "model_sha256": {}
+    },
+    {
+      "family": "nativeCatBoost",
+      "information": "full141",
+      "split_id": 20261111,
+      "seed": 2026,
+      "run_id": "nativeCatBoost-full141-split20261111-seed2026",
+      "record": "classical\\nativeCatBoost-full141-split20261111-seed2026-record.json",
+      "record_sha256": "1f5177ae1a8cce65fac81aeb331110daa84971694a32bf12112c18ff9b8594ee",
+      "score_file": "classical/private/nativeCatBoost-full141-split20261111-seed2026-scores.npz",
+      "score_sha256": "dced19773bbfe978093841ab668aff7c56e44e688e3a9d9164b8ebf00e5ea15a",
+      "model_sha256": {}
+    },
+    {
+      "family": "nativeCatBoost",
+      "information": "full141",
+      "split_id": 20261111,
+      "seed": 2027,
+      "run_id": "nativeCatBoost-full141-split20261111-seed2027",
+      "record": "classical\\nativeCatBoost-full141-split20261111-seed2027-record.json",
+      "record_sha256": "b5bfe7e381e10f273a6ca4ab81ae14c84b4b2078405da37836f3ae39dd131bc3",
+      "score_file": "classical/private/nativeCatBoost-full141-split20261111-seed2027-scores.npz",
+      "score_sha256": "67d8294e5ab752e30677746c628974780c8d7c78da0283085f6d6e288365b161",
+      "model_sha256": {}
+    },
+    {
+      "family": "nativeCatBoost",
+      "information": "full141",
+      "split_id": 20261111,
+      "seed": 2028,
+      "run_id": "nativeCatBoost-full141-split20261111-seed2028",
+      "record": "classical\\nativeCatBoost-full141-split20261111-seed2028-record.json",
+      "record_sha256": "a1a560117720522d114c783c841c4697f78841b2021b7d24aa87c5d45d9b1654",
+      "score_file": "classical/private/nativeCatBoost-full141-split20261111-seed2028-scores.npz",
+      "score_sha256": "27c1251f6ac9fda35525fe3533727c125a4a5fd9bbe1c64b4d823d0bc3ed1ba9",
+      "model_sha256": {}
+    },
+    {
+      "family": "nativeCatBoost",
+      "information": "full141",
+      "split_id": 20261112,
+      "seed": 2026,
+      "run_id": "nativeCatBoost-full141-split20261112-seed2026",
+      "record": "classical\\nativeCatBoost-full141-split20261112-seed2026-record.json",
+      "record_sha256": "f2e7b23aa88636a24c1cdb804d6cbc48daf655489b200c2bf00f7c75bba4b0cf",
+      "score_file": "classical/private/nativeCatBoost-full141-split20261112-seed2026-scores.npz",
+      "score_sha256": "81035db70df073e49e04677d9a2ea045b99bd141fea40068f719f81e8883c745",
+      "model_sha256": {}
+    },
+    {
+      "family": "nativeCatBoost",
+      "information": "full141",
+      "split_id": 20261112,
+      "seed": 2027,
+      "run_id": "nativeCatBoost-full141-split20261112-seed2027",
+      "record": "classical\\nativeCatBoost-full141-split20261112-seed2027-record.json",
+      "record_sha256": "43e274fa694ec33a5d049e1fc4c3a80d9d5286600caeb43f82afee52fa130a39",
+      "score_file": "classical/private/nativeCatBoost-full141-split20261112-seed2027-scores.npz",
+      "score_sha256": "5f8757acee23fb72e1e6868c41aced2948299cc53f887070f3249334c0870c14",
+      "model_sha256": {}
+    },
+    {
+      "family": "nativeCatBoost",
+      "information": "full141",
+      "split_id": 20261112,
+      "seed": 2028,
+      "run_id": "nativeCatBoost-full141-split20261112-seed2028",
+      "record": "classical\\nativeCatBoost-full141-split20261112-seed2028-record.json",
+      "record_sha256": "d72c0a4a96e0b480bbb799d732e3122570ab94b79b4b0c43ab4dc99400a2cd48",
+      "score_file": "classical/private/nativeCatBoost-full141-split20261112-seed2028-scores.npz",
+      "score_sha256": "0a5186ec66bc191c6ecf738c5ecf2605a967be1bb609deaecb84abd474300515",
+      "model_sha256": {}
+    },
+    {
+      "family": "nativeCatBoost",
+      "information": "full141",
+      "split_id": 20261113,
+      "seed": 2026,
+      "run_id": "nativeCatBoost-full141-split20261113-seed2026",
+      "record": "classical\\nativeCatBoost-full141-split20261113-seed2026-record.json",
+      "record_sha256": "db3f8fe8209d5df01823f506ee25cdcbacb9d4a9e4584279bee15ffb92057397",
+      "score_file": "classical/private/nativeCatBoost-full141-split20261113-seed2026-scores.npz",
+      "score_sha256": "df2a453f82557f88e596a3e0300ce9b323784e6e7141e6c9adcb101e0031106c",
+      "model_sha256": {}
+    },
+    {
+      "family": "nativeCatBoost",
+      "information": "full141",
+      "split_id": 20261113,
+      "seed": 2027,
+      "run_id": "nativeCatBoost-full141-split20261113-seed2027",
+      "record": "classical\\nativeCatBoost-full141-split20261113-seed2027-record.json",
+      "record_sha256": "0d31ec1763c58dbf7c7e83a365a963b245ebefb56f625d0bbaad116d757fa7d3",
+      "score_file": "classical/private/nativeCatBoost-full141-split20261113-seed2027-scores.npz",
+      "score_sha256": "0aac05a7b11a690f89aa4103cb9df353dbae54ed124246e146169a2e6c0cfd27",
+      "model_sha256": {}
+    },
+    {
+      "family": "nativeCatBoost",
+      "information": "full141",
+      "split_id": 20261113,
+      "seed": 2028,
+      "run_id": "nativeCatBoost-full141-split20261113-seed2028",
+      "record": "classical\\nativeCatBoost-full141-split20261113-seed2028-record.json",
+      "record_sha256": "86a46e736e082f7f5ea9705168fbaf27b1414cf7835b5ea502925cc0d1151cdb",
+      "score_file": "classical/private/nativeCatBoost-full141-split20261113-seed2028-scores.npz",
+      "score_sha256": "d4df5e20aa8fec4a920ce69114dc11408b2931af9e818fc05f958b0eec320463",
+      "model_sha256": {}
+    },
+    {
+      "family": "nativeCatBoost",
+      "information": "full141",
+      "split_id": 20261114,
+      "seed": 2026,
+      "run_id": "nativeCatBoost-full141-split20261114-seed2026",
+      "record": "classical\\nativeCatBoost-full141-split20261114-seed2026-record.json",
+      "record_sha256": "e228a27a95d3030e104d20e3c941fc1bb0b2c88544df69776ae4cb87aaacbe2c",
+      "score_file": "classical/private/nativeCatBoost-full141-split20261114-seed2026-scores.npz",
+      "score_sha256": "be8a7784f1ac61daceec82cde44c25625c12fba9f860fef0e0ff3fe3a81c5a84",
+      "model_sha256": {}
+    },
+    {
+      "family": "nativeCatBoost",
+      "information": "full141",
+      "split_id": 20261114,
+      "seed": 2027,
+      "run_id": "nativeCatBoost-full141-split20261114-seed2027",
+      "record": "classical\\nativeCatBoost-full141-split20261114-seed2027-record.json",
+      "record_sha256": "932aa255f11e89c992bbd244de1134cc4779357f1d1885122bf6dabb51c9c63a",
+      "score_file": "classical/private/nativeCatBoost-full141-split20261114-seed2027-scores.npz",
+      "score_sha256": "05d595e6c78efa21ea39ce636612a9ecbec6cbd11cdb3b5b76eb397c5e008925",
+      "model_sha256": {}
+    },
+    {
+      "family": "nativeCatBoost",
+      "information": "full141",
+      "split_id": 20261114,
+      "seed": 2028,
+      "run_id": "nativeCatBoost-full141-split20261114-seed2028",
+      "record": "classical\\nativeCatBoost-full141-split20261114-seed2028-record.json",
+      "record_sha256": "097542d7cf6b5509aa48dbd46a2e6109ad1dc60126b5d2c95fde37b6c4acc52e",
+      "score_file": "classical/private/nativeCatBoost-full141-split20261114-seed2028-scores.npz",
+      "score_sha256": "f48388cb11a0b1e6d2d68df44619dd147e85a02ef7faa66b666d402b9c005510",
+      "model_sha256": {}
+    },
+    {
+      "family": "nativeCatBoost",
+      "information": "full141",
+      "split_id": 20261115,
+      "seed": 2026,
+      "run_id": "nativeCatBoost-full141-split20261115-seed2026",
+      "record": "classical\\nativeCatBoost-full141-split20261115-seed2026-record.json",
+      "record_sha256": "e40a25bfac360de62555313f496ea7a7497ae6194a2ded03c458fdfc717c83dc",
+      "score_file": "classical/private/nativeCatBoost-full141-split20261115-seed2026-scores.npz",
+      "score_sha256": "7d2dfd7e1f0167ce4ee900449c0018a80a299b587d18f6c26b3a1052ef7f146d",
+      "model_sha256": {}
+    },
+    {
+      "family": "nativeCatBoost",
+      "information": "full141",
+      "split_id": 20261115,
+      "seed": 2027,
+      "run_id": "nativeCatBoost-full141-split20261115-seed2027",
+      "record": "classical\\nativeCatBoost-full141-split20261115-seed2027-record.json",
+      "record_sha256": "cca9b899b5ff988dae3a2c3cea733157edf0271765c813e7a65f789b65a535ef",
+      "score_file": "classical/private/nativeCatBoost-full141-split20261115-seed2027-scores.npz",
+      "score_sha256": "d191bc620fa1361d20cb5344f84925c1b80a83fdb5cca77c61fca7433c918aac",
+      "model_sha256": {}
+    },
+    {
+      "family": "nativeCatBoost",
+      "information": "full141",
+      "split_id": 20261115,
+      "seed": 2028,
+      "run_id": "nativeCatBoost-full141-split20261115-seed2028",
+      "record": "classical\\nativeCatBoost-full141-split20261115-seed2028-record.json",
+      "record_sha256": "2fa63317e73445bf010a1ff12f995969db93b61619fe797463c7c8651959adff",
+      "score_file": "classical/private/nativeCatBoost-full141-split20261115-seed2028-scores.npz",
+      "score_sha256": "d2457e842263d48c25f140c19e25cf0dbcb8d30412f25d342780d3631c12ad21",
+      "model_sha256": {}
+    },
+    {
+      "family": "weightedLR",
+      "information": "base8",
+      "split_id": 20261111,
+      "seed": null,
+      "run_id": "weightedLR-base8-split20261111",
+      "record": "classical\\weightedLR-base8-split20261111-record.json",
+      "record_sha256": "6404e3006d94cbe073314464d289f4540202639ddf2b2a7ab16e0ad20a2c985d",
+      "score_file": "classical/private/weightedLR-base8-split20261111-scores.npz",
+      "score_sha256": "5d0fef75bc0f85b5c0d5c64ebc3e07e5ebbb3ff8e10778dc0276b898aa799b36",
+      "model_sha256": {}
+    },
+    {
+      "family": "weightedLR",
+      "information": "base8",
+      "split_id": 20261112,
+      "seed": null,
+      "run_id": "weightedLR-base8-split20261112",
+      "record": "classical\\weightedLR-base8-split20261112-record.json",
+      "record_sha256": "9891965b5df8f7da36cb1d1c1841963e377348178120a96913f5b9efd79e8df6",
+      "score_file": "classical/private/weightedLR-base8-split20261112-scores.npz",
+      "score_sha256": "ff71e3dcd0924bc70cc6cde487e835f20fb636037b825f1257ef819cde380a77",
+      "model_sha256": {}
+    },
+    {
+      "family": "weightedLR",
+      "information": "base8",
+      "split_id": 20261113,
+      "seed": null,
+      "run_id": "weightedLR-base8-split20261113",
+      "record": "classical\\weightedLR-base8-split20261113-record.json",
+      "record_sha256": "5cbb3b8d83a47c7cb45a2f67e452aeb5b7f17907dbc62edd4f1df5d6d7e8361c",
+      "score_file": "classical/private/weightedLR-base8-split20261113-scores.npz",
+      "score_sha256": "fd8bf24f37d2213a924d380c2faeabfb989159e8506d88ed1019552d6b2d345e",
+      "model_sha256": {}
+    },
+    {
+      "family": "weightedLR",
+      "information": "base8",
+      "split_id": 20261114,
+      "seed": null,
+      "run_id": "weightedLR-base8-split20261114",
+      "record": "classical\\weightedLR-base8-split20261114-record.json",
+      "record_sha256": "78c4e865f44c3600baa3d0bc31df9d233246c7896f1cdd56965071691e267afa",
+      "score_file": "classical/private/weightedLR-base8-split20261114-scores.npz",
+      "score_sha256": "c25a5d251e0fd3a024ae4cab2860cb28692212a0ac2ef01b6e3716d460f45abd",
+      "model_sha256": {}
+    },
+    {
+      "family": "weightedLR",
+      "information": "base8",
+      "split_id": 20261115,
+      "seed": null,
+      "run_id": "weightedLR-base8-split20261115",
+      "record": "classical\\weightedLR-base8-split20261115-record.json",
+      "record_sha256": "afcf3cffd6662b38d671d5d86b13d87e26ab46245f0010c8c84a1cc5059f4005",
+      "score_file": "classical/private/weightedLR-base8-split20261115-scores.npz",
+      "score_sha256": "0fc857f49881fa92edecb1c6f86a83489f342678c02bd950c7db34427549b132",
+      "model_sha256": {}
+    },
+    {
+      "family": "AE",
+      "information": "full141",
+      "split_id": 20261111,
+      "seed": 2026,
+      "run_id": "split20261111__full141__AE__s2026",
+      "record": "neural\\split20261111__full141__AE__s2026-record.json",
+      "record_sha256": "c132cdc390851b34cd0b2b9d5c20630b1f611db92632511355d771a309644e77",
+      "score_file": "neural/private/split20261111__full141__AE__s2026-scores.npz",
+      "score_sha256": "390a8cc25643639412d2e0c40ca028c6a47faa8a79956409ddfd0fa80b6d419f",
+      "model_sha256": {
+        "neural\\private\\split20261111__full141__AE__s2026-model.pt": "f7f14dd2bea4244a5ac575270ebc227fc53c39ec988c3afd10ffdf885ae66c12",
+        "neural\\private\\split20261111__full141__AE__s2026-pretrained.pt": "5b19606cad8e96246a55d011e1237adda955de5912ba0933fc02e709ce6ec029"
+      }
+    },
+    {
+      "family": "AE",
+      "information": "full141",
+      "split_id": 20261111,
+      "seed": 2027,
+      "run_id": "split20261111__full141__AE__s2027",
+      "record": "neural\\split20261111__full141__AE__s2027-record.json",
+      "record_sha256": "d369ed2768f2f9d9c447de1e0a0fa7bcfcd7fc5ae34062b2257383617c3438cb",
+      "score_file": "neural/private/split20261111__full141__AE__s2027-scores.npz",
+      "score_sha256": "f9c2b34e71a55dd03b5fe79d9dc4f2b2b0d0a5e382444c0e3bd1adc8a25a89de",
+      "model_sha256": {
+        "neural\\private\\split20261111__full141__AE__s2027-model.pt": "d8f5fa5c3b38b45f82871a78157266d36e82985638e2591963f935fba548f4ad",
+        "neural\\private\\split20261111__full141__AE__s2027-pretrained.pt": "2e9f1cef4258c30d90f8fb46eef7ecaee6e153a894fd787ac88a15c02035da16"
+      }
+    },
+    {
+      "family": "AE",
+      "information": "full141",
+      "split_id": 20261111,
+      "seed": 2028,
+      "run_id": "split20261111__full141__AE__s2028",
+      "record": "neural\\split20261111__full141__AE__s2028-record.json",
+      "record_sha256": "ecb627a374814ab111a22f85d92740a6216ef54273222e98f1b6e8a8da85411a",
+      "score_file": "neural/private/split20261111__full141__AE__s2028-scores.npz",
+      "score_sha256": "4be60ad1d66444ac5d38f1243a92ae29e05390ca7269ad38440306f74b30e9b6",
+      "model_sha256": {
+        "neural\\private\\split20261111__full141__AE__s2028-model.pt": "a9c12e24626c7419fa0f6418c19e3f357e65d45c7d2763e20588584dc188e794",
+        "neural\\private\\split20261111__full141__AE__s2028-pretrained.pt": "c442df290c4d52a88e954fdb11df1e11990c4ca33c07a5c8645e858041de5995"
+      }
+    },
+    {
+      "family": "mean",
+      "information": "full141",
+      "split_id": 20261111,
+      "seed": 2026,
+      "run_id": "split20261111__full141__mean__s2026",
+      "record": "neural\\split20261111__full141__mean__s2026-record.json",
+      "record_sha256": "577bd729da88229837b78eb04e956a6b8a8f40691e3df6cd3b3cd7720911b32f",
+      "score_file": "neural/private/split20261111__full141__mean__s2026-scores.npz",
+      "score_sha256": "e3c6a015e49dac48e3a8502716c6a29e57caa254358f980275f5b045271ad01c",
+      "model_sha256": {
+        "neural\\private\\split20261111__full141__mean__s2026-model.pt": "6ae24281fece387854afeb97d22890c6e64556f8e3919a5559e18e1579ba03e8"
+      }
+    },
+    {
+      "family": "mean",
+      "information": "full141",
+      "split_id": 20261111,
+      "seed": 2027,
+      "run_id": "split20261111__full141__mean__s2027",
+      "record": "neural\\split20261111__full141__mean__s2027-record.json",
+      "record_sha256": "77afd146551f15eac09c24ff6e77a7a7a65b9ce2174398b345530f4bdb542465",
+      "score_file": "neural/private/split20261111__full141__mean__s2027-scores.npz",
+      "score_sha256": "7e78bdb9b27b10e47fe43b2b72a7d111792d9f40bb5322d4644435b90ad0f361",
+      "model_sha256": {
+        "neural\\private\\split20261111__full141__mean__s2027-model.pt": "08a5d7b0950601b0b340e74189bc5a914c1d59e28a58a073d3def6615f123110"
+      }
+    },
+    {
+      "family": "mean",
+      "information": "full141",
+      "split_id": 20261111,
+      "seed": 2028,
+      "run_id": "split20261111__full141__mean__s2028",
+      "record": "neural\\split20261111__full141__mean__s2028-record.json",
+      "record_sha256": "b91f37111910a2b4f85802416441160d34771bbd94da578bb999b8fe563de15f",
+      "score_file": "neural/private/split20261111__full141__mean__s2028-scores.npz",
+      "score_sha256": "567aefb85885b79cd5d40ed0a4e83a7b4e1be75a5f5d3ed2d7a6d307bef20540",
+      "model_sha256": {
+        "neural\\private\\split20261111__full141__mean__s2028-model.pt": "a5a982db96d6b3e2d0cc1d9e5f7c6b578e2d3c91343d79fb59fa925ce0c2b04e"
+      }
+    },
+    {
+      "family": "AE",
+      "information": "full141",
+      "split_id": 20261112,
+      "seed": 2026,
+      "run_id": "split20261112__full141__AE__s2026",
+      "record": "neural\\split20261112__full141__AE__s2026-record.json",
+      "record_sha256": "7bcf73ba3890fcfe7d3e6a87bbc5ac4def6e8fd02fa5251189213d7ca15d698f",
+      "score_file": "neural/private/split20261112__full141__AE__s2026-scores.npz",
+      "score_sha256": "9933ead696362601e272edca3d7aaf52b72d11d7e6ea571b3ec2f15b5c2b38ee",
+      "model_sha256": {
+        "neural\\private\\split20261112__full141__AE__s2026-model.pt": "2e368424ef3fb140d3ee4b2372a52bc640656a4fc83a0db35895d70d10abef96",
+        "neural\\private\\split20261112__full141__AE__s2026-pretrained.pt": "8b581db13aff65e20a452a5fc7a67d44303fdf66d6e270ecb92bf92fbcf57a1c"
+      }
+    },
+    {
+      "family": "AE",
+      "information": "full141",
+      "split_id": 20261112,
+      "seed": 2027,
+      "run_id": "split20261112__full141__AE__s2027",
+      "record": "neural\\split20261112__full141__AE__s2027-record.json",
+      "record_sha256": "105b685933e5dd1458ef669813b7e067637a983368dbebae3617a59518bc7631",
+      "score_file": "neural/private/split20261112__full141__AE__s2027-scores.npz",
+      "score_sha256": "3210ad987b0170ad2bac7a2289c272f417b9b042829cdde9f5160c7d3f6158b7",
+      "model_sha256": {
+        "neural\\private\\split20261112__full141__AE__s2027-model.pt": "a7b9a5e347a9b21a3b9f619575d69fa6629375136472f736cc16ecea42264547",
+        "neural\\private\\split20261112__full141__AE__s2027-pretrained.pt": "06f8fae0e86c76fb2557236ebb7325d3e470c5268e334174724244a45e20d850"
+      }
+    },
+    {
+      "family": "AE",
+      "information": "full141",
+      "split_id": 20261112,
+      "seed": 2028,
+      "run_id": "split20261112__full141__AE__s2028",
+      "record": "neural\\split20261112__full141__AE__s2028-record.json",
+      "record_sha256": "ba3b37f9f50b14405b192c536eeff6260097c451a5382968f0f41a705cda9988",
+      "score_file": "neural/private/split20261112__full141__AE__s2028-scores.npz",
+      "score_sha256": "7be1d67d5643b721230f44f3c9bbbda903e6b382ea4c9272873ab73faea9c64b",
+      "model_sha256": {
+        "neural\\private\\split20261112__full141__AE__s2028-model.pt": "2204afb87cb447aa9d09cee518be84fa1a7613774931759d711ca583634587e4",
+        "neural\\private\\split20261112__full141__AE__s2028-pretrained.pt": "0f783eda1ae8008ce9b8664a30e8a2012818dea54d05c973b2a4a621e0c2fe6b"
+      }
+    },
+    {
+      "family": "mean",
+      "information": "full141",
+      "split_id": 20261112,
+      "seed": 2026,
+      "run_id": "split20261112__full141__mean__s2026",
+      "record": "neural\\split20261112__full141__mean__s2026-record.json",
+      "record_sha256": "74d18bc732ab77ef01a8716defd28e3e751331abc420e3cdf71b3ec805d464ef",
+      "score_file": "neural/private/split20261112__full141__mean__s2026-scores.npz",
+      "score_sha256": "698c85af09e08d724a473112ad1840d77dab57e4139d1cb432def4a97689dfa8",
+      "model_sha256": {
+        "neural\\private\\split20261112__full141__mean__s2026-model.pt": "f8517a9c21fb209bae8486da78188d89d5477820a76d2fe09807ae35670ce64f"
+      }
+    },
+    {
+      "family": "mean",
+      "information": "full141",
+      "split_id": 20261112,
+      "seed": 2027,
+      "run_id": "split20261112__full141__mean__s2027",
+      "record": "neural\\split20261112__full141__mean__s2027-record.json",
+      "record_sha256": "d690b0fe5d62ac7932ec17690ec1da212be9f757100a330075e7c8ee6395e40b",
+      "score_file": "neural/private/split20261112__full141__mean__s2027-scores.npz",
+      "score_sha256": "974dfd670ae1347444c00cb3b195013836de3546e6940964c1f4cde252450ba4",
+      "model_sha256": {
+        "neural\\private\\split20261112__full141__mean__s2027-model.pt": "e5930e10e06a74a097fd7a6d1cf3b257bd74c5d9589f68960c1e819a2aede07f"
+      }
+    },
+    {
+      "family": "mean",
+      "information": "full141",
+      "split_id": 20261112,
+      "seed": 2028,
+      "run_id": "split20261112__full141__mean__s2028",
+      "record": "neural\\split20261112__full141__mean__s2028-record.json",
+      "record_sha256": "687af0ee7718fa9066b6c6c3761e9b485ae4287578e8f03c3d8bdfcaecc95def",
+      "score_file": "neural/private/split20261112__full141__mean__s2028-scores.npz",
+      "score_sha256": "08b3a86d305fea5457f0fb3744deec3c72252e3a65b806854c917af0cf0f03cb",
+      "model_sha256": {
+        "neural\\private\\split20261112__full141__mean__s2028-model.pt": "07bbb3b75cbb7501c458bbcc2bcde022d04de4a48d25b818788bd2485f182e23"
+      }
+    },
+    {
+      "family": "AE",
+      "information": "full141",
+      "split_id": 20261113,
+      "seed": 2026,
+      "run_id": "split20261113__full141__AE__s2026",
+      "record": "neural\\split20261113__full141__AE__s2026-record.json",
+      "record_sha256": "6b70a41d1a362cd89caa9b8121972a991b4c20ed38fae253934f01c37d99a1a3",
+      "score_file": "neural/private/split20261113__full141__AE__s2026-scores.npz",
+      "score_sha256": "a4447f2af70cdf366bf041a9dd45220a4a1e3b1c80221adce57f9b2a4fbb3489",
+      "model_sha256": {
+        "neural\\private\\split20261113__full141__AE__s2026-model.pt": "e18516b8e9fa4e46e5a574be02756e4044cbeafa0ddb98b7fda1e2ebed31b5e4",
+        "neural\\private\\split20261113__full141__AE__s2026-pretrained.pt": "7fc02c829121701eca9d20b100f4313d403bb2e8832b8632448e38ec61de3715"
+      }
+    },
+    {
+      "family": "AE",
+      "information": "full141",
+      "split_id": 20261113,
+      "seed": 2027,
+      "run_id": "split20261113__full141__AE__s2027",
+      "record": "neural\\split20261113__full141__AE__s2027-record.json",
+      "record_sha256": "a8119bf1e63c5b7ec966a5e6b70321fd080e5121db6015e0592deab6fd05e3bd",
+      "score_file": "neural/private/split20261113__full141__AE__s2027-scores.npz",
+      "score_sha256": "06e4c9024af48e617fe7aa4bf21246a3ad587dfcaf35db476c6ee6b7afb566f6",
+      "model_sha256": {
+        "neural\\private\\split20261113__full141__AE__s2027-model.pt": "81b2d1c44f9cfb734a933890f412c2b52e93a1dfc2a82b378caa21ef6c9a0c2b",
+        "neural\\private\\split20261113__full141__AE__s2027-pretrained.pt": "8f48e820556a6c4fd3eda7accb28ccb566ff1b5546d089300f978bd6fa826ef5"
+      }
+    },
+    {
+      "family": "AE",
+      "information": "full141",
+      "split_id": 20261113,
+      "seed": 2028,
+      "run_id": "split20261113__full141__AE__s2028",
+      "record": "neural\\split20261113__full141__AE__s2028-record.json",
+      "record_sha256": "a8c59fe4aca0a7482383853df867f632318c28240eb2f90037ed172bec78a7ec",
+      "score_file": "neural/private/split20261113__full141__AE__s2028-scores.npz",
+      "score_sha256": "ee75a0739cccedc19a1baf7a506436f051e74343f1ab6246a8e5fdff80c0556c",
+      "model_sha256": {
+        "neural\\private\\split20261113__full141__AE__s2028-model.pt": "91e7284c0448ca9fed886350b82197811211246898bd207a6db062e43533825f",
+        "neural\\private\\split20261113__full141__AE__s2028-pretrained.pt": "43548dada49158de50d1e92efc84f167967eae6394007d8ca10b4f7ead50e032"
+      }
+    },
+    {
+      "family": "mean",
+      "information": "full141",
+      "split_id": 20261113,
+      "seed": 2026,
+      "run_id": "split20261113__full141__mean__s2026",
+      "record": "neural\\split20261113__full141__mean__s2026-record.json",
+      "record_sha256": "ccd8aa3766e4243c037aca208cd1498a9abfadea732a8dfce323b22e91a13e90",
+      "score_file": "neural/private/split20261113__full141__mean__s2026-scores.npz",
+      "score_sha256": "80ed0f0f1534e86f47bc92f2f833a83e2e130d6eda1e2cf53ea79c69593470de",
+      "model_sha256": {
+        "neural\\private\\split20261113__full141__mean__s2026-model.pt": "2ad11db2234bdd316080c60bfe8fdbe88a583f088752081fadbd17228b6b6fc3"
+      }
+    },
+    {
+      "family": "mean",
+      "information": "full141",
+      "split_id": 20261113,
+      "seed": 2027,
+      "run_id": "split20261113__full141__mean__s2027",
+      "record": "neural\\split20261113__full141__mean__s2027-record.json",
+      "record_sha256": "b0478c52709f9d489ebb56722e6aeae90edcfd7067ecb527ab2b891c489ba631",
+      "score_file": "neural/private/split20261113__full141__mean__s2027-scores.npz",
+      "score_sha256": "b9c66f14969c7d6d2d5f044a2f3d627b8d06810af21e2f58756dbb83ba5c2a17",
+      "model_sha256": {
+        "neural\\private\\split20261113__full141__mean__s2027-model.pt": "641bfacd413e405d83553416ff8be40a0ba86b9cd8e35bc4d03ba45d870ce947"
+      }
+    },
+    {
+      "family": "mean",
+      "information": "full141",
+      "split_id": 20261113,
+      "seed": 2028,
+      "run_id": "split20261113__full141__mean__s2028",
+      "record": "neural\\split20261113__full141__mean__s2028-record.json",
+      "record_sha256": "f2e1ff5044735e45c147563720daad5c66e201bdb8e1bc4b62336af2244ce473",
+      "score_file": "neural/private/split20261113__full141__mean__s2028-scores.npz",
+      "score_sha256": "2c240205b6643050f5ac38efa7288d5388d6a9b42a4b67e26e8b654c974ac411",
+      "model_sha256": {
+        "neural\\private\\split20261113__full141__mean__s2028-model.pt": "fcf704a924608a6f7e33051e6a4ece7e2dadd630c79d8bc3aba7d8c193cda0b5"
+      }
+    },
+    {
+      "family": "AE",
+      "information": "full141",
+      "split_id": 20261114,
+      "seed": 2026,
+      "run_id": "split20261114__full141__AE__s2026",
+      "record": "neural\\split20261114__full141__AE__s2026-record.json",
+      "record_sha256": "08355c3ace59562ed73a4bacfe828df8ad37508569a342f690a1cbc971d20e21",
+      "score_file": "neural/private/split20261114__full141__AE__s2026-scores.npz",
+      "score_sha256": "5c8c8fddf14c0e4bb9955ee65e58708d9ee14d17346a6500ad34101ba15bbaed",
+      "model_sha256": {
+        "neural\\private\\split20261114__full141__AE__s2026-model.pt": "5b50806ebe175c1146fd285c0e7805196e8ceaa3b0dd655ff0334f86e15c5ff8",
+        "neural\\private\\split20261114__full141__AE__s2026-pretrained.pt": "1821fa272e2e2376054352b929dd385df1cb8f17931a26696064375849978be7"
+      }
+    },
+    {
+      "family": "AE",
+      "information": "full141",
+      "split_id": 20261114,
+      "seed": 2027,
+      "run_id": "split20261114__full141__AE__s2027",
+      "record": "neural\\split20261114__full141__AE__s2027-record.json",
+      "record_sha256": "ca057e996b45d4fb043fcfed57e15b1475f97a01e52b5f0e406b71c5e84d796a",
+      "score_file": "neural/private/split20261114__full141__AE__s2027-scores.npz",
+      "score_sha256": "2fafb321fc2120384994060cb2fe071b95dded86cfc4dc62727cff6f7d137058",
+      "model_sha256": {
+        "neural\\private\\split20261114__full141__AE__s2027-model.pt": "bc254ce87282a76fd1832eff501ad48eb29cee4981def81a25028bec56af861f",
+        "neural\\private\\split20261114__full141__AE__s2027-pretrained.pt": "e27ffaa3c145118cc368e291c67d78ba36f9f214746ef8fe5552fbc7cf6e967d"
+      }
+    },
+    {
+      "family": "AE",
+      "information": "full141",
+      "split_id": 20261114,
+      "seed": 2028,
+      "run_id": "split20261114__full141__AE__s2028",
+      "record": "neural\\split20261114__full141__AE__s2028-record.json",
+      "record_sha256": "172c845630663a24bca298926088d0e8e9a2af86f4c55d7e8cc4fd2affab4999",
+      "score_file": "neural/private/split20261114__full141__AE__s2028-scores.npz",
+      "score_sha256": "d59412c640c7bce9b74528c08bba8518c59fe55d17e0d0ad0670fd8c805ed333",
+      "model_sha256": {
+        "neural\\private\\split20261114__full141__AE__s2028-model.pt": "5dc13c118a58912c4c4c7e2fc8a01b89602b79f0a743b2e898dba72327360e46",
+        "neural\\private\\split20261114__full141__AE__s2028-pretrained.pt": "113352df2a2d331bd0f91d64fa178df98f31180ab5fe2e91cf0f4920b38ebe20"
+      }
+    },
+    {
+      "family": "mean",
+      "information": "full141",
+      "split_id": 20261114,
+      "seed": 2026,
+      "run_id": "split20261114__full141__mean__s2026",
+      "record": "neural\\split20261114__full141__mean__s2026-record.json",
+      "record_sha256": "eca9f1dc3b6ab94667cda7b2cd471c1d5072085abf6656c60620fc5112f91464",
+      "score_file": "neural/private/split20261114__full141__mean__s2026-scores.npz",
+      "score_sha256": "fab96f3309baae69afa3380eef7182cb232096954e89c833460c8b2b6b36aa3b",
+      "model_sha256": {
+        "neural\\private\\split20261114__full141__mean__s2026-model.pt": "43b41fb8b65a8c4428f9704c714369c30a2e8fdfe273baf49ea6009830a8212a"
+      }
+    },
+    {
+      "family": "mean",
+      "information": "full141",
+      "split_id": 20261114,
+      "seed": 2027,
+      "run_id": "split20261114__full141__mean__s2027",
+      "record": "neural\\split20261114__full141__mean__s2027-record.json",
+      "record_sha256": "bd9eab25bde23161af0d8cb70e3fcd2cdaff4cd819d1e2b716d9c3ee77b5d096",
+      "score_file": "neural/private/split20261114__full141__mean__s2027-scores.npz",
+      "score_sha256": "2113dc8622df92cee96b3e934b2cdf80efe8af656bed3bd97a44947259182e86",
+      "model_sha256": {
+        "neural\\private\\split20261114__full141__mean__s2027-model.pt": "341d0fdedc7be06636052df52f102914f20eaf3f005aab834abc7c8febdccca1"
+      }
+    },
+    {
+      "family": "mean",
+      "information": "full141",
+      "split_id": 20261114,
+      "seed": 2028,
+      "run_id": "split20261114__full141__mean__s2028",
+      "record": "neural\\split20261114__full141__mean__s2028-record.json",
+      "record_sha256": "562273bd196c1f1079bffc29e1099c5a5731ed293eaba74b5c3a159f13a089c5",
+      "score_file": "neural/private/split20261114__full141__mean__s2028-scores.npz",
+      "score_sha256": "682c8c31d797bd898885f1b313243b65c5762b96db483fd17881a1b98633077c",
+      "model_sha256": {
+        "neural\\private\\split20261114__full141__mean__s2028-model.pt": "6950324b4df3044f0aa2cf1d26d9291e98d903bceea31804aee3d11f2c4dbf3d"
+      }
+    },
+    {
+      "family": "AE",
+      "information": "full141",
+      "split_id": 20261115,
+      "seed": 2026,
+      "run_id": "split20261115__full141__AE__s2026",
+      "record": "neural\\split20261115__full141__AE__s2026-record.json",
+      "record_sha256": "feb50956bff32e3cefa0f6d4f906ceb83ceb7a8f4db8d0e855bde288bf8adac0",
+      "score_file": "neural/private/split20261115__full141__AE__s2026-scores.npz",
+      "score_sha256": "c9961017d0b5166feffe51009f6ec1868ef4d5757bb1a7a24032e44e0a1e38fc",
+      "model_sha256": {
+        "neural\\private\\split20261115__full141__AE__s2026-model.pt": "1103ef4bc2917ad3891aab003075f0bd015a94e6513e67e281e57d7ecef53d01",
+        "neural\\private\\split20261115__full141__AE__s2026-pretrained.pt": "a17f1eea0aa892922042fa62396d5ccdb93e997079630c03957c136ac952eafd"
+      }
+    },
+    {
+      "family": "AE",
+      "information": "full141",
+      "split_id": 20261115,
+      "seed": 2027,
+      "run_id": "split20261115__full141__AE__s2027",
+      "record": "neural\\split20261115__full141__AE__s2027-record.json",
+      "record_sha256": "e421a247df56a8c97be875071ab55a73bb7e39f7849237516d90feeda56e54f9",
+      "score_file": "neural/private/split20261115__full141__AE__s2027-scores.npz",
+      "score_sha256": "0822316a51563912458b9647747afc70db60b7eacc9e362c3905d70cdfbfc912",
+      "model_sha256": {
+        "neural\\private\\split20261115__full141__AE__s2027-model.pt": "270c4d984ef606cfdf753d1cff1d87ea78ed83a8d03d88712fdb5c736d61a205",
+        "neural\\private\\split20261115__full141__AE__s2027-pretrained.pt": "a429111e05f0ade482b358d3c4c956b2aaff02fbbb0c93038d756043f125a58c"
+      }
+    },
+    {
+      "family": "AE",
+      "information": "full141",
+      "split_id": 20261115,
+      "seed": 2028,
+      "run_id": "split20261115__full141__AE__s2028",
+      "record": "neural\\split20261115__full141__AE__s2028-record.json",
+      "record_sha256": "fc636e713c90b866d794665ebc1a39c6403a24f46b4431353a6b9dad93046409",
+      "score_file": "neural/private/split20261115__full141__AE__s2028-scores.npz",
+      "score_sha256": "a47a279d52800b4d97006deaf5286a98e2912f4606dbd62750ac51528fb5d6cf",
+      "model_sha256": {
+        "neural\\private\\split20261115__full141__AE__s2028-model.pt": "ae3d13b97623e5be4659ab5844f9431d6710580310241682f35db737a6e3309b",
+        "neural\\private\\split20261115__full141__AE__s2028-pretrained.pt": "7a0452fe4992ca269f9bcbe454543ae9ab279f294036bc3898863d8ab63d889c"
+      }
+    },
+    {
+      "family": "mean",
+      "information": "full141",
+      "split_id": 20261115,
+      "seed": 2026,
+      "run_id": "split20261115__full141__mean__s2026",
+      "record": "neural\\split20261115__full141__mean__s2026-record.json",
+      "record_sha256": "157086993f1bef935f4bd6ae1103f0ab76f2968136fc2110fe1731536c30d92e",
+      "score_file": "neural/private/split20261115__full141__mean__s2026-scores.npz",
+      "score_sha256": "2071d1c7490a553c3403b3381cc7cfc129810d719319fe757d61313e9e4116bf",
+      "model_sha256": {
+        "neural\\private\\split20261115__full141__mean__s2026-model.pt": "563e26331dc06c9f5a310a948f9d4f99428abb6e59d4ed09498a7df050fd2f0c"
+      }
+    },
+    {
+      "family": "mean",
+      "information": "full141",
+      "split_id": 20261115,
+      "seed": 2027,
+      "run_id": "split20261115__full141__mean__s2027",
+      "record": "neural\\split20261115__full141__mean__s2027-record.json",
+      "record_sha256": "57e1822a6979d5b1338db8d84b53960add840c914f841f4f1ee2a1fcb7deea21",
+      "score_file": "neural/private/split20261115__full141__mean__s2027-scores.npz",
+      "score_sha256": "d03f72b5fa609704272be8cf1748796ec4a9aaa81103febe3b873adbbdb80ac6",
+      "model_sha256": {
+        "neural\\private\\split20261115__full141__mean__s2027-model.pt": "6c124ddbe79791450fd8e8a37a51e402c278a755372c686819c82b6fe82c0f77"
+      }
+    },
+    {
+      "family": "mean",
+      "information": "full141",
+      "split_id": 20261115,
+      "seed": 2028,
+      "run_id": "split20261115__full141__mean__s2028",
+      "record": "neural\\split20261115__full141__mean__s2028-record.json",
+      "record_sha256": "78d6e2c267d1f57e8a2aeb57235e0caef7bfde8670f698074d69a749bfc22d30",
+      "score_file": "neural/private/split20261115__full141__mean__s2028-scores.npz",
+      "score_sha256": "d2ac7d31c5ec442eee0b47dadc748ee35a685062a89d261434205e89eda9fe0f",
+      "model_sha256": {
+        "neural\\private\\split20261115__full141__mean__s2028-model.pt": "c4dbaa2a55aceaba88ac447ad5c8a6ac6108fb03b8563664b547dcaf73aa3cfc"
+      }
+    }
+  ],
+  "new_April_snapshot_label_rows_or_scores": 0,
+  "temporal_branch": "recovery and feasibility audit only; no automatic new-period model training"
+}

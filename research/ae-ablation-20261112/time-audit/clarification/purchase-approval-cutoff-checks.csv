@@ -1,0 +1,5 @@
+snapshot_date,purchase_scope,positive_amount_purchase_before_cut_approval_at_or_after_cut_orders,candidate_unique_customers,candidate_customers_already_in_actual_cohort,candidate_customers_outside_actual_cohort,actual_history_selected_future_approval_orders,actual_history_selected_future_approval_customers,actual_history_selected_purchase_at_or_after_cut_orders,actual_cohort_additions_due_to_future_approval,actual_feature_orders_affected_by_future_approval,missing_approval_orders_in_purchase_scope,latest_candidate_approval
+2017-07-01,all_purchase_before_cut,43,43,0,43,0,0,0,0,0,14,2017-07-05 17:09:11
+2017-07-01,purchase_inside_six_calendar_month_history,43,43,0,43,0,0,0,0,0,14,2017-07-05 17:09:11
+2017-10-01,all_purchase_before_cut,45,45,2,43,0,0,0,0,0,14,2017-10-06 15:14:17
+2017-10-01,purchase_inside_six_calendar_month_history,45,45,2,43,0,0,0,0,0,0,2017-10-06 15:14:17

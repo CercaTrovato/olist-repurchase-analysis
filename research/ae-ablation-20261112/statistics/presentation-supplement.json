@@ -1,0 +1,24 @@
+{
+  "purpose": "readability only: shorten block labels and reduce tick count; no changed data, statistics or scientific source",
+  "supplement_code_sha256": "455e061ab25217a3b538d271e7125e499476e651c2d0756932ce201606b144a0",
+  "interval_data_sha256": "ee4f832aa669353ba81842f4ea4a4611ec3d36ac40809c0b9df3b7bda3d18fa2",
+  "original_frozen_renderer_sha256": "7718dd1feb65bc95796517670f1b8e39d2cc2bbe96e2d261d2f333476b43256d",
+  "updated_figures": [
+    {
+      "path": "blocks-canonical-conditional-intervals.png",
+      "sha256": "e33130f24c7d87690151cddabe36f55034e680eaf00ce8f1eff1ada636937ca4"
+    },
+    {
+      "path": "blocks-canonical-conditional-intervals.svg",
+      "sha256": "175e0cef661802e850f5f5ccfa5abf35266c89907c04eeba2daa2ef8e4205cd6"
+    },
+    {
+      "path": "budget-canonical-conditional-intervals.png",
+      "sha256": "c7bae25e4d32d10622837e98fd69c83099357c225cd9e41487e2f86e61045e8b"
+    },
+    {
+      "path": "budget-canonical-conditional-intervals.svg",
+      "sha256": "81c644932277f48d22f5247c9b9cdc7a1fc6eb8500b35a6ae296a04538592d72"
+    }
+  ]
+}

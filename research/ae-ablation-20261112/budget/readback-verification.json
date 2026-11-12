@@ -1,0 +1,12 @@
+{
+  "status": "45_models_independently_replayed",
+  "models": 45,
+  "forward_parts": 135,
+  "logit_max_abs": 0.0,
+  "probability_max_abs": 0.0,
+  "fit_BCE_sum_recomputed": true,
+  "calibration_optimizer_successes": 45,
+  "calibration_projected_gradient_inf_max": 1.3568020008625226e-06,
+  "no_exact_FLOPs_matching_claim": true,
+  "source_freeze_unchanged": true
+}

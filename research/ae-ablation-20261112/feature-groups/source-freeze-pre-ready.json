@@ -1,0 +1,124 @@
+{
+  "status": "frozen_before_formal_training",
+  "sources": {
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\ae-followup\\feature-groups\\run_feature_groups.py": "98c59e206b3f727cdf49e81c24af10efed48e5430149eb94757ebba97b17c9d7",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\ae-followup\\feature-groups\\verify_feature_groups.py": "b4cbdce8cb5f7882393dd02cd0eb317b3c21a1f3a09fa1f8adb4b9b29b665434",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\ae-followup\\feature-groups\\plot_training_diagnostics.py": "c5aa2dff897f60d7d115143459588e443bc80f79fd7042ce45a89e777c5f2b12",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\ae-followup\\feature-groups\\plan.md": "308cea6f8da68fb292f4b6d47ad0b17d0af61fc7c20ed940e53d4ff458770fba",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\ae-followup\\task_plan.md": "00058b5638298a3f6177178c173418c5f4ecbda1129657eb004b95bfbcd40411",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\eval_harness.py": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\neural\\neural_models.py": "1a698710eb09f85455a15f4e2d374789291225e654e3164c041da71effe41926",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\shared\\data-manifest.json": "1be6816d26676a2ed08a83be4f7f212e79d13c7fba88d663f84e9d3b904e8d57"
+  },
+  "input_mask_audit_sha256": "8f15ce8f24acd87673cb6e275243c32348333fc9d529e98daf535da5465dde1f",
+  "baseline_read_only": [
+    {
+      "split": 20261111,
+      "seed": 2026,
+      "record": "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\neural\\split20261111__full141__AE__s2026-record.json",
+      "sha256": "c132cdc390851b34cd0b2b9d5c20630b1f611db92632511355d771a309644e77",
+      "score_sha256": "390a8cc25643639412d2e0c40ca028c6a47faa8a79956409ddfd0fa80b6d419f"
+    },
+    {
+      "split": 20261111,
+      "seed": 2027,
+      "record": "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\neural\\split20261111__full141__AE__s2027-record.json",
+      "sha256": "d369ed2768f2f9d9c447de1e0a0fa7bcfcd7fc5ae34062b2257383617c3438cb",
+      "score_sha256": "f9c2b34e71a55dd03b5fe79d9dc4f2b2b0d0a5e382444c0e3bd1adc8a25a89de"
+    },
+    {
+      "split": 20261111,
+      "seed": 2028,
+      "record": "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\neural\\split20261111__full141__AE__s2028-record.json",
+      "sha256": "ecb627a374814ab111a22f85d92740a6216ef54273222e98f1b6e8a8da85411a",
+      "score_sha256": "4be60ad1d66444ac5d38f1243a92ae29e05390ca7269ad38440306f74b30e9b6"
+    },
+    {
+      "split": 20261112,
+      "seed": 2026,
+      "record": "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\neural\\split20261112__full141__AE__s2026-record.json",
+      "sha256": "7bcf73ba3890fcfe7d3e6a87bbc5ac4def6e8fd02fa5251189213d7ca15d698f",
+      "score_sha256": "9933ead696362601e272edca3d7aaf52b72d11d7e6ea571b3ec2f15b5c2b38ee"
+    },
+    {
+      "split": 20261112,
+      "seed": 2027,
+      "record": "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\neural\\split20261112__full141__AE__s2027-record.json",
+      "sha256": "105b685933e5dd1458ef669813b7e067637a983368dbebae3617a59518bc7631",
+      "score_sha256": "3210ad987b0170ad2bac7a2289c272f417b9b042829cdde9f5160c7d3f6158b7"
+    },
+    {
+      "split": 20261112,
+      "seed": 2028,
+      "record": "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\neural\\split20261112__full141__AE__s2028-record.json",
+      "sha256": "ba3b37f9f50b14405b192c536eeff6260097c451a5382968f0f41a705cda9988",
+      "score_sha256": "7be1d67d5643b721230f44f3c9bbbda903e6b382ea4c9272873ab73faea9c64b"
+    },
+    {
+      "split": 20261113,
+      "seed": 2026,
+      "record": "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\neural\\split20261113__full141__AE__s2026-record.json",
+      "sha256": "6b70a41d1a362cd89caa9b8121972a991b4c20ed38fae253934f01c37d99a1a3",
+      "score_sha256": "a4447f2af70cdf366bf041a9dd45220a4a1e3b1c80221adce57f9b2a4fbb3489"
+    },
+    {
+      "split": 20261113,
+      "seed": 2027,
+      "record": "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\neural\\split20261113__full141__AE__s2027-record.json",
+      "sha256": "a8119bf1e63c5b7ec966a5e6b70321fd080e5121db6015e0592deab6fd05e3bd",
+      "score_sha256": "06e4c9024af48e617fe7aa4bf21246a3ad587dfcaf35db476c6ee6b7afb566f6"
+    },
+    {
+      "split": 20261113,
+      "seed": 2028,
+      "record": "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\neural\\split20261113__full141__AE__s2028-record.json",
+      "sha256": "a8c59fe4aca0a7482383853df867f632318c28240eb2f90037ed172bec78a7ec",
+      "score_sha256": "ee75a0739cccedc19a1baf7a506436f051e74343f1ab6246a8e5fdff80c0556c"
+    },
+    {
+      "split": 20261114,
+      "seed": 2026,
+      "record": "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\neural\\split20261114__full141__AE__s2026-record.json",
+      "sha256": "08355c3ace59562ed73a4bacfe828df8ad37508569a342f690a1cbc971d20e21",
+      "score_sha256": "5c8c8fddf14c0e4bb9955ee65e58708d9ee14d17346a6500ad34101ba15bbaed"
+    },
+    {
+      "split": 20261114,
+      "seed": 2027,
+      "record": "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\neural\\split20261114__full141__AE__s2027-record.json",
+      "sha256": "ca057e996b45d4fb043fcfed57e15b1475f97a01e52b5f0e406b71c5e84d796a",
+      "score_sha256": "2fafb321fc2120384994060cb2fe071b95dded86cfc4dc62727cff6f7d137058"
+    },
+    {
+      "split": 20261114,
+      "seed": 2028,
+      "record": "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\neural\\split20261114__full141__AE__s2028-record.json",
+      "sha256": "172c845630663a24bca298926088d0e8e9a2af86f4c55d7e8cc4fd2affab4999",
+      "score_sha256": "d59412c640c7bce9b74528c08bba8518c59fe55d17e0d0ad0670fd8c805ed333"
+    },
+    {
+      "split": 20261115,
+      "seed": 2026,
+      "record": "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\neural\\split20261115__full141__AE__s2026-record.json",
+      "sha256": "feb50956bff32e3cefa0f6d4f906ceb83ceb7a8f4db8d0e855bde288bf8adac0",
+      "score_sha256": "c9961017d0b5166feffe51009f6ec1868ef4d5757bb1a7a24032e44e0a1e38fc"
+    },
+    {
+      "split": 20261115,
+      "seed": 2027,
+      "record": "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\neural\\split20261115__full141__AE__s2027-record.json",
+      "sha256": "e421a247df56a8c97be875071ab55a73bb7e39f7849237516d90feeda56e54f9",
+      "score_sha256": "0822316a51563912458b9647747afc70db60b7eacc9e362c3905d70cdfbfc912"
+    },
+    {
+      "split": 20261115,
+      "seed": 2028,
+      "record": "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\neural\\split20261115__full141__AE__s2028-record.json",
+      "sha256": "fc636e713c90b866d794665ebc1a39c6403a24f46b4431353a6b9dad93046409",
+      "score_sha256": "a47a279d52800b4d97006deaf5286a98e2912f4606dbd62750ac51528fb5d6cf"
+    }
+  ],
+  "formal_fits": 90,
+  "formal_pretrains": 90,
+  "april_rows_read": 0
+}

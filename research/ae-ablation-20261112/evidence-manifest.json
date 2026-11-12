@@ -1,0 +1,691 @@
+{
+  "scope": "public aggregates, source and inspected figures only; no individual rows/models/raw paper",
+  "text_policy": "UTF8 LF, normalized SVG whitespace and relocated review links",
+  "files": [
+    {
+      "path": "research/ae-ablation-20261112/budget/budget-training-diagnostics.png",
+      "sha256": "8d72e55bd2cb3220c0d8dbabe638c52a232daa759b18752a997a31407ba39442",
+      "bytes": 157830
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/budget-training-diagnostics.svg",
+      "sha256": "a19bc71e179faf33684771a72389f54e72f15085db3250d6939e41bba20907f6",
+      "bytes": 166305
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/calibration-status.csv",
+      "sha256": "40f93c0f018e278139fd7415b2b69ce412d4b00ef503156f89642ca806c86281",
+      "bytes": 8206
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/common-capacities.csv",
+      "sha256": "e3d044ac38539e56b60299b278588497c7c49fa6f64e7a4e6f704d426431842c",
+      "bytes": 56810
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/common-metrics.csv",
+      "sha256": "8d91402f37efeaf9d6a432aca3fe6c18b4b8baf1b2e6dbe29fe70c96139f3863",
+      "bytes": 210639
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/ensemble-capacities.csv",
+      "sha256": "d7d0caabff68ad2c60c253cff372be53dffcfbc1eaa737875558374df4f69c76",
+      "bytes": 9761
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/ensemble-metrics.csv",
+      "sha256": "2e137b79fa348d09f76281665383f295f090001642dfb14bbbc026ea1e6114e2",
+      "bytes": 35635
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/execution.json",
+      "sha256": "36540c9d8cfc98e001d4045932c79e2188f8684f3c4dbbdff2221b17e2b8857b",
+      "bytes": 6716
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/failures.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/metric-replay.csv",
+      "sha256": "7d340bb2faa15ee4007c9eaf7aae8c099ea91314e7eaef9edbb4e57823f2b0f2",
+      "bytes": 11294
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/model-replay.csv",
+      "sha256": "77693b3da45e2d25a6fcb20b1ad056e8d8fe3d32b4ca0d5d5d0b71b641064fd1",
+      "bytes": 17715
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/pilot-timing.json",
+      "sha256": "3728791284dffa38fefe6312b7102e1b536189504a26192264aed6f9524f4c75",
+      "bytes": 2792
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/plan.md",
+      "sha256": "a164a3863834ba2036ef2d082a4f2f3dbd16a43e7ddafe31179eeaa774cce6e9",
+      "bytes": 3034
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/pretrain-curves.csv",
+      "sha256": "c1771347c59f2d2e6826353a58405f1c980428fba1e4d7428423c527761bbb08",
+      "bytes": 30051
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/readback-verification.json",
+      "sha256": "12922e8e187dedd5579df7cd2771f1c79daf485c4d614ecc2eaf6175e636fd82",
+      "bytes": 364
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/README.md",
+      "sha256": "07ed31fe44af643f57b6ebaa1d959f6fac91ce07ee68fb94972d2bb33ae55382",
+      "bytes": 3113
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/run-support.csv",
+      "sha256": "a5a9ce0310440e3c54347f287a8eb3317cc13175d53c1ee34768ad1e95c5b783",
+      "bytes": 52027
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/run_budget.py",
+      "sha256": "26603cddd1c97a74b8da5ac25cb1d57dec915aaedd3b9c341a9ff3a613fd0cd3",
+      "bytes": 14257
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/source-freeze.json",
+      "sha256": "0400350c5a26d23fd8044809897c89fa0431ddc6468888dce74c00e298fc8ff1",
+      "bytes": 6365
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/supervised-curves.csv",
+      "sha256": "6686002ca9212f3ee08dd5b9654cbf7cdfd1dca73f099ea976a1c450c1655c7f",
+      "bytes": 315543
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/training-budget-summary.csv",
+      "sha256": "9a22f5e6d1aa6b8fd439c50dbc77c10a49064c008c7bb606d4c2e9ec97ef5473",
+      "bytes": 427
+    },
+    {
+      "path": "research/ae-ablation-20261112/budget/verify_budget.py",
+      "sha256": "8e425a089b353f4cc400634838fc163b8580ce81ef501135954e21e81aad48f7",
+      "bytes": 7664
+    },
+    {
+      "path": "research/ae-ablation-20261112/candidate-freeze.json",
+      "sha256": "1fd706528dbf4bb35a1adb3893d10c759e4d8231ef80f528a55f442ab0e7afd9",
+      "bytes": 44611
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/common-capacities.csv",
+      "sha256": "67e7b3ea66484d909bc61f16946ea8dbb33937d405c3130c518755cdd9ce66ba",
+      "bytes": 126432
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/common-metrics.csv",
+      "sha256": "66d04c011b25b7b3a9b6aabeaff5be11cf5aafb51c1f85d5cd3e0cf2c017f9d3",
+      "bytes": 451949
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/execution-verification.json",
+      "sha256": "fe8037ea6d0165ee1f60f3192c63eb8d46ead6cf0712f3a5fb48c359edcbb7eb",
+      "bytes": 333
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/input-mask-audit.json",
+      "sha256": "8503db381debea1c42a31a9f8b84685436f74c8680424e36e01840294fd9757f",
+      "bytes": 53428
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/model-readback.csv",
+      "sha256": "d41fdc6e694348b331faf1cb90c6fafabc1150e243b3457e66c6074e3c2ba309",
+      "bytes": 7488
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/pilot-timing.json",
+      "sha256": "0910924d6733d50a2f026820ccd0ffde6e2b7d6d9cdc79dc458558cbbb95ce7b",
+      "bytes": 371
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/plan.md",
+      "sha256": "308cea6f8da68fb292f4b6d47ad0b17d0af61fc7c20ed940e53d4ff458770fba",
+      "bytes": 1403
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/plot_training_diagnostics.py",
+      "sha256": "c5aa2dff897f60d7d115143459588e443bc80f79fd7042ce45a89e777c5f2b12",
+      "bytes": 1732
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/readback-verification.json",
+      "sha256": "0263957ef66993cdea04a813ea83129f4c2ba96e9f83b196fa15bd23111157fc",
+      "bytes": 353
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/README.md",
+      "sha256": "eb2f9c51817d861973a908fba274e5c091078a3f26d4fdbd1038befdb821ed95",
+      "bytes": 2690
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/run-budget-audit.json",
+      "sha256": "be2f9c80ed7250e010467e762dd620f28736c5444a3fc92cad31e3a630633d8b",
+      "bytes": 358
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/run-support.csv",
+      "sha256": "9a5a828e159eda22ebf675cdf08f8605b27cdc98289b13837f6cd69a722fc7cb",
+      "bytes": 36205
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/run_feature_groups.py",
+      "sha256": "98c59e206b3f727cdf49e81c24af10efed48e5430149eb94757ebba97b17c9d7",
+      "bytes": 10859
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/source-freeze-pre-ready.json",
+      "sha256": "6a28eeaa393f5beabe989a55c834ffba314493beb7c9136bad237adbbb6e8d59",
+      "bytes": 7214
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/source-freeze.json",
+      "sha256": "8c63910733beac1f8e288740a1bf7c2af710da2b4156911619004018af8908b2",
+      "bytes": 7471
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/training-diagnostics.png",
+      "sha256": "efe483bab9f673e7458ffb3acec833181c15e02b943cc2de3a072d4d0a7a442e",
+      "bytes": 199346
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/training-diagnostics.svg",
+      "sha256": "9e79ad2bf631f8d828f1e154f1dd607ab82125cd8bac84feb57990eef557af0c",
+      "bytes": 101565
+    },
+    {
+      "path": "research/ae-ablation-20261112/feature-groups/verify_feature_groups.py",
+      "sha256": "b4cbdce8cb5f7882393dd02cd0eb317b3c21a1f3a09fa1f8adb4b9b29b665434",
+      "bytes": 5433
+    },
+    {
+      "path": "research/ae-ablation-20261112/figures/time-combination-relative-gains.png",
+      "sha256": "1b3276b9b8629e487ebacface7339a10124fc8a259cc1929c7714eeeb45a773d",
+      "bytes": 166128
+    },
+    {
+      "path": "research/ae-ablation-20261112/figures/time-combination-relative-gains.svg",
+      "sha256": "e8a50a4eb500ef6b0a7606532a297aacf3ee64e68b23a1640573a1d60e5f74f5",
+      "bytes": 29067
+    },
+    {
+      "path": "research/ae-ablation-20261112/plot_time_direction.py",
+      "sha256": "dc659a50796d26775303522c9772687a1c6ea75330fe6ba4ace11b72e7a69462",
+      "bytes": 3096
+    },
+    {
+      "path": "research/ae-ablation-20261112/README.md",
+      "sha256": "b398aa72a0eb05cfc9cea30bc72248d08628ab6ea987356694bfe16f328b5973",
+      "bytes": 12218
+    },
+    {
+      "path": "research/ae-ablation-20261112/reviews/review-followup-checks.json",
+      "sha256": "eec4a0d43c7bb2c990f37cb08b8661b3d592dd5adfe34efaa5ee3f37107b82b1",
+      "bytes": 4006
+    },
+    {
+      "path": "research/ae-ablation-20261112/reviews/review-followup-final.md",
+      "sha256": "1ceb089d62ff3480352e2a9bfd4c964416be72786c6e9853a14b970b7519a03a",
+      "bytes": 6850
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/all-run-capacities.csv",
+      "sha256": "c7977a0013424ffb71e6b655302619f7f2061cd24f1c15df024a9d2819bbb20f",
+      "bytes": 310740
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/all-run-metrics.csv",
+      "sha256": "da50417592bce29c11967484dae343a5d5f88252da01e4563cf758856799113a",
+      "bytes": 1267307
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/all-run-primary.csv",
+      "sha256": "9d5c9eb25ed882c0b9b49a9ada6dd956493b6878e5c0b8ae9604f8c186819518",
+      "bytes": 107035
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/blocks-canonical-conditional-intervals.png",
+      "sha256": "e33130f24c7d87690151cddabe36f55034e680eaf00ce8f1eff1ada636937ca4",
+      "bytes": 155574
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/blocks-canonical-conditional-intervals.svg",
+      "sha256": "613993be9afed8321ea53cc9a8d8728ca2e037a94c7ab675fb8011a0ce5e15fc",
+      "bytes": 93468
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/budget-canonical-conditional-intervals.png",
+      "sha256": "c7bae25e4d32d10622837e98fd69c83099357c225cd9e41487e2f86e61045e8b",
+      "bytes": 123409
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/budget-canonical-conditional-intervals.svg",
+      "sha256": "a33fe7394962571925a93bf5420a655ad38dc282e2902c7132eea58023e787cb",
+      "bytes": 74677
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/calibration-optimization-audit.csv",
+      "sha256": "f53f88d2b8028d11072c2fa29e7d16c77fe99e9cfa00394e08bcb1eb92201e84",
+      "bytes": 43475
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/canonical-bootstrap-observed.csv",
+      "sha256": "c100e8bd3390d8622665d5038cbb9dc40b2d90655383d7cf1305c822413ee677",
+      "bytes": 5537
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/canonical-paired-bootstrap-intervals.csv",
+      "sha256": "ee4f832aa669353ba81842f4ea4a4611ec3d36ac40809c0b9df3b7bda3d18fa2",
+      "bytes": 56673
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/ensemble-capacities-by-split.csv",
+      "sha256": "873829e29cc6a27a9f111a28efe35e6e376f03303bee01db45c59de501e9831d",
+      "bytes": 33550
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/ensemble-manifest.json",
+      "sha256": "a8dbd259f72e71147a8a84c4cdf1d4a0b8ec6a012a45749269a4bc7cbdd7d08c",
+      "bytes": 21728
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/ensemble-paired-differences-by-split.csv",
+      "sha256": "0d285a7c13a535f5afb4f85b837d3ba54418bdb32affd948fcdf74fd55236e84",
+      "bytes": 48108
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/ensemble-primary-by-split.csv",
+      "sha256": "12dd68bb894490865309eda7f01d4f8305ef3361e9b6ef108f4f44b56e218c5c",
+      "bytes": 28718
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/execution.json",
+      "sha256": "16954c0a1846a48d2b57e9baf19c93631f06deda36accbd774b59bc053cd3219",
+      "bytes": 623
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/export_selections.py",
+      "sha256": "2e2fc69ea8f3c5cbd37a18fbd7b553ba333c15d8ca0c34788adeed679c1af6eb",
+      "bytes": 1565
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/five-overlapping-split-directions.csv",
+      "sha256": "18d1f61b89f177bfd449549a31587880daa7855c4414ec308dab9b9de8f4065b",
+      "bytes": 70183
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/five-split-directions-and-list-stability.png",
+      "sha256": "5123a2cb588979a0beaaf9193d7f7084673537f390a027fc6523280e95a87c9b",
+      "bytes": 260222
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/five-split-directions-and-list-stability.svg",
+      "sha256": "cd5ce4320e888185dae2c34fc69b4c9021b224a913d0dc1427c3cea58f236801",
+      "bytes": 185328
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/independent-ensemble-replay.csv",
+      "sha256": "de8f923eaba5bb3b4c6d6711f4e74aff70eea00f2e5732d5414f153c6e593663",
+      "bytes": 21556
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/plan.md",
+      "sha256": "f29ad6015839b7f5f81ad3fbbcfa51f482dc4ff8535642d4695eed7f8db29d22",
+      "bytes": 3681
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/point-estimates-ready.json",
+      "sha256": "4599939af168190e62aa6785d2ddd7ba8c45731a643063ee79fdfc08468116f9",
+      "bytes": 155
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/presentation-supplement.json",
+      "sha256": "c1c1b5c8d501941710aae2ad39f0d532fbbbf494ff48bd18a07ffb7505cd6fe4",
+      "bytes": 1076
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/producer-differences.csv",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/readback-verification.json",
+      "sha256": "ab1d3fe9ad84ae678a109af5ce8f8c4729b0a93ca61efcd602ea0d218332328b",
+      "bytes": 569
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/README.md",
+      "sha256": "84126d558d7a6bc5ff6539ef2f7b0cd7781ebc0a6d730070df1f0d55ae1ce043",
+      "bytes": 4565
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/render_public.py",
+      "sha256": "455e061ab25217a3b538d271e7125e499476e651c2d0756932ce201606b144a0",
+      "bytes": 2585
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/render_statistics.py",
+      "sha256": "7718dd1feb65bc95796517670f1b8e39d2cc2bbe96e2d261d2f333476b43256d",
+      "bytes": 3830
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/run_statistics.py",
+      "sha256": "d2f774a40def1cb6ed44d6ef663e25c54e4d3d4181967ee11395b17502c2adc4",
+      "bytes": 15268
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/selection-export.json",
+      "sha256": "ba7fb7838f4fff7320f6d8b93ddab2f424563443579b7e053f661358b83beea7",
+      "bytes": 504
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/selection-stability.csv",
+      "sha256": "cd3e5289fa04948bfb2065c441c5f27a11f8df5985b25507666f0183bfe26672",
+      "bytes": 73170
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/source-freeze.json",
+      "sha256": "7b83bcb108e0346f0d8e18d2c71fe43b5306e97da1840db2daf3a6574e40bc46",
+      "bytes": 4784
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/verify_statistics.py",
+      "sha256": "4eadb730e0fff410dcc3e3df2d3283429d0e44c2612b2a1643a0a0bebfd7fa07",
+      "bytes": 5030
+    },
+    {
+      "path": "research/ae-ablation-20261112/statistics/within-split-seed-summary.csv",
+      "sha256": "436cdc45a6c37fdc47ad470ba174ec0933e4d5e3298e73098f11d69bdb83ca71",
+      "bytes": 76693
+    },
+    {
+      "path": "research/ae-ablation-20261112/task_plan.md",
+      "sha256": "0d90f392b7c6af9e211d6a2ae295cf170b792e1ae371d5c78436b9df091ffad4",
+      "bytes": 5599
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/calibration-diagnostics.csv",
+      "sha256": "6beef695326c0dbbdb8edfb64dc5708a2ab5d084a71146fca69417ce5ac12d23",
+      "bytes": 3706
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/catboost-curves.csv",
+      "sha256": "05606989a691e856954590fad7657c765f23a3aeea389d5a10c164b44284eb96",
+      "bytes": 88741
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/completion.json",
+      "sha256": "85b7b3ae5ae4914132398975c7d8bffc9b310bcf892042e5c4f805ffaf0dc8a3",
+      "bytes": 687
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/encoding-audit.json",
+      "sha256": "9dc8bcb1c46e55fcf1814bc373481b09c3f7aef0e316f9ddf94300c74f997a72",
+      "bytes": 4565
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/execution.json",
+      "sha256": "d315e5f903d1a0433da2013d346b7a582a27a5a31128750266c88e923ef371c8",
+      "bytes": 823
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/independent-forward-checks.csv",
+      "sha256": "07342ad37865599e3a43f4c1c6767e2f63b76c62e3f4fd7a770bdd9f4115b977",
+      "bytes": 1508
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/july-cal-resubstitution-metrics.csv",
+      "sha256": "690ea116d269a7968d109b6ebc288e7304a51e52afacbe49bda52d05264e932a",
+      "bytes": 2589
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/october-capacity.csv",
+      "sha256": "5b62a2ea8f1fa43d49bc4e495ab47e74164fd66364a84b03056c36c641f4940c",
+      "bytes": 8549
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/october-metrics.csv",
+      "sha256": "0c1703fa1d5fd237b29e58105711598589d99d7959aed36d0e3a6bfe164ded07",
+      "bytes": 14305
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/paired-AE-minus-mean-by-seed.csv",
+      "sha256": "1d0d4cd417c9963fb2fa6b762cec0d2b9cc4e088f689b44a999093b21528ea17",
+      "bytes": 2466
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/per-seed-diagnostics.csv",
+      "sha256": "9304dcbddeadacfa7c4c5419a873d6f87d9cdf5f043daaf3d9ed3f008b450f9d",
+      "bytes": 2944
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/pretrain-curves.csv",
+      "sha256": "56cef0d51500331ee2d155ed6e63ebbdbbc05e9bfab4401e5488c695de155dee",
+      "bytes": 3392
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/primary-october-capacity.csv",
+      "sha256": "91f955ca18b31fd43210ab55ff5a968876a63570603183069f08425443f1fdb0",
+      "bytes": 2365
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/primary-october-metrics.csv",
+      "sha256": "13129de2b7f9ef71f674f78d3c116f1768dd4d99660babab026df45b20241236",
+      "bytes": 3711
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/README.md",
+      "sha256": "99c71bcfe9b2787ae40cd1cbd61e04d01efb9114eb68cd5f6ee7dfc52a565c60",
+      "bytes": 7551
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/run-support.csv",
+      "sha256": "e008cf6070a6cc55ed443cc2c0efa2577e9cabbbb98eee406a2993bb07c6f4b5",
+      "bytes": 2145
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/run_temporal.py",
+      "sha256": "e39df0b46b6df16ccf813374370818d268b985bc21945c62a8a45aa2c3e45bdb",
+      "bytes": 18529
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/seed-ranges.csv",
+      "sha256": "b48766dbd8ac92ed4128faa4115f01d2efbbc626acaf3aa4543723ae90b510b1",
+      "bytes": 4498
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/summarize_temporal.py",
+      "sha256": "3e015d4674e947d9753d61192e1d86c0e81b2d1fdb4fe02d8aee971c07b9a2f8",
+      "bytes": 3234
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/supervised-curves.csv",
+      "sha256": "98a804f35b6895fe68b0e82d73963683efbde80509410e223657a1200ed3fcfd",
+      "bytes": 18331
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/temporal-comparison.png",
+      "sha256": "e97094ca6073a56a1172d2d0a672d8b32fc2fd8fab08dfa7b7480681c808bd7f",
+      "bytes": 35700
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/temporal-comparison.svg",
+      "sha256": "4761fda8f8fc5e915e07a96f9d6b043cdf5426b164402dda182c5fd83b29f2ae",
+      "bytes": 52942
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/temporal-training-curves.png",
+      "sha256": "c5ddb0dcf667d0be1ed005aee5ef3235f0454f0dfb3fb7a8a98019e10107468c",
+      "bytes": 103264
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/temporal-training-curves.svg",
+      "sha256": "5be5f8ed35b8601f5246a88a0425f378806bdd97740f1b9f2719c82b4a64f9ee",
+      "bytes": 60780
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/time-validation-plan.md",
+      "sha256": "00859281621430802cecba758b3499f89bce24381bbadf73fbfe28e476d50dab",
+      "bytes": 4960
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/verification.json",
+      "sha256": "e144417299030d02675f7aec73bb5113bc8e6cecf850aef1ea23b3ecc6c45a51",
+      "bytes": 599
+    },
+    {
+      "path": "research/ae-ablation-20261112/temporal/verify_temporal.py",
+      "sha256": "9aa5869c258a47168a3ac7f51a7e6e43f0c77cbc93183b5ca8862e92d79e9a55",
+      "bytes": 11721
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/all-field-roundtrip.csv",
+      "sha256": "5e3ebdc4bd5a3579acb5f039cca1769dbb4dcf70316aaed8c3dbc0bcde325ebf",
+      "bytes": 16575
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/audit.json",
+      "sha256": "5226426df989fb735c0d28638930a7dbcfcf2cf8fb1d64e3769c808e8dc6a6e5",
+      "bytes": 9702
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/calendar-window-overlaps.csv",
+      "sha256": "921730073fdb949c364663205c0799db60ca476cbb9eb2ac61774b93733e9c4c",
+      "bytes": 1433
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/clarification/approval-target-carry-in.csv",
+      "sha256": "ae4681c9aebbe04cb6cb361755da892ad37b1668fe8f5838e2ae4ac9a3c30ad9",
+      "bytes": 297
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/clarification/clarification-audit.json",
+      "sha256": "86c42aaa2c40aa0d7280e19cb73f0ecf910d9a501ad30b4952534c6e1338d002",
+      "bytes": 11311
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/clarification/clarify_time_semantics.py",
+      "sha256": "1ce1de202a32e57c3b65ccadb2c26a2a7034e49f1b066b6c36dde807fdd673e9",
+      "bytes": 9312
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/clarification/event-pool-versus-cohort.csv",
+      "sha256": "b7f5ee5827d93f0900715c73c8a5d73bcc1ddd8aaff73b26bbb958e8be0cc1c0",
+      "bytes": 582
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/clarification/purchase-approval-cutoff-checks.csv",
+      "sha256": "1f4270e2397020764d9a2ca1ddc7acbb815e2c17ec83b11cc0814b07c6e14e2e",
+      "bytes": 882
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/clarification/purchase-window-approval-delay.csv",
+      "sha256": "9e65f67bb8fa5a0f2f2974d79b6d59e50ffb7600e79e5a687fd84fe5df1d9bc1",
+      "bytes": 722
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/clarification/README.md",
+      "sha256": "909a7be2fc73310223110f2b771f9e9ff406b3d15a657bb8f8670fb52951493c",
+      "bytes": 6170
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/clarification/source-guards.json",
+      "sha256": "532465f7c1ebb173d64f5c1251888f436cb1d0ea3bbf14b58fcf4b29ae1f6dfd",
+      "bytes": 835
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/clarification/supplement-hashes.json",
+      "sha256": "b6455f0f8b84130ceaacc590167e69bee99613190c400871e6891043eac5986d",
+      "bytes": 796
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/customer-overlap-allowed-periods.csv",
+      "sha256": "6781300cba37e2798ce61cfc2dff9535fecd92653c2fee8b701d8a6f448289c7",
+      "bytes": 341
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/daily-coverage-2017.csv",
+      "sha256": "8845138b02d334132ad727913443eef4ecedf6bd40626449253232fc737572ad",
+      "bytes": 7992
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/event-customer-transfer.json",
+      "sha256": "b530af220e8825d9a33167a5bd7c584a7ba96ab0461a12a2988c7c6681e48f37",
+      "bytes": 330
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/field-recoverability-141.csv",
+      "sha256": "bad1daf20b9cb949ea48a05a6714f59723284d21821c691880d520d62804469d",
+      "bytes": 20768
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/july-context-coverage.csv",
+      "sha256": "cd4c0a499c2fc47d612af18ebed9bd61353ce5bcc2b37b03fddca37fd1c6cf3b",
+      "bytes": 342
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/monthly-coverage-2017.csv",
+      "sha256": "680c60353f73b739e6a7142357d621daf2ec123b14602e1c994823b61a7eaf44",
+      "bytes": 336
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/october-context-coverage.csv",
+      "sha256": "92a27e1946e0b28b9fa62f71f6424a5f735ea0f576a718d8d2a580c35287d876",
+      "bytes": 342
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/october-full141-reproduction.csv",
+      "sha256": "fcada3fa283ed5859bb64e40d93589c1069eeb2c7c9ae3251583da9d75610a62",
+      "bytes": 8368
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/rare-event-support.csv",
+      "sha256": "c6d68870937ae79c8d890315de04741b26aae6265c3ed201241d0d324c2142dd",
+      "bytes": 2797
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/README.md",
+      "sha256": "2621f23324e31ea3b4e6e8dd6fe1b1503df5d98a98bdb3e09032a2f31d6ff43a",
+      "bytes": 7994
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/run_time_audit.py",
+      "sha256": "4ec2ce759ccb35791b636c8b7bfeb5c6e8c38e457ecb15e4579c8fe18a28047c",
+      "bytes": 16724
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/sourcehash.json",
+      "sha256": "275cebb472455f5654d9fbc9fd1bd60d22dcfa1ee553dfc1fffe08f1907378e1",
+      "bytes": 1648
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/time-coverage.png",
+      "sha256": "48c5a926f0d73bd68800a13031adf7d0735573c5bf80ffff95027ec8a95fbc08",
+      "bytes": 90908
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/time-coverage.svg",
+      "sha256": "8b13215976124ac0df1922a2b73df657ab5798254ff2a8942f8dc9c60e3284ab",
+      "bytes": 45494
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-audit/window-summary.csv",
+      "sha256": "071d85eafce7c1523c19cd9e088f3bc5406d3daa8cad47f705d0a6dd12a40a3f",
+      "bytes": 730
+    },
+    {
+      "path": "research/ae-ablation-20261112/time-direction-chart-data.csv",
+      "sha256": "75643ced3c6ec2131daaa717557b4ebdf3d318d04d29db0cf741c68d79659239",
+      "bytes": 1018
+    }
+  ]
+}

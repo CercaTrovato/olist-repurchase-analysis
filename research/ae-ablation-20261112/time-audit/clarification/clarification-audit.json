@@ -1,0 +1,221 @@
+{
+  "original_artifacts_checked": 21,
+  "all_original_artifacts_unchanged": true,
+  "before_sha256": {
+    "all-field-roundtrip.csv": "5e3ebdc4bd5a3579acb5f039cca1769dbb4dcf70316aaed8c3dbc0bcde325ebf",
+    "audit.json": "85d51d9c0c8b54c1d49ff19626790f75f39f3155f26716840643946857516030",
+    "calendar-window-overlaps.csv": "921730073fdb949c364663205c0799db60ca476cbb9eb2ac61774b93733e9c4c",
+    "customer-overlap-allowed-periods.csv": "6781300cba37e2798ce61cfc2dff9535fecd92653c2fee8b701d8a6f448289c7",
+    "daily-coverage-2017.csv": "8845138b02d334132ad727913443eef4ecedf6bd40626449253232fc737572ad",
+    "event-customer-transfer.json": "10e395012e197db5b9140b6a9accdb2e33fe12db6f78252c34a4b917c125bdd4",
+    "field-recoverability-141.csv": "bad1daf20b9cb949ea48a05a6714f59723284d21821c691880d520d62804469d",
+    "july-context-coverage.csv": "cd4c0a499c2fc47d612af18ebed9bd61353ce5bcc2b37b03fddca37fd1c6cf3b",
+    "monthly-coverage-2017.csv": "680c60353f73b739e6a7142357d621daf2ec123b14602e1c994823b61a7eaf44",
+    "october-context-coverage.csv": "92a27e1946e0b28b9fa62f71f6424a5f735ea0f576a718d8d2a580c35287d876",
+    "october-full141-reproduction.csv": "fcada3fa283ed5859bb64e40d93589c1069eeb2c7c9ae3251583da9d75610a62",
+    "outputhash.json": "da3d439e3753d810e366b4aef810861260dfec545fcf618378b11f9176e3f386",
+    "rare-event-support.csv": "c6d68870937ae79c8d890315de04741b26aae6265c3ed201241d0d324c2142dd",
+    "README.md": "2621f23324e31ea3b4e6e8dd6fe1b1503df5d98a98bdb3e09032a2f31d6ff43a",
+    "run_time_audit.py": "4ec2ce759ccb35791b636c8b7bfeb5c6e8c38e457ecb15e4579c8fe18a28047c",
+    "sourcehash.json": "7baa0fb7736a92366420e5cecd1486262df3e4d23d37828dcbedd884d58e3e45",
+    "time-coverage.png": "48c5a926f0d73bd68800a13031adf7d0735573c5bf80ffff95027ec8a95fbc08",
+    "time-coverage.svg": "c4d5218a065bfd17f5348ba2d5daae87e24cddb8572dfcb78878c8ec400e29e6",
+    "window-summary.csv": "071d85eafce7c1523c19cd9e088f3bc5406d3daa8cad47f705d0a6dd12a40a3f",
+    "private\\july-full141.csv": "bd31d927ce4feb5ca1ad7459a4454ce8e30ce8c6d5648d93f389db259e2c2dfc",
+    "private\\october-full141.csv": "5970c1cbb81a6bfb0291983d5c978bea9afb5c4649b8fe7eb7987efb55737da0"
+  },
+  "scope": "read-only raw counts for July and October; no cohort/feature rebuild; no training",
+  "april_snapshot_rows_parsed": 0,
+  "april_label_rows_parsed": 0,
+  "models_trained": 0,
+  "event_pools": [
+    {
+      "snapshot_date": "2017-07-01",
+      "label_start_inclusive": "2017-07-01",
+      "label_end_exclusive": "2017-09-29",
+      "cohort_customers": 14012,
+      "whole_label_window_eligible_orders": 12261,
+      "whole_label_window_unique_customers": 11970,
+      "matched_cohort_repurchase_orders": 129,
+      "matched_cohort_positive_customers": 120,
+      "matched_cohort_single_event_positive_customers": 113,
+      "matched_cohort_multi_event_positive_customers": 7,
+      "max_label_events_one_cohort_customer": 4,
+      "unmatched_window_orders": 12132,
+      "last_approval_used_for_labels": "2017-09-28 23:56:07"
+    },
+    {
+      "snapshot_date": "2017-10-01",
+      "label_start_inclusive": "2017-10-01",
+      "label_end_exclusive": "2017-12-30",
+      "cohort_customers": 21160,
+      "whole_label_window_eligible_orders": 17490,
+      "whole_label_window_unique_customers": 17156,
+      "matched_cohort_repurchase_orders": 230,
+      "matched_cohort_positive_customers": 211,
+      "matched_cohort_single_event_positive_customers": 198,
+      "matched_cohort_multi_event_positive_customers": 13,
+      "max_label_events_one_cohort_customer": 4,
+      "unmatched_window_orders": 17260,
+      "last_approval_used_for_labels": "2017-12-29 23:36:29"
+    }
+  ],
+  "history_cutoff_checks": [
+    {
+      "snapshot_date": "2017-07-01",
+      "purchase_scope": "all_purchase_before_cut",
+      "positive_amount_purchase_before_cut_approval_at_or_after_cut_orders": 43,
+      "candidate_unique_customers": 43,
+      "candidate_customers_already_in_actual_cohort": 0,
+      "candidate_customers_outside_actual_cohort": 43,
+      "actual_history_selected_future_approval_orders": 0,
+      "actual_history_selected_future_approval_customers": 0,
+      "actual_history_selected_purchase_at_or_after_cut_orders": 0,
+      "actual_cohort_additions_due_to_future_approval": 0,
+      "actual_feature_orders_affected_by_future_approval": 0,
+      "missing_approval_orders_in_purchase_scope": 14,
+      "latest_candidate_approval": "2017-07-05 17:09:11"
+    },
+    {
+      "snapshot_date": "2017-07-01",
+      "purchase_scope": "purchase_inside_six_calendar_month_history",
+      "positive_amount_purchase_before_cut_approval_at_or_after_cut_orders": 43,
+      "candidate_unique_customers": 43,
+      "candidate_customers_already_in_actual_cohort": 0,
+      "candidate_customers_outside_actual_cohort": 43,
+      "actual_history_selected_future_approval_orders": 0,
+      "actual_history_selected_future_approval_customers": 0,
+      "actual_history_selected_purchase_at_or_after_cut_orders": 0,
+      "actual_cohort_additions_due_to_future_approval": 0,
+      "actual_feature_orders_affected_by_future_approval": 0,
+      "missing_approval_orders_in_purchase_scope": 14,
+      "latest_candidate_approval": "2017-07-05 17:09:11"
+    },
+    {
+      "snapshot_date": "2017-10-01",
+      "purchase_scope": "all_purchase_before_cut",
+      "positive_amount_purchase_before_cut_approval_at_or_after_cut_orders": 45,
+      "candidate_unique_customers": 45,
+      "candidate_customers_already_in_actual_cohort": 2,
+      "candidate_customers_outside_actual_cohort": 43,
+      "actual_history_selected_future_approval_orders": 0,
+      "actual_history_selected_future_approval_customers": 0,
+      "actual_history_selected_purchase_at_or_after_cut_orders": 0,
+      "actual_cohort_additions_due_to_future_approval": 0,
+      "actual_feature_orders_affected_by_future_approval": 0,
+      "missing_approval_orders_in_purchase_scope": 14,
+      "latest_candidate_approval": "2017-10-06 15:14:17"
+    },
+    {
+      "snapshot_date": "2017-10-01",
+      "purchase_scope": "purchase_inside_six_calendar_month_history",
+      "positive_amount_purchase_before_cut_approval_at_or_after_cut_orders": 45,
+      "candidate_unique_customers": 45,
+      "candidate_customers_already_in_actual_cohort": 2,
+      "candidate_customers_outside_actual_cohort": 43,
+      "actual_history_selected_future_approval_orders": 0,
+      "actual_history_selected_future_approval_customers": 0,
+      "actual_history_selected_purchase_at_or_after_cut_orders": 0,
+      "actual_cohort_additions_due_to_future_approval": 0,
+      "actual_feature_orders_affected_by_future_approval": 0,
+      "missing_approval_orders_in_purchase_scope": 0,
+      "latest_candidate_approval": "2017-10-06 15:14:17"
+    }
+  ],
+  "purchase_target_delay_checks": [
+    {
+      "snapshot_date": "2017-07-01",
+      "label_start_inclusive": "2017-07-01",
+      "label_end_exclusive": "2017-09-29",
+      "scope": "all_window_purchasers",
+      "positive_amount_purchase_window_orders": 12280,
+      "purchased_in_window_approved_at_or_after_end_orders": 62,
+      "delayed_unique_customers": 62,
+      "latest_delayed_approval": "2017-10-06 15:14:17",
+      "max_approval_days_after_label_end": 7.634918981481482,
+      "purchase_window_missing_approval_orders": 0,
+      "late_orders_selected_in_current_approval_label": 0,
+      "delayed_customers_current_y0": null
+    },
+    {
+      "snapshot_date": "2017-07-01",
+      "label_start_inclusive": "2017-07-01",
+      "label_end_exclusive": "2017-09-29",
+      "scope": "matched_existing_cohort",
+      "positive_amount_purchase_window_orders": 129,
+      "purchased_in_window_approved_at_or_after_end_orders": 0,
+      "delayed_unique_customers": 0,
+      "latest_delayed_approval": null,
+      "max_approval_days_after_label_end": null,
+      "purchase_window_missing_approval_orders": 0,
+      "late_orders_selected_in_current_approval_label": 0,
+      "delayed_customers_current_y0": 0
+    },
+    {
+      "snapshot_date": "2017-10-01",
+      "label_start_inclusive": "2017-10-01",
+      "label_end_exclusive": "2017-12-30",
+      "scope": "all_window_purchasers",
+      "positive_amount_purchase_window_orders": 17473,
+      "purchased_in_window_approved_at_or_after_end_orders": 28,
+      "delayed_unique_customers": 28,
+      "latest_delayed_approval": "2018-01-04 23:17:32",
+      "max_approval_days_after_label_end": 5.970509259259259,
+      "purchase_window_missing_approval_orders": 0,
+      "late_orders_selected_in_current_approval_label": 0,
+      "delayed_customers_current_y0": null
+    },
+    {
+      "snapshot_date": "2017-10-01",
+      "label_start_inclusive": "2017-10-01",
+      "label_end_exclusive": "2017-12-30",
+      "scope": "matched_existing_cohort",
+      "positive_amount_purchase_window_orders": 228,
+      "purchased_in_window_approved_at_or_after_end_orders": 0,
+      "delayed_unique_customers": 0,
+      "latest_delayed_approval": null,
+      "max_approval_days_after_label_end": null,
+      "purchase_window_missing_approval_orders": 0,
+      "late_orders_selected_in_current_approval_label": 0,
+      "delayed_customers_current_y0": 0
+    }
+  ],
+  "approval_target_carry_in": [
+    {
+      "snapshot_date": "2017-07-01",
+      "scope": "all_window_approvals",
+      "approved_in_label_window_orders": 12261,
+      "of_those_purchased_before_label_start_orders": 43,
+      "of_those_unique_customers": 43
+    },
+    {
+      "snapshot_date": "2017-07-01",
+      "scope": "matched_existing_cohort",
+      "approved_in_label_window_orders": 129,
+      "of_those_purchased_before_label_start_orders": 0,
+      "of_those_unique_customers": 0
+    },
+    {
+      "snapshot_date": "2017-10-01",
+      "scope": "all_window_approvals",
+      "approved_in_label_window_orders": 17490,
+      "of_those_purchased_before_label_start_orders": 45,
+      "of_those_unique_customers": 45
+    },
+    {
+      "snapshot_date": "2017-10-01",
+      "scope": "matched_existing_cohort",
+      "approved_in_label_window_orders": 230,
+      "of_those_purchased_before_label_start_orders": 2,
+      "of_those_unique_customers": 2
+    }
+  ],
+  "source_sha256": {
+    "D:\\上课资料\\CityU\\IS6400_Business_Data_Analytics\\assignment\\graded\\A06-group-project\\work\\data\\raw\\olist_orders_dataset.csv": "8df58ef3d2d7e9944010f7beecd9b75367f5588ec6e3c91cec19ae3345ef9ecf",
+    "D:\\上课资料\\CityU\\IS6400_Business_Data_Analytics\\assignment\\graded\\A06-group-project\\work\\data\\raw\\olist_customers_dataset.csv": "983a422239e1712ded753b3bf9ecf47dc73f144d306029dcfa99e70a226883d2",
+    "D:\\上课资料\\CityU\\IS6400_Business_Data_Analytics\\assignment\\graded\\A06-group-project\\work\\data\\raw\\olist_order_items_dataset.csv": "0bc4d068c4fe38cbb01bd90e8746e3c613fe7b4baef75fab7b0e329701c3e279",
+    "D:\\上课资料\\CityU\\IS6400_Business_Data_Analytics\\assignment\\graded\\A06-group-project\\work\\data\\source-manifest.json": "117b3b6758f31e9c8a1f56809a9fb58a57b6849fb39e8e6b637cc166bd5e2498",
+    "E:\\app-data\\codex\\outputs\\is6400-team-intake-20261110\\H02_candidate_v2.zip": "3b58f4e493e825a76ccc569f205cfa0db5d27e22b13389c3c00ff958a316419a",
+    "E:\\app-data\\codex\\outputs\\is6400-validation-20261111\\features\\run_features.py": "72e9aed1bc4387ab8767cfb854a3335dd27d8e9e2d7e3f7f1163495682571e67"
+  }
+}

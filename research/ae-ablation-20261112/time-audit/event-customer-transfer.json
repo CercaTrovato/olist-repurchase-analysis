@@ -1,0 +1,9 @@
+{
+  "shared_July_Oct_customers": 9076,
+  "July_positive_customers": 120,
+  "July_positive_customers_present_in_Oct_cohort": 120,
+  "July_label_orders_present_in_Oct_history": 12261,
+  "July_label_orders_total": 12261,
+  "Oct_positive_customers_also_in_July_cohort": 86,
+  "same_customer_positive_in_both_July_and_Oct_labels": 8
+}

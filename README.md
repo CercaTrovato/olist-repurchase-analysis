@@ -12,11 +12,11 @@ IS6400 小组项目｜Six Sigma
 
 我们用过去 6 个自然月的订单给已有客户排序，比较同等名额下能找到多少未来 90 天的复购者。主比较把名单容量设为 10%，并与最近购买优先等简单策略对照。分群用于定位漏判，也给内容试验提供线索。
 
-**2026-11-12：四候选统一比较已完成。** 两档字段、共享矩阵、五个重叠训练/校准划分及三个随机种子，共155个监督模型。完整字段AE概率融合值得优先研究，CatBoost在概率质量上较好；名单增益条件区间仍含0，尚未替小组冻结正式采用版本，消融后置。
+**2026-11-12 后续验证：AE未获得稳定升级支持。** 固定研究对象后完成预算/六块消融135个新模型，另13个七月训练→十月评价模型。更早窗口AE31/久单1，原加权LR36/2；一月删行为块的58命中也不足以支持稳定删块。原加权保留参照，正式采用由本人据真实团队版本记录，不由科研自动切换。
 
-[最新统一比较与候选建议](docs/team/common-candidate-comparison.md) · [本轮17幅图](docs/team/common-comparison-figures.md) · [全部57幅图](docs/team/visual-assets.md)
+[最新预算/字段/时间验证](docs/team/ae-validation-results.md) · [本轮9图](docs/team/ae-validation-figures.md) · [全部66图入口](docs/team/visual-assets.md)
 
-[上一批Q01–Q18验证](docs/team/validation-execution.md) · [建模质疑台账](docs/team/research-questions.md) · [验证设计历史](docs/team/research-protocol-draft.md) · [MVSIB迁移核读](docs/team/mvsib-transfer-notes.md)
+[上一轮统一比较及其当时候选建议](docs/team/common-candidate-comparison.md) · [Q01–Q18](docs/team/research-questions.md) · [首批验证历史](docs/team/validation-execution.md)
 
 ## 真实团队已核进度与历史结果
 
@@ -24,7 +24,7 @@ IS6400 小组项目｜Six Sigma
 
 [小组最新进度](docs/team/current-status.md) · [本地探索与对照](docs/team/local-exploration.md) · [汇总表与图](docs/team/evidence/README.md) · [各岗入口](docs/team/README.md)
 
-**第三轮已发群。** 6 号已确认业务取舍和展示采用截止。本地六基线、新增信息、时间审计与内容试验设计已完成，当时两批共18幅图；当前全部主素材57幅，见最新图表索引。组员按同目标独立设计策略，本人已确认发群，成员新回件待核。
+**第三轮已发群。** 6 号已确认业务取舍和展示采用截止。本地六基线、新增信息、时间审计与内容试验设计已完成，当时两批共18幅图；当前全部主素材66幅，见最新图表索引。组员按同目标独立设计策略，本人已确认发群，成员新回件待核。
 
 [第三轮成员任务](docs/team/round-3/README.md) · [本地结果](docs/team/round-3-results.md) · [后续11候选](docs/team/round-3-extension.md) · [PPT／报告图表素材](docs/team/visual-assets.md)
 

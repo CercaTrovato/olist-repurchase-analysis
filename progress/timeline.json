@@ -4,9 +4,9 @@
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
   "as_of": "2026-11-12",
-  "basis_revision": "1b14ee0c5255a08eda480ace9d75a90b8b7af52e581357c6c023eea574febc90",
+  "basis_revision": "cd12b7761b6dd08f0ca9e638697c99cf3462514d035da106f178a99f574c5acb",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "本地155模型统一比较已核：同字段/模型、五重叠fit-cal划分、三seed。AE概率融合为优先研究线索（参考51/久单4 vs基线43/2，五split全体4胜1平/久单5胜），名单差条件区间仍含0；CatBoost概率质量较好。未确认新正式模型，系统消融后置，四月无新评分。新17图累计57，成员回件/采用仍按实际。",
+  "summary": "AE研究对象后续验证完成：135新预算/六块消融+13个七月→十月诊断模型，旧65复用，新增9图累计66。AE较早窗口31/久单1低于WLR36/2；一月去行为58/4条件区间仍含0，不支持稳定升级或直接删RFM。科研对象消融已做，正式团队模型未自动采用；四月无新评分，真实交件/冻结与提交按事实。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
@@ -16,10 +16,10 @@
       "owner": "本人 · 总监督",
       "owner_role": "me",
       "scope": "team",
-      "summary": "统一比较已完成，AE融合和CB概率质量各有线索，正式主指标与团队冻结版本仍待本人确认。",
+      "summary": "已核团队基线与研究扩展分开；新证据不支持稳定AE升级，正式主指标/采用/冻结时间待本人真实确认。",
       "deliverable": "决定方法冻结后怎样评价，并清楚披露哪些时期已经看过。",
-      "next_action": "据完整结果及成员回件记录真实采用版本、时间和依据。",
-      "my_next_action": "按展示目标选择采用版本，不把已见一月条件区间当新时期证明。",
+      "next_action": "按真实团队版本记录展示采用，不凭一月新最高分或已见窗口回测倒填冻结。",
+      "my_next_action": "确认实际展示采用版本、时间和依据；按原节点收H07并核数。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -74,6 +74,11 @@
           "observed_on": "2026-11-12",
           "status": "needs_review",
           "note": "新增155格统一比较、17图和条件区间；AE列研究线索，未确认正式模型，系统消融仍后置。"
+        },
+        {
+          "observed_on": "2026-11-12",
+          "status": "needs_review",
+          "note": "新增AE研究对象135消融+13时间诊断；一月线索未在更早窗口延续，正式采用仍待真实记录。"
         }
       ]
     },
@@ -386,9 +391,9 @@
       "owner": "本地辅助 1–5 号；本人核取舍",
       "owner_role": "member",
       "scope": "supporting",
-      "summary": "首批与本轮统一比较均已核；155新模型/17图，四月本批无新评分。",
+      "summary": "本地AE后续135+13正式新拟合及时间/时点审计已核，四月无新评分，否定临时稳定升级依据。",
       "deliverable": "用锁定的十月拟合管线、相同四月客户与前 10% 名额，对照原版和最近购买基线。",
-      "next_action": "保留全结果，与真实成员回件核口径；候选锁定后消融/新时间验证。",
+      "next_action": "后续先多时间截面滚动验证；正式采用与团队回件另列。",
       "my_next_action": null,
       "depends_on": [],
       "dependency_gates": [],
@@ -471,6 +476,11 @@
           "observed_on": "2026-11-12",
           "status": "needs_review",
           "note": "新增155格统一比较、17图和条件区间；AE列研究线索，未确认正式模型，系统消融仍后置。"
+        },
+        {
+          "observed_on": "2026-11-12",
+          "status": "needs_review",
+          "note": "新增AE研究对象135消融+13时间诊断；一月线索未在更早窗口延续，正式采用仍待真实记录。"
         }
       ]
     },
@@ -1909,9 +1919,9 @@
       "owner": "本人 · 6号与本课程会话",
       "owner_role": "me",
       "scope": "supporting",
-      "summary": "Q01–Q18基础验证与四候选统一比较已核；研究候选范围收窄，正式采用及系统消融仍待。",
+      "summary": "基础研究、统一比较与AE研究对象预算/六块消融和早期时间诊断均已核；最终团队系统选型/验证仍待。",
       "deliverable": "逐问题假设、配置、全部结果、局限与可编辑可视化，保留负结果和纠正历史。",
-      "next_action": "先据完整证据锁定研究候选和正式采用取舍，再做系统消融。",
+      "next_action": "保留全部负结果，先多时点设计再筛少量模型；正式团队版本按真实决定记录。",
       "my_next_action": "阅读统一比较，决定展示采用口径与正式版本。",
       "depends_on": [],
       "dependency_gates": [],
@@ -1982,6 +1992,11 @@
           "observed_on": "2026-11-12",
           "status": "in_progress",
           "note": "新增155格统一比较、17图和条件区间；AE列研究线索，未确认正式模型，系统消融仍后置。"
+        },
+        {
+          "observed_on": "2026-11-12",
+          "status": "in_progress",
+          "note": "新增AE研究对象135消融+13时间诊断；一月线索未在更早窗口延续，正式采用仍待真实记录。"
         }
       ]
     },
@@ -2041,6 +2056,65 @@
           "observed_on": "2026-11-12",
           "status": "done",
           "note": "用户明确同口径继续，完整比较及复核完成；quota恢复后接续不重训。"
+        }
+      ]
+    },
+    {
+      "id": "ae-research-validation",
+      "title": "AE研究对象消融与较早时间诊断（辅助）",
+      "status": "done",
+      "owner": "本课程会话本地研究；本人核采用",
+      "owner_role": "me",
+      "scope": "supporting",
+      "summary": "AE研究对象后续验证完成：135新预算/六块消融+13个七月→十月诊断模型，旧65复用，新增9图累计66。AE较早窗口31/久单1低于WLR36/2；一月去行为58/4条件区间仍含0，不支持稳定升级或直接删RFM。科研对象消融已做，正式团队模型未自动采用；四月无新评分，真实交件/冻结与提交按事实。",
+      "deliverable": "135预算/块消融+13时间模型、审批语义审计、完整CI及9图。",
+      "next_action": "不自动换团队模型；后续先多时点训练/滚动验证与目标定义。",
+      "my_next_action": "按真实团队成果确认展示采用版本并收H07。",
+      "depends_on": [
+        "common-candidate-comparison"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "ablation",
+          "label": "固定AE对象的预算/六块条件消融及完整统计完成",
+          "status": "pass",
+          "evidence": []
+        },
+        {
+          "id": "time",
+          "label": "Jul→Oct已见时间诊断与批准时点guard核验完成",
+          "status": "pass",
+          "evidence": []
+        },
+        {
+          "id": "review",
+          "label": "模型/指标读回、9图与主说明有界独审完成",
+          "status": "pass",
+          "evidence": []
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": "2026-11-12",
+      "completed_on": "2026-11-12",
+      "observed_on": "2026-11-12",
+      "estimated_minutes": null,
+      "state_basis": "只计本地研究范围，不计真实成员主任务/正式采用/提交。",
+      "evidence": [
+        {
+          "label": "AE后续验证结果与限制",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/ae-validation-results.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-12",
+          "status": "done",
+          "note": "用户继续验证，固定研究对象后完成148正式新拟合及来源/统计/可视化核验，不表示稳定升级获证。"
         }
       ]
     }

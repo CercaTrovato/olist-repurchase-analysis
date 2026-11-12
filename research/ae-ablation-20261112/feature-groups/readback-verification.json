@@ -1,0 +1,10 @@
+{
+  "status": "independent_saved_state_forward_and_metrics_pass",
+  "models_checked": 90,
+  "max_logit_abs_diff": 0.0,
+  "input_source_unchanged": true,
+  "parent_15_baseline_records_and_scores_unchanged": true,
+  "failures": [],
+  "verification_code_sha256": "b4cbdce8cb5f7882393dd02cd0eb317b3c21a1f3a09fa1f8adb4b9b29b665434",
+  "april_rows_read": 0
+}

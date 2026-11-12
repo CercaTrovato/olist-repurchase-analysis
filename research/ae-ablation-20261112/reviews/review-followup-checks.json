@@ -1,0 +1,105 @@
+{
+  "source_records": 200,
+  "new_records": 135,
+  "reused_records": 65,
+  "jan_metric_rows_recomputed": 140,
+  "existing_bootstrap_interval_quantiles_recomputed": 350,
+  "new_bootstrap_replicates": 0,
+  "budget_first50_paired_state_hashes": 30,
+  "shuffled_fixed_points_recorded": 0,
+  "temporal_primary_metric_rows_recomputed": 10,
+  "temporal_primary_hits": {
+    "weightedLR__base8__s2026/all": 36,
+    "weightedLR__base8__s2026/long": 2,
+    "mean__full141__seedmean/all": 29,
+    "mean__full141__seedmean/long": 1,
+    "AE__full141__seedmean/all": 31,
+    "AE__full141__seedmean/long": 1,
+    "encodedCB__full141__seedmean/all": 42,
+    "encodedCB__full141__seedmean/long": 1,
+    "nativeCB__full141__seedmean/all": 40,
+    "nativeCB__full141__seedmean/long": 0
+  },
+  "jan_canonical_hits": {
+    "AE-full": {
+      "all": 51,
+      "long": 4
+    },
+    "mean50": {
+      "all": 52,
+      "long": 3
+    },
+    "mean70": {
+      "all": 50,
+      "long": 2
+    },
+    "mean3040": {
+      "all": 41,
+      "long": 0
+    },
+    "AE-shuffled": {
+      "all": 50,
+      "long": 3
+    },
+    "AE-drop-behavior": {
+      "all": 58,
+      "long": 4
+    }
+  },
+  "budget_source_sha256": "26603cddd1c97a74b8da5ac25cb1d57dec915aaedd3b9c341a9ff3a613fd0cd3",
+  "statistics_csv_sha256": "12dd68bb894490865309eda7f01d4f8305ef3361e9b6ef108f4f44b56e218c5c",
+  "training_runs_executed_by_reviewer": 0,
+  "scope": "Stored-score recomputation, recorded budget prefix hashes, source inspection; no model retraining or independent full forward replay.",
+  "status": "bounded_independent_review_pass_after_two_targeted_closures",
+  "reviewer_participated_in_authorship": false,
+  "blind_review": false,
+  "unclosed_material_findings": 0,
+  "initial_readability_findings": 2,
+  "closed_readability_findings": 2,
+  "readability_closure_lines": [
+    21,
+    23,
+    25
+  ],
+  "full_model_forward_replay_by_reviewer": false,
+  "raw_nine_table_reconstruction_by_reviewer": false,
+  "april_snapshots_labels_scores_read_by_reviewer": 0,
+  "git_or_board_operations_by_reviewer": 0,
+  "new_model_fits_by_reviewer": 0,
+  "artifact_sha256": {
+    "README.md": "b398aa72a0eb05cfc9cea30bc72248d08628ab6ea987356694bfe16f328b5973",
+    "review-followup-final.md": "1ceb089d62ff3480352e2a9bfd4c964416be72786c6e9853a14b970b7519a03a",
+    "statistics/blocks-canonical-conditional-intervals.png": "e33130f24c7d87690151cddabe36f55034e680eaf00ce8f1eff1ada636937ca4",
+    "temporal/temporal-comparison.png": "e97094ca6073a56a1172d2d0a672d8b32fc2fd8fab08dfa7b7480681c808bd7f"
+  },
+  "figures_actually_opened": [
+    "statistics/blocks-canonical-conditional-intervals.png",
+    "temporal/temporal-comparison.png",
+    "figures/time-combination-relative-gains.png"
+  ],
+  "prior_main_review_README_sha256": "bc1d44a36dd44591d06555f7042861b509dc3c97b23e4bd2d6d173adc3495c05",
+  "presentation_supplement": {
+    "status": "targeted_presentation_supplement_pass",
+    "rows_recomputed": 16,
+    "precision_change_formula": "100 * (candidate_hits - within_window_WLR_hits) / within_window_K",
+    "Jan_global_K": 2937,
+    "Oct_global_K": 2116,
+    "both_long_K": 79,
+    "actual_PNG_opened": "figures/time-combination-relative-gains.png",
+    "PNG_text_boundaries": "title, 16 hit annotations, both x labels, legend and two disclaimer lines visible and within canvas",
+    "no_new_training_or_bootstrap": true,
+    "reviewed_README_lines": [
+      78,
+      90,
+      92,
+      94
+    ],
+    "sha256": {
+      "README.md": "b398aa72a0eb05cfc9cea30bc72248d08628ab6ea987356694bfe16f328b5973",
+      "plot_time_direction.py": "dc659a50796d26775303522c9772687a1c6ea75330fe6ba4ace11b72e7a69462",
+      "time-direction-chart-data.csv": "75643ced3c6ec2131daaa717557b4ebdf3d318d04d29db0cf741c68d79659239",
+      "figures/time-combination-relative-gains.png": "1b3276b9b8629e487ebacface7339a10124fc8a259cc1929c7714eeeb45a773d",
+      "figures/time-combination-relative-gains.svg": "77b593e845df2ceb32a0536c15a357a452edcd6e6b03a540ccd9a19d3d4763ac"
+    }
+  }
+}

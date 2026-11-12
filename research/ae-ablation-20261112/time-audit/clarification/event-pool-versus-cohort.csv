@@ -1,0 +1,3 @@
+snapshot_date,label_start_inclusive,label_end_exclusive,cohort_customers,whole_label_window_eligible_orders,whole_label_window_unique_customers,matched_cohort_repurchase_orders,matched_cohort_positive_customers,matched_cohort_single_event_positive_customers,matched_cohort_multi_event_positive_customers,max_label_events_one_cohort_customer,unmatched_window_orders,last_approval_used_for_labels
+2017-07-01,2017-07-01,2017-09-29,14012,12261,11970,129,120,113,7,4,12132,2017-09-28 23:56:07
+2017-10-01,2017-10-01,2017-12-30,21160,17490,17156,230,211,198,13,4,17260,2017-12-29 23:36:29

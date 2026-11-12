@@ -1,0 +1,9 @@
+{
+  "status": "fit_only_timing_no_cal_or_jan_forward",
+  "pilot_pretrain_epochs": 1,
+  "pilot_supervised_epochs": 1,
+  "pretrain_seconds": 0.33004680000885855,
+  "supervised_seconds": 0.12078589999873657,
+  "extrapolated_90_training_seconds": 1137.62079001026,
+  "caveat": "Linear warmup timing estimate, excludes inference/save/calibration and shared CPU contention."
+}

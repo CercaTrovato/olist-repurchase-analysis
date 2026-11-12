@@ -1,0 +1,172 @@
+{
+  "status": "statistical_plan_and_code_frozen_before_complete_matrix_execution",
+  "source_sha256": {
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\ae-followup\\statistics\\plan.md": "f29ad6015839b7f5f81ad3fbbcfa51f482dc4ff8535642d4695eed7f8db29d22",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\ae-followup\\statistics\\run_statistics.py": "d2f774a40def1cb6ed44d6ef663e25c54e4d3d4181967ee11395b17502c2adc4",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\ae-followup\\statistics\\verify_statistics.py": "4eadb730e0fff410dcc3e3df2d3283429d0e44c2612b2a1643a0a0bebfd7fa07",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\ae-followup\\statistics\\render_statistics.py": "7718dd1feb65bc95796517670f1b8e39d2cc2bbe96e2d261d2f333476b43256d",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\ae-followup\\task_plan.md": "0d90f392b7c6af9e211d6a2ae295cf170b792e1ae371d5c78436b9df091ffad4",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\ae-followup\\candidate-freeze.json": "299b15035d0bb18efb5487fc7d0f12f1c4d0966bc82fcd649c47905f9c85a9c8",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\statistics\\statistics_core.py": "8ce1cfb672cc71554d7a05db5597045de2b86fd36499db15076bd2ed8c32e3d6",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\statistics\\run_statistics.py": "fa86c466f483a4d25241769ab94acc7e10ab7929051e61273f2401ac0ed89734",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\statistics\\producer_adapter.py": "2ddd520ac27a3092bd9a94ebd21570901812728541faa93f7ff095953a81a703",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\eval_harness.py": "ae94dab62cd4bbd4b1b7c7098601640adaa945a60e15bb12e4d5050156e3ff1c",
+    "E:\\app-data\\codex\\outputs\\is6400-common-comparison-20261112\\shared\\data-manifest.json": "1be6816d26676a2ed08a83be4f7f212e79d13c7fba88d663f84e9d3b904e8d57"
+  },
+  "systems": [
+    "AE-full",
+    "mean50",
+    "WLR-base8",
+    "encodedCB-full",
+    "nativeCB-full",
+    "mean70",
+    "mean3040",
+    "AE-shuffled",
+    "AE-drop-behavior",
+    "AE-drop-geography",
+    "AE-drop-products",
+    "AE-drop-commerce",
+    "AE-drop-service",
+    "AE-drop-seller-context"
+  ],
+  "new_cases": [
+    "mean70",
+    "mean3040",
+    "AE-shuffled",
+    "AE-drop-behavior",
+    "AE-drop-geography",
+    "AE-drop-products",
+    "AE-drop-commerce",
+    "AE-drop-service",
+    "AE-drop-seller-context"
+  ],
+  "contrasts": [
+    [
+      "mean70",
+      "AE-full",
+      "new_case_vs_AE-full"
+    ],
+    [
+      "mean70",
+      "WLR-base8",
+      "new_case_vs_WLR-base8"
+    ],
+    [
+      "mean3040",
+      "AE-full",
+      "new_case_vs_AE-full"
+    ],
+    [
+      "mean3040",
+      "WLR-base8",
+      "new_case_vs_WLR-base8"
+    ],
+    [
+      "AE-shuffled",
+      "AE-full",
+      "new_case_vs_AE-full"
+    ],
+    [
+      "AE-shuffled",
+      "WLR-base8",
+      "new_case_vs_WLR-base8"
+    ],
+    [
+      "AE-drop-behavior",
+      "AE-full",
+      "new_case_vs_AE-full"
+    ],
+    [
+      "AE-drop-behavior",
+      "WLR-base8",
+      "new_case_vs_WLR-base8"
+    ],
+    [
+      "AE-drop-geography",
+      "AE-full",
+      "new_case_vs_AE-full"
+    ],
+    [
+      "AE-drop-geography",
+      "WLR-base8",
+      "new_case_vs_WLR-base8"
+    ],
+    [
+      "AE-drop-products",
+      "AE-full",
+      "new_case_vs_AE-full"
+    ],
+    [
+      "AE-drop-products",
+      "WLR-base8",
+      "new_case_vs_WLR-base8"
+    ],
+    [
+      "AE-drop-commerce",
+      "AE-full",
+      "new_case_vs_AE-full"
+    ],
+    [
+      "AE-drop-commerce",
+      "WLR-base8",
+      "new_case_vs_WLR-base8"
+    ],
+    [
+      "AE-drop-service",
+      "AE-full",
+      "new_case_vs_AE-full"
+    ],
+    [
+      "AE-drop-service",
+      "WLR-base8",
+      "new_case_vs_WLR-base8"
+    ],
+    [
+      "AE-drop-seller-context",
+      "AE-full",
+      "new_case_vs_AE-full"
+    ],
+    [
+      "AE-drop-seller-context",
+      "WLR-base8",
+      "new_case_vs_WLR-base8"
+    ],
+    [
+      "mean50",
+      "AE-full",
+      "retained_reference_vs_AE-full"
+    ],
+    [
+      "mean50",
+      "WLR-base8",
+      "retained_reference_vs_WLR-base8"
+    ],
+    [
+      "encodedCB-full",
+      "AE-full",
+      "retained_reference_vs_AE-full"
+    ],
+    [
+      "encodedCB-full",
+      "WLR-base8",
+      "retained_reference_vs_WLR-base8"
+    ],
+    [
+      "nativeCB-full",
+      "AE-full",
+      "retained_reference_vs_AE-full"
+    ],
+    [
+      "nativeCB-full",
+      "WLR-base8",
+      "retained_reference_vs_WLR-base8"
+    ],
+    [
+      "AE-full",
+      "WLR-base8",
+      "fixed_candidate_vs_target_reference"
+    ]
+  ],
+  "expected_records": 200,
+  "bootstrap_replicates_per_scope": 2000
+}

@@ -1,0 +1,26 @@
+{
+  "status": "execution_complete_independent_readback_pending",
+  "models": 13,
+  "AE_pretraining_runs": 3,
+  "seconds": 82.75471280000056,
+  "April_snapshot_label_score_reads": 0,
+  "Oct_used_for_fit": false,
+  "source_freeze_sha256": "265406c5cbac00e37ce05035691f0ebb6e8fe53dce04648e3cbd4bd4b275d56d",
+  "plan_sha256": "00859281621430802cecba758b3499f89bce24381bbadf73fbfe28e476d50dab",
+  "CPU_threads": 2,
+  "dims": [
+    40,
+    385,
+    97,
+    102,
+    42,
+    14
+  ],
+  "init_pairing": {
+    "2026": "c080f6939fcad31f41fc43d8c0db286ffaa8e0d75a69409a28f9e6c4de513fee",
+    "2027": "db2da3bf49b0a1158a03926d7d8cd854a9c3487808e80f644d5418d163286911",
+    "2028": "fa1b6f368412eccf3c3dda811f8667f8f4a1920706f7a276cb83f58e3a34bbd3"
+  },
+  "calibrator_readout": "July-cal resubstitution",
+  "old_audit_unchanged": true
+}

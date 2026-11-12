@@ -1,0 +1,67 @@
+{
+  "status": "fit_only_no_calibration_or_Jan_scoring",
+  "extra_discarded_supervised_fits": 3,
+  "extra_discarded_pretraining_fits": 1,
+  "runs": [
+    {
+      "case": "mean70",
+      "discarded_timing_fit": true,
+      "pretraining": {},
+      "supervised": {
+        "supervised_seconds": 0.24467379999987315,
+        "supervised_order_sha256": "95f30505099b2efdfc8dcb4530c9094d12705131092ad6f5ec15db18ef552c0a",
+        "supervised_first50_order_sha256": null,
+        "supervised_first50_encoder_head_state_sha256": null,
+        "supervised_consumed_batch_order_sha256": "95f30505099b2efdfc8dcb4530c9094d12705131092ad6f5ec15db18ef552c0a",
+        "supervised_updates": 68,
+        "supervised_clients": 33856,
+        "supervised_complete_epochs": 2,
+        "supervised_partial_epoch_batches": 0,
+        "Adam_reset_during_supervised": false
+      }
+    },
+    {
+      "case": "mean3040",
+      "discarded_timing_fit": true,
+      "pretraining": {},
+      "supervised": {
+        "supervised_seconds": 0.23180339999089483,
+        "supervised_order_sha256": "95f30505099b2efdfc8dcb4530c9094d12705131092ad6f5ec15db18ef552c0a",
+        "supervised_first50_order_sha256": null,
+        "supervised_first50_encoder_head_state_sha256": null,
+        "supervised_consumed_batch_order_sha256": "95f30505099b2efdfc8dcb4530c9094d12705131092ad6f5ec15db18ef552c0a",
+        "supervised_updates": 68,
+        "supervised_clients": 33856,
+        "supervised_complete_epochs": 2,
+        "supervised_partial_epoch_batches": 0,
+        "Adam_reset_during_supervised": false
+      }
+    },
+    {
+      "case": "AE-shuffled",
+      "discarded_timing_fit": true,
+      "pretraining": {
+        "pretraining_seconds": 0.7512456999975257,
+        "pretraining_order_sha256": "1aab6eec51be211d6129f5007ef8529036d9731349a67cf26e5545d2df5752df",
+        "target_permutation_sha256": "8a459464c2f906e1d2949f8075fe672c96e8a79040a385aeacd0f1bac047530c",
+        "initial_aligned_fit_MSE": 0.47465039172785495,
+        "final_aligned_fit_MSE": 0.35439976542793733,
+        "pretraining_updates": 134,
+        "pretraining_clients": 33856,
+        "target_fixed_points": 0
+      },
+      "supervised": {
+        "supervised_seconds": 0.2083466999902157,
+        "supervised_order_sha256": "95f30505099b2efdfc8dcb4530c9094d12705131092ad6f5ec15db18ef552c0a",
+        "supervised_first50_order_sha256": null,
+        "supervised_first50_encoder_head_state_sha256": null,
+        "supervised_consumed_batch_order_sha256": "95f30505099b2efdfc8dcb4530c9094d12705131092ad6f5ec15db18ef552c0a",
+        "supervised_updates": 68,
+        "supervised_clients": 33856,
+        "supervised_complete_epochs": 2,
+        "supervised_partial_epoch_batches": 0,
+        "Adam_reset_during_supervised": false
+      }
+    }
+  ]
+}

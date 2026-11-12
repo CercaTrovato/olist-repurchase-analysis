@@ -1,0 +1,11 @@
+{
+  "H02_history": "hist=events.loc[events.order_approved_at.ge(start)&events.order_approved_at.lt(cut)]",
+  "H02_label": "future=events.loc[events.order_approved_at.ge(cut)&events.order_approved_at.lt(end)]",
+  "P2_history": "h=orders.loc[orders.order_approved_at.ge(start)&orders.order_approved_at.lt(t)].copy()",
+  "H02_qualification": "order_approved_at.notna() & amount.gt(0)",
+  "P2_qualification": "order_approved_at.notna() & price_sum.gt(0) & customer_unique_id.notna()",
+  "time_basis": "approval timestamp, not purchase timestamp",
+  "h02_notebook_member_sha256": "1d256658ec8b7dc860bf65f8fbb4aa4a184c7a7a3dbdfd3a98e907b6fd0c9d24",
+  "h02_member": "H02_candidate_v2/reproduce/notebooks/03-role01-h02-coverage-features-labels.ipynb",
+  "p2_source_sha256": "72e9aed1bc4387ab8767cfb854a3335dd27d8e9e2d7e3f7f1163495682571e67"
+}

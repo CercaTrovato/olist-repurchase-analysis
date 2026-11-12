@@ -1,0 +1,3 @@
+snapshot_date,history_start_inclusive,history_end_exclusive,label_start_inclusive,label_end_exclusive,mature_at,customers,positives,positive_rate,history_orders,label_eligible_orders,positive_customers_with_multiple_label_events,history_days,history_zero_event_days,history_longest_zero_run,history_min_orders_per_day,history_max_orders_per_day,label_days,label_zero_event_days,label_longest_zero_run,label_min_orders_per_day,label_max_orders_per_day
+2017-07-01,2017-01-01,2017-07-01,2017-07-01,2017-09-29,2017-09-29,14012,120,0.008564087924636025,14374,12261,7,181,4,4,0,192,90,0,0,75,221
+2017-10-01,2017-04-01,2017-10-01,2017-10-01,2017-12-30,2017-12-30,21160,211,0.00997164461247637,21757,17490,13,183,0,0,43,221,90,0,0,52,791

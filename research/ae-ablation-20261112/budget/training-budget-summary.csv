@@ -1,0 +1,4 @@
+case,runs,supervised_updates,pretraining_updates,labeled_client_presentations,total_input_client_presentations,supervised_seconds_median,pretraining_seconds_median,fit_BCE_mean
+AE-shuffled,15,1700,1340,846400,1184960,4.4825566000072286,6.3119885000051,0.050614704571050065
+mean3040,15,3040,0,1513760,1513760,8.134867500004475,0.0,0.044009744881011614
+mean70,15,2380,0,1184960,1184960,6.358872199998586,0.0,0.046928416732276705

@@ -1,0 +1,18 @@
+{
+  "status": "statistics_complete_render_and_readback_pending",
+  "records": 200,
+  "new_records": 135,
+  "reused_reference_records": 65,
+  "systems": 14,
+  "ensemble_cells": 70,
+  "source_metric_discrepancies": 0,
+  "bootstrap_replicates_per_scope": 2000,
+  "bootstrap_rows": 56000,
+  "interval_rows": 350,
+  "elapsed_seconds": 88.20117880000907,
+  "source_freeze_sha256": "dd2677af39a424333166f22e15e15f79e2f6f967e38a31dfabac2b95318d9a3a",
+  "input_binding_sha256": "c292072d243fdb31f2035c067f536eaf625a3fd14b95048e3f63322ea32afad7",
+  "formal_adoption": false,
+  "temporal_models_included": 0,
+  "April_rows_read": 0
+}

@@ -1,0 +1,15 @@
+{
+  "status": "complete_after_independent_readback",
+  "model_fits": 13,
+  "AE_pretraining_runs": 3,
+  "new_time_splits": 1,
+  "new_April_reads": 0,
+  "models_added_after_results": 0,
+  "parameter_changes_after_results": 0,
+  "source_freeze_sha256": "265406c5cbac00e37ce05035691f0ebb6e8fe53dce04648e3cbd4bd4b275d56d",
+  "verification_sha256": "58ac7f9ffe5e7f3f59f4f668b8d46001b2c887f86d7becf2253865837db07fb9",
+  "old_time_audit_hashes_unchanged": 20,
+  "old_clarification_hashes_unchanged": 8,
+  "scientific_status": "seen October time diagnostic; not blind; no architecture/feature/seed/window selection",
+  "visual_status": "both exported PNG figures actually opened and inspected"
+}

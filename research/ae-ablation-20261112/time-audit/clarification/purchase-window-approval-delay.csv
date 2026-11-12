@@ -1,0 +1,5 @@
+snapshot_date,label_start_inclusive,label_end_exclusive,scope,positive_amount_purchase_window_orders,purchased_in_window_approved_at_or_after_end_orders,delayed_unique_customers,latest_delayed_approval,max_approval_days_after_label_end,purchase_window_missing_approval_orders,late_orders_selected_in_current_approval_label,delayed_customers_current_y0
+2017-07-01,2017-07-01,2017-09-29,all_window_purchasers,12280,62,62,2017-10-06 15:14:17,7.634918981481482,0,0,
+2017-07-01,2017-07-01,2017-09-29,matched_existing_cohort,129,0,0,,,0,0,0.0
+2017-10-01,2017-10-01,2017-12-30,all_window_purchasers,17473,28,28,2018-01-04 23:17:32,5.970509259259259,0,0,
+2017-10-01,2017-10-01,2017-12-30,matched_existing_cohort,228,0,0,,,0,0,0.0

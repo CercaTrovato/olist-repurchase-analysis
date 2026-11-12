@@ -1,0 +1,9 @@
+{
+  "records": 90,
+  "candidate_and_followup_plan_all_match": true,
+  "candidate_freeze_sha256": "299b15035d0bb18efb5487fc7d0f12f1c4d0966bc82fcd649c47905f9c85a9c8",
+  "followup_plan_sha256": "0d90f392b7c6af9e211d6a2ae295cf170b792e1ae371d5c78436b9df091ffad4",
+  "pretraining_updates": 120600,
+  "supervised_updates": 153000,
+  "client_exposures": 106646400
+}

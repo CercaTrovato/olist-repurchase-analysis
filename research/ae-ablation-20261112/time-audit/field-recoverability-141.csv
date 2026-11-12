@@ -1,0 +1,142 @@
+field,logical_block,constructor,recovery_status,october_numeric_reproduction,original_assumptions,new_assumptions_introduced
+R,behavior,H02 make_snapshot,actually_rebuilt_July_and_October,True,,False
+F,behavior,H02 make_snapshot,actually_rebuilt_July_and_October,True,,False
+M,behavior,H02 make_snapshot,actually_rebuilt_July_and_October,True,,False
+average_item_rows,behavior,H02 make_snapshot,actually_rebuilt_July_and_October,True,,False
+freight_share,behavior,H02 make_snapshot,actually_rebuilt_July_and_October,True,,False
+recent30_orders,behavior,H02 make_snapshot,actually_rebuilt_July_and_October,True,,False
+recent30_spend,behavior,H02 make_snapshot,actually_rebuilt_July_and_October,True,,False
+state,behavior,H02 make_snapshot,actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+average_order_value,behavior,H02 make_snapshot,actually_rebuilt_July_and_October,True,,False
+max_order_value,behavior,H02 make_snapshot,actually_rebuilt_July_and_October,True,,False
+observed_history_days,behavior,H02 make_snapshot,actually_rebuilt_July_and_October,True,,False
+last_customer_city,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+last_customer_zip_code_prefix,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+last_customer_state,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+last_buyer_lat,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+last_buyer_lng,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+buyer_cities_nunique,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+buyer_states_nunique,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+approval_delay_days_mean,commerce,P2 build(date),actually_rebuilt_July_and_October,True,,False
+approval_delay_days_max,commerce,P2 build(date),actually_rebuilt_July_and_October,True,,False
+approval_delay_days_std,commerce,P2 build(date),actually_rebuilt_July_and_October,True,,False
+promised_delivery_days_mean,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+promised_delivery_days_max,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+promised_delivery_days_std,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+purchase_hour_mean,commerce,P2 build(date),actually_rebuilt_July_and_October,True,,False
+purchase_hour_max,commerce,P2 build(date),actually_rebuilt_July_and_October,True,,False
+purchase_hour_std,commerce,P2 build(date),actually_rebuilt_July_and_October,True,,False
+purchase_weekday_mean,commerce,P2 build(date),actually_rebuilt_July_and_October,True,,False
+purchase_weekday_max,commerce,P2 build(date),actually_rebuilt_July_and_October,True,,False
+purchase_weekday_std,commerce,P2 build(date),actually_rebuilt_July_and_October,True,,False
+carrier_days_mean,service,P2 build(date),actually_rebuilt_July_and_October,True,,False
+carrier_days_max,service,P2 build(date),actually_rebuilt_July_and_October,True,,False
+carrier_days_std,service,P2 build(date),actually_rebuilt_July_and_October,True,,False
+in_transit_share_mean,service,P2 build(date),actually_rebuilt_July_and_October,True,,False
+price_mean,commerce,P2 build(date),actually_rebuilt_July_and_October,True,,False
+price_max,commerce,P2 build(date),actually_rebuilt_July_and_October,True,,False
+price_std,commerce,P2 build(date),actually_rebuilt_July_and_October,True,,False
+freight_value_mean,commerce,P2 build(date),actually_rebuilt_July_and_October,True,,False
+freight_value_max,commerce,P2 build(date),actually_rebuilt_July_and_October,True,,False
+freight_value_std,commerce,P2 build(date),actually_rebuilt_July_and_October,True,,False
+product_name_lenght_mean,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_name_lenght_max,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_name_lenght_std,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_description_lenght_mean,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_description_lenght_max,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_description_lenght_std,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_photos_qty_mean,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_photos_qty_max,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_photos_qty_std,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_weight_g_mean,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_weight_g_max,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_weight_g_std,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_length_cm_mean,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_length_cm_max,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_length_cm_std,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_height_cm_mean,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_height_cm_max,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_height_cm_std,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_width_cm_mean,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_width_cm_max,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_width_cm_std,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_volume_cm3_mean,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_volume_cm3_max,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_volume_cm3_std,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+shipping_limit_days_mean,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+shipping_limit_days_max,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+shipping_limit_days_std,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+product_id_historical_frequency_mean,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_id_historical_frequency_max,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_id_historical_frequency_std,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+product_id_nunique,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+seller_id_historical_frequency_mean,seller_context,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+seller_id_historical_frequency_max,seller_context,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+seller_id_historical_frequency_std,seller_context,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+seller_id_nunique,seller_context,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+historical_category_mode,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+categories_nunique,products,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+last_seller_city,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+last_seller_state,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+last_seller_zip_code_prefix,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+last_seller_lat,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+last_seller_lng,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+seller_city_nunique,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+seller_state_nunique,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+seller_zip_code_prefix_nunique,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+distance_km_mean,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+distance_km_max,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+distance_km_std,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+same_state_mean,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+last_order_distance_km,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+distance_known_share,geography,P2 build(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+payment_rows_mean,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_rows_max,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_rows_std,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_value_total_mean,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_value_total_max,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_value_total_std,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_installments_max_mean,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_installments_max_max,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_installments_max_std,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_credit_card_share_mean,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_credit_card_share_max,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_credit_card_share_std,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_boleto_share_mean,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_boleto_share_max,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_boleto_share_std,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_voucher_share_mean,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_voucher_share_max,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_voucher_share_std,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_debit_card_share_mean,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_debit_card_share_max,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_debit_card_share_std,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_not_defined_share_mean,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_not_defined_share_max,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+payment_not_defined_share_std,commerce,P2 build(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+review_score_mean,service,P2 build(date),actually_rebuilt_July_and_October,True,,False
+review_score_max,service,P2 build(date),actually_rebuilt_July_and_October,True,,False
+review_score_std,service,P2 build(date),actually_rebuilt_July_and_October,True,,False
+review_response_days_mean,service,P2 build(date),actually_rebuilt_July_and_October,True,,False
+review_response_days_max,service,P2 build(date),actually_rebuilt_July_and_October,True,,False
+review_response_days_std,service,P2 build(date),actually_rebuilt_July_and_October,True,,False
+review_text_chars_mean,service,P2 build(date),actually_rebuilt_July_and_October,True,,False
+review_text_chars_max,service,P2 build(date),actually_rebuilt_July_and_October,True,,False
+review_text_chars_std,service,P2 build(date),actually_rebuilt_July_and_October,True,,False
+known_review_count,service,P2 build(date),actually_rebuilt_July_and_October,True,,False
+review_text_present,service,P2 build(date),actually_rebuilt_July_and_October,True,,False
+seller_other_buyers_log_mean,seller_context,context build_context(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+seller_other_orders_log_mean,seller_context,context build_context(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+seller_other_repeat_smoothed_mean,seller_context,context build_context(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+basket_sellers_mean,commerce,context build_context(date),actually_rebuilt_July_and_October,True,,False
+basket_products_mean,commerce,context build_context(date),actually_rebuilt_July_and_October,True,,False
+basket_categories_mean,commerce,context build_context(date),actually_rebuilt_July_and_October,True,Static customer/product/seller/geolocation extract; no attribute change logs,False
+credit_order_share,commerce,context build_context(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+boleto_order_share,commerce,context build_context(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+installments_max_mean,commerce,context build_context(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+delivery_known_any,service,service make_new(date),actually_rebuilt_July_and_October,True,,False
+known_late_rate,service,service make_new(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+last_order_late,service,service make_new(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False
+known_delivery_days_mean,service,service make_new(date),actually_rebuilt_July_and_October,True,,False
+review_known_any,service,service make_new(date),actually_rebuilt_July_and_October,True,,False
+latest_known_review_score,service,service make_new(date),actually_rebuilt_July_and_October,True,"; values assumed known at approval and unchanged, no availability/rewrite log",False

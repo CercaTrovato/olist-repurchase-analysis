@@ -1,0 +1,762 @@
+[
+  {
+    "split_id": 20261111,
+    "model": "AE-full",
+    "run_ids": [
+      "split20261111__full141__AE__s2026",
+      "split20261111__full141__AE__s2027",
+      "split20261111__full141__AE__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261111,
+    "model": "mean50",
+    "run_ids": [
+      "split20261111__full141__mean__s2026",
+      "split20261111__full141__mean__s2027",
+      "split20261111__full141__mean__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261111,
+    "model": "WLR-base8",
+    "run_ids": [
+      "weightedLR-base8-split20261111"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 1
+  },
+  {
+    "split_id": 20261111,
+    "model": "encodedCB-full",
+    "run_ids": [
+      "encodedCatBoost-full141-split20261111-seed2026",
+      "encodedCatBoost-full141-split20261111-seed2027",
+      "encodedCatBoost-full141-split20261111-seed2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261111,
+    "model": "nativeCB-full",
+    "run_ids": [
+      "nativeCatBoost-full141-split20261111-seed2026",
+      "nativeCatBoost-full141-split20261111-seed2027",
+      "nativeCatBoost-full141-split20261111-seed2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261111,
+    "model": "mean70",
+    "run_ids": [
+      "split20261111__full141__mean70__s2026",
+      "split20261111__full141__mean70__s2027",
+      "split20261111__full141__mean70__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261111,
+    "model": "mean3040",
+    "run_ids": [
+      "split20261111__full141__mean3040__s2026",
+      "split20261111__full141__mean3040__s2027",
+      "split20261111__full141__mean3040__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261111,
+    "model": "AE-shuffled",
+    "run_ids": [
+      "split20261111__full141__AE-shuffled__s2026",
+      "split20261111__full141__AE-shuffled__s2027",
+      "split20261111__full141__AE-shuffled__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261111,
+    "model": "AE-drop-behavior",
+    "run_ids": [
+      "split20261111__full141__AE-drop-behavior__s2026",
+      "split20261111__full141__AE-drop-behavior__s2027",
+      "split20261111__full141__AE-drop-behavior__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261111,
+    "model": "AE-drop-geography",
+    "run_ids": [
+      "split20261111__full141__AE-drop-geography__s2026",
+      "split20261111__full141__AE-drop-geography__s2027",
+      "split20261111__full141__AE-drop-geography__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261111,
+    "model": "AE-drop-products",
+    "run_ids": [
+      "split20261111__full141__AE-drop-products__s2026",
+      "split20261111__full141__AE-drop-products__s2027",
+      "split20261111__full141__AE-drop-products__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261111,
+    "model": "AE-drop-commerce",
+    "run_ids": [
+      "split20261111__full141__AE-drop-commerce__s2026",
+      "split20261111__full141__AE-drop-commerce__s2027",
+      "split20261111__full141__AE-drop-commerce__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261111,
+    "model": "AE-drop-service",
+    "run_ids": [
+      "split20261111__full141__AE-drop-service__s2026",
+      "split20261111__full141__AE-drop-service__s2027",
+      "split20261111__full141__AE-drop-service__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261111,
+    "model": "AE-drop-seller-context",
+    "run_ids": [
+      "split20261111__full141__AE-drop-seller-context__s2026",
+      "split20261111__full141__AE-drop-seller-context__s2027",
+      "split20261111__full141__AE-drop-seller-context__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261112,
+    "model": "AE-full",
+    "run_ids": [
+      "split20261112__full141__AE__s2026",
+      "split20261112__full141__AE__s2027",
+      "split20261112__full141__AE__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261112,
+    "model": "mean50",
+    "run_ids": [
+      "split20261112__full141__mean__s2026",
+      "split20261112__full141__mean__s2027",
+      "split20261112__full141__mean__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261112,
+    "model": "WLR-base8",
+    "run_ids": [
+      "weightedLR-base8-split20261112"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 1
+  },
+  {
+    "split_id": 20261112,
+    "model": "encodedCB-full",
+    "run_ids": [
+      "encodedCatBoost-full141-split20261112-seed2026",
+      "encodedCatBoost-full141-split20261112-seed2027",
+      "encodedCatBoost-full141-split20261112-seed2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261112,
+    "model": "nativeCB-full",
+    "run_ids": [
+      "nativeCatBoost-full141-split20261112-seed2026",
+      "nativeCatBoost-full141-split20261112-seed2027",
+      "nativeCatBoost-full141-split20261112-seed2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261112,
+    "model": "mean70",
+    "run_ids": [
+      "split20261112__full141__mean70__s2026",
+      "split20261112__full141__mean70__s2027",
+      "split20261112__full141__mean70__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261112,
+    "model": "mean3040",
+    "run_ids": [
+      "split20261112__full141__mean3040__s2026",
+      "split20261112__full141__mean3040__s2027",
+      "split20261112__full141__mean3040__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261112,
+    "model": "AE-shuffled",
+    "run_ids": [
+      "split20261112__full141__AE-shuffled__s2026",
+      "split20261112__full141__AE-shuffled__s2027",
+      "split20261112__full141__AE-shuffled__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261112,
+    "model": "AE-drop-behavior",
+    "run_ids": [
+      "split20261112__full141__AE-drop-behavior__s2026",
+      "split20261112__full141__AE-drop-behavior__s2027",
+      "split20261112__full141__AE-drop-behavior__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261112,
+    "model": "AE-drop-geography",
+    "run_ids": [
+      "split20261112__full141__AE-drop-geography__s2026",
+      "split20261112__full141__AE-drop-geography__s2027",
+      "split20261112__full141__AE-drop-geography__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261112,
+    "model": "AE-drop-products",
+    "run_ids": [
+      "split20261112__full141__AE-drop-products__s2026",
+      "split20261112__full141__AE-drop-products__s2027",
+      "split20261112__full141__AE-drop-products__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261112,
+    "model": "AE-drop-commerce",
+    "run_ids": [
+      "split20261112__full141__AE-drop-commerce__s2026",
+      "split20261112__full141__AE-drop-commerce__s2027",
+      "split20261112__full141__AE-drop-commerce__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261112,
+    "model": "AE-drop-service",
+    "run_ids": [
+      "split20261112__full141__AE-drop-service__s2026",
+      "split20261112__full141__AE-drop-service__s2027",
+      "split20261112__full141__AE-drop-service__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261112,
+    "model": "AE-drop-seller-context",
+    "run_ids": [
+      "split20261112__full141__AE-drop-seller-context__s2026",
+      "split20261112__full141__AE-drop-seller-context__s2027",
+      "split20261112__full141__AE-drop-seller-context__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261113,
+    "model": "AE-full",
+    "run_ids": [
+      "split20261113__full141__AE__s2026",
+      "split20261113__full141__AE__s2027",
+      "split20261113__full141__AE__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261113,
+    "model": "mean50",
+    "run_ids": [
+      "split20261113__full141__mean__s2026",
+      "split20261113__full141__mean__s2027",
+      "split20261113__full141__mean__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261113,
+    "model": "WLR-base8",
+    "run_ids": [
+      "weightedLR-base8-split20261113"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 1
+  },
+  {
+    "split_id": 20261113,
+    "model": "encodedCB-full",
+    "run_ids": [
+      "encodedCatBoost-full141-split20261113-seed2026",
+      "encodedCatBoost-full141-split20261113-seed2027",
+      "encodedCatBoost-full141-split20261113-seed2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261113,
+    "model": "nativeCB-full",
+    "run_ids": [
+      "nativeCatBoost-full141-split20261113-seed2026",
+      "nativeCatBoost-full141-split20261113-seed2027",
+      "nativeCatBoost-full141-split20261113-seed2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261113,
+    "model": "mean70",
+    "run_ids": [
+      "split20261113__full141__mean70__s2026",
+      "split20261113__full141__mean70__s2027",
+      "split20261113__full141__mean70__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261113,
+    "model": "mean3040",
+    "run_ids": [
+      "split20261113__full141__mean3040__s2026",
+      "split20261113__full141__mean3040__s2027",
+      "split20261113__full141__mean3040__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261113,
+    "model": "AE-shuffled",
+    "run_ids": [
+      "split20261113__full141__AE-shuffled__s2026",
+      "split20261113__full141__AE-shuffled__s2027",
+      "split20261113__full141__AE-shuffled__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261113,
+    "model": "AE-drop-behavior",
+    "run_ids": [
+      "split20261113__full141__AE-drop-behavior__s2026",
+      "split20261113__full141__AE-drop-behavior__s2027",
+      "split20261113__full141__AE-drop-behavior__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261113,
+    "model": "AE-drop-geography",
+    "run_ids": [
+      "split20261113__full141__AE-drop-geography__s2026",
+      "split20261113__full141__AE-drop-geography__s2027",
+      "split20261113__full141__AE-drop-geography__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261113,
+    "model": "AE-drop-products",
+    "run_ids": [
+      "split20261113__full141__AE-drop-products__s2026",
+      "split20261113__full141__AE-drop-products__s2027",
+      "split20261113__full141__AE-drop-products__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261113,
+    "model": "AE-drop-commerce",
+    "run_ids": [
+      "split20261113__full141__AE-drop-commerce__s2026",
+      "split20261113__full141__AE-drop-commerce__s2027",
+      "split20261113__full141__AE-drop-commerce__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261113,
+    "model": "AE-drop-service",
+    "run_ids": [
+      "split20261113__full141__AE-drop-service__s2026",
+      "split20261113__full141__AE-drop-service__s2027",
+      "split20261113__full141__AE-drop-service__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261113,
+    "model": "AE-drop-seller-context",
+    "run_ids": [
+      "split20261113__full141__AE-drop-seller-context__s2026",
+      "split20261113__full141__AE-drop-seller-context__s2027",
+      "split20261113__full141__AE-drop-seller-context__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261114,
+    "model": "AE-full",
+    "run_ids": [
+      "split20261114__full141__AE__s2026",
+      "split20261114__full141__AE__s2027",
+      "split20261114__full141__AE__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261114,
+    "model": "mean50",
+    "run_ids": [
+      "split20261114__full141__mean__s2026",
+      "split20261114__full141__mean__s2027",
+      "split20261114__full141__mean__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261114,
+    "model": "WLR-base8",
+    "run_ids": [
+      "weightedLR-base8-split20261114"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 1
+  },
+  {
+    "split_id": 20261114,
+    "model": "encodedCB-full",
+    "run_ids": [
+      "encodedCatBoost-full141-split20261114-seed2026",
+      "encodedCatBoost-full141-split20261114-seed2027",
+      "encodedCatBoost-full141-split20261114-seed2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261114,
+    "model": "nativeCB-full",
+    "run_ids": [
+      "nativeCatBoost-full141-split20261114-seed2026",
+      "nativeCatBoost-full141-split20261114-seed2027",
+      "nativeCatBoost-full141-split20261114-seed2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261114,
+    "model": "mean70",
+    "run_ids": [
+      "split20261114__full141__mean70__s2026",
+      "split20261114__full141__mean70__s2027",
+      "split20261114__full141__mean70__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261114,
+    "model": "mean3040",
+    "run_ids": [
+      "split20261114__full141__mean3040__s2026",
+      "split20261114__full141__mean3040__s2027",
+      "split20261114__full141__mean3040__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261114,
+    "model": "AE-shuffled",
+    "run_ids": [
+      "split20261114__full141__AE-shuffled__s2026",
+      "split20261114__full141__AE-shuffled__s2027",
+      "split20261114__full141__AE-shuffled__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261114,
+    "model": "AE-drop-behavior",
+    "run_ids": [
+      "split20261114__full141__AE-drop-behavior__s2026",
+      "split20261114__full141__AE-drop-behavior__s2027",
+      "split20261114__full141__AE-drop-behavior__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261114,
+    "model": "AE-drop-geography",
+    "run_ids": [
+      "split20261114__full141__AE-drop-geography__s2026",
+      "split20261114__full141__AE-drop-geography__s2027",
+      "split20261114__full141__AE-drop-geography__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261114,
+    "model": "AE-drop-products",
+    "run_ids": [
+      "split20261114__full141__AE-drop-products__s2026",
+      "split20261114__full141__AE-drop-products__s2027",
+      "split20261114__full141__AE-drop-products__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261114,
+    "model": "AE-drop-commerce",
+    "run_ids": [
+      "split20261114__full141__AE-drop-commerce__s2026",
+      "split20261114__full141__AE-drop-commerce__s2027",
+      "split20261114__full141__AE-drop-commerce__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261114,
+    "model": "AE-drop-service",
+    "run_ids": [
+      "split20261114__full141__AE-drop-service__s2026",
+      "split20261114__full141__AE-drop-service__s2027",
+      "split20261114__full141__AE-drop-service__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261114,
+    "model": "AE-drop-seller-context",
+    "run_ids": [
+      "split20261114__full141__AE-drop-seller-context__s2026",
+      "split20261114__full141__AE-drop-seller-context__s2027",
+      "split20261114__full141__AE-drop-seller-context__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261115,
+    "model": "AE-full",
+    "run_ids": [
+      "split20261115__full141__AE__s2026",
+      "split20261115__full141__AE__s2027",
+      "split20261115__full141__AE__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261115,
+    "model": "mean50",
+    "run_ids": [
+      "split20261115__full141__mean__s2026",
+      "split20261115__full141__mean__s2027",
+      "split20261115__full141__mean__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261115,
+    "model": "WLR-base8",
+    "run_ids": [
+      "weightedLR-base8-split20261115"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 1
+  },
+  {
+    "split_id": 20261115,
+    "model": "encodedCB-full",
+    "run_ids": [
+      "encodedCatBoost-full141-split20261115-seed2026",
+      "encodedCatBoost-full141-split20261115-seed2027",
+      "encodedCatBoost-full141-split20261115-seed2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261115,
+    "model": "nativeCB-full",
+    "run_ids": [
+      "nativeCatBoost-full141-split20261115-seed2026",
+      "nativeCatBoost-full141-split20261115-seed2027",
+      "nativeCatBoost-full141-split20261115-seed2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261115,
+    "model": "mean70",
+    "run_ids": [
+      "split20261115__full141__mean70__s2026",
+      "split20261115__full141__mean70__s2027",
+      "split20261115__full141__mean70__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261115,
+    "model": "mean3040",
+    "run_ids": [
+      "split20261115__full141__mean3040__s2026",
+      "split20261115__full141__mean3040__s2027",
+      "split20261115__full141__mean3040__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261115,
+    "model": "AE-shuffled",
+    "run_ids": [
+      "split20261115__full141__AE-shuffled__s2026",
+      "split20261115__full141__AE-shuffled__s2027",
+      "split20261115__full141__AE-shuffled__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261115,
+    "model": "AE-drop-behavior",
+    "run_ids": [
+      "split20261115__full141__AE-drop-behavior__s2026",
+      "split20261115__full141__AE-drop-behavior__s2027",
+      "split20261115__full141__AE-drop-behavior__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261115,
+    "model": "AE-drop-geography",
+    "run_ids": [
+      "split20261115__full141__AE-drop-geography__s2026",
+      "split20261115__full141__AE-drop-geography__s2027",
+      "split20261115__full141__AE-drop-geography__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261115,
+    "model": "AE-drop-products",
+    "run_ids": [
+      "split20261115__full141__AE-drop-products__s2026",
+      "split20261115__full141__AE-drop-products__s2027",
+      "split20261115__full141__AE-drop-products__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261115,
+    "model": "AE-drop-commerce",
+    "run_ids": [
+      "split20261115__full141__AE-drop-commerce__s2026",
+      "split20261115__full141__AE-drop-commerce__s2027",
+      "split20261115__full141__AE-drop-commerce__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261115,
+    "model": "AE-drop-service",
+    "run_ids": [
+      "split20261115__full141__AE-drop-service__s2026",
+      "split20261115__full141__AE-drop-service__s2027",
+      "split20261115__full141__AE-drop-service__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  },
+  {
+    "split_id": 20261115,
+    "model": "AE-drop-seller-context",
+    "run_ids": [
+      "split20261115__full141__AE-drop-seller-context__s2026",
+      "split20261115__full141__AE-drop-seller-context__s2027",
+      "split20261115__full141__AE-drop-seller-context__s2028"
+    ],
+    "rule": "same-key mean(calibrated probability)",
+    "n_models": 3
+  }
+]

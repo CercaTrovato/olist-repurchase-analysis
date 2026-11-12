@@ -1,0 +1,17 @@
+{
+  "status": "all_200_scores_70_ensembles_350_intervals_replayed",
+  "records": 200,
+  "ensemble_cells": 70,
+  "independent_metric_rows": 140,
+  "bootstrap_rows": 56000,
+  "interval_rows": 350,
+  "direction_rows": 350,
+  "ensemble_mean_max_abs": 0.0,
+  "source_score_changes": 0,
+  "source_freeze_unchanged": true,
+  "calibration_successes": 200,
+  "calibration_residual_max": 6.251879165836138e-06,
+  "review_identity": "implementation validation only; not independent review of author budget runs",
+  "conditional_intervals": true,
+  "formal_team_adoption": false
+}

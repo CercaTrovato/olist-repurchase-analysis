@@ -1,0 +1,10 @@
+{
+  "status": "90_complete_independent_readback_pending",
+  "supervised_models": 90,
+  "AE_pretrains": 90,
+  "failure_count": 0,
+  "elapsed_this_process_seconds": 975.3900027000054,
+  "candidate_freeze_sha256": "299b15035d0bb18efb5487fc7d0f12f1c4d0966bc82fcd649c47905f9c85a9c8",
+  "sources_unchanged": true,
+  "april_rows_read": 0
+}

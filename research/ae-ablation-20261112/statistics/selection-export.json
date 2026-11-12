@@ -1,0 +1,11 @@
+{
+  "status": "fixed_score_deterministic_lists_saved_private",
+  "rows": 211120,
+  "systems": 14,
+  "split_system_cells": 70,
+  "score_rule": "mean(calibrated probability)",
+  "list_policy": "all K2937, long cluster1 K79, probability descending then customer/snapshot keys",
+  "private_path": "private/ensemble-selections.csv.gz",
+  "sha256": "1b47a8710c9432e029d3a0f0279ec536a46b1b14e44a1242a1b76f75ab60d502",
+  "source_code_sha256": "2e2fc69ea8f3c5cbd37a18fbd7b553ba333c15d8ca0c34788adeed679c1af6eb"
+}

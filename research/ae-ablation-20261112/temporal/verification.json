@@ -1,0 +1,27 @@
+{
+  "status": "independent_readback_pass",
+  "models": 13,
+  "AE_pretraining_runs": 3,
+  "model_period_forward_checks": 39,
+  "metric_scope_rows_recomputed": 95,
+  "capacity_rows_recomputed": 76,
+  "transform_errors": [
+    {
+      "part": "fit",
+      "max_abs_error": 0.0
+    },
+    {
+      "part": "cal",
+      "max_abs_error": 0.0
+    },
+    {
+      "part": "oct",
+      "max_abs_error": 0.0
+    }
+  ],
+  "max_forward_logit_error": 8.881784197001252e-16,
+  "max_calibrated_probability_error": 1.0408340855860843e-17,
+  "source_frozen_unchanged": true,
+  "Oct_fitted": false,
+  "April_rows": 0
+}

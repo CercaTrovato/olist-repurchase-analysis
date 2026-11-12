@@ -1,0 +1,10 @@
+{
+  "approval-target-carry-in.csv": "ae4681c9aebbe04cb6cb361755da892ad37b1668fe8f5838e2ae4ac9a3c30ad9",
+  "clarification-audit.json": "2394752d590b99c146bf9d786ddea9592eceae22811e3d1cee39892e457ffcce",
+  "clarify_time_semantics.py": "1ce1de202a32e57c3b65ccadb2c26a2a7034e49f1b066b6c36dde807fdd673e9",
+  "event-pool-versus-cohort.csv": "b7f5ee5827d93f0900715c73c8a5d73bcc1ddd8aaff73b26bbb958e8be0cc1c0",
+  "purchase-approval-cutoff-checks.csv": "1f4270e2397020764d9a2ca1ddc7acbb815e2c17ec83b11cc0814b07c6e14e2e",
+  "purchase-window-approval-delay.csv": "9e65f67bb8fa5a0f2f2974d79b6d59e50ffb7600e79e5a687fd84fe5df1d9bc1",
+  "README.md": "909a7be2fc73310223110f2b771f9e9ff406b3d15a657bb8f8670fb52951493c",
+  "source-guards.json": "7899e71f42d99dc47fa149099e1b53750381d9ad0b653f2b4faba77c95ecea3a"
+}

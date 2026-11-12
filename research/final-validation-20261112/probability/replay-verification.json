@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "model_part_replays": 90,
+  "primary_part_replays": 18,
+  "metric_rows": 792,
+  "calibration_bin_rows": 576,
+  "metric_max_abs_error": {
+    "n": 0.0,
+    "events": 0.0,
+    "sum_p": 5.684341886080802e-14,
+    "mean_p": 1.1102230246251565e-16,
+    "event_rate": 0.0,
+    "logloss": 2.220446049250313e-16,
+    "brier": 5.551115123125783e-17,
+    "AP": 0.0,
+    "AUC": 0.0
+  },
+  "new_fits_in_replay": 0,
+  "verifier_sha256": "a0355f299c036b77f4911ed052262d7018839605210c4ccdae3c173d00fcb2e9",
+  "data_manifest_sha256": "0f7f16aed6f01b0b3d2ed83bf14f2eaf739cea88c393418449419b23b6bf37f6"
+}

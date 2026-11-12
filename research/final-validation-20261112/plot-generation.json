@@ -1,0 +1,17 @@
+{
+  "status": "PLOTS_GENERATED_VIEW_PENDING",
+  "new_model_fits": 0,
+  "source_hashes": {
+    "probability/primary-eval-metrics.csv": "73014bce07a4c585e5d145b8b456779f762c29b78119f157a66022ddfd609436",
+    "value/capacity-results.csv": "1f275db609197f5d9e1777fba8616c18dbefbf7df98d4602617cf59ef842f5fd"
+  },
+  "figures": {
+    "figures/01-rolling-probability.png": "2701acc9226f404b29f0e2acd806015625a6dbce488efbe0c756bd7bdd424266",
+    "figures/01-rolling-probability.svg": "22466808aa9e64d1bf87178cdef63088370fa9e65ec77229129fe6347fcc8ff8",
+    "figures/02-january-hits-value-tradeoff.png": "87c6c595db988ceebda8597f1f88de7ff43661e51a1fbe2fc20a3558ab83dfad",
+    "figures/02-january-hits-value-tradeoff.svg": "a1bdcd3532a7139059116a2a45f96508a9e44ac7328b5f122ec240b44a46f85f",
+    "figures/03-long79-rule-comparison.png": "cb780ad007b75263c99f9d83f426504ca1896346a4c64abbd1be73cd04549a0d",
+    "figures/03-long79-rule-comparison.svg": "0a8e8d3e4f2560daf732d76e34879969ed00c7a767c9373e1e7aa6c9571ddde2"
+  },
+  "notes": "All points use saved aggregate scores. No new capacity, model, or target search."
+}

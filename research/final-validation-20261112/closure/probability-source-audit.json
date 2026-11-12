@@ -1,0 +1,175 @@
+{
+  "status": "PASS_WITH_BOUNDED_SCOPE",
+  "scope": "Read-only audit of probability author implementation and serialized input/preprocess/reuse evidence; no fitting or metrics re-search",
+  "auditor_role": "Data-construction author; did not write probability implementation. This is independent of probability authorship, but is not an independent non-author review of the data construction.",
+  "fit_calls": 0,
+  "source_files_sha256": {
+    "E:\\app-data\\codex\\outputs\\is6400-final-validation-20261112\\data\\data-manifest.json": "0f7f16aed6f01b0b3d2ed83bf14f2eaf739cea88c393418449419b23b6bf37f6",
+    "E:\\app-data\\codex\\outputs\\is6400-final-validation-20261112\\probability\\run_probability.py": "63056941114982595c451145ab30f62ac39da829ee8e75a79f28c68b62de8897",
+    "E:\\app-data\\codex\\outputs\\is6400-final-validation-20261112\\probability\\probability-manifest.json": "aba7ce707a2e2e00d5420e9f2139518c060d2cb42dd99332d71ffa5a8696a581",
+    "E:\\app-data\\codex\\outputs\\is6400-final-validation-20261112\\probability\\input-freeze.json": "d8c899b2e408981ec30eaaf0679ce8812918daec4d6feb2b09fe439c9449eb87",
+    "E:\\app-data\\codex\\outputs\\is6400-final-validation-20261112\\probability\\replay-verification.json": "249a25c596c2c89175a6697662f93680597cfe3c0ad9ddfad443acce8667cf24"
+  },
+  "source_function_lines": {
+    "sha": 30,
+    "clean": 31,
+    "dump": 39,
+    "load_math": 42,
+    "load_csv": 48,
+    "prepare_lr": 51,
+    "prepare_cb": 65,
+    "lr_gradient": 78,
+    "train_lr": 87,
+    "train_cb": 99,
+    "align_old": 107,
+    "reuse_run": 124,
+    "metric_rows": 155,
+    "run": 170
+  },
+  "feature_allowlist_count": 141,
+  "categorical_count": 8,
+  "base_allowlist_count": 8,
+  "forbidden_input_fields": [
+    "customer_unique_id",
+    "snapshot_date",
+    "y",
+    "future_gmv",
+    "future_orders",
+    "label_end",
+    "cluster"
+  ],
+  "cells": [
+    {
+      "cell": "2017-11-01__single",
+      "fit_rows": 13684,
+      "cal_rows": 3421,
+      "eval_rows": 23260,
+      "fit_cal_customer_overlap": 0,
+      "max_fit_label_end": "2017-10-30",
+      "max_cal_label_end": "2017-10-30",
+      "maturity_pass": true,
+      "all_3_input_hashes_match_data_and_probability_freeze": true,
+      "preprocess_fit_only_readback": true,
+      "never_X_fields_absent_from_feature_allowlists": true,
+      "full_eval_probability_coverage": true
+    },
+    {
+      "cell": "2017-11-01__pooled",
+      "fit_rows": 25038,
+      "cal_rows": 3421,
+      "eval_rows": 23260,
+      "fit_cal_customer_overlap": 0,
+      "max_fit_label_end": "2017-10-30",
+      "max_cal_label_end": "2017-10-30",
+      "maturity_pass": true,
+      "all_3_input_hashes_match_data_and_probability_freeze": true,
+      "preprocess_fit_only_readback": true,
+      "never_X_fields_absent_from_feature_allowlists": true,
+      "full_eval_probability_coverage": true
+    },
+    {
+      "cell": "2017-12-01__single",
+      "fit_rows": 15687,
+      "cal_rows": 3922,
+      "eval_rows": 26848,
+      "fit_cal_customer_overlap": 0,
+      "max_fit_label_end": "2017-11-30",
+      "max_cal_label_end": "2017-11-30",
+      "maturity_pass": true,
+      "all_3_input_hashes_match_data_and_probability_freeze": true,
+      "preprocess_fit_only_readback": true,
+      "never_X_fields_absent_from_feature_allowlists": true,
+      "full_eval_probability_coverage": true
+    },
+    {
+      "cell": "2017-12-01__pooled",
+      "fit_rows": 41414,
+      "cal_rows": 3922,
+      "eval_rows": 26848,
+      "fit_cal_customer_overlap": 0,
+      "max_fit_label_end": "2017-11-30",
+      "max_cal_label_end": "2017-11-30",
+      "maturity_pass": true,
+      "all_3_input_hashes_match_data_and_probability_freeze": true,
+      "preprocess_fit_only_readback": true,
+      "never_X_fields_absent_from_feature_allowlists": true,
+      "full_eval_probability_coverage": true
+    },
+    {
+      "cell": "2018-01-01__single",
+      "fit_rows": 16928,
+      "cal_rows": 4232,
+      "eval_rows": 29368,
+      "fit_cal_customer_overlap": 0,
+      "max_fit_label_end": "2017-12-30",
+      "max_cal_label_end": "2017-12-30",
+      "maturity_pass": true,
+      "all_3_input_hashes_match_data_and_probability_freeze": true,
+      "preprocess_fit_only_readback": true,
+      "never_X_fields_absent_from_feature_allowlists": true,
+      "full_eval_probability_coverage": true
+    },
+    {
+      "cell": "2018-01-01__pooled",
+      "fit_rows": 59954,
+      "cal_rows": 4232,
+      "eval_rows": 29368,
+      "fit_cal_customer_overlap": 0,
+      "max_fit_label_end": "2017-12-30",
+      "max_cal_label_end": "2017-12-30",
+      "maturity_pass": true,
+      "all_3_input_hashes_match_data_and_probability_freeze": true,
+      "preprocess_fit_only_readback": true,
+      "never_X_fields_absent_from_feature_allowlists": true,
+      "full_eval_probability_coverage": true
+    }
+  ],
+  "new_base_fits_recorded": 25,
+  "old_models_reused_recorded": 5,
+  "legacy_reuse": [
+    {
+      "runid": "weightedLR",
+      "source_run_id": "weightedLR-base8-split20261111",
+      "logit_max_abs_error": 8.881784197001252e-16,
+      "source_hashes_match": true
+    },
+    {
+      "runid": "unweightedLR",
+      "source_run_id": "unweightedLR-base8-split20261111",
+      "logit_max_abs_error": 8.881784197001252e-16,
+      "source_hashes_match": true
+    },
+    {
+      "runid": "nativeCatBoost-s2026",
+      "source_run_id": "nativeCatBoost-full141-split20261111-seed2026",
+      "logit_max_abs_error": 0.0,
+      "source_hashes_match": true
+    },
+    {
+      "runid": "nativeCatBoost-s2027",
+      "source_run_id": "nativeCatBoost-full141-split20261111-seed2027",
+      "logit_max_abs_error": 0.0,
+      "source_hashes_match": true
+    },
+    {
+      "runid": "nativeCatBoost-s2028",
+      "source_run_id": "nativeCatBoost-full141-split20261111-seed2028",
+      "logit_max_abs_error": 0.0,
+      "source_hashes_match": true
+    }
+  ],
+  "source_findings": [
+    "LR scaler/OHE fit only fit numeric/state fields; actual persisted state matches fit rows",
+    "Native CatBoost median only fit, 141 allowlist excludes all future labels/time/cluster/keys",
+    "All new base-model training calls use fit X and fit y; no eval_set/early stop in CatBoost",
+    "Platt fits only cal logits and natural cal y; cal is not independent calibration evaluation",
+    "Jan single invokes reuse_run rather than train_lr/train_cb and original cached logits are checked",
+    "All eval customers receive all three primary probabilities; capacity never truncates input"
+  ],
+  "limitations": [
+    "Data cohort/event construction authored by this auditor, so its readback is not presented as independent non-author data review",
+    "This audit does not prove absence of every possible software defect or certify historical source availability/change logs",
+    "Model fit numerical optimality is not certified; actual stop/gradient reports remain authoritative",
+    "Existing windows are development evidence, with repeated customers and overlapping target calendars"
+  ]
+}

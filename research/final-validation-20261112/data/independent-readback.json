@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "verification": "Independent raw 3-table outcomes and serialized six-cell split checks",
+  "source_paths_sha256": {
+    "D:\\\u4e0a\u8bfe\u8d44\u6599\\CityU\\IS6400_Business_Data_Analytics\\assignment\\graded\\A06-group-project\\work\\data\\raw\\olist_orders_dataset.csv": "8df58ef3d2d7e9944010f7beecd9b75367f5588ec6e3c91cec19ae3345ef9ecf",
+    "D:\\\u4e0a\u8bfe\u8d44\u6599\\CityU\\IS6400_Business_Data_Analytics\\assignment\\graded\\A06-group-project\\work\\data\\raw\\olist_customers_dataset.csv": "983a422239e1712ded753b3bf9ecf47dc73f144d306029dcfa99e70a226883d2",
+    "D:\\\u4e0a\u8bfe\u8d44\u6599\\CityU\\IS6400_Business_Data_Analytics\\assignment\\graded\\A06-group-project\\work\\data\\raw\\olist_order_items_dataset.csv": "0bc4d068c4fe38cbb01bd90e8746e3c613fe7b4baef75fab7b0e329701c3e279"
+  },
+  "source_code_sha256": "291f665a7374a01b999aa01dc191d8f01d1fd0b73e21ec7b8b747fa92f1ad2be",
+  "outcome_checks": [
+    {
+      "snapshot_date": "2017-07-01",
+      "rows": 14012,
+      "positive_rows": 120,
+      "target_orders": 129,
+      "target_gmv": 19109.81,
+      "max_gmv_abs_error": 0.0,
+      "all_targets_before_2018_04_01": true
+    },
+    {
+      "snapshot_date": "2017-08-01",
+      "rows": 17105,
+      "positive_rows": 141,
+      "target_orders": 158,
+      "target_gmv": 21121.369999999995,
+      "max_gmv_abs_error": 0.0,
+      "all_targets_before_2018_04_01": true
+    },
+    {
+      "snapshot_date": "2017-09-01",
+      "rows": 19609,
+      "positive_rows": 186,
+      "target_orders": 207,
+      "target_gmv": 25497.979999999996,
+      "max_gmv_abs_error": 0.0,
+      "all_targets_before_2018_04_01": true
+    },
+    {
+      "snapshot_date": "2017-10-01",
+      "rows": 21160,
+      "positive_rows": 211,
+      "target_orders": 230,
+      "target_gmv": 27727.82,
+      "max_gmv_abs_error": 0.0,
+      "all_targets_before_2018_04_01": true
+    },
+    {
+      "snapshot_date": "2017-11-01",
+      "rows": 23260,
+      "positive_rows": 232,
+      "target_orders": 250,
+      "target_gmv": 30116.25,
+      "max_gmv_abs_error": 0.0,
+      "all_targets_before_2018_04_01": true
+    },
+    {
+      "snapshot_date": "2017-12-01",
+      "rows": 26848,
+      "positive_rows": 239,
+      "target_orders": 261,
+      "target_gmv": 33109.11,
+      "max_gmv_abs_error": 0.0,
+      "all_targets_before_2018_04_01": true
+    },
+    {
+      "snapshot_date": "2018-01-01",
+      "rows": 29368,
+      "positive_rows": 230,
+      "target_orders": 248,
+      "target_gmv": 30478.29,
+      "max_gmv_abs_error": 0.0,
+      "all_targets_before_2018_04_01": true
+    }
+  ],
+  "split_checks": [
+    {
+      "cell": "2017-11-01__single",
+      "fit_rows": 13684,
+      "cal_rows": 3421,
+      "eval_rows": 23260,
+      "fit_cal_customer_overlap": 0,
+      "label_maturity_pass": true,
+      "exact_eval_snapshot_readback": true,
+      "all_T_cal_customers_excluded_from_every_fit_snapshot": true
+    },
+    {
+      "cell": "2017-11-01__pooled",
+      "fit_rows": 25038,
+      "cal_rows": 3421,
+      "eval_rows": 23260,
+      "fit_cal_customer_overlap": 0,
+      "label_maturity_pass": true,
+      "exact_eval_snapshot_readback": true,
+      "all_T_cal_customers_excluded_from_every_fit_snapshot": true
+    },
+    {
+      "cell": "2017-12-01__single",
+      "fit_rows": 15687,
+      "cal_rows": 3922,
+      "eval_rows": 26848,
+      "fit_cal_customer_overlap": 0,
+      "label_maturity_pass": true,
+      "exact_eval_snapshot_readback": true,
+      "all_T_cal_customers_excluded_from_every_fit_snapshot": true
+    },
+    {
+      "cell": "2017-12-01__pooled",
+      "fit_rows": 41414,
+      "cal_rows": 3922,
+      "eval_rows": 26848,
+      "fit_cal_customer_overlap": 0,
+      "label_maturity_pass": true,
+      "exact_eval_snapshot_readback": true,
+      "all_T_cal_customers_excluded_from_every_fit_snapshot": true
+    },
+    {
+      "cell": "2018-01-01__single",
+      "fit_rows": 16928,
+      "cal_rows": 4232,
+      "eval_rows": 29368,
+      "fit_cal_customer_overlap": 0,
+      "label_maturity_pass": true,
+      "exact_eval_snapshot_readback": true,
+      "all_T_cal_customers_excluded_from_every_fit_snapshot": true
+    },
+    {
+      "cell": "2018-01-01__pooled",
+      "fit_rows": 59954,
+      "cal_rows": 4232,
+      "eval_rows": 29368,
+      "fit_cal_customer_overlap": 0,
+      "label_maturity_pass": true,
+      "exact_eval_snapshot_readback": true,
+      "all_T_cal_customers_excluded_from_every_fit_snapshot": true
+    }
+  ],
+  "no_april_target_dates": true
+}

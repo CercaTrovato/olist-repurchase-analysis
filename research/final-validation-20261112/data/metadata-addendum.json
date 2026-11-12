@@ -1,0 +1,28 @@
+{
+  "status": "CLARIFICATION_ONLY_NO_DATA_CHANGE",
+  "frozen_manifest_sha256": "0f7f16aed6f01b0b3d2ed83bf14f2eaf739cea88c393418449419b23b6bf37f6",
+  "inherited_P2_load_audit_fields": {
+    "raw_source_hash_audit.snapshot_rows_read": {
+      "inherited_value": 50528,
+      "interpretation": "Legacy constant hardcoded in the selected original P2 load() function. It is not an actual row counter for this seven-snapshot build; do not use it as this batch's row count."
+    },
+    "raw_source_hash_audit.april_snapshot_rows_read": {
+      "inherited_value": 0,
+      "interpretation": "Also a legacy field from P2 load(); this batch separately asserts and records zero April snapshot/label construction in the top-level frozen manifest."
+    }
+  },
+  "actual_this_batch": {
+    "H02_csv_members_parsed": 0,
+    "H02_notebook_json_read": true,
+    "selected_original_main_executed": false,
+    "raw_nine_table_whole_extract_read_for_hash_and_asof_aggregation": true,
+    "constructed_snapshot_count": 7,
+    "serialized_cell_count": 6,
+    "serialized_fit_cal_eval_file_count": 18,
+    "april_snapshot_rows_constructed": 0,
+    "april_label_rows_constructed": 0,
+    "april_event_dates_used_as_targets": 0,
+    "authoritative_per_snapshot_and_cell_counts": "Frozen manifest top-level snapshots and cells plus cell-support.csv and independent-readback.json"
+  },
+  "impact": "No changes to data, splits, features, labels, model inputs, frozen CSV hashes or manifest bytes."
+}

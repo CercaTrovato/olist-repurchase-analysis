@@ -1,0 +1,12 @@
+{
+  "schema_version": "probability-v1",
+  "primary_file": "private/cells/{evaluation_date}__{strategy}/primary-eval-probabilities.csv",
+  "key": ["customer_unique_id", "snapshot_date"],
+  "key_dtype": "string",
+  "probability_columns": ["p_wlr", "p_ulr", "p_catboost"],
+  "catboost_mean": "arithmetic mean of separately cal-fitted monotone-Platt probabilities for seeds 2026,2027,2028",
+  "other_columns": ["cluster", "evaluation_date", "strategy"],
+  "forbidden_primary_columns": ["y", "future_gmv", "future_orders"],
+  "join": "one_to_one on the two key columns; full eval cardinality required",
+  "manifest_ready_status": "READY"
+}

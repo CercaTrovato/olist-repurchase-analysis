@@ -1,0 +1,810 @@
+{
+  "schema_version": "question-closeout-v1",
+  "status": "CLOSED_WITH_BOUNDED_EVIDENCE",
+  "as_of": "2026-11-12",
+  "original_question_register_path": "E:/app-data/codex/outputs/is6400-research-questions-20261111/question-register.json",
+  "original_question_register_sha256": "3e096b270d98c09a281df5439acdde5c8a3485b7626759d16406741689354f04",
+  "original_question_count": 18,
+  "additional_clarification_count": 2,
+  "allowed_classifications": [
+    "限定范围已验证",
+    "现有数据证据不足",
+    "数据或资料不具备不能验证",
+    "明确不在当前必要范围且理由"
+  ],
+  "primary_classification_counts": {
+    "限定范围已验证": 15,
+    "现有数据证据不足": 4,
+    "明确不在当前必要范围且理由": 1
+  },
+  "frozen_data_manifest_sha256": "0f7f16aed6f01b0b3d2ed83bf14f2eaf739cea88c393418449419b23b6bf37f6",
+  "root_plan_sha256": "c6d0ff58feed195bc4db1a803813faaedebb4fd7902874168d4139faeb24c1f4",
+  "value_numerical_winner_selected_by_this_draft": false,
+  "amount_execution_verified": {
+    "new_Gamma_fits": 6,
+    "all_fallback_false": true
+  },
+  "scope": "只读整合已有结果；没有新训练、Git、看板、原数据修改或四月评价。冻结范围无待跑计算；不强行证明增益或代选正式模型。",
+  "probability_source_audit": "probability-source-audit.json",
+  "issues": [
+    {
+      "id": "Q01",
+      "title": "原八字段与原始数据",
+      "user_statement": "原八字段是什么意思？是原数据只有八个特征吗？",
+      "original_design_status": "已有证据可解释",
+      "original_design_status_is_historical": true,
+      "closeout_class": "限定范围已验证",
+      "actually_completed": "完成九表 52 字段位置处置目录、订单至客户快照血缘、141 历史结构字段及类别/编码口径。",
+      "conclusion": "原八字段是模型选择的 7 数值+state 客户摘要，不是原始数据仅有八项。141 是逻辑摘要数，编码矩阵维度随 fit 词典变化；不能把原 P2 的 913 维当所有后续划分固定维数。",
+      "boundary": "键、事件时间、预测日未知结果及重复语义不能机械全部塞入 X。",
+      "human_decision": "小组选择展示多少字段解释即可；不需要补算法。",
+      "missing_external_data_or_material": "静态维表/录入回写日志不存在，不能从字段多推断历史全部已知。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/features/field-catalog-52.csv",
+          "sha256": "6c48d74f3f01ad730171f1e7b8d8a638d8893af82a6165795b34a9705f2d67df"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/features/feature-views.json",
+          "sha256": "2a76bd2de7353d4849f4751a97f4302bbf3487e31e7c8aabcecdeae23520e6eb"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/data/data-manifest.json",
+          "sha256": "0f7f16aed6f01b0b3d2ed83bf14f2eaf739cea88c393418449419b23b6bf37f6"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false
+    },
+    {
+      "id": "Q02",
+      "title": "字段数量与效果",
+      "user_statement": "目前是不是发现字段越多效果越好？",
+      "original_design_status": "已有反例，系统消融待开测",
+      "original_design_status_is_historical": true,
+      "closeout_class": "限定范围已验证",
+      "actually_completed": "原 P2 五候选、同口径 base8/full141 × 多模型/五重叠 split，以及 AE 六块逐块置零和预算控制均已完成。",
+      "conclusion": "“字段越多效果越好”的单调说法不成立。同为 LR 增字段会下降；神经/树的取舍不同。AE 去行为块在 Jan 参考全局 51→58，但区间含 0，久单并未同步稳定提高。",
+      "boundary": "信息块有语义代理、置零分支仍能学常量，块贡献不是因果作用且不能相加。",
+      "human_decision": "若正式展示采用某套输入，须按目标与整套策略证据选择；无需继续扫组合挑分。",
+      "missing_external_data_or_material": "没有新独立未来样本，无法证明某删块方案跨期稳定。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-common-comparison-20261112/statistics/controlled-paired-differences-by-split.csv",
+          "sha256": "b171f45498e40968b2c6c3a3d5422009e93dbf8c8f2e163fd9c81c51268c7bf0"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-common-comparison-20261112/ae-followup/feature-groups/README.md",
+          "sha256": "eb2f9c51817d861973a908fba274e5c091078a3f26d4fdbd1038befdb821ed95"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-common-comparison-20261112/ae-followup/statistics/canonical-paired-bootstrap-intervals.csv",
+          "sha256": "ee4f832aa669353ba81842f4ea4a4611ec3d36ac40809c0b9df3b7bda3d18fa2"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false
+    },
+    {
+      "id": "Q03",
+      "title": "全量输入与固定名单",
+      "user_statement": "你确定固定长度名单对于最终目的是必须的吗？为什么不能固定时间段内的客户全量当输入？",
+      "original_design_status": "待用户审阅并决定目标",
+      "original_design_status_is_historical": true,
+      "closeout_class": "限定范围已验证",
+      "actually_completed": "全部合格客户训练/评分已落实；最后批 Nov/Dec/Jan 分别给 23,260/26,848/29,368 位客户输出全部三种主概率。",
+      "conclusion": "固定 K 从来只截输出名单，不能限制输入人数；全量客户概率与经理选多少人是两个模块。",
+      "boundary": "“全体”指固定 H02 六自然月有合格历史订单 cohort，不是数据库里所有人或半年无订单的另一目标总体。",
+      "human_decision": "经理依据精力/预算/目标设置容量，小组决定正式采用的模型；不是等待开测。",
+      "missing_external_data_or_material": "真实触达成本与人力约束未提供。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/probability/README.md",
+          "sha256": "51980ee1014c5a4ca0bd1acc62a1065f53a3ac6b43736e83eaa179fdc5506bbd"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/data/window-summary.csv",
+          "sha256": "bb4b87271bc664a850ab89c78ca82c7c26075781e68a93afabff7348a6019ec9"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/manager-guide.md",
+          "sha256": "53c41f900776801e0b1e7dbb8f7ac821d2869de78a868e60a78fd4b3bd1ad7e5"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false
+    },
+    {
+      "id": "Q04",
+      "title": "合规全字段与地理特征",
+      "user_statement": "如果原数据特征足够多，应尝试全输入对照。没有看见卖家地区。",
+      "original_design_status": "设计待开测",
+      "original_design_status_is_historical": true,
+      "closeout_class": "限定范围已验证",
+      "actually_completed": "52 原字段位置已逐项处置；141 可计算摘要包括买卖双方城市/州/邮编、近似经纬度与距离、商品/支付/已知服务等；历史文本也曾单独比较。7 日期重建并对旧 July/Oct/Jan逐键核验。",
+      "conclusion": "卖家地区和买卖距离已经纳入；合适的“全字段”应是经时间与身份隔离后的可用输入对照，不是原表任意列全塞。",
+      "boundary": "141 字段包含派生和冗余，不等于 141 项独立信息；地理静态维表、付款等字段依赖既有历史已知/未回写假设。",
+      "human_decision": "正式材料须展示字段定义与假设，不宜宣称生产时点认证。",
+      "missing_external_data_or_material": "缺属性变更、真正入库与回写日志；无法认证全部源字段当时可恢复性。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/features/README.md",
+          "sha256": "875389910457af71dd50277a911e8533f5a4eda993bd5f56751ea51af7c241e9"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/data/historical-feature-reproduction.csv",
+          "sha256": "bcf8ff006bbe969485bb49d58fc3c335029f25c6ba97a5c2534ccdea99318c66"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/data/date-construction-audit.json",
+          "sha256": "13c8e4677753a0b834124f136d6aac2035c1b8c2fa2d4e169d3f0b4de1029078"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false
+    },
+    {
+      "id": "Q05",
+      "title": "群内统计初始化可学习权重",
+      "user_statement": "无监督分群后分析群内特征与目标关系/协方差，给特征群分数，再把分数变成可学习参数加到统一权重。",
+      "original_design_status": "设计待开测",
+      "original_design_status_is_historical": true,
+      "closeout_class": "现有数据证据不足",
+      "actually_completed": "fit 内计算硬群/软群加权相关与收缩；比较固定相关偏移、零初值/相关初值可学习群斜率、共享权重加群偏移和仅群截距。",
+      "conclusion": "统计初始化已实际试过。零与相关初值收敛至近同凸解，同为 40 命中；没有可宣称的初始化收益。群偏移没有形成概率/名单同时稳健改善。",
+      "boundary": "这是群内相关/协方差加收缩及监督群斜率，不是控制变量 ANCOVA，不是因果分析；固定正则 eta=.1 的负结果不排除所有群模型。",
+      "human_decision": "正式采用没有必须引入该模块的证据；权重/统计定义已给可解释实现。",
+      "missing_external_data_or_material": "不存在支持因果识别的干预/混杂设计；这一缺口不列为未完训练。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/group-learning/README.md",
+          "sha256": "a16de2da7e5a0b280f62225da8b134a3c7bba6158289bf28aaae7358be2d094a"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/group-learning/correlation_initialization.csv",
+          "sha256": "9e2cb1cdcedb5fc69d03c0303e872d2f4a5f890c2642d5e72f09839e33a9c0fb"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/group-learning/convex_initialization_comparison.json",
+          "sha256": "beb09bfd457f51d68757f82196d014860b1aec38eabba749ffb6fca8ba5b7008"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false
+    },
+    {
+      "id": "Q06",
+      "title": "群独立分支与主网",
+      "user_statement": "对每组建立独立网络分支，如何加主网或作为模块需要思考。",
+      "original_design_status": "设计待开测",
+      "original_design_status_is_historical": true,
+      "closeout_class": "现有数据证据不足",
+      "actually_completed": "共享 hidden16、群残差 identity/ReLU 各三 seed；另比较硬/软成员后端并控制原头优化不足。",
+      "conclusion": "共享主网加群分支已经做有界比较。ReLU 没有概率/名单同时稳定优于同参数 identity；独立分支不是必然增益。",
+      "boundary": "三 seed 仅初始化波动，固定预算不证明非凸全局最优；小群正例少使自由分支易不稳。",
+      "human_decision": "没有必要为交付强行保留群分支；采用与否由小组按目标决定。",
+      "missing_external_data_or_material": "没有新时期独立标签证明稳定收益。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/group-learning/README.md",
+          "sha256": "a16de2da7e5a0b280f62225da8b134a3c7bba6158289bf28aaae7358be2d094a"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/group-learning/seed_summary.csv",
+          "sha256": "189fd858441c66c294eaa8173e17ba702982cb9b47942d309fc89a5063b5e5ff"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/cluster-head-control/README.md",
+          "sha256": "606e4ecb9de160be64f0f43c88110c3cfe91a812616c60d555fda8a936ed7fb7"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false
+    },
+    {
+      "id": "Q07",
+      "title": "最终系统消融",
+      "user_statement": "消融必须做，可以等最终最好方案出来后再做。",
+      "original_design_status": "最终候选后、待开测",
+      "original_design_status_is_historical": true,
+      "closeout_class": "限定范围已验证",
+      "actually_completed": "先完成同口径候选，再冻结 full141 AE；执行 mean70、mean3040、AE-shuffled 预算/配对控制与六信息块逐一置零；五重叠 split、三 seed 和条件区间已保存。",
+      "conclusion": "用户要求的候选后系统消融已在冻结 AE 对象上执行，早期“后置/未开始”只属历史。额外监督预算未复现 AE 候选表现，但配对重建机制的收益仍无明确名单证据。",
+      "boundary": "这不是所有潜在组合的穷尽删减；不据 Jan 去行为最高分继续扫组合。AE 在 July→Oct 31/1 低于基线36/2，不能升级稳定方案。",
+      "human_decision": "正式系统采用须由本人/小组明确；未采用不等于消融未做。",
+      "missing_external_data_or_material": "当前没有独立未来样本认证升级。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-common-comparison-20261112/ae-followup/task_plan.md",
+          "sha256": "0d90f392b7c6af9e211d6a2ae295cf170b792e1ae371d5c78436b9df091ffad4"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-common-comparison-20261112/ae-followup/budget/README.md",
+          "sha256": "07ed31fe44af643f57b6ebaa1d959f6fac91ce07ee68fb94972d2bb33ae55382"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-common-comparison-20261112/ae-followup/feature-groups/README.md",
+          "sha256": "eb2f9c51817d861973a908fba274e5c091078a3f26d4fdbd1038befdb821ed95"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-common-comparison-20261112/ae-followup/temporal/README.md",
+          "sha256": "99c71bcfe9b2787ae40cd1cbd61e04d01efb9114eb68cd5f6ee7dfc52a565c60"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false
+    },
+    {
+      "id": "Q08",
+      "title": "注意力机制",
+      "user_statement": "普通注意力、特征注意力或者更合适更复杂注意力机制都可尝试。",
+      "original_design_status": "设计待开测",
+      "original_design_status_is_historical": true,
+      "closeout_class": "限定范围已验证",
+      "actually_completed": "全局视图权重、样本视图 attention、列门控均已三 seed 比较；后续统一输入/校准/五 split 对照，列门未显示稳定额外收益。",
+      "conclusion": "已验证若干明确 attention/门控定义，没有因名字复杂就获益。样本视图 attention 在原规格较差；列门相对等权参照没有一致全面优势。",
+      "boundary": "GCN 不是 GAT；GAT 没有训练过。用户要求分析合适性而非必须穷尽实现，既有 GCN 无一致收益，故没有优先再扩 GAT。注意力权重不是因果重要性。",
+      "human_decision": "目前无需为完成研究追加 GAT；若正式解释模型须用实际实现名称。",
+      "missing_external_data_or_material": "无外部缺数据是本项必要计算阻塞；更多架构属于无限候选空间。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/representations/README.md",
+          "sha256": "ecd9b985526116e10d5fcf2e71f77ad4c27e0d7112d60370c738631468750251"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-common-comparison-20261112/README.md",
+          "sha256": "aee005a01c798c51e680a5a61b9d1c887cb10920461896a5a4cfdc0cc246e5f1"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-gcn-graph-grid-20261110/README.md",
+          "sha256": "2840aaa5775fe52b0fe97dad396556c749a8e4ba30967575dfd3fe19efae4b97"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-gcn-contrastive-20261110/README.md",
+          "sha256": "8bed38680eea85daa93d0643195ff87eb2485ba205a78738fd9bc1098ffdd864"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false
+    },
+    {
+      "id": "Q09",
+      "title": "异常检测与目标重合",
+      "user_statement": "试LOF等异常检测，看看与目标客户的重合率，低就算。",
+      "original_design_status": "设计待开测",
+      "original_design_status_is_historical": true,
+      "closeout_class": "限定范围已验证",
+      "actually_completed": "LOF novelty 10/30/60 邻居、IsolationForest、RFM 诊断及随机/近期性/LR参照全部已跑；按预定弱支持规则停止异常后端。",
+      "conclusion": "原八字段 LOF/IF 全局命中30/26/35/32，低于既有 weightedLR50且AP较低；异常度不等于复购概率。按用户“低就算”要求结案。",
+      "boundary": "个别略超随机不说明可替代预测器；没有将异常分数送新监督后端继续追分，也不证明所有异常方法无效。",
+      "human_decision": "本线停止无需再等本人开测。",
+      "missing_external_data_or_material": "无额外资料是本线结案前提。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/structure/README.md",
+          "sha256": "46db1178d9cd19b828dae9561c455ddf36f749b8626920566c79d4dafa30fafb"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/structure/anomaly_outcomes.csv",
+          "sha256": "9f8b3974e7e86f345c003e8cc8064ada108d8f0d7362f6a2e661c066d323f97b"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false
+    },
+    {
+      "id": "Q10",
+      "title": "一次购买预测是否成立",
+      "user_statement": "135天前只买过一次，只有一次数据，预测未来90天复购会不会太荒谬？",
+      "original_design_status": "解释与验证设计待审",
+      "original_design_status_is_historical": true,
+      "closeout_class": "现有数据证据不足",
+      "actually_completed": "区分六个月仅一单与终身仅一单、135天recency与次数；与同切片训练常数基率比较，给单单/久单 proper loss 与条件区间。",
+      "conclusion": "从相似客户学习群体风险在统计上可以做，但多数单单/久单增量概率收益区间跨0；不能承诺识别每个久单个体。",
+      "boundary": "整体 Accuracy 约99.2%可由全不复购达到，不能代替概率误差和罕见事件诊断。",
+      "human_decision": "经理只能把名单视为风险/价值排序依据，不能当个体确定事实。",
+      "missing_external_data_or_material": "更长客户历史、真实触达和新独立未来标签缺失；不是未跑模型欠账。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/probability/no-information-and-single-order.csv",
+          "sha256": "48882ff55da28ca40c25cc08fce5cac1d0f4ec708863c7acac02c98f48943e69"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/probability/bootstrap-vs-scoped-no-information.csv",
+          "sha256": "bd62a9e39cadc9875f770f6f75d7053d32d19ea74c510d2a8f40098eac5a32af"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/probability/proper-metrics.csv",
+          "sha256": "501b780fc1a6852ebc9bcf09d71a0afae10aaad1c069bfdd5189dcb55ae69885"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false
+    },
+    {
+      "id": "Q11",
+      "title": "最终验收和排序价值",
+      "user_statement": "最终是否验收所有客户预测误差？为何关心排序？是否预测准确后再按金额、频率、概率排序？",
+      "original_design_status": "待用户确认新评价框架",
+      "original_design_status_is_historical": true,
+      "closeout_class": "限定范围已验证",
+      "actually_completed": "已对全体客户计算 LL/Brier/AP/AUC、校准和 sum(p)；最后批实际完成 6 个 Gamma 正支、18 套全体经理私表、1,296 行容量、36 行金额误差和 840 行 Jan 固定分数条件区间。",
+      "conclusion": "概率误差验收覆盖全体客户，排序是下游策略。固定10%下 pFM 和预计金额各在15/18组合捕获商品额高于p，预计金额11/18高于pFM；概率、命中、商品额与金额误差存在取舍，没有统一赢家。",
+      "boundary": "18组合不是18个独立时期；大多条件区间含0。概率/价值执行已收完，正式采用和预算属于现实决策。100%覆盖不证明概率准、利润高或触达增量。",
+      "human_decision": "本人/小组决定正式采用版本；经理决定关心复购人数、商品额或触达成本。",
+      "missing_external_data_or_material": "缺毛利/退款/成本及干预对照，不能验证利润最大化或营销增量。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/probability/primary-eval-metrics.csv",
+          "sha256": "73014bce07a4c585e5d145b8b456779f762c29b78119f157a66022ddfd609436"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/amount-stage-manifest.json",
+          "sha256": "9067c1eac08066e950eae75162d6dfc45109d1f42b7108c9c77f3e4f0ae49730"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/amount-prediction-metrics.csv",
+          "sha256": "eb2375b8f0e8eef5bd879af260f5e644295ae3581637ba8cc0641d78b485be18"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/capacity-results.csv",
+          "sha256": "1f275db609197f5d9e1777fba8616c18dbefbf7df98d4602617cf59ef842f5fd"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/value-report.md",
+          "sha256": "8553c7b8897f998dfdaee9178f272a7f51ceb7392659e86b6ee633ed35cf4b5b"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/independent-readback.json",
+          "sha256": "f36de76453c5d6301949f27109fed05cc61856b9e3f9ad6281ddc8972dd4d954"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/value-manifest.json",
+          "sha256": "8e84ac942574f03242db089b82db08a30ef105e61e16b7eb74b0ca8c72bd01a5"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/jan-paired-bootstrap.csv",
+          "sha256": "d129803f2ea1f4a806a4029e661be5b210b9cc34e6b6c27ef20b840f43088690"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/original-formula-zero-analysis.csv",
+          "sha256": "c3a839ba3abd370c9e1b4065ef16a905e2c6190938a20811c8ca17666fcc0719"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false
+    },
+    {
+      "id": "Q12",
+      "title": "神经分类损失",
+      "user_statement": "分类神经网络是不是二元交叉熵损失？",
+      "original_design_status": "已有代码证据，解释待用户审阅",
+      "original_design_status_is_historical": true,
+      "closeout_class": "限定范围已验证",
+      "actually_completed": "既有MLP/GCN源码损失审计及P4 BCE、加权、focal、pairwise实现与结果已保存；GCN对比版另加.005双向InfoNCE。",
+      "conclusion": "普通二元神经分类主损失通常是 BCE，本项目须按实际版本说明：BCEWithLogitsLoss接logit，权重/对比辅助项另列；本批原生CB用Logloss。",
+      "boundary": "不同加权/辅助项改变优化对象和概率尺度；成功停止不等于达到请求梯度或数学精确最优。",
+      "human_decision": "正式演示使用对应源码实际损失，避免把所有候选都叫同一BCE。",
+      "missing_external_data_or_material": "无需更多外部数据回答实现问题。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-research-questions-20261111/current-method-audit.md",
+          "sha256": "5c7de1308cc3c3ae0517f206740e47e062b553dba1db4045b460f1908fe39e47"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/objectives/README.md",
+          "sha256": "4b62d8325689ebb53a542b2568a0e0684a3717f247c1e684a4dee1f854c9d590"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/probability/training-status.csv",
+          "sha256": "9c91c2a9f84ec5a0e748802de911a8264a6db2b28ef0acfb41d77ec1eb81f7d0"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false
+    },
+    {
+      "id": "Q13",
+      "title": "纯预测与商业二阶段",
+      "user_statement": "不关心排序就没有容量，先纯机器学习再商业选择是否更好？",
+      "original_design_status": "待用户审阅，不代定主目标",
+      "original_design_status_is_historical": true,
+      "closeout_class": "限定范围已验证",
+      "actually_completed": "预测层输出全体 p；策略层接 p、历史F/M和条件金额，分别给概率/原式/预计金额排序及私有经理表；未来真值放另表。",
+      "conclusion": "“先纯预测，再商业选择”已经成为实际两阶段接口。改变名单K不需重新限制模型输入。",
+      "boundary": "能分层不保证商业层现实有效；pFM是手工偏好分，p×发生购买条件下未来90天商品总额预测才估计未来90天商品额。",
+      "human_decision": "经理按实际目标和名额选视图；正式采用仍由本人/团队确认。",
+      "missing_external_data_or_material": "无真实运营成本/干预数据，无法推出触达ROI。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/probability/README.md",
+          "sha256": "51980ee1014c5a4ca0bd1acc62a1065f53a3ac6b43736e83eaa179fdc5506bbd"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/manager-guide.md",
+          "sha256": "53c41f900776801e0b1e7dbb8f7ac821d2869de78a868e60a78fd4b3bd1ad7e5"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/run_value.py",
+          "sha256": "66c48ec47afcd88c6da79985916eeb1e9ef56f3653cd717c01aa4c4acfb9fa8c"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/value-report.md",
+          "sha256": "8553c7b8897f998dfdaee9178f272a7f51ceb7392659e86b6ee633ed35cf4b5b"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/independent-readback.json",
+          "sha256": "f36de76453c5d6301949f27109fed05cc61856b9e3f9ad6281ddc8972dd4d954"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/value-manifest.json",
+          "sha256": "8e84ac942574f03242db089b82db08a30ef105e61e16b7eb74b0ca8c72bd01a5"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/capacity-results.csv",
+          "sha256": "1f275db609197f5d9e1777fba8616c18dbefbf7df98d4602617cf59ef842f5fd"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/amount-prediction-metrics.csv",
+          "sha256": "eb2375b8f0e8eef5bd879af260f5e644295ae3581637ba8cc0641d78b485be18"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/jan-paired-bootstrap.csv",
+          "sha256": "d129803f2ea1f4a806a4029e661be5b210b9cc34e6b6c27ef20b840f43088690"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/original-formula-zero-analysis.csv",
+          "sha256": "c3a839ba3abd370c9e1b4065ef16a905e2c6190938a20811c8ca17666fcc0719"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false
+    },
+    {
+      "id": "Q14",
+      "title": "目标不平衡与潜空间伪样本",
+      "user_statement": "是否有不平衡却没预处理？采样或参考论文在对比潜空间生成伪样本。",
+      "original_design_status": "论文核读与设计，待开测",
+      "original_design_status_is_historical": true,
+      "closeout_class": "现有数据证据不足",
+      "actually_completed": "已做class_weight、ROS、SMOTENC、focal、pairwise与自然分布校准；做AE/NCE/同伪簇负对降权/潜原型一致性/中心对齐简化及负结果。",
+      "conclusion": "不平衡并未忽略，但这些方法没有一致获胜。论文借鉴已落实为明确定义的MVSIB-inspired简化，不是完整MVSIB复现，也没有为复购正类生成真实带标签交易。",
+      "boundary": "少数伪簇不是y=1；SMOTENC非整数计数只是插值。原论文HN hinge方向、gate、中心参照和逐簇/汇总MMD口径有待资料澄清；旧官方快照缺model.py总训练函数。",
+      "human_decision": "用户要求借鉴，完整严格复现不构成当前必须追加工作。正式材料保留简化名称。",
+      "missing_external_data_or_material": "若要认证完整MVSIB，需要作者完整一致实现/公式解释与相应协议；当前资料不能支持此声称。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/objectives/README.md",
+          "sha256": "4b62d8325689ebb53a542b2568a0e0684a3717f247c1e684a4dee1f854c9d590"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/representations/README.md",
+          "sha256": "ecd9b985526116e10d5fcf2e71f77ad4c27e0d7112d60370c738631468750251"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-research-questions-20261111/paper-transfer.md",
+          "sha256": "fdb02c65ac6be36c397e817794c7394029f0389369406e21fb95f16ad150c74d"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-research-questions-20261111/mvsib-transfer-notes.md",
+          "sha256": "7efc54ccc08b140d1901a5d28bd5aa0ba8290fdcdc6577043b1ef113a8cc046a"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false,
+      "additional_classifications": [
+        {
+          "topic": "完整MVSIB严格复现及理论绑定",
+          "classification": "数据或资料不具备不能验证"
+        },
+        {
+          "topic": "穷尽所有伪样本/潜空间机制",
+          "classification": "明确不在当前必要范围且理由"
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "title": "三群、深度/软聚类和未知簇数",
+      "user_statement": "三群和kmeans硬划分是否合理？先深度嵌入，silhouette/elbow搜索K或不指定K方法。",
+      "original_design_status": "设计待开测",
+      "original_design_status_is_historical": true,
+      "closeout_class": "限定范围已验证",
+      "actually_completed": "RFM/original8的K2..8、silhouette/elbow相关几何指标、GMM BIC软群、HDBSCAN、抽样稳定性、深latent K搜索及成员后端优化控制已完成。",
+      "conclusion": "三群不是已证明最优。有限训练几何偏好K2，GMM BIC偏好搜索上界K8；这些回答几何/密度，不能当复购最优K。",
+      "boundary": "HDBSCAN本地实现无训练外predict，不伪造Jan密度标签；深群原头预算不足已另做同成员高精度LR控制。",
+      "human_decision": "H05 K3保留作共同诊断，不必为最终展示声称唯一真实分群。",
+      "missing_external_data_or_material": "未知真实簇结构没有标注，不能验证天然最佳群数；模型API训练外分配缺口已明确。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/structure/README.md",
+          "sha256": "46db1178d9cd19b828dae9561c455ddf36f749b8626920566c79d4dafa30fafb"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/representations/README.md",
+          "sha256": "ecd9b985526116e10d5fcf2e71f77ad4c27e0d7112d60370c738631468750251"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/cluster-head-control/README.md",
+          "sha256": "606e4ecb9de160be64f0f43c88110c3cfe91a812616c60d555fda8a936ed7fb7"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/data/private/frozen-group-model.json",
+          "sha256": "32794c2d7186587fbb95119aafa9fbb416815de1b5d22afcf8b3f0224c02fe1a"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false
+    },
+    {
+      "id": "Q16",
+      "title": "不同视图影响分群",
+      "user_statement": "地区、距离等很多特征可能导致不同群，三群是不是不对？",
+      "original_design_status": "设计待开测",
+      "original_design_status_is_historical": true,
+      "closeout_class": "限定范围已验证",
+      "actually_completed": "RFM与original8几何对照、地区/距离新增输入、多视图与删块对照已完成；最终批以旧H05冻结中心外推Nov/Dec并逐键复现Oct/Jan。",
+      "conclusion": "不同视图确实改变表示空间和分区；不能用跨空间silhouette绝对值直接裁定哪个商业分群正确。",
+      "boundary": "冻结H05只作诊断不入X；新增地区不自动证明必须改K3，也不证明每个视图都值得给一套新群。",
+      "human_decision": "是否需要重新定义业务群由正式用途决定；当前共同诊断沿用既有标签。",
+      "missing_external_data_or_material": "缺真实客户意图/业务分群标注；不能把几何簇认证成客户动机。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/structure/README.md",
+          "sha256": "46db1178d9cd19b828dae9561c455ddf36f749b8626920566c79d4dafa30fafb"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/features/README.md",
+          "sha256": "875389910457af71dd50277a911e8533f5a4eda993bd5f56751ea51af7c241e9"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-common-comparison-20261112/ae-followup/feature-groups/README.md",
+          "sha256": "eb2f9c51817d861973a908fba274e5c091078a3f26d4fdbd1038befdb821ed95"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/data/data-manifest.json",
+          "sha256": "0f7f16aed6f01b0b3d2ed83bf14f2eaf739cea88c393418449419b23b6bf37f6"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false
+    },
+    {
+      "id": "Q17",
+      "title": "其他机器学习方向",
+      "user_statement": "前面提到的合适机器学习方向也可以尝试。",
+      "original_design_status": "候选池，待目标和开测指令",
+      "original_design_status_is_historical": true,
+      "closeout_class": "明确不在当前必要范围且理由",
+      "actually_completed": "已完成适合现目标的LR/树/神经/GCN、pairwise、校准、不平衡、表征和最后Gamma金额回归；没有穷尽所有算法。",
+      "conclusion": "生存分析、全部图注意力与所有排序目标不构成本次穷尽义务。当前固定任务是90天是否复购及商品额，已给对应合理模型与反例，继续加名字不自动增加可验证结论。",
+      "boundary": "没有执行生存模型，不能说已比较下一次购买时间；没有GAT训练，不能混称GCN。",
+      "human_decision": "改变目标为“何时购买”才需要新的风险集/删失/时间指标设计，这是产品目标变化而非当前未完实验。",
+      "missing_external_data_or_material": "利润/增量目标需要成本/干预数据；完整独立未来评估需要新未来样本。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/objectives/README.md",
+          "sha256": "4b62d8325689ebb53a542b2568a0e0684a3717f247c1e684a4dee1f854c9d590"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-gcn-graph-grid-20261110/README.md",
+          "sha256": "2840aaa5775fe52b0fe97dad396556c749a8e4ba30967575dfd3fe19efae4b97"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/task_plan.md",
+          "sha256": "c6d0ff58feed195bc4db1a803813faaedebb4fd7902874168d4139faeb24c1f4"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/amount-stage-manifest.json",
+          "sha256": "9067c1eac08066e950eae75162d6dfc45109d1f42b7108c9c77f3e4f0ae49730"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false
+    },
+    {
+      "id": "Q18",
+      "title": "研究过程与执行门禁",
+      "user_statement": "自由探索拓展，记录过程、分析发现并自主进一步实验；先记质疑，看完建模后统一开测。",
+      "original_design_status": "等待用户明确开测",
+      "original_design_status_is_historical": true,
+      "closeout_class": "限定范围已验证",
+      "actually_completed": "2026-11-11后明确授权开测；已完成原验证、同口径、多seed/重叠split、AE消融、早期时点及最后滚动/价值固定批次。计划/哈希/失败/负结果/纠正与回放留存。",
+      "conclusion": "旧设计阶段“等待/新增0”是历史，不是当前门禁。最后批是一次冻结收束，不能因理论不确定性无限追加搜索。",
+      "boundary": "研究完成与正式采用/本人提交/三端同步状态分别记录。源码、模型、汇总保存不自动等于GitHub/本地/线上已同步。",
+      "human_decision": "正式采用/成员收件/群稿由真实本人或组员记录；不代发、不把影子研究当成员交付。",
+      "missing_external_data_or_material": "真正盲测、毛利成本与干预证据缺失已结案为不可证明，不留“待用户开测”计算欠账。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-validation-20261111/task_plan.md",
+          "sha256": "f4d4680dff3ae1f2c5f043969b62dd0e153c0fd73c17fab32e17a117d56fbbd2"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-common-comparison-20261112/task_plan.md",
+          "sha256": "1a2a957a7e0a2046cba77a77184ceb88079644893a1a56ea4cfab7c721c1fc6f"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-common-comparison-20261112/ae-followup/task_plan.md",
+          "sha256": "0d90f392b7c6af9e211d6a2ae295cf170b792e1ae371d5c78436b9df091ffad4"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/task_plan.md",
+          "sha256": "c6d0ff58feed195bc4db1a803813faaedebb4fd7902874168d4139faeb24c1f4"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/probability/replay-verification.json",
+          "sha256": "249a25c596c2c89175a6697662f93680597cfe3c0ad9ddfad443acce8667cf24"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/amount-independent-readback.json",
+          "sha256": "eedc6c73e21eced7622545e52de9c970ab8fb4fa57edc1bcd177c30db5bf31af"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false
+    },
+    {
+      "id": "Q19",
+      "title": "全体概率→原pFM/预计金额价值→经理名单",
+      "user_statement": "先给全体客户预测复购概率，再以购买次数/金额/概率形成价值分数交经理；并比较预计未来90天商品额。",
+      "original_design_status": null,
+      "original_design_status_is_historical": false,
+      "closeout_class": "限定范围已验证",
+      "actually_completed": "6 cell 全体三种概率与6个Gamma正支已完成，全部fallback=false；18套全量经理私表、144个分数列、1,296行容量和36行金额误差由独立脚本回算；840行Jan条件区间已保存并独立核表结构与数量，没有第二次重跑bootstrap。",
+      "conclusion": "全体概率→价值分数→经理名单闭环已执行。主参考 p×F×M、字面敏感性 p×max(F−1,0)×M 与 p×发生购买条件下未来90天商品总额预测并列。固定10%时，pFM和预计金额各15/18组合捕获额高于p，预计金额11/18高于pFM；不能据此选唯一赢家。",
+      "boundary": "F/M均为历史六自然月，非终身；pFM重复强调频次，不是金额预测。Jan的F−1敏感性使28,665位单单客户零分，久单12,330位全部零分。18组合来自3个重叠已见窗口；大多固定分数条件区间含0，不含重训、搜索和漂移不确定性。预计商品额不含运费、利润或增量。",
+      "human_decision": "经理根据人数或商品额目标与容量选视图；正式采用由本人/小组确认。",
+      "missing_external_data_or_material": "成本、毛利、退款与触达反事实缺失；无法证明利润最优/营销增量。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/probability/README.md",
+          "sha256": "51980ee1014c5a4ca0bd1acc62a1065f53a3ac6b43736e83eaa179fdc5506bbd"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/amount-stage-manifest.json",
+          "sha256": "9067c1eac08066e950eae75162d6dfc45109d1f42b7108c9c77f3e4f0ae49730"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/amount-independent-readback.json",
+          "sha256": "eedc6c73e21eced7622545e52de9c970ab8fb4fa57edc1bcd177c30db5bf31af"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/manager-guide.md",
+          "sha256": "53c41f900776801e0b1e7dbb8f7ac821d2869de78a868e60a78fd4b3bd1ad7e5"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/value-manifest.json",
+          "sha256": "8e84ac942574f03242db089b82db08a30ef105e61e16b7eb74b0ca8c72bd01a5"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/value-report.md",
+          "sha256": "8553c7b8897f998dfdaee9178f272a7f51ceb7392659e86b6ee633ed35cf4b5b"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/independent-readback.json",
+          "sha256": "f36de76453c5d6301949f27109fed05cc61856b9e3f9ad6281ddc8972dd4d954"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/capacity-results.csv",
+          "sha256": "1f275db609197f5d9e1777fba8616c18dbefbf7df98d4602617cf59ef842f5fd"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/amount-prediction-metrics.csv",
+          "sha256": "eb2375b8f0e8eef5bd879af260f5e644295ae3581637ba8cc0641d78b485be18"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/jan-paired-bootstrap.csv",
+          "sha256": "d129803f2ea1f4a806a4029e661be5b210b9cc34e6b6c27ef20b840f43088690"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/original-formula-zero-analysis.csv",
+          "sha256": "c3a839ba3abd370c9e1b4065ef16a905e2c6190938a20811c8ca17666fcc0719"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false,
+      "numerical_execution_state": "COMPLETED_BOUNDED_VALIDATION",
+      "fixed_global10_descriptive_comparisons": {
+        "pFM_gt_p": 15,
+        "EV_gt_p": 15,
+        "EV_gt_pFM": 11,
+        "combinations": 18,
+        "independent_periods": false
+      },
+      "verification_scope": "6模型、18经理表、144分数列、1296容量、36金额误差独立回算；840条件区间仅schema/count独立核验，不冒称第二次区间复算。"
+    },
+    {
+      "id": "Q20",
+      "title": "全量输入、全量字段、100%名单与10%的区别",
+      "user_statement": "澄清全体客户输入、所有可用字段输入、给经理100%或10%名单分别意味着什么。",
+      "original_design_status": null,
+      "original_design_status_is_historical": false,
+      "closeout_class": "限定范围已验证",
+      "actually_completed": "Nov/Dec/Jan全部23,260/26,848/29,368位合格客户均获三种概率和全部冻结价值分；base8/full141输入维度有明确allowlist；1/2/5/10/20/50/100%容量均执行。全部100%容量的名单人数、复购召回、金额份额与群基率精确率守恒通过。",
+      "conclusion": "全量客户是行维度，全可用字段是列维度，名单百分比是输出容量。100%选择全部合格客户，覆盖全部已观察复购与商品额，precision等于群体复购率，排序不改变该端点。10%用于资源有限场景及旧项目可比，从未限制概率模型输入。",
+      "boundary": "141不含身份键、时间与未来y/G/N；所有全体概率和价值已实际输出，没有待跑容量计算。100%覆盖不能证明更准、利润更大、触达增量或经理能处理全部客户。",
+      "human_decision": "经理按可承受名额选择容量，科学评价继续覆盖全部客户；无需为容量变动重训概率模型。",
+      "missing_external_data_or_material": "实际人力/触达成本未给，不能认证最优名单长度。",
+      "evidence": [
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/data/data-manifest.json",
+          "sha256": "0f7f16aed6f01b0b3d2ed83bf14f2eaf739cea88c393418449419b23b6bf37f6"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/probability/README.md",
+          "sha256": "51980ee1014c5a4ca0bd1acc62a1065f53a3ac6b43736e83eaa179fdc5506bbd"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/value-plan.md",
+          "sha256": "792c2b67b258cc3c528aa8924ec056d4855fc06ec6f96921cebb4650c40dd5b7"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/capacity-results.csv",
+          "sha256": "1f275db609197f5d9e1777fba8616c18dbefbf7df98d4602617cf59ef842f5fd"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/value-report.md",
+          "sha256": "8553c7b8897f998dfdaee9178f272a7f51ceb7392659e86b6ee633ed35cf4b5b"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/independent-readback.json",
+          "sha256": "f36de76453c5d6301949f27109fed05cc61856b9e3f9ad6281ddc8972dd4d954"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/value-manifest.json",
+          "sha256": "8e84ac942574f03242db089b82db08a30ef105e61e16b7eb74b0ca8c72bd01a5"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/amount-prediction-metrics.csv",
+          "sha256": "eb2375b8f0e8eef5bd879af260f5e644295ae3581637ba8cc0641d78b485be18"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/jan-paired-bootstrap.csv",
+          "sha256": "d129803f2ea1f4a806a4029e661be5b210b9cc34e6b6c27ef20b840f43088690"
+        },
+        {
+          "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/original-formula-zero-analysis.csv",
+          "sha256": "c3a839ba3abd370c9e1b4065ef16a905e2c6190938a20811c8ca17666fcc0719"
+        }
+      ],
+      "computational_debt_in_frozen_scope": false,
+      "numerical_execution_state": "COMPLETED_BOUNDED_VALIDATION"
+    }
+  ],
+  "draft_history_path": "question-closeout-draft.json",
+  "draft_history_sha256": "8ee0683b0f2a24461e1d2c38c349b6bbd42a3203b23885069b1464b4d5f66b94",
+  "value_numerical_results_integrated": true,
+  "final_execution_summary": {
+    "new_Gamma_fits": 6,
+    "manager_tables": 18,
+    "score_columns": 144,
+    "capacity_rows": 1296,
+    "amount_metric_rows": 36,
+    "Jan_conditional_interval_rows": 840,
+    "conditional_interval_rows_containing_zero": 670,
+    "interval_independent_verification": "schema/count only; no second bootstrap",
+    "global10_comparisons": {
+      "pFM_gt_p": 15,
+      "EV_gt_p": 15,
+      "EV_gt_pFM": 11
+    },
+    "global100_conservation_rows_checked": 162
+  },
+  "final_value_evidence": [
+    {
+      "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/value-report.md",
+      "sha256": "8553c7b8897f998dfdaee9178f272a7f51ceb7392659e86b6ee633ed35cf4b5b"
+    },
+    {
+      "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/independent-readback.json",
+      "sha256": "f36de76453c5d6301949f27109fed05cc61856b9e3f9ad6281ddc8972dd4d954"
+    },
+    {
+      "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/value-manifest.json",
+      "sha256": "8e84ac942574f03242db089b82db08a30ef105e61e16b7eb74b0ca8c72bd01a5"
+    },
+    {
+      "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/capacity-results.csv",
+      "sha256": "1f275db609197f5d9e1777fba8616c18dbefbf7df98d4602617cf59ef842f5fd"
+    },
+    {
+      "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/amount-prediction-metrics.csv",
+      "sha256": "eb2375b8f0e8eef5bd879af260f5e644295ae3581637ba8cc0641d78b485be18"
+    },
+    {
+      "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/jan-paired-bootstrap.csv",
+      "sha256": "d129803f2ea1f4a806a4029e661be5b210b9cc34e6b6c27ef20b840f43088690"
+    },
+    {
+      "path": "E:/app-data/codex/outputs/is6400-final-validation-20261112/value/original-formula-zero-analysis.csv",
+      "sha256": "c3a839ba3abd370c9e1b4065ef16a905e2c6190938a20811c8ca17666fcc0719"
+    }
+  ],
+  "remaining_external_identification_limits": [
+    "没有真正未见未来样本，不能认证独立未来泛化",
+    "缺毛利、退款、触达/人力成本，不能识别利润最优",
+    "缺随机触达或合适干预对照，不能识别营销uplift/增量订单",
+    "静态属性、入库/回写变更日志缺失，无法认证生产as-of完整可恢复性"
+  ]
+}

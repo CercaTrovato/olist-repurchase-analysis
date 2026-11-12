@@ -1,0 +1,16 @@
+{
+  "status": "PASS_ACTUALLY_VIEWED",
+  "reviewer": "root",
+  "observed_at": "2026-11-12T22:39:00+08:00",
+  "count": 6,
+  "new_model_fits": 0,
+  "figures": {
+    "figures/01-rolling-probability.png": "2701acc9226f404b29f0e2acd806015625a6dbce488efbe0c756bd7bdd424266",
+    "figures/02-january-hits-value-tradeoff.png": "87c6c595db988ceebda8597f1f88de7ff43661e51a1fbe2fc20a3558ab83dfad",
+    "figures/03-long79-rule-comparison.png": "cb780ad007b75263c99f9d83f426504ca1896346a4c64abbd1be73cd04549a0d",
+    "value/figures/capacity-gmv-p_catboost.png": "2c2b9fe758ac191f8a926e89410b83957c78e169b29f21ef284ea61f01869e5b",
+    "value/figures/capacity-gmv-p_ulr.png": "779b1881c493e82e63c38ec32a8575414bd0730f1ab44f7dc14db5a4b4fbf7e1",
+    "value/figures/capacity-gmv-p_wlr.png": "6512e3ef775e450ed23b8ab1efcb79da8289ab3428f5865761a1885d1de91581"
+  },
+  "checks": "All six PNGs visually inspected. Titles, axes, six-cell scopes, legends and 100% endpoints read; scatter label overlap removed. SVG paired; source aggregates preserved."
+}

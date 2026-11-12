@@ -1,6 +1,9 @@
-# PPT 与报告图表素材
+# PPT与报告图表素材：累计72幅
 
-**当前累计66幅主图：此前57幅＋AE后续验证9幅。** [本轮9图](ae-validation-figures.md) · [对应结果](ae-validation-results.md)。下文旧批次数量与分数保留历史，跨期只与各自同口径基线比较。
+**当前累计72幅主图：此前66幅＋最后概率/价值/容量6幅。** [最新6图及图义](final-validation-figures.md) · [最终研究主线](final-research-closeout.md) · [含历史66图入口](all-66-figures.md)。每幅PNG/SVG按同一主图计数；不把两个格式算两幅。
+
+
+**历史至上一批累计66幅：此前57幅＋AE后续验证9幅。** [本轮9图](ae-validation-figures.md) · [对应结果](ae-validation-results.md)。下文旧批次数量与分数保留历史，跨期只与各自同口径基线比较。
 
 [当前结果](round-3-results.md) · [第三轮成员任务](round-3/README.md) · [绘图源码与数据](../../research/round3/README.md)
 

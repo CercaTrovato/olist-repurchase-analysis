@@ -1,5 +1,11 @@
 # 九张表与完整字段解释
 
+**2026-11-12当前说明：** 原八字段是早期选定的客户摘要，不是原始九表仅有八项。本批已构造并审核141个可用结构摘要字段，并明确键/未来标签禁入X及静态时点日志假设；字段更多不保证预测更好。
+
+[最终主说明](team/final-research-closeout.md) · [价值与经理使用](team/final-value-guide.md) · [当前收尾事项](team/current-status.md)
+
+---
+
 [项目首页](../README.md) · [接着看名单方法](03-methodology.md) · [当前进度](team/current-status.md)
 
 ## 先读懂统计单位

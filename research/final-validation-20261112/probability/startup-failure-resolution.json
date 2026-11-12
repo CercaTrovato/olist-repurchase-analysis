@@ -1,0 +1,9 @@
+{
+  "status": "RESOLVED_PREFIT_STARTUP_ONLY",
+  "retained_failure_path": "E:\\app-data\\codex\\outputs\\is6400-final-validation-20261112\\probability\\failures.json",
+  "retained_failure_sha256": "df5ca4fd6163d053845f2e660b34a1137bd5abc53e4c27b73c5dd6ab6b52612b",
+  "cause": "The authorization-record construction used a Windows backslash dictionary lookup against slash-normalized keys; no authorization file was created. Driver then refused before input-freeze and before fitting.",
+  "resolution": "Corrected only the authorization record construction to Path.as_posix; immutable driver and model hyperparameters unchanged. Main single training execution completed exactly25 new and5 reused.",
+  "supervised_models_fitted_in_failed_start": 0,
+  "models_retrained": 0
+}

@@ -4,7 +4,7 @@
   "course": "IS6400",
   "as_of": "2026-11-12",
   "timezone": "Asia/Shanghai",
-  "source_revision": "7f6d8be5afcf2392ba6dcdaf3a84808c4da1975c432a829c3541ccc17180a7d9",
+  "source_revision": "f4dc7ee0299a9953e570def5edf5b1f7102ecbce8d23cac943304796833ffc41",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
   "stale": false,
   "scheduling_policy": {
@@ -37,7 +37,7 @@
       "title": "确定最终评价口径",
       "owner": "本人 · 总监督",
       "status": "needs_review",
-      "personal_action": "确认实际展示采用版本、时间和依据；按原节点收H07并核数。",
+      "personal_action": "沿人数主线或正式改金额主线需明确；不把研究建议当已定。",
       "readiness": "ready",
       "target": {
         "value": "2026-11-12",
@@ -67,11 +67,28 @@
       "date_state": "next_7_days"
     },
     {
+      "id": "local-comparison",
+      "title": "本地探索与四月已见回测（辅助）",
+      "owner": "本地辅助 1–5 号；本人核取舍",
+      "status": "needs_review",
+      "personal_action": "阅读目标取舍及真实团队版本，完成合稿。",
+      "readiness": "ready",
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "blocked_by": [],
+      "estimated_minutes": null,
+      "observed_on": "2026-11-12",
+      "date_state": "unscheduled"
+    },
+    {
       "id": "research-questions-and-design",
       "title": "建模质疑与逐步受控验证",
       "owner": "本人 · 6号与本课程会话",
       "status": "in_progress",
-      "personal_action": "阅读统一比较，决定展示采用口径与正式版本。",
+      "personal_action": "阅读目标取舍及真实团队版本，完成合稿。",
       "readiness": "ready",
       "target": {
         "value": null,

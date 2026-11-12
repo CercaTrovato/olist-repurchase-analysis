@@ -1,0 +1,7 @@
+snapshot_date,feature,eligible_orders,known_orders,unknown_orders
+2018-01-01,basket_sellers_mean,30134,30134,0
+2018-01-01,basket_products_mean,30134,30134,0
+2018-01-01,basket_categories_mean,30134,29638,496
+2018-01-01,credit_order_share,30134,30134,0
+2018-01-01,boleto_order_share,30134,30134,0
+2018-01-01,installments_max_mean,30134,30134,0

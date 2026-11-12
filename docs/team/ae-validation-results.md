@@ -115,3 +115,6 @@ AE在这个组合少于同口径基线5个全局命中、1个久单命中；未�
 - 主统计只处理135新+65旧的200份一月分数，14系统/70融合格；56,000复制结果、350区间/350方向全部读回。13个时间模型独立表，不混入一月条件区间。
 - [预算](../../research/ae-ablation-20261112/budget/README.md)、[六块](../../research/ae-ablation-20261112/feature-groups/README.md)、[统计](../../research/ae-ablation-20261112/statistics/README.md)、[时间](../../research/ae-ablation-20261112/temporal/README.md)保留方案、源码、全部聚合、实际预算/梯度和局限；逐人分数、模型和名单私有。校准程序success不等于数学精确最优。
 - 原冻结计划、数据恢复审计及新增时间分支协议各自留痕，不伪称全部是原一月方案的一部分。可视化提供PNG/SVG、源码和数据；本批发布白名单及三端状态按最后操作回执分别核对。
+
+
+[总监督简报与待决事项](ae-board-note.md) · [历史与本批 66 图统一索引](all-66-figures.md)。

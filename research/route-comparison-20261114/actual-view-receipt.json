@@ -1,0 +1,18 @@
+{
+  "status": "PASS_WITH_EXPLICIT_LIMITS",
+  "new_png_actually_viewed": 3,
+  "existing_png_actually_viewed": 8,
+  "total_selected_png": 11,
+  "checks": [
+    "readable text, units, axes, versions and source scope",
+    "SD distinguished from CI",
+    "A R3 B/C variant labels distinguished from route A/B",
+    "B temporal figure plots probability metrics; hits referenced separately",
+    "correlated splits and seen dates not independent tests",
+    "no inference of pure algorithm victory from field+model change"
+  ],
+  "new_model_fits": 0,
+  "new_interval_estimation": 0,
+  "reused_images_not_new_experiments": true,
+  "guide_pages_actually_viewed": 2
+}

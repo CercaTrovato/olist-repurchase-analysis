@@ -1,0 +1,4 @@
+route,train_snapshot,predictor_fit_rows,fit_positive_rows,calibration_rows,cal_positive_rows,evaluation_snapshot,evaluation_rows,positive_rows,K,method,features,hits,long79_hits,global_long_seats,direct_A_B_superiority_comparison_valid
+A team R3 proposed freeze,2017-10-01,21160,211,0,0,2018-01-01,29368,230,2937,F0 base8 weighted LR; raw ranking scores,8,50,2,73,False
+B proposed probability pipeline,2017-10-01,16928,169,4232,42,2018-01-01,29368,230,2937,full141 native CatBoost mean of 3 separately calibrated probabilities; single strategy,141,49,2,73,False
+B same-protocol reference,2017-10-01,16928,169,4232,42,2018-01-01,29368,230,2937,base8 weighted LR with held-out calibration,8,43,2,79,False

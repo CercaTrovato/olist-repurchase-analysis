@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-14",
+  "affected_decision": "IS6400-D14",
+  "prior_record": "2026-11-13按本人当时‘我们统一觉得…就是我的本地线’表述登记为本地主线已采用",
+  "latest_user_clarification": "我其实没有跟组员确认，我现在还需要跟组员确认一下，究竟是用我们目前大家推进的进度，还是用我本地优化过重构的进度",
+  "current_interpretation": "此前为本人倾向，尚未获得团队确认；最终路线与正式冻结待A/B投票及群内确认",
+  "team_route_confirmed": false,
+  "model_or_metric_frozen": false,
+  "votes_received": [],
+  "preserve_prior_quote_and_artifacts_as_history": true,
+  "no_formal_PPT_started_before_vote": true,
+  "user_requested_work": ["专业性/深度/实际效果/资料图片/交付风险全面对比", "上传GitHub", "提供可直接发群的投票消息", "投票确定后才制作PPT"]
+}

@@ -1,0 +1,29 @@
+{
+  "source_sha256": {
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\audit\\january-recomputed.csv": "ce57e03677fbd35912080e67527e2b0a7b5bc77a73c82b265c3d00b2fa309f01",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\audit\\january-groups-recomputed.csv": "218883989cd068af9130f5a00055c3a71e56d9131b767a99898ade4591554dfa",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\private\\extracted\\role03\\Round3_role03_prediction_v1\\cv-summary.csv": "2a78d91e3913a3df11b042d1a1705901f8c7f431e6f15cf22c543320dadc2b1b",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\private\\extracted\\role03\\Round3_role03_prediction_v1\\group-cv-summary.csv": "fb125ebc68471d9e362a881230588605f47be1d88397577b851c8ab4d51d2a72",
+    "E:\\app-data\\codex\\outputs\\is6400-final-validation-20261112\\probability\\primary-eval-metrics.csv": "73014bce07a4c585e5d145b8b456779f762c29b78119f157a66022ddfd609436",
+    "E:\\app-data\\codex\\outputs\\is6400-final-validation-20261112\\value\\capacity-results.csv": "1f275db609197f5d9e1777fba8616c18dbefbf7df98d4602617cf59ef842f5fd"
+  },
+  "checks": {
+    "team_capacity_rows": 24,
+    "team_CV_rows": 8,
+    "local_rolling_systems": 18,
+    "local_single_strategy_systems": 9,
+    "protocol_rows": 3,
+    "value_direction_counts": {
+      "n_correlated_combinations": 18,
+      "pFM_captured_G_gt_p": 15,
+      "expected_G_gt_p": 15,
+      "expected_G_gt_pFM": 11,
+      "not_independent_trials": true
+    }
+  },
+  "new_model_fits": 0,
+  "new_uncertainty_intervals": 0,
+  "new_april_predictions": 0,
+  "proposal_not_frozen": true,
+  "warning": "CB141 vs LR8 changes both information and model; full pipeline comparison, not pure algorithm effect. A full-Oct vs B fit/cal is not a head-to-head win test."
+}

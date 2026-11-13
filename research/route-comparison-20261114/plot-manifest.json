@@ -1,0 +1,15 @@
+{
+  "status": "ACTUALLY_VIEWED",
+  "new_png_svg_pairs": 3,
+  "reused_png": 8,
+  "new_model_fits": 0,
+  "new_uncertainty_intervals": 0,
+  "files": {
+    "figures/01-protocol-comparison.png": "2ee5e13f9ee3caa4674baeba94b0adf1a3249659a0d0b99134bf921bc891589f",
+    "figures/01-protocol-comparison.svg": "583454a87c3682f45ea4ebe4137819af8fb1f701a6a041d33ced5e582165092b",
+    "figures/02-team-cv-diagnostics.png": "2685cdd257b7f08004545a92502a0f750ad7a9320008785ef7644c791ff57cd5",
+    "figures/02-team-cv-diagnostics.svg": "76bb40545d27bc4a811dd07859e4e5c43bb14cb146cd72f0f1448f0bb54f632c",
+    "figures/03-local-controlled-rolling.png": "ca5b47c69fec95f8d237bd85dca25cae5a07014046da07215e18c6e593901195",
+    "figures/03-local-controlled-rolling.svg": "9ad01b83aed3b79deee6988b20de64c1df2cbde056453342205ce5b8aaf1bc46"
+  }
+}

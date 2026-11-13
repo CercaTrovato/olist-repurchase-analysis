@@ -3,10 +3,10 @@
   "assignment_id": "IS6400-A06",
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
-  "as_of": "2026-11-13",
-  "basis_revision": "e2f9af09ab4fc8224386ae313715ccb057d90645a30f3b715b8b76bd9f3be66e",
+  "as_of": "2026-11-14",
+  "basis_revision": "5eb751f95cdd3f34879527ae3a07aa549d7ae32fa09cafbb43fdfdf797c45553",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "成员特征证据R3-role02-v1.1已实收定向验收：96hash通过，full/smoke各56行区间按非缺失人数复算、各20行修正，与课程前修正版一致；点估计/AUC/筛选/参数不变。2号CI及对应说明补件关闭，3/5其他问题不连带关闭。无新模型/四月评分；D14本地主线已采，具体配置/主指标仍待本人后续答。新增1修订图，共89。",
+  "summary": "已更正D14：6号个人倾向本地B线，尚未跟组员确认，最终A/B路线与模型/指标/冻结均待投票。公平对比团队R3修正版与本地精选，含设计/效果/风险、8旧图配3新图、两套具体提案与群投票稿。推荐B有条件：分析链更完整且全员能讲懂；不以A50/B49异口径或模型数判胜。无新实验/四月评分/正式PPT；92幅素材，待6号发群汇总真实回复。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
@@ -16,10 +16,10 @@
       "owner": "本人 · 总监督",
       "owner_role": "me",
       "scope": "team",
-      "summary": "报告研究路线本地已定，具体正式模型和主指标仍待本人后续答复；不默认R3 F0最终采用。",
+      "summary": "业务方向和开发窗口已核；当前A/B路线、具体最终配置/指标仍待全组确认，个人倾向不等于集体采用。",
       "deliverable": "决定方法冻结后怎样评价，并清楚披露哪些时期已经看过。",
-      "next_action": "报告主线本地已采用；具体模型/主指标/模型冻结时间等本人后续答，先整理已核内容，不催重复决策。",
-      "my_next_action": "沿人数主线或正式改金额主线需明确；不把研究建议当已定。",
+      "next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+      "my_next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -45,7 +45,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-13",
+      "observed_on": "2026-11-14",
       "estimated_minutes": null,
       "state_basis": "沿用已有核验；未凭文件存在推定正式提交。 本日期为总监督建议，待相关成员确认，不改变正式截止。",
       "evidence": [
@@ -84,6 +84,11 @@
           "observed_on": "2026-11-12",
           "status": "needs_review",
           "note": "最后固定清单已收尾，新增3滚动期/价值层与20Q；不存在本批待跑模型，正式团队采用另记。"
+        },
+        {
+          "observed_on": "2026-11-14",
+          "status": "needs_review",
+          "note": "本人澄清未跟组员确认，更正当前已采解释为待A/B投票；旧原话/历史成果保留，无新模型/正式PPT。"
         }
       ]
     },
@@ -684,10 +689,10 @@
       "owner": "本人 · 统筹",
       "owner_role": "me",
       "scope": "team",
-      "summary": "向各岗核对 H07 的 Slides、英文讲稿和报告要点预计交稿时间。",
+      "summary": "先把可审阅A/B图文发群，汇总真实投票与配置异议；共同确认后再安排正式PPT各页及讲稿。",
       "deliverable": "完成核对或交接，并将实际答复更新回任务记录。",
-      "next_action": "报告主线本地已采用；具体模型/主指标/模型冻结时间等本人后续答，先整理已核内容，不催重复决策。",
-      "my_next_action": "向各岗核对 H07 的 Slides、英文讲稿和报告要点预计交稿时间。",
+      "next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+      "my_next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -704,7 +709,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-13",
+      "observed_on": "2026-11-14",
       "estimated_minutes": null,
       "state_basis": "总监督根据现有缺口拟定的行动建议，未冒充已经开展。 本日期为总监督建议，待相关成员确认，不改变正式截止。",
       "evidence": [
@@ -718,6 +723,11 @@
           "observed_on": "2026-11-10",
           "status": "planned",
           "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        },
+        {
+          "observed_on": "2026-11-14",
+          "status": "planned",
+          "note": "本人澄清未跟组员确认，更正当前已采解释为待A/B投票；旧原话/历史成果保留，无新模型/正式PPT。"
         }
       ]
     },
@@ -1070,10 +1080,10 @@
       "owner": "全组；提交代表待确认",
       "owner_role": "team",
       "scope": "team",
-      "summary": "原内部21:00节点已到；成员之后自报冻结，6号正式采用/时间未核，不自动完成或改期。",
+      "summary": "此前内部冻结节点保留历史；当前正式路线/模型冻结待A/B投票及共同确认，不倒填时间或自动改期。",
       "deliverable": "冻结分析方法（建议）",
-      "next_action": "报告主线本地已采用；具体模型/主指标/模型冻结时间等本人后续答，先整理已核内容，不催重复决策。",
-      "my_next_action": null,
+      "next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+      "my_next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -1090,7 +1100,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-13",
+      "observed_on": "2026-11-14",
       "estimated_minutes": null,
       "state_basis": "本人2026-11-11明确同意展示方法采用截止；成员交付承诺另记。",
       "evidence": [
@@ -1109,6 +1119,11 @@
           "observed_on": "2026-11-11",
           "status": "planned",
           "note": "本人确认11月12日21:00展示采用截止，最终方法尚待选择。"
+        },
+        {
+          "observed_on": "2026-11-14",
+          "status": "needs_review",
+          "note": "本人澄清未跟组员确认，更正当前已采解释为待A/B投票；旧原话/历史成果保留，无新模型/正式PPT。"
         }
       ],
       "milestone_kind": "internal"
@@ -1882,10 +1897,10 @@
       "owner": "1–5号；本人统筹",
       "owner_role": "team",
       "scope": "team",
-      "summary": "1–5号已收，2号v1.1的20CI修订已收到且定向核验通过；3/5其他记录问题保持原待修状态。本地主线D14已采。",
+      "summary": "1–5号R3均已实收核验，2号v1.1的20CI修订通过，3/5原记录问题分列；团队最终路线待投票，不由交件或研究完成代替。",
       "deliverable": "已发群后的成员接单/承诺与实际回件待收。",
-      "next_action": "用v1.1已修材料合稿；继续原3/5最小记录处理，具体模型/指标等本人后续答，不重开搜索。",
-      "my_next_action": "本地线的具体配置等本人后续确认，先筛素材与收稿。",
+      "next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+      "my_next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
       "depends_on": [
         "my-round3-dispatch"
       ],
@@ -1905,7 +1920,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-13",
+      "observed_on": "2026-11-14",
       "estimated_minutes": null,
       "state_basis": "本地辅助与组员实际回传分开，最终模型采用未代本人决定。",
       "evidence": [
@@ -1934,6 +1949,11 @@
           "observed_on": "2026-11-13",
           "status": "needs_review",
           "note": "2号v1.1成员补件已闭20CI项，不连带关闭实际模型组合/3号/5号其他缺口，不改期。"
+        },
+        {
+          "observed_on": "2026-11-14",
+          "status": "needs_review",
+          "note": "本人澄清未跟组员确认，更正当前已采解释为待A/B投票；旧原话/历史成果保留，无新模型/正式PPT。"
         }
       ]
     },
@@ -2167,10 +2187,10 @@
       "owner": "本课程会话本地研究；本人决定业务采用",
       "owner_role": "me",
       "scope": "supporting",
-      "summary": "最终固定研究收尾：3滚动期/单多期、25新+5复用概率模型、6金额模型、18全量经理私表、20质疑结案，新增6图累计72。全体预测后再按pFM/预计金额选名单；两价值规则各15/18组合捕额优于p，但人数/久单有取舍，无统一赢家。四月无新评分；正式指标/团队采用与H07按事实确认。",
+      "summary": "本地固定研究范围已完成，事实和计算不回退；团队是否用它为报告/展示主线待A/B投票，尚未自动采用。",
       "deliverable": "3期单/多期概率，6金额模型/18私表，容量与20Q，6图及独审。",
-      "next_action": "报告主线本地已采用；具体模型/主指标/模型冻结时间等本人后续答，先整理已核内容，不催重复决策。",
-      "my_next_action": "确认展示主目标与实际版本，收H07并合稿核数。",
+      "next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+      "my_next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
       "depends_on": [
         "research-questions-and-design"
       ],
@@ -2202,7 +2222,7 @@
       },
       "started_on": "2026-11-12",
       "completed_on": "2026-11-12",
-      "observed_on": "2026-11-13",
+      "observed_on": "2026-11-14",
       "estimated_minutes": null,
       "state_basis": "本地辅助研究收尾，不代表团队新回件、正式采用、冻结或提交完成。",
       "evidence": [
@@ -2216,6 +2236,11 @@
           "observed_on": "2026-11-12",
           "status": "done",
           "note": "最后一次固定清单完成，原目标价值层补齐，无新四月评分。"
+        },
+        {
+          "observed_on": "2026-11-14",
+          "status": "done",
+          "note": "本人澄清未跟组员确认，更正当前已采解释为待A/B投票；旧原话/历史成果保留，无新模型/正式PPT。"
         }
       ]
     },
@@ -2226,10 +2251,10 @@
       "owner": "本课程会话核技术；成员确认/本人采用另列",
       "owner_role": "me",
       "scope": "supporting",
-      "summary": "1–5号已收，2号v1.1的20CI修订已收到且定向核验通过；3/5其他记录问题保持原待修状态。本地主线D14已采。",
+      "summary": "1–5号R3均已实收核验，2号v1.1的20CI修订通过，3/5原记录问题分列；团队最终路线待投票，不由交件或研究完成代替。",
       "deliverable": "四包原件哈希、聚合/原始回算、当前三卡、13图与独审。",
-      "next_action": "用v1.1已修材料合稿；继续原3/5最小记录处理，具体模型/指标等本人后续答，不重开搜索。",
-      "my_next_action": "核正式采用版本与时间，收H07材料。",
+      "next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+      "my_next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
       "depends_on": [
         "round3-member-returns"
       ],
@@ -2261,7 +2286,7 @@
       },
       "started_on": "2026-11-12",
       "completed_on": "2026-11-13",
-      "observed_on": "2026-11-13",
+      "observed_on": "2026-11-14",
       "estimated_minutes": null,
       "state_basis": "完成课程技术验收范围；不替代5号回签、2/3号原包修订、6号正式采用或提交。",
       "evidence": [
@@ -2285,20 +2310,25 @@
           "observed_on": "2026-11-13",
           "status": "done",
           "note": "2号v1.1成员补件已闭20CI项，不连带关闭实际模型组合/3号/5号其他缺口，不改期。"
+        },
+        {
+          "observed_on": "2026-11-14",
+          "status": "done",
+          "note": "本人澄清未跟组员确认，更正当前已采解释为待A/B投票；旧原话/历史成果保留，无新模型/正式PPT。"
         }
       ]
     },
     {
       "id": "report-local-mainline-adopted",
-      "title": "本人确认最终报告采用本地研究主线",
-      "status": "done",
-      "owner": "本人（6号，转述团队共同意见）",
+      "title": "最终报告A/B路线待全组投票（此前已采记录已更正）",
+      "status": "needs_review",
+      "owner": "本人（6号）汇总，成员共同确认",
       "owner_role": "me",
       "scope": "team",
-      "summary": "D14已明确采用6号独立本地研究线；具体最终模型/主指标/分工等本人稍后回复，组员R3保留独立基线与材料来源。",
+      "summary": "6号最新澄清尚未跟组员确认；此前本地已采记录改为个人倾向，旧原话留历史。A/B具体对照已备，无实际投票或正式冻结。",
       "deliverable": "记录路线采用原话、来源与未决定范围，更新报告材料入口。",
-      "next_action": "按本地主线整理内容，具体配置及主指标等本人稍后明确；不回到默认F0主线或新开搜索。",
-      "my_next_action": "后续回复具体配置/指标等；当前无需重复催答。",
+      "next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+      "my_next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
       "depends_on": [
         "final-research-closeout"
       ],
@@ -2306,11 +2336,9 @@
       "acceptance": [
         {
           "id": "confirmed",
-          "label": "本人直接确认本地研究为最终报告主线",
-          "status": "pass",
-          "evidence": [
-            "report-local-mainline-decision"
-          ]
+          "label": "全组实际确认A/B路线及冻结清单有记录",
+          "status": "unknown",
+          "evidence": []
         },
         {
           "id": "bounded",
@@ -2327,10 +2355,10 @@
         "basis": "unknown"
       },
       "started_on": "2026-11-13",
-      "completed_on": "2026-11-13",
-      "observed_on": "2026-11-13",
+      "completed_on": null,
+      "observed_on": "2026-11-14",
       "estimated_minutes": null,
-      "state_basis": "仅路线采用完成，不代表具体模型已定、报告全文完成或正式提交。",
+      "state_basis": "最新直接用户澄清覆盖此前转述团队意见的解释；准备比较不代表团队采用。",
       "evidence": [
         {
           "label": "本地主线采用说明",
@@ -2342,6 +2370,78 @@
           "observed_on": "2026-11-13",
           "status": "done",
           "note": "用户本轮明确采用本地线，其余问题明确稍后回答。"
+        },
+        {
+          "observed_on": "2026-11-14",
+          "status": "needs_review",
+          "note": "本人澄清未跟组员确认，更正当前已采解释为待A/B投票；旧原话/历史成果保留，无新模型/正式PPT。"
+        }
+      ]
+    },
+    {
+      "id": "route-vote-comparison",
+      "title": "A/B全面对照与可审阅投票材料（辅助）",
+      "status": "done",
+      "owner": "本课程会话整理核验；6号发群，成员投票另列",
+      "owner_role": "me",
+      "scope": "supporting",
+      "summary": "设计/效果/验证/图片与交付风险比较、两套具体提案和群投票稿已备；推荐B有条件，不宣称已采用或全面胜出。",
+      "deliverable": "完整比较、8旧3新图片读法、具体配置清单、8分钟页序、群稿及独审。",
+      "next_action": "6号发群并收真实A/B选择；票齐后确认冻结和分工，再正式PPT。",
+      "my_next_action": "发送已核比较和群投票稿；不将推荐当决定。",
+      "depends_on": [
+        "final-research-closeout",
+        "round3-team-intake-audit"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "source",
+          "label": "现成聚合和当前指南有界核验",
+          "status": "pass",
+          "evidence": [
+            "route-comparison",
+            "canvas-requirements-live"
+          ]
+        },
+        {
+          "id": "review",
+          "label": "完整六份候选独审与读图修正定向封核",
+          "status": "pass",
+          "evidence": [
+            "route-independent-review"
+          ]
+        },
+        {
+          "id": "bounded",
+          "label": "更正D14待投票，未代采用/制作PPT/提交",
+          "status": "pass",
+          "evidence": [
+            "route-decision-correction"
+          ]
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": "2026-11-14",
+      "completed_on": "2026-11-14",
+      "observed_on": "2026-11-14",
+      "estimated_minutes": null,
+      "state_basis": "只完成本批辅助比较交付，不计入团队主任务/投票/报告完成度。",
+      "evidence": [
+        {
+          "label": "A/B全面对比与投票入口",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/route-vote-comparison.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-14",
+          "status": "done",
+          "note": "本人要求全面比较后再投票，六份候选及图文来源验收完成；集体路线仍待。"
         }
       ]
     }

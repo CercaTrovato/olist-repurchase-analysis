@@ -1,0 +1,58 @@
+[
+  {
+    "label": "shared-time",
+    "repository_path": "research/team-round3-20261112/members/role01/time-boundaries.png",
+    "sha256": "d92137505ff5fd2ede43f78b3832fbfc466aad651b16781dda5a12ed4cb2363c",
+    "view_path": "E:\\app-data\\codex\\scratchpad\\is6400-route-comparison-20261114\\shared-time.png",
+    "new_scientific_figure": false
+  },
+  {
+    "label": "A-results",
+    "repository_path": "research/team-round3-20261112/figures/01-team-models-and-long79.png",
+    "sha256": "73d2839f524c09f4ea5e43a9db71ab1dc823863ea02a726ea811b1edb228a92e",
+    "view_path": "E:\\app-data\\codex\\scratchpad\\is6400-route-comparison-20261114\\A-results.png",
+    "new_scientific_figure": false
+  },
+  {
+    "label": "A-field-evidence",
+    "repository_path": "research/role02-v11-20261113/member/figures/02-candidate-effect-sizes.png",
+    "sha256": "f9c87edab917d56af1b5f2d831fabba4de314c3879815b8f0e9a4ceaf3bd48a5",
+    "view_path": "E:\\app-data\\codex\\scratchpad\\is6400-route-comparison-20261114\\A-field-evidence.png",
+    "new_scientific_figure": false
+  },
+  {
+    "label": "A-profile",
+    "repository_path": "research/team-round3-20261112/figures/03-current-group-1.png",
+    "sha256": "21b70bf10cfb290aa398d79c31dd29202d43463373e8d0d0586f3509f68768f7",
+    "view_path": "E:\\app-data\\codex\\scratchpad\\is6400-route-comparison-20261114\\A-profile.png",
+    "new_scientific_figure": false
+  },
+  {
+    "label": "B-information",
+    "repository_path": "research/common-comparison-20261112/statistics/figures/paired-information-effects.png",
+    "sha256": "92578be27285b94e03d1ef0c57181bdda97c6622438eb89896af9492215f9efe",
+    "view_path": "E:\\app-data\\codex\\scratchpad\\is6400-route-comparison-20261114\\B-information.png",
+    "new_scientific_figure": false
+  },
+  {
+    "label": "B-ablation",
+    "repository_path": "research/ae-ablation-20261112/statistics/blocks-canonical-conditional-intervals.png",
+    "sha256": "e33130f24c7d87690151cddabe36f55034e680eaf00ce8f1eff1ada636937ca4",
+    "view_path": "E:\\app-data\\codex\\scratchpad\\is6400-route-comparison-20261114\\B-ablation.png",
+    "new_scientific_figure": false
+  },
+  {
+    "label": "B-temporal-negative",
+    "repository_path": "research/ae-ablation-20261112/temporal/temporal-comparison.png",
+    "sha256": "e97094ca6073a56a1172d2d0a672d8b32fc2fd8fab08dfa7b7480681c808bd7f",
+    "view_path": "E:\\app-data\\codex\\scratchpad\\is6400-route-comparison-20261114\\B-temporal-negative.png",
+    "new_scientific_figure": false
+  },
+  {
+    "label": "B-value",
+    "repository_path": "research/final-validation-20261112/figures/02-january-hits-value-tradeoff.png",
+    "sha256": "87c6c595db988ceebda8597f1f88de7ff43661e51a1fbe2fc20a3558ab83dfad",
+    "view_path": "E:\\app-data\\codex\\scratchpad\\is6400-route-comparison-20261114\\B-value.png",
+    "new_scientific_figure": false
+  }
+]

@@ -1,12 +1,20 @@
 # Olist 复购预测与客户价值
 
-> 2号特征证据v1.1已定向验收，20行区间分母与说明补件关闭；点估计/筛选不变，无新模型结果。[补件说明](docs/team/role02-v11-receipt.md) · [89幅素材](docs/team/all-89-figures.md)。已确定的本地报告主线不变。
+## 当前先做什么（2026-11-14）
 
-> **2026-11-13已决定：最终报告采用6号独立本地研究线。** 5号已回传，主要数字可用、部分解释与原区间图需修正；具体最终模型/主指标等本人稍后答复。[主线采用说明](docs/team/report-mainline-decision.md) · [5号验收](docs/team/local-line-role05.md) · [88幅素材](docs/team/all-88-figures.md)。
+**最终展示/报告路线待全组投票。** 6号澄清此前为个人倾向，尚未跟成员确认；旧“本地线已采用”记录已更正，不能当正式冻结。本次已整理A团队R3修正版与B本地研究精简版，从设计、真实效果、验证深度、图片及展示风险作全面比较。建议B，但以全员理解、精简和排练为前提，未预测教师分数。
+
+[先看路线比较与投票](docs/team/route-vote-comparison.md) · [实验图片配对](docs/team/route-image-comparison.md) · [两套具体提案](docs/team/route-freeze-packages.md) · [直接发群投票稿](research/route-comparison-20261114/group-vote.md) · [92幅素材](docs/team/all-92-figures.md)
+
+成员回复A/B及理由 → 6号汇总并共同确认配置/分工/冻结 → 正式制作PPT。当前没有投票结果，不继续扩新实验。Canvas已登录核实：8分钟展示＋2分钟问答，全员发言；Slides 11月15日23:59、报告12月6日23:59，香港时间。未取得正式提交回执。
+
+1–5号第三轮均已实收核对，2号v1.1统计修订已通过；3/5号原记录性问题继续分列。两边都保留真实成员贡献，本地研究不冒称成员执行。团队50与本地49训练/校准口径不同，不能直接判路线胜负。
+
+## 以下为此前进度与证据，不作为当前路线已选结论
 
 ## 最新真实组员回传（2026-11-12）
 
-1–4号第三轮已收验；当前R3原加权全局命中50、久单73席/2命中（旧H04为79席/2，名单不同）。2号新组未接入3号本轮模型；20行效应区间已补算，4号当前名单卡已本地更新。5号团队回签、正式采用及H07仍按实际记录。
+1–4号第三轮已收验；当前R3原加权全局命中50、久单73席/2命中（旧H04为79席/2，名单不同）。2号新组未接入3号本轮模型；20行效应区间已补算，4号当前名单卡已本地更新。5号现已回传，剩余修订见当前验收；路线与H07仍按实际记录。
 
 [逐岗验收与最小补件](docs/team/round3-team-intake.md) · [13幅新增素材](docs/team/round3-team-figures.md) · [累计85图](docs/team/all-85-figures.md)
 
@@ -17,7 +25,7 @@ IS6400 小组项目｜Six Sigma
 
 2026-11-12最终固定研究已收尾：7快照、3滚动评价期、30概率位置（25新+5旧复用）、6条件金额模型、18全量经理私表及20项质疑结案。主原式p×F×M和预计金额各15/18组合比概率排序覆盖更多商品额，但大多数条件区间含0，目标间有取舍，没有统一稳定赢家。经理私表及未来答案保持私有。
 
-[最终白话说明与完整研究](docs/team/final-research-closeout.md) · [价值与经理使用](docs/team/final-value-guide.md) · [本批6图](docs/team/final-validation-figures.md) · [累计72图](docs/team/visual-assets.md) · [Q01–Q20结案](docs/team/research-questions.md)
+[最终白话说明与完整研究](docs/team/final-research-closeout.md) · [价值与经理使用](docs/team/final-value-guide.md) · [本批6图](docs/team/final-validation-figures.md) · [全部素材](docs/team/visual-assets.md) · [Q01–Q20结案](docs/team/research-questions.md)
 
 [当前团队事项](docs/team/current-status.md) · [时间线](TIMELINE.md) · [个人助手入口](ASSISTANT-README.md)
 

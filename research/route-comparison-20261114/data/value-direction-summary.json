@@ -1,0 +1,7 @@
+{
+  "n_correlated_combinations": 18,
+  "pFM_captured_G_gt_p": 15,
+  "expected_G_gt_p": 15,
+  "expected_G_gt_pFM": 11,
+  "not_independent_trials": true
+}

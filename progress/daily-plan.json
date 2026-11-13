@@ -2,9 +2,9 @@
   "schema_version": 1,
   "assignment_id": "IS6400-A06",
   "course": "IS6400",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "timezone": "Asia/Shanghai",
-  "source_revision": "f83a116694854c8afdf12dfe4528ffef5f359365d563a2089a669a964df578ab",
+  "source_revision": "68f69ce97483e1562ef34333078f14be154ed61bb825ae9d2351947bfe4c76de",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
   "stale": false,
   "scheduling_policy": {
@@ -20,7 +20,7 @@
       "title": "确定最终评价口径",
       "owner": "本人 · 总监督",
       "status": "needs_review",
-      "personal_action": "沿人数主线或正式改金额主线需明确；不把研究建议当已定。",
+      "personal_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
       "readiness": "ready",
       "target": {
         "value": "2026-11-12",
@@ -29,7 +29,24 @@
       },
       "blocked_by": [],
       "estimated_minutes": null,
-      "observed_on": "2026-11-13",
+      "observed_on": "2026-11-14",
+      "date_state": "past_due_unverified"
+    },
+    {
+      "id": "date-method-freeze",
+      "title": "冻结分析方法（建议）",
+      "owner": "全组；提交代表待确认",
+      "status": "needs_review",
+      "personal_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+      "readiness": "ready",
+      "target": {
+        "value": "2026-11-12T21:00:00+08:00",
+        "precision": "datetime",
+        "basis": "agreed"
+      },
+      "blocked_by": [],
+      "estimated_minutes": null,
+      "observed_on": "2026-11-14",
       "date_state": "past_due_unverified"
     },
     {
@@ -67,11 +84,11 @@
       "date_state": "unscheduled"
     },
     {
-      "id": "round3-member-returns",
-      "title": "收第三轮组员策略与结果",
-      "owner": "1–5号；本人统筹",
+      "id": "report-local-mainline-adopted",
+      "title": "最终报告A/B路线待全组投票（此前已采记录已更正）",
+      "owner": "本人（6号）汇总，成员共同确认",
       "status": "needs_review",
-      "personal_action": "本地线的具体配置等本人后续确认，先筛素材与收稿。",
+      "personal_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
       "readiness": "ready",
       "target": {
         "value": null,
@@ -80,7 +97,24 @@
       },
       "blocked_by": [],
       "estimated_minutes": null,
-      "observed_on": "2026-11-13",
+      "observed_on": "2026-11-14",
+      "date_state": "unscheduled"
+    },
+    {
+      "id": "round3-member-returns",
+      "title": "收第三轮组员策略与结果",
+      "owner": "1–5号；本人统筹",
+      "status": "needs_review",
+      "personal_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+      "readiness": "ready",
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "blocked_by": [],
+      "estimated_minutes": null,
+      "observed_on": "2026-11-14",
       "date_state": "unscheduled"
     },
     {
@@ -88,7 +122,7 @@
       "title": "本人下一步：冻结方法、合稿与提交",
       "owner": "本人 · 统筹",
       "status": "planned",
-      "personal_action": "向各岗核对 H07 的 Slides、英文讲稿和报告要点预计交稿时间。",
+      "personal_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
       "readiness": "verify",
       "target": {
         "value": "2026-11-12",
@@ -97,7 +131,7 @@
       },
       "blocked_by": [],
       "estimated_minutes": null,
-      "observed_on": "2026-11-13",
+      "observed_on": "2026-11-14",
       "date_state": "past_due_unverified"
     },
     {

@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "Generated source and published whitespace-normalized SVG bytes are intentionally distinguished. PNG bytes are identical. No scientific result, reviewed candidate or course metadata changed.",
+  "original_plot_manifest_sha256": "a9d98a5c17e489857454eff9cfbe97f97d724fa7eccf12765579242432244e85",
+  "svg_files": {
+    "figures/01-protocol-comparison.svg": {
+      "generated_source_sha256": "583454a87c3682f45ea4ebe4137819af8fb1f701a6a041d33ced5e582165092b",
+      "published_normalized_sha256": "e3ba7349f57d128e598ad7cb0087c80f4177c57dd79facfc87ddebca22e1e1ac",
+      "change": "Trailing whitespace removed during export; no geometry or numbers changed"
+    },
+    "figures/02-team-cv-diagnostics.svg": {
+      "generated_source_sha256": "76bb40545d27bc4a811dd07859e4e5c43bb14cb146cd72f0f1448f0bb54f632c",
+      "published_normalized_sha256": "b6ed7b442cc834ab982a38184dbe95900e3513f3b5eb774c1c5cc60141dd2cb2",
+      "change": "Trailing whitespace removed during export; no geometry or numbers changed"
+    },
+    "figures/03-local-controlled-rolling.svg": {
+      "generated_source_sha256": "9ad01b83aed3b79deee6988b20de64c1df2cbde056453342205ce5b8aaf1bc46",
+      "published_normalized_sha256": "7eded84cc636c3b8965f997c69aa6db9ab0b65cdc90ccadfafb1c025bd678508",
+      "change": "Trailing whitespace removed during export; no geometry or numbers changed"
+    }
+  },
+  "unchanged_png": 3,
+  "research_or_candidate_changes": 0,
+  "course_core_source_changes": 0
+}

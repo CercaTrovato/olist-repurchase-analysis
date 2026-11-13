@@ -7,3 +7,6 @@
 [完整验收](../../research/role02-v11-20261113/README.md) · [56行证据](../../research/role02-v11-20261113/member/training-feature-evidence.csv) · [修订PNG](../../research/role02-v11-20261113/member/figures/02-candidate-effect-sizes.png) · [SVG](../../research/role02-v11-20261113/member/figures/02-candidate-effect-sizes.svg) · [群回复](../../research/role02-v11-20261113/group-update.md)
 
 只把本质修订的这幅图计新增，其他7幅版本页脚刷新不重复计新成果，原88＋1共89。图题frozen指候选集声明，不构成事前未见结果证明。
+
+
+[总监督接续与剩余边界](role02-v11-board-note.md) · [看板同源89图索引](board-89-figures.md)。

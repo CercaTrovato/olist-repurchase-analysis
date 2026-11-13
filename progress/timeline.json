@@ -4,7 +4,7 @@
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
   "as_of": "2026-11-14",
-  "basis_revision": "5eb751f95cdd3f34879527ae3a07aa549d7ae32fa09cafbb43fdfdf797c45553",
+  "basis_revision": "5b22b20a95ce175cdfbce436711b89922d47daf9283a91e580a674f1d28ff2b3",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
   "summary": "已更正D14：6号个人倾向本地B线，尚未跟组员确认，最终A/B路线与模型/指标/冻结均待投票。公平对比团队R3修正版与本地精选，含设计/效果/风险、8旧图配3新图、两套具体提案与群投票稿。推荐B有条件：分析链更完整且全员能讲懂；不以A50/B49异口径或模型数判胜。无新实验/四月评分/正式PPT；92幅素材，待6号发群汇总真实回复。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",

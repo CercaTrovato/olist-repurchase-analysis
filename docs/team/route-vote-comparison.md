@@ -16,3 +16,6 @@
 [完整设计、效果、专业性与风险比较](../../research/route-comparison-20261114/README.md) · [实验图片配对与逐图读法](route-image-comparison.md) · [两套可执行冻结提案](route-freeze-packages.md) · [可直接发群的投票稿](../../research/route-comparison-20261114/group-vote.md) · [两条8分钟页序草案](../../research/route-comparison-20261114/PRESENTATION-PLAN.md)
 
 请成员回复“A或B＋一句理由”，不回复不算同意；对具体配置有异议一并列出。6号汇总真实回复后在群里确认路线、配置、指标、冻结时间和分工，再正式制作PPT。当前没有投票结果或新约定截止，不追加模型/四月评分。
+
+
+[总监督接续：纠正当前采用解释与投票步骤](route-board-note.md) · [看板同源92图索引](board-92-figures.md)。

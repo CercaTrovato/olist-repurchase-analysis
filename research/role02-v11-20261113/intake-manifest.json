@@ -1,0 +1,1077 @@
+{
+  "archive": "Round3-role02-feature-v1.1_2026-11-13(1).zip",
+  "archive_sha256": "570d4154fde08de38bc5ba54f1f5a510910502cd9c7e20a747e35d9a1a1fbcaa",
+  "members": [
+    {
+      "path": "Round3_role02/candidate-definitions.csv",
+      "bytes": 3727,
+      "sha256": "957179674ea6af1c8109f50481f20d81c305e99843ecaaf1f5e80bd860de2e25"
+    },
+    {
+      "path": "Round3_role02/candidate-screening.csv",
+      "bytes": 8133,
+      "sha256": "a8502c4c90bdd6f3b0c4e3c463d67eacc866a1c995935c8ed3aa7ab00ead7153"
+    },
+    {
+      "path": "Round3_role02/chart-data/01-groups.csv",
+      "bytes": 305,
+      "sha256": "c5863609f23271843ea500cb43a5501bce3ffaa7eaff26a9a97ea2ba9d63e0df"
+    },
+    {
+      "path": "Round3_role02/chart-data/02-effects.csv",
+      "bytes": 2244,
+      "sha256": "1d0e3fd672f13bc40ccfc7b703138dad6779972b42f8d540ed58b89f7625f891"
+    },
+    {
+      "path": "Round3_role02/chart-data/03-distributions.csv",
+      "bytes": 10944,
+      "sha256": "4edfe4a65da835ee4fb57a48a03a01d1b4dea491266e4f14219da0bb1ac6230c"
+    },
+    {
+      "path": "Round3_role02/chart-data/04-distributions.csv",
+      "bytes": 8784,
+      "sha256": "6e8536df6e478cd87ff57eae7b12cbe098c6b478e66bf18e9ec4e5c9729b2c22"
+    },
+    {
+      "path": "Round3_role02/chart-data/05-support.csv",
+      "bytes": 4310,
+      "sha256": "98eb6528a4108d14a6053c9131ca21244e06d9308918cc8b376edd461e4aaadd"
+    },
+    {
+      "path": "Round3_role02/chart-data/06-fold-selection.csv",
+      "bytes": 434,
+      "sha256": "700c385e96e523373fb355f9f4bbe748b8c8e01a726414c890b1e601f9898d97"
+    },
+    {
+      "path": "Round3_role02/chart-data/07-direction.csv",
+      "bytes": 1831,
+      "sha256": "8e8ce86ed4d7ab84e6cb0584c6b0060df32ac8dd41f0b42355f830e76efd3131"
+    },
+    {
+      "path": "Round3_role02/chart-data/08-availability.csv",
+      "bytes": 702,
+      "sha256": "9f27fcfc519026afb9b18ded77a4d34019abda0bf8e917045a3a27b115f90425"
+    },
+    {
+      "path": "Round3_role02/chart-index.csv",
+      "bytes": 5711,
+      "sha256": "5acd770268a6c54aa7532616a081cc0749f52307b7a7578009997cfa5cbe3f68"
+    },
+    {
+      "path": "Round3_role02/CHECKSUMS.sha256",
+      "bytes": 9372,
+      "sha256": "412df096c1914c02d20d0904be44ab039b46936d2b5ce0a7bd1226484e383802"
+    },
+    {
+      "path": "Round3_role02/feature-spec.json",
+      "bytes": 4169,
+      "sha256": "dc4064fc9afc3f55adf64e5e8200b7badc040b49cd9df1fe8a4c6f2e1d7004f3"
+    },
+    {
+      "path": "Round3_role02/feature-spec.md",
+      "bytes": 17596,
+      "sha256": "c48b5c8fd68800a267db014d3f1eee5f1f460f5e002362bfea6d0bd86fbaeedb"
+    },
+    {
+      "path": "Round3_role02/field-correlation.csv",
+      "bytes": 7843,
+      "sha256": "2647128068422561a70222ab9c4269b905de6244a424bfe4e7db790073152bec"
+    },
+    {
+      "path": "Round3_role02/figures/01-october-groups.png",
+      "bytes": 85944,
+      "sha256": "a38df2be0f6420d213312fefafda12be26e3795313005177f35e615fe8f13655"
+    },
+    {
+      "path": "Round3_role02/figures/01-october-groups.svg",
+      "bytes": 74446,
+      "sha256": "d56d3330924dcd6995c66371c6b16364bd384a4ebcd1f108c5cfec37461445c8"
+    },
+    {
+      "path": "Round3_role02/figures/02-candidate-effect-sizes.png",
+      "bytes": 117994,
+      "sha256": "f9c87edab917d56af1b5f2d831fabba4de314c3879815b8f0e9a4ceaf3bd48a5"
+    },
+    {
+      "path": "Round3_role02/figures/02-candidate-effect-sizes.svg",
+      "bytes": 115717,
+      "sha256": "e7d793d6e7e1e3ad3301c3411346bf447a4d473f834d6fd52d45afb422401dff"
+    },
+    {
+      "path": "Round3_role02/figures/03-fulfilment-distribution.png",
+      "bytes": 207835,
+      "sha256": "6141c07d4b59eeb67c4e227be1aaa057d37d1ff196a6efe71743f8d41043df8a"
+    },
+    {
+      "path": "Round3_role02/figures/03-fulfilment-distribution.svg",
+      "bytes": 175621,
+      "sha256": "4c356dbfa5c49811bd9441e46d21727bfe681c4fdfe154b64ba64613ea0e702b"
+    },
+    {
+      "path": "Round3_role02/figures/04-review-distribution.png",
+      "bytes": 206071,
+      "sha256": "20e75caa68e53609baec5ea0e348525c1cfc259b309444425086669715d9fe07"
+    },
+    {
+      "path": "Round3_role02/figures/04-review-distribution.svg",
+      "bytes": 183814,
+      "sha256": "816800bdca40a6de6f6eb53477733f6809d90ded4ea87770b602ab9c031e113b"
+    },
+    {
+      "path": "Round3_role02/figures/05-support-and-missing.png",
+      "bytes": 105434,
+      "sha256": "6f1c6af13848c3cbc9a3157ee6782cfe3c41c42c8893fbc2fdb8c84ad88bd8f4"
+    },
+    {
+      "path": "Round3_role02/figures/05-support-and-missing.svg",
+      "bytes": 105821,
+      "sha256": "62af6d5c72d527b6674fc73b05e813aa3d3da13c0bcd65d5cb64110a8b32496a"
+    },
+    {
+      "path": "Round3_role02/figures/06-fold-selection.png",
+      "bytes": 67184,
+      "sha256": "1ce56bfd257312806d30a9c24274906c565806d8092b4b62479f0dc4270c4ed2"
+    },
+    {
+      "path": "Round3_role02/figures/06-fold-selection.svg",
+      "bytes": 77773,
+      "sha256": "6499c87da6d61926c56f79588ea785641f6cfc795eb6d4efa6554246aef328fa"
+    },
+    {
+      "path": "Round3_role02/figures/07-october-january-direction.png",
+      "bytes": 84719,
+      "sha256": "62a6891fbffc72f7f6465fed0c8318ec008600200443d8e0a4c7f3b650b61edc"
+    },
+    {
+      "path": "Round3_role02/figures/07-october-january-direction.svg",
+      "bytes": 90105,
+      "sha256": "185d618dfec6063fcc09984ff162b5e81e33618a9c71e84984a3907709bd988a"
+    },
+    {
+      "path": "Round3_role02/figures/08-prediction-day-availability.png",
+      "bytes": 103969,
+      "sha256": "2fcc7f0d6abf04eef5ce5c575cac3a788bfd664a67158273c7b95db7333a3aa6"
+    },
+    {
+      "path": "Round3_role02/figures/08-prediction-day-availability.svg",
+      "bytes": 105376,
+      "sha256": "da9c9b6a5c177dd00f153326c142f8e4ef164831d2dd2446a786514e57fa0f5c"
+    },
+    {
+      "path": "Round3_role02/group-comparison.csv",
+      "bytes": 10370,
+      "sha256": "90a5f4d9943b39796dd7dc858b3507e3e2002120c60defd673d0da48e85c94b9"
+    },
+    {
+      "path": "Round3_role02/GROUP_MESSAGE.md",
+      "bytes": 9324,
+      "sha256": "2154d5ec8191246d8de6a7cf9de2fb758d363dbf48d58c5727386f0a58166df1"
+    },
+    {
+      "path": "Round3_role02/HANDOFF.md",
+      "bytes": 9422,
+      "sha256": "b0f987c4c9ea2fa129ec2bad055ee433926b7782e8cc5e63cb6517973dee0cf1"
+    },
+    {
+      "path": "Round3_role02/README.md",
+      "bytes": 7485,
+      "sha256": "2a4245410bc455ed5f9046edd919ae370613034da602375a0725502cd2fa27b1"
+    },
+    {
+      "path": "Round3_role02/ROLE01_RECEIPT.md",
+      "bytes": 4047,
+      "sha256": "4c4d070a0e0f6b5d58582770bfd2880cb7f7b7a4d6ecaaf0d56bfd31da713844"
+    },
+    {
+      "path": "Round3_role02/RUN_LOG.md",
+      "bytes": 6210,
+      "sha256": "de6136c7f4423efd5f3da761e53fdf52cc8c5578ce1824a25591ae7a77f8f7b5"
+    },
+    {
+      "path": "Round3_role02/scripts/r3_build_candidates.py",
+      "bytes": 4409,
+      "sha256": "c1b862e2b96bd85f43c51e39319af0321cf8ebe6faa0bb8e4dafa282c3095b46"
+    },
+    {
+      "path": "Round3_role02/scripts/r3_common.py",
+      "bytes": 15207,
+      "sha256": "dc72ff387732104e35c5e14b81bb13705ca0195c5fc52aa18d0ee8ea8d05bc9c"
+    },
+    {
+      "path": "Round3_role02/scripts/r3_evidence.py",
+      "bytes": 19143,
+      "sha256": "1efd0239a65707af0cfe1e50f53debda32355df41f325395bf6270d7f88f8ead"
+    },
+    {
+      "path": "Round3_role02/scripts/r3_inputs.py",
+      "bytes": 13755,
+      "sha256": "2fb4773e0fa49448957d1097788a3ede5a94d095c39ed51ef2707ce6b53229ae"
+    },
+    {
+      "path": "Round3_role02/scripts/r3_plots.py",
+      "bytes": 18426,
+      "sha256": "db84f929b3719238abe8f8a779d98877a00600d0cc40653b0194a0137ac585e4"
+    },
+    {
+      "path": "Round3_role02/scripts/r3_spec.py",
+      "bytes": 25222,
+      "sha256": "0abac2b179476f5a53bf6140e67fc1f103e2ed0f0dec3e5b7b929dfd86a80896"
+    },
+    {
+      "path": "Round3_role02/scripts/r3_verify.py",
+      "bytes": 8735,
+      "sha256": "47f4aed773e4f57fe723a4aee83fc04b6f33c73c7da77e3ff6a8119ee5396575"
+    },
+    {
+      "path": "Round3_role02/scripts/run_all.py",
+      "bytes": 1851,
+      "sha256": "69178d0ece612e757a4d37ded1ad932b20a4026ab8f1bb39c87d22d594991d04"
+    },
+    {
+      "path": "Round3_role02/SELF_CHECK.md",
+      "bytes": 6177,
+      "sha256": "4cac4cf454e1e9ee417c738a338a6ad02af0b454f0c897e46b77fb9cccb412f4"
+    },
+    {
+      "path": "Round3_role02/smoke/candidate-screening.csv",
+      "bytes": 7955,
+      "sha256": "ca146431810db3bb6aacceae3fca44b277f5965bfbe2c33060eb3a21f9004656"
+    },
+    {
+      "path": "Round3_role02/smoke/chart-data/01-groups.csv",
+      "bytes": 298,
+      "sha256": "fe5c67af03634eda94b87d45f007b3a34d4b15468d48a4b618560eb4ab1bbe9b"
+    },
+    {
+      "path": "Round3_role02/smoke/chart-data/02-effects.csv",
+      "bytes": 2133,
+      "sha256": "a855a1cb3b3b3736b1bc106677a5e55de8bbca91b31c90d07150a09f9a0ab90c"
+    },
+    {
+      "path": "Round3_role02/smoke/chart-data/03-distributions.csv",
+      "bytes": 4519,
+      "sha256": "d8bda9ba222a7fb3adb5b3ea02860726458aebac877e2e1c0cd85694f79920fd"
+    },
+    {
+      "path": "Round3_role02/smoke/chart-data/04-distributions.csv",
+      "bytes": 8441,
+      "sha256": "a136d4ca79f53bec65154a05ecebef9472f2e8c1b1fee496bf1b9e580b9ebc72"
+    },
+    {
+      "path": "Round3_role02/smoke/chart-data/05-support.csv",
+      "bytes": 2029,
+      "sha256": "de85fc8cb4ef1b79dfe6bd57846dc219f99d0bd3c9f3a635d84dd930dce2db65"
+    },
+    {
+      "path": "Round3_role02/smoke/chart-data/06-fold-selection.csv",
+      "bytes": 434,
+      "sha256": "bb9e976a02ba53a857354007ed93a4276dc9926d338211ef9e0980235fa1be1b"
+    },
+    {
+      "path": "Round3_role02/smoke/chart-data/07-direction.csv",
+      "bytes": 20,
+      "sha256": "1994dd090979bf2368e3ae0429a50a38d0b9e1baa8d2618d1822d3f95bd5da0f"
+    },
+    {
+      "path": "Round3_role02/smoke/chart-data/08-availability.csv",
+      "bytes": 702,
+      "sha256": "9f27fcfc519026afb9b18ded77a4d34019abda0bf8e917045a3a27b115f90425"
+    },
+    {
+      "path": "Round3_role02/smoke/chart-index.csv",
+      "bytes": 5711,
+      "sha256": "085891aa40abbd620a81ca65b6218a4ce83aa40cafce09de2470d2a9f413e22b"
+    },
+    {
+      "path": "Round3_role02/smoke/field-correlation.csv",
+      "bytes": 7888,
+      "sha256": "76efc271f9d467c4dfa408286f81dc8b3087e5ce7ac068ba8af9cc7a10ab1d34"
+    },
+    {
+      "path": "Round3_role02/smoke/figures/01-october-groups.png",
+      "bytes": 80524,
+      "sha256": "4b2ddc470fd38ca05112de196b5284bb6ed9bb41de6d9b284042ce8d3f40270d"
+    },
+    {
+      "path": "Round3_role02/smoke/figures/01-october-groups.svg",
+      "bytes": 70187,
+      "sha256": "3156872f3e1f59f554207a17154dc8498de2f013bdb32e2bf87c6a6b8a95ec83"
+    },
+    {
+      "path": "Round3_role02/smoke/figures/02-candidate-effect-sizes.png",
+      "bytes": 118970,
+      "sha256": "9ed6d876099c13b17a5f4d7a4638c53d605722da8ecc3c78695ff33c94fede76"
+    },
+    {
+      "path": "Round3_role02/smoke/figures/02-candidate-effect-sizes.svg",
+      "bytes": 117945,
+      "sha256": "708c227f87699e80934cedfd2ddef6e6aec12c93738424ca3e189ad3cc2ecdea"
+    },
+    {
+      "path": "Round3_role02/smoke/figures/03-fulfilment-distribution.png",
+      "bytes": 103969,
+      "sha256": "69c1458b94433b55ed516fd3192162a2b72ce6a9deba7045298b0099240dd428"
+    },
+    {
+      "path": "Round3_role02/smoke/figures/03-fulfilment-distribution.svg",
+      "bytes": 118454,
+      "sha256": "52d528073f008534093cb4f1c336b3a77da32679f69199826c9eb346f6d83e74"
+    },
+    {
+      "path": "Round3_role02/smoke/figures/04-review-distribution.png",
+      "bytes": 188056,
+      "sha256": "365dadbe120e22d9590121eb84fcab8bbd4a40dd7352cb618a511aae34469761"
+    },
+    {
+      "path": "Round3_role02/smoke/figures/04-review-distribution.svg",
+      "bytes": 181546,
+      "sha256": "cbbaf6c4f4803ad6d91bdd97bd8bf35820679ae923c72cc0da67a0aa47064d8e"
+    },
+    {
+      "path": "Round3_role02/smoke/figures/05-support-and-missing.png",
+      "bytes": 100118,
+      "sha256": "ada72f3ee501c16636130922abce51f5a854ed31c627c1fcb89aa9740f189c86"
+    },
+    {
+      "path": "Round3_role02/smoke/figures/05-support-and-missing.svg",
+      "bytes": 99884,
+      "sha256": "52affb6ae8aed1eaddce8b4ca1278c6624896d6486570047f072bfa5424bae46"
+    },
+    {
+      "path": "Round3_role02/smoke/figures/06-fold-selection.png",
+      "bytes": 67176,
+      "sha256": "3159b5693b93c16776916b612c6acba9f02eb3b06139314b25fa837135f28b5a"
+    },
+    {
+      "path": "Round3_role02/smoke/figures/06-fold-selection.svg",
+      "bytes": 77771,
+      "sha256": "1b15a39533a9b6e5198c4a606bc8276d842e26a44721b89f286f930aed59126c"
+    },
+    {
+      "path": "Round3_role02/smoke/figures/07-october-january-direction.png",
+      "bytes": 53520,
+      "sha256": "60a1774949bafb48317c350466b6cfab411cd0690295ff06bb564b42f5af7f75"
+    },
+    {
+      "path": "Round3_role02/smoke/figures/07-october-january-direction.svg",
+      "bytes": 66528,
+      "sha256": "8f18f526ea069252dac8aff22be0c95235db062b9460fadf5cfe2868250d1d0b"
+    },
+    {
+      "path": "Round3_role02/smoke/figures/08-prediction-day-availability.png",
+      "bytes": 103969,
+      "sha256": "2fcc7f0d6abf04eef5ce5c575cac3a788bfd664a67158273c7b95db7333a3aa6"
+    },
+    {
+      "path": "Round3_role02/smoke/figures/08-prediction-day-availability.svg",
+      "bytes": 105376,
+      "sha256": "e79acaaa7c5a7dcbf4da0909ae4d307a6efb77abe28c02a793a6fe7239b99334"
+    },
+    {
+      "path": "Round3_role02/smoke/group-comparison.csv",
+      "bytes": 9542,
+      "sha256": "d493728d63ad0d2fd19737e6e43ced0c1aa34ba0c2d332369fcf4f36ac5f21a0"
+    },
+    {
+      "path": "Round3_role02/smoke/tables/r3_asof_verification.csv",
+      "bytes": 406,
+      "sha256": "5c83e5248d76c8a40f4c4f1350a8f6c0814a1e0622775024a2a270d0921926c0"
+    },
+    {
+      "path": "Round3_role02/smoke/tables/r3_candidate_support.csv",
+      "bytes": 2029,
+      "sha256": "de85fc8cb4ef1b79dfe6bd57846dc219f99d0bd3c9f3a635d84dd930dce2db65"
+    },
+    {
+      "path": "Round3_role02/smoke/tables/r3_distribution_bins.csv",
+      "bytes": 64954,
+      "sha256": "26daa53e5a8c4b711a0df7ddc3d520b3114e4525140ff0a9cbe0dcb2df44e83c"
+    },
+    {
+      "path": "Round3_role02/smoke/tables/r3_environment.json",
+      "bytes": 541,
+      "sha256": "964b24f83c8459e83bccf387046f72209252fda026764276747d402d6fc6f7f7"
+    },
+    {
+      "path": "Round3_role02/smoke/tables/r3_fold_selection.csv",
+      "bytes": 11887,
+      "sha256": "19d013fbef66bbcf3e492426c3f91f207093e115771039e49ce0df196515e0b0"
+    },
+    {
+      "path": "Round3_role02/smoke/tables/r3_input_checks.csv",
+      "bytes": 2894,
+      "sha256": "47c59b16dc15cb3cf9b18d21517dd40b51e969fa0448152a480eeb8cf186be42"
+    },
+    {
+      "path": "Round3_role02/smoke/tables/r3_january_direction.csv",
+      "bytes": 202,
+      "sha256": "344cd1c1197569ea6d6b0d1e05f8ec960e67d87a5362cb47d14b3301f9b1f6a0"
+    },
+    {
+      "path": "Round3_role02/smoke/tables/r3_private_manifest.json",
+      "bytes": 1136,
+      "sha256": "a3210d6d13808604a95e18d9b6f4a662c9d507187fec6bac3de12728ca14fd9d"
+    },
+    {
+      "path": "Round3_role02/smoke/tables/r3_retained_fields.csv",
+      "bytes": 960,
+      "sha256": "c80aaa2601c0669fc33c239136d0599bd66235761fc307e846565eb120f3c3c4"
+    },
+    {
+      "path": "Round3_role02/smoke/tables/r3_transform_fit.json",
+      "bytes": 2988,
+      "sha256": "45b86bee9ad4a2135a1044e634defc179430a40cef7ccbd2b59123031ba5d37f"
+    },
+    {
+      "path": "Round3_role02/smoke/training-feature-evidence.csv",
+      "bytes": 16339,
+      "sha256": "a533d760f6d1cc488b3d12a22ad0f1f220c66bc2f9e9dc9799bd64693fcd3b7c"
+    },
+    {
+      "path": "Round3_role02/tables/HANDOFF_SUMMARY.md",
+      "bytes": 658,
+      "sha256": "4b7ed70c14eaf82f41a5b9cb0fed8a9f9b45163264120fd84a914dcfa0d8ec53"
+    },
+    {
+      "path": "Round3_role02/tables/r3_asof_verification.csv",
+      "bytes": 748,
+      "sha256": "2b92836286e4a65e1271f7fa804977b33df3e32211458faf68ac4e38d3747454"
+    },
+    {
+      "path": "Round3_role02/tables/r3_candidate_support.csv",
+      "bytes": 4310,
+      "sha256": "98eb6528a4108d14a6053c9131ca21244e06d9308918cc8b376edd461e4aaadd"
+    },
+    {
+      "path": "Round3_role02/tables/r3_distribution_bins.csv",
+      "bytes": 66639,
+      "sha256": "9b53f8bcac9c7e13d74c5a3baaea2d2ecd7189c55b0164858949a31c78825140"
+    },
+    {
+      "path": "Round3_role02/tables/r3_environment.json",
+      "bytes": 542,
+      "sha256": "21a7b14673ef95b02121f9a9b1d648d0bad107ca085c0a2e605bed6603ca7eea"
+    },
+    {
+      "path": "Round3_role02/tables/r3_fold_selection.csv",
+      "bytes": 12113,
+      "sha256": "2f9b1ebefe1c1d0c8024f0a85a96523b8fffcf40334f46ba3c7f91ffe12f3594"
+    },
+    {
+      "path": "Round3_role02/tables/r3_input_checks.csv",
+      "bytes": 3554,
+      "sha256": "75c0bc9761b98244cb65b33a1289c24d8598e9f1a46c7544abbb9e834b36f342"
+    },
+    {
+      "path": "Round3_role02/tables/r3_january_direction.csv",
+      "bytes": 1831,
+      "sha256": "8e8ce86ed4d7ab84e6cb0584c6b0060df32ac8dd41f0b42355f830e76efd3131"
+    },
+    {
+      "path": "Round3_role02/tables/r3_private_manifest.json",
+      "bytes": 2165,
+      "sha256": "f129f8a8e1731239be7fc36e9788a93659d56e48b354f4d285ec2de71ed5fa30"
+    },
+    {
+      "path": "Round3_role02/tables/r3_retained_fields.csv",
+      "bytes": 1172,
+      "sha256": "8035eb744444160ab05bc764b64a79c4bbd4af58fd5f2b860c1dab602baaf2ce"
+    },
+    {
+      "path": "Round3_role02/tables/r3_transform_fit.json",
+      "bytes": 3082,
+      "sha256": "a4e177c0c776a351cb8bc2cb24c9e97243265fe1cd2223b3304683c1c22752a6"
+    },
+    {
+      "path": "Round3_role02/training-feature-evidence.csv",
+      "bytes": 17239,
+      "sha256": "e14c988aac80b1c71f8ef5308e3591893cc5dcbfcd57d4f85b08200ba119a02e"
+    }
+  ],
+  "compared_against": "R3-role02-feature-v1 2026-11-12 received original",
+  "diff": [
+    {
+      "file": "candidate-definitions.csv",
+      "status": "changed",
+      "sha256": "957179674ea6af1c8109f50481f20d81c305e99843ecaaf1f5e80bd860de2e25",
+      "prior_sha256": "4077e7cb64e683e4af8f5725178e9fa48fba386c55b3f4ee2c4519d32914af31"
+    },
+    {
+      "file": "candidate-screening.csv",
+      "status": "unchanged",
+      "sha256": "a8502c4c90bdd6f3b0c4e3c463d67eacc866a1c995935c8ed3aa7ab00ead7153",
+      "prior_sha256": "a8502c4c90bdd6f3b0c4e3c463d67eacc866a1c995935c8ed3aa7ab00ead7153"
+    },
+    {
+      "file": "chart-index.csv",
+      "status": "changed",
+      "sha256": "5acd770268a6c54aa7532616a081cc0749f52307b7a7578009997cfa5cbe3f68",
+      "prior_sha256": "e52e8ddf5b619d2fd41695996dd9112de1f2724b592a423d6e358e25f908c759"
+    },
+    {
+      "file": "CHECKSUMS.sha256",
+      "status": "changed",
+      "sha256": "412df096c1914c02d20d0904be44ab039b46936d2b5ce0a7bd1226484e383802",
+      "prior_sha256": "df65c94e3b08d3b5f1ab70742d657e908df46334d0d44ea4007f5620c490ee7b"
+    },
+    {
+      "file": "feature-spec.json",
+      "status": "changed",
+      "sha256": "dc4064fc9afc3f55adf64e5e8200b7badc040b49cd9df1fe8a4c6f2e1d7004f3",
+      "prior_sha256": "3a87e4a89583795f8fd26de68cb2a5c568a761374f88524e67ea87126dec2c45"
+    },
+    {
+      "file": "feature-spec.md",
+      "status": "changed",
+      "sha256": "c48b5c8fd68800a267db014d3f1eee5f1f460f5e002362bfea6d0bd86fbaeedb",
+      "prior_sha256": "af916824ce220115f359959ee65a4a66f262698f5faecc0731962903606a92bc"
+    },
+    {
+      "file": "field-correlation.csv",
+      "status": "unchanged",
+      "sha256": "2647128068422561a70222ab9c4269b905de6244a424bfe4e7db790073152bec",
+      "prior_sha256": "2647128068422561a70222ab9c4269b905de6244a424bfe4e7db790073152bec"
+    },
+    {
+      "file": "group-comparison.csv",
+      "status": "unchanged",
+      "sha256": "90a5f4d9943b39796dd7dc858b3507e3e2002120c60defd673d0da48e85c94b9",
+      "prior_sha256": "90a5f4d9943b39796dd7dc858b3507e3e2002120c60defd673d0da48e85c94b9"
+    },
+    {
+      "file": "GROUP_MESSAGE.md",
+      "status": "changed",
+      "sha256": "2154d5ec8191246d8de6a7cf9de2fb758d363dbf48d58c5727386f0a58166df1",
+      "prior_sha256": "6565905bc94d1014a235bb40b8e11a7401f38ecfa3645784505a36a51c84d6ca"
+    },
+    {
+      "file": "HANDOFF.md",
+      "status": "changed",
+      "sha256": "b0f987c4c9ea2fa129ec2bad055ee433926b7782e8cc5e63cb6517973dee0cf1",
+      "prior_sha256": "f4d3bc58a8c1cce97632ec343636cf4d7475dc2801637601c0c6d433de3a6c64"
+    },
+    {
+      "file": "README.md",
+      "status": "changed",
+      "sha256": "2a4245410bc455ed5f9046edd919ae370613034da602375a0725502cd2fa27b1",
+      "prior_sha256": "5971bb71023fe45d96ac507a8db75aa32a27ef956e3ae2e5ab37e64b6aad0ba5"
+    },
+    {
+      "file": "ROLE01_RECEIPT.md",
+      "status": "unchanged",
+      "sha256": "4c4d070a0e0f6b5d58582770bfd2880cb7f7b7a4d6ecaaf0d56bfd31da713844",
+      "prior_sha256": "4c4d070a0e0f6b5d58582770bfd2880cb7f7b7a4d6ecaaf0d56bfd31da713844"
+    },
+    {
+      "file": "RUN_LOG.md",
+      "status": "changed",
+      "sha256": "de6136c7f4423efd5f3da761e53fdf52cc8c5578ce1824a25591ae7a77f8f7b5",
+      "prior_sha256": "f590cd2f89aab57759519ce48003a63136f86030ba35a7a983cff0260a41bbfb"
+    },
+    {
+      "file": "SELF_CHECK.md",
+      "status": "changed",
+      "sha256": "4cac4cf454e1e9ee417c738a338a6ad02af0b454f0c897e46b77fb9cccb412f4",
+      "prior_sha256": "d9dd9040b7d35780924a2bfe0fad7442b8b6b805545cd2fffab62308cc21c503"
+    },
+    {
+      "file": "training-feature-evidence.csv",
+      "status": "changed",
+      "sha256": "e14c988aac80b1c71f8ef5308e3591893cc5dcbfcd57d4f85b08200ba119a02e",
+      "prior_sha256": "8d38c24a447f5f9b3c1937afb67c021d1ed1d89f49a22568eecfde9047c04880"
+    },
+    {
+      "file": "chart-data/01-groups.csv",
+      "status": "unchanged",
+      "sha256": "c5863609f23271843ea500cb43a5501bce3ffaa7eaff26a9a97ea2ba9d63e0df",
+      "prior_sha256": "c5863609f23271843ea500cb43a5501bce3ffaa7eaff26a9a97ea2ba9d63e0df"
+    },
+    {
+      "file": "chart-data/02-effects.csv",
+      "status": "changed",
+      "sha256": "1d0e3fd672f13bc40ccfc7b703138dad6779972b42f8d540ed58b89f7625f891",
+      "prior_sha256": "b836aacfbd4c803914caee2f028b8f59cc45f1ae4f62d141c81674b360209385"
+    },
+    {
+      "file": "chart-data/03-distributions.csv",
+      "status": "unchanged",
+      "sha256": "4edfe4a65da835ee4fb57a48a03a01d1b4dea491266e4f14219da0bb1ac6230c",
+      "prior_sha256": "4edfe4a65da835ee4fb57a48a03a01d1b4dea491266e4f14219da0bb1ac6230c"
+    },
+    {
+      "file": "chart-data/04-distributions.csv",
+      "status": "unchanged",
+      "sha256": "6e8536df6e478cd87ff57eae7b12cbe098c6b478e66bf18e9ec4e5c9729b2c22",
+      "prior_sha256": "6e8536df6e478cd87ff57eae7b12cbe098c6b478e66bf18e9ec4e5c9729b2c22"
+    },
+    {
+      "file": "chart-data/05-support.csv",
+      "status": "unchanged",
+      "sha256": "98eb6528a4108d14a6053c9131ca21244e06d9308918cc8b376edd461e4aaadd",
+      "prior_sha256": "98eb6528a4108d14a6053c9131ca21244e06d9308918cc8b376edd461e4aaadd"
+    },
+    {
+      "file": "chart-data/06-fold-selection.csv",
+      "status": "unchanged",
+      "sha256": "700c385e96e523373fb355f9f4bbe748b8c8e01a726414c890b1e601f9898d97",
+      "prior_sha256": "700c385e96e523373fb355f9f4bbe748b8c8e01a726414c890b1e601f9898d97"
+    },
+    {
+      "file": "chart-data/07-direction.csv",
+      "status": "unchanged",
+      "sha256": "8e8ce86ed4d7ab84e6cb0584c6b0060df32ac8dd41f0b42355f830e76efd3131",
+      "prior_sha256": "8e8ce86ed4d7ab84e6cb0584c6b0060df32ac8dd41f0b42355f830e76efd3131"
+    },
+    {
+      "file": "chart-data/08-availability.csv",
+      "status": "unchanged",
+      "sha256": "9f27fcfc519026afb9b18ded77a4d34019abda0bf8e917045a3a27b115f90425",
+      "prior_sha256": "9f27fcfc519026afb9b18ded77a4d34019abda0bf8e917045a3a27b115f90425"
+    },
+    {
+      "file": "figures/01-october-groups.png",
+      "status": "changed",
+      "sha256": "a38df2be0f6420d213312fefafda12be26e3795313005177f35e615fe8f13655",
+      "prior_sha256": "29825f680169cb108a4848108d029776f41f270309fa9d2425ffefd25cb4f8cc"
+    },
+    {
+      "file": "figures/01-october-groups.svg",
+      "status": "changed",
+      "sha256": "d56d3330924dcd6995c66371c6b16364bd384a4ebcd1f108c5cfec37461445c8",
+      "prior_sha256": "ba3eeaf4e8c0e7c783ba91b754d78d65ec6749f82b9680012f927a7b3cc9d378"
+    },
+    {
+      "file": "figures/02-candidate-effect-sizes.png",
+      "status": "changed",
+      "sha256": "f9c87edab917d56af1b5f2d831fabba4de314c3879815b8f0e9a4ceaf3bd48a5",
+      "prior_sha256": "e75441ae2e68cf2732abb56645705e90dbc4e52340b7e44f5aee9a56ef7f37af"
+    },
+    {
+      "file": "figures/02-candidate-effect-sizes.svg",
+      "status": "changed",
+      "sha256": "e7d793d6e7e1e3ad3301c3411346bf447a4d473f834d6fd52d45afb422401dff",
+      "prior_sha256": "ea82ee1cd8010064ca6d05caaddb792b35d21e77ecb93305dc04ed077ff57571"
+    },
+    {
+      "file": "figures/03-fulfilment-distribution.png",
+      "status": "changed",
+      "sha256": "6141c07d4b59eeb67c4e227be1aaa057d37d1ff196a6efe71743f8d41043df8a",
+      "prior_sha256": "ba260b8eb018392253ebac8a0088f5c3acb8a1d15f2fdb8541b9ac68d177df3e"
+    },
+    {
+      "file": "figures/03-fulfilment-distribution.svg",
+      "status": "changed",
+      "sha256": "4c356dbfa5c49811bd9441e46d21727bfe681c4fdfe154b64ba64613ea0e702b",
+      "prior_sha256": "5727d20ddb1a0a32548b4199d3e9fa1752c2f4f0f17fd2c16e7028f8c024ab6e"
+    },
+    {
+      "file": "figures/04-review-distribution.png",
+      "status": "changed",
+      "sha256": "20e75caa68e53609baec5ea0e348525c1cfc259b309444425086669715d9fe07",
+      "prior_sha256": "cca818ce436eb5e99815cbdad95a3b4896f2896089c66957ffe39fed6441fbe2"
+    },
+    {
+      "file": "figures/04-review-distribution.svg",
+      "status": "changed",
+      "sha256": "816800bdca40a6de6f6eb53477733f6809d90ded4ea87770b602ab9c031e113b",
+      "prior_sha256": "0c01f9879f3f32d06673a4bedfd276887aa1fd602dd70e150befdc912ea9a3a8"
+    },
+    {
+      "file": "figures/05-support-and-missing.png",
+      "status": "changed",
+      "sha256": "6f1c6af13848c3cbc9a3157ee6782cfe3c41c42c8893fbc2fdb8c84ad88bd8f4",
+      "prior_sha256": "8706543ef7b95b9005517bf20aab82ee7cfde2b94addf24da5a55191f96430cd"
+    },
+    {
+      "file": "figures/05-support-and-missing.svg",
+      "status": "changed",
+      "sha256": "62af6d5c72d527b6674fc73b05e813aa3d3da13c0bcd65d5cb64110a8b32496a",
+      "prior_sha256": "a5895a514635e79d095e3b52f7e3f2d519eddf2d164e8f01f24007bb466d26f2"
+    },
+    {
+      "file": "figures/06-fold-selection.png",
+      "status": "changed",
+      "sha256": "1ce56bfd257312806d30a9c24274906c565806d8092b4b62479f0dc4270c4ed2",
+      "prior_sha256": "a2cf224ce4f1f8bba552703f64ada908e1cb07d682a08d94f9fe65b7a5d627d2"
+    },
+    {
+      "file": "figures/06-fold-selection.svg",
+      "status": "changed",
+      "sha256": "6499c87da6d61926c56f79588ea785641f6cfc795eb6d4efa6554246aef328fa",
+      "prior_sha256": "2b30c89865a73387561a13835f5e43a0de2082f2ee2aae59f8e57c91836bdd58"
+    },
+    {
+      "file": "figures/07-october-january-direction.png",
+      "status": "changed",
+      "sha256": "62a6891fbffc72f7f6465fed0c8318ec008600200443d8e0a4c7f3b650b61edc",
+      "prior_sha256": "829f8f2e8fbcea607705ab986e37ae71575fb06bef16e4174061ce0f57c7c09a"
+    },
+    {
+      "file": "figures/07-october-january-direction.svg",
+      "status": "changed",
+      "sha256": "185d618dfec6063fcc09984ff162b5e81e33618a9c71e84984a3907709bd988a",
+      "prior_sha256": "f720db60eaced1c46284cef2027d041643604c6cfc0e2f4013f0d9020b75259c"
+    },
+    {
+      "file": "figures/08-prediction-day-availability.png",
+      "status": "changed",
+      "sha256": "2fcc7f0d6abf04eef5ce5c575cac3a788bfd664a67158273c7b95db7333a3aa6",
+      "prior_sha256": "6085db0f9b45c9f10f23b7cdca835504b19c4782523563edc83b53187151ef17"
+    },
+    {
+      "file": "figures/08-prediction-day-availability.svg",
+      "status": "changed",
+      "sha256": "da9c9b6a5c177dd00f153326c142f8e4ef164831d2dd2446a786514e57fa0f5c",
+      "prior_sha256": "8af27bda1243f58c0dceb1604fb91934fa6ee9922feada3d3cf816e8c30121de"
+    },
+    {
+      "file": "scripts/r3_build_candidates.py",
+      "status": "unchanged",
+      "sha256": "c1b862e2b96bd85f43c51e39319af0321cf8ebe6faa0bb8e4dafa282c3095b46",
+      "prior_sha256": "c1b862e2b96bd85f43c51e39319af0321cf8ebe6faa0bb8e4dafa282c3095b46"
+    },
+    {
+      "file": "scripts/r3_common.py",
+      "status": "changed",
+      "sha256": "dc72ff387732104e35c5e14b81bb13705ca0195c5fc52aa18d0ee8ea8d05bc9c",
+      "prior_sha256": "1254d5404d095c625d668012eeb31f7ac9a677d23f620476f08aff9ae31395d9"
+    },
+    {
+      "file": "scripts/r3_evidence.py",
+      "status": "changed",
+      "sha256": "1efd0239a65707af0cfe1e50f53debda32355df41f325395bf6270d7f88f8ead",
+      "prior_sha256": "5941ccb449ceaf49dc5087c409894fe31c53a25a0c87c5a345848def7d744d7f"
+    },
+    {
+      "file": "scripts/r3_inputs.py",
+      "status": "unchanged",
+      "sha256": "2fb4773e0fa49448957d1097788a3ede5a94d095c39ed51ef2707ce6b53229ae",
+      "prior_sha256": "2fb4773e0fa49448957d1097788a3ede5a94d095c39ed51ef2707ce6b53229ae"
+    },
+    {
+      "file": "scripts/r3_plots.py",
+      "status": "unchanged",
+      "sha256": "db84f929b3719238abe8f8a779d98877a00600d0cc40653b0194a0137ac585e4",
+      "prior_sha256": "db84f929b3719238abe8f8a779d98877a00600d0cc40653b0194a0137ac585e4"
+    },
+    {
+      "file": "scripts/r3_spec.py",
+      "status": "changed",
+      "sha256": "0abac2b179476f5a53bf6140e67fc1f103e2ed0f0dec3e5b7b929dfd86a80896",
+      "prior_sha256": "2ef1d967869baae47a4d5f263c995020bb6a3b5cf3dc260ff68b4a015a5b1989"
+    },
+    {
+      "file": "scripts/r3_verify.py",
+      "status": "unchanged",
+      "sha256": "47f4aed773e4f57fe723a4aee83fc04b6f33c73c7da77e3ff6a8119ee5396575",
+      "prior_sha256": "47f4aed773e4f57fe723a4aee83fc04b6f33c73c7da77e3ff6a8119ee5396575"
+    },
+    {
+      "file": "scripts/run_all.py",
+      "status": "unchanged",
+      "sha256": "69178d0ece612e757a4d37ded1ad932b20a4026ab8f1bb39c87d22d594991d04",
+      "prior_sha256": "69178d0ece612e757a4d37ded1ad932b20a4026ab8f1bb39c87d22d594991d04"
+    },
+    {
+      "file": "smoke/candidate-screening.csv",
+      "status": "unchanged",
+      "sha256": "ca146431810db3bb6aacceae3fca44b277f5965bfbe2c33060eb3a21f9004656",
+      "prior_sha256": "ca146431810db3bb6aacceae3fca44b277f5965bfbe2c33060eb3a21f9004656"
+    },
+    {
+      "file": "smoke/chart-index.csv",
+      "status": "changed",
+      "sha256": "085891aa40abbd620a81ca65b6218a4ce83aa40cafce09de2470d2a9f413e22b",
+      "prior_sha256": "fa3f41b2bb9e4f4cd9b892b688f138523c723a9f930f436eb080684d16dd02d7"
+    },
+    {
+      "file": "smoke/field-correlation.csv",
+      "status": "unchanged",
+      "sha256": "76efc271f9d467c4dfa408286f81dc8b3087e5ce7ac068ba8af9cc7a10ab1d34",
+      "prior_sha256": "76efc271f9d467c4dfa408286f81dc8b3087e5ce7ac068ba8af9cc7a10ab1d34"
+    },
+    {
+      "file": "smoke/group-comparison.csv",
+      "status": "unchanged",
+      "sha256": "d493728d63ad0d2fd19737e6e43ced0c1aa34ba0c2d332369fcf4f36ac5f21a0",
+      "prior_sha256": "d493728d63ad0d2fd19737e6e43ced0c1aa34ba0c2d332369fcf4f36ac5f21a0"
+    },
+    {
+      "file": "smoke/training-feature-evidence.csv",
+      "status": "changed",
+      "sha256": "a533d760f6d1cc488b3d12a22ad0f1f220c66bc2f9e9dc9799bd64693fcd3b7c",
+      "prior_sha256": "53c5a4fd746cf5096aea5b67594ef56552d1c522c1e9ee9f9fd49d2d605252e2"
+    },
+    {
+      "file": "tables/HANDOFF_SUMMARY.md",
+      "status": "changed",
+      "sha256": "4b7ed70c14eaf82f41a5b9cb0fed8a9f9b45163264120fd84a914dcfa0d8ec53",
+      "prior_sha256": "b4efa75bfefa84dfd1aee4e8648d51ff9763fc3c227117d990fc956b56589542"
+    },
+    {
+      "file": "tables/r3_asof_verification.csv",
+      "status": "unchanged",
+      "sha256": "2b92836286e4a65e1271f7fa804977b33df3e32211458faf68ac4e38d3747454",
+      "prior_sha256": "2b92836286e4a65e1271f7fa804977b33df3e32211458faf68ac4e38d3747454"
+    },
+    {
+      "file": "tables/r3_candidate_support.csv",
+      "status": "unchanged",
+      "sha256": "98eb6528a4108d14a6053c9131ca21244e06d9308918cc8b376edd461e4aaadd",
+      "prior_sha256": "98eb6528a4108d14a6053c9131ca21244e06d9308918cc8b376edd461e4aaadd"
+    },
+    {
+      "file": "tables/r3_distribution_bins.csv",
+      "status": "unchanged",
+      "sha256": "9b53f8bcac9c7e13d74c5a3baaea2d2ecd7189c55b0164858949a31c78825140",
+      "prior_sha256": "9b53f8bcac9c7e13d74c5a3baaea2d2ecd7189c55b0164858949a31c78825140"
+    },
+    {
+      "file": "tables/r3_environment.json",
+      "status": "unchanged",
+      "sha256": "21a7b14673ef95b02121f9a9b1d648d0bad107ca085c0a2e605bed6603ca7eea",
+      "prior_sha256": "21a7b14673ef95b02121f9a9b1d648d0bad107ca085c0a2e605bed6603ca7eea"
+    },
+    {
+      "file": "tables/r3_fold_selection.csv",
+      "status": "unchanged",
+      "sha256": "2f9b1ebefe1c1d0c8024f0a85a96523b8fffcf40334f46ba3c7f91ffe12f3594",
+      "prior_sha256": "2f9b1ebefe1c1d0c8024f0a85a96523b8fffcf40334f46ba3c7f91ffe12f3594"
+    },
+    {
+      "file": "tables/r3_input_checks.csv",
+      "status": "unchanged",
+      "sha256": "75c0bc9761b98244cb65b33a1289c24d8598e9f1a46c7544abbb9e834b36f342",
+      "prior_sha256": "75c0bc9761b98244cb65b33a1289c24d8598e9f1a46c7544abbb9e834b36f342"
+    },
+    {
+      "file": "tables/r3_january_direction.csv",
+      "status": "unchanged",
+      "sha256": "8e8ce86ed4d7ab84e6cb0584c6b0060df32ac8dd41f0b42355f830e76efd3131",
+      "prior_sha256": "8e8ce86ed4d7ab84e6cb0584c6b0060df32ac8dd41f0b42355f830e76efd3131"
+    },
+    {
+      "file": "tables/r3_private_manifest.json",
+      "status": "changed",
+      "sha256": "f129f8a8e1731239be7fc36e9788a93659d56e48b354f4d285ec2de71ed5fa30",
+      "prior_sha256": "712d63fa6f5fd7af27ccd2611e3dc127e407620600164005c5f506f7665e4edd"
+    },
+    {
+      "file": "tables/r3_retained_fields.csv",
+      "status": "unchanged",
+      "sha256": "8035eb744444160ab05bc764b64a79c4bbd4af58fd5f2b860c1dab602baaf2ce",
+      "prior_sha256": "8035eb744444160ab05bc764b64a79c4bbd4af58fd5f2b860c1dab602baaf2ce"
+    },
+    {
+      "file": "tables/r3_transform_fit.json",
+      "status": "changed",
+      "sha256": "a4e177c0c776a351cb8bc2cb24c9e97243265fe1cd2223b3304683c1c22752a6",
+      "prior_sha256": "982a32de3ae79f9ace24c711e22ca0205b05233c8f724ccd69ed0a9cec91baca"
+    },
+    {
+      "file": "smoke/chart-data/01-groups.csv",
+      "status": "unchanged",
+      "sha256": "fe5c67af03634eda94b87d45f007b3a34d4b15468d48a4b618560eb4ab1bbe9b",
+      "prior_sha256": "fe5c67af03634eda94b87d45f007b3a34d4b15468d48a4b618560eb4ab1bbe9b"
+    },
+    {
+      "file": "smoke/chart-data/02-effects.csv",
+      "status": "changed",
+      "sha256": "a855a1cb3b3b3736b1bc106677a5e55de8bbca91b31c90d07150a09f9a0ab90c",
+      "prior_sha256": "ab8ed40fff5e250af2b34cb82ef67857c6d13597e4c4f5a7a967cde75349059f"
+    },
+    {
+      "file": "smoke/chart-data/03-distributions.csv",
+      "status": "unchanged",
+      "sha256": "d8bda9ba222a7fb3adb5b3ea02860726458aebac877e2e1c0cd85694f79920fd",
+      "prior_sha256": "d8bda9ba222a7fb3adb5b3ea02860726458aebac877e2e1c0cd85694f79920fd"
+    },
+    {
+      "file": "smoke/chart-data/04-distributions.csv",
+      "status": "unchanged",
+      "sha256": "a136d4ca79f53bec65154a05ecebef9472f2e8c1b1fee496bf1b9e580b9ebc72",
+      "prior_sha256": "a136d4ca79f53bec65154a05ecebef9472f2e8c1b1fee496bf1b9e580b9ebc72"
+    },
+    {
+      "file": "smoke/chart-data/05-support.csv",
+      "status": "unchanged",
+      "sha256": "de85fc8cb4ef1b79dfe6bd57846dc219f99d0bd3c9f3a635d84dd930dce2db65",
+      "prior_sha256": "de85fc8cb4ef1b79dfe6bd57846dc219f99d0bd3c9f3a635d84dd930dce2db65"
+    },
+    {
+      "file": "smoke/chart-data/06-fold-selection.csv",
+      "status": "unchanged",
+      "sha256": "bb9e976a02ba53a857354007ed93a4276dc9926d338211ef9e0980235fa1be1b",
+      "prior_sha256": "bb9e976a02ba53a857354007ed93a4276dc9926d338211ef9e0980235fa1be1b"
+    },
+    {
+      "file": "smoke/chart-data/07-direction.csv",
+      "status": "unchanged",
+      "sha256": "1994dd090979bf2368e3ae0429a50a38d0b9e1baa8d2618d1822d3f95bd5da0f",
+      "prior_sha256": "1994dd090979bf2368e3ae0429a50a38d0b9e1baa8d2618d1822d3f95bd5da0f"
+    },
+    {
+      "file": "smoke/chart-data/08-availability.csv",
+      "status": "unchanged",
+      "sha256": "9f27fcfc519026afb9b18ded77a4d34019abda0bf8e917045a3a27b115f90425",
+      "prior_sha256": "9f27fcfc519026afb9b18ded77a4d34019abda0bf8e917045a3a27b115f90425"
+    },
+    {
+      "file": "smoke/figures/01-october-groups.png",
+      "status": "changed",
+      "sha256": "4b2ddc470fd38ca05112de196b5284bb6ed9bb41de6d9b284042ce8d3f40270d",
+      "prior_sha256": "025b03ba98cf48cc3185cc62357724d580713fe7a4416ec28c5aed5647e9ffc0"
+    },
+    {
+      "file": "smoke/figures/01-october-groups.svg",
+      "status": "changed",
+      "sha256": "3156872f3e1f59f554207a17154dc8498de2f013bdb32e2bf87c6a6b8a95ec83",
+      "prior_sha256": "cc46d72501c90e247d45465186f333067ac835ed681013d26cb100f58524a858"
+    },
+    {
+      "file": "smoke/figures/02-candidate-effect-sizes.png",
+      "status": "changed",
+      "sha256": "9ed6d876099c13b17a5f4d7a4638c53d605722da8ecc3c78695ff33c94fede76",
+      "prior_sha256": "8a0475b68f69f5168feee237fec5fc308ec8a4b5839d08c787f18662eb48812b"
+    },
+    {
+      "file": "smoke/figures/02-candidate-effect-sizes.svg",
+      "status": "changed",
+      "sha256": "708c227f87699e80934cedfd2ddef6e6aec12c93738424ca3e189ad3cc2ecdea",
+      "prior_sha256": "306634d9ac416ab2bb23eb3097732b74c8449bbb8f3c714d8ab738ecde875539"
+    },
+    {
+      "file": "smoke/figures/03-fulfilment-distribution.png",
+      "status": "changed",
+      "sha256": "69c1458b94433b55ed516fd3192162a2b72ce6a9deba7045298b0099240dd428",
+      "prior_sha256": "66325a3af56cc267d56ebf09b38091b0cc4cf7150a282375b7d7e3c26914c8c7"
+    },
+    {
+      "file": "smoke/figures/03-fulfilment-distribution.svg",
+      "status": "changed",
+      "sha256": "52d528073f008534093cb4f1c336b3a77da32679f69199826c9eb346f6d83e74",
+      "prior_sha256": "4e207d6f6b03ea28b273b807c6b617f869a70f97de52027a9f730bc848a8f946"
+    },
+    {
+      "file": "smoke/figures/04-review-distribution.png",
+      "status": "changed",
+      "sha256": "365dadbe120e22d9590121eb84fcab8bbd4a40dd7352cb618a511aae34469761",
+      "prior_sha256": "61f500da420bb091cd9ffe3b652b40e0d7c50688d6640ffcef24065de1f0facc"
+    },
+    {
+      "file": "smoke/figures/04-review-distribution.svg",
+      "status": "changed",
+      "sha256": "cbbaf6c4f4803ad6d91bdd97bd8bf35820679ae923c72cc0da67a0aa47064d8e",
+      "prior_sha256": "e1b6d24c74a61491c8304c7b8c1f8b9ac08ff9cdd7aa46d57bc48673b569c7f2"
+    },
+    {
+      "file": "smoke/figures/05-support-and-missing.png",
+      "status": "changed",
+      "sha256": "ada72f3ee501c16636130922abce51f5a854ed31c627c1fcb89aa9740f189c86",
+      "prior_sha256": "b3d23057dbeb967ba4a14a8b618e09a1582c089850091e36722a21dd975b06b9"
+    },
+    {
+      "file": "smoke/figures/05-support-and-missing.svg",
+      "status": "changed",
+      "sha256": "52affb6ae8aed1eaddce8b4ca1278c6624896d6486570047f072bfa5424bae46",
+      "prior_sha256": "1e4db33d6fa4bdde0a4d7210fc08f2bcae639341ed17d576fef069ab303d96ea"
+    },
+    {
+      "file": "smoke/figures/06-fold-selection.png",
+      "status": "changed",
+      "sha256": "3159b5693b93c16776916b612c6acba9f02eb3b06139314b25fa837135f28b5a",
+      "prior_sha256": "e174e98eb92b6debd65d1f08009688ede3328adf2b944beb289ecff754966cad"
+    },
+    {
+      "file": "smoke/figures/06-fold-selection.svg",
+      "status": "changed",
+      "sha256": "1b15a39533a9b6e5198c4a606bc8276d842e26a44721b89f286f930aed59126c",
+      "prior_sha256": "d3905bd434ab46091794f927f5a8820ae17267316ee08f890de2c4430011463e"
+    },
+    {
+      "file": "smoke/figures/07-october-january-direction.png",
+      "status": "changed",
+      "sha256": "60a1774949bafb48317c350466b6cfab411cd0690295ff06bb564b42f5af7f75",
+      "prior_sha256": "c14061eb30e37d03fe876ee5a8a376fb62061db2323bfe4408656e0151e0201c"
+    },
+    {
+      "file": "smoke/figures/07-october-january-direction.svg",
+      "status": "changed",
+      "sha256": "8f18f526ea069252dac8aff22be0c95235db062b9460fadf5cfe2868250d1d0b",
+      "prior_sha256": "f97fee8b6c0727c27717e4a6eb2c18ecb48ea1da858fc19a9721ed1ec90fbb18"
+    },
+    {
+      "file": "smoke/figures/08-prediction-day-availability.png",
+      "status": "changed",
+      "sha256": "2fcc7f0d6abf04eef5ce5c575cac3a788bfd664a67158273c7b95db7333a3aa6",
+      "prior_sha256": "6085db0f9b45c9f10f23b7cdca835504b19c4782523563edc83b53187151ef17"
+    },
+    {
+      "file": "smoke/figures/08-prediction-day-availability.svg",
+      "status": "changed",
+      "sha256": "e79acaaa7c5a7dcbf4da0909ae4d307a6efb77abe28c02a793a6fe7239b99334",
+      "prior_sha256": "4cfaa1c444c897dc8ca9ce86c771513ac68766b1192a2d6563a07af5d028e27a"
+    },
+    {
+      "file": "smoke/tables/r3_asof_verification.csv",
+      "status": "unchanged",
+      "sha256": "5c83e5248d76c8a40f4c4f1350a8f6c0814a1e0622775024a2a270d0921926c0",
+      "prior_sha256": "5c83e5248d76c8a40f4c4f1350a8f6c0814a1e0622775024a2a270d0921926c0"
+    },
+    {
+      "file": "smoke/tables/r3_candidate_support.csv",
+      "status": "unchanged",
+      "sha256": "de85fc8cb4ef1b79dfe6bd57846dc219f99d0bd3c9f3a635d84dd930dce2db65",
+      "prior_sha256": "de85fc8cb4ef1b79dfe6bd57846dc219f99d0bd3c9f3a635d84dd930dce2db65"
+    },
+    {
+      "file": "smoke/tables/r3_distribution_bins.csv",
+      "status": "unchanged",
+      "sha256": "26daa53e5a8c4b711a0df7ddc3d520b3114e4525140ff0a9cbe0dcb2df44e83c",
+      "prior_sha256": "26daa53e5a8c4b711a0df7ddc3d520b3114e4525140ff0a9cbe0dcb2df44e83c"
+    },
+    {
+      "file": "smoke/tables/r3_environment.json",
+      "status": "unchanged",
+      "sha256": "964b24f83c8459e83bccf387046f72209252fda026764276747d402d6fc6f7f7",
+      "prior_sha256": "964b24f83c8459e83bccf387046f72209252fda026764276747d402d6fc6f7f7"
+    },
+    {
+      "file": "smoke/tables/r3_fold_selection.csv",
+      "status": "unchanged",
+      "sha256": "19d013fbef66bbcf3e492426c3f91f207093e115771039e49ce0df196515e0b0",
+      "prior_sha256": "19d013fbef66bbcf3e492426c3f91f207093e115771039e49ce0df196515e0b0"
+    },
+    {
+      "file": "smoke/tables/r3_input_checks.csv",
+      "status": "unchanged",
+      "sha256": "47c59b16dc15cb3cf9b18d21517dd40b51e969fa0448152a480eeb8cf186be42",
+      "prior_sha256": "47c59b16dc15cb3cf9b18d21517dd40b51e969fa0448152a480eeb8cf186be42"
+    },
+    {
+      "file": "smoke/tables/r3_january_direction.csv",
+      "status": "unchanged",
+      "sha256": "344cd1c1197569ea6d6b0d1e05f8ec960e67d87a5362cb47d14b3301f9b1f6a0",
+      "prior_sha256": "344cd1c1197569ea6d6b0d1e05f8ec960e67d87a5362cb47d14b3301f9b1f6a0"
+    },
+    {
+      "file": "smoke/tables/r3_private_manifest.json",
+      "status": "changed",
+      "sha256": "a3210d6d13808604a95e18d9b6f4a662c9d507187fec6bac3de12728ca14fd9d",
+      "prior_sha256": "1a0132022215f895b0663b8760a518fc98979eda4bcc16f9c34b0f08bbc920fe"
+    },
+    {
+      "file": "smoke/tables/r3_retained_fields.csv",
+      "status": "unchanged",
+      "sha256": "c80aaa2601c0669fc33c239136d0599bd66235761fc307e846565eb120f3c3c4",
+      "prior_sha256": "c80aaa2601c0669fc33c239136d0599bd66235761fc307e846565eb120f3c3c4"
+    },
+    {
+      "file": "smoke/tables/r3_transform_fit.json",
+      "status": "changed",
+      "sha256": "45b86bee9ad4a2135a1044e634defc179430a40cef7ccbd2b59123031ba5d37f",
+      "prior_sha256": "cce1a549f86c9fd228c17d7a411d06e497973972987c335cb6e4f2ff68eccd60"
+    }
+  ],
+  "attachment_code_executed": false
+}

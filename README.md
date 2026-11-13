@@ -1,5 +1,7 @@
 # Olist 复购预测与客户价值
 
+> 2号特征证据v1.1已定向验收，20行区间分母与说明补件关闭；点估计/筛选不变，无新模型结果。[补件说明](docs/team/role02-v11-receipt.md) · [89幅素材](docs/team/all-89-figures.md)。已确定的本地报告主线不变。
+
 > **2026-11-13已决定：最终报告采用6号独立本地研究线。** 5号已回传，主要数字可用、部分解释与原区间图需修正；具体最终模型/主指标等本人稍后答复。[主线采用说明](docs/team/report-mainline-decision.md) · [5号验收](docs/team/local-line-role05.md) · [88幅素材](docs/team/all-88-figures.md)。
 
 ## 最新真实组员回传（2026-11-12）

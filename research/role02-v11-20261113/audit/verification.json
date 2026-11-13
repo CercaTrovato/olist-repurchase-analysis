@@ -1,0 +1,42 @@
+{
+  "status": "PASS_TARGETED_ROLE02_V11_REPAIR",
+  "package_hash_checks": 96,
+  "all_checksums_match": true,
+  "actual_package_role": 2,
+  "contains_role03_new_model_or_predictions": false,
+  "rows_full": 56,
+  "rows_smoke": 56,
+  "changed_interval_cells_by_column": {
+    "full": {
+      "d_se": 20,
+      "d_ci_lo": 20,
+      "d_ci_hi": 20
+    },
+    "smoke": {
+      "d_se": 20,
+      "d_ci_lo": 20,
+      "d_ci_hi": 20
+    }
+  },
+  "point_estimates_and_AUC_changed": 0,
+  "critical_files_unchanged": 13,
+  "match_previous_independent_corrected_max_abs_diff": {
+    "d_se": 0.0,
+    "d_ci_lo": 1.1934897514720433e-15,
+    "d_ci_hi": 1.2212453270876722e-15
+  },
+  "feature_formulas_and_selections_unchanged": true,
+  "numeric_transform_fit_same_except_version": true,
+  "original_private_row_tables_not_supplied": true,
+  "private_original_table_sha_not_independently_matched": true,
+  "new_model_fits": 0,
+  "new_april_predictions": 0,
+  "dates_in_member_handoff_not_user_authorization": true,
+  "closed": "Role02 20-row CI support denominator and related disclosure revision",
+  "still_open": [
+    "Role02 proposed combinations not tested by Role03",
+    "Role03 CV/metadata clarification",
+    "Role05 CI/attribution/version explanation",
+    "Specific local final model and primary metric pending user later"
+  ]
+}

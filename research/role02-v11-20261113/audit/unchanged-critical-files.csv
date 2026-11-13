@@ -1,0 +1,14 @@
+file,same_sha256
+candidate-screening.csv,True
+group-comparison.csv,True
+field-correlation.csv,True
+tables/r3_fold_selection.csv,True
+tables/r3_january_direction.csv,True
+tables/r3_retained_fields.csv,True
+tables/r3_input_checks.csv,True
+tables/r3_asof_verification.csv,True
+scripts/r3_build_candidates.py,True
+scripts/r3_inputs.py,True
+scripts/r3_plots.py,True
+scripts/r3_verify.py,True
+scripts/run_all.py,True

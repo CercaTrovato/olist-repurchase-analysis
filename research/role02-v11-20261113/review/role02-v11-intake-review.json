@@ -1,0 +1,83 @@
+{
+  "reviewer": {
+    "identity": "independent subagent uninvolved in member or acceptance authorship",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high"
+  },
+  "date": "2026-11-13",
+  "status": "PASS_TARGETED_REPAIR_WITH_EXPLICIT_LIMITS",
+  "full_read_targets": [
+    "README.md",
+    "acceptance.json",
+    "group-update.md"
+  ],
+  "open_narrative_blockers": [],
+  "targeted_source_checks": {
+    "finite_pn_qn_fix_correct": true,
+    "full_evidence_rows": 56,
+    "changed_rows_per_interval_column": 20,
+    "point_d_AUC_changed_rows": 0,
+    "max_abs_diff_to_prior_corrected": {
+      "d_se": 0.0,
+      "d_ci_lo": 1.1934897514720433e-15,
+      "d_ci_hi": 1.2212453270876722e-15
+    },
+    "candidate_thresholds_and_selections_unchanged": true,
+    "disclosures_added": [
+      "double log",
+      "descriptive unadjusted intervals",
+      "combination extrapolation limits",
+      "self-reported freeze timestamp"
+    ]
+  },
+  "closed_scope": "Role02 20-row SE-support correction and corresponding disclosure/figure followup",
+  "not_closed": [
+    "private candidate row bytes",
+    "Role02 combination predictive efficacy",
+    "Role03 CV and metadata",
+    "Role05 count-CI/attribution/version",
+    "specific final local model and primary metric"
+  ],
+  "D14_mainline_still_adopted": true,
+  "member_declared_Nov14_extension_adopted": false,
+  "member_code_executed": false,
+  "reviewer_new_model_fits": 0,
+  "reviewer_new_april_scores": 0,
+  "reviewer_new_uncertainty_estimates": 0,
+  "originals_modified": false,
+  "not_certified_by_this_review": [
+    "independent visual inspection of member effect figure",
+    "GitHub push",
+    "local board writeback",
+    "online publication",
+    "smoke main rerun"
+  ],
+  "original_archive_sha256": "570d4154fde08de38bc5ba54f1f5a510910502cd9c7e20a747e35d9a1a1fbcaa",
+  "prior_course_corrected_evidence_sha256": "6b8bedf3837008e3ca00f9caf5836e2b30d7128d80d8a7124c7629d228f570e9",
+  "sha256": {
+    "README.md": "a6b1affba0c309e8a8e897c1062e4fe4803f3e8d740b69c01051c5a162563c47",
+    "acceptance.json": "3ca05a4c131bc3f42df0c98655452f94e3097abde86a28f43ed1760a89b78d99",
+    "group-update.md": "6868a01add32ff841202e254c48ea9e69d431ff40ffbbd1c3384a4b8e04781fa",
+    "intake-manifest.json": "bb09df876f320eda6816464bb0c4994bde8a9d92c6769f0b758b04b8fc42a0dd",
+    "review/role02-v11-source-review.md": "42827568ada88525b4b9a50b01fadca2cc9199ccfebb4eb6213cebe59a2ec751",
+    "review/role02-v11-intake-review.md": "608866ad69adfff6f5b8313cd67436d8ea559dda802955e8c755bfea6e0a9313",
+    "audit/interval-recalculation.csv": "c61ebdc07b48ac5af8ee0f18befdb97ecfbf0e71328a3dfac53b9b05b2d0f74b",
+    "audit/package-checksums.csv": "05ec9ca398928d2a30183ba6698cb37f9a90b871419ae91a44bcab305a01c4c1",
+    "audit/unchanged-critical-files.csv": "b7de2b2538d88fd5531cc993b1bebf75fdb83dd928f0e82fa3fc8445dde9a93c",
+    "audit/verification.json": "1331184be46cf184389ea4a416c2c87646e27c0ef22bae05fc54322ecfdd6c66",
+    "private/extracted/Round3_role02/README.md": "2a4245410bc455ed5f9046edd919ae370613034da602375a0725502cd2fa27b1",
+    "private/extracted/Round3_role02/HANDOFF.md": "b0f987c4c9ea2fa129ec2bad055ee433926b7782e8cc5e63cb6517973dee0cf1",
+    "private/extracted/Round3_role02/feature-spec.md": "c48b5c8fd68800a267db014d3f1eee5f1f460f5e002362bfea6d0bd86fbaeedb",
+    "private/extracted/Round3_role02/scripts/r3_evidence.py": "1efd0239a65707af0cfe1e50f53debda32355df41f325395bf6270d7f88f8ead",
+    "private/extracted/Round3_role02/scripts/r3_common.py": "dc72ff387732104e35c5e14b81bb13705ca0195c5fc52aa18d0ee8ea8d05bc9c",
+    "private/extracted/Round3_role02/scripts/r3_build_candidates.py": "c1b862e2b96bd85f43c51e39319af0321cf8ebe6faa0bb8e4dafa282c3095b46",
+    "private/extracted/Round3_role02/training-feature-evidence.csv": "e14c988aac80b1c71f8ef5308e3591893cc5dcbfcd57d4f85b08200ba119a02e",
+    "private/extracted/Round3_role02/candidate-screening.csv": "a8502c4c90bdd6f3b0c4e3c463d67eacc866a1c995935c8ed3aa7ab00ead7153",
+    "private/extracted/Round3_role02/candidate-definitions.csv": "957179674ea6af1c8109f50481f20d81c305e99843ecaaf1f5e80bd860de2e25",
+    "private/extracted/Round3_role02/field-correlation.csv": "2647128068422561a70222ab9c4269b905de6244a424bfe4e7db790073152bec",
+    "private/extracted/Round3_role02/group-comparison.csv": "90a5f4d9943b39796dd7dc858b3507e3e2002120c60defd673d0da48e85c94b9",
+    "private/extracted/Round3_role02/tables/r3_retained_fields.csv": "8035eb744444160ab05bc764b64a79c4bbd4af58fd5f2b860c1dab602baaf2ce",
+    "private/extracted/Round3_role02/tables/r3_fold_selection.csv": "2f9b1ebefe1c1d0c8024f0a85a96523b8fffcf40334f46ba3c7f91ffe12f3594",
+    "private/extracted/Round3_role02/tables/r3_transform_fit.json": "a4e177c0c776a351cb8bc2cb24c9e97243265fe1cd2223b3304683c1c22752a6"
+  }
+}

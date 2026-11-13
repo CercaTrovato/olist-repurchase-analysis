@@ -1,0 +1,18 @@
+{
+  "package_version": "R3-role02-feature-v1.1",
+  "user_description": "之前的线3号补了一份材料",
+  "package_declared_role": 2,
+  "forwarder_or_author_identity_not_inferred": true,
+  "status": "TARGETED_REPAIR_ACCEPTED",
+  "closed": ["Role02 20-row SE denominator and corresponding evidence/figure", "Double-log and interval/version disclosure followup"],
+  "unchanged": ["56 full point estimates and AUC", "Candidate screening and thresholds", "Two proposed field groups", "Numeric preprocessing parameters apart from version label"],
+  "not_closed": ["Actual predictive effect of the Role02 combinations", "Role03 CV and metadata clarification", "Role05 uncertainty, attribution and version wording", "Specific final local model and primary metric pending user later"],
+  "private_candidate_row_bytes_verified": false,
+  "member_handoff_deadline_extension_adopted": false,
+  "final_report_mainline": "local research already adopted under D14",
+  "new_model_fits": 0,
+  "new_april_predictions": 0,
+  "new_current_png_svg_pairs": 1,
+  "total_main_png": 89,
+  "original_archive_sha256": "570d4154fde08de38bc5ba54f1f5a510910502cd9c7e20a747e35d9a1a1fbcaa"
+}

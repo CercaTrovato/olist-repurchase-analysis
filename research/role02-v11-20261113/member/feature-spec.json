@@ -1,0 +1,126 @@
+{
+  "spec_version": "R3-role02-feature-v1.1",
+  "frozen_at": "2026-11-12 21:35 +0800",
+  "base_version": "H02-v2-candidate-reviewed",
+  "asof_version": "round3-role01-time-v1",
+  "cluster_version": "H05-km3-v1",
+  "train_snapshot": "2017-10-01",
+  "validation_snapshot": "2018-01-01",
+  "train_N": 21160,
+  "train_positives": 211,
+  "groups": {
+    "G1_fulfilment": [
+      {
+        "candidate_id": "C02",
+        "field": "delivery_pending_n",
+        "formula": "F - delivered_known_n",
+        "unit": "orders",
+        "available_at": "delivery timestamp strictly < snapshot",
+        "missing_rule": "no missing; F>=1 for every snapshot customer"
+      },
+      {
+        "candidate_id": "C03",
+        "field": "delivery_days_log",
+        "formula": "log1p(max(delivery_days_mean, 0))",
+        "unit": "log(days)",
+        "available_at": "actual delivery strictly < snapshot; duration from approval",
+        "missing_rule": "NaN when no known valid delivery; explicit missing indicator"
+      }
+    ],
+    "G2_review": [
+      {
+        "candidate_id": "C08",
+        "field": "review_score_mean",
+        "formula": "asof.review_score_mean as delivered",
+        "unit": "stars 1-5",
+        "available_at": "review answer strictly < snapshot; per-order latest valid answer",
+        "missing_rule": "NaN when no known answered review; explicit missing indicator"
+      },
+      {
+        "candidate_id": "C11",
+        "field": "known_review_ratio",
+        "formula": "review_known_n / F",
+        "unit": "fraction",
+        "available_at": "review answer strictly < snapshot",
+        "missing_rule": "no missing; F>=1 for every snapshot customer"
+      }
+    ]
+  },
+  "retained_flags": [
+    "delivery_days_mean_missing",
+    "review_score_mean_missing"
+  ],
+  "transform_fit_file": "tables/r3_transform_fit.json",
+  "private_tables": {
+    "candidate_features_train.csv": {
+      "path": "MEMBER_HOME/WorkBuddy AI\\2026-11-08-15-56-13\\private_outputs\\Round3_role02\\candidate_features_train.csv",
+      "sha256": "f2a9f38522f65305b8c9b82af259421b56a5d4a20e60aed464cf11d00b973c1a",
+      "rows": 21160,
+      "columns": [
+        "customer_unique_id",
+        "snapshot_date",
+        "cluster_id",
+        "cluster_version",
+        "y",
+        "data_version",
+        "feature_version",
+        "spec_version",
+        "C01_known_delivery_ratio",
+        "C02_delivery_pending_n",
+        "C03_delivery_days_log",
+        "C04_delivery_days_mean_missing",
+        "C05_delivered_known_log",
+        "C06_delivery_known_any",
+        "C07_late_delivery_share",
+        "C08_review_score_mean",
+        "C09_review_score_mean_missing",
+        "C10_low_review_share",
+        "C11_known_review_ratio",
+        "C12_review_per_delivery",
+        "C13_review_known_any",
+        "C14_review_known_log"
+      ],
+      "snapshot_date": "2017-10-01"
+    },
+    "candidate_features_validation.csv": {
+      "path": "MEMBER_HOME/WorkBuddy AI\\2026-11-08-15-56-13\\private_outputs\\Round3_role02\\candidate_features_validation.csv",
+      "sha256": "134071171dab5a92a1dd59ec7d63a37945d19314787b86cee69071578e39f1dd",
+      "rows": 29368,
+      "columns": [
+        "customer_unique_id",
+        "snapshot_date",
+        "cluster_id",
+        "cluster_version",
+        "y",
+        "data_version",
+        "feature_version",
+        "spec_version",
+        "C01_known_delivery_ratio",
+        "C02_delivery_pending_n",
+        "C03_delivery_days_log",
+        "C04_delivery_days_mean_missing",
+        "C05_delivered_known_log",
+        "C06_delivery_known_any",
+        "C07_late_delivery_share",
+        "C08_review_score_mean",
+        "C09_review_score_mean_missing",
+        "C10_low_review_share",
+        "C11_known_review_ratio",
+        "C12_review_per_delivery",
+        "C13_review_known_any",
+        "C14_review_known_log"
+      ],
+      "snapshot_date": "2018-01-01"
+    }
+  },
+  "selection_thresholds": {
+    "min_abs_d": 0.08,
+    "min_cluster_nonmissing_rate": 0.8,
+    "min_fold_pass_rate": 0.8,
+    "max_abs_r_base": 0.8,
+    "max_abs_r_within_group": 0.8,
+    "out_cap_per_group": 2,
+    "folds": 5,
+    "seed": 2026
+  }
+}

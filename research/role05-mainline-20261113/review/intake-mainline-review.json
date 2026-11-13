@@ -1,0 +1,78 @@
+{
+  "reviewer": {
+    "identity": "independent subagent uninvolved in source or candidate authorship",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high"
+  },
+  "date": "2026-11-13",
+  "status": "PASS_WITH_EXPLICIT_SOURCE_LIMITATIONS",
+  "full_read_targets": [
+    "README.md",
+    "acceptance.json",
+    "report-mainline-decision.json",
+    "group-update.md"
+  ],
+  "source_read_scope": "all six member Python sources, member acceptance/handoff and five CSVs; bounded aggregation and source semantics review",
+  "directed_followup": {
+    "README_line25_Top10_group_scope": "closed",
+    "README_line43_version_identity_not_established": "closed"
+  },
+  "open_narrative_blockers": [],
+  "user_confirmed_mainline": "6号独立本地研究线",
+  "user_specific_model_and_metric_decided": false,
+  "member_originals_modified": false,
+  "member_main_executed": false,
+  "reviewer_new_model_fits": 0,
+  "reviewer_new_april_scores": 0,
+  "reviewer_new_uncertainty_estimates": 0,
+  "source_limitations_remain": [
+    "original uncertainty figure invalid and excluded",
+    "global equal K does not establish uniquely within-group gain mechanism",
+    "H04 v0.4/current R3 F0 identity not established",
+    "member input hashes and original execution logs absent",
+    "hardcoded Missing_Merge and Reproducible not dynamic criteria",
+    "prior Role02/03 corrections not closed solely by Role05 receipt",
+    "specific final model, primary metric, assignments and actual freeze remain user-deferred"
+  ],
+  "not_certified_by_this_review": [
+    "independent visual review of all three new images",
+    "GitHub push",
+    "local board writeback",
+    "online publication",
+    "model refit reproducibility"
+  ],
+  "sha256": {
+    "README.md": "ddad3ec4d172300bda255a2f864b7d8311bbff2f0e8cc6f18f22b4ba53b557dc",
+    "acceptance.json": "1e82e77749272cc98d8b9cee6e740b890d9a334fd951f416de6d191560b824df",
+    "report-mainline-decision.json": "fd317e6d1231c5118acd073a1f8e0dc33047b3254e709afbb24a50cc4306cb89",
+    "group-update.md": "89732775cc2eb435d003ac4f1b49a769d42d77dd9d753a90a21de01af9eeb423",
+    "intake-manifest.json": "2b17e9f9396f62d59edf932ef61f00324cceeacc57813d2f816447da90167ddd",
+    "plot_review.py": "a7a439df13276ab2def07f151ac68267006fa4ba8b4be8588843a6b123c166b2",
+    "review/role05-source-review.md": "121d02c88839b0844c7437f8d101cc829dd4d6ba038b5af74987abc3c9824702",
+    "review/intake-mainline-review.md": "69ec3033705998c0ff3216321c5fe3dceb0f9a2d1236a4fc78ef1a06ff6535d9",
+    "audit/capacity-all-models.csv": "95c69eb8cf711bd88440d76309427c609d4392c63e8c879ddce27ba9e17634e1",
+    "audit/dynamic-join-audit.csv": "8a3ff1e7310a64ca7a0aa8e2d59a200540bdc1489b73a397fdb695c8f8323718",
+    "audit/fixed-long79.csv": "f4e9b0479ee551719e08efc26497a764153104c38e75379c37d91eeef512d333",
+    "audit/groups-all-models.csv": "a097017e2cf88493f51d4e995efc75318b3699cb633432de4f3712a1074bf46f",
+    "audit/numerical-checks.csv": "8f1ddccea927452c4bb77315ec2ddc5b82a9395eefca4d564b57f78850ae9ee3",
+    "audit/paired-list-recomputed.csv": "6e52fe9bc45753c4a4191b2ad075bfd75e16f00d5473b9ede3fd3ccda78ecc7a",
+    "audit/readback.json": "be76b4aa8ea4fd4e64ec3e23518c7d80bb8caac2624f6d7f53ea71abfcd335e2",
+    "audit/uncertainty-formula-diagnostic.csv": "9f3a8be228807ce7b6cfb9b2132599ad0e662ebdfcbf55f4b61a5f36218376e9",
+    "audit/weighting-group-decomposition.csv": "562c38215fad7e579a26069435e951705400efc367a37f9c1c1b11fe1c406d32",
+    "private/extracted/Round3_role05_11.13/output/acceptance.md": "8b882012bcdb7e94efc97e13fd3f11b3bb7a7d6ddb3a42fbe1a0113c2f42d492",
+    "private/extracted/Round3_role05_11.13/output/capacity_chart.png": "7375d546c84696dd04bb13fef23abb06b5d9f9853bb7c534ec0ecdd1e5c529ce",
+    "private/extracted/Round3_role05_11.13/output/comparison-round3.csv": "a97ac039bebd699371456d07d9c9b08dc7bf4a57698af422d9efff24d5174c46",
+    "private/extracted/Round3_role05_11.13/output/group-comparison.csv": "b7d8bf75adcdcfe3f386a8c782e96ace46850968cb5770c6f7c62028efe00621",
+    "private/extracted/Round3_role05_11.13/output/handoff.md": "4d6cbf19a9112876f91b9777272b422adcbcfb0e4b10fb83cc912d157e8228dd",
+    "private/extracted/Round3_role05_11.13/output/join_audit.csv": "9ec621973801d51fe4b69014366182434caad5759dbf6f9fc50bd98b7baf89b9",
+    "private/extracted/Round3_role05_11.13/output/paired-list-changes.csv": "3441a05d3476539ae54cd9fa52012496f1d07e52e156e2da8f332eca71246f9f",
+    "private/extracted/Round3_role05_11.13/output/paired_changes.png": "2612259affeb9cad137603d3f8b374bdd37d5bfd1b72c0bdaf26ccbbd3bdb2a7",
+    "private/extracted/Round3_role05_11.13/output/uncertainty_chart.png": "79a787de7095f0bad45c1fbe11aa53cd54c14e1f2aa855298a728ae13f915e83",
+    "private/extracted/Round3_role05_11.13/scripts/check_hash_3and4.py": "c196774edea9ed2adc569f17ce0ff2fb6bd76a6fa44c6105181108b8d79cdf7c",
+    "private/extracted/Round3_role05_11.13/scripts/check_role01.py": "dc7982363e2148a66093a49cbeb9c926e9c9f9bd48159acc4de0ee5ef7dbf47b",
+    "private/extracted/Round3_role05_11.13/scripts/check_role02.py": "bec2ef9a2a816d5774fa3116feab042441c55e173aeb971d9ee4b4f3e60db086",
+    "private/extracted/Round3_role05_11.13/scripts/check_role03.py": "c1a27dd686f7ba1e80e6b6cb602ad79fd5168021a3bebb4bbe6ebbdca12c28c6",
+    "private/extracted/Round3_role05_11.13/scripts/check_role04.py": "5a1a05c4258301f94da219f4aa7a85ce436c2be113ec218fabd4da559fc3113c",
+    "private/extracted/Round3_role05_11.13/scripts/run.py": "3e2f1f9275c3829f089b275cff1ccff0b63f93f6e0946a618d7045b0ebbeeed7"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "ACTUALLY_VIEWED_PASS",
+  "current_png": 3,
+  "original_png_viewed": 3,
+  "original_uncertainty_png_not_for_publication": true,
+  "figures": {
+    "01-role05-capacity-recount.png": "933dacb9bc1dd21e99a87f9f020dbcbabf65f0bbb0c3984dc6049e8eca5289b2",
+    "02-role05-paired-changes.png": "846568ff19aafded118b53f238117859463b2efb7767493b0994e24b8a83239f",
+    "03-role05-group-allocation.png": "2d74c1f4264dcfbc4875f5ab5a38601fc83649fef57ee31ac8e6cd719db80fc4"
+  },
+  "total_main_png": 88
+}

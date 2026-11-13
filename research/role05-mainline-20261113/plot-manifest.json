@@ -1,0 +1,14 @@
+{
+  "png_svg_pairs": 3,
+  "new_model_fits": 0,
+  "adopted_new_CI": false,
+  "actual_view": "PENDING",
+  "files": {
+    "figures/01-role05-capacity-recount.png": "933dacb9bc1dd21e99a87f9f020dbcbabf65f0bbb0c3984dc6049e8eca5289b2",
+    "figures/01-role05-capacity-recount.svg": "75bff8e6b0364ba31f344f22a0f30aea30e79abdb9dbc88212b4911375166cc7",
+    "figures/02-role05-paired-changes.png": "846568ff19aafded118b53f238117859463b2efb7767493b0994e24b8a83239f",
+    "figures/02-role05-paired-changes.svg": "065d5dd3076a4a3d92ce3931bebb09cde1cf33893c412d1aa0dc06d969531317",
+    "figures/03-role05-group-allocation.png": "2d74c1f4264dcfbc4875f5ab5a38601fc83649fef57ee31ac8e6cd719db80fc4",
+    "figures/03-role05-group-allocation.svg": "293963dce53a8805f1a65f975d9206ed49e60fd9bca35c46d0d21197cdc46908"
+  }
+}

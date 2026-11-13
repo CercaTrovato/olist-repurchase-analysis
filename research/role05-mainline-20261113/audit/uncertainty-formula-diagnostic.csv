@@ -1,0 +1,5 @@
+Model,Hits,Source_errorbar_halfwidth,Independent_binomial_count_halfwidth_illustration,ratio_sqrt_n,Current_adopted_confidence_interval,note
+F0 Weighted (Main),50,0.2535481925322794,13.740814990209463,54.194095619356915,False,Dimensional diagnostic only. No sampling model declared for fixed seen lists; do not replace with binomial illustration as endorsed CI.
+F0 Unweighted,46,0.24336330041416246,13.1888539728874,54.194095619356915,False,Dimensional diagnostic only. No sampling model declared for fixed seen lists; do not replace with binomial illustration as endorsed CI.
+B +Cluster_id,50,0.2535481925322794,13.740814990209463,54.194095619356915,False,Dimensional diagnostic only. No sampling model declared for fixed seen lists; do not replace with binomial illustration as endorsed CI.
+C Segmented Fallback,49,0.25104337176671326,13.605068494131025,54.194095619356915,False,Dimensional diagnostic only. No sampling model declared for fixed seen lists; do not replace with binomial illustration as endorsed CI.

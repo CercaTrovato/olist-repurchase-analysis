@@ -1,0 +1,84 @@
+{
+  "source_archive": "Round3_role05_11.13.zip",
+  "sha256": "0db1094fd5df4735244caeb7ca7a27dcaa3212bfdf6f1f6eb25d9d9492623cd7",
+  "bytes": 312307,
+  "members": [
+    {
+      "path": "Round3_role05_11.13/output/acceptance.md",
+      "bytes": 3308,
+      "sha256": "8b882012bcdb7e94efc97e13fd3f11b3bb7a7d6ddb3a42fbe1a0113c2f42d492"
+    },
+    {
+      "path": "Round3_role05_11.13/output/capacity_chart.png",
+      "bytes": 159312,
+      "sha256": "7375d546c84696dd04bb13fef23abb06b5d9f9853bb7c534ec0ecdd1e5c529ce"
+    },
+    {
+      "path": "Round3_role05_11.13/output/comparison-round3.csv",
+      "bytes": 234,
+      "sha256": "a97ac039bebd699371456d07d9c9b08dc7bf4a57698af422d9efff24d5174c46"
+    },
+    {
+      "path": "Round3_role05_11.13/output/group-comparison.csv",
+      "bytes": 163,
+      "sha256": "b7d8bf75adcdcfe3f386a8c782e96ace46850968cb5770c6f7c62028efe00621"
+    },
+    {
+      "path": "Round3_role05_11.13/output/handoff.md",
+      "bytes": 1936,
+      "sha256": "4d6cbf19a9112876f91b9777272b422adcbcfb0e4b10fb83cc912d157e8228dd"
+    },
+    {
+      "path": "Round3_role05_11.13/output/join_audit.csv",
+      "bytes": 219,
+      "sha256": "9ec621973801d51fe4b69014366182434caad5759dbf6f9fc50bd98b7baf89b9"
+    },
+    {
+      "path": "Round3_role05_11.13/output/paired-list-changes.csv",
+      "bytes": 216,
+      "sha256": "3441a05d3476539ae54cd9fa52012496f1d07e52e156e2da8f332eca71246f9f"
+    },
+    {
+      "path": "Round3_role05_11.13/output/paired_changes.png",
+      "bytes": 103551,
+      "sha256": "2612259affeb9cad137603d3f8b374bdd37d5bfd1b72c0bdaf26ccbbd3bdb2a7"
+    },
+    {
+      "path": "Round3_role05_11.13/output/uncertainty_chart.png",
+      "bytes": 80911,
+      "sha256": "79a787de7095f0bad45c1fbe11aa53cd54c14e1f2aa855298a728ae13f915e83"
+    },
+    {
+      "path": "Round3_role05_11.13/scripts/check_hash_3and4.py",
+      "bytes": 2175,
+      "sha256": "c196774edea9ed2adc569f17ce0ff2fb6bd76a6fa44c6105181108b8d79cdf7c"
+    },
+    {
+      "path": "Round3_role05_11.13/scripts/check_role01.py",
+      "bytes": 3965,
+      "sha256": "dc7982363e2148a66093a49cbeb9c926e9c9f9bd48159acc4de0ee5ef7dbf47b"
+    },
+    {
+      "path": "Round3_role05_11.13/scripts/check_role02.py",
+      "bytes": 2279,
+      "sha256": "bec2ef9a2a816d5774fa3116feab042441c55e173aeb971d9ee4b4f3e60db086"
+    },
+    {
+      "path": "Round3_role05_11.13/scripts/check_role03.py",
+      "bytes": 4399,
+      "sha256": "c1a27dd686f7ba1e80e6b6cb602ad79fd5168021a3bebb4bbe6ebbdca12c28c6"
+    },
+    {
+      "path": "Round3_role05_11.13/scripts/check_role04.py",
+      "bytes": 2201,
+      "sha256": "5a1a05c4258301f94da219f4aa7a85ce436c2be113ec218fabd4da559fc3113c"
+    },
+    {
+      "path": "Round3_role05_11.13/scripts/run.py",
+      "bytes": 7326,
+      "sha256": "3e2f1f9275c3829f089b275cff1ccff0b63f93f6e0946a618d7045b0ebbeeed7"
+    }
+  ],
+  "member_code_executed": false,
+  "user_decision": "最终报告采用6号本地研究线；具体模型/主指标及其他决定本人稍后回答，不自动代定。"
+}

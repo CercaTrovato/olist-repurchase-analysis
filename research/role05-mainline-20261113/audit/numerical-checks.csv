@@ -1,0 +1,12 @@
+table,key,status,note
+comparison,F0 Weighted (Main),MATCH,
+comparison,F0 Unweighted,MATCH,
+comparison,B +Cluster_id,MATCH,
+comparison,C Segmented Fallback,MATCH,
+comparison,H06 Legacy,INHERITED_NOT_NEW_REPLAY,46 is historical reference; not a new H06 row-level replay.
+group,0,MATCH,
+group,1,MATCH,
+group,2,MATCH,
+paired,F0 vs Unweighted,MATCH,
+paired,F0 vs B (+Cluster),MATCH,
+paired,F0 vs C (Segmented),MATCH,

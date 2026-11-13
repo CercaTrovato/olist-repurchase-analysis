@@ -3,10 +3,10 @@
   "assignment_id": "IS6400-A06",
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
-  "as_of": "2026-11-12",
-  "basis_revision": "e250938d59dc028756bfd9cb4bfc3ecb803db08eb0fef6406c558f561759fb56",
+  "as_of": "2026-11-13",
+  "basis_revision": "47a964070830d4704e5e7fab14ab8677e494a42dde937ef7fadbffce065c245e",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "真实第三轮1–4号四包已收验：160附件hash全过，14时点字段/56特征点差/429品类行与27预测指标、81群切片回算。R3加权全局50、久单73席/2命中；2号组合未被3号实际测试，20行区间已补算，4号原46命中卡已衍生对齐当前R3。5号回签、2/3记录修订、6号正式采用与H07仍待；新增13图累计85，本地研究不重开。",
+  "summary": "本人已确认最终报告采用6号本地研究主线（D14），具体模型/主指标/分工等本人稍后回答，不再默认组员R3 F0为正式方案。5号已回传：4模型Top10%、3群和3名单交换数字独算一致；原区间图量纲、群内收益归因及v0.4身份表述需修。补12容量/12群切片和3图，累计88；无新训练/区间/四月评分。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
@@ -16,9 +16,9 @@
       "owner": "本人 · 总监督",
       "owner_role": "me",
       "scope": "team",
-      "summary": "全体概率→客户价值→可调名额已验证；正式主目标/采用版本与冻结时间仍需本人确认。",
+      "summary": "报告研究路线本地已定，具体正式模型和主指标仍待本人后续答复；不默认R3 F0最终采用。",
       "deliverable": "决定方法冻结后怎样评价，并清楚披露哪些时期已经看过。",
-      "next_action": "记录6号真实采用版本/依据/时间；3号21:38自报不能倒填21:00。",
+      "next_action": "报告主线本地已采用；具体模型/主指标/模型冻结时间等本人后续答，先整理已核内容，不催重复决策。",
       "my_next_action": "沿人数主线或正式改金额主线需明确；不把研究建议当已定。",
       "depends_on": [],
       "dependency_gates": [],
@@ -45,7 +45,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-12",
+      "observed_on": "2026-11-13",
       "estimated_minutes": null,
       "state_basis": "沿用已有核验；未凭文件存在推定正式提交。 本日期为总监督建议，待相关成员确认，不改变正式截止。",
       "evidence": [
@@ -686,7 +686,7 @@
       "scope": "team",
       "summary": "向各岗核对 H07 的 Slides、英文讲稿和报告要点预计交稿时间。",
       "deliverable": "完成核对或交接，并将实际答复更新回任务记录。",
-      "next_action": "向各岗核对 H07 的 Slides、英文讲稿和报告要点预计交稿时间。",
+      "next_action": "报告主线本地已采用；具体模型/主指标/模型冻结时间等本人后续答，先整理已核内容，不催重复决策。",
       "my_next_action": "向各岗核对 H07 的 Slides、英文讲稿和报告要点预计交稿时间。",
       "depends_on": [],
       "dependency_gates": [],
@@ -704,7 +704,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-10",
+      "observed_on": "2026-11-13",
       "estimated_minutes": null,
       "state_basis": "总监督根据现有缺口拟定的行动建议，未冒充已经开展。 本日期为总监督建议，待相关成员确认，不改变正式截止。",
       "evidence": [
@@ -1072,7 +1072,7 @@
       "scope": "team",
       "summary": "原内部21:00节点已到；成员之后自报冻结，6号正式采用/时间未核，不自动完成或改期。",
       "deliverable": "冻结分析方法（建议）",
-      "next_action": "记录6号真实采用版本/依据/时间；3号21:38自报不能倒填21:00。",
+      "next_action": "报告主线本地已采用；具体模型/主指标/模型冻结时间等本人后续答，先整理已核内容，不催重复决策。",
       "my_next_action": null,
       "depends_on": [],
       "dependency_gates": [],
@@ -1090,7 +1090,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-12",
+      "observed_on": "2026-11-13",
       "estimated_minutes": null,
       "state_basis": "本人2026-11-11明确同意展示方法采用截止；成员交付承诺另记。",
       "evidence": [
@@ -1878,14 +1878,14 @@
     {
       "id": "round3-member-returns",
       "title": "收第三轮组员策略与结果",
-      "status": "in_progress",
+      "status": "needs_review",
       "owner": "1–5号；本人统筹",
       "owner_role": "team",
       "scope": "team",
-      "summary": "1–4号四包已实际收到并完成有界数值验收，2/3号最小记录修订与5号团队回签待；无新增候选搜索。",
+      "summary": "1–5号均实收，5号关键数字与已核R3一致；原区间图/归因/版本说明及前批2/3修订仍待。",
       "deliverable": "已发群后的成员接单/承诺与实际回件待收。",
-      "next_action": "2号确认CI修正，3号修记录与字段版本，4号使用对齐卡，5号回正式验收。",
-      "my_next_action": "按同版本验收汇总，确认正式采用并收H07。",
+      "next_action": "采用本地报告主线，保留成员对照；只补说明及合稿，不重开模型。",
+      "my_next_action": "本地线的具体配置等本人后续确认，先筛素材与收稿。",
       "depends_on": [
         "my-round3-dispatch"
       ],
@@ -1905,7 +1905,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-12",
+      "observed_on": "2026-11-13",
       "estimated_minutes": null,
       "state_basis": "本地辅助与组员实际回传分开，最终模型采用未代本人决定。",
       "evidence": [
@@ -1924,6 +1924,11 @@
           "observed_on": "2026-11-12",
           "status": "in_progress",
           "note": "本人上传四包/两CSV及六截图；技术验收与5号回签/本人采用分开。"
+        },
+        {
+          "observed_on": "2026-11-13",
+          "status": "needs_review",
+          "note": "5号原包真实收到并有界复核，不再写未回签，也不无条件关闭全部材料问题。"
         }
       ]
     },
@@ -2159,7 +2164,7 @@
       "scope": "supporting",
       "summary": "最终固定研究收尾：3滚动期/单多期、25新+5复用概率模型、6金额模型、18全量经理私表、20质疑结案，新增6图累计72。全体预测后再按pFM/预计金额选名单；两价值规则各15/18组合捕额优于p，但人数/久单有取舍，无统一赢家。四月无新评分；正式指标/团队采用与H07按事实确认。",
       "deliverable": "3期单/多期概率，6金额模型/18私表，容量与20Q，6图及独审。",
-      "next_action": "本冻结计算清单已完成，真实组员新回件与正式采用/提交另列。",
+      "next_action": "报告主线本地已采用；具体模型/主指标/模型冻结时间等本人后续答，先整理已核内容，不催重复决策。",
       "my_next_action": "确认展示主目标与实际版本，收H07并合稿核数。",
       "depends_on": [
         "research-questions-and-design"
@@ -2192,7 +2197,7 @@
       },
       "started_on": "2026-11-12",
       "completed_on": "2026-11-12",
-      "observed_on": "2026-11-12",
+      "observed_on": "2026-11-13",
       "estimated_minutes": null,
       "state_basis": "本地辅助研究收尾，不代表团队新回件、正式采用、冻结或提交完成。",
       "evidence": [
@@ -2211,12 +2216,12 @@
     },
     {
       "id": "round3-team-intake-audit",
-      "title": "真实第三轮四岗交件技术验收（辅助）",
+      "title": "真实第三轮1–5号交件技术验收（辅助）",
       "status": "done",
       "owner": "本课程会话核技术；成员确认/本人采用另列",
       "owner_role": "me",
       "scope": "supporting",
-      "summary": "真实第三轮1–4号四包已收验：160附件hash全过，14时点字段/56特征点差/429品类行与27预测指标、81群切片回算。R3加权全局50、久单73席/2命中；2号组合未被3号实际测试，20行区间已补算，4号原46命中卡已衍生对齐当前R3。5号回签、2/3记录修订、6号正式采用与H07仍待；新增13图累计85，本地研究不重开。",
+      "summary": "此前1–4号核验12日完成；13日补5号数字与解释源审，给3幅衍生图，原错误CI图不采。成员记录修订另列。",
       "deliverable": "四包原件哈希、聚合/原始回算、当前三卡、13图与独审。",
       "next_action": "技术验收已完成，转成员最小记录修订、5号团队回签和6号采用/合稿。",
       "my_next_action": "核正式采用版本与时间，收H07材料。",
@@ -2250,8 +2255,8 @@
         "basis": "unknown"
       },
       "started_on": "2026-11-12",
-      "completed_on": "2026-11-12",
-      "observed_on": "2026-11-12",
+      "completed_on": "2026-11-13",
+      "observed_on": "2026-11-13",
       "estimated_minutes": null,
       "state_basis": "完成课程技术验收范围；不替代5号回签、2/3号原包修订、6号正式采用或提交。",
       "evidence": [
@@ -2265,6 +2270,68 @@
           "observed_on": "2026-11-12",
           "status": "done",
           "note": "四包原件保留，2次旧配置复跑无新候选/四月评分，13图共85。"
+        },
+        {
+          "observed_on": "2026-11-13",
+          "status": "done",
+          "note": "承接原四岗12日证据，13日扩展5号有界核验；不重跑旧研究，不等于原包全通过。"
+        }
+      ]
+    },
+    {
+      "id": "report-local-mainline-adopted",
+      "title": "本人确认最终报告采用本地研究主线",
+      "status": "done",
+      "owner": "本人（6号，转述团队共同意见）",
+      "owner_role": "me",
+      "scope": "team",
+      "summary": "D14已明确采用6号独立本地研究线；具体最终模型/主指标/分工等本人稍后回复，组员R3保留独立基线与材料来源。",
+      "deliverable": "记录路线采用原话、来源与未决定范围，更新报告材料入口。",
+      "next_action": "按本地主线整理内容，具体配置及主指标等本人稍后明确；不回到默认F0主线或新开搜索。",
+      "my_next_action": "后续回复具体配置/指标等；当前无需重复催答。",
+      "depends_on": [
+        "final-research-closeout"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "confirmed",
+          "label": "本人直接确认本地研究为最终报告主线",
+          "status": "pass",
+          "evidence": [
+            "report-local-mainline-decision"
+          ]
+        },
+        {
+          "id": "bounded",
+          "label": "未决定的具体模型/指标等与路线采用分开记录",
+          "status": "pass",
+          "evidence": [
+            "report-local-mainline-decision"
+          ]
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": "2026-11-13",
+      "completed_on": "2026-11-13",
+      "observed_on": "2026-11-13",
+      "estimated_minutes": null,
+      "state_basis": "仅路线采用完成，不代表具体模型已定、报告全文完成或正式提交。",
+      "evidence": [
+        {
+          "label": "本地主线采用说明",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/report-mainline-decision.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-13",
+          "status": "done",
+          "note": "用户本轮明确采用本地线，其余问题明确稍后回答。"
         }
       ]
     }

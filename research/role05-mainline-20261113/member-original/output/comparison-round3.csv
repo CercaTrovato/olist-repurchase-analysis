@@ -1,0 +1,6 @@
+Model,Capacity,Hits,Precision,Reproducible
+F0 Weighted (Main),2937,50,0.017,True
+F0 Unweighted,2937,46,0.0157,True
+B +Cluster_id,2937,50,0.017,True
+C Segmented Fallback,2937,49,0.0167,True
+H06 Legacy,2937,46,0.0157,Inherited

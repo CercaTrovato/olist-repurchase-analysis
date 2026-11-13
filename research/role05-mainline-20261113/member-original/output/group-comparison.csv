@@ -1,0 +1,4 @@
+Cluster_ID,Pool_Size,Positives,Selected,Hits,Precision,Recall
+0,16335,112,2190,21,0.0096,0.1875
+1,12330,90,73,2,0.0274,0.0222
+2,703,28,674,27,0.0401,0.9643

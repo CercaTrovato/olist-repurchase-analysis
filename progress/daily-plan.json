@@ -2,9 +2,9 @@
   "schema_version": 1,
   "assignment_id": "IS6400-A06",
   "course": "IS6400",
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "timezone": "Asia/Shanghai",
-  "source_revision": "7505249e10bdd6627569f89f801dd3ac59f83936fd06324b76696facfdebe49b",
+  "source_revision": "0282d91e82f469f6958003ee9cd33f80a552334e5cb03dd1d6374b1818e15c39",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
   "stale": false,
   "scheduling_policy": {
@@ -15,23 +15,6 @@
     "recheck_current_date_and_latest_revision": true
   },
   "actions": [
-    {
-      "id": "my-delivery",
-      "title": "本人下一步：冻结方法、合稿与提交",
-      "owner": "本人 · 统筹",
-      "status": "planned",
-      "personal_action": "向各岗核对 H07 的 Slides、英文讲稿和报告要点预计交稿时间。",
-      "readiness": "ready",
-      "target": {
-        "value": "2026-11-12",
-        "precision": "date",
-        "basis": "proposed"
-      },
-      "blocked_by": [],
-      "estimated_minutes": null,
-      "observed_on": "2026-11-10",
-      "date_state": "today"
-    },
     {
       "id": "scope",
       "title": "确定最终评价口径",
@@ -46,8 +29,8 @@
       },
       "blocked_by": [],
       "estimated_minutes": null,
-      "observed_on": "2026-11-12",
-      "date_state": "today"
+      "observed_on": "2026-11-13",
+      "date_state": "past_due_unverified"
     },
     {
       "id": "my-liu-invite-20261115",
@@ -87,8 +70,8 @@
       "id": "round3-member-returns",
       "title": "收第三轮组员策略与结果",
       "owner": "1–5号；本人统筹",
-      "status": "in_progress",
-      "personal_action": "按同版本验收汇总，确认正式采用并收H07。",
+      "status": "needs_review",
+      "personal_action": "本地线的具体配置等本人后续确认，先筛素材与收稿。",
       "readiness": "ready",
       "target": {
         "value": null,
@@ -97,8 +80,25 @@
       },
       "blocked_by": [],
       "estimated_minutes": null,
-      "observed_on": "2026-11-12",
+      "observed_on": "2026-11-13",
       "date_state": "unscheduled"
+    },
+    {
+      "id": "my-delivery",
+      "title": "本人下一步：冻结方法、合稿与提交",
+      "owner": "本人 · 统筹",
+      "status": "planned",
+      "personal_action": "向各岗核对 H07 的 Slides、英文讲稿和报告要点预计交稿时间。",
+      "readiness": "verify",
+      "target": {
+        "value": "2026-11-12",
+        "precision": "date",
+        "basis": "proposed"
+      },
+      "blocked_by": [],
+      "estimated_minutes": null,
+      "observed_on": "2026-11-13",
+      "date_state": "past_due_unverified"
     },
     {
       "id": "my-liu-reminder-20261116",

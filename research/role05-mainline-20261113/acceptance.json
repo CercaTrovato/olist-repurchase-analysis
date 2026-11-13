@@ -1,0 +1,17 @@
+{
+  "received_role": 5,
+  "source_archive_sha256": "0db1094fd5df4735244caeb7ca7a27dcaa3212bfdf6f1f6eb25d9d9492623cd7",
+  "source_files": 15,
+  "status": "RECEIVED_CORE_COUNTS_ACCEPTED_EXPLANATION_AND_FIGURE_CORRECTIONS_REQUIRED",
+  "core_numeric_checks": {"four_top10_models": "MATCH", "three_F0_group_rows": "MATCH", "three_paired_changes": "MATCH"},
+  "not_adopted": ["Original 95 percent CI figure", "Claim that global equal capacity proves within-group mechanism", "Claim that H04 v0.4 and current R3 F0 are identical", "Unqualified model refit reproducibility or all-roles-complete claim"],
+  "prior_gaps_closed_by_receipt": ["Role05 third-round opinion now physically received"],
+  "prior_gaps_not_automatically_closed": ["Role02 20 interval support corrections acknowledgement", "Role02 proposed groups not actually tested by Role03", "Role03 CV/metadata/version explanation", "Slides and scripts actual receipt", "Specific model/primary metric and actual freeze record"],
+  "final_report_mainline_confirmed_by_user": "6号本地研究线",
+  "specific_model_or_primary_metric_decided": false,
+  "additional_user_answers_deferred_by_user": true,
+  "new_model_fits": 0,
+  "new_april_predictions": 0,
+  "source_originals_preserved": true,
+  "raw_individual_files_published": false
+}

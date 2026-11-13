@@ -1,0 +1,4 @@
+table,rows,duplicate_keys,unmatched_keys,label_mismatches
+Predictions,29368,0,0,0.0
+Group predictions,29368,0,0,0.0
+Clusters,29368,0,0,

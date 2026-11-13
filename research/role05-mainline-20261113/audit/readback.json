@@ -1,0 +1,50 @@
+{
+  "status": "CORE_TABLES_MATCH_WITH_METHODOLOGY_AND_PROVENANCE_CORRECTIONS",
+  "rows": 29368,
+  "positive_count": 230,
+  "top10_comparison_rows_matched": 4,
+  "inherited_legacy_row": 1,
+  "group_rows_matched": 3,
+  "paired_rows_matched": 3,
+  "capacity_rows_derived_all_four_models": 12,
+  "group_rows_derived_all_four_models": 12,
+  "new_model_fits": 0,
+  "new_candidate_searches": 0,
+  "new_april_predictions": 0,
+  "new_uncertainty_estimates_adopted": 0,
+  "dynamic_join_checks": [
+    {
+      "table": "Predictions",
+      "rows": 29368,
+      "duplicate_keys": 0,
+      "unmatched_keys": 0,
+      "label_mismatches": 0
+    },
+    {
+      "table": "Group predictions",
+      "rows": 29368,
+      "duplicate_keys": 0,
+      "unmatched_keys": 0,
+      "label_mismatches": 0
+    },
+    {
+      "table": "Clusters",
+      "rows": 29368,
+      "duplicate_keys": 0,
+      "unmatched_keys": 0,
+      "label_mismatches": null
+    }
+  ],
+  "input_sources_sha256": {
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\private\\extracted\\role03\\Round3_role03_prediction_v1\\january-predictions.csv": "93b3c500a1ae6987b7fb0c4c358c24cbe61bb9842b0ed4a0cb0b21f9e01efd69",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\private\\extracted\\role03\\Round3_role03_prediction_v1\\group-model-predictions.csv": "146cb5f206ba06612fafed744f89cbb36f7465dbf059dd707f906b554ca1730a",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\private\\extracted\\role03\\Round3_role03_prediction_v1\\validation_clusters.csv": "509e6df79c758be73c693ea63a5e1ff9a33db97bcbc168d218b47dfe02d55f85",
+    "E:\\app-data\\codex\\outputs\\is6400-role05-intake-20261113\\private\\extracted\\Round3_role05_11.13\\scripts\\run.py": "3e2f1f9275c3829f089b275cff1ccff0b63f93f6e0946a618d7045b0ebbeeed7"
+  },
+  "limits": [
+    "Role05 did not supply raw inputs/hash-run logs; current equality is independent recount using held verified R3 inputs.",
+    "Reproducible=True and Missing_Merge=0 in Role05 generator are constants, not executable pass criteria.",
+    "Original uncertainty image excluded.",
+    "Role05 F0 adoption recommendation is member opinion; user selected local research line for final report."
+  ]
+}

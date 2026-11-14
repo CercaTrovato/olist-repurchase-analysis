@@ -1,5 +1,7 @@
 # 给文档个人助手：如何安排每日事项
 
+> 当前版本口径：A“现有成果整理版”，B“在A基础上的深入分析版”。B承接已有成果并深化验证与运营分析，团队仍待投票。[详细比较与投票入口](docs/team/route-vote-comparison.md)。
+
 1. 先读 `progress/daily-plan.json`，再按任务 ID 回到 `progress/timeline.json`。`TIMELINE.md` 是同源的人类阅读版。
 2. 检查 `as_of`、`observed_on` 和最新 GitHub 提交。文件更新不代表所有事项重新核验；超过七天或有新回件，先向总监督核实。
 3. `readiness=ready` 只表示已登记前置满足，可以提出安排；`verify` 先核状态，`waiting_dependency` 等前置成果，`waiting_external` 等回件。不要把给组员的任务排成本人执行任务。

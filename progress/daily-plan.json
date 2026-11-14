@@ -4,7 +4,7 @@
   "course": "IS6400",
   "as_of": "2026-11-14",
   "timezone": "Asia/Shanghai",
-  "source_revision": "2670844cb1316428de8c8ec48799e0e80bf1aa74b34f29bb0a7cd05f8d655da7",
+  "source_revision": "b0085b6c02f3fe95c4f0153c5b6ea59f5bbe122253b92f4dc25c7ac3cff85896",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
   "stale": false,
   "scheduling_policy": {
@@ -20,7 +20,7 @@
       "title": "确定最终评价口径",
       "owner": "本人 · 总监督",
       "status": "needs_review",
-      "personal_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+      "personal_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
       "readiness": "ready",
       "target": {
         "value": "2026-11-12",
@@ -37,7 +37,7 @@
       "title": "冻结分析方法（建议）",
       "owner": "全组；提交代表待确认",
       "status": "needs_review",
-      "personal_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+      "personal_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
       "readiness": "ready",
       "target": {
         "value": "2026-11-12T21:00:00+08:00",
@@ -85,10 +85,10 @@
     },
     {
       "id": "report-local-mainline-adopted",
-      "title": "最终报告A/B路线待全组投票（此前已采记录已更正）",
+      "title": "最终A整理版/B深入分析版待全组投票",
       "owner": "本人（6号）汇总，成员共同确认",
       "status": "needs_review",
-      "personal_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+      "personal_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
       "readiness": "ready",
       "target": {
         "value": null,
@@ -122,7 +122,7 @@
       "title": "本人下一步：冻结方法、合稿与提交",
       "owner": "本人 · 统筹",
       "status": "planned",
-      "personal_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+      "personal_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
       "readiness": "verify",
       "target": {
         "value": "2026-11-12",

@@ -2,9 +2,19 @@
   "status": "PROPOSED_FOR_TEAM_VOTE_NOT_ADOPTED",
   "version": "route-vote-20261114-v1",
   "source_base": "b09feae745163cb188d27d4f79a2acd3f9bb1945",
-  "shared": {"dataset": "Olist, H02-v2-candidate-reviewed, H05-km3-v1 diagnostics", "unit": "customer_unique_id plus snapshot_date", "history": "six calendar months before snapshot", "target": "positive-goods-amount approved order in next 90 days", "all_eligible_customers_scored": true, "January_seen_development": true, "April_seen_backtest_only": true, "new_training_or_search": false, "actual_marketing_lift_or_profit_proven": false},
+  "shared": {
+    "dataset": "Olist, H02-v2-candidate-reviewed, H05-km3-v1 diagnostics",
+    "unit": "customer_unique_id plus snapshot_date",
+    "history": "six calendar months before snapshot",
+    "target": "positive-goods-amount approved order in next 90 days",
+    "all_eligible_customers_scored": true,
+    "January_seen_development": true,
+    "April_seen_backtest_only": true,
+    "new_training_or_search": false,
+    "actual_marketing_lift_or_profit_proven": false
+  },
   "A": {
-    "label": "团队R3整理冻结版",
+    "label": "现有成果整理版",
     "main_story": "同等名单容量下找到更多会复购的人，分群解释覆盖与提出业务试验",
     "main_system": "Round3_role03_prediction_v1 F0 base8 weighted LR; October full-fit and January ranking",
     "main_features": 8,
@@ -16,18 +26,50 @@
     "January_hits": 50,
     "long_group_diagnostic_K": 79,
     "long_group_diagnostic_hits": 2,
-    "global_long_seats_hits": [73, 2],
+    "global_long_seats_hits": [
+      73,
+      2
+    ],
     "raw_balanced_score_is_natural_probability": false,
-    "baseline_comparisons": ["unweighted", "actual R3 delivery/review variants", "add group", "segmented heads"],
-    "materials": ["Role01 time audit", "Role02 v1.1 statistics", "Role03 saved scores and CV", "corrected R3-bound profiles", "Role04 unexecuted content trial design", "corrected Role05 recounts"],
-    "excluded_claims_or_figures": ["Role05 invalid CI figure", "all-October H05 mapping CV described as fully fold-contained pipeline", "Role02 proposed groups said tested by Role03", "legacy46 or old79 seats used as current F0"],
+    "baseline_comparisons": [
+      "unweighted",
+      "actual R3 delivery/review variants",
+      "add group",
+      "segmented heads"
+    ],
+    "materials": [
+      "Role01 time audit",
+      "Role02 v1.1 statistics",
+      "Role03 saved scores and CV",
+      "corrected R3-bound profiles",
+      "Role04 unexecuted content trial design",
+      "corrected Role05 recounts"
+    ],
+    "excluded_claims_or_figures": [
+      "Role05 invalid CI figure",
+      "all-October H05 mapping CV described as fully fold-contained pipeline",
+      "Role02 proposed groups said tested by Role03",
+      "legacy46 or old79 seats used as current F0"
+    ],
     "remaining_work": "Use clean reporting overlays, unify prose/metadata and produce/rehearse slides; no new model run"
   },
   "B": {
-    "label": "本地研究精简重构冻结版（建议）",
+    "label": "在A基础上的深入分析版（建议）",
     "main_story": "全体预测质量→同容量名单→客户价值和可调容量，分群诊断辅助解释",
     "proposed_probability_system": "full141 native CatBoost, single latest-mature training snapshot, three separately calibrated probabilities averaged before evaluation",
-    "base_model_parameters": {"depth": 3, "iterations": 300, "learning_rate": 0.03, "l2_leaf_reg": 10, "seeds": [2026, 2027, 2028], "early_stopping": false, "class_weights": false},
+    "base_model_parameters": {
+      "depth": 3,
+      "iterations": 300,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 10,
+      "seeds": [
+        2026,
+        2027,
+        2028
+      ],
+      "early_stopping": false,
+      "class_weights": false
+    },
     "calibration": "held-out positive-slope Platt; only cal labels; not eval labels",
     "January_fit_rows": 16928,
     "January_cal_rows": 4232,
@@ -36,14 +78,48 @@
     "January_K": 2937,
     "January_hits": 49,
     "January_long79_hits": 2,
-    "references": ["base8 weighted LR under same fit/cal", "base8 unweighted LR under same fit/cal", "saved same-information studies for attribution"],
-    "frozen_evaluation_package": ["all-customer log loss/Brier/AP/AUC/calibration", "global top10% hits with existing5%/20% sensitivity", "separate fixed long79 and global group seats", "known Nov/Dec/Jan mature-label rolling checks", "existing feature/model, seed/split, budget/block and earlier-time controls"],
-    "business_extension": ["p ranking", "p times historical order count F times historical goods total M", "p times predicted 90-day goods amount conditional on purchase", "existing 1/2/5/10/20/50/100% capacity results"],
+    "references": [
+      "base8 weighted LR under same fit/cal",
+      "base8 unweighted LR under same fit/cal",
+      "saved same-information studies for attribution"
+    ],
+    "frozen_evaluation_package": [
+      "all-customer log loss/Brier/AP/AUC/calibration",
+      "global top10% hits with existing5%/20% sensitivity",
+      "separate fixed long79 and global group seats",
+      "known Nov/Dec/Jan mature-label rolling checks",
+      "existing feature/model, seed/split, budget/block and earlier-time controls"
+    ],
+    "business_extension": [
+      "p ranking",
+      "p times historical order count F times historical goods total M",
+      "p times predicted 90-day goods amount conditional on purchase",
+      "existing 1/2/5/10/20/50/100% capacity results"
+    ],
     "value_policy_not_declared_universal_winner": true,
-    "not_main_system": ["AE January-high-score winner", "drop-behavior58 selected post hoc", "GCN/GAT chosen because complex", "pooled CatBoost promoted despite negative temporal comparison"],
+    "not_main_system": [
+      "AE January-high-score winner",
+      "drop-behavior58 selected post hoc",
+      "GCN/GAT chosen because complex",
+      "pooled CatBoost promoted despite negative temporal comparison"
+    ],
     "remaining_work": "Select 6–8 main figures and an 8-minute narrative, explain contrasts and limits, rehearse all members; no new fit or new April score",
     "explicit_team_confirmation_needed": true
   },
-  "vote_process_proposal": {"choice": "A or B plus one reason", "one_vote_per_person_proposed": true, "deadline_confirmed": false, "deadline": null, "nonresponse_is_agreement": false, "freeze_condition": "6号汇总实际回复并在群里明确路线、配置、指标与分工；若修改本包配置须列清差异再确认", "formal_slides_creation_after_confirmation": true},
-  "grading_assessment": "B has greater evidence-backed potential if simplified and jointly understood; A has lower presentation/transfer risk. Not official rubric or a predicted score."
+  "vote_process_proposal": {
+    "choice": "A or B plus one reason",
+    "one_vote_per_person_proposed": true,
+    "deadline_confirmed": false,
+    "deadline": null,
+    "nonresponse_is_agreement": false,
+    "freeze_condition": "6号汇总实际回复并在群里明确路线、配置、指标与分工；若修改本包配置须列清差异再确认",
+    "formal_slides_creation_after_confirmation": true
+  },
+  "grading_assessment": "B has greater evidence-backed potential if simplified and jointly understood; A has lower presentation/transfer risk. Not official rubric or a predicted score.",
+  "presentation_relationship": {
+    "A": "整理现有数据审计、基线、字段/分群及核验成果",
+    "B": "承接A的成果，增加概率可靠性、受控验证和客户价值/容量的深入分析",
+    "provenance": "实验ID、输入版本及各岗实际交付/执行记录保留；命名不代表全组已运行所有实验",
+    "adoption": "仍待实际投票及共同确认，所有数值/模型配置/窗口/容量不变"
+  }
 }

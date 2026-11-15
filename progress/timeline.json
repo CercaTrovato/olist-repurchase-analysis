@@ -4,9 +4,9 @@
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
   "as_of": "2026-11-15",
-  "basis_revision": "50eeab1e4a7d3adf66de2c05534ccf4e93f741d05c2930566698f3a8fffc9ae8",
+  "basis_revision": "624abf012d2203827624fb49e4976025b887971ba021b34e1b38b05d615f8e61",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "本人已认可 A v3 完整流程版并要求发布：14 页，前 9 页主讲、后 5 页备查。新增第 2 页预测/分群双线流程，第 14 页区分已测 F1/F2 与未测 G1/G2。3 号负责最后修改后提交 Canvas；代理不代提交，目前尚无成功回执。真人排练未核。",
+  "summary": "本人已提供最终 13 页 PPT，并明确确认已提交 Canvas；Slides 待提交事项已关闭。本人同时确认 11 月 18 日（周三）课堂展示，具体钟点未新核。成功页面、准确提交时刻和实际账号仍待独立核验；这项证据缺口不改变本人确认已提交的状态。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
@@ -16,10 +16,10 @@
       "owner": "本人 · 总监督",
       "owner_role": "me",
       "scope": "team",
-      "summary": "本人已认可 A v3 完整流程版并要求发布：14 页，前 9 页主讲、后 5 页备查。新增第 2 页预测/分群双线流程，第 14 页区分已测 F1/F2 与未测 G1/G2。3 号负责最后修改后提交 Canvas；代理不代提交，目前尚无成功回执。真人排练未核。",
+      "summary": "本人已提供最终 13 页 PPT，并明确确认已提交 Canvas；Slides 待提交事项已关闭。本人同时确认 11 月 18 日（周三）课堂展示，具体钟点未新核。成功页面、准确提交时刻和实际账号仍待独立核验；这项证据缺口不改变本人确认已提交的状态。",
       "deliverable": "决定方法冻结后怎样评价，并清楚披露哪些时期已经看过。",
-      "next_action": "3 号基于当前 A v3 汇总最后修改，检查 PPTX/PDF 一致后自行提交正确 Canvas Slides 入口；提交前再核页面截止与附件，提交后回传成功页面、时间、文件名和实际提交版。本人（6 号）协调修改并收回执，代理只同步资料，不代提交。",
-      "my_next_action": "把当前 A v3 和页码分工交 3 号，协调最后修改；收取提交成功页面、时间、文件名及实际提交版。",
+      "next_action": "按最终 13 页版本准备 11 月 18 日课堂展示：各成员核对自己页面、数字和转场，再按本人安排进行真人计时与问答准备。已有提交回执可补存以核准确时刻和实际账号；不再催 3 号提交，不修改或重新提交已交附件。",
+      "my_next_action": "按最终稿准备第 1、2、9 页并统筹 11 月 18 日展示；已有提交回执可补存，不重新提交。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -60,6 +60,10 @@
         {
           "label": "本人认可 A v3 与 3 号提交安排",
           "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/b688bda713ad80b55cff8e922b103ff95281768a/slides/a-v3-20261115/decision.json"
+        },
+        {
+          "label": "本人确认提交与展示安排",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/fc5186ecb804149cb5aad177d5c10dfb3b16fb85/slides/submitted-20261115/submission-record.json"
         }
       ],
       "history": [
@@ -127,6 +131,11 @@
           "observed_on": "2026-11-15",
           "status": "needs_review",
           "note": "本人认可 A v3 并要求同步；安排 3 号最后修改后提交，代理不代交，尚无回执。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "needs_review",
+          "note": "本人提供最终13页PPT并确认已提交；11/18周三课堂展示。独立回执/钟点/账号另核，不退回未提交。"
         }
       ]
     },
@@ -620,15 +629,15 @@
     },
     {
       "id": "delivery",
-      "title": "A v3 最后修改、提交与回执",
+      "title": "Slides 已提交，课堂展示与报告继续",
       "status": "in_progress",
       "owner": "全组；本人负责统筹",
       "owner_role": "team",
       "scope": "team",
-      "summary": "本人已认可 A v3 完整流程版并要求发布：14 页，前 9 页主讲、后 5 页备查。新增第 2 页预测/分群双线流程，第 14 页区分已测 F1/F2 与未测 G1/G2。3 号负责最后修改后提交 Canvas；代理不代提交，目前尚无成功回执。真人排练未核。",
+      "summary": "本人已提供最终 13 页 PPT，并明确确认已提交 Canvas；Slides 待提交事项已关闭。本人同时确认 11 月 18 日（周三）课堂展示，具体钟点未新核。成功页面、准确提交时刻和实际账号仍待独立核验；这项证据缺口不改变本人确认已提交的状态。",
       "deliverable": "按同一版结论交 Slides、讲稿与报告，再核排练和提交回执。",
-      "next_action": "3 号基于当前 A v3 汇总最后修改，检查 PPTX/PDF 一致后自行提交正确 Canvas Slides 入口；提交前再核页面截止与附件，提交后回传成功页面、时间、文件名和实际提交版。本人（6 号）协调修改并收回执，代理只同步资料，不代提交。",
-      "my_next_action": "把当前 A v3 和页码分工交 3 号，协调最后修改；收取提交成功页面、时间、文件名及实际提交版。",
+      "next_action": "按最终 13 页版本准备 11 月 18 日课堂展示：各成员核对自己页面、数字和转场，再按本人安排进行真人计时与问答准备。已有提交回执可补存以核准确时刻和实际账号；不再催 3 号提交，不修改或重新提交已交附件。",
+      "my_next_action": "按最终稿准备第 1、2、9 页并统筹 11 月 18 日展示；已有提交回执可补存，不重新提交。",
       "depends_on": [
         "clusters",
         "scope",
@@ -708,7 +717,7 @@
       "completed_on": null,
       "observed_on": "2026-11-15",
       "estimated_minutes": null,
-      "state_basis": "本人认可 A v3 并安排 3 号提交；GitHub 发布和技术验收不代替最终提交。",
+      "state_basis": "Slides 本人确认已提交；课堂展示/报告与回执独立核验仍分别待完成。",
       "evidence": [
         {
           "label": "课程当前进度记录及总监督管理复核；依据日期 2026-11-10",
@@ -721,6 +730,10 @@
         {
           "label": "本人认可 A v3 与 3 号提交安排",
           "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/b688bda713ad80b55cff8e922b103ff95281768a/slides/a-v3-20261115/decision.json"
+        },
+        {
+          "label": "本人确认提交与展示安排",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/fc5186ecb804149cb5aad177d5c10dfb3b16fb85/slides/submitted-20261115/submission-record.json"
         }
       ],
       "history": [
@@ -738,20 +751,25 @@
           "observed_on": "2026-11-15",
           "status": "in_progress",
           "note": "本人认可 A v3 并要求同步；安排 3 号最后修改后提交，代理不代交，尚无回执。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "in_progress",
+          "note": "本人提供最终13页PPT并确认已提交；11/18周三课堂展示。独立回执/钟点/账号另核，不退回未提交。"
         }
       ]
     },
     {
       "id": "my-delivery",
-      "title": "本人下一步：协调 3 号最后修改并收提交回执",
+      "title": "本人下一步：准备 11 月 18 日课堂展示",
       "status": "in_progress",
       "owner": "本人 · 统筹",
       "owner_role": "me",
       "scope": "team",
-      "summary": "本人已认可 A v3 完整流程版并要求发布：14 页，前 9 页主讲、后 5 页备查。新增第 2 页预测/分群双线流程，第 14 页区分已测 F1/F2 与未测 G1/G2。3 号负责最后修改后提交 Canvas；代理不代提交，目前尚无成功回执。真人排练未核。",
+      "summary": "本人已提供最终 13 页 PPT，并明确确认已提交 Canvas；Slides 待提交事项已关闭。本人同时确认 11 月 18 日（周三）课堂展示，具体钟点未新核。成功页面、准确提交时刻和实际账号仍待独立核验；这项证据缺口不改变本人确认已提交的状态。",
       "deliverable": "完成核对或交接，并将实际答复更新回任务记录。",
-      "next_action": "3 号基于当前 A v3 汇总最后修改，检查 PPTX/PDF 一致后自行提交正确 Canvas Slides 入口；提交前再核页面截止与附件，提交后回传成功页面、时间、文件名和实际提交版。本人（6 号）协调修改并收回执，代理只同步资料，不代提交。",
-      "my_next_action": "把当前 A v3 和页码分工交 3 号，协调最后修改；收取提交成功页面、时间、文件名及实际提交版。",
+      "next_action": "按最终 13 页版本准备 11 月 18 日课堂展示：各成员核对自己页面、数字和转场，再按本人安排进行真人计时与问答准备。已有提交回执可补存以核准确时刻和实际账号；不再催 3 号提交，不修改或重新提交已交附件。",
+      "my_next_action": "按最终稿准备第 1、2、9 页并统筹 11 月 18 日展示；已有提交回执可补存，不重新提交。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -762,15 +780,15 @@
         }
       ],
       "target": {
-        "value": null,
-        "precision": "unknown",
-        "basis": "unknown"
+        "value": "2026-11-18",
+        "precision": "date",
+        "basis": "agreed"
       },
       "started_on": null,
       "completed_on": null,
       "observed_on": "2026-11-15",
       "estimated_minutes": null,
-      "state_basis": "当前本人负责协调与回执核对，正式上传提交由本人安排的 3 号执行；不沿用旧 11 月 12 日建议。",
+      "state_basis": "本人确认周三课堂展示，日期据 11 月 15 日换算；准确钟点未知。",
       "evidence": [
         {
           "label": "课程当前进度记录及总监督管理复核；依据日期 2026-11-10",
@@ -779,6 +797,10 @@
         {
           "label": "本人认可 A v3 与 3 号提交安排",
           "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/b688bda713ad80b55cff8e922b103ff95281768a/slides/a-v3-20261115/decision.json"
+        },
+        {
+          "label": "本人确认提交与展示安排",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/fc5186ecb804149cb5aad177d5c10dfb3b16fb85/slides/submitted-20261115/submission-record.json"
         }
       ],
       "history": [
@@ -816,6 +838,11 @@
           "observed_on": "2026-11-15",
           "status": "in_progress",
           "note": "本人认可 A v3 并要求同步；安排 3 号最后修改后提交，代理不代交，尚无回执。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "in_progress",
+          "note": "本人提供最终13页PPT并确认已提交；11/18周三课堂展示。独立回执/钟点/账号另核，不退回未提交。"
         }
       ]
     },
@@ -865,22 +892,22 @@
     },
     {
       "id": "date-slides",
-      "title": "3 号提交最终 Slides 并回传回执",
-      "status": "planned",
-      "owner": "3 号（本人安排）",
+      "title": "最终 Slides 已提交（本人确认）",
+      "status": "done",
+      "owner": "本人确认已提交；实际提交账号未核",
       "owner_role": "member",
       "scope": "team",
-      "summary": "本人已认可 A v3，并安排 3 号最后修改后自行提交；目前没有提交成功记录。",
-      "deliverable": "Canvas 成功页面、时间、实际附件名及最终提交版。",
-      "next_action": "3 号基于当前 A v3 汇总最后修改，检查 PPTX/PDF 一致后自行提交正确 Canvas Slides 入口；提交前再核页面截止与附件，提交后回传成功页面、时间、文件名和实际提交版。本人（6 号）协调修改并收回执，代理只同步资料，不代提交。",
-      "my_next_action": "跟进 3 号并核对提交成功回执；收实际提交版以同步 GitHub/看板。",
+      "summary": "本人已提供最终 13 页 PPT，并明确确认已提交 Canvas；Slides 待提交事项已关闭。本人同时确认 11 月 18 日（周三）课堂展示，具体钟点未新核。成功页面、准确提交时刻和实际账号仍待独立核验；这项证据缺口不改变本人确认已提交的状态。",
+      "deliverable": "最终已提交 PPT 原件；独立回执另行补存。",
+      "next_action": "提交待办已关闭；按最终稿准备展示。若取得成功页面、准确时刻与账号记录，另补独立核验。",
+      "my_next_action": null,
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
         {
           "id": "receipt",
-          "label": "3 号提交成功页面、时间及最终附件已回读",
-          "status": "unknown"
+          "label": "本人明确确认最终 Slides 已提交",
+          "status": "pass"
         }
       ],
       "target": {
@@ -889,10 +916,10 @@
         "basis": "official"
       },
       "started_on": null,
-      "completed_on": null,
+      "completed_on": "2026-11-15",
       "observed_on": "2026-11-15",
       "estimated_minutes": null,
-      "state_basis": "提交代表由本人本次指定；截止沿已核 11 月 15 日 23:59 香港，3 号操作时再核入口。只上传附件不等于成功提交。",
+      "state_basis": "本人于11月15日明确确认已提交；该日为确认日期，准确提交时刻及实际账号未知，不能据缺回执回退为未提交。",
       "evidence": [
         {
           "label": "11 月 7 日整理各课程作业截止时间表（已登录 Canvas 核对）",
@@ -901,6 +928,10 @@
         {
           "label": "Canvas Slides 正式截止（沿用已核会话）",
           "url": "https://canvas.cityu.edu.hk/courses/71457/assignments/339540"
+        },
+        {
+          "label": "本人确认提交与展示安排",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/fc5186ecb804149cb5aad177d5c10dfb3b16fb85/slides/submitted-20261115/submission-record.json"
         }
       ],
       "history": [
@@ -913,6 +944,11 @@
           "observed_on": "2026-11-15",
           "status": "planned",
           "note": "本人安排 3 号最后修改后提交；当前尚无回执，代理不代提交。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "done",
+          "note": "本人提供最终13页PPT并确认已提交；11/18周三课堂展示。独立回执/钟点/账号另核，不退回未提交。"
         }
       ],
       "milestone_kind": "submission"
@@ -924,10 +960,10 @@
       "owner": "全组；提交代表待确认",
       "owner_role": "team",
       "scope": "team",
-      "summary": "渠道：课堂；第 12–13 周，具体场次待核。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "summary": "本人确认这周三上课展示；按2026年11月15日后的周三登记11月18日，具体钟点未新核。",
       "deliverable": "Six Sigma 课堂展示",
-      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
-      "my_next_action": null,
+      "next_action": "各人按最终13页版本准备对应主讲内容，核对数字/转场并按本人安排计时与问答练习。",
+      "my_next_action": "准备第1、2、9页，统筹组内展示衔接与到课安排。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -938,19 +974,23 @@
         }
       ],
       "target": {
-        "value": null,
-        "precision": "unknown",
-        "basis": "unknown"
+        "value": "2026-11-18",
+        "precision": "date",
+        "basis": "agreed"
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-10",
+      "observed_on": "2026-11-15",
       "estimated_minutes": null,
-      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "state_basis": "本人确认课堂展示日，不推定展示已完成；具体时刻仍按课程安排待核。",
       "evidence": [
         {
           "label": "11 月 7 日整理各课程作业截止时间表（已登录 Canvas 核对）",
           "url": null
+        },
+        {
+          "label": "本人确认提交与展示安排",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/fc5186ecb804149cb5aad177d5c10dfb3b16fb85/slides/submitted-20261115/submission-record.json"
         }
       ],
       "history": [
@@ -958,6 +998,11 @@
           "observed_on": "2026-11-10",
           "status": "planned",
           "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "planned",
+          "note": "本人提供最终13页PPT并确认已提交；11/18周三课堂展示。独立回执/钟点/账号另核，不退回未提交。"
         }
       ],
       "milestone_kind": "presentation"
@@ -1244,21 +1289,21 @@
     {
       "id": "date-slides-sections",
       "title": "各岗交 Slides、讲稿与主要数字（建议）",
-      "status": "planned",
+      "status": "done",
       "owner": "全组；提交代表待确认",
       "owner_role": "team",
       "scope": "team",
-      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "summary": "最终13页成品已由本人提供，并确认已提交；记录实际成品，不推定各成员具体交件时间。",
       "deliverable": "各岗交 Slides、讲稿与主要数字（建议）",
-      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "next_action": "按最终 13 页版本准备 11 月 18 日课堂展示：各成员核对自己页面、数字和转场，再按本人安排进行真人计时与问答准备。已有提交回执可补存以核准确时刻和实际账号；不再催 3 号提交，不修改或重新提交已交附件。",
       "my_next_action": null,
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
         {
           "id": "receipt",
-          "label": "对应交件或活动有可核完成记录",
-          "status": "unknown"
+          "label": "最终合稿与 notes 已收到",
+          "status": "pass"
         }
       ],
       "target": {
@@ -1267,14 +1312,18 @@
         "basis": "proposed"
       },
       "started_on": null,
-      "completed_on": null,
-      "observed_on": "2026-11-10",
+      "completed_on": "2026-11-15",
+      "observed_on": "2026-11-15",
       "estimated_minutes": null,
-      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "state_basis": "依据最终成品和本人提交确认关闭本轮制作待办；不改写历史建议为实际执行时间。",
       "evidence": [
         {
           "label": "已发布的六人协作与交付倒排",
           "url": null
+        },
+        {
+          "label": "本人确认提交与展示安排",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/fc5186ecb804149cb5aad177d5c10dfb3b16fb85/slides/submitted-20261115/submission-record.json"
         }
       ],
       "history": [
@@ -1282,21 +1331,26 @@
           "observed_on": "2026-11-10",
           "status": "planned",
           "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "done",
+          "note": "本人提供最终13页PPT并确认已提交；11/18周三课堂展示。独立回执/钟点/账号另核，不退回未提交。"
         }
       ],
       "milestone_kind": "internal"
     },
     {
       "id": "date-slides-merge",
-      "title": "A v3 合稿核验与本人认可",
+      "title": "最终 13 页成品归档",
       "status": "done",
       "owner": "全组；提交代表待确认",
       "owner_role": "team",
       "scope": "team",
-      "summary": "本人已认可 A v3 完整流程版并要求发布：14 页，前 9 页主讲、后 5 页备查。新增第 2 页预测/分群双线流程，第 14 页区分已测 F1/F2 与未测 G1/G2。3 号负责最后修改后提交 Canvas；代理不代提交，目前尚无成功回执。真人排练未核。",
+      "summary": "最终13页成品已由本人提供，并确认已提交；记录实际成品，不推定各成员具体交件时间。",
       "deliverable": "合稿、核数（建议）",
-      "next_action": "3 号基于当前 A v3 汇总最后修改，检查 PPTX/PDF 一致后自行提交正确 Canvas Slides 入口；提交前再核页面截止与附件，提交后回传成功页面、时间、文件名和实际提交版。本人（6 号）协调修改并收回执，代理只同步资料，不代提交。",
-      "my_next_action": "把当前 A v3 和页码分工交 3 号，协调最后修改；收取提交成功页面、时间、文件名及实际提交版。",
+      "next_action": "按最终 13 页版本准备 11 月 18 日课堂展示：各成员核对自己页面、数字和转场，再按本人安排进行真人计时与问答准备。已有提交回执可补存以核准确时刻和实际账号；不再催 3 号提交，不修改或重新提交已交附件。",
+      "my_next_action": null,
       "depends_on": [
         "date-slides-sections"
       ],
@@ -1317,7 +1371,7 @@
       "completed_on": "2026-11-15",
       "observed_on": "2026-11-15",
       "estimated_minutes": null,
-      "state_basis": "原 11 月 14 日 12:00 为历史建议；实际完成日期按当前 v2 成品与本人反馈记录。",
+      "state_basis": "依据最终成品和本人提交确认关闭本轮制作待办；不改写历史建议为实际执行时间。",
       "evidence": [
         {
           "label": "已发布的六人协作与交付倒排",
@@ -1326,6 +1380,10 @@
         {
           "label": "本人认可 A v3 与 3 号提交安排",
           "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/b688bda713ad80b55cff8e922b103ff95281768a/slides/a-v3-20261115/decision.json"
+        },
+        {
+          "label": "本人确认提交与展示安排",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/fc5186ecb804149cb5aad177d5c10dfb3b16fb85/slides/submitted-20261115/submission-record.json"
         }
       ],
       "history": [
@@ -1343,20 +1401,25 @@
           "observed_on": "2026-11-15",
           "status": "done",
           "note": "本人认可 A v3 并要求同步；安排 3 号最后修改后提交，代理不代交，尚无回执。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "done",
+          "note": "本人提供最终13页PPT并确认已提交；11/18周三课堂展示。独立回执/钟点/账号另核，不退回未提交。"
         }
       ],
       "milestone_kind": "internal"
     },
     {
       "id": "date-slides-rehearse",
-      "title": "按 A v3 熟悉讲稿与真人排练（暂缓，未核完成）",
+      "title": "按最终 13 页准备计时与问答（尚未核完成）",
       "status": "planned",
       "owner": "全组；6 号统筹",
       "owner_role": "team",
       "scope": "team",
-      "summary": "当前按 A v3 新页码保留讲稿与预算；本人此前暂缓练习，本轮先完成同步和 3 号提交交接，真人计时尚未核实。",
+      "summary": "按最终13页及13页notes准备；旧v3讲稿/17QA只作历史参考，不视为与最终稿逐字一致。真人计时仍未知。",
       "deliverable": "每位成员的实际用时、全程用时、转场问题及按页码整理的修订清单。",
-      "next_action": "本人恢复练习后按 A v3 新页码安排真人计时；记录超时、转场和问答问题。",
+      "next_action": "按本人安排进行真人计时及问答准备，重点核最终第5、6页修改和第13页备查。",
       "my_next_action": null,
       "depends_on": [
         "date-slides-merge"
@@ -1406,17 +1469,78 @@
     },
     {
       "id": "date-slides-freeze",
-      "title": "3 号汇总最后修改并核最终提交版",
-      "status": "planned",
+      "title": "最终提交版已收到并锁定原件",
+      "status": "done",
       "owner": "3 号；本人协调",
       "owner_role": "member",
       "scope": "team",
-      "summary": "本人认可 A v3 基稿；3 号最后修改后的实际版本仍待回传。",
+      "summary": "最终13页成品已由本人提供，并确认已提交；记录实际成品，不推定各成员具体交件时间。",
       "deliverable": "团队核对并冻结 Slides（建议）",
-      "next_action": "汇总最后修改，核对成员页码、数字和 PPTX/PDF 一致性，再进入正式 Slides 提交入口。",
-      "my_next_action": "协助 3 号收敛修改，保留实际提交版。",
+      "next_action": "按最终 13 页版本准备 11 月 18 日课堂展示：各成员核对自己页面、数字和转场，再按本人安排进行真人计时与问答准备。已有提交回执可补存以核准确时刻和实际账号；不再催 3 号提交，不修改或重新提交已交附件。",
+      "my_next_action": null,
       "depends_on": [
         "date-slides-merge"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "receipt",
+          "label": "本人提供的最终原件已归档",
+          "status": "pass"
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": null,
+      "completed_on": "2026-11-15",
+      "observed_on": "2026-11-15",
+      "estimated_minutes": null,
+      "state_basis": "依据最终成品和本人提交确认关闭本轮制作待办；不改写历史建议为实际执行时间。",
+      "evidence": [
+        {
+          "label": "已发布的六人协作与交付倒排",
+          "url": null
+        },
+        {
+          "label": "本人确认提交与展示安排",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/fc5186ecb804149cb5aad177d5c10dfb3b16fb85/slides/submitted-20261115/submission-record.json"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-10",
+          "status": "planned",
+          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "planned",
+          "note": "本人认可 A v3 后交 3 号最后修改并提交；旧 13:00 建议及先排练依赖由当前明确安排替代。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "done",
+          "note": "本人提供最终13页PPT并确认已提交；11/18周三课堂展示。独立回执/钟点/账号另核，不退回未提交。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "date-slides-target",
+      "title": "补存已提交 Slides 的独立回执（不重交）",
+      "status": "waiting",
+      "owner": "本人或实际提交人提供记录",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "本人已确认提交；独立回执未提供，不再催交或重新提交。",
+      "deliverable": "成功页面、准确提交时刻、实际账号与附件名的独立核验记录。",
+      "next_action": "已有回执时另行补存并核对；保持 Slides 已提交状态。",
+      "my_next_action": "如有提交成功页面或记录，补存以便独立核验。",
+      "depends_on": [
+        "date-slides"
       ],
       "dependency_gates": [],
       "acceptance": [
@@ -1435,11 +1559,15 @@
       "completed_on": null,
       "observed_on": "2026-11-15",
       "estimated_minutes": null,
-      "state_basis": "原 11 月 15 日 13:00 是历史建议；本次按本人明确交给 3 号最后修改后提交，不把尚未执行的排练编为完成。",
+      "state_basis": "证据补存独立待办，不是提交阻塞，也不影响已提交事实。",
       "evidence": [
         {
           "label": "已发布的六人协作与交付倒排",
           "url": null
+        },
+        {
+          "label": "本人确认提交与展示安排",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/fc5186ecb804149cb5aad177d5c10dfb3b16fb85/slides/submitted-20261115/submission-record.json"
         }
       ],
       "history": [
@@ -1451,54 +1579,7 @@
         {
           "observed_on": "2026-11-15",
           "status": "planned",
-          "note": "本人认可 A v3 后交 3 号最后修改并提交；旧 13:00 建议及先排练依赖由当前明确安排替代。"
-        }
-      ],
-      "milestone_kind": "internal"
-    },
-    {
-      "id": "date-slides-target",
-      "title": "经确认的代表上传并核回执（建议）",
-      "status": "planned",
-      "owner": "全组；提交代表待确认",
-      "owner_role": "team",
-      "scope": "team",
-      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
-      "deliverable": "经确认的代表上传并核回执（建议）",
-      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
-      "my_next_action": null,
-      "depends_on": [
-        "date-slides-freeze"
-      ],
-      "dependency_gates": [],
-      "acceptance": [
-        {
-          "id": "receipt",
-          "label": "对应交件或活动有可核完成记录",
-          "status": "unknown"
-        }
-      ],
-      "target": {
-        "value": "2026-11-15T18:00:00+08:00",
-        "precision": "datetime",
-        "basis": "proposed"
-      },
-      "started_on": null,
-      "completed_on": null,
-      "observed_on": "2026-11-10",
-      "estimated_minutes": null,
-      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
-      "evidence": [
-        {
-          "label": "已发布的六人协作与交付倒排",
-          "url": null
-        }
-      ],
-      "history": [
-        {
-          "observed_on": "2026-11-10",
-          "status": "planned",
-          "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+          "note": "本人提供最终13页PPT并确认已提交；11/18周三课堂展示。独立回执/钟点/账号另核，不退回未提交。"
         }
       ],
       "milestone_kind": "internal"
@@ -2839,15 +2920,15 @@
     },
     {
       "id": "ppt-a-first-draft-review",
-      "title": "A v3 技术接收与本人认可",
+      "title": "最终 13 页原稿归档与提交确认",
       "status": "done",
       "owner": "当前PPT制作会话制稿；总监督直接同步；本人组织组审",
       "owner_role": "me",
       "scope": "supporting",
-      "summary": "本人已认可 A v3 完整流程版并要求发布：14 页，前 9 页主讲、后 5 页备查。新增第 2 页预测/分群双线流程，第 14 页区分已测 F1/F2 与未测 G1/G2。3 号负责最后修改后提交 Canvas；代理不代提交，目前尚无成功回执。真人排练未核。",
-      "deliverable": "14 页 A v3、分工讲稿、17 问答和提交说明；26 文件哈希与认可源稿一致。",
-      "next_action": "3 号基于当前 A v3 汇总最后修改，检查 PPTX/PDF 一致后自行提交正确 Canvas Slides 入口；提交前再核页面截止与附件，提交后回传成功页面、时间、文件名和实际提交版。本人（6 号）协调修改并收回执，代理只同步资料，不代提交。",
-      "my_next_action": "把当前 A v3 和页码分工交 3 号，协调最后修改；收取提交成功页面、时间、文件名及实际提交版。",
+      "summary": "本人已提供最终 13 页 PPT，并明确确认已提交 Canvas；Slides 待提交事项已关闭。本人同时确认 11 月 18 日（周三）课堂展示，具体钟点未新核。成功页面、准确提交时刻和实际账号仍待独立核验；这项证据缺口不改变本人确认已提交的状态。",
+      "deliverable": "最终 PPT 原件、衍生 PDF、13 页预览与提交事实记录。",
+      "next_action": "按最终 13 页版本准备 11 月 18 日课堂展示：各成员核对自己页面、数字和转场，再按本人安排进行真人计时与问答准备。已有提交回执可补存以核准确时刻和实际账号；不再催 3 号提交，不修改或重新提交已交附件。",
+      "my_next_action": "按最终稿准备第 1、2、9 页并统筹 11 月 18 日展示；已有提交回执可补存，不重新提交。",
       "depends_on": [
         "route-a-reconfirmation"
       ],
@@ -2855,27 +2936,27 @@
       "acceptance": [
         {
           "id": "files",
-          "label": "v3 的 26 文件哈希与固定 Git 一致，另含 manifest",
+          "label": "最终20文件哈希 + manifest 与 Git 一致",
           "status": "pass",
           "evidence": [
-            "ppt-A-draft-manifest",
-            "ppt-A-draft-github"
+            "ppt-final-manifest"
           ]
         },
         {
           "id": "review",
-          "label": "v3 新第 2/14 页和页码定向审查已关闭",
+          "label": "最终文件归档/结构/导出及差异核对完成",
           "status": "pass",
           "evidence": [
-            "ppt-A-draft-review"
+            "ppt-final-intake"
           ]
         },
         {
           "id": "boundary",
-          "label": "本人认可、3 号提交责任与未知回执分别记录",
+          "label": "本人确认已提交与回执独立核验分开",
           "status": "pass",
           "evidence": [
-            "ppt-A-draft-decision"
+            "ppt-final-user-confirmation",
+            "ppt-final-record"
           ]
         }
       ],
@@ -2888,7 +2969,7 @@
       "completed_on": "2026-11-15",
       "observed_on": "2026-11-15",
       "estimated_minutes": null,
-      "state_basis": "技术接收已核、本人认可原话已核，3 号最后修改/提交及真人排练另记。",
+      "state_basis": "本人提交确认与文件核验，不冒称独立核 Canvas 回执或完成科学全审。",
       "evidence": [
         {
           "label": "当前A第一稿协作入口",
@@ -2901,6 +2982,10 @@
         {
           "label": "本人认可 A v3 与 3 号提交安排",
           "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/b688bda713ad80b55cff8e922b103ff95281768a/slides/a-v3-20261115/decision.json"
+        },
+        {
+          "label": "本人确认提交与展示安排",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/fc5186ecb804149cb5aad177d5c10dfb3b16fb85/slides/submitted-20261115/submission-record.json"
         }
       ],
       "history": [
@@ -2923,9 +3008,14 @@
           "observed_on": "2026-11-15",
           "status": "done",
           "note": "本人认可 A v3 并要求同步；安排 3 号最后修改后提交，代理不代交，尚无回执。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "done",
+          "note": "本人提供最终13页PPT并确认已提交；11/18周三课堂展示。独立回执/钟点/账号另核，不退回未提交。"
         }
       ]
     }
   ],
-  "basis_management_revision": "5fe8dc70214f684d49883b66eece9ee8b4f73414973fc33e54bcd24deb787f50"
+  "basis_management_revision": "2912d5b6e9764fdb5dc18e8020203c8c9800b26c364921ed663134962d78bb54"
 }

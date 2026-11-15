@@ -4,7 +4,7 @@
   "course": "IS6400",
   "as_of": "2026-11-15",
   "timezone": "Asia/Shanghai",
-  "source_revision": "27bf2d5fe6bce3f7198cf7f32b6b27316d44909e016e1868f87590908f17ae55",
+  "source_revision": "673b4a2d0e6d61b91e85a82f3e56b3d54fc6c90ae3b703435259a55070e9ad77",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
   "stale": false,
   "scheduling_policy": {
@@ -20,7 +20,7 @@
       "title": "确定最终评价口径",
       "owner": "本人 · 总监督",
       "status": "needs_review",
-      "personal_action": "把当前 A v3 和页码分工交 3 号，协调最后修改；收取提交成功页面、时间、文件名及实际提交版。",
+      "personal_action": "按最终稿准备第 1、2、9 页并统筹 11 月 18 日展示；已有提交回执可补存，不重新提交。",
       "readiness": "ready",
       "target": {
         "value": "2026-11-12",
@@ -67,28 +67,45 @@
       "date_state": "today"
     },
     {
-      "id": "date-slides",
-      "title": "3 号提交最终 Slides 并回传回执",
-      "owner": "3 号（本人安排）",
+      "id": "date-presentation",
+      "title": "Six Sigma 课堂展示",
+      "owner": "全组；提交代表待确认",
       "status": "planned",
-      "personal_action": "跟进 3 号并核对提交成功回执；收实际提交版以同步 GitHub/看板。",
+      "personal_action": "准备第1、2、9页，统筹组内展示衔接与到课安排。",
       "readiness": "ready",
       "target": {
-        "value": "2026-11-15T23:59:00+08:00",
-        "precision": "datetime",
-        "basis": "official"
+        "value": "2026-11-18",
+        "precision": "date",
+        "basis": "agreed"
       },
       "blocked_by": [],
       "estimated_minutes": null,
       "observed_on": "2026-11-15",
-      "date_state": "today"
+      "date_state": "next_7_days"
     },
     {
-      "id": "date-slides-freeze",
-      "title": "3 号汇总最后修改并核最终提交版",
-      "owner": "3 号；本人协调",
-      "status": "planned",
-      "personal_action": "协助 3 号收敛修改，保留实际提交版。",
+      "id": "my-delivery",
+      "title": "本人下一步：准备 11 月 18 日课堂展示",
+      "owner": "本人 · 统筹",
+      "status": "in_progress",
+      "personal_action": "按最终稿准备第 1、2、9 页并统筹 11 月 18 日展示；已有提交回执可补存，不重新提交。",
+      "readiness": "ready",
+      "target": {
+        "value": "2026-11-18",
+        "precision": "date",
+        "basis": "agreed"
+      },
+      "blocked_by": [],
+      "estimated_minutes": null,
+      "observed_on": "2026-11-15",
+      "date_state": "next_7_days"
+    },
+    {
+      "id": "date-slides-target",
+      "title": "补存已提交 Slides 的独立回执（不重交）",
+      "owner": "本人或实际提交人提供记录",
+      "status": "waiting",
+      "personal_action": "如有提交成功页面或记录，补存以便独立核验。",
       "readiness": "ready",
       "target": {
         "value": null,
@@ -115,23 +132,6 @@
       "blocked_by": [],
       "estimated_minutes": null,
       "observed_on": "2026-11-12",
-      "date_state": "unscheduled"
-    },
-    {
-      "id": "my-delivery",
-      "title": "本人下一步：协调 3 号最后修改并收提交回执",
-      "owner": "本人 · 统筹",
-      "status": "in_progress",
-      "personal_action": "把当前 A v3 和页码分工交 3 号，协调最后修改；收取提交成功页面、时间、文件名及实际提交版。",
-      "readiness": "ready",
-      "target": {
-        "value": null,
-        "precision": "unknown",
-        "basis": "unknown"
-      },
-      "blocked_by": [],
-      "estimated_minutes": null,
-      "observed_on": "2026-11-15",
       "date_state": "unscheduled"
     },
     {
@@ -172,10 +172,10 @@
     },
     {
       "id": "delivery",
-      "title": "A v3 最后修改、提交与回执",
+      "title": "Slides 已提交，课堂展示与报告继续",
       "owner": "全组；本人负责统筹",
       "status": "in_progress",
-      "personal_action": "把当前 A v3 和页码分工交 3 号，协调最后修改；收取提交成功页面、时间、文件名及实际提交版。",
+      "personal_action": "按最终稿准备第 1、2、9 页并统筹 11 月 18 日展示；已有提交回执可补存，不重新提交。",
       "readiness": "waiting_dependency",
       "target": {
         "value": null,
@@ -211,13 +211,13 @@
   "deadlines": [
     {
       "id": "date-slides",
-      "title": "3 号提交最终 Slides 并回传回执",
+      "title": "最终 Slides 已提交（本人确认）",
       "target": {
         "value": "2026-11-15T23:59:00+08:00",
         "precision": "datetime",
         "basis": "official"
       },
-      "status": "planned"
+      "status": "done"
     },
     {
       "id": "date-report",

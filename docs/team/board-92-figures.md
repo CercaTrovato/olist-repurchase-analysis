@@ -1,12 +1,12 @@
-# 92 科学素材与当前 A v3
+# 92 科学素材与最终已提交 PPT
 
-本人已认可 A v3 完整流程版并要求发布：14 页，前 9 页主讲、后 5 页备查。新增第 2 页预测/分群双线流程，第 14 页区分已测 F1/F2 与未测 G1/G2。3 号负责最后修改后提交 Canvas；代理不代提交，目前尚无成功回执。真人排练未核。
+本人已提供最终 13 页 PPT，并明确确认已提交 Canvas；Slides 待提交事项已关闭。本人同时确认 11 月 18 日（周三）课堂展示，具体钟点未新核。成功页面、准确提交时刻和实际账号仍待独立核验；这项证据缺口不改变本人确认已提交的状态。
 
-1 号第 3 页/60 秒；2 号第 4 页/50 秒；3 号第 5、6 页/140 秒；4 号第 8 页/60 秒；5 号第 7 页/55 秒；6 号第 1、2、9 页/95 秒。935 词、460 秒正文 + 20 秒转场仍为预算，17 项问答；真人计时未核。
+主讲页码不变：1 号第 3 页；2 号第 4 页；3 号第 5、6 页；4 号第 8 页；5 号第 7 页；6 号第 1、2、9 页。第 10–13 页备查。旧 v3 第 13 页来源/职责页已删除，原第 14 页反馈备查改为第 13 页。
 
-[当前 A v3 GitHub](https://github.com/CercaTrovato/olist-repurchase-analysis/tree/main/slides/a-v3-20261115) · [讲稿/分工/17 问答/提交说明](../../slides/a-v3-20261115/README.md) · [PPTX v3](../../slides/a-v3-20261115/IS6400_A_v3_Workflow_20261115.pptx) · [PDF v3](../../slides/a-v3-20261115/IS6400_A_v3_Workflow_20261115.pdf)
+[最终稿 GitHub](https://github.com/CercaTrovato/olist-repurchase-analysis/tree/main/slides/submitted-20261115) · [最终状态/安排/历史准备资料](../../slides/submitted-20261115/README.md) · [最终 PPTX](../../slides/submitted-20261115/IS6400_Final_PPT_Team%20Six%20Sigma_20261115.pptx) · [PDF 预览](../../slides/submitted-20261115/IS6400_Final_PPT_Team%20Six%20Sigma_20261115.pdf)
 
-图库 92 科学图未改；[历史 B 完整包](https://cityu-board-online.vercel.app/) 保留。
+92 科学图未改；[历史 B 完整包](https://cityu-board-online.vercel.app/) 保留。
 
 ## 历史 85 图（按既有资料顺序）
 

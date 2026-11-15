@@ -1,0 +1,22 @@
+{
+  "as_of": "2026-11-15",
+  "source": "Direct user statement in course chat 01a1b4b5-28d9-7ab3-8933-36583e623c7f",
+  "user_quote": "大家完成投票，大家选择B，现在进入PPT制作阶段，今天必须完成并提交PPT。我打算开一个新的会话开始这个PPT的制作，你写个交接的文档说明给我，我在新会话继续。给我之前你确认一下你这里有没有制作PPT的作业要求。",
+  "selected_variant": "B",
+  "selected_label": "在A基础上的深入分析版",
+  "team_route_confirmed": true,
+  "vote_count_verified": false,
+  "vote_count": null,
+  "phase": "presentation production handoff",
+  "target_date": "2026-11-15",
+  "latest_authenticated_deadline": "2026-11-15T23:59:00+08:00",
+  "concrete_model_metric_freeze_requires_separate_record": true,
+  "D14_status": "decided B",
+  "D05_status": "pending specific configuration record",
+  "D09_status": "pending primary metric record",
+  "working_configuration": "Use existing B proposal for a complete reviewable deck; no new model search",
+  "new_PPT_created_here": false,
+  "submitted_here": false,
+  "no_new_training_or_April_evaluation": true,
+  "this_record_supersedes_prior_pending_route_status": true
+}

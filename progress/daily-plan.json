@@ -2,9 +2,9 @@
   "schema_version": 1,
   "assignment_id": "IS6400-A06",
   "course": "IS6400",
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "timezone": "Asia/Shanghai",
-  "source_revision": "11882142a22445e8a21cab679431fce09cc608887224dc4ef859d3507504a55f",
+  "source_revision": "99c92d7d0dea0f311282f7b234d3756a8eff9e9972fafb26877f30fd980386bd",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
   "stale": false,
   "scheduling_policy": {
@@ -16,11 +16,11 @@
   },
   "actions": [
     {
-      "id": "scope",
-      "title": "确定最终评价口径",
-      "owner": "本人 · 总监督",
-      "status": "needs_review",
-      "personal_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
+      "id": "my-delivery",
+      "title": "本人下一步：冻结方法、合稿与提交",
+      "owner": "本人 · 统筹",
+      "status": "in_progress",
+      "personal_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
       "readiness": "ready",
       "target": {
         "value": "2026-11-12",
@@ -29,7 +29,24 @@
       },
       "blocked_by": [],
       "estimated_minutes": null,
-      "observed_on": "2026-11-14",
+      "observed_on": "2026-11-15",
+      "date_state": "past_due_unverified"
+    },
+    {
+      "id": "scope",
+      "title": "确定最终评价口径",
+      "owner": "本人 · 总监督",
+      "status": "needs_review",
+      "personal_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
+      "readiness": "ready",
+      "target": {
+        "value": "2026-11-12",
+        "precision": "date",
+        "basis": "proposed"
+      },
+      "blocked_by": [],
+      "estimated_minutes": null,
+      "observed_on": "2026-11-15",
       "date_state": "past_due_unverified"
     },
     {
@@ -37,7 +54,7 @@
       "title": "冻结分析方法（建议）",
       "owner": "全组；提交代表待确认",
       "status": "needs_review",
-      "personal_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
+      "personal_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
       "readiness": "ready",
       "target": {
         "value": "2026-11-12T21:00:00+08:00",
@@ -46,7 +63,7 @@
       },
       "blocked_by": [],
       "estimated_minutes": null,
-      "observed_on": "2026-11-14",
+      "observed_on": "2026-11-15",
       "date_state": "past_due_unverified"
     },
     {
@@ -64,7 +81,7 @@
       "blocked_by": [],
       "estimated_minutes": null,
       "observed_on": "2026-11-11",
-      "date_state": "next_7_days"
+      "date_state": "today"
     },
     {
       "id": "local-comparison",
@@ -84,23 +101,6 @@
       "date_state": "unscheduled"
     },
     {
-      "id": "report-local-mainline-adopted",
-      "title": "最终A整理版/B深入分析版待全组投票",
-      "owner": "本人（6号）汇总，成员共同确认",
-      "status": "needs_review",
-      "personal_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
-      "readiness": "ready",
-      "target": {
-        "value": null,
-        "precision": "unknown",
-        "basis": "unknown"
-      },
-      "blocked_by": [],
-      "estimated_minutes": null,
-      "observed_on": "2026-11-14",
-      "date_state": "unscheduled"
-    },
-    {
       "id": "round3-member-returns",
       "title": "收第三轮组员策略与结果",
       "owner": "1–5号；本人统筹",
@@ -116,23 +116,6 @@
       "estimated_minutes": null,
       "observed_on": "2026-11-14",
       "date_state": "unscheduled"
-    },
-    {
-      "id": "my-delivery",
-      "title": "本人下一步：冻结方法、合稿与提交",
-      "owner": "本人 · 统筹",
-      "status": "planned",
-      "personal_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
-      "readiness": "verify",
-      "target": {
-        "value": "2026-11-12",
-        "precision": "date",
-        "basis": "proposed"
-      },
-      "blocked_by": [],
-      "estimated_minutes": null,
-      "observed_on": "2026-11-14",
-      "date_state": "past_due_unverified"
     },
     {
       "id": "my-liu-reminder-20261116",

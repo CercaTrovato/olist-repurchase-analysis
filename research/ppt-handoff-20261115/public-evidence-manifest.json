@@ -1,0 +1,26 @@
+{
+  "status": "READY_HANDOFF_NOT_DECK_OR_SUBMISSION",
+  "files": {
+    "research/ppt-handoff-20261115/asset-index.csv": "8fb89a20dc11137e87066ac9d0a97386ba6472283cacbdf4d4af4d55be4b8720",
+    "research/ppt-handoff-20261115/COPY-TO-NEW-CHAT.md": "f01c9f1eb023bc684cde455b45b5c1005274e029883943d413fafd50b43e421f",
+    "research/ppt-handoff-20261115/preparation-checks.json": "c6e7301e6aa6aa1b5794478b12b26ec1e75ea95408132a3667eba6340ad834a5",
+    "research/ppt-handoff-20261115/README.md": "0cbe5ea386e57c547f504b0bd5d6e3e7eb89cf8b8ca846828deb71d5e067217b",
+    "research/ppt-handoff-20261115/requirements-check.json": "c2d9cd123df3ad15291eae5b5fd579e42c548846e2903c8b1d3e4c29bf35c874",
+    "research/ppt-handoff-20261115/team-adoption.json": "b5715e50527c69088e9d45169d08f5507f906b8696a5d9da58c0c01908c10eda",
+    "research/ppt-handoff-20261115/review/handoff-review.md": "60aefc3806f27de799600fe42e26ee4941f7820c0366f789e521416aba761b19"
+  },
+  "navigation_sha256": {
+    "docs/team/ppt-handoff-20261115.md": "5035a268e0d32b74233454122ae862a9997b61b14a2a031918f5c7b14a84657a",
+    "README.md": "840ee56d911974e208836e577d049b71e7b3cc0db323e905036be6d5850784a0",
+    "docs/team/current-status.md": "7a0d7f3fc804ab3ddefeace42295e09dc14a17ef38cb6e3a69c62d686ebb464e",
+    "docs/team/route-vote-comparison.md": "a4751345a6cbbb18fd5120a69164cac04e03a91e0b1c03bf4fdc6b817dfb60dc",
+    "docs/team/route-freeze-packages.md": "deebee3bc485a409f3009709f21c313d9f482634492352c7ff6de0dccc2ed28e",
+    "docs/team/report-mainline-decision.md": "20a33ebb1c2558fb0fa2be30431571489b2e3b6d2bcb3228e7dc58e3fe854f83",
+    "docs/team/README.md": "891c475be20a029688a575d9c916b17244966dc2cd852f92adbecbb251a9839b"
+  },
+  "new_scientific_figures": 0,
+  "total_existing_scientific_png": 92,
+  "new_model_fits": 0,
+  "source_pdf_raw_rows_models_reference_template_exported": false,
+  "scope": "Team selected B via direct user statement; old scientific/vote packet retained unchanged. Today Canvas requires login; due date from last authenticated Nov14 check."
+}

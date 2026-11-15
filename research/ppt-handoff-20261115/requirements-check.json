@@ -1,0 +1,70 @@
+{
+  "as_of": "2026-11-15",
+  "official_guide": {
+    "path": "D:\\上课资料\\CityU\\IS6400_Business_Data_Analytics\\course_files_export\\IS6400 Project Guideline.pdf",
+    "pages": 2,
+    "sha256": "61be22d79c2f2c6415bae7fdd7a981bb5ac3679c8739314cf33afcd1d848afe3",
+    "visual_pages_checked_this_turn": [
+      1,
+      2
+    ],
+    "final_presentation_page": 2
+  },
+  "official_requirements": {
+    "presentation_minutes": 8,
+    "Q_A_minutes": 2,
+    "all_members_present_and_attend_Q_A": true,
+    "audience": "company managers",
+    "coverage": [
+      "business problem",
+      "data",
+      "analysis",
+      "findings",
+      "conclusions"
+    ],
+    "submitter": "team correspondent",
+    "platform": "Canvas",
+    "final_slide_count_limit_specified_in_guide": false,
+    "detailed_point_rubric_found": false
+  },
+  "slides": {
+    "url": "https://canvas.cityu.edu.hk/courses/71457/assignments/339540",
+    "title": "Course Project Slides Due - Nov 15",
+    "due": "2026-11-15T23:59:00+08:00",
+    "available_until": "2026-11-15T23:59:00+08:00",
+    "points": 20,
+    "submission_type": "file upload",
+    "additional_description": false,
+    "detailed_rubric_seen": false
+  },
+  "last_authenticated_canvas_observation": "2026-11-14",
+  "current_canvas_attempt": {
+    "date": "2026-11-15",
+    "browser": "sidebar IAB available; canonical assignment URL opened",
+    "outcome": "CityU sign-in required; current assignment details not re-read",
+    "no_upload_or_submission": true,
+    "transient_auth_URL_and_account_data_stored": false
+  },
+  "not_final_presentation_requirements": {
+    "briefing_max_slides": 5,
+    "briefing_max_minutes": 3,
+    "report_pages": "20–25",
+    "legacy_report_due": "May1 not current deadline"
+  },
+  "production_recommendations_not_teacher_rules": {
+    "main_slides": 8,
+    "talk_seconds": 460,
+    "switch_buffer_seconds": 20,
+    "backup_slides": "few and purposeful",
+    "PPTX_plus_PDF_backup": true
+  },
+  "report": {
+    "url": "https://canvas.cityu.edu.hk/courses/71457/assignments/339541",
+    "title": "Course Group Project - Final Report",
+    "due": "2026-12-06T23:59:00+08:00",
+    "points": 20,
+    "submission_type": "file upload",
+    "additional_description": false,
+    "detailed_rubric_seen": false
+  }
+}

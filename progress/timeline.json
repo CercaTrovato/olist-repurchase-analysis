@@ -3,10 +3,10 @@
   "assignment_id": "IS6400-A06",
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
-  "as_of": "2026-11-14",
-  "basis_revision": "84985d5de59e7442b864489ae974ffc8a8a22319011ed0233f08b8b60f5539d6",
+  "as_of": "2026-11-15",
+  "basis_revision": "e3f2ac063bcaf296453632c4950e5b768efb177e06db04666d39162cd644ad15",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "对外统一A“现有成果整理版”、B“在A基础上的深入分析版”。B承接已有数据审计、逻辑回归基线、字段/分群及核验成果，深化概率质量、受控验证、时间/消融反证和价值/容量。实验数据/代码/图/配置不变，贡献仍按实际记录列示；D14/D05/D09仍待投票确认，D16仅确认措辞。",
+  "summary": "本人确认全组投票已选B“在A基础上的深入分析版”，进入今天最终PPT制作并提交目标。已核教师原件8+2/全员/经理受众，31素材索引和新会话完整交接通过独审；昨日Canvas核Slides15日23:59，今日侧栏需登录未重读详情。D14已选，D05/09具体配置/指标记录仍待；无新deck或提交回执。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
@@ -16,10 +16,10 @@
       "owner": "本人 · 总监督",
       "owner_role": "me",
       "scope": "team",
-      "summary": "业务方向和开发窗口已核；当前A/B路线、具体最终配置/指标仍待全组确认，个人倾向不等于集体采用。",
+      "summary": "B路线已选；具体配置/主指标/冻结依据在成品核数时记录，不因投票追认为旧实验盲测。",
       "deliverable": "决定方法冻结后怎样评价，并清楚披露哪些时期已经看过。",
-      "next_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
-      "my_next_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
+      "next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
+      "my_next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -45,7 +45,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-14",
+      "observed_on": "2026-11-15",
       "estimated_minutes": null,
       "state_basis": "沿用已有核验；未凭文件存在推定正式提交。 本日期为总监督建议，待相关成员确认，不改变正式截止。",
       "evidence": [
@@ -94,6 +94,11 @@
           "observed_on": "2026-11-14",
           "status": "needs_review",
           "note": "本人要求统一A整理版/B在A基础上的深入分析版口径；实验/验收/投票状态不变。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "needs_review",
+          "note": "本人确认全组已选B并要求今天制作提交；本轮只交接与核要求，具体配置/成品/提交分别记录。"
         }
       ]
     },
@@ -690,14 +695,14 @@
     {
       "id": "my-delivery",
       "title": "本人下一步：冻结方法、合稿与提交",
-      "status": "planned",
+      "status": "in_progress",
       "owner": "本人 · 统筹",
       "owner_role": "me",
       "scope": "team",
-      "summary": "先把可审阅A/B图文发群，汇总真实投票与配置异议；共同确认后再安排正式PPT各页及讲稿。",
+      "summary": "今天按B制作、逐页核验、本人审阅并提交最终Slides；本轮已备交接，实际deck与提交尚待。",
       "deliverable": "完成核对或交接，并将实际答复更新回任务记录。",
-      "next_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
-      "my_next_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
+      "next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
+      "my_next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -714,7 +719,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-14",
+      "observed_on": "2026-11-15",
       "estimated_minutes": null,
       "state_basis": "总监督根据现有缺口拟定的行动建议，未冒充已经开展。 本日期为总监督建议，待相关成员确认，不改变正式截止。",
       "evidence": [
@@ -738,6 +743,11 @@
           "observed_on": "2026-11-14",
           "status": "planned",
           "note": "本人要求统一A整理版/B在A基础上的深入分析版口径；实验/验收/投票状态不变。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "in_progress",
+          "note": "本人确认全组已选B并要求今天制作提交；本轮只交接与核要求，具体配置/成品/提交分别记录。"
         }
       ]
     },
@@ -1090,10 +1100,10 @@
       "owner": "全组；提交代表待确认",
       "owner_role": "team",
       "scope": "team",
-      "summary": "此前内部冻结节点保留历史；当前正式路线/模型冻结待A/B投票及共同确认，不倒填时间或自动改期。",
+      "summary": "B路线已选；具体配置/主指标/冻结依据在成品核数时记录，不因投票追认为旧实验盲测。",
       "deliverable": "冻结分析方法（建议）",
-      "next_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
-      "my_next_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
+      "next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
+      "my_next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -1110,7 +1120,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-14",
+      "observed_on": "2026-11-15",
       "estimated_minutes": null,
       "state_basis": "本人2026-11-11明确同意展示方法采用截止；成员交付承诺另记。",
       "evidence": [
@@ -1139,6 +1149,11 @@
           "observed_on": "2026-11-14",
           "status": "needs_review",
           "note": "本人要求统一A整理版/B在A基础上的深入分析版口径；实验/验收/投票状态不变。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "needs_review",
+          "note": "本人确认全组已选B并要求今天制作提交；本轮只交接与核要求，具体配置/成品/提交分别记录。"
         }
       ],
       "milestone_kind": "internal"
@@ -2335,15 +2350,15 @@
     },
     {
       "id": "report-local-mainline-adopted",
-      "title": "最终A整理版/B深入分析版待全组投票",
-      "status": "needs_review",
-      "owner": "本人（6号）汇总，成员共同确认",
+      "title": "团队投票已选B深入分析版",
+      "status": "done",
+      "owner": "本人（6号）转报全组投票结果",
       "owner_role": "me",
       "scope": "team",
-      "summary": "A为现有成果整理版，B在A基础上进一步分析；个人倾向B，团队选择及配置仍待确认，旧采用登记已更正。",
+      "summary": "本人11月15日直接确认全组投票选择B；原待投票状态已由新事实覆盖。具体配置/指标及提交另列。",
       "deliverable": "记录路线采用原话、来源与未决定范围，更新报告材料入口。",
-      "next_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
-      "my_next_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
+      "next_action": "按B既有提案制作最终PPT并核配置摘要，最终审阅后提交。",
+      "my_next_action": "开启新制作会话，使用交接和既有素材推进今天Slides。",
       "depends_on": [
         "final-research-closeout"
       ],
@@ -2351,16 +2366,18 @@
       "acceptance": [
         {
           "id": "confirmed",
-          "label": "全组实际确认A/B路线及冻结清单有记录",
-          "status": "unknown",
-          "evidence": []
+          "label": "全组选择B有本人直接确认记录（配置/指标冻结另列）",
+          "status": "pass",
+          "evidence": [
+            "team-B-adoption"
+          ]
         },
         {
           "id": "bounded",
           "label": "未决定的具体模型/指标等与路线采用分开记录",
           "status": "pass",
           "evidence": [
-            "report-local-mainline-decision"
+            "team-B-adoption"
           ]
         }
       ],
@@ -2370,14 +2387,18 @@
         "basis": "unknown"
       },
       "started_on": "2026-11-13",
-      "completed_on": null,
-      "observed_on": "2026-11-14",
+      "completed_on": "2026-11-15",
+      "observed_on": "2026-11-15",
       "estimated_minutes": null,
-      "state_basis": "最新直接用户澄清覆盖此前转述团队意见的解释；准备比较不代表团队采用。",
+      "state_basis": "以本人本轮直接确认登记路线采用，不编逐人票数或追记旧日期。",
       "evidence": [
         {
           "label": "本地主线采用说明",
           "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/report-mainline-decision.md"
+        },
+        {
+          "label": "本人确认B及制作交接",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/ppt-handoff-20261115.md"
         }
       ],
       "history": [
@@ -2395,6 +2416,11 @@
           "observed_on": "2026-11-14",
           "status": "needs_review",
           "note": "本人要求统一A整理版/B在A基础上的深入分析版口径；实验/验收/投票状态不变。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "done",
+          "note": "本人确认全组已选B并要求今天制作提交；本轮只交接与核要求，具体配置/成品/提交分别记录。"
         }
       ]
     },
@@ -2405,10 +2431,10 @@
       "owner": "本课程会话整理核验；6号发群，成员投票另列",
       "owner_role": "me",
       "scope": "supporting",
-      "summary": "现有全面对照、图释、具体提案与群稿已备，当前只统一版本名称与承接关系；准备完成不等于投票完成。",
+      "summary": "A/B材料准备已完成；团队11月15日已选B，当前转PPT交接，旧待投票描述保留历史。",
       "deliverable": "完整比较、8旧3新图片读法、具体配置清单、8分钟页序、群稿及独审。",
-      "next_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
-      "my_next_action": "6号发两个版本的完整比较，收真实投票；票齐共同确认配置/指标和分工后正式PPT。",
+      "next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
+      "my_next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
       "depends_on": [
         "final-research-closeout",
         "round3-team-intake-audit"
@@ -2448,7 +2474,7 @@
       },
       "started_on": "2026-11-14",
       "completed_on": "2026-11-14",
-      "observed_on": "2026-11-14",
+      "observed_on": "2026-11-15",
       "estimated_minutes": null,
       "state_basis": "只完成本批辅助比较交付，不计入团队主任务/投票/报告完成度。",
       "evidence": [
@@ -2467,6 +2493,79 @@
           "observed_on": "2026-11-14",
           "status": "done",
           "note": "本人要求统一A整理版/B在A基础上的深入分析版口径；实验/验收/投票状态不变。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "done",
+          "note": "本人确认全组已选B并要求今天制作提交；本轮只交接与核要求，具体配置/成品/提交分别记录。"
+        }
+      ]
+    },
+    {
+      "id": "ppt-production-handoff",
+      "title": "B版最终PPT制作要求与新会话交接（辅助）",
+      "status": "done",
+      "owner": "本课程会话核要求并交接；本人开启新制作会话",
+      "owner_role": "me",
+      "scope": "supporting",
+      "summary": "教师两页要求核验、31现有素材路径、B基线/限制、8分钟草案与新会话提示已齐且独审通过；未制作新deck或提交。",
+      "deliverable": "完整交接MD、团队选择/要求记录、素材索引、旧模板本地参考和定向审查。",
+      "next_action": "本人把交接路径发新会话，直接制作B版PPT；Canvas需重新登录，成品审阅后提交。",
+      "my_next_action": "开启新会话并粘贴复制指令，核个人信息/分工和最终成品。",
+      "depends_on": [
+        "report-local-mainline-adopted",
+        "route-vote-comparison"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "requirements",
+          "label": "教师原件与Canvas新旧核验边界清楚",
+          "status": "pass",
+          "evidence": [
+            "ppt-requirements"
+          ]
+        },
+        {
+          "id": "handoff",
+          "label": "完整交接/31路径/旧模板与独审完成",
+          "status": "pass",
+          "evidence": [
+            "ppt-handoff",
+            "ppt-assets",
+            "ppt-handoff-review"
+          ]
+        },
+        {
+          "id": "bounded",
+          "label": "路线已选与参数/成品/提交区分",
+          "status": "pass",
+          "evidence": [
+            "team-B-adoption"
+          ]
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": "2026-11-15",
+      "completed_on": "2026-11-15",
+      "observed_on": "2026-11-15",
+      "estimated_minutes": null,
+      "state_basis": "只完成本次辅助交接，不计为正式Slides或Canvas提交完成。",
+      "evidence": [
+        {
+          "label": "最终PPT交接",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/ppt-handoff-20261115.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-15",
+          "status": "done",
+          "note": "本人要求新会话制作前先核要求并交接，文档已核；今天制作提交目标不等于已完成。"
         }
       ]
     }

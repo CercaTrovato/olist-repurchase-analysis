@@ -4,9 +4,9 @@
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
   "as_of": "2026-11-15",
-  "basis_revision": "d72bcc28605cfe29d72b2922c17c1fb0b6c5e46ae35e1e9ddf90daede9cf83e0",
+  "basis_revision": "d22f02ec3de8c200c550b72c7996e1bc0f76244de4f2b39a7207269f22affd47",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "当前A第一稿已完成技术交付，待组员审阅修改，禁止提交；B历史保留。制作会话直接接本人/总监督，不重复安排A制作。",
+  "summary": "当前A初稿v2已核并Git发布：P4按本人指定H04 v0.2七方法CSV展示50/46/45/44/36/35/30，以Top10%命中选择weighted LR；P5起仍R3，分数/名单版本不混。3号经本人转达改讲P4/5共150秒，5号P6为55秒；964词、16问答。仍待全组审阅与真人排练，禁止提交不变。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
@@ -2757,14 +2757,14 @@
     },
     {
       "id": "ppt-a-first-draft-review",
-      "title": "A第一稿成品与直接接收（辅助，非最终批准）",
+      "title": "A初稿v2技术接收（辅助，非最终批准）",
       "status": "done",
       "owner": "当前PPT制作会话制稿；总监督直接同步；本人组织组审",
       "owner_role": "me",
       "scope": "supporting",
-      "summary": "当前PPT路线A已确认，制作会话已完成A第一稿并发布稳定Git122615a：可编辑PPTX/原生PDF、8主讲4备查、讲稿/14Q&A/原编号分工均齐，26文件字节已核。B研究与旧稿保留历史。现在待成员审阅修改、认领和真人排练，明确不得提交；不再安排另一轮A制作。",
-      "deliverable": "A版12页PPTX/原生PDF/Notes/预览、讲稿、14问答、原岗位分工及独审记录。",
-      "next_action": "成员页码化反馈后由当前制作会话统一修订；具体采用/排练/最终授权另记，当前禁止提交。",
+      "summary": "当前A初稿v2已核并Git发布：P4按本人指定H04 v0.2七方法CSV展示50/46/45/44/36/35/30，以Top10%命中选择weighted LR；P5起仍R3，分数/名单版本不混。3号经本人转达改讲P4/5共150秒，5号P6为55秒；964词、16问答。仍待全组审阅与真人排练，禁止提交不变。",
+      "deliverable": "A v2 12页PPT/PDF/讲稿与16问答，P4指定CSV和P4→P5版本转场、3号P4/5、5号P6。",
+      "next_action": "沿GitHub收v2页码化意见并修订；全员认领/排练/最终采用与提交授权仍待实际。",
       "my_next_action": "把A稿和各自讲稿交成员，收问题与修改建议。",
       "depends_on": [
         "route-a-reconfirmation"
@@ -2773,7 +2773,7 @@
       "acceptance": [
         {
           "id": "files",
-          "label": "26文件与固定Git字节一致，PPTX/PDF已接收",
+          "label": "v2的28文件与固定Git字节一致",
           "status": "pass",
           "evidence": [
             "ppt-A-draft-manifest",
@@ -2782,7 +2782,7 @@
         },
         {
           "id": "review",
-          "label": "作者全12页独审与两项定向修正关闭记录已承接",
+          "label": "v2定向独审通过，未变内容承接v1",
           "status": "pass",
           "evidence": [
             "ppt-A-draft-review"
@@ -2818,9 +2818,14 @@
           "observed_on": "2026-11-15",
           "status": "done",
           "note": "A稿已实际完成并通过有界验收；禁止提交与成员审阅修改仍待。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "done",
+          "note": "按本人新增P4数据/3号讲P5请求完成v2，核心状态不变，不增主任务done。"
         }
       ]
     }
   ],
-  "basis_management_revision": "32b8401141e99d29c7fee171a71a9142a466fadb0bacc1577ee7c0220624c4f0"
+  "basis_management_revision": "95d1ef09c45a88cbba359f532f25b50247cd6bd0a946bd9342f1cb95cb7f0755"
 }

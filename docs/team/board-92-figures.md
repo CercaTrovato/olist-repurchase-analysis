@@ -1,10 +1,10 @@
-# 92科学素材与当前A第一稿：组审修改，禁止提交
+# 92科学素材与A初稿v2：待组审，禁止提交
 
-A稿已完成，不需要再开一次A制作。B稿和研究保留历史；改A是熟悉度/共同讲述的执行选择，不据此证明算法胜负。
+P4更新为H04七方法筛选，P5起R3仍分开；3号P4/5、5号P6。图库92科学图未新增或改动，PPT定向修改不算新科研。
 
-[GitHub当前A协作入口](https://github.com/CercaTrovato/olist-repurchase-analysis/tree/main/slides/a-draft-20261115) · [A稿人类说明/讲稿/问答/当前状态](../../slides/a-draft-20261115/README.md) · [可编辑A稿](../../slides/a-draft-20261115/IS6400_SixSigma_A_Draft_v1.pptx) · [原生A PDF](../../slides/a-draft-20261115/IS6400_SixSigma_A_Draft_v1.pdf)
+[当前GitHub](https://github.com/CercaTrovato/olist-repurchase-analysis/tree/main/slides/a-draft-20261115) · [v2讲稿/分工/16问答](../../slides/a-draft-20261115/README.md) · [PPTX v2](../../slides/a-draft-20261115/IS6400_SixSigma_A_Draft_v2.pptx) · [PDF v2](../../slides/a-draft-20261115/IS6400_SixSigma_A_Draft_v2.pdf)
 
-[历史B完整审阅包](https://cityu-board-online.vercel.app/)。全部92科学图保留，A/B的12页PPT预览不计科学图。本批不新建ZIP，成员反馈直接回当前制作会话。
+[历史B完整包](https://cityu-board-online.vercel.app/)。当前仍待全组审阅与真人排练，未获提交授权。
 
 ## 历史 85 图（按既有资料顺序）
 

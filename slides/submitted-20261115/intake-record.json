@@ -1,0 +1,174 @@
+{
+  "final_filename": "IS6400_Final_PPT_Team Six Sigma_20261115.pptx",
+  "sha256": "9452af19a145bc491532fb414c2d1704eecb9362998ca14eed59814486cbd8b2",
+  "bytes": 70283,
+  "slides": 13,
+  "v3_slides": 14,
+  "source": "User supplied this file and stated 最终PPT，已提交canvas",
+  "canvas_status": "submitted_user_confirmed",
+  "canvas_receipt_verified": false,
+  "canvas_exact_timestamp": null,
+  "text_changed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "diffs": [
+    {
+      "page": 1,
+      "closest_v3_page": 1,
+      "diff": "--- v3 page 1\n+++ final page 1\n@@ -1,6 +1,5 @@\n IS6400  /  BUSINESS QUESTION\n-Finding\n-repeat buyers\n+Finding repeat buyers\n with limited capacity\n Which existing customers should\n receive limited attention?\n@@ -21,6 +20,7 @@\n Explain coverage\n and propose\n a test.\n+FINAL PRESENTATION     /     01\n Team members\n CHEN Hanyu\n LI Binxiong\n@@ -28,5 +28,10 @@\n LIU Yuwei\n SUN Bo\n YE Yuhan\n-Team correspondent\n+Coordinator\n FINAL PRESENTATION     /     01\n+Customer Segmentation\n+Data Cleaning\n+Modeling & Evaluation\n+Validation & Feedback\n+Feature Analysis"
+    },
+    {
+      "page": 2,
+      "closest_v3_page": 2,
+      "diff": "--- v3 page 2\n+++ final page 2\n@@ -1,17 +1,16 @@\n 02  /  COMPLETE ANALYSIS WORKFLOW\n-One prediction task,\n-two analytical contributions\n+One prediction task, two analytical contributions\n Overall EDA & data audit\n Timing / missingness / distributions\n Historical customer inputs\n Shared inputs; separate future labels\n-Prediction: H04 screening\n+Prediction: Screening\n LR / random forest / CatBoost\n Weighting and recency comparisons\n-H05 customer segmentation\n+Customer segmentation\n K-means on historical RFM\n October fit; January application\n-R3 checks & list comparison\n+Checks & list comparison\n Tested fields / group methods / CV\n Same January cohort and capacity\n Group EDA & error audit\n@@ -21,7 +20,6 @@\n Weighted LR; January development\n Profiles & business insights\n Content trial proposed, not run\n-Scores + outcomes\n+Scores + Outcomes\n Combine for\n operations\n-Dashed feedback = candidate ideas requiring validation; new G1/G2 are not model-tested. No clean future holdout is claimed."
+    },
+    {
+      "page": 3,
+      "closest_v3_page": 3,
+      "diff": "--- v3 page 3\n+++ final page 3\n@@ -1,6 +1,5 @@\n 03  /  DATA AND SAMPLE CONSTRUCTION\n-Past information,\n-future repurchase\n+Past information, future repurchase\n One row = one customer at one prediction date\n AT THE PREDICTION DATE\n CHECKED LATER\n@@ -39,5 +38,3 @@\n 29,368\n customers / 230 buyers\n Top 10% = 2,937 places\n-October labels mature by 30 Dec 2017. January is seen development. No calibration holdout.\n-Only pre-snapshot events enter predictors; future 90-day outcomes are used for evaluation."
+    },
+    {
+      "page": 4,
+      "closest_v3_page": 4,
+      "diff": "--- v3 page 4\n+++ final page 4\n@@ -1,6 +1,5 @@\n 04  /  EDA AND FEATURE EVIDENCE\n-Customer history\n-suggests feature ideas\n+Customer history suggests feature ideas\n Historical group\n Customers\n Median\n@@ -21,5 +20,3 @@\n Feature hypotheses\n Fulfilment: pending orders and observed delivery time\n Reviews: mean score and response coverage\n-H05: K-means (k=3), standardized R / log(1+F) / log(1+M), fit on October and applied to January.\n-New feature groups remain untested."
+    },
+    {
+      "page": 5,
+      "closest_v3_page": 5,
+      "diff": "--- v3 page 5\n+++ final page 5\n@@ -1,13 +1,18 @@\n 05  /  MAIN PREDICTION RESULT\n-Weighted LR leads the\n-model-screening comparison\n-Equal-sized 2,937-person lists\n+Weighted LR leads the model-screening comparison\n+Compared standard model with class-weighted version to address data imbalance\n 50\n Highest Top 10% hits\n PRECISION\n RECALL\n 1.70%\n 21.74%\n-Not highest ROC-AUC\n-Source: Role 03 H04 v0.2 model screening. Later R3 checks use different saved scores/lists.\n-January is seen development.\n+Weighted LR also has the highest AP, but not the highest ROC-AUC: the choice fits the fixed-capacity business goal.\n+\n+Decision metric: repeat buyers found within the next 90 days\n+\n+\n+Training: 21,160 customers / 211 repurchasers\n+January development: 29,368 customers / 230 repurchasers\n+Same Top 10% capacity: 2,937 customers\n+Development result on the January validation snapshot"
+    },
+    {
+      "page": 6,
+      "closest_v3_page": 6,
+      "diff": "--- v3 page 6\n+++ final page 6\n@@ -1,11 +1,14 @@\n-06  /  MODEL CHECKS AND FEEDBACK\n-The tested additions\n-did not beat the baseline\n-A useful\n-negative result\n-More fields or groups\n-did not automatically\n-improve this list.\n-October CV: unweighted 7.0 vs weighted 6.8 mean hits per fold\n-R3 follow-up: a different saved run from slide 5. CV: N=4,232, K=424 per fold.\n-New Role 02 combinations remain untested.\n+06  /  FURTHER EXPERIMENTATION\n+The tested extensions did not improve the baseline\n+A useful negative result\n+Delivery and review fields performed below baseline.\n+Group ID tied the baseline but added no hits.\n+Separate group models also remained below baseline.\n+\n+This applies only to the tested variants. Untested feature proposals remain open.\n+October 5-fold CV: \n+Unweighted 7.0 vs. Weighted 6.8 mean hits per fold\n+CV is a training-period stability check, not a direct replacement for the January fixed-capacity comparison\n+\n+\n+Same January cohort · Same Top 10% capacity · Compared with the weighted-LR baseline"
+    },
+    {
+      "page": 7,
+      "closest_v3_page": 7,
+      "diff": "--- v3 page 7\n+++ final page 7\n@@ -34,4 +34,3 @@\n Tested variants\n Global: 48 / 46 / 50 / 49;\n none exceeded 50.\n-Current R3 F0. Global coverage and fixed-capacity ranking within a group are separate diagnostics."
+    },
+    {
+      "page": 8,
+      "closest_v3_page": 8,
+      "diff": "--- v3 page 8\n+++ final page 8\n@@ -32,4 +32,3 @@\n Historical pool\n 12,330\n Reachability unknown\n-Two-sided 5% significance, 80% power, normal approximation. Proposed, not executed."
+    },
+    {
+      "page": 9,
+      "closest_v3_page": 9,
+      "diff": "--- v3 page 9\n+++ final page 9\n@@ -10,5 +10,4 @@\n 03\n A persistent coverage gap\n Use the group diagnosis to shape a feasible content test.\n-Next step: reachability and power checks, followed by a future evaluation\n-and an explicitly approved content trial.\n+Next step: reachability and power checks, followed by a future evaluation and an explicitly approved content trial."
+    },
+    {
+      "page": 10,
+      "closest_v3_page": 10,
+      "diff": "--- v3 page 10\n+++ final page 10\n@@ -1,6 +1,5 @@\n 10  /  BACKUP 1\n-Eight inputs and\n-one ranking protocol\n+Eight inputs and one ranking protocol\n Input family\n Fields\n Purchase history\n@@ -14,5 +13,3 @@\n Weighted logistic regression: C=1, balanced class weights\n max_iter=2,000; random_state=2026\n Rank by score; break ties by customer ID; round capacity up.\n-Full October fit N=21,160. January N=29,368, events=230.\n-No probability-calibration subset in the main A protocol."
+    },
+    {
+      "page": 11,
+      "closest_v3_page": 11,
+      "diff": "--- v3 page 11\n+++ final page 11\n@@ -23,5 +23,3 @@\n The group methods redistribute a fixed global capacity.\n Better group coverage and better within-group ranking\n need separate evidence.\n-Each global list has 2,937 places. H05 labels fixed.\n-Group models use global fallback for the small multi-order group."
+    },
+    {
+      "page": 12,
+      "closest_v3_page": 12,
+      "diff": "--- v3 page 12\n+++ final page 12\n@@ -1,6 +1,5 @@\n 12  /  BACKUP 3\n-Capacity and internal validation\n-show trade-offs\n+Capacity and internal validation show trade-offs\n Capacity\n List size\n Unweighted\n@@ -25,5 +24,3 @@\n WEIGHTED\n 6.8 ± 1.92\n Mean ± sample SD, not a confidence interval.\n-CV validation fold: N=4,232, K=424. January is seen development.\n-Fixed whole-October H05 representation conditions group-method CV."
+    },
+    {
+      "page": 13,
+      "closest_v3_page": 14,
+      "diff": "--- v3 page 14\n+++ final page 13\n@@ -1,26 +1,23 @@\n-14  /  BACKUP: FEEDBACK STATUS\n-Tested changes and\n-open feature ideas\n-ALREADY TESTED IN R3\n+13  /  BACKUP 4\n+Tested changes and open feature ideas\n+TESTED\n PROPOSED, NOT MODEL-TESTED\n-F1 fulfilment inputs\n+Fulfilment inputs\n Known delivery count\n Mean delivery time\n Late-delivery share\n-G1 fulfilment proposal\n+Fulfilment proposal\n Pending deliveries\n Log delivery time\n Missing indicator\n-F2 review inputs\n+Review inputs\n Known review count\n Mean review score\n Low-review share\n-G2 review proposal\n+Review proposal\n Mean review score\n Review count / F\n Missing indicator\n-New G1/G2\n+New proposal\n Matched validation\n Decision after evidence\n-These input groups differ. R3 non-improvement does not establish G1/G2 ineffectiveness.\n-The dashed steps are pending; January remains seen development."
+    }
+  ],
+  "slide_mapping": [
+    {
+      "final": 1,
+      "exact_text_v3": null
+    },
+    {
+      "final": 2,
+      "exact_text_v3": null
+    },
+    {
+      "final": 3,
+      "exact_text_v3": null
+    },
+    {
+      "final": 4,
+      "exact_text_v3": null
+    },
+    {
+      "final": 5,
+      "exact_text_v3": null
+    },
+    {
+      "final": 6,
+      "exact_text_v3": null
+    },
+    {
+      "final": 7,
+      "exact_text_v3": null
+    },
+    {
+      "final": 8,
+      "exact_text_v3": null
+    },
+    {
+      "final": 9,
+      "exact_text_v3": null
+    },
+    {
+      "final": 10,
+      "exact_text_v3": null
+    },
+    {
+      "final": 11,
+      "exact_text_v3": null
+    },
+    {
+      "final": 12,
+      "exact_text_v3": null
+    },
+    {
+      "final": 13,
+      "exact_text_v3": null
+    }
+  ],
+  "source_bytes_preserved": true,
+  "pdf_pages": 13,
+  "pdf_sha256": "5c4d6e65fafd5842edccc74b2f240f34ab85ab775add796abc1162abdeeedbee",
+  "speaker_notes_parts": 13,
+  "chart_numeric_caches": [
+    [
+      "30",
+      "35",
+      "36",
+      "44",
+      "45",
+      "46",
+      "50"
+    ],
+    [
+      "50",
+      "48",
+      "46",
+      "50",
+      "49"
+    ]
+  ],
+  "schema_validation": "passed",
+  "presentation_user_statement": "确认了这周三上课的时候要pre",
+  "presentation_date": "2026-11-18",
+  "presentation_date_basis": "User confirms Wednesday class; calendar date interpreted as upcoming Wednesday from 2026-11-15",
+  "presentation_clock_time": null
+}

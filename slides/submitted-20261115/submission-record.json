@@ -1,0 +1,21 @@
+{
+  "status": "submitted_user_confirmed",
+  "confirmation_date": "2026-11-15",
+  "user_statement": "最终PPT，已提交canvas",
+  "file": "IS6400_Final_PPT_Team Six Sigma_20261115.pptx",
+  "ppt_sha256": "9452af19a145bc491532fb414c2d1704eecb9362998ca14eed59814486cbd8b2",
+  "canvas_assignment": "https://canvas.cityu.edu.hk/courses/71457/assignments/339540",
+  "receipt_verified": false,
+  "exact_submission_time": null,
+  "actual_submitter_account": null,
+  "assistant_canvas_operation": false,
+  "presentation_user_statement": "确认了这周三上课的时候要pre",
+  "presentation_date": "2026-11-18",
+  "presentation_date_basis": "User confirmed Wednesday class; interpreted as upcoming Wednesday from 2026-11-15",
+  "presentation_clock_time": null,
+  "slides": 13,
+  "main_slides": 9,
+  "backup_slides": 4,
+  "source_file_preserved": true,
+  "pdf_is_locally_derived_preview_not_confirmed_uploaded": true
+}

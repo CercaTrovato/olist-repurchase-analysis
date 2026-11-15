@@ -4,9 +4,9 @@
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
   "as_of": "2026-11-15",
-  "basis_revision": "e3f2ac063bcaf296453632c4950e5b768efb177e06db04666d39162cd644ad15",
+  "basis_revision": "84381f420fe841424d4c05f0af7cdaaa72322a810b857d70c2ec4bdb2b1e175f",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "本人确认全组投票已选B“在A基础上的深入分析版”，进入今天最终PPT制作并提交目标。已核教师原件8+2/全员/经理受众，31素材索引和新会话完整交接通过独审；昨日Canvas核Slides15日23:59，今日侧栏需登录未重读详情。D14已选，D05/09具体配置/指标记录仍待；无新deck或提交回执。",
+  "summary": "B版第一稿8页正文+4备查、可编辑PPTX/原生PDF、讲稿中文排练/14问答/原1–6号分工齐，25文件与稳定Git逐字节核通过。本人明确整体方向对，但先给小组过目修改、不能提交；不再催本稿批准。今日Canvas已由制作会话重新核要求，未选/上传/提交。D05/D09、成员审阅认领及真人排练未完成。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
@@ -16,10 +16,10 @@
       "owner": "本人 · 总监督",
       "owner_role": "me",
       "scope": "team",
-      "summary": "B路线已选；具体配置/主指标/冻结依据在成品核数时记录，不因投票追认为旧实验盲测。",
+      "summary": "B方向已确认，本稿具体配置/主指标已列；本人只认可整体方向并要求组审修改，正式采用与冻结记录仍分列。",
       "deliverable": "决定方法冻结后怎样评价，并清楚披露哪些时期已经看过。",
-      "next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
-      "my_next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
+      "next_action": "先由本人分发对应页/稿/Q&A，成员意见后统一修改；当前不得提交，不催本稿批准。",
+      "my_next_action": "先由本人分发对应页/稿/Q&A，成员意见后统一修改；当前不得提交，不催本稿批准。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -99,6 +99,11 @@
           "observed_on": "2026-11-15",
           "status": "needs_review",
           "note": "本人确认全组已选B并要求今天制作提交；本轮只交接与核要求，具体配置/成品/提交分别记录。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "needs_review",
+          "note": "已收到B第一稿，当前按本人新回复先组审修改，禁止提交；今日Canvas复核已由制作会话完成。"
         }
       ]
     },
@@ -699,10 +704,10 @@
       "owner": "本人 · 统筹",
       "owner_role": "me",
       "scope": "team",
-      "summary": "今天按B制作、逐页核验、本人审阅并提交最终Slides；本轮已备交接，实际deck与提交尚待。",
+      "summary": "第一稿及原职责分工已齐，技术核验通过；本人明确先小组过目修改，不得提交。",
       "deliverable": "完成核对或交接，并将实际答复更新回任务记录。",
-      "next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
-      "my_next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
+      "next_action": "先由本人分发对应页/稿/Q&A，成员意见后统一修改；当前不得提交，不催本稿批准。",
+      "my_next_action": "先由本人分发对应页/稿/Q&A，成员意见后统一修改；当前不得提交，不催本稿批准。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -748,6 +753,11 @@
           "observed_on": "2026-11-15",
           "status": "in_progress",
           "note": "本人确认全组已选B并要求今天制作提交；本轮只交接与核要求，具体配置/成品/提交分别记录。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "in_progress",
+          "note": "已收到B第一稿，当前按本人新回复先组审修改，禁止提交；今日Canvas复核已由制作会话完成。"
         }
       ]
     },
@@ -1100,10 +1110,10 @@
       "owner": "全组；提交代表待确认",
       "owner_role": "team",
       "scope": "team",
-      "summary": "B路线已选；具体配置/主指标/冻结依据在成品核数时记录，不因投票追认为旧实验盲测。",
+      "summary": "B方向已确认，本稿具体配置/主指标已列；本人只认可整体方向并要求组审修改，正式采用与冻结记录仍分列。",
       "deliverable": "冻结分析方法（建议）",
-      "next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
-      "my_next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
+      "next_action": "先由本人分发对应页/稿/Q&A，成员意见后统一修改；当前不得提交，不催本稿批准。",
+      "my_next_action": "先由本人分发对应页/稿/Q&A，成员意见后统一修改；当前不得提交，不催本稿批准。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -1154,6 +1164,11 @@
           "observed_on": "2026-11-15",
           "status": "needs_review",
           "note": "本人确认全组已选B并要求今天制作提交；本轮只交接与核要求，具体配置/成品/提交分别记录。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "needs_review",
+          "note": "已收到B第一稿，当前按本人新回复先组审修改，禁止提交；今日Canvas复核已由制作会话完成。"
         }
       ],
       "milestone_kind": "internal"
@@ -2566,6 +2581,72 @@
           "observed_on": "2026-11-15",
           "status": "done",
           "note": "本人要求新会话制作前先核要求并交接，文档已核；今天制作提交目标不等于已完成。"
+        }
+      ]
+    },
+    {
+      "id": "ppt-first-draft-review",
+      "title": "B第一稿成品接收与技术核验（供小组审阅）",
+      "status": "done",
+      "owner": "本人统筹初稿；制作会话产出，本课程只读接收核验",
+      "owner_role": "me",
+      "scope": "supporting",
+      "summary": "8正文+4备查/PPTX/原生PDF/讲稿/14问答/原编号分工齐，25源文件和ZIP核通过；本人方向认可但要求组审修改，当前不得提交。",
+      "deliverable": "完整第一稿和配套说明、原全12页独审、本课结构/4页查看/稳定源核验与明确当前状态。",
+      "next_action": "本人将相应页/稿/问答交成员过目，收意见统一修订；最终版本未获明确新批准前不上传提交。",
+      "my_next_action": "分发第一稿供小组反馈并统一整理修改意见。",
+      "depends_on": [
+        "ppt-production-handoff"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "artifact",
+          "label": "第一稿及配套资料完整可核",
+          "status": "pass",
+          "evidence": [
+            "ppt-first-draft-package"
+          ]
+        },
+        {
+          "id": "technical",
+          "label": "原全篇独审关闭且本课有界接收核验通过",
+          "status": "pass",
+          "evidence": [
+            "ppt-first-draft-review",
+            "ppt-first-draft-checks"
+          ]
+        },
+        {
+          "id": "stage",
+          "label": "第一稿/组审/正式采用/提交边界正确记录",
+          "status": "pass",
+          "evidence": [
+            "ppt-first-draft-user-instruction"
+          ]
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": "2026-11-15",
+      "completed_on": "2026-11-15",
+      "observed_on": "2026-11-15",
+      "estimated_minutes": null,
+      "state_basis": "只完成接收与技术核验，不计为本人或成员审阅完成、最终定稿、排练或提交成功。",
+      "evidence": [
+        {
+          "label": "第一稿状态和接收核验",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/ppt-first-draft-status-20261115.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-15",
+          "status": "done",
+          "note": "初稿技术接收完成，本人明确先组审修改，提交授权为false。"
         }
       ]
     }

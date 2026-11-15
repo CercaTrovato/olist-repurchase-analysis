@@ -1,0 +1,25 @@
+{
+  "status": "PASS_FOR_FIRST_DRAFT_INTAKE_ONLY",
+  "pptx_sha256": "48ff654288a6263bfd8894b05a074cefb7905c96ff717d49826e8fab0929345c",
+  "pdf_sha256": "d8b49afe7518f69b37962b55dbaf32bec88a36ed933f768cd90fee31b40e4913",
+  "slides": 12,
+  "speaker_notes": 12,
+  "native_chart_workbooks": 2,
+  "pdf_pages": 12,
+  "rendered_pages": 12,
+  "producer_machine_checks": {
+    "passed": 108,
+    "total": 108,
+    "scope": "Checks interpreted from bound producer record, not rerun by intake"
+  },
+  "root_actual_pages_viewed": [
+    4,
+    6,
+    7,
+    8
+  ],
+  "source_independent_review_scope": "Producer independent reviewer inspected all12 and targeted4 corrections; intake inherits it rather than redoing all model/slide QA",
+  "content_change_by_intake": false,
+  "new_approval_or_submission": false,
+  "author_status_commit": "a66fd094f69f52a1810be0c589a2f458709fe839"
+}

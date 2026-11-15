@@ -1,0 +1,28 @@
+{
+  "as_of": "2026-11-15",
+  "stage": "FIRST_DRAFT_READY_FOR_GROUP_REVIEW_AND_REVISION",
+  "route": "B 在A基础上的深入分析版",
+  "route_confirmed": true,
+  "overall_direction_acknowledged": true,
+  "whole_deck_finally_approved": false,
+  "group_review_completed": false,
+  "member_assignments_confirmed": false,
+  "human_rehearsal_completed": false,
+  "specific_configuration_metric_adopted": false,
+  "submission_authorized_now": false,
+  "file_selected": false,
+  "uploaded": false,
+  "submitted": false,
+  "user_instruction": {
+    "chat": "01a1dd44-e244-7dd1-aab8-0a3255e1cf64",
+    "message_id": "01a1dd5e-9136-7322-97e8-37b39fd3235e",
+    "quote": "不能提交，整体方向对的，我说了这是第一版，我还需要给小组成员过目并且修改"
+  },
+  "role_display_instruction": {
+    "message_id": "01a1dd48-0a9b-73e2-874b-6ee68b3ed02d",
+    "quote": "按原编号就行，不需要名字"
+  },
+  "next_step": "本人把对应页、讲稿和问答交成员过目；收意见统一修订。只有本人之后明确批准最终版本才考虑提交，不因今天截止自动升级。",
+  "D05_D09": "pending, working presentation configuration is not final adoption",
+  "no_new_experiment_or_April_evaluation": true
+}

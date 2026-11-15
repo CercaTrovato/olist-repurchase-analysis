@@ -1,0 +1,18 @@
+{
+  "status": "FIRST_DRAFT_INTAKE_NOT_FINAL_APPROVAL",
+  "files": {
+    "research/ppt-draft-intake-20261115/artifact-checks.json": "b6915d4285aff416f0d4e63c45cb3823bbab4fa9775e4db2072a055a2b2d7253",
+    "research/ppt-draft-intake-20261115/README.md": "dd6ffd7e01f7bacd7650abe66b963b2699d02133c729efa6ab6a0559115f589e",
+    "research/ppt-draft-intake-20261115/review-status.json": "1a6d21f7923ab6b80093788842102fd37352ca9ea349d0e5a6e6eb80df1bf574",
+    "research/ppt-draft-intake-20261115/source-package-verification.json": "60a27923de231e7be7222bde1cfe9d3ad33613640a309da8abd88f3bd3ae2793"
+  },
+  "navigation_sha256": {
+    "docs/team/ppt-first-draft-status-20261115.md": "a4d4eddeed28fde9441ed5da559844ad5dc8b8197488d6cc37fcfa9e3c074616",
+    "docs/team/ppt-handoff-20261115.md": "d65f4540e8058f278996d0502f0a9165c5d5383d1f3b78d93d4ace4947da805a"
+  },
+  "author_source_commit": "a66fd094f69f52a1810be0c589a2f458709fe839",
+  "author_files_modified": false,
+  "new_experiments": 0,
+  "submission_authorized": false,
+  "scope": "Frozen author deck received; user explicitly requires group review/revision first, no submission."
+}

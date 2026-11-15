@@ -1,10 +1,10 @@
-# 92幅项目图：团队已选B，供最终PPT制作取材
+# 92幅科学素材：B第一稿已完成，当前不得提交
 
-本人11月15日确认投票已完成、团队选择B“在A基础上的深入分析版”。当前进入制作准备；交接完成不等于PPT成品或已提交。92幅图只是素材库，正文建议精选6–8张，不新增实验。
+本人明确第一版需先给小组审阅修改。技术接收通过不等于本版获批、成员掌握或提交授权；当前停止所有Canvas上传/提交操作。
 
-[完整制作交接、复制指令、要求和31项素材索引](../../research/ppt-handoff-20261115/README.md) · [本批8文件交接包](../../research/ppt-handoff-20261115/README.md)
+[初稿人类入口、讲稿、问答与组审状态](../../research/ppt-draft-intake-20261115/README.md) · [可编辑PPTX](../../slides/final-20261115/IS6400_SixSigma_Final_Presentation.pptx) · [原生PDF](../../slides/final-20261115/IS6400_SixSigma_Final_Presentation.pdf) · [完整26项审阅包](https://cityu-board-online.vercel.app/)
 
-[历史资料归档（含11月14日原35文件投票包）](https://cityu-board-online.vercel.app/)。旧待票文字保留历史，当前状态以本次已选B确认优先；所有旧图仍可查看。
+[历史资料与旧交接包归档](https://cityu-board-online.vercel.app/)。全部92幅科学图保持；12页PPT预览只在初稿包/PDF内，不计新增科学图。
 
 ## 历史 85 图（按既有资料顺序）
 

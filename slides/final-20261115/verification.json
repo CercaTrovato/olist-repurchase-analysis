@@ -1,0 +1,563 @@
+{
+  "as_of": "2026-11-15",
+  "scope": "Existing aggregate and presentation integrity only; no fitting, no new experiment, no April scoring",
+  "checks": [
+    {
+      "name": "Handoff asset integrity",
+      "passed": true,
+      "detail": "31 indexed original assets; read-only hash verification"
+    },
+    {
+      "name": "Probability source 2017-11-01__single weightedLR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Probability source 2017-11-01__single unweightedLR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Probability source 2017-11-01__single nativeCatBoost-mean3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Probability source 2017-11-01__pooled weightedLR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Probability source 2017-11-01__pooled unweightedLR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Probability source 2017-11-01__pooled nativeCatBoost-mean3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Probability source 2017-12-01__single weightedLR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Probability source 2017-12-01__single unweightedLR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Probability source 2017-12-01__single nativeCatBoost-mean3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Probability source 2017-12-01__pooled weightedLR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Probability source 2017-12-01__pooled unweightedLR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Probability source 2017-12-01__pooled nativeCatBoost-mean3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Probability source 2018-01-01__single weightedLR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Probability source 2018-01-01__single unweightedLR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Probability source 2018-01-01__single nativeCatBoost-mean3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Probability source 2018-01-01__pooled weightedLR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Probability source 2018-01-01__pooled unweightedLR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Probability source 2018-01-01__pooled nativeCatBoost-mean3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.01 p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.01 p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.02 p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.02 p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.05 p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.05 p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.1 p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.1 p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.2 p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.2 p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.5 p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.5 p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 1.0 p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 1.0 p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.01 purchase_F_M",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.01 purchase_F_M",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.02 purchase_F_M",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.02 purchase_F_M",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.05 purchase_F_M",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.05 purchase_F_M",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.1 purchase_F_M",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.1 purchase_F_M",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.2 purchase_F_M",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.2 purchase_F_M",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.5 purchase_F_M",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.5 purchase_F_M",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 1.0 purchase_F_M",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 1.0 purchase_F_M",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.01 expected_G",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.01 expected_G",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.02 expected_G",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.02 expected_G",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.05 expected_G",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.05 expected_G",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.1 expected_G",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.1 expected_G",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.2 expected_G",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.2 expected_G",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 0.5 expected_G",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 0.5 expected_G",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity source 1.0 expected_G",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Capacity ratio 1.0 expected_G",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "12 slides",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No obsolete slide parts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ppt/slides/slide6.xml no placeholders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ppt/slides/slide6.xml geometry within slide",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "ppt/slides/slide7.xml no placeholders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ppt/slides/slide7.xml geometry within slide",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "ppt/slides/slide8.xml no placeholders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ppt/slides/slide8.xml geometry within slide",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "ppt/slides/slide9.xml no placeholders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ppt/slides/slide9.xml geometry within slide",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "ppt/slides/slide10.xml no placeholders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ppt/slides/slide10.xml geometry within slide",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "ppt/slides/slide11.xml no placeholders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ppt/slides/slide11.xml geometry within slide",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "ppt/slides/slide12.xml no placeholders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ppt/slides/slide12.xml geometry within slide",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "ppt/slides/slide13.xml no placeholders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ppt/slides/slide13.xml geometry within slide",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "ppt/slides/slide14.xml no placeholders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ppt/slides/slide14.xml geometry within slide",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "ppt/slides/slide15.xml no placeholders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ppt/slides/slide15.xml geometry within slide",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "ppt/slides/slide16.xml no placeholders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ppt/slides/slide16.xml geometry within slide",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "ppt/slides/slide17.xml no placeholders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ppt/slides/slide17.xml geometry within slide",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Notes on all 12 pages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Native editable charts",
+      "passed": true,
+      "detail": "2 native charts; text, table-like rows and timeline are native editable objects"
+    },
+    {
+      "name": "ppt/slides/charts/chart1.xml numeric data",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ppt/slides/charts/chart2.xml numeric data",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Time budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All six original roles speak",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Source URL path exists docs/03-methodology.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Source URL path exists docs/07-team-guide.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Source URL path exists docs/team/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Source URL path exists docs/team/final-research-closeout.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Source URL path exists research/ae-ablation-20261112/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Source URL path exists research/common-comparison-20261112/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Source URL path exists research/role02-v11-20261113/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Source URL path exists research/route-comparison-20261114/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Source URL path exists research/route-comparison-20261114/data/local-january-value-rules.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Source URL path exists research/route-comparison-20261114/data/local-rolling-probability-and-lists.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Source URL path exists research/route-comparison-20261114/data/proposed-B-capacity-value.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Source URL path exists research/route-comparison-20261114/data/protocol-comparison.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Source URL path exists research/route-comparison-20261114/data/team-capacity-results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Source URL path exists research/route-comparison-20261114/vote-packages.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Source URL path exists research/team-round3-20261112/README.md",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "passed": true,
+  "main_script_words": 979,
+  "per_slide_words": [
+    81,
+    140,
+    111,
+    155,
+    121,
+    164,
+    132,
+    75
+  ],
+  "main_seconds": 460,
+  "switch_buffer_seconds": 20,
+  "estimated_wpm": 127.69565217391303,
+  "human_timed_rehearsal": false,
+  "pptx_sha256": "48ff654288a6263bfd8894b05a074cefb7905c96ff717d49826e8fab0929345c"
+}

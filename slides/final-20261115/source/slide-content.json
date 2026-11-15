@@ -1,0 +1,149 @@
+[
+  {
+    "title": "Repurchase prediction for customer operations",
+    "owner": "6",
+    "seconds": 35,
+    "script": "We are Six Sigma. Our project asks which existing customers are likely to buy again within ninety days, and how a manager should choose a list when attention is limited. We build on the team's data audit, logistic regression and customer groups. We then examine probability quality, comparisons over time, and the trade-off between buyers and merchandise value. These historical results support a pilot. They do not yet measure the extra purchases caused by contacting customers. First, we explain the data.",
+    "zh": "先讲经理要做的决定：全体老客户先评分，再按目标和容量选名单。B 承接 A 的数据、基线和分群，补概率与验证深度。不要开场堆模型名称；最后把话交给 1 号。",
+    "source": [
+      "docs/03-methodology.md",
+      "research/route-comparison-20261114/README.md"
+    ],
+    "backup": false
+  },
+  {
+    "title": "Past information, future outcomes",
+    "owner": "1",
+    "seconds": 65,
+    "script": "Our data comes from Olist's historical orders in Brazil. We link order items to orders and customers, then create one row for each customer at each prediction date. We use the preceding six calendar months. A positive outcome means an eligible approved order with positive merchandise value in the following ninety days. Future delivery or review information cannot enter the predictors. For January, the October training labels had matured by December thirtieth. We divide those October customers into sixteen thousand nine hundred and twenty-eight for model fitting, and four thousand two hundred and thirty-two for calibration. January contains twenty-nine thousand three hundred and sixty-eight customers, of whom two hundred and thirty repurchased. All eligible customers receive a score. The ten percent limit applies only when we form the output list. January is a development window that we have already examined.",
+    "zh": "用时间图从左到右指：过去六个自然月、预测日、未来 90 天。fit 是学习模型；cal 是独立调概率刻度；eval 是评价。十月标签 12 月 30 日成熟，能用于 1 月 1 日预测。历史可用性审计与源系统是否已完整入库是两件事。",
+    "source": [
+      "docs/03-methodology.md",
+      "research/route-comparison-20261114/data/protocol-comparison.csv",
+      "research/team-round3-20261112/README.md"
+    ],
+    "backup": false
+  },
+  {
+    "title": "Feature ideas need predictive checks",
+    "owner": "2",
+    "seconds": 50,
+    "script": "The team's first analysis used eight historical customer summaries, including recency, order frequency, merchandise value and region. Customer groups helped us locate missed buyers and propose additional features. We distinguish descriptive differences from predictive improvement. In the existing team protocol, weighted logistic regression found fifty repurchasers. Adding the tested delivery fields found forty-eight, review fields forty-six, a group label fifty, and separate group models forty-nine. So extra fields or groups did not automatically improve this January list. The two newly proposed feature combinations were different and were not tested by those models. The deeper analysis expands to one hundred and forty-one historical summaries, with separate controls for information and model choice.",
+    "zh": "2 号保留原 EDA 职责：描述差异只提出假设，受控预测才判断有没有用。表里是 A 的全十月训练协议；2 号 v1.1 推荐的新组合不等于 3 号已经测试的配送/评价字段，不能说新推荐已被证明无效。",
+    "source": [
+      "research/route-comparison-20261114/data/team-capacity-results.csv",
+      "research/role02-v11-20261113/README.md",
+      "research/common-comparison-20261112/README.md"
+    ],
+    "backup": false
+  },
+  {
+    "title": "49 buyers found under the same protocol",
+    "owner": "3",
+    "seconds": 80,
+    "script": "For the deeper comparison, both logistic regression and CatBoost use the same fitting, calibration and evaluation customers. CatBoost uses one hundred and forty-one historical summary fields. We fit three fixed seeds, calibrate each model on the reserved calibration customers, and average their probabilities. The chart shows buyers found in equally sized January lists: forty-three for weighted logistic regression, forty-four for unweighted logistic regression, and forty-nine for CatBoost. CatBoost also has lower log loss, a measure of probability error across all customers. Lower is better. This is a comparison of complete pipelines. We changed both the information set and the learner, so the six extra hits cannot all be attributed to CatBoost itself. Calibration also remains imperfect. The predicted probabilities add up to about two hundred and ninety-three repurchasers, while we observed two hundred and thirty. The original team result of fifty uses a different fitting protocol and is not a direct model ranking against forty-nine.",
+    "zh": "先指柱图，同样 2,937 人，43/44/49。再解释 LL：所有人的概率误差，不只是入选名单。必须保留两个限制：8→141 与 LR→CB 同时变化；sum(p) 292.93 高于 230。A 的 50 与 B 的 49 不同协议。",
+    "source": [
+      "research/route-comparison-20261114/data/local-rolling-probability-and-lists.csv",
+      "research/route-comparison-20261114/vote-packages.json"
+    ],
+    "backup": false
+  },
+  {
+    "title": "The advantage has clear limits",
+    "owner": "5",
+    "seconds": 60,
+    "script": "We checked the saved results for November, December and January. Within each date, the two pipelines use the same fitting, calibration and evaluation customers. CatBoost found thirty-five, forty-five and forty-nine buyers, compared with thirty, thirty-six and forty-three for weighted logistic regression. Its log loss was also lower within each month. But the result is not universal. In a separate diagnostic that selects exactly seventy-nine customers from the long-inactive group, both methods found zero, one and two buyers. November average precision was lower for CatBoost. A more complex autoencoder also lost to logistic regression in an earlier October check, finding thirty-one versus thirty-six buyers. These are already examined historical windows with overlapping customers and outcomes. They are not independent future blind tests.",
+    "zh": "5 号继续负责对齐口径和反证。逐月比较同一天两种方法，不把基础复购率随月份变化讲成模型进步。固定久单 79 的 0/1/2 是另一份群内名单。复杂 AE 早期反例只作已存证据，不再运行。",
+    "source": [
+      "research/route-comparison-20261114/data/local-rolling-probability-and-lists.csv",
+      "research/ae-ablation-20261112/README.md"
+    ],
+    "backup": false
+  },
+  {
+    "title": "More merchandise value can mean fewer buyers",
+    "owner": "6",
+    "seconds": 75,
+    "script": "A manager may care about the number of likely buyers, or the merchandise value represented by the list. We compared three rules using the same CatBoost probabilities and the same two thousand nine hundred and thirty-seven places. Ranking by probability found forty-nine buyers and captured six thousand six hundred and two point eight eight in merchandise value. Multiplying probability by historical frequency and spending found forty buyers and six thousand nine hundred and fifty-one point zero seven. The predicted-amount rule found forty-three buyers and six thousand and forty-five point one eight. So the historical-value rule captured slightly more value but fewer buyers. The predicted-amount rule did not win here. The historical frequency-times-spending score is a preference score, not a forecast in currency. Capacity is another choice: the five, ten and twenty percent probability lists found thirty-six, forty-nine and seventy-one buyers. Ten percent is our comparison setting, not a proven business optimum. None of these historical amounts measures profit or extra sales caused by contact.",
+    "zh": "同一个 p、同样人数，才是在比较名单规则。pFM 里 F 是历史订单数、M 是历史商品总额；M 已含频次因素。金额规则在当前格没有获胜，要如实讲。5%/10%/20% 是容量取舍，不是已经验证的最优预算。",
+    "source": [
+      "research/route-comparison-20261114/data/local-january-value-rules.csv",
+      "research/route-comparison-20261114/data/proposed-B-capacity-value.csv"
+    ],
+    "backup": false
+  },
+  {
+    "title": "Customer groups guide the next experiment",
+    "owner": "4",
+    "seconds": 60,
+    "script": "Customer groups help us identify missed buyers. The long-inactive group has twelve thousand three hundred and thirty customers, including ninety observed repurchasers. Its median order count is one and median recency is about one hundred and thirty-five days. The CatBoost global list includes seventy-three people from this group and finds two buyers. A separate seventy-nine-person group list also finds two. Our existing trial proposal compares a home-goods guide with a generic shopping guide, with equal random allocation among reachable, consenting customers. It tests the effect of the theme. Both groups receive contact, so it cannot isolate the effect of contact itself. Low response rates also limit power: detecting a fifty percent relative increase would require twenty-one thousand three hundred and eight people, above the historical group size. The trial has not run.",
+    "zh": "先把群解释成人话：历史多为单次购买且距上次购买较久，不是每个人都正好 135 天前买过一次。73 是全局名单里的群席位，79 是另做的固定群内诊断。内容试验是建议，人数可触达、样本量与实际增量都未证实。",
+    "source": [
+      "research/team-round3-20261112/README.md",
+      "research/route-comparison-20261114/data/local-rolling-probability-and-lists.csv"
+    ],
+    "backup": false
+  },
+  {
+    "title": "Findings and next steps",
+    "owner": "6",
+    "seconds": 35,
+    "script": "We have three findings. The deeper pipeline improved probability error and list hits against the same-protocol weighted baseline in the examined windows. Groups exposed persistent missed buyers. And buyer count, merchandise value and capacity led to different choices. Next, check reachability and sample size before a randomized content pilot, and evaluate prediction on a genuinely future period. A broader business rollout still needs evidence on incremental benefits and costs. Thank you. We welcome your questions.",
+    "zh": "三条结论收束，不重新念所有指标。建议是小范围、随机对照、未来数据核验，尚不能推荐全面上线。讲完停在此页，2 分钟 Q&A 按负责人转答。",
+    "source": [
+      "research/route-comparison-20261114/README.md",
+      "docs/team/final-research-closeout.md"
+    ],
+    "backup": false
+  },
+  {
+    "title": "Comparison protocol and model specification",
+    "owner": "1 / 3 / 6",
+    "seconds": 0,
+    "script": "The original team model fits all 21,160 October customers. The calibrated comparison reserves 4,232 of those customers for calibration and fits on 16,928. Both then score the same 29,368 January customers. This prevents a direct superiority claim from 50 versus 49. CatBoost uses depth 3, 300 iterations, learning rate 0.03, L2 regularization 10, and seeds 2026, 2027 and 2028, with no class weights or early stopping. Each seed receives a positive-slope Platt calibration using calibration labels only. We average the three calibrated probabilities. Log loss describes probability quality. Hits at fixed capacity describe the customer list. This is a presentation configuration selected using already examined evidence, not a preregistered blind test.",
+    "zh": "备查口径：50 vs49 不公平；43 vs49 同 fit/cal/eval 但仍同时改变字段与模型。完整参数用本页答，不在正文背参数。具体采用在用户审阅成品后记录，不追认事前冻结。",
+    "source": [
+      "research/route-comparison-20261114/vote-packages.json",
+      "research/route-comparison-20261114/data/protocol-comparison.csv"
+    ],
+    "backup": true
+  },
+  {
+    "title": "Probability checks and negative results",
+    "owner": "3 / 5",
+    "seconds": 0,
+    "script": "Across the three dates, compare values within each date, because the outcome rate changes across time. Log loss is lower for CatBoost than weighted logistic regression in all three dates. That does not mean all metrics improve. November average precision is 0.017170 for CatBoost and 0.020055 for weighted logistic regression. November Brier score is 0.009861 for CatBoost and 0.009843 for unweighted logistic regression, so the unweighted reference is better on that metric. The earlier autoencoder comparison also gives a negative result. Same-information and same-model studies help separate information effects from learner effects, but overlapping random splits are not independent time tests. We retain these qualifications rather than selecting only the best January score.",
+    "zh": "若问是否全部指标获胜，指出 AP 和 Brier 的反例。LL 按同日横向比；不要把 11 月到 1 月下降归因于算法进步。AE 一月的 51 或删块 58 都不是本次主系统。",
+    "source": [
+      "research/route-comparison-20261114/data/local-rolling-probability-and-lists.csv",
+      "research/common-comparison-20261112/README.md",
+      "research/ae-ablation-20261112/README.md"
+    ],
+    "backup": true
+  },
+  {
+    "title": "Capacity changes precision and reach",
+    "owner": "5 / 6",
+    "seconds": 0,
+    "script": "These are existing January results for the same calibrated CatBoost probability ranking. The capacity is rounded up to a whole number of customers. Precision is buyers found divided by list size. Recall is buyers found divided by all 230 observed buyers. A larger list finds more buyers but reduces precision. At 100 percent, it trivially includes every buyer, which is not a targeting achievement. A real capacity choice needs contact costs, reachable customers and randomized evidence of incremental response.",
+    "zh": "容量表用来答为什么选 10%。Precision 分母是名单人数；Recall 分母是全部 230 位真实复购者。100% 覆盖自然找到全部，不代表算法特别好。",
+    "source": [
+      "research/route-comparison-20261114/data/proposed-B-capacity-value.csv"
+    ],
+    "backup": true
+  },
+  {
+    "title": "Sources and research responsibilities",
+    "owner": "All members",
+    "seconds": 0,
+    "script": "The presentation uses the public Olist dataset and the team's existing, versioned analysis. Members one to six retain the established responsibilities: data and sample construction, exploratory analysis, prediction, segmentation, evaluation and feedback, and business coordination. Presentation ownership does not imply that every member personally ran every deeper experiment. The source repository contains the recorded data and model comparisons. We used OpenAI Codex to assist with this presentation.",
+    "zh": "本页是来源与实际职责，不把“讲这页”偷换为“亲自做过所有研究”。外部数据与项目方法有链接，各页 notes 有具体证据路径。AI 辅助按真实情况披露。",
+    "source": [
+      "docs/07-team-guide.md",
+      "docs/team/README.md",
+      "research/route-comparison-20261114/README.md"
+    ],
+    "backup": true
+  }
+]

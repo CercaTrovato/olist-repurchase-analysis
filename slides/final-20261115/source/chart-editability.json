@@ -1,0 +1,14 @@
+[
+  {
+    "chart": "ppt/slides/charts/chart1.xml",
+    "workbook": "ppt/embeddings/ChartData1.xlsx",
+    "rows": 4,
+    "columns": 2
+  },
+  {
+    "chart": "ppt/slides/charts/chart2.xml",
+    "workbook": "ppt/embeddings/ChartData2.xlsx",
+    "rows": 4,
+    "columns": 3
+  }
+]

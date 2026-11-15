@@ -1,0 +1,190 @@
+{
+  "as_of": "2026-11-15",
+  "passed": true,
+  "checks": [
+    {
+      "name": "14 slides in logical order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Original page 1 preserved except page labels/reference",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Original page 2 preserved except page labels/reference",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Original page 3 preserved except page labels/reference",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Original page 4 preserved except page labels/reference",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Original page 5 preserved except page labels/reference",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Original page 6 preserved except page labels/reference",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Original page 7 preserved except page labels/reference",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Original page 8 preserved except page labels/reference",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Original page 9 preserved except page labels/reference",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Original page 10 preserved except page labels/reference",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Original page 11 preserved except page labels/reference",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Original page 12 preserved except page labels/reference",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Original chart/media/workbook bytes unchanged",
+      "passed": true,
+      "detail": "6"
+    },
+    {
+      "name": "Original owners retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Main talk 460 seconds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "9 main and 5 backup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page 1 speaker note matches metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page 2 speaker note matches metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page 3 speaker note matches metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page 4 speaker note matches metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page 5 speaker note matches metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page 6 speaker note matches metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page 7 speaker note matches metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page 8 speaker note matches metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page 9 speaker note matches metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page 10 speaker note matches metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page 11 speaker note matches metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page 12 speaker note matches metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page 13 speaker note matches metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page 14 speaker note matches metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Native PDF 14 pages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "New overview says development",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "New proposals explicitly untested",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Native editable overview diagram",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All 14 page renders",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "ppt_sha256": "9c98c111fd963275cf7639a89af57898a025ff74fd27c019fc152d3a1df61873",
+  "pdf_sha256": "2b88513ce9a8bf2024bc9409fbf12c1c7da7324298777acfc616e0d30a8b99c6",
+  "officecli_schema": "pass",
+  "officecli_layout_issues": 0
+}

@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-11-15",
+  "version": "A v3 workflow 14 pages",
+  "user_approved_version": true,
+  "user_authorized_github_and_board_sync": true,
+  "submission_responsibility": "Member 3 final editing then Canvas submission",
+  "assistant_canvas_authorized": false,
+  "submission_receipt": null,
+  "user_message": "这个版本可以，帮我同步到 GitHub 和看板，再给我一段可以直接发群的更新说明，附上新版链接和每个人对应的页码，提醒 3 号最后修改后提交 Canvas。",
+  "no_new_experiments": true,
+  "main_pages": 9,
+  "backup_pages": 5,
+  "main_seconds": 460,
+  "transition_seconds": 20,
+  "real_rehearsal_verified": false
+}

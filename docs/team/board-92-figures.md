@@ -1,10 +1,12 @@
-# 92 科学素材与 A v2：已获团队认可，排练待做
+# 92 科学素材与当前 A v3
 
-P4更新为H04七方法筛选，P5起R3仍分开；3号P4/5、5号P6。图库92科学图未新增或改动，PPT定向修改不算新科研。
+本人已认可 A v3 完整流程版并要求发布：14 页，前 9 页主讲、后 5 页备查。新增第 2 页预测/分群双线流程，第 14 页区分已测 F1/F2 与未测 G1/G2。3 号负责最后修改后提交 Canvas；代理不代提交，目前尚无成功回执。真人排练未核。
 
-[当前GitHub](https://github.com/CercaTrovato/olist-repurchase-analysis/tree/main/slides/a-draft-20261115) · [v2讲稿/分工/16问答](../../slides/a-draft-20261115/README.md) · [PPTX v2](../../slides/a-draft-20261115/IS6400_SixSigma_A_Draft_v2.pptx) · [PDF v2](../../slides/a-draft-20261115/IS6400_SixSigma_A_Draft_v2.pdf)
+1 号第 3 页/60 秒；2 号第 4 页/50 秒；3 号第 5、6 页/140 秒；4 号第 8 页/60 秒；5 号第 7 页/55 秒；6 号第 1、2、9 页/95 秒。935 词、460 秒正文 + 20 秒转场仍为预算，17 项问答；真人计时未核。
 
-[历史B完整包](https://cityu-board-online.vercel.app/)。本人已转述全组认可当前 A v2，下一步按本版熟悉讲稿、计时排练和检查转场。PPT、PDF、数据与讲稿正文未改；3 号讲第 4、5 页共预算 150 秒，5 号讲第 6 页预算 55 秒。成员掌握及真人排练尚未核实，仍未授权提交 Canvas。
+[当前 A v3 GitHub](https://github.com/CercaTrovato/olist-repurchase-analysis/tree/main/slides/a-v3-20261115) · [讲稿/分工/17 问答/提交说明](../../slides/a-v3-20261115/README.md) · [PPTX v3](../../slides/a-v3-20261115/IS6400_A_v3_Workflow_20261115.pptx) · [PDF v3](../../slides/a-v3-20261115/IS6400_A_v3_Workflow_20261115.pdf)
+
+图库 92 科学图未改；[历史 B 完整包](https://cityu-board-online.vercel.app/) 保留。
 
 ## 历史 85 图（按既有资料顺序）
 

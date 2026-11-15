@@ -4,9 +4,9 @@
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
   "as_of": "2026-11-15",
-  "basis_revision": "8b1c896683971914ae3b9f441c05c75feaad10f8b56bb6e74cece2dd18be42b3",
+  "basis_revision": "d72bcc28605cfe29d72b2922c17c1fb0b6c5e46ae35e1e9ddf90daede9cf83e0",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "组内就新增特征来源、整体理解/口述准备、共同参与和时间、AI辅助沟通出现分歧并重新确认路线；本人最新确认当前PPT采用A现有成果整理版，将另开会话制作。原B研究/第一稿保留历史，代码/结果/92图不改。未编全员票数，A稿尚未交付，未授权提交；7原图仅本地留档。",
+  "summary": "当前A第一稿已完成技术交付，待组员审阅修改，禁止提交；B历史保留。制作会话直接接本人/总监督，不重复安排A制作。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
@@ -2693,8 +2693,8 @@
       "scope": "supporting",
       "summary": "7图来源/中立观点、重投过程与最终A确认已记录，A基线与接续齐，原图仅本地留档；不制作A或改B，不宣称全员已准备好。",
       "deliverable": "匿名分歧记录、决定/证据索引、A数字基线、代码状态与A接续、独立定向审查。",
-      "next_action": "本人开启另一会话制作A PPT，成员逐页审阅和讲述准备，最终版授权/提交另核。",
-      "my_next_action": "把A接续文件交新会话，不重新发起已结束的路线投票。",
+      "next_action": "A稿现已完成，直接审阅现稿并收成员反馈；早期另会话制作的计划已被成品实证覆盖。",
+      "my_next_action": "分发当前A稿的对应页、讲稿和问答，收页码化意见。",
       "depends_on": [
         "ppt-first-draft-review"
       ],
@@ -2747,9 +2747,80 @@
           "observed_on": "2026-11-15",
           "status": "done",
           "note": "先收到6图过程后收到7图与直接最新A确认，合并记录为当前A已定，不停在中间待票状态。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "done",
+          "note": "制作会话随后直接交付稳定A第一稿，不再重复安排制作或旧课程接收。"
+        }
+      ]
+    },
+    {
+      "id": "ppt-a-first-draft-review",
+      "title": "A第一稿成品与直接接收（辅助，非最终批准）",
+      "status": "done",
+      "owner": "当前PPT制作会话制稿；总监督直接同步；本人组织组审",
+      "owner_role": "me",
+      "scope": "supporting",
+      "summary": "当前PPT路线A已确认，制作会话已完成A第一稿并发布稳定Git122615a：可编辑PPTX/原生PDF、8主讲4备查、讲稿/14Q&A/原编号分工均齐，26文件字节已核。B研究与旧稿保留历史。现在待成员审阅修改、认领和真人排练，明确不得提交；不再安排另一轮A制作。",
+      "deliverable": "A版12页PPTX/原生PDF/Notes/预览、讲稿、14问答、原岗位分工及独审记录。",
+      "next_action": "成员页码化反馈后由当前制作会话统一修订；具体采用/排练/最终授权另记，当前禁止提交。",
+      "my_next_action": "把A稿和各自讲稿交成员，收问题与修改建议。",
+      "depends_on": [
+        "route-a-reconfirmation"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "files",
+          "label": "26文件与固定Git字节一致，PPTX/PDF已接收",
+          "status": "pass",
+          "evidence": [
+            "ppt-A-draft-manifest",
+            "ppt-A-draft-github"
+          ]
+        },
+        {
+          "id": "review",
+          "label": "作者全12页独审与两项定向修正关闭记录已承接",
+          "status": "pass",
+          "evidence": [
+            "ppt-A-draft-review"
+          ]
+        },
+        {
+          "id": "boundary",
+          "label": "仅初稿技术接收，不自动批准配置/成员掌握/提交",
+          "status": "pass",
+          "evidence": [
+            "ppt-A-draft-decision"
+          ]
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": "2026-11-15",
+      "completed_on": "2026-11-15",
+      "observed_on": "2026-11-15",
+      "estimated_minutes": null,
+      "state_basis": "直接制作会话成果回传；不计主任务完成，不作为Canvas授权。",
+      "evidence": [
+        {
+          "label": "当前A第一稿协作入口",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/tree/main/slides/a-draft-20261115"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-15",
+          "status": "done",
+          "note": "A稿已实际完成并通过有界验收；禁止提交与成员审阅修改仍待。"
         }
       ]
     }
   ],
-  "basis_management_revision": "da2ea1f31c804b81c125b6ee79d792af58a3c1a564f6c3480cfe938ba77d5009"
+  "basis_management_revision": "32b8401141e99d29c7fee171a71a9142a466fadb0bacc1577ee7c0220624c4f0"
 }

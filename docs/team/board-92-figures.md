@@ -1,10 +1,10 @@
-# 92幅科学素材：B第一稿已完成，当前不得提交
+# 92科学素材与当前A第一稿：组审修改，禁止提交
 
-本人明确第一版需先给小组审阅修改。技术接收通过不等于本版获批、成员掌握或提交授权；当前停止所有Canvas上传/提交操作。
+A稿已完成，不需要再开一次A制作。B稿和研究保留历史；改A是熟悉度/共同讲述的执行选择，不据此证明算法胜负。
 
-[初稿人类入口、讲稿、问答与组审状态](../../research/ppt-draft-intake-20261115/README.md) · [可编辑PPTX](../../slides/final-20261115/IS6400_SixSigma_Final_Presentation.pptx) · [原生PDF](../../slides/final-20261115/IS6400_SixSigma_Final_Presentation.pdf) · [完整26项审阅包](https://cityu-board-online.vercel.app/)
+[GitHub当前A协作入口](https://github.com/CercaTrovato/olist-repurchase-analysis/tree/main/slides/a-draft-20261115) · [A稿人类说明/讲稿/问答/当前状态](../../slides/a-draft-20261115/README.md) · [可编辑A稿](../../slides/a-draft-20261115/IS6400_SixSigma_A_Draft_v1.pptx) · [原生A PDF](../../slides/a-draft-20261115/IS6400_SixSigma_A_Draft_v1.pdf)
 
-[历史资料与旧交接包归档](https://cityu-board-online.vercel.app/)。全部92幅科学图保持；12页PPT预览只在初稿包/PDF内，不计新增科学图。
+[历史B完整审阅包](https://cityu-board-online.vercel.app/)。全部92科学图保留，A/B的12页PPT预览不计科学图。本批不新建ZIP，成员反馈直接回当前制作会话。
 
 ## 历史 85 图（按既有资料顺序）
 

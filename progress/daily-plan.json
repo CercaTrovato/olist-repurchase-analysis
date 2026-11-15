@@ -4,7 +4,7 @@
   "course": "IS6400",
   "as_of": "2026-11-15",
   "timezone": "Asia/Shanghai",
-  "source_revision": "99c92d7d0dea0f311282f7b234d3756a8eff9e9972fafb26877f30fd980386bd",
+  "source_revision": "4166380c1c693753c66a988c4bd5770a23b94f6e66bcd8802087f99276d23d5c",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
   "stale": false,
   "scheduling_policy": {

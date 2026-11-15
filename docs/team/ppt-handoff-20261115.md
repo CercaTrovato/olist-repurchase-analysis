@@ -11,3 +11,6 @@
 Slides：https://canvas.cityu.edu.hk/courses/71457/assignments/339540
 
 指南：https://canvas.cityu.edu.hk/courses/71457/files/15909539
+
+
+[总监督接续：B已选与成品/提交待核](ppt-board-note-20261115.md) · [92图取材入口](board-92-figures.md)。

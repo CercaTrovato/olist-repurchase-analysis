@@ -1,0 +1,18 @@
+{
+  "source_filename": "ranking-comparison(1).csv",
+  "sha256": "0c441cba15087c84c24f77a540b040675ad9eab0bebc05083e1ab8b4d4f5bb9a",
+  "byte_identical_to": "H04-role03-v02.zip / H04_role03_prediction_v0.2/ranking-comparison.csv",
+  "train_snapshot": "2017-10-01",
+  "evaluation_snapshot": "2018-01-01",
+  "history_status": "Seen development, not blind test",
+  "source_roles": "Role 03 screening table; different saved score/list version from R3",
+  "all_seven_rows_validated": true,
+  "selected_by_hits": "LogisticRegressionWeighted",
+  "highest_AP": "LogisticRegressionWeighted",
+  "highest_ROC_AUC": "CatBoost",
+  "same_hits_do_not_establish_same_list": true,
+  "later_R3_long_global_seats": 73,
+  "old_H04_long_global_seats": 79,
+  "new_training": false,
+  "submission_authorized": false
+}

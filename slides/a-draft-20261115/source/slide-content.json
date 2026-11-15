@@ -38,24 +38,23 @@
     "backup": false
   },
   {
-    "title": "Weighting found four more repeat buyers",
+    "title": "Weighted LR leads the model-screening comparison",
     "owner": "3",
     "seconds": 75,
-    "script": "Our baseline is logistic regression using eight historical fields. Most customers do not repurchase, so we also test class weighting, which gives the rare positive class more influence during fitting. Both models use the same October fitting customers and the same January evaluation customers. Each January list contains two thousand nine hundred and thirty-seven people. The unweighted model finds forty-six repeat buyers, and the weighted model finds fifty. This is four additional buyers in this particular historical comparison. The weighted list contains about one point seven percent repeat buyers and captures twenty-one point seven four percent of all two hundred and thirty observed repeat buyers. Most selected customers still do not repurchase. The two lists also contain different people. We use the weighted model's score to rank customers, rather than interpreting it as a calibrated purchase probability. This is useful development evidence, not proof that weighting will always win or that contacting these people creates extra sales.",
-    "zh": "3 号的核心讲法：同一训练/评价客户、同名单容量，46→50净增4。加权是让稀少正例在拟合时有更大权重，不是只训练正例。precision=50/2937=1.70%；recall=50/230=21.74%。不称统计显著或稳定获胜。",
+    "script": "We compare seven methods from member three's model-screening table. Each method scores the same January cohort and selects two thousand nine hundred and thirty-seven customers. Weighted logistic regression finds fifty repeat buyers, compared with forty-six for logistic regression, forty-five for CatBoost, forty-four for random forest, and thirty for the recency rule. The weighted forest and weighted CatBoost find thirty-six and thirty-five. We select weighted logistic regression for the fixed-capacity objective because it finds the most buyers. It also has the highest average precision, although CatBoost has the highest ROC-AUC. So the choice depends on our objective, not winning every metric. This is the saved H04 screening stage. The next slide uses the later R3 follow-up, which also finds fifty buyers but has different saved scores and lists. These are examined development results, not a new blind test.",
+    "zh": "使用3号此次指定CSV，逐字节匹配H04 v0.2：Weighted LR50、LR46、CB45、RF44、Weighted RF36、Weighted CB35、Recency30。选择依据是同容量Top10%命中最多；AP也最高，但ROC-AUC不是最高。此处CB是H04原八字段候选，不是B版141字段校准系统。第5页转后续R3，不把相同50命中当相同分数/名单。",
     "source": [
-      "research/route-comparison-20261114/data/team-capacity-results.csv",
-      "research/team-round3-20261112/README.md",
-      "research/role05-mainline-20261113/README.md"
+      "slides/a-draft-20261115/source/ranking-comparison.csv",
+      "research/team-round3-20261112/audit/h04-v02-vs-round3-F0.csv"
     ],
     "backup": false
   },
   {
     "title": "The tested additions did not beat the baseline",
-    "owner": "5",
+    "owner": "3",
     "seconds": 75,
-    "script": "We then check whether the tested extensions improve the same January list. The weighted baseline finds fifty buyers. Adding the tested delivery fields finds forty-eight, review fields forty-six, a group label fifty, and separate group models forty-nine. The separate models use a global fallback for the small multi-order group. None beats the baseline at the ten-percent capacity, although some variants do better at other capacities. This conclusion applies only to the fields actually tested. It does not reject the latest feature combinations proposed by member two. We also retain the October five-fold diagnostic. The unweighted baseline averages seven hits per fold and the weighted baseline six point eight, so weighting does not win every check. These folds each select four hundred and twenty-four people and cannot be compared directly with the January count of fifty. Together, these checks support keeping a simple reference while reporting where improvements were not observed.",
-    "zh": "5 号负责核数与反馈：只讲实际 F1/F2 和群模型。模型代码中的 B/C 是候选编号，不是展示路线A/B，画面改用完整名称避混。CV均值7 vs6.8表示内部诊断也有反例；不是五个月、不是一月50的置信区间。",
+    "script": "We now use the later R3 results to check extensions on the same January cohort and list capacity. The weighted baseline finds fifty buyers. Adding the tested delivery fields finds forty-eight, review fields forty-six, a group label fifty, and separate group models forty-nine. The separate models use a global fallback for the small multi-order group. None beats the baseline at the ten-percent capacity, although some variants do better at other capacities. This conclusion applies only to the fields actually tested. It does not reject the latest feature combinations proposed by member two. We also retain the October five-fold diagnostic. The unweighted baseline averages seven hits per fold and the weighted baseline six point eight, so weighting does not win every check. These folds each select four hundred and twenty-four people and cannot be compared directly with the January count of fifty. Together, these checks support keeping a simple reference while reporting where improvements were not observed.",
+    "zh": "3 号按本次成员反馈主讲方法扩展与验证：只讲实际 F1/F2 和群模型。模型代码中的 B/C 是候选编号，不是展示路线A/B，画面改用完整名称避混。CV均值7 vs6.8表示内部诊断也有反例；不是五个月、不是一月50的置信区间。 本页为后续R3，和第4页早期H04筛选表是不同保存版本。",
     "source": [
       "research/route-comparison-20261114/data/team-capacity-results.csv",
       "research/route-comparison-20261114/data/team-cv-diagnostics.csv",
@@ -90,10 +89,10 @@
     "title": "A simple reference with clear limits",
     "owner": "6",
     "seconds": 35,
-    "script": "The weighted baseline found fifty repeat buyers against forty-six for the unweighted model in equally sized January lists. The tested additions did not improve that ten-percent result. Groups exposed missed buyers and supported a content-test proposal. We keep three limits clear: January is already examined, scores support ranking, and marketing impact is untested. Next, check reachability and power before a trial, and evaluate on genuinely future data. Thank you.",
+    "script": "Weighted logistic regression led the seven-method screening with fifty hits. The later R3 baseline also found fifty against forty-six for unweighted regression. The tested additions did not improve that ten-percent result. Groups exposed missed buyers and supported a content-test proposal. We keep three limits clear: January is already examined, scores support ranking, and marketing impact is untested. Next, check reachability and power before a trial, and evaluate on genuinely future data. Thank you.",
     "zh": "结论只收三件事：当前同容量多4人；实际测试扩展未提高10%结果；分群显示覆盖问题并支持试验假设。保留开发期/非自然概率/非营销增量限制，不以团队更熟悉A推导算法更可靠。",
     "source": [
-      "research/route-comparison-20261114/data/team-capacity-results.csv",
+      "slides/a-draft-20261115/source/ranking-comparison.csv",
       "research/team-round3-20261112/README.md",
       "research/role05-mainline-20261113/README.md"
     ],

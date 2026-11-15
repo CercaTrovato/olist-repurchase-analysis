@@ -2,7 +2,7 @@
   {
     "chart": "ppt/slides/charts/chart1.xml",
     "workbook": "ppt/embeddings/ChartData1.xlsx",
-    "rows": 3,
+    "rows": 8,
     "columns": 2
   },
   {

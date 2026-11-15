@@ -1,1 +1,2 @@
 * -text
+source/ranking-comparison.csv -text whitespace=cr-at-eol

@@ -14,5 +14,29 @@
   "new_april_evaluation": false,
   "B_preserved_as_history": true,
   "reporting": "This presentation chat directly to user and overall supervisor, no previous course-chat intermediary",
-  "working_configuration": "Existing R3 F0 base8 weighted LR, full October fitting, January Top10% list. Exact reported configuration documented in deck; no retrospective preregistration claim."
+  "working_configuration": "Existing R3 F0 base8 weighted LR, full October fitting, January Top10% list. Exact reported configuration documented in deck; no retrospective preregistration claim.",
+  "version": "A-draft-v2",
+  "revision_request": "Role 03 requests slide 4 use supplied ranking-comparison CSV to compare methods and select weighted LR; Role 03 also presents slide 5.",
+  "speaking_assignment": {
+    "1": [
+      2
+    ],
+    "2": [
+      3
+    ],
+    "3": [
+      4,
+      5
+    ],
+    "4": [
+      7
+    ],
+    "5": [
+      6
+    ],
+    "6": [
+      1,
+      8
+    ]
+  }
 }

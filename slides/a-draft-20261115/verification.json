@@ -1,379 +1,277 @@
 {
-  "route": "A",
-  "as_of": "2026-11-15",
-  "scope": "Saved aggregate checks and document validation; no fitting, no new experiment, no April evaluation",
+  "version": "A-draft-v2",
   "passed": true,
   "checks": [
     {
-      "name": "Saved R3 comparison F0_base_unweighted 0.05",
+      "name": "Seven methods",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison F0_base_unweighted 0.1",
+      "name": "Input exactly matches H04 v0.2",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison F0_base_unweighted 0.2",
+      "name": "LogisticRegression same cohort and capacity",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison F0_base_weighted 0.05",
+      "name": "LogisticRegression ratios and expectation",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison F0_base_weighted 0.1",
+      "name": "LogisticRegressionWeighted same cohort and capacity",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison F0_base_weighted 0.2",
+      "name": "LogisticRegressionWeighted ratios and expectation",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison F1_delivery_unweighted 0.05",
+      "name": "RandomForest same cohort and capacity",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison F1_delivery_unweighted 0.1",
+      "name": "RandomForest ratios and expectation",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison F1_delivery_unweighted 0.2",
+      "name": "RandomForestWeighted same cohort and capacity",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison F1_delivery_weighted 0.05",
+      "name": "RandomForestWeighted ratios and expectation",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison F1_delivery_weighted 0.1",
+      "name": "CatBoost same cohort and capacity",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison F1_delivery_weighted 0.2",
+      "name": "CatBoost ratios and expectation",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison F2_review_unweighted 0.05",
+      "name": "CatBoostWeighted same cohort and capacity",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison F2_review_unweighted 0.1",
+      "name": "CatBoostWeighted ratios and expectation",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison F2_review_unweighted 0.2",
+      "name": "RecencyBaseline same cohort and capacity",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison F2_review_weighted 0.05",
+      "name": "RecencyBaseline ratios and expectation",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison F2_review_weighted 0.1",
+      "name": "Weighted LR highest hits and AP",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison F2_review_weighted 0.2",
+      "name": "CatBoost highest ROC-AUC",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison B_global_with_cluster 0.05",
+      "name": "Only slide 4 and 5 visible content changed",
+      "passed": true,
+      "detail": "[4, 5]"
+    },
+    {
+      "name": "Twelve slides",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison B_global_with_cluster 0.1",
+      "name": "R3 chart unchanged",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison B_global_with_cluster 0.2",
+      "name": "Chart has seven editable rows",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison C_segmented_group2_global_fallback 0.05",
+      "name": "Chart cache equals workbook",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison C_segmented_group2_global_fallback 0.1",
+      "name": "Series title equals workbook",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Saved R3 comparison C_segmented_group2_global_fallback 0.2",
+      "name": "Chart values equal selected CSV",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Group denominators",
+      "name": "Horizontal bar chart",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Current weighted group aggregation",
+      "name": "Winning bar highlighted",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Current long group 73/2 and 88 missed",
+      "name": "Slide 1 script matches PPTX notes",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "12 slides",
+      "name": "Slide 2 script matches PPTX notes",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Slide 1 no placeholder",
+      "name": "Slide 3 script matches PPTX notes",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Slide 1 geometry",
-      "passed": true,
-      "detail": "[]"
-    },
-    {
-      "name": "Slide 2 no placeholder",
+      "name": "Slide 4 script matches PPTX notes",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Slide 2 geometry",
-      "passed": true,
-      "detail": "[]"
-    },
-    {
-      "name": "Slide 3 no placeholder",
+      "name": "Slide 5 script matches PPTX notes",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Slide 3 geometry",
-      "passed": true,
-      "detail": "[]"
-    },
-    {
-      "name": "Slide 4 no placeholder",
+      "name": "Slide 6 script matches PPTX notes",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Slide 4 geometry",
-      "passed": true,
-      "detail": "[]"
-    },
-    {
-      "name": "Slide 5 no placeholder",
+      "name": "Slide 7 script matches PPTX notes",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Slide 5 geometry",
-      "passed": true,
-      "detail": "[]"
-    },
-    {
-      "name": "Slide 6 no placeholder",
+      "name": "Slide 8 script matches PPTX notes",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Slide 6 geometry",
-      "passed": true,
-      "detail": "[]"
-    },
-    {
-      "name": "Slide 7 no placeholder",
+      "name": "Slide 9 script matches PPTX notes",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Slide 7 geometry",
-      "passed": true,
-      "detail": "[]"
-    },
-    {
-      "name": "Slide 8 no placeholder",
+      "name": "Slide 10 script matches PPTX notes",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Slide 8 geometry",
-      "passed": true,
-      "detail": "[]"
-    },
-    {
-      "name": "Slide 9 no placeholder",
+      "name": "Slide 11 script matches PPTX notes",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Slide 9 geometry",
-      "passed": true,
-      "detail": "[]"
-    },
-    {
-      "name": "Slide 10 no placeholder",
+      "name": "Slide 12 script matches PPTX notes",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Slide 10 geometry",
-      "passed": true,
-      "detail": "[]"
-    },
-    {
-      "name": "Slide 11 no placeholder",
+      "name": "Screening source in slide 4 notes",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Slide 11 geometry",
-      "passed": true,
-      "detail": "[]"
-    },
-    {
-      "name": "Slide 12 no placeholder",
+      "name": "Conclusion cites screening source",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Slide 12 geometry",
-      "passed": true,
-      "detail": "[]"
-    },
-    {
-      "name": "No B result contamination on slides",
+      "name": "Role 03 now presents slides 4 and 5",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "12 sourced speaker notes",
+      "name": "Role 05 keeps slide 6",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "2 native charts",
+      "name": "Time budget unchanged",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "ppt/slides/charts/chart1.xml cached values match workbook",
+      "name": "All six speakers remain",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "ppt/slides/charts/chart1.xml data relationship",
+      "name": "README.md no outdated role 05 two-page assignment",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "ppt/slides/charts/chart2.xml cached values match workbook",
+      "name": "成员分工与人类可读说明.md no outdated role 05 two-page assignment",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "ppt/slides/charts/chart2.xml data relationship",
+      "name": "群说明.md no outdated role 05 two-page assignment",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "All 6 roles",
+      "name": "Native PDF 12 searchable pages",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "460 seconds plus buffer",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "12 searchable PDF pages",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "Source path docs/03-methodology.md",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "Source path research/role02-v11-20261113/README.md",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "Source path research/role05-mainline-20261113/README.md",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "Source path research/team-round3-20261112/README.md",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "Source path research/route-comparison-20261114/data/team-capacity-results.csv",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "Source path docs/07-team-guide.md",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "Source path research/route-comparison-20261114/data/team-cv-diagnostics.csv",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "Source path research/route-comparison-20261114/data/protocol-comparison.csv",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "Source path research/route-comparison-20261114/vote-packages.json",
+      "name": "Updated title in PDF",
       "passed": true,
       "detail": ""
     }
   ],
-  "main_words": 974,
+  "main_words": 964,
   "per_slide_words": [
     72,
     141,
     106,
-    157,
-    150,
+    137,
+    156,
     129,
     150,
-    69
+    73
   ],
   "seconds": 460,
   "buffer_seconds": 20,
-  "human_rehearsal": false,
-  "pptx_sha256": "6c9073d5cebed5406770cbadc484aa7adea04ec09f6b40ca5244a8796f666379",
-  "pdf_sha256": "83335fe873838f0aa0abda9bd50a24ea79e4e3e1954ba3abe68eab5d4e749160"
+  "source_sha256": "0c441cba15087c84c24f77a540b040675ad9eab0bebc05083e1ab8b4d4f5bb9a",
+  "pptx_sha256": "67c776aa8013a397ff5073050bdc9a68d10de9ac4edd4c18cc73592a823144ed",
+  "pdf_sha256": "ad48d7edf1bed4441fbd45dc7df1cba46f65b0a760b1b210c3e75d9f0a7f4495",
+  "new_fits": 0,
+  "new_experiments": 0,
+  "april_evaluation": false,
+  "submission_authorized": false,
+  "submitted": false
 }

@@ -1,0 +1,18 @@
+{
+  "as_of": "2026-11-15",
+  "current_route": "A",
+  "label": "现有成果整理版",
+  "user_quote": "最新决策已经出来，大家由于觉得临时换成B，之前并不熟悉自己做了什么，还是要换回A路线，A路线分析深入和结论虽然不如B可靠，但是大家熟悉A。",
+  "basis": "User reports team choice based on familiarity and presentation readiness. Not treated as proof of comparative model reliability.",
+  "supersedes": "Earlier route B selection for the current presentation",
+  "stage": "A first draft for group review and revisions",
+  "submission_authorized": false,
+  "submitted": false,
+  "member_names_required": false,
+  "new_training": false,
+  "new_experiments": false,
+  "new_april_evaluation": false,
+  "B_preserved_as_history": true,
+  "reporting": "This presentation chat directly to user and overall supervisor, no previous course-chat intermediary",
+  "working_configuration": "Existing R3 F0 base8 weighted LR, full October fitting, January Top10% list. Exact reported configuration documented in deck; no retrospective preregistration claim."
+}

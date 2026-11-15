@@ -1,0 +1,33 @@
+{
+  "recorded_on": "2026-11-15",
+  "current_route": "A",
+  "current_route_label": "现有成果整理版",
+  "scope": "Current presentation/PPT execution route; later report detail is not newly finalized here.",
+  "status": "CONFIRMED_BY_LATEST_USER_AND_FINAL_SCREENSHOT",
+  "latest_user_quote": "最新决策已出来，你记录同步完毕之后我会在另一个会话开始A路线的PPT制作",
+  "final_visible_exchange": {
+    "role01": "那我们就确定A吧",
+    "role06": "好的，等我制作A路线的PPT",
+    "evidence_id": "image-07"
+  },
+  "earlier_partial_positions": {
+    "role01": "先表示A/B均可，最后截图支持确定A",
+    "role02": "所给截图未见明确选择，不以未显示推断未投/弃权/反对",
+    "role03": "明确选择A",
+    "role04": "所给截图未见明确选择，不以未显示推断未投/弃权/反对",
+    "role05": "询问简化B方式后明确选择A",
+    "role06": "先表示A/B均可，最后认可执行A"
+  },
+  "no_unanimous_or_full_vote_count_claim": true,
+  "earlier_condition_not_automatic_rule": "6号曾说再多一位A就选A；这是中间条件表述，不自行计算全组票数。本轮记录A以最新用户确认及图07为依据。",
+  "prior_B_selection_preserved_as_history": true,
+  "B_research_and_first_draft_preserved": true,
+  "B_first_draft_is_not_current_final_route": true,
+  "new_A_PPT_received": false,
+  "new_A_PPT_created_here": false,
+  "new_chat_created_here": false,
+  "submission_authorized": false,
+  "submitted": false,
+  "no_new_training_or_experiment_or_April_score": true,
+  "next_action": "本人自行开启另一会话，按已核A成果制作A稿，审阅/讲稿/排练与最终提交授权分别核。"
+}

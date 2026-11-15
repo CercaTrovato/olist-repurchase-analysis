@@ -1,0 +1,14 @@
+{
+  "checked_commit": "de1d20eca67a74f8c699905e3e7a3079c4930598",
+  "core_analysis_code_present": true,
+  "core8_content_match_already_verified_in_immediately_preceding_audit": true,
+  "latest_all_code_complete_claim_supported": false,
+  "known_unpublished_paths": [
+    "slides/final-20261115/source/build.py",
+    "slides/final-20261115/source/revise.py",
+    "research/final-validation-20261112/export_release.py"
+  ],
+  "PPTX_and_PDF_on_GitHub": true,
+  "one_click_reproduction_claim_supported": false,
+  "note": "Core analysis scripts in research; local-path/private-intermediate dependencies remain. Some publication helpers are separate from model logic. No code has been added or modified in this recording batch."
+}

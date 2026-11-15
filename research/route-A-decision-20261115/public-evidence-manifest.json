@@ -1,0 +1,31 @@
+{
+  "status": "A_ROUTE_CONFIRMED_RECORD_ONLY",
+  "files": {
+    "research/route-A-decision-20261115/A-baseline.json": "8c1460c4144c8df371f4782a3f663c1630337bc54b0b228b2b3abed052cae516",
+    "research/route-A-decision-20261115/A-PPT-START-HERE.md": "ece4413d1d51f69e602d03aa5b563d5554ebdc82d7c03b814f828a5a03bde6aa",
+    "research/route-A-decision-20261115/code-availability.json": "d2d9ca55f9de685a4fb5816be458a005c4d417a0e1dbc3da0be8f8ba48531c7b",
+    "research/route-A-decision-20261115/evidence-index.json": "4fa97752da9c44d11a6d08db53a5949d837daee69de734b0328d7bfa6252a812",
+    "research/route-A-decision-20261115/README.md": "57d53865d8b3b0f652edea5910f4f8ee1f691a62905284173b9f3171128e7b94",
+    "research/route-A-decision-20261115/route-decision.json": "febf37b03b34c15740ede3cc617cdf70eafeb3f368f883ed091a57f574c2f03b",
+    "research/route-A-decision-20261115/review/record-review.md": "7bf12216cef008dc89f7dfdf995002f54570eb4a66170ddf4bbf8d54564245c4"
+  },
+  "navigation_sha256": {
+    "docs/team/discussion-and-A-decision-20261115.md": "fbc6ba4be65c94aa3f247d83bddbfe3cbf6bbe4092d754277b72f5233c0913b7",
+    "docs/team/A-PPT-START-HERE.md": "6f95c24146d3ead7ee736b3c4e313a1ff0ec184c7476f89316882f0876354794",
+    "README.md": "d7a2fab00ed760b89ec26c389a105750d5a4c34793ed274beb40f6f403da33d1",
+    "docs/team/current-status.md": "672ea339e98820e5a53fe851093b1830396cf88ebccb358ac109a5e8e656c235",
+    "docs/team/report-mainline-decision.md": "a8ada1b5bf9c3a37950b8a8e86501a08d9d1a0239ee408192f94b04ab96b37a3",
+    "docs/team/route-vote-comparison.md": "ffec4e414f5c55d06c4a76f445069abceda2679a1e17814cd124a4ca182aac17",
+    "docs/team/route-freeze-packages.md": "57c8f5d8c227b4cba9ddb687e92fe55af2d7c1a59ad0ace3da461f158f76c8a2",
+    "docs/team/ppt-handoff-20261115.md": "57c5f09a327d133463d325b12555080e9cdfe40d9fa521dfdf80b67c6cf546d1",
+    "docs/team/ppt-first-draft-status-20261115.md": "b666d6b3e5a5b69c77b3250f22e3845a44b6fca2a2cb4cd61161ce8e9fab4e8e",
+    "docs/team/README.md": "5d13f13e932c27847ac6d942127b305208661dd407c5c3c77829d49a622f8c9f"
+  },
+  "source_images": 7,
+  "raw_chat_images_exported": 0,
+  "new_PPT_created": false,
+  "submitted": false,
+  "old_B_research_and_draft_modified": false,
+  "new_models_or_scientific_plots": 0,
+  "scope": "Neutral record of differing views and latest user-confirmed A presentation route; no unanimity, personal blame, learning or submission claims."
+}

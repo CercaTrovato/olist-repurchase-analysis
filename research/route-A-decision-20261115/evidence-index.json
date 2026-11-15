@@ -1,0 +1,58 @@
+{
+  "recorded_on": "2026-11-15",
+  "images_read": 7,
+  "raw_images_published": false,
+  "privacy": "Public record uses role numbers and neutral summaries; original screenshots with names/avatars remain local only.",
+  "visible_time_markers": [
+    "13:32",
+    "13:36",
+    "13:42",
+    "13:48",
+    "13:53"
+  ],
+  "time_limit": "Image timestamps alone do not provide full dated message logs or exact final-decision minute.",
+  "items": [
+    {
+      "evidence_id": "image-01",
+      "sha256": "cedd6de76434b822eb27c36d77eef1537617d2c8ec68562f0df6f96d6472c56a",
+      "topic": "141字段来源、项目理解、本人解释与AI辅助关切",
+      "raw_image_public": false
+    },
+    {
+      "evidence_id": "image-02",
+      "sha256": "9a5f6c884452bf9c59fd2f8993fe403da4954ff10127053a63f041efa2bb43c3",
+      "topic": "本人回应方式、源码完整性询问及直接回答诉求",
+      "raw_image_public": false
+    },
+    {
+      "evidence_id": "image-03",
+      "sha256": "b8fbf838c862a4dea078dec9ea8d220bfe2a17c81a30ab30863696e289047071",
+      "topic": "共同参与/团队项目与AI沟通分歧",
+      "raw_image_public": false
+    },
+    {
+      "evidence_id": "image-04",
+      "sha256": "c22ce981393ac53e52271e428c11c233d05a5927d2b5467dbf4c17af2cc99bc4",
+      "topic": "材料发布与理解准备、时间顾虑、A或精简B",
+      "raw_image_public": false
+    },
+    {
+      "evidence_id": "image-05",
+      "sha256": "474aa2b5915cd42fbde1fb0ca1f0b128b45d07053150d3e73e0881ff2e8bc9ef",
+      "topic": "源码入口分享与重新征集路线选择",
+      "raw_image_public": false
+    },
+    {
+      "evidence_id": "image-06",
+      "sha256": "42092d35e9ad4c3022b695c743bda84c931bf615526046571ab0c08bb053c5a7",
+      "topic": "可见阶段性意见、简化B询问及条件性选A表述",
+      "raw_image_public": false
+    },
+    {
+      "evidence_id": "image-07",
+      "sha256": "ddfaeecc993507bfd61c6d9410f980cbe7d20e1b07f336f49ec8cd6c34e6c0be",
+      "topic": "1号提出确定A、6号答应制作A，及用户当前确认",
+      "raw_image_public": false
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "version": "Team Round3 Role03 F0 base8 weighted LR, H02-v2-candidate-reviewed, H05-km3-v1 diagnostics",
+  "train_snapshot": "2017-10-01",
+  "fit_rows": 21160,
+  "fit_events": 211,
+  "dedicated_calibration_rows": 0,
+  "fields": [
+    "R",
+    "F",
+    "M",
+    "average_item_rows",
+    "freight_share",
+    "recent30_orders",
+    "recent30_spend",
+    "state"
+  ],
+  "classifier": "LogisticRegression C1 class_weight balanced, numeric log1p/impute/StandardScaler, state impute/OHE; ranking score not verified natural probability",
+  "eval_snapshot": "2018-01-01",
+  "eval_rows": 29368,
+  "eval_events": 230,
+  "K": 2937,
+  "hits": 50,
+  "precision": 0.017024174327545116,
+  "recall": 0.21739130434782608,
+  "fixed_long_K": 79,
+  "fixed_long_hits": 2,
+  "global_long_selected": 73,
+  "global_long_hits": 2,
+  "groups": [
+    {
+      "table": "basic",
+      "method": "F0_base_weighted",
+      "fraction": "0.1",
+      "cluster_id": "0",
+      "N": "16335",
+      "positive_count": "112",
+      "selected": "2190",
+      "hits": "21"
+    },
+    {
+      "table": "basic",
+      "method": "F0_base_weighted",
+      "fraction": "0.1",
+      "cluster_id": "1",
+      "N": "12330",
+      "positive_count": "90",
+      "selected": "73",
+      "hits": "2"
+    },
+    {
+      "table": "basic",
+      "method": "F0_base_weighted",
+      "fraction": "0.1",
+      "cluster_id": "2",
+      "N": "703",
+      "positive_count": "28",
+      "selected": "674",
+      "hits": "27"
+    }
+  ],
+  "source_csv_sha256": {
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\audit\\january-recomputed.csv": "ce57e03677fbd35912080e67527e2b0a7b5bc77a73c82b265c3d00b2fa309f01",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-team-intake-20261112\\audit\\january-groups-recomputed.csv": "218883989cd068af9130f5a00055c3a71e56d9131b767a99898ade4591554dfa"
+  },
+  "old_H04_also50_not_identical_to_R3_scores_or_list": true,
+  "April_H04_45_64_65_only_separate_seen_backtest_not_new_R3_final_test": true,
+  "B_43_44_49_not_A_baseline_scores": true,
+  "fresh_fits": 0
+}

@@ -5,7 +5,7 @@
   "user_quote": "最新决策已经出来，大家由于觉得临时换成B，之前并不熟悉自己做了什么，还是要换回A路线，A路线分析深入和结论虽然不如B可靠，但是大家熟悉A。",
   "basis": "User reports team choice based on familiarity and presentation readiness. Not treated as proof of comparative model reliability.",
   "supersedes": "Earlier route B selection for the current presentation",
-  "stage": "A first draft for group review and revisions",
+  "stage": "team_accepted_v2_rehearsal_pending",
   "submission_authorized": false,
   "submitted": false,
   "member_names_required": false,
@@ -38,5 +38,9 @@
       1,
       8
     ]
-  }
+  },
+  "team_deck_review": "accepted_v2_reported_by_user",
+  "team_acceptance_source": "User in presentation chat on 2026-11-15: 目前大家都认可这个PPT了",
+  "accepted_deck_sha256": "67c776aa8013a397ff5073050bdc9a68d10de9ac4edd4c18cc73592a823144ed",
+  "rehearsal_completed": false
 }

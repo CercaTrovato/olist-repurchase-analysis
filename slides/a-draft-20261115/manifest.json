@@ -1,21 +1,21 @@
 {
   "version": "A-draft-v2-20261115",
   "route": "A",
-  "stage": "group_review_and_revision",
+  "stage": "team_accepted_v2_rehearsal_pending",
   "submission_authorized": false,
   "submitted": false,
   "base_v1_pptx_sha256": "6c9073d5cebed5406770cbadc484aa7adea04ec09f6b40ca5244a8796f666379",
   "revision": "Slide 4 seven-method screening from supplied H04 CSV; member 3 presents slides 4 and 5; member 5 presents slide 6.",
   "files": {
-    "README.md": "8cba19da4896e7cc0be7108d999d95e528946b3c468e24e9f5dee49ed9354701",
+    "README.md": "1d46b19262f5e63e4e56ec44e79581cfe880b7a50a1f6ba9752c58d2b8801b99",
     "IS6400_SixSigma_A_Draft_v2.pptx": "67c776aa8013a397ff5073050bdc9a68d10de9ac4edd4c18cc73592a823144ed",
     "IS6400_SixSigma_A_Draft_v2.pdf": "ad48d7edf1bed4441fbd45dc7df1cba46f65b0a760b1b210c3e75d9f0a7f4495",
     "成员分工与人类可读说明.md": "ef374631d2aef7468440f401d76b58101f68068012fb01af26bccbf3e31c6e46",
     "英文讲稿与中文排练.md": "b79bbe4c8bfe01976442ac3f596b089fc88b87fb03573a759cbf53d41ee57e7b",
     "双语备问答.md": "7751aeec67bf228707076e3b403b67605564ba17dcb69f52df90e83600c40bfa",
-    "群说明.md": "7bc41e0f401c2bb2b5cd618980fe0e5dfe43a31edb13f6f5d6677188d465d5fd",
+    "群说明.md": "4636ec980588220d85e9fdc24cb09c9c4ef3990ac13e73cfc87cf1363ec10996",
     "逐页证据表.md": "6e1a1c6b1f6c107290ec626fd05c269b71dc88d78957536f016e4e2c5242e36a",
-    "decision.json": "f93eed4a94826c38af42ebc279a9001e5e337de9f900a003c107c8b2300d8aff",
+    "decision.json": "7595b75c322d4b4901bc3572aa874ff96b5e9e5dc3b6c9aa20b598ed20d0a23f",
     "verification.json": "98ccbbd9804962d0589e323e443cdb042535348e30750b2cb053480388ee24e8",
     "review/verification.md": "a74732b622e6987682c42a6d863e9b9b1e73d55f6f3539ccc6f6928707aa057d",
     "review/v2-targeted-review.md": "d5f46b8fd8384d300656973bdfd10caed954bcd47d2925f613c39b9a46c99782",
@@ -35,5 +35,6 @@
     "rendered/slide-10.png": "943e2bb4e61063704d6ecc68a075bede4a179983b519d43f5dbc2b4f8214d081",
     "rendered/slide-11.png": "e8d9a5e83b612511ed15f80a11daa7bb58634ca5c1664b274df8804e56eac50a",
     "rendered/slide-12.png": "b25a227fd370faf40e668e994e34fe4ef8b952f69608efcb6d3e9d67c581511c"
-  }
+  },
+  "team_acceptance_reported_by_user": true
 }

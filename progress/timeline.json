@@ -4,9 +4,9 @@
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
   "as_of": "2026-11-15",
-  "basis_revision": "d22f02ec3de8c200c550b72c7996e1bc0f76244de4f2b39a7207269f22affd47",
+  "basis_revision": "6297c1e374010ed9898142fd8372814dee49e785071e051b1b307890ff95de5d",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "当前A初稿v2已核并Git发布：P4按本人指定H04 v0.2七方法CSV展示50/46/45/44/36/35/30，以Top10%命中选择weighted LR；P5起仍R3，分数/名单版本不混。3号经本人转达改讲P4/5共150秒，5号P6为55秒；964词、16问答。仍待全组审阅与真人排练，禁止提交不变。",
+  "summary": "本人已转述全组认可当前 A v2，下一步按本版熟悉讲稿、计时排练和检查转场。PPT、PDF、数据与讲稿正文未改；3 号讲第 4、5 页共预算 150 秒，5 号讲第 6 页预算 55 秒。成员掌握及真人排练尚未核实，仍未授权提交 Canvas。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
@@ -16,10 +16,10 @@
       "owner": "本人 · 总监督",
       "owner_role": "me",
       "scope": "team",
-      "summary": "当前PPT路线A已确认，另一会话制作A稿；具体定稿版本/指标呈现及成员讲述准备另核，不能把B稿当A成品。",
+      "summary": "本人已转述全组认可当前 A v2，下一步按本版熟悉讲稿、计时排练和检查转场。PPT、PDF、数据与讲稿正文未改；3 号讲第 4、5 页共预算 150 秒，5 号讲第 6 页预算 55 秒。成员掌握及真人排练尚未核实，仍未授权提交 Canvas。",
       "deliverable": "决定方法冻结后怎样评价，并清楚披露哪些时期已经看过。",
-      "next_action": "读取A接续说明，用已核A资料制作新PPT，供本人/小组过目修改；未获最终版本新授权前不得提交。",
-      "my_next_action": "读取A接续说明，用已核A资料制作新PPT，供本人/小组过目修改；未获最终版本新授权前不得提交。",
+      "next_action": "全组先熟悉各自页面的数字、结论和转场，再安排一轮计时排练；6 号统筹记录各人实际用时、超时或答不清的问题，按页码交当前 PPT 制作会话统一修订。具体排练时间待定，当前不得提交 Canvas。",
+      "my_next_action": "统筹一轮计时排练，记录各人的实际用时、问题及页码；时间待定。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -52,6 +52,10 @@
         {
           "label": "课程监督回传，分列真实团队与本地对照",
           "url": null
+        },
+        {
+          "label": "A v2 认可状态：本人转述已核原消息",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/07bfcac704da37deb34d15ebf7fe8b0e5e2e685e/slides/a-draft-20261115/decision.json"
         }
       ],
       "history": [
@@ -109,6 +113,11 @@
           "observed_on": "2026-11-15",
           "status": "needs_review",
           "note": "记录7图分歧和重投过程；本人最新确认A制作路线。原B及成果保留，A稿/理解准备/提交未完成，不编全员票数。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "needs_review",
+          "note": "本人转述全组认可 A v2；排练、掌握和提交不因此完成。"
         }
       ]
     },
@@ -602,15 +611,15 @@
     },
     {
       "id": "delivery",
-      "title": "冻结方法、合稿与提交",
-      "status": "unknown",
+      "title": "A v2 团队认可后排练与交付",
+      "status": "in_progress",
       "owner": "全组；本人负责统筹",
       "owner_role": "team",
       "scope": "team",
-      "summary": "第三轮已发群；本地18图及完整对照已备。真实成员第三轮结果、最终采用与H07仍待，按12日21:00展示采用截止推进。",
+      "summary": "本人已转述全组认可当前 A v2，下一步按本版熟悉讲稿、计时排练和检查转场。PPT、PDF、数据与讲稿正文未改；3 号讲第 4、5 页共预算 150 秒，5 号讲第 6 页预算 55 秒。成员掌握及真人排练尚未核实，仍未授权提交 Canvas。",
       "deliverable": "按同一版结论交 Slides、讲稿与报告，再核排练和提交回执。",
-      "next_action": "并行收 H07，补交接说明并记录真实正式冻结。四月结果作为已见补充评估披露。",
-      "my_next_action": null,
+      "next_action": "全组先熟悉各自页面的数字、结论和转场，再安排一轮计时排练；6 号统筹记录各人实际用时、超时或答不清的问题，按页码交当前 PPT 制作会话统一修订。具体排练时间待定，当前不得提交 Canvas。",
+      "my_next_action": "统筹一轮计时排练，记录各人的实际用时、问题及页码；时间待定。",
       "depends_on": [
         "clusters",
         "scope",
@@ -668,8 +677,11 @@
         {
           "id": "slides",
           "label": "Slides／讲稿已合并并核数",
-          "status": "unknown",
-          "evidence": []
+          "status": "pass",
+          "evidence": [
+            "ppt-A-draft-manifest",
+            "ppt-A-draft-review"
+          ]
         },
         {
           "id": "receipt",
@@ -685,13 +697,17 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-10",
+      "observed_on": "2026-11-15",
       "estimated_minutes": null,
-      "state_basis": "沿用已有核验；未凭文件存在推定正式提交。",
+      "state_basis": "A v2 合稿核数与本人转述认可已完成；排练、后续修改和提交分别记录。",
       "evidence": [
         {
           "label": "课程当前进度记录及总监督管理复核；依据日期 2026-11-10",
           "url": null
+        },
+        {
+          "label": "A v2 认可状态：本人转述已核原消息",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/07bfcac704da37deb34d15ebf7fe8b0e5e2e685e/slides/a-draft-20261115/decision.json"
         }
       ],
       "history": [
@@ -699,6 +715,11 @@
           "observed_on": "2026-11-10",
           "status": "unknown",
           "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "unknown",
+          "note": "本人转述全组认可 A v2；排练、掌握和提交不因此完成。"
         }
       ]
     },
@@ -1235,15 +1256,15 @@
     },
     {
       "id": "date-slides-merge",
-      "title": "合稿、核数（建议）",
-      "status": "planned",
+      "title": "A v2 合稿、核数与团队认可",
+      "status": "done",
       "owner": "全组；提交代表待确认",
       "owner_role": "team",
       "scope": "team",
-      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "summary": "A v2 合稿与定向核验已完成；2026-11-15 本人转述全组认可当前版本。",
       "deliverable": "合稿、核数（建议）",
-      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
-      "my_next_action": null,
+      "next_action": "全组先熟悉各自页面的数字、结论和转场，再安排一轮计时排练；6 号统筹记录各人实际用时、超时或答不清的问题，按页码交当前 PPT 制作会话统一修订。具体排练时间待定，当前不得提交 Canvas。",
+      "my_next_action": "统筹一轮计时排练，记录各人的实际用时、问题及页码；时间待定。",
       "depends_on": [
         "date-slides-sections"
       ],
@@ -1251,8 +1272,8 @@
       "acceptance": [
         {
           "id": "receipt",
-          "label": "对应交件或活动有可核完成记录",
-          "status": "unknown"
+          "label": "A v2 成品与核验记录可查，本人转述团队认可",
+          "status": "pass"
         }
       ],
       "target": {
@@ -1261,10 +1282,10 @@
         "basis": "proposed"
       },
       "started_on": null,
-      "completed_on": null,
-      "observed_on": "2026-11-10",
+      "completed_on": "2026-11-15",
+      "observed_on": "2026-11-15",
       "estimated_minutes": null,
-      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "state_basis": "原 11 月 14 日 12:00 为历史建议；实际完成日期按当前 v2 成品与本人反馈记录。",
       "evidence": [
         {
           "label": "已发布的六人协作与交付倒排",
@@ -1276,21 +1297,26 @@
           "observed_on": "2026-11-10",
           "status": "planned",
           "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "done",
+          "note": "A v2 成品和定向核验已核，团队认可按本人转述记录；排练及提交仍未完成。"
         }
       ],
       "milestone_kind": "internal"
     },
     {
       "id": "date-slides-rehearse",
-      "title": "全员计时排练和问答（建议）",
+      "title": "按已认可 A v2 熟悉讲稿、计时排练与问答",
       "status": "planned",
-      "owner": "全组；提交代表待确认",
+      "owner": "全组；6 号统筹",
       "owner_role": "team",
       "scope": "team",
-      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
-      "deliverable": "全员计时排练和问答（建议）",
-      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
-      "my_next_action": null,
+      "summary": "A v2 内容已获团队认可；全组仍需熟悉讲稿、检查转场并记录真人用时和答问问题。",
+      "deliverable": "每位成员的实际用时、全程用时、转场问题及按页码整理的修订清单。",
+      "next_action": "全组先熟悉各自页面的数字、结论和转场，再安排一轮计时排练；6 号统筹记录各人实际用时、超时或答不清的问题，按页码交当前 PPT 制作会话统一修订。具体排练时间待定，当前不得提交 Canvas。",
+      "my_next_action": "统筹一轮计时排练，记录各人的实际用时、问题及页码；时间待定。",
       "depends_on": [
         "date-slides-merge"
       ],
@@ -1303,15 +1329,15 @@
         }
       ],
       "target": {
-        "value": "2026-11-14T19:00:00+08:00",
-        "precision": "datetime",
-        "basis": "proposed"
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-10",
+      "observed_on": "2026-11-15",
       "estimated_minutes": null,
-      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "state_basis": "本人转述团队认可后进入讲稿熟悉/排练准备；新排练时间未提供，真人完成状态未知。",
       "evidence": [
         {
           "label": "已发布的六人协作与交付倒排",
@@ -1323,6 +1349,11 @@
           "observed_on": "2026-11-10",
           "status": "planned",
           "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "planned",
+          "note": "原 11 月 14 日 19:00 为已过建议，未证实执行；本次按已认可 A v2 继续安排，具体时间待定。"
         }
       ],
       "milestone_kind": "internal"
@@ -2757,15 +2788,15 @@
     },
     {
       "id": "ppt-a-first-draft-review",
-      "title": "A初稿v2技术接收（辅助，非最终批准）",
+      "title": "A v2 技术接收与团队认可记录",
       "status": "done",
       "owner": "当前PPT制作会话制稿；总监督直接同步；本人组织组审",
       "owner_role": "me",
       "scope": "supporting",
-      "summary": "当前A初稿v2已核并Git发布：P4按本人指定H04 v0.2七方法CSV展示50/46/45/44/36/35/30，以Top10%命中选择weighted LR；P5起仍R3，分数/名单版本不混。3号经本人转达改讲P4/5共150秒，5号P6为55秒；964词、16问答。仍待全组审阅与真人排练，禁止提交不变。",
+      "summary": "本人已转述全组认可当前 A v2，下一步按本版熟悉讲稿、计时排练和检查转场。PPT、PDF、数据与讲稿正文未改；3 号讲第 4、5 页共预算 150 秒，5 号讲第 6 页预算 55 秒。成员掌握及真人排练尚未核实，仍未授权提交 Canvas。",
       "deliverable": "A v2 12页PPT/PDF/讲稿与16问答，P4指定CSV和P4→P5版本转场、3号P4/5、5号P6。",
-      "next_action": "沿GitHub收v2页码化意见并修订；全员认领/排练/最终采用与提交授权仍待实际。",
-      "my_next_action": "把A稿和各自讲稿交成员，收问题与修改建议。",
+      "next_action": "全组先熟悉各自页面的数字、结论和转场，再安排一轮计时排练；6 号统筹记录各人实际用时、超时或答不清的问题，按页码交当前 PPT 制作会话统一修订。具体排练时间待定，当前不得提交 Canvas。",
+      "my_next_action": "统筹一轮计时排练，记录各人的实际用时、问题及页码；时间待定。",
       "depends_on": [
         "route-a-reconfirmation"
       ],
@@ -2790,7 +2821,7 @@
         },
         {
           "id": "boundary",
-          "label": "仅初稿技术接收，不自动批准配置/成员掌握/提交",
+          "label": "技术接收、团队认可、成员掌握与提交分别记录",
           "status": "pass",
           "evidence": [
             "ppt-A-draft-decision"
@@ -2806,11 +2837,15 @@
       "completed_on": "2026-11-15",
       "observed_on": "2026-11-15",
       "estimated_minutes": null,
-      "state_basis": "直接制作会话成果回传；不计主任务完成，不作为Canvas授权。",
+      "state_basis": "技术接收已核；团队认可来自本人明确反馈，不等于掌握、真人排练或提交授权。",
       "evidence": [
         {
           "label": "当前A第一稿协作入口",
           "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/tree/main/slides/a-draft-20261115"
+        },
+        {
+          "label": "A v2 认可状态：本人转述已核原消息",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/07bfcac704da37deb34d15ebf7fe8b0e5e2e685e/slides/a-draft-20261115/decision.json"
         }
       ],
       "history": [
@@ -2823,9 +2858,14 @@
           "observed_on": "2026-11-15",
           "status": "done",
           "note": "按本人新增P4数据/3号讲P5请求完成v2，核心状态不变，不增主任务done。"
+        },
+        {
+          "observed_on": "2026-11-15",
+          "status": "done",
+          "note": "本人转述全组认可 A v2；排练、掌握和提交不因此完成。"
         }
       ]
     }
   ],
-  "basis_management_revision": "95d1ef09c45a88cbba359f532f25b50247cd6bd0a946bd9342f1cb95cb7f0755"
+  "basis_management_revision": "03b63694b7bafc80c6ba1409223b05569d83bf025fea685dc714fe0c39c0181b"
 }

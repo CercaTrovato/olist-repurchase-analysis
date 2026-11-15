@@ -1,10 +1,10 @@
-# 92科学素材与A初稿v2：待组审，禁止提交
+# 92 科学素材与 A v2：已获团队认可，排练待做
 
 P4更新为H04七方法筛选，P5起R3仍分开；3号P4/5、5号P6。图库92科学图未新增或改动，PPT定向修改不算新科研。
 
 [当前GitHub](https://github.com/CercaTrovato/olist-repurchase-analysis/tree/main/slides/a-draft-20261115) · [v2讲稿/分工/16问答](../../slides/a-draft-20261115/README.md) · [PPTX v2](../../slides/a-draft-20261115/IS6400_SixSigma_A_Draft_v2.pptx) · [PDF v2](../../slides/a-draft-20261115/IS6400_SixSigma_A_Draft_v2.pdf)
 
-[历史B完整包](https://cityu-board-online.vercel.app/)。当前仍待全组审阅与真人排练，未获提交授权。
+[历史B完整包](https://cityu-board-online.vercel.app/)。本人已转述全组认可当前 A v2，下一步按本版熟悉讲稿、计时排练和检查转场。PPT、PDF、数据与讲稿正文未改；3 号讲第 4、5 页共预算 150 秒，5 号讲第 6 页预算 55 秒。成员掌握及真人排练尚未核实，仍未授权提交 Canvas。
 
 ## 历史 85 图（按既有资料顺序）
 

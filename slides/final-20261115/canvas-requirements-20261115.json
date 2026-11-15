@@ -29,5 +29,7 @@
   "file_selected": false,
   "file_uploaded": false,
   "submitted": false,
-  "pending": "User review of final deck, explicit final-version adoption/submission confirmation, representative account verification, actual upload acceptance and submission receipt."
+  "pending": "Group member review and revisions first. Submission is expressly not authorized now. Any later submission requires explicit approval of the final version.",
+  "user_latest_instruction": "不能提交，整体方向对的，我说了这是第一版，我还需要给小组成员过目并且修改",
+  "submission_authorized": false
 }

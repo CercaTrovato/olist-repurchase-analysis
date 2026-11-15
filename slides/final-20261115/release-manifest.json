@@ -1,20 +1,20 @@
 {
-  "version": "B-review-20261115-v1",
+  "version": "B-first-draft-20261115-v1",
   "route_confirmed": true,
   "user_reviewed": false,
   "specific_configuration_adopted": false,
   "submitted": false,
   "pptx_sha256": "48ff654288a6263bfd8894b05a074cefb7905c96ff717d49826e8fab0929345c",
   "files": {
-    "README.md": "631afacb7126a5ec2a66e0d0ebba8cfc61555b574387dd6f896bb1dbb57b7881",
+    "README.md": "5a8edf1b11d51c5743608541b4e2df5836b93a258a3cc176c05fb005448a9a2e",
     "IS6400_SixSigma_Final_Presentation.pptx": "48ff654288a6263bfd8894b05a074cefb7905c96ff717d49826e8fab0929345c",
     "IS6400_SixSigma_Final_Presentation.pdf": "d8b49afe7518f69b37962b55dbaf32bec88a36ed933f768cd90fee31b40e4913",
-    "成员分工与人类可读说明.md": "1d579ea51630c74ab8785daad4ec8b32284cae19f86e69cb3e767a5418e29174",
+    "成员分工与人类可读说明.md": "76646260b291226cb58eedfb76829d270b30fdf666c52025a6e996c96d7793fb",
     "英文讲稿与中文排练.md": "fdeead8710908fb033c1a99190d67fdddf85b9076233fedbc548309b17358716",
     "双语备问答.md": "febaab8556c69bd6d3f920e72f47a94221f9cf2baa52016cd1740d9c7ffb8bc2",
     "逐页证据表.md": "b5b1215b17de94d640dc358384229e2df4778724c6b7e3011ad767756be7bfc1",
-    "核验回执.md": "3783d55ce018739659e34359b2b811e4d7db24ce80efbbddfce8c83dbc20747c",
-    "canvas-requirements-20261115.json": "9061c5ac7f1a623fbc50c3d67e2378ae08c696de7a1e556b505f1cbd5c1ea245",
+    "核验回执.md": "e014771eff969f9bfacf5f56c1f3ecd5783baf75c181dd6555187c03eb27d701",
+    "canvas-requirements-20261115.json": "11c2a10c0451dde5ba24fe53f4d25fb931a0569bcd36b8441c2a542e989c1643",
     "verification.json": "2e58db208fcda7c327f8cc1c5421db544f917cfb83c994397bb5f186b5bbe0a7",
     "review/independent-review.md": "fac838cd85d0edeed4355153cd97110c25fea2f40a4c472def6f3a94393f8d8f",
     "source/slide-content.json": "32ec832db99dcc2a15a139b04cc7a9f1b0be5b1abf45e4239644b973f6d48d81",
@@ -31,5 +31,8 @@
     "rendered/slide-10.png": "f4bcca2547774e0c511da57f4eb4fa3ea6bb7feeb4e4d8d79cc68f7f45a59de5",
     "rendered/slide-11.png": "01e40e02536eefb85398907fc0f5a3ef4458758fdd52d6b8b0cbee1ee5850d3e",
     "rendered/slide-12.png": "a3c99e2ea2a3d2a05dcdfb5fd8feed3668316430891c734ce38c09616adf9da6"
-  }
+  },
+  "stage": "group_review_and_revision",
+  "submission_authorized": false,
+  "user_latest_instruction": "不能提交，整体方向对的，我说了这是第一版，我还需要给小组成员过目并且修改"
 }

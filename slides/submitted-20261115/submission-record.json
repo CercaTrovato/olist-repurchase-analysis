@@ -9,13 +9,24 @@
   "exact_submission_time": null,
   "actual_submitter_account": null,
   "assistant_canvas_operation": false,
-  "presentation_user_statement": "确认了这周三上课的时候要pre",
-  "presentation_date": "2026-11-18",
-  "presentation_date_basis": "User confirmed Wednesday class; interpreted as upcoming Wednesday from 2026-11-15",
+  "presentation_user_statement": "6400的pre时间已确定，我们是six sigma，也就是下周三",
+  "presentation_date": "2026-11-25",
+  "presentation_date_basis": "用户于2026-11-17确认下周三；截图列Six Sigma在Week13、第2组。日期由用户说明结合当前日期换算。",
   "presentation_clock_time": null,
   "slides": 13,
   "main_slides": 9,
   "backup_slides": 4,
   "source_file_preserved": true,
-  "pdf_is_locally_derived_preview_not_confirmed_uploaded": true
+  "pdf_is_locally_derived_preview_not_confirmed_uploaded": true,
+  "presentation_week": 13,
+  "presentation_order_within_week": 2,
+  "presentation_schedule_updated_on": "2026-11-17",
+  "presentation_schedule_history": [
+    {
+      "date": "2026-11-18",
+      "basis": "User confirmed Wednesday class; interpreted as upcoming Wednesday from 2026-11-15",
+      "superseded_on": "2026-11-17",
+      "user_statement": "确认了这周三上课的时候要pre"
+    }
+  ]
 }

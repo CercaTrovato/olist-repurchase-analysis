@@ -3,23 +3,23 @@
   "assignment_id": "IS6400-A06",
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
-  "as_of": "2026-11-15",
-  "basis_revision": "2c98b215e373a60f67b1991b9e27ab369ffe19f41b56a04ec2e5021c529e8a88",
+  "as_of": "2026-11-20",
+  "basis_revision": "28939f68c189e3f53a340d29e6ce13182608440239b44c12aed91600543c2cee",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "Six Sigma 展示已确定为 11 月 25 日（周三），Week 13、第 2 组；具体钟点未新核。最终 13 页 PPT 仍为本人确认已提交 Canvas，独立回执待补。接下来按最终稿准备展示与问答，报告继续推进。",
+  "summary": "当前展示采用最终已提交的 13 页 PPT（本人确认）；11 月 25 日、Week 13、第 2 组，准确钟点未新核。主讲页码：1号3、2号4、3号5/6、4号8、5号7、6号1/2/9。本人确认的提交事实保留，独立成功回执待补而不重交；真人计时、问答熟练度与最终报告继续单独推进。A/B、已见四月及辅助研究保留历史，不再作为重新投票、重训或重做 PPT 的待办。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
       "id": "scope",
-      "title": "确定最终评价口径",
+      "title": "当前展示采用最终已提交13页稿",
       "status": "needs_review",
       "owner": "本人 · 总监督",
       "owner_role": "me",
       "scope": "team",
-      "summary": "本人已提供最终 13 页 PPT，并明确确认已提交 Canvas；Slides 待提交事项已关闭。本人同时确认 11 月 25 日（周三）课堂展示，具体钟点未新核。成功页面、准确提交时刻和实际账号仍待独立核验；这项证据缺口不改变本人确认已提交的状态。",
+      "summary": "当前展示采用最终已提交的 13 页 PPT（本人确认）；11 月 25 日、Week 13、第 2 组，准确钟点未新核。主讲页码：1号3、2号4、3号5/6、4号8、5号7、6号1/2/9。本人确认的提交事实保留，独立成功回执待补而不重交；真人计时、问答熟练度与最终报告继续单独推进。A/B、已见四月及辅助研究保留历史，不再作为重新投票、重训或重做 PPT 的待办。",
       "deliverable": "决定方法冻结后怎样评价，并清楚披露哪些时期已经看过。",
-      "next_action": "按最终 13 页版本准备 11 月 25 日课堂展示：各成员核对自己页面、数字和转场，再按本人安排进行真人计时与问答准备。已有提交回执可补存以核准确时刻和实际账号；不再催 3 号提交，不修改或重新提交已交附件。",
-      "my_next_action": "按最终稿准备第 1、2、9 页并统筹 11 月 25 日展示；已有提交回执可补存，不重新提交。",
+      "next_action": "按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。",
+      "my_next_action": "按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -39,15 +39,15 @@
         }
       ],
       "target": {
-        "value": "2026-11-12",
-        "precision": "date",
-        "basis": "proposed"
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-17",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
-      "state_basis": "沿用已有核验；未凭文件存在推定正式提交。 本日期为总监督建议，待相关成员确认，不改变正式截止。",
+      "state_basis": "沿用已有核验；未凭文件存在推定正式提交。 本日期为总监督建议，待相关成员确认，不改变正式截止。 原内部建议日期已过，实际完成未证；旧日期保存在 history，不自动改期或判迟交。",
       "evidence": [
         {
           "label": "课程监督回传，分列真实团队与本地对照",
@@ -141,6 +141,31 @@
           "observed_on": "2026-11-17",
           "status": "needs_review",
           "note": "最新截图与本人确认：Six Sigma Week13第2组，日期11/25，替代旧11/18；不改Slides已提交状态。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "needs_review",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "status": "needs_review",
+            "target": {
+              "value": "2026-11-12",
+              "precision": "date",
+              "basis": "proposed"
+            },
+            "state_basis": "沿用已有核验；未凭文件存在推定正式提交。 本日期为总监督建议，待相关成员确认，不改变正式截止。"
+          }
+        },
+        {
+          "on": "2026-11-20",
+          "status": "needs_review",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "title": "确定最终评价口径",
+            "summary": "本人已提供最终 13 页 PPT，并明确确认已提交 Canvas；Slides 待提交事项已关闭。本人同时确认 11 月 25 日（周三）课堂展示，具体钟点未新核。成功页面、准确提交时刻和实际账号仍待独立核验；这项证据缺口不改变本人确认已提交的状态。",
+            "next_action": "按最终 13 页版本准备 11 月 25 日课堂展示：各成员核对自己页面、数字和转场，再按本人安排进行真人计时与问答准备。已有提交回执可补存以核准确时刻和实际账号；不再催 3 号提交，不修改或重新提交已交附件。",
+            "my_next_action": "按最终稿准备第 1、2、9 页并统筹 11 月 25 日展示；已有提交回执可补存，不重新提交。"
+          }
         }
       ]
     },
@@ -492,7 +517,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-12",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "沿用已有核验；未凭文件存在推定正式提交。",
       "evidence": [
@@ -609,15 +634,15 @@
         }
       ],
       "target": {
-        "value": "2026-11-12",
-        "precision": "date",
-        "basis": "proposed"
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-10",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
-      "state_basis": "沿用已有核验；未凭文件存在推定正式提交。 本日期为总监督建议，待相关成员确认，不改变正式截止。",
+      "state_basis": "沿用已有核验；未凭文件存在推定正式提交。 本日期为总监督建议，待相关成员确认，不改变正式截止。 原内部建议日期已过，实际完成未证；旧日期保存在 history，不自动改期或判迟交。",
       "evidence": [
         {
           "label": "H04 v0.4 四月评分补件核验摘要",
@@ -629,6 +654,20 @@
           "observed_on": "2026-11-10",
           "status": "needs_review",
           "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "needs_review",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "status": "needs_review",
+            "target": {
+              "value": "2026-11-12",
+              "precision": "date",
+              "basis": "proposed"
+            },
+            "state_basis": "沿用已有核验；未凭文件存在推定正式提交。 本日期为总监督建议，待相关成员确认，不改变正式截止。"
+          }
         }
       ]
     },
@@ -639,55 +678,30 @@
       "owner": "全组；本人负责统筹",
       "owner_role": "team",
       "scope": "team",
-      "summary": "本人已提供最终 13 页 PPT，并明确确认已提交 Canvas；Slides 待提交事项已关闭。本人同时确认 11 月 25 日（周三）课堂展示，具体钟点未新核。成功页面、准确提交时刻和实际账号仍待独立核验；这项证据缺口不改变本人确认已提交的状态。",
+      "summary": "当前展示采用最终已提交的 13 页 PPT（本人确认）；11 月 25 日、Week 13、第 2 组，准确钟点未新核。主讲页码：1号3、2号4、3号5/6、4号8、5号7、6号1/2/9。本人确认的提交事实保留，独立成功回执待补而不重交；真人计时、问答熟练度与最终报告继续单独推进。A/B、已见四月及辅助研究保留历史，不再作为重新投票、重训或重做 PPT 的待办。",
       "deliverable": "按同一版结论交 Slides、讲稿与报告，再核排练和提交回执。",
-      "next_action": "按最终 13 页版本准备 11 月 25 日课堂展示：各成员核对自己页面、数字和转场，再按本人安排进行真人计时与问答准备。已有提交回执可补存以核准确时刻和实际账号；不再催 3 号提交，不修改或重新提交已交附件。",
-      "my_next_action": "按最终稿准备第 1、2、9 页并统筹 11 月 25 日展示；已有提交回执可补存，不重新提交。",
+      "next_action": "按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。",
+      "my_next_action": "按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。",
       "depends_on": [
-        "clusters",
-        "scope",
-        "feedback",
-        "prediction",
-        "team-april"
+        "ppt-a-first-draft-review",
+        "date-slides"
       ],
       "dependency_gates": [
         {
-          "task_id": "clusters",
+          "task_id": "ppt-a-first-draft-review",
           "check_ids": [
-            "code"
+            "files",
+            "review",
+            "boundary"
           ],
-          "note": "复跑材料齐全"
+          "note": "最终13页原件及归档/提交事实边界已核"
         },
         {
-          "task_id": "scope",
+          "task_id": "date-slides",
           "check_ids": [
-            "final"
+            "receipt"
           ],
-          "note": "基于十月/一月的正式冻结记录"
-        },
-        {
-          "task_id": "feedback",
-          "check_ids": [
-            "comparison"
-          ],
-          "note": "已核一月H06可用于合稿"
-        },
-        {
-          "task_id": "prediction",
-          "check_ids": [
-            "manifest"
-          ],
-          "note": "已核文件与一月结果用于合稿"
-        },
-        {
-          "task_id": "team-april",
-          "check_ids": [
-            "entry",
-            "model",
-            "rows",
-            "wording"
-          ],
-          "note": "数字已核；合稿时写准确的评价说明"
+          "note": "保留本人确认已提交事实"
         }
       ],
       "acceptance": [
@@ -720,7 +734,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-17",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "Slides 本人确认已提交；课堂展示/报告与回执独立核验仍分别待完成。",
       "evidence": [
@@ -766,6 +780,71 @@
           "observed_on": "2026-11-17",
           "status": "in_progress",
           "note": "最新截图与本人确认：Six Sigma Week13第2组，日期11/25，替代旧11/18；不改Slides已提交状态。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "in_progress",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "title": "Slides 已提交，课堂展示与报告继续",
+            "summary": "本人已提供最终 13 页 PPT，并明确确认已提交 Canvas；Slides 待提交事项已关闭。本人同时确认 11 月 25 日（周三）课堂展示，具体钟点未新核。成功页面、准确提交时刻和实际账号仍待独立核验；这项证据缺口不改变本人确认已提交的状态。",
+            "next_action": "按最终 13 页版本准备 11 月 25 日课堂展示：各成员核对自己页面、数字和转场，再按本人安排进行真人计时与问答准备。已有提交回执可补存以核准确时刻和实际账号；不再催 3 号提交，不修改或重新提交已交附件。",
+            "my_next_action": "按最终稿准备第 1、2、9 页并统筹 11 月 25 日展示；已有提交回执可补存，不重新提交。"
+          }
+        },
+        {
+          "observed_on": "2026-11-20",
+          "status": "in_progress",
+          "note": "R5：当前展示不再依赖旧研究冻结/四月措辞门槛；这些缺口移入报告依赖",
+          "previous": {
+            "depends_on": [
+              "clusters",
+              "scope",
+              "feedback",
+              "prediction",
+              "team-april"
+            ],
+            "dependency_gates": [
+              {
+                "task_id": "clusters",
+                "check_ids": [
+                  "code"
+                ],
+                "note": "复跑材料齐全"
+              },
+              {
+                "task_id": "scope",
+                "check_ids": [
+                  "final"
+                ],
+                "note": "基于十月/一月的正式冻结记录"
+              },
+              {
+                "task_id": "feedback",
+                "check_ids": [
+                  "comparison"
+                ],
+                "note": "已核一月H06可用于合稿"
+              },
+              {
+                "task_id": "prediction",
+                "check_ids": [
+                  "manifest"
+                ],
+                "note": "已核文件与一月结果用于合稿"
+              },
+              {
+                "task_id": "team-april",
+                "check_ids": [
+                  "entry",
+                  "model",
+                  "rows",
+                  "wording"
+                ],
+                "note": "数字已核；合稿时写准确的评价说明"
+              }
+            ]
+          }
         }
       ]
     },
@@ -776,10 +855,10 @@
       "owner": "本人 · 统筹",
       "owner_role": "me",
       "scope": "team",
-      "summary": "本人已提供最终 13 页 PPT，并明确确认已提交 Canvas；Slides 待提交事项已关闭。本人同时确认 11 月 25 日（周三）课堂展示，具体钟点未新核。成功页面、准确提交时刻和实际账号仍待独立核验；这项证据缺口不改变本人确认已提交的状态。",
+      "summary": "当前展示采用最终已提交的 13 页 PPT（本人确认）；11 月 25 日、Week 13、第 2 组，准确钟点未新核。主讲页码：1号3、2号4、3号5/6、4号8、5号7、6号1/2/9。本人确认的提交事实保留，独立成功回执待补而不重交；真人计时、问答熟练度与最终报告继续单独推进。A/B、已见四月及辅助研究保留历史，不再作为重新投票、重训或重做 PPT 的待办。",
       "deliverable": "完成核对或交接，并将实际答复更新回任务记录。",
-      "next_action": "按最终 13 页版本准备 11 月 25 日课堂展示：各成员核对自己页面、数字和转场，再按本人安排进行真人计时与问答准备。已有提交回执可补存以核准确时刻和实际账号；不再催 3 号提交，不修改或重新提交已交附件。",
-      "my_next_action": "按最终稿准备第 1、2、9 页并统筹 11 月 25 日展示；已有提交回执可补存，不重新提交。",
+      "next_action": "按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。",
+      "my_next_action": "按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -796,7 +875,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-17",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "本人11/17确认下周三展示，结合分周截图为11/25 Week13第2组；准确钟点未知。",
       "evidence": [
@@ -858,6 +937,17 @@
           "observed_on": "2026-11-17",
           "status": "in_progress",
           "note": "最新截图与本人确认：Six Sigma Week13第2组，日期11/25，替代旧11/18；不改Slides已提交状态。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "in_progress",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "title": "本人下一步：准备 11 月 25 日课堂展示",
+            "summary": "本人已提供最终 13 页 PPT，并明确确认已提交 Canvas；Slides 待提交事项已关闭。本人同时确认 11 月 25 日（周三）课堂展示，具体钟点未新核。成功页面、准确提交时刻和实际账号仍待独立核验；这项证据缺口不改变本人确认已提交的状态。",
+            "next_action": "按最终 13 页版本准备 11 月 25 日课堂展示：各成员核对自己页面、数字和转场，再按本人安排进行真人计时与问答准备。已有提交回执可补存以核准确时刻和实际账号；不再催 3 号提交，不修改或重新提交已交附件。",
+            "my_next_action": "按最终稿准备第 1、2、9 页并统筹 11 月 25 日展示；已有提交回执可补存，不重新提交。"
+          }
         }
       ]
     },
@@ -888,7 +978,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-12",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "先等 3 号返回修订说明，收到后才能核阅；已交评分材料不重复催。",
       "evidence": [
@@ -995,7 +1085,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-17",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "用户于2026-11-17确认下周三；截图列Six Sigma在Week13、第2组。日期由用户说明结合当前日期换算。",
       "evidence": [
@@ -1042,8 +1132,26 @@
       "deliverable": "最终报告",
       "next_action": "核对本节点交件负责人、前置版本与实际回执。",
       "my_next_action": null,
-      "depends_on": [],
-      "dependency_gates": [],
+      "depends_on": [
+        "scope",
+        "team-april"
+      ],
+      "dependency_gates": [
+        {
+          "task_id": "scope",
+          "check_ids": [
+            "final"
+          ],
+          "note": "报告须如实记录研究版本/选择依据"
+        },
+        {
+          "task_id": "team-april",
+          "check_ids": [
+            "wording"
+          ],
+          "note": "报告保留已见窗口和重拟合的准确说明"
+        }
+      ],
       "acceptance": [
         {
           "id": "receipt",
@@ -1058,7 +1166,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-10",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
       "evidence": [
@@ -1076,6 +1184,15 @@
           "observed_on": "2026-11-10",
           "status": "planned",
           "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        },
+        {
+          "observed_on": "2026-11-20",
+          "status": "planned",
+          "note": "R5：研究冻结与四月措辞缺口保留到正式报告，平行于已提交稿的展示准备",
+          "previous": {
+            "depends_on": [],
+            "dependency_gates": []
+          }
         }
       ],
       "milestone_kind": "submission"
@@ -1083,7 +1200,7 @@
     {
       "id": "date-direction",
       "title": "同步已定方向、核 H01 口径并收各岗回报（建议）",
-      "status": "planned",
+      "status": "needs_review",
       "owner": "全组；提交代表待确认",
       "owner_role": "team",
       "scope": "team",
@@ -1101,15 +1218,15 @@
         }
       ],
       "target": {
-        "value": "2026-11-07T21:00:00+08:00",
-        "precision": "datetime",
-        "basis": "proposed"
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-10",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
-      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。 原内部建议日期已过，实际完成未证；旧日期保存在 history，不自动改期或判迟交。",
       "evidence": [
         {
           "label": "本人确认 A 主线，B 为分群后的补充",
@@ -1125,6 +1242,20 @@
           "observed_on": "2026-11-10",
           "status": "planned",
           "note": "首次纳入统一时间线；该日为核实日期，不代替实际完成日。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "needs_review",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "status": "planned",
+            "target": {
+              "value": "2026-11-07T21:00:00+08:00",
+              "precision": "datetime",
+              "basis": "proposed"
+            },
+            "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。"
+          }
         }
       ],
       "milestone_kind": "internal"
@@ -1237,15 +1368,15 @@
     },
     {
       "id": "date-method-freeze",
-      "title": "冻结分析方法（建议）",
+      "title": "历史方法冻结排期的实际记录待核",
       "status": "needs_review",
       "owner": "全组；提交代表待确认",
       "owner_role": "team",
       "scope": "team",
-      "summary": "当前PPT路线A已确认，另一会话制作A稿；具体定稿版本/指标呈现及成员讲述准备另核，不能把B稿当A成品。",
+      "summary": "旧约定为11月12日21:00；真实研究版本、选择依据和已见窗口披露的完整记录仍待核。后续最终13页A稿已由本人确认提交，旧冻结排期不要求重新制作或提交PPT。",
       "deliverable": "冻结分析方法（建议）",
-      "next_action": "读取A接续说明，用已核A资料制作新PPT，供本人/小组过目修改；未获最终版本新授权前不得提交。",
-      "my_next_action": "读取A接续说明，用已核A资料制作新PPT，供本人/小组过目修改；未获最终版本新授权前不得提交。",
+      "next_action": "只补核真实研究版本与选择/披露记录，供最终报告使用；当前按已提交最终稿准备展示。",
+      "my_next_action": "核历史研究版本与选择记录；不制作新PPT、不重新提交。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -1262,9 +1393,9 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-15",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
-      "state_basis": "本人2026-11-11明确同意展示方法采用截止；成员交付承诺另记。",
+      "state_basis": "本人2026-11-11明确同意展示方法采用截止；成员交付承诺另记。 原日期已过，活动或执行结果待核，不据日历认定完成或未完成。",
       "evidence": [
         {
           "label": "已发布的六人协作与交付倒排",
@@ -1306,6 +1437,26 @@
           "observed_on": "2026-11-15",
           "status": "needs_review",
           "note": "记录7图分歧和重投过程；本人最新确认A制作路线。原B及成果保留，A稿/理解准备/提交未完成，不编全员票数。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "needs_review",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "status": "needs_review",
+            "state_basis": "本人2026-11-11明确同意展示方法采用截止；成员交付承诺另记。"
+          }
+        },
+        {
+          "observed_on": "2026-11-20",
+          "status": "needs_review",
+          "note": "R4定向修复，当前展示制作/提交已由后续真实记录覆盖，旧约定及未知科研冻结不删除",
+          "previous": {
+            "title": "冻结分析方法（建议）",
+            "summary": "当前PPT路线A已确认，另一会话制作A稿；具体定稿版本/指标呈现及成员讲述准备另核，不能把B稿当A成品。",
+            "next_action": "读取A接续说明，用已核A资料制作新PPT，供本人/小组过目修改；未获最终版本新授权前不得提交。",
+            "my_next_action": "读取A接续说明，用已核A资料制作新PPT，供本人/小组过目修改；未获最终版本新授权前不得提交。"
+          }
         }
       ],
       "milestone_kind": "internal"
@@ -1463,7 +1614,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-15",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "本人转述团队认可后进入讲稿熟悉/排练准备；新排练时间未提供，真人完成状态未知。",
       "evidence": [
@@ -1581,7 +1732,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-15",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "证据补存独立待办，不是提交阻塞，也不影响已提交事实。",
       "evidence": [
@@ -1635,7 +1786,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-10",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
       "evidence": [
@@ -1682,7 +1833,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-10",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
       "evidence": [
@@ -1729,7 +1880,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-10",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
       "evidence": [
@@ -1776,7 +1927,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-10",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
       "evidence": [
@@ -1905,14 +2056,14 @@
     {
       "id": "my-liu-invite-20261115",
       "title": "周日邮件联系 Liu Junming，约周一小组讨论",
-      "status": "planned",
+      "status": "needs_review",
       "owner": "本人 · 6 号统筹",
       "owner_role": "me",
       "scope": "team",
       "summary": "本周日（11 月 15 日）发邮件给 Liu Junming，邀约周一（11 月 16 日）的小组讨论会；具体会面时间尚未确定。",
       "deliverable": "周日邮件联系 Liu Junming，约周一小组讨论的发送记录",
-      "next_action": "11 月 15 日发送邀约邮件，询问并确认 11 月 16 日的可用会面时段；收到回复后更新具体时间。",
-      "my_next_action": null,
+      "next_action": "核11月15–16日原邮件／会面是否已实际发生及其结果；不按过期计划补发 reminder。",
+      "my_next_action": "核原联系与会面结果；没有实际记录则继续未知。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -1929,9 +2080,9 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-11",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
-      "state_basis": "本人明确要求记录看板待办；尚未发出邀约，周一具体会面时刻未定，仅记录相对提前 20 分钟要求，不设置定时通知。",
+      "state_basis": "本人明确要求记录看板待办；尚未发出邀约，周一具体会面时刻未定，仅记录相对提前 20 分钟要求，不设置定时通知。 原日期已过，活动或执行结果待核，不据日历认定完成或未完成。",
       "evidence": [
         {
           "label": "本人于 2026-11-11 在总监督会话安排：只记看板，周一会面时间未定。",
@@ -1943,20 +2094,39 @@
           "observed_on": "2026-11-11",
           "status": "planned",
           "note": "根据本人指示新增；会面日期为拟约周一，教师回复和具体时刻待确认。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "needs_review",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "status": "planned",
+            "state_basis": "本人明确要求记录看板待办；尚未发出邀约，周一具体会面时刻未定，仅记录相对提前 20 分钟要求，不设置定时通知。"
+          }
+        },
+        {
+          "on": "2026-11-20",
+          "status": "needs_review",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "status": "needs_review",
+            "next_action": "11 月 15 日发送邀约邮件，询问并确认 11 月 16 日的可用会面时段；收到回复后更新具体时间。",
+            "my_next_action": null
+          }
         }
       ]
     },
     {
       "id": "my-liu-reminder-20261116",
       "title": "周一见面前 20 分钟给 Liu Junming 发 reminder（时刻待定）",
-      "status": "waiting",
+      "status": "needs_review",
       "owner": "本人 · 6 号统筹",
       "owner_role": "me",
       "scope": "team",
       "summary": "拟于周一（11 月 16 日）去找 Liu Junming。见面前需提前 20 分钟发 reminder；具体会面时刻待教师确认，目前没有可计算的精确发送时间。",
       "deliverable": "周一见面前 20 分钟给 Liu Junming 发 reminder（时刻待定）的发送记录",
-      "next_action": "收到并确认周一会面时刻后，计算“会面开始时间 − 20 分钟”，在该时刻向 Liu Junming 发送 reminder。",
-      "my_next_action": null,
+      "next_action": "核11月15–16日原邮件／会面是否已实际发生及其结果；不按过期计划补发 reminder。",
+      "my_next_action": "核原联系与会面结果；没有实际记录则继续未知。",
       "depends_on": [
         "my-liu-invite-20261115"
       ],
@@ -1974,15 +2144,15 @@
         }
       ],
       "target": {
-        "value": "2026-11-16",
-        "precision": "date",
-        "basis": "proposed"
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-11",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
-      "state_basis": "本人明确要求记录看板待办；尚未发出邀约，周一具体会面时刻未定，仅记录相对提前 20 分钟要求，不设置定时通知。",
+      "state_basis": "本人明确要求记录看板待办；尚未发出邀约，周一具体会面时刻未定，仅记录相对提前 20 分钟要求，不设置定时通知。 原内部建议日期已过，实际完成未证；旧日期保存在 history，不自动改期或判迟交。",
       "evidence": [
         {
           "label": "本人于 2026-11-11 在总监督会话安排：只记看板，周一会面时间未定。",
@@ -1994,6 +2164,30 @@
           "observed_on": "2026-11-11",
           "status": "waiting",
           "note": "根据本人指示新增；会面日期为拟约周一，教师回复和具体时刻待确认。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "needs_review",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "status": "waiting",
+            "target": {
+              "value": "2026-11-16",
+              "precision": "date",
+              "basis": "proposed"
+            },
+            "state_basis": "本人明确要求记录看板待办；尚未发出邀约，周一具体会面时刻未定，仅记录相对提前 20 分钟要求，不设置定时通知。"
+          }
+        },
+        {
+          "on": "2026-11-20",
+          "status": "needs_review",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "status": "needs_review",
+            "next_action": "收到并确认周一会面时刻后，计算“会面开始时间 − 20 分钟”，在该时刻向 Liu Junming 发送 reminder。",
+            "my_next_action": null
+          }
         }
       ]
     },
@@ -2006,8 +2200,8 @@
       "scope": "supporting",
       "summary": "六基线、新字段、时间审计、群画像及13幅PNG/SVG研究图已核。",
       "deliverable": "六基线、新字段、时间审计、群画像及13幅PNG/SVG研究图已核。",
-      "next_action": "与成员新回件对照并决定展示采用内容。",
-      "my_next_action": "与成员新回件对照并决定展示采用内容。",
+      "next_action": "保留已核的阶段成果和原始证据；当前行动在未完成条目另列。",
+      "my_next_action": null,
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -2025,7 +2219,7 @@
       },
       "started_on": "2026-11-11",
       "completed_on": "2026-11-11",
-      "observed_on": "2026-11-11",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "本地影子结果与成员实际交件分开；实际发群状态待本人确认。",
       "evidence": [
@@ -2039,6 +2233,15 @@
           "observed_on": "2026-11-11",
           "status": "done",
           "note": "六基线、新字段、时间审计、群画像及13幅PNG/SVG研究图已核。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "my_next_action": "与成员新回件对照并决定展示采用内容。",
+            "next_action": "与成员新回件对照并决定展示采用内容。"
+          }
         }
       ]
     },
@@ -2051,8 +2254,8 @@
       "scope": "team",
       "summary": "本人已于本课程会话确认第三轮任务已发群。",
       "deliverable": "第三轮1–5号任务实际发群确认。",
-      "next_action": "收成员接单与预计交付时间，按同口径核新回件。",
-      "my_next_action": "收第三轮回件与预计时间。",
+      "next_action": "保留已核的阶段成果和原始证据；当前行动在未完成条目另列。",
+      "my_next_action": null,
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -2070,7 +2273,7 @@
       },
       "started_on": "2026-11-11",
       "completed_on": "2026-11-11",
-      "observed_on": "2026-11-11",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "本人2026-11-11直接确认发群；不推定成员已接单或已交付。",
       "evidence": [
@@ -2089,6 +2292,15 @@
           "observed_on": "2026-11-11",
           "status": "done",
           "note": "用户明确说已发群，派发完成。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "my_next_action": "收第三轮回件与预计时间。",
+            "next_action": "收成员接单与预计交付时间，按同口径核新回件。"
+          }
         }
       ]
     },
@@ -2101,8 +2313,8 @@
       "scope": "supporting",
       "summary": "11候选、完整对照及5幅PNG/SVG已核，共18幅素材。",
       "deliverable": "11候选、完整对照及5幅PNG/SVG已核，共18幅素材。",
-      "next_action": "与成员回件并列比较并确定展示采用。",
-      "my_next_action": "与成员回件并列比较并确定展示采用。",
+      "next_action": "保留已核的阶段成果和原始证据；当前行动在未完成条目另列。",
+      "my_next_action": null,
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -2120,7 +2332,7 @@
       },
       "started_on": "2026-11-11",
       "completed_on": "2026-11-11",
-      "observed_on": "2026-11-11",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "本地辅助与组员实际回传分开，最终模型采用未代本人决定。",
       "evidence": [
@@ -2134,6 +2346,15 @@
           "observed_on": "2026-11-11",
           "status": "done",
           "note": "11候选、完整对照及5幅PNG/SVG已核，共18幅素材。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "my_next_action": "与成员回件并列比较并确定展示采用。",
+            "next_action": "与成员回件并列比较并确定展示采用。"
+          }
         }
       ]
     },
@@ -2144,10 +2365,10 @@
       "owner": "1–5号；本人统筹",
       "owner_role": "team",
       "scope": "team",
-      "summary": "1–5号R3均已实收核验，2号v1.1的20CI修订通过，3/5原记录问题分列；团队最终路线待投票，不由交件或研究完成代替。",
+      "summary": "1–5号R3均已实收核验，2号v1.1的20CI修订通过；3/5号原说明问题仍分列。当前展示已经采用最终13页A稿并由本人确认已提交，不重开原路线投票。",
       "deliverable": "已发群后的成员接单/承诺与实际回件待收。",
-      "next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
-      "my_next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+      "next_action": "保留原证据及3/5号说明等真实余项；按最终提交稿准备展示和报告，不重训、不重新投票。",
+      "my_next_action": null,
       "depends_on": [
         "my-round3-dispatch"
       ],
@@ -2155,7 +2376,7 @@
       "acceptance": [
         {
           "id": "result",
-          "label": "已发群后的成员接单/承诺与实际回件待收。",
+          "label": "仍缺的3/5号说明修订及实际确认已核；1–5号已收件另有历史依据",
           "status": "unknown",
           "evidence": []
         }
@@ -2167,7 +2388,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-14",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "本地辅助与组员实际回传分开，最终模型采用未代本人决定。",
       "evidence": [
@@ -2201,6 +2422,31 @@
           "observed_on": "2026-11-14",
           "status": "needs_review",
           "note": "本人澄清未跟组员确认，更正当前已采解释为待A/B投票；旧原话/历史成果保留，无新模型/正式PPT。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "needs_review",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "summary": "1–5号R3均已实收核验，2号v1.1的20CI修订通过，3/5原记录问题分列；团队最终路线待投票，不由交件或研究完成代替。",
+            "next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+            "my_next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。"
+          }
+        },
+        {
+          "observed_on": "2026-11-20",
+          "status": "needs_review",
+          "note": "S1：验收标签精确为剩余记录修订，不再泛称所有成员未交件",
+          "previous": {
+            "acceptance": [
+              {
+                "id": "result",
+                "label": "仍缺的3/5号说明修订及实际确认已核；1–5号已收件另有历史依据",
+                "status": "unknown",
+                "evidence": []
+              }
+            ]
+          }
         }
       ]
     },
@@ -2213,8 +2459,8 @@
       "scope": "supporting",
       "summary": "原18+2问题固定研究与最终滚动/价值清单已完成；此前in_progress标记现按已核final-research-closeout收束。",
       "deliverable": "逐问题假设、配置、全部结果、局限与可编辑可视化，保留负结果和纠正历史。",
-      "next_action": "保留完整证据；本批成员验收不重开研究。",
-      "my_next_action": "据已完成研究和真实成员版本决定采用，不继续追加模型。",
+      "next_action": "保留已核的阶段成果和原始证据；当前行动在未完成条目另列。",
+      "my_next_action": null,
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -2258,7 +2504,7 @@
       },
       "started_on": "2026-11-11",
       "completed_on": "2026-11-12",
-      "observed_on": "2026-11-12",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "D10为本人明确开测授权；所有研究完成仅限已核矩阵，不宣称穷尽或独立盲测。",
       "evidence": [
@@ -2301,6 +2547,15 @@
           "observed_on": "2026-11-12",
           "status": "done",
           "note": "按此前最终科研实际完成证据校正辅助节点旧进行中状态，不计入团队主完成度。 旧ablation验收项以此前已核AE对象消融证据收束，限定为本地研究，不表示团队采用。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "my_next_action": "据已完成研究和真实成员版本决定采用，不继续追加模型。",
+            "next_action": "保留完整证据；本批成员验收不重开研究。"
+          }
         }
       ]
     },
@@ -2313,8 +2568,8 @@
       "scope": "supporting",
       "summary": "本地155模型统一比较已核：同字段/模型、五重叠fit-cal划分、三seed。AE概率融合为优先研究线索（参考51/久单4 vs基线43/2，五split全体4胜1平/久单5胜），名单差条件区间仍含0；CatBoost概率质量较好。未确认新正式模型，系统消融后置，四月无新评分。新17图累计57，成员回件/采用仍按实际。 最终滚动/价值验证已收尾，详见辅助最终研究节点。",
       "deliverable": "155模型共享矩阵与完整对照、稳定性/条件区间、17图与独立读回。",
-      "next_action": "保留完整结果，转真实成员回件验收和合稿；无本冻结清单计算欠账。",
-      "my_next_action": "阅读目标取舍及真实团队版本，完成合稿。",
+      "next_action": "保留已核的阶段成果和原始证据；当前行动在未完成条目另列。",
+      "my_next_action": null,
       "depends_on": [
         "research-questions-and-design"
       ],
@@ -2346,7 +2601,7 @@
       },
       "started_on": "2026-11-12",
       "completed_on": "2026-11-12",
-      "observed_on": "2026-11-12",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "仅本地辅助比较范围完成，不代表团队采用、系统消融或正式提交。",
       "evidence": [
@@ -2365,6 +2620,15 @@
           "observed_on": "2026-11-12",
           "status": "done",
           "note": "最后固定清单已收尾，新增3滚动期/价值层与20Q；不存在本批待跑模型，正式团队采用另记。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "my_next_action": "阅读目标取舍及真实团队版本，完成合稿。",
+            "next_action": "保留完整结果，转真实成员回件验收和合稿；无本冻结清单计算欠账。"
+          }
         }
       ]
     },
@@ -2377,8 +2641,8 @@
       "scope": "supporting",
       "summary": "AE研究对象后续验证完成：135新预算/六块消融+13个七月→十月诊断模型，旧65复用，新增9图累计66。AE较早窗口31/久单1低于WLR36/2；一月去行为58/4条件区间仍含0，不支持稳定升级或直接删RFM。科研对象消融已做，正式团队模型未自动采用；四月无新评分，真实交件/冻结与提交按事实。",
       "deliverable": "135预算/块消融+13时间模型、审批语义审计、完整CI及9图。",
-      "next_action": "不自动换团队模型；后续先多时点训练/滚动验证与目标定义。",
-      "my_next_action": "按真实团队成果确认展示采用版本并收H07。",
+      "next_action": "保留已核的阶段成果和原始证据；当前行动在未完成条目另列。",
+      "my_next_action": null,
       "depends_on": [
         "common-candidate-comparison"
       ],
@@ -2410,7 +2674,7 @@
       },
       "started_on": "2026-11-12",
       "completed_on": "2026-11-12",
-      "observed_on": "2026-11-12",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "只计本地研究范围，不计真实成员主任务/正式采用/提交。",
       "evidence": [
@@ -2424,6 +2688,15 @@
           "observed_on": "2026-11-12",
           "status": "done",
           "note": "用户继续验证，固定研究对象后完成148正式新拟合及来源/统计/可视化核验，不表示稳定升级获证。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "my_next_action": "按真实团队成果确认展示采用版本并收H07。",
+            "next_action": "不自动换团队模型；后续先多时点训练/滚动验证与目标定义。"
+          }
         }
       ]
     },
@@ -2434,10 +2707,10 @@
       "owner": "本课程会话本地研究；本人决定业务采用",
       "owner_role": "me",
       "scope": "supporting",
-      "summary": "本地固定研究范围已完成，事实和计算不回退；团队是否用它为报告/展示主线待A/B投票，尚未自动采用。",
+      "summary": "本地固定研究范围已完成，结果与计算保留。展示现已使用最终13页A稿并提交；辅助B研究保留历史，报告是否采用其具体内容仍未逐项重定。",
       "deliverable": "3期单/多期概率，6金额模型/18私表，容量与20Q，6图及独审。",
-      "next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
-      "my_next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+      "next_action": "保留原证据及3/5号说明等真实余项；按最终提交稿准备展示和报告，不重训、不重新投票。",
+      "my_next_action": null,
       "depends_on": [
         "research-questions-and-design"
       ],
@@ -2469,7 +2742,7 @@
       },
       "started_on": "2026-11-12",
       "completed_on": "2026-11-12",
-      "observed_on": "2026-11-14",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "本地辅助研究收尾，不代表团队新回件、正式采用、冻结或提交完成。",
       "evidence": [
@@ -2488,6 +2761,25 @@
           "observed_on": "2026-11-14",
           "status": "done",
           "note": "本人澄清未跟组员确认，更正当前已采解释为待A/B投票；旧原话/历史成果保留，无新模型/正式PPT。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "my_next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+            "next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。"
+          }
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "summary": "本地固定研究范围已完成，事实和计算不回退；团队是否用它为报告/展示主线待A/B投票，尚未自动采用。",
+            "next_action": "保留已核的阶段成果和原始证据；当前行动在未完成条目另列。",
+            "my_next_action": null
+          }
         }
       ]
     },
@@ -2498,10 +2790,10 @@
       "owner": "本课程会话核技术；成员确认/本人采用另列",
       "owner_role": "me",
       "scope": "supporting",
-      "summary": "1–5号R3均已实收核验，2号v1.1的20CI修订通过，3/5原记录问题分列；团队最终路线待投票，不由交件或研究完成代替。",
+      "summary": "真实第三轮1–5号交件的所述技术核验已完成，3/5原记录问题分列；当前展示已沿最终13页A稿提交，不将旧待投票状态当当前要求。",
       "deliverable": "四包原件哈希、聚合/原始回算、当前三卡、13图与独审。",
-      "next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
-      "my_next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+      "next_action": "保留原证据及3/5号说明等真实余项；按最终提交稿准备展示和报告，不重训、不重新投票。",
+      "my_next_action": null,
       "depends_on": [
         "round3-member-returns"
       ],
@@ -2533,7 +2825,7 @@
       },
       "started_on": "2026-11-12",
       "completed_on": "2026-11-13",
-      "observed_on": "2026-11-14",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "完成课程技术验收范围；不替代5号回签、2/3号原包修订、6号正式采用或提交。",
       "evidence": [
@@ -2562,6 +2854,25 @@
           "observed_on": "2026-11-14",
           "status": "done",
           "note": "本人澄清未跟组员确认，更正当前已采解释为待A/B投票；旧原话/历史成果保留，无新模型/正式PPT。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "my_next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。",
+            "next_action": "6号发A/B比较并汇总真实投票，列明配置/指标和分工共同确认，之后正式PPT；不追加模型或四月评分。"
+          }
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "summary": "1–5号R3均已实收核验，2号v1.1的20CI修订通过，3/5原记录问题分列；团队最终路线待投票，不由交件或研究完成代替。",
+            "next_action": "保留已核的阶段成果和原始证据；当前行动在未完成条目另列。",
+            "my_next_action": null
+          }
         }
       ]
     },
@@ -2572,10 +2883,10 @@
       "owner": "本人（6号）转报全组投票结果",
       "owner_role": "me",
       "scope": "team",
-      "summary": "组内反馈和重投后，本人以末图和本轮直接说明确认当前PPT走A；不据此编全员票数或删除B研究，报告取舍未逐项重定。",
+      "summary": "组内反馈和重投后已确认改回A；其后最终13页A稿已由本人提供并确认提交。B研究原文和报告未决范围继续保留。",
       "deliverable": "记录路线采用原话、来源与未决定范围，更新报告材料入口。",
-      "next_action": "本人另开A制作会话，按已核A资料整理新稿，审阅与具体最终授权另核。",
-      "my_next_action": "用A接续说明开启制作，不再默认B。",
+      "next_action": "保留原证据及3/5号说明等真实余项；按最终提交稿准备展示和报告，不重训、不重新投票。",
+      "my_next_action": null,
       "depends_on": [
         "final-research-closeout"
       ],
@@ -2605,7 +2916,7 @@
       },
       "started_on": "2026-11-13",
       "completed_on": "2026-11-15",
-      "observed_on": "2026-11-15",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "最新本人直接确认A执行路线，旧B选择在history和原证据中保留；只路线选择完成，不代表A稿或最终提交完成。",
       "evidence": [
@@ -2647,6 +2958,25 @@
           "observed_on": "2026-11-15",
           "status": "done",
           "note": "记录7图分歧和重投过程；本人最新确认A制作路线。原B及成果保留，A稿/理解准备/提交未完成，不编全员票数。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "my_next_action": "用A接续说明开启制作，不再默认B。",
+            "next_action": "本人另开A制作会话，按已核A资料整理新稿，审阅与具体最终授权另核。"
+          }
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "summary": "组内反馈和重投后，本人以末图和本轮直接说明确认当前PPT走A；不据此编全员票数或删除B研究，报告取舍未逐项重定。",
+            "next_action": "保留已核的阶段成果和原始证据；当前行动在未完成条目另列。",
+            "my_next_action": null
+          }
         }
       ]
     },
@@ -2657,10 +2987,10 @@
       "owner": "本课程会话整理核验；6号发群，成员投票另列",
       "owner_role": "me",
       "scope": "supporting",
-      "summary": "A/B材料准备已完成；团队11月15日已选B，当前转PPT交接，旧待投票描述保留历史。",
+      "summary": "A/B对照材料和当时选择B的记录保留；后续反馈后改回A，当前最终13页A稿已提交。此条不再要求投票或重新制作PPT。",
       "deliverable": "完整比较、8旧3新图片读法、具体配置清单、8分钟页序、群稿及独审。",
-      "next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
-      "my_next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
+      "next_action": "保留原证据及3/5号说明等真实余项；按最终提交稿准备展示和报告，不重训、不重新投票。",
+      "my_next_action": null,
       "depends_on": [
         "final-research-closeout",
         "round3-team-intake-audit"
@@ -2700,7 +3030,7 @@
       },
       "started_on": "2026-11-14",
       "completed_on": "2026-11-14",
-      "observed_on": "2026-11-15",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "只完成本批辅助比较交付，不计入团队主任务/投票/报告完成度。",
       "evidence": [
@@ -2724,6 +3054,25 @@
           "observed_on": "2026-11-15",
           "status": "done",
           "note": "本人确认全组已选B并要求今天制作提交；本轮只交接与核要求，具体配置/成品/提交分别记录。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "my_next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。",
+            "next_action": "新会话按B已有方案制作完整PPT与讲稿，核要求/数字/全部页面，交本人审阅并按截止提交。"
+          }
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "summary": "A/B材料准备已完成；团队11月15日已选B，当前转PPT交接，旧待投票描述保留历史。",
+            "next_action": "保留已核的阶段成果和原始证据；当前行动在未完成条目另列。",
+            "my_next_action": null
+          }
         }
       ]
     },
@@ -2736,8 +3085,8 @@
       "scope": "supporting",
       "summary": "此前B制作交接/第一稿接收已完成，保留为历史/参考；当前已改A，不作为A稿交付或最终提交。",
       "deliverable": "完整交接MD、团队选择/要求记录、素材索引、旧模板本地参考和定向审查。",
-      "next_action": "保持B源包和研究原字节，使用新A接续文件进入另一制作会话。",
-      "my_next_action": "保持B源包和研究原字节，使用新A接续文件进入另一制作会话。",
+      "next_action": "保留已核的阶段成果和原始证据；当前行动在未完成条目另列。",
+      "my_next_action": null,
       "depends_on": [
         "report-local-mainline-adopted",
         "route-vote-comparison"
@@ -2778,7 +3127,7 @@
       },
       "started_on": "2026-11-15",
       "completed_on": "2026-11-15",
-      "observed_on": "2026-11-15",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "只完成本次辅助交接，不计为正式Slides或Canvas提交完成。",
       "evidence": [
@@ -2797,6 +3146,15 @@
           "observed_on": "2026-11-15",
           "status": "done",
           "note": "记录7图分歧和重投过程；本人最新确认A制作路线。原B及成果保留，A稿/理解准备/提交未完成，不编全员票数。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "my_next_action": "保持B源包和研究原字节，使用新A接续文件进入另一制作会话。",
+            "next_action": "保持B源包和研究原字节，使用新A接续文件进入另一制作会话。"
+          }
         }
       ]
     },
@@ -2809,8 +3167,8 @@
       "scope": "supporting",
       "summary": "此前B制作交接/第一稿接收已完成，保留为历史/参考；当前已改A，不作为A稿交付或最终提交。",
       "deliverable": "完整第一稿和配套说明、原全12页独审、本课结构/4页查看/稳定源核验与明确当前状态。",
-      "next_action": "保持B源包和研究原字节，使用新A接续文件进入另一制作会话。",
-      "my_next_action": "保持B源包和研究原字节，使用新A接续文件进入另一制作会话。",
+      "next_action": "保留已核的阶段成果和原始证据；当前行动在未完成条目另列。",
+      "my_next_action": null,
       "depends_on": [
         "ppt-production-handoff"
       ],
@@ -2849,7 +3207,7 @@
       },
       "started_on": "2026-11-15",
       "completed_on": "2026-11-15",
-      "observed_on": "2026-11-15",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "只完成接收与技术核验，不计为本人或成员审阅完成、最终定稿、排练或提交成功。",
       "evidence": [
@@ -2868,6 +3226,15 @@
           "observed_on": "2026-11-15",
           "status": "done",
           "note": "记录7图分歧和重投过程；本人最新确认A制作路线。原B及成果保留，A稿/理解准备/提交未完成，不编全员票数。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "my_next_action": "保持B源包和研究原字节，使用新A接续文件进入另一制作会话。",
+            "next_action": "保持B源包和研究原字节，使用新A接续文件进入另一制作会话。"
+          }
         }
       ]
     },
@@ -2880,8 +3247,8 @@
       "scope": "supporting",
       "summary": "7图来源/中立观点、重投过程与最终A确认已记录，A基线与接续齐，原图仅本地留档；不制作A或改B，不宣称全员已准备好。",
       "deliverable": "匿名分歧记录、决定/证据索引、A数字基线、代码状态与A接续、独立定向审查。",
-      "next_action": "A稿现已完成，直接审阅现稿并收成员反馈；早期另会话制作的计划已被成品实证覆盖。",
-      "my_next_action": "分发当前A稿的对应页、讲稿和问答，收页码化意见。",
+      "next_action": "保留已核的阶段成果和原始证据；当前行动在未完成条目另列。",
+      "my_next_action": null,
       "depends_on": [
         "ppt-first-draft-review"
       ],
@@ -2920,7 +3287,7 @@
       },
       "started_on": "2026-11-15",
       "completed_on": "2026-11-15",
-      "observed_on": "2026-11-15",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "只完成本轮协作记录和路线确认支持材料，不计A稿制作/审阅/排练或提交完成。",
       "evidence": [
@@ -2939,6 +3306,15 @@
           "observed_on": "2026-11-15",
           "status": "done",
           "note": "制作会话随后直接交付稳定A第一稿，不再重复安排制作或旧课程接收。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "my_next_action": "分发当前A稿的对应页、讲稿和问答，收页码化意见。",
+            "next_action": "A稿现已完成，直接审阅现稿并收成员反馈；早期另会话制作的计划已被成品实证覆盖。"
+          }
         }
       ]
     },
@@ -2949,10 +3325,10 @@
       "owner": "当前PPT制作会话制稿；总监督直接同步；本人组织组审",
       "owner_role": "me",
       "scope": "supporting",
-      "summary": "本人已提供最终 13 页 PPT，并明确确认已提交 Canvas；Slides 待提交事项已关闭。本人同时确认 11 月 25 日（周三）课堂展示，具体钟点未新核。成功页面、准确提交时刻和实际账号仍待独立核验；这项证据缺口不改变本人确认已提交的状态。",
+      "summary": "当前展示采用最终已提交的 13 页 PPT（本人确认）；11 月 25 日、Week 13、第 2 组，准确钟点未新核。主讲页码：1号3、2号4、3号5/6、4号8、5号7、6号1/2/9。本人确认的提交事实保留，独立成功回执待补而不重交；真人计时、问答熟练度与最终报告继续单独推进。A/B、已见四月及辅助研究保留历史，不再作为重新投票、重训或重做 PPT 的待办。",
       "deliverable": "最终 PPT 原件、衍生 PDF、13 页预览与提交事实记录。",
-      "next_action": "按最终 13 页版本准备 11 月 25 日课堂展示：各成员核对自己页面、数字和转场，再按本人安排进行真人计时与问答准备。已有提交回执可补存以核准确时刻和实际账号；不再催 3 号提交，不修改或重新提交已交附件。",
-      "my_next_action": "按最终稿准备第 1、2、9 页并统筹 11 月 25 日展示；已有提交回执可补存，不重新提交。",
+      "next_action": "按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。",
+      "my_next_action": null,
       "depends_on": [
         "route-a-reconfirmation"
       ],
@@ -2991,7 +3367,7 @@
       },
       "started_on": "2026-11-15",
       "completed_on": "2026-11-15",
-      "observed_on": "2026-11-17",
+      "observed_on": "2026-11-20",
       "estimated_minutes": null,
       "state_basis": "本人提交确认与文件核验，不冒称独立核 Canvas 回执或完成科学全审。",
       "evidence": [
@@ -3042,9 +3418,29 @@
           "observed_on": "2026-11-17",
           "status": "done",
           "note": "最新截图与本人确认：Six Sigma Week13第2组，日期11/25，替代旧11/18；不改Slides已提交状态。"
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "my_next_action": "按最终稿准备第 1、2、9 页并统筹 11 月 25 日展示；已有提交回执可补存，不重新提交。",
+            "next_action": "按最终 13 页版本准备 11 月 25 日课堂展示：各成员核对自己页面、数字和转场，再按本人安排进行真人计时与问答准备。已有提交回执可补存以核准确时刻和实际账号；不再催 3 号提交，不修改或重新提交已交附件。"
+          }
+        },
+        {
+          "on": "2026-11-20",
+          "status": "done",
+          "note": "2026-11-20 逐项复核；未推定实际完成日期",
+          "previous": {
+            "title": "最终 13 页原稿归档与提交确认",
+            "summary": "本人已提供最终 13 页 PPT，并明确确认已提交 Canvas；Slides 待提交事项已关闭。本人同时确认 11 月 25 日（周三）课堂展示，具体钟点未新核。成功页面、准确提交时刻和实际账号仍待独立核验；这项证据缺口不改变本人确认已提交的状态。",
+            "next_action": "保留已核的阶段成果和原始证据；当前行动在未完成条目另列。",
+            "my_next_action": null
+          }
         }
       ]
     }
   ],
-  "basis_management_revision": "d6d7b78b4a2bd2ba1b1960f6958e71c9b862df52532fdf1bb8730280fc34f77e"
+  "basis_management_revision": "176e97cb914181180139d149bdb5a779530727569330aac6d43adb8b56b851f4"
 }

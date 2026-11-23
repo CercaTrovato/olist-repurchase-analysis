@@ -1,0 +1,17 @@
+{
+  "schema": "is6400-prep-check-v1",
+  "date": "2026-11-23",
+  "numeric_checks": "passed",
+  "github_link_paths": "all present in pinned source tree a80de7a4ad7f44188b70abe8e432b548f69765d1",
+  "slides": 13,
+  "notes_with_text": 0,
+  "underlying_analysis_rerun": false,
+  "historical_pool_rate_pct": 0.7299270072992701,
+  "relative_50pct_new_rate_pct": 1.094890510948905,
+  "absolute_change_percentage_points": 0.36496350364963503,
+  "limits": [
+    "Aggregates and slide content cross-checked, not a rerun of models or trial power calculation.",
+    "No fresh Canvas verification; iab unavailable.",
+    "No claim of user rehearsal or comprehension."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "note-review-v2",
+  "note": "IS6400_Business_Data_Analytics/assignment/graded/A06-group-project/notes/report-brief-20261123.md",
+  "scope": "full",
+  "source_sha256": null,
+  "candidate_sha256": "6f0991ae70f505d1bc0ce9b2b7c18f3b2a5bc52cd657e0c43122fd25de144ecd",
+  "review_file": "author-review.md",
+  "review_sha256": "350e36570a9deef94b2f16c3cf771735fd9370d29fb5fd6056ba46b0dbca4f3c",
+  "checks": {
+    "understanding": {
+      "status": "passed",
+      "evidence": "review-stage-1.md and review-stage-2.md: one independent risk sample, two local repairs and source chronology correction; not whole-document review"
+    },
+    "sources": {
+      "status": "passed",
+      "evidence": "source-evidence.json and source-checks.json; source originals unchanged; source tables checked without model rerun"
+    },
+    "warnings": {
+      "status": "passed",
+      "evidence": "Assignment preparation documents, not M/T lecture notes; applicable links, arithmetic and Markdown reviewed; no M/T section-gate pass claimed"
+    },
+    "visuals": {
+      "status": "not_applicable",
+      "evidence": "No new visual assets or final export; original vectors linked. Source slide/page views are separately documented; final Obsidian view not tested"
+    }
+  },
+  "independent_review": {
+    "author_ids": [
+      "is6400-closeout-primary-20261123"
+    ],
+    "reviewer_id": "/root/is6400_prep_review",
+    "perspective": "high-school-beginner",
+    "status": "passed",
+    "candidate_sha256": "6f0991ae70f505d1bc0ce9b2b7c18f3b2a5bc52cd657e0c43122fd25de144ecd",
+    "report_file": "review-stage-2.md",
+    "report_sha256": "64f6ac7dfdb75249e13045066463b3e457b9eaff159346845ec6d8a164d1730b"
+  },
+  "assets": [
+    {
+      "path": "review-stage-1.md",
+      "sha256": "a58f2f323fb4d7f2e693c873003145071df41c9051e75fcf5dd29b40b97ca05c"
+    },
+    {
+      "path": "source-checks.json",
+      "sha256": "54a2efa2480562f7b61e078d4d01daf616dfe3b332cdc176aa79749b8fed3109"
+    },
+    {
+      "path": "source-evidence.json",
+      "sha256": "13d886e0b8b6b4d170c7cb4dd2bd63c2f113c3c75402cf95bc2cf4e5cce3791b"
+    }
+  ],
+  "unresolved": []
+}

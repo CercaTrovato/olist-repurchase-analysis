@@ -3,10 +3,10 @@
   "assignment_id": "IS6400-A06",
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
-  "as_of": "2026-11-20",
-  "basis_revision": "28939f68c189e3f53a340d29e6ce13182608440239b44c12aed91600543c2cee",
+  "as_of": "2026-11-23",
+  "basis_revision": "7c26ed4ee8203ed92a8618d04087cbd680d35993663495b582b56e5f394f8d80",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "当前展示采用最终已提交的 13 页 PPT（本人确认）；11 月 25 日、Week 13、第 2 组，准确钟点未新核。主讲页码：1号3、2号4、3号5/6、4号8、5号7、6号1/2/9。本人确认的提交事实保留，独立成功回执待补而不重交；真人计时、问答熟练度与最终报告继续单独推进。A/B、已见四月及辅助研究保留历史，不再作为重新投票、重训或重做 PPT 的待办。",
+  "summary": "Six Sigma 11 月 25 日展示，最终 13 页 Slides 保留本人已提交状态。11/23 已按最终稿准备整份故事、6号第1/2/9页中英讲法、转场、数字与12项Q&A，已完成独立轻量抽检；本人互动练习和真人计时未核。报告仅梳理要求、材料和建议结构，未写正文或代选路线/模型；准确展示钟点待核。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
@@ -678,10 +678,10 @@
       "owner": "全组；本人负责统筹",
       "owner_role": "team",
       "scope": "team",
-      "summary": "当前展示采用最终已提交的 13 页 PPT（本人确认）；11 月 25 日、Week 13、第 2 组，准确钟点未新核。主讲页码：1号3、2号4、3号5/6、4号8、5号7、6号1/2/9。本人确认的提交事实保留，独立成功回执待补而不重交；真人计时、问答熟练度与最终报告继续单独推进。A/B、已见四月及辅助研究保留历史，不再作为重新投票、重训或重做 PPT 的待办。",
+      "summary": "Six Sigma 11 月 25 日展示，最终 13 页 Slides 保留本人已提交状态。11/23 已按最终稿准备整份故事、6号第1/2/9页中英讲法、转场、数字与12项Q&A，已完成独立轻量抽检；本人互动练习和真人计时未核。报告仅梳理要求、材料和建议结构，未写正文或代选路线/模型；准确展示钟点待核。",
       "deliverable": "按同一版结论交 Slides、讲稿与报告，再核排练和提交回执。",
-      "next_action": "按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。",
-      "my_next_action": "按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。",
+      "next_action": "打开本批展示准备，先用中文讲清项目，再练第1/2/9页并记录真实用时；按实际回答继续Q&A。报告先理解要求，不写正文或代选模型。准确展示钟点及Slides独立回执仍待核。",
+      "my_next_action": "打开本批展示准备，先用中文讲清项目，再练第1/2/9页并记录真实用时；按实际回答继续Q&A。报告先理解要求，不写正文或代选模型。准确展示钟点及Slides独立回执仍待核。",
       "depends_on": [
         "ppt-a-first-draft-review",
         "date-slides"
@@ -734,7 +734,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-20",
+      "observed_on": "2026-11-23",
       "estimated_minutes": null,
       "state_basis": "Slides 本人确认已提交；课堂展示/报告与回执独立核验仍分别待完成。",
       "evidence": [
@@ -753,6 +753,10 @@
         {
           "label": "本人确认提交与展示安排",
           "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/fc5186ecb804149cb5aad177d5c10dfb3b16fb85/slides/submitted-20261115/submission-record.json"
+        },
+        {
+          "label": "11/23 最终13页展示准备与Q&A",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/presentation-prep-20261123/presentation-prep-20261123.md"
         }
       ],
       "history": [
@@ -845,6 +849,16 @@
               }
             ]
           }
+        },
+        {
+          "observed_on": "2026-11-23",
+          "status": "in_progress",
+          "note": "新增最终稿学习与讲稿资料；实际排练/掌握状态不升级，报告正文未开写。",
+          "previous": {
+            "summary": "当前展示采用最终已提交的 13 页 PPT（本人确认）；11 月 25 日、Week 13、第 2 组，准确钟点未新核。主讲页码：1号3、2号4、3号5/6、4号8、5号7、6号1/2/9。本人确认的提交事实保留，独立成功回执待补而不重交；真人计时、问答熟练度与最终报告继续单独推进。A/B、已见四月及辅助研究保留历史，不再作为重新投票、重训或重做 PPT 的待办。",
+            "next_action": "按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。",
+            "my_next_action": "按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。"
+          }
         }
       ]
     },
@@ -855,10 +869,10 @@
       "owner": "本人 · 统筹",
       "owner_role": "me",
       "scope": "team",
-      "summary": "当前展示采用最终已提交的 13 页 PPT（本人确认）；11 月 25 日、Week 13、第 2 组，准确钟点未新核。主讲页码：1号3、2号4、3号5/6、4号8、5号7、6号1/2/9。本人确认的提交事实保留，独立成功回执待补而不重交；真人计时、问答熟练度与最终报告继续单独推进。A/B、已见四月及辅助研究保留历史，不再作为重新投票、重训或重做 PPT 的待办。",
+      "summary": "Six Sigma 11 月 25 日展示，最终 13 页 Slides 保留本人已提交状态。11/23 已按最终稿准备整份故事、6号第1/2/9页中英讲法、转场、数字与12项Q&A，已完成独立轻量抽检；本人互动练习和真人计时未核。报告仅梳理要求、材料和建议结构，未写正文或代选路线/模型；准确展示钟点待核。",
       "deliverable": "完成核对或交接，并将实际答复更新回任务记录。",
-      "next_action": "按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。",
-      "my_next_action": "按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。",
+      "next_action": "打开本批展示准备，先用中文讲清项目，再练第1/2/9页并记录真实用时；按实际回答继续Q&A。报告先理解要求，不写正文或代选模型。准确展示钟点及Slides独立回执仍待核。",
+      "my_next_action": "打开本批展示准备，先用中文讲清项目，再练第1/2/9页并记录真实用时；按实际回答继续Q&A。报告先理解要求，不写正文或代选模型。准确展示钟点及Slides独立回执仍待核。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -875,7 +889,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-20",
+      "observed_on": "2026-11-23",
       "estimated_minutes": null,
       "state_basis": "本人11/17确认下周三展示，结合分周截图为11/25 Week13第2组；准确钟点未知。",
       "evidence": [
@@ -890,6 +904,10 @@
         {
           "label": "本人确认提交与展示安排",
           "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/fc5186ecb804149cb5aad177d5c10dfb3b16fb85/slides/submitted-20261115/submission-record.json"
+        },
+        {
+          "label": "11/23 最终13页展示准备与Q&A",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/presentation-prep-20261123/presentation-prep-20261123.md"
         }
       ],
       "history": [
@@ -947,6 +965,16 @@
             "summary": "本人已提供最终 13 页 PPT，并明确确认已提交 Canvas；Slides 待提交事项已关闭。本人同时确认 11 月 25 日（周三）课堂展示，具体钟点未新核。成功页面、准确提交时刻和实际账号仍待独立核验；这项证据缺口不改变本人确认已提交的状态。",
             "next_action": "按最终 13 页版本准备 11 月 25 日课堂展示：各成员核对自己页面、数字和转场，再按本人安排进行真人计时与问答准备。已有提交回执可补存以核准确时刻和实际账号；不再催 3 号提交，不修改或重新提交已交附件。",
             "my_next_action": "按最终稿准备第 1、2、9 页并统筹 11 月 25 日展示；已有提交回执可补存，不重新提交。"
+          }
+        },
+        {
+          "observed_on": "2026-11-23",
+          "status": "in_progress",
+          "note": "新增最终稿学习与讲稿资料；实际排练/掌握状态不升级，报告正文未开写。",
+          "previous": {
+            "summary": "当前展示采用最终已提交的 13 页 PPT（本人确认）；11 月 25 日、Week 13、第 2 组，准确钟点未新核。主讲页码：1号3、2号4、3号5/6、4号8、5号7、6号1/2/9。本人确认的提交事实保留，独立成功回执待补而不重交；真人计时、问答熟练度与最终报告继续单独推进。A/B、已见四月及辅助研究保留历史，不再作为重新投票、重训或重做 PPT 的待办。",
+            "next_action": "按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。",
+            "my_next_action": "按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。"
           }
         }
       ]
@@ -1592,9 +1620,9 @@
       "owner": "全组；6 号统筹",
       "owner_role": "team",
       "scope": "team",
-      "summary": "按最终13页及13页notes准备；旧v3讲稿/17QA只作历史参考，不视为与最终稿逐字一致。真人计时仍未知。",
+      "summary": "Six Sigma 11 月 25 日展示，最终 13 页 Slides 保留本人已提交状态。11/23 已按最终稿准备整份故事、6号第1/2/9页中英讲法、转场、数字与12项Q&A，已完成独立轻量抽检；本人互动练习和真人计时未核。报告仅梳理要求、材料和建议结构，未写正文或代选路线/模型；准确展示钟点待核。",
       "deliverable": "每位成员的实际用时、全程用时、转场问题及按页码整理的修订清单。",
-      "next_action": "按本人安排进行真人计时及问答准备，重点核最终第5、6页修改和第13页备查。",
+      "next_action": "打开本批展示准备，先用中文讲清项目，再练第1/2/9页并记录真实用时；按实际回答继续Q&A。报告先理解要求，不写正文或代选模型。准确展示钟点及Slides独立回执仍待核。",
       "my_next_action": null,
       "depends_on": [
         "date-slides-merge"
@@ -1614,13 +1642,17 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-20",
+      "observed_on": "2026-11-23",
       "estimated_minutes": null,
       "state_basis": "本人转述团队认可后进入讲稿熟悉/排练准备；新排练时间未提供，真人完成状态未知。",
       "evidence": [
         {
           "label": "已发布的六人协作与交付倒排",
           "url": null
+        },
+        {
+          "label": "11/23 最终13页展示准备与Q&A",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/presentation-prep-20261123/presentation-prep-20261123.md"
         }
       ],
       "history": [
@@ -1638,6 +1670,16 @@
           "observed_on": "2026-11-15",
           "status": "planned",
           "note": "沿本人暂缓练习安排，当前版本改为 A v3；未记录真人排练完成。"
+        },
+        {
+          "observed_on": "2026-11-23",
+          "status": "planned",
+          "note": "新增最终稿学习与讲稿资料；实际排练/掌握状态不升级，报告正文未开写。",
+          "previous": {
+            "summary": "按最终13页及13页notes准备；旧v3讲稿/17QA只作历史参考，不视为与最终稿逐字一致。真人计时仍未知。",
+            "next_action": "按本人安排进行真人计时及问答准备，重点核最终第5、6页修改和第13页备查。",
+            "my_next_action": null
+          }
         }
       ],
       "milestone_kind": "internal"
@@ -3442,5 +3484,5 @@
       ]
     }
   ],
-  "basis_management_revision": "176e97cb914181180139d149bdb5a779530727569330aac6d43adb8b56b851f4"
+  "basis_management_revision": "7506072a742841ac7b30e87dd2ca43df6d0632e4722d4d02e0de7138c1414a3a"
 }

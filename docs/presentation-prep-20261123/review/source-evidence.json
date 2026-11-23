@@ -1,0 +1,54 @@
+{
+  "source_commit": "a80de7a4ad7f44188b70abe8e432b548f69765d1",
+  "observed_on": "2026-11-23",
+  "source_files": [
+    {
+      "path": "slides/submitted-20261115/IS6400_Final_PPT_Team Six Sigma_20261115.pptx",
+      "sha256": "9452af19a145bc491532fb414c2d1704eecb9362998ca14eed59814486cbd8b2"
+    },
+    {
+      "path": "slides/submitted-20261115/IS6400_Final_PPT_Team Six Sigma_20261115.pdf",
+      "sha256": "5c4d6e65fafd5842edccc74b2f240f34ab85ab775add796abc1162abdeeedbee"
+    },
+    {
+      "course_path": "IS6400_Business_Data_Analytics/course_files_export/IS6400 Project Guideline.pdf",
+      "sha256": "61be22d79c2f2c6415bae7fdd7a981bb5ac3679c8739314cf33afcd1d848afe3"
+    },
+    {
+      "path": "slides/a-draft-20261115/source/ranking-comparison.csv",
+      "sha256": "0c441cba15087c84c24f77a540b040675ad9eab0bebc05083e1ab8b4d4f5bb9a"
+    },
+    {
+      "path": "research/team-round3-20261112/audit/h04-v02-vs-round3-F0.csv",
+      "sha256": "952254305b9fb7bc45fa19199ee8ebdbc932a609f9e6b086e96087716be1efae"
+    },
+    {
+      "path": "research/route-comparison-20261114/data/team-capacity-results.csv",
+      "sha256": "37e04e35d1128f1d4ab3e1b8087540e60e45d245ba6081d483a875fe6982bfc9"
+    },
+    {
+      "path": "research/route-comparison-20261114/data/team-cv-diagnostics.csv",
+      "sha256": "0838c243a1c2d42dfdc18d820f1a67d9b8b950f64a8b1e064a5c7641d794bec0"
+    },
+    {
+      "path": "research/team-round3-20261112/README.md",
+      "sha256": "7731a2917ebf0b86cec60b8a4e14391427551d63662c33dd631400726a15e219"
+    },
+    {
+      "path": "research/role05-mainline-20261113/README.md",
+      "sha256": "ddad3ec4d172300bda255a2f864b7d8311bbff2f0e8cc6f18f22b4ba53b557dc"
+    },
+    {
+      "path": "research/role02-v11-20261113/README.md",
+      "sha256": "7ba4ddd8319a71d41b8a8788f02408c47606d375930ff3598db11f4a20b2c0c4"
+    },
+    {
+      "path": "docs/03-methodology.md",
+      "sha256": "7a8f989250ba75ed9cd69ca262df4feba9c797e1eff292bc5b1a9cb49e0f7a76"
+    }
+  ],
+  "source_visuals": "13 slide contact views, separate pages 1/2/9, both Guideline pages; independent page 2 sample",
+  "canvas_today": "not re-read; iab unavailable",
+  "source_originals_modified": false,
+  "models_retrained": false
+}

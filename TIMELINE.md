@@ -1,8 +1,8 @@
 # IS6400 · 项目时间线
 
-当前展示采用最终已提交的 13 页 PPT（本人确认）；11 月 25 日、Week 13、第 2 组，准确钟点未新核。主讲页码：1号3、2号4、3号5/6、4号8、5号7、6号1/2/9。本人确认的提交事实保留，独立成功回执待补而不重交；真人计时、问答熟练度与最终报告继续单独推进。A/B、已见四月及辅助研究保留历史，不再作为重新投票、重训或重做 PPT 的待办。
+Six Sigma 11 月 25 日展示，最终 13 页 Slides 保留本人已提交状态。11/23 已按最终稿准备整份故事、6号第1/2/9页中英讲法、转场、数字与12项Q&A，已完成独立轻量抽检；本人互动练习和真人计时未核。报告仅梳理要求、材料和建议结构，未写正文或代选路线/模型；准确展示钟点待核。
 
-进度依据截至 2026-11-20；时区 Asia/Shanghai。完成日期未知时只记录核实日期。
+进度依据截至 2026-11-23；时区 Asia/Shanghai。完成日期未知时只记录核实日期。
 
 [结构化时间线](progress/timeline.json) · [个人助手每日事项入口](progress/daily-plan.json) · [如何读取](ASSISTANT-README.md)
 
@@ -53,29 +53,29 @@ v0.4 材料齐备。课程会话复跑最近购买／原版／加权三份名单
 
 **正在推进** · 负责人：全组；本人负责统筹 · 尚未安排 · 日期未定
 
-当前展示采用最终已提交的 13 页 PPT（本人确认）；11 月 25 日、Week 13、第 2 组，准确钟点未新核。主讲页码：1号3、2号4、3号5/6、4号8、5号7、6号1/2/9。本人确认的提交事实保留，独立成功回执待补而不重交；真人计时、问答熟练度与最终报告继续单独推进。A/B、已见四月及辅助研究保留历史，不再作为重新投票、重训或重做 PPT 的待办。
+Six Sigma 11 月 25 日展示，最终 13 页 Slides 保留本人已提交状态。11/23 已按最终稿准备整份故事、6号第1/2/9页中英讲法、转场、数字与12项Q&A，已完成独立轻量抽检；本人互动练习和真人计时未核。报告仅梳理要求、材料和建议结构，未写正文或代选路线/模型；准确展示钟点待核。
 
 - 本环节交付：按同一版结论交 Slides、讲稿与报告，再核排练和提交回执。
-- 下一步：按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。
+- 下一步：打开本批展示准备，先用中文讲清项目，再练第1/2/9页并记录真实用时；按实际回答继续Q&A。报告先理解要求，不写正文或代选模型。准确展示钟点及Slides独立回执仍待核。
 - 前置依赖：ppt-a-first-draft-review、date-slides
-- 开始／完成：未记录 ／ 未记录；核实日期：2026-11-20
-- 总监督可做：按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。
+- 开始／完成：未记录 ／ 未记录；核实日期：2026-11-23
+- 总监督可做：打开本批展示准备，先用中文讲清项目，再练第1/2/9页并记录真实用时；按实际回答继续Q&A。报告先理解要求，不写正文或代选模型。准确展示钟点及Slides独立回执仍待核。
 - 验收：待核 方法与最终评价已冻结；✓ Slides／讲稿已合并并核数；待核 正式提交回执已核验
-- 依据：课程当前进度记录及总监督管理复核；依据日期 2026-11-10；[A v2 认可状态：本人转述已核原消息](https://github.com/CercaTrovato/olist-repurchase-analysis/blob/07bfcac704da37deb34d15ebf7fe8b0e5e2e685e/slides/a-draft-20261115/decision.json)；[本人认可 A v3 与 3 号提交安排](https://github.com/CercaTrovato/olist-repurchase-analysis/blob/b688bda713ad80b55cff8e922b103ff95281768a/slides/a-v3-20261115/decision.json)；[本人确认提交与展示安排](https://github.com/CercaTrovato/olist-repurchase-analysis/blob/fc5186ecb804149cb5aad177d5c10dfb3b16fb85/slides/submitted-20261115/submission-record.json)
+- 依据：课程当前进度记录及总监督管理复核；依据日期 2026-11-10；[A v2 认可状态：本人转述已核原消息](https://github.com/CercaTrovato/olist-repurchase-analysis/blob/07bfcac704da37deb34d15ebf7fe8b0e5e2e685e/slides/a-draft-20261115/decision.json)；[本人认可 A v3 与 3 号提交安排](https://github.com/CercaTrovato/olist-repurchase-analysis/blob/b688bda713ad80b55cff8e922b103ff95281768a/slides/a-v3-20261115/decision.json)；[本人确认提交与展示安排](https://github.com/CercaTrovato/olist-repurchase-analysis/blob/fc5186ecb804149cb5aad177d5c10dfb3b16fb85/slides/submitted-20261115/submission-record.json)；[11/23 最终13页展示准备与Q&A](https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/presentation-prep-20261123/presentation-prep-20261123.md)
 
 ### 本人下一步：准备 11 月 25 日课堂展示 · `my-delivery`
 
 **正在推进** · 负责人：本人 · 统筹 · 2026-11-25 · 已确认安排
 
-当前展示采用最终已提交的 13 页 PPT（本人确认）；11 月 25 日、Week 13、第 2 组，准确钟点未新核。主讲页码：1号3、2号4、3号5/6、4号8、5号7、6号1/2/9。本人确认的提交事实保留，独立成功回执待补而不重交；真人计时、问答熟练度与最终报告继续单独推进。A/B、已见四月及辅助研究保留历史，不再作为重新投票、重训或重做 PPT 的待办。
+Six Sigma 11 月 25 日展示，最终 13 页 Slides 保留本人已提交状态。11/23 已按最终稿准备整份故事、6号第1/2/9页中英讲法、转场、数字与12项Q&A，已完成独立轻量抽检；本人互动练习和真人计时未核。报告仅梳理要求、材料和建议结构，未写正文或代选路线/模型；准确展示钟点待核。
 
 - 本环节交付：完成核对或交接，并将实际答复更新回任务记录。
-- 下一步：按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。
+- 下一步：打开本批展示准备，先用中文讲清项目，再练第1/2/9页并记录真实用时；按实际回答继续Q&A。报告先理解要求，不写正文或代选模型。准确展示钟点及Slides独立回执仍待核。
 - 前置依赖：无已登记前置
-- 开始／完成：未记录 ／ 未记录；核实日期：2026-11-20
-- 总监督可做：按最终 13 页准备 11 月 25 日展示与 Q&A；本人负责第 1、2、9 页及统筹衔接。已有成功回执可补存；报告按已登记建议节奏推进，12 月 6 日 23:59 HKT 正式截止保留。
+- 开始／完成：未记录 ／ 未记录；核实日期：2026-11-23
+- 总监督可做：打开本批展示准备，先用中文讲清项目，再练第1/2/9页并记录真实用时；按实际回答继续Q&A。报告先理解要求，不写正文或代选模型。准确展示钟点及Slides独立回执仍待核。
 - 验收：待核 已核对并登记实际结果或待回复内容
-- 依据：课程当前进度记录及总监督管理复核；依据日期 2026-11-10；[本人认可 A v3 与 3 号提交安排](https://github.com/CercaTrovato/olist-repurchase-analysis/blob/b688bda713ad80b55cff8e922b103ff95281768a/slides/a-v3-20261115/decision.json)；[本人确认提交与展示安排](https://github.com/CercaTrovato/olist-repurchase-analysis/blob/fc5186ecb804149cb5aad177d5c10dfb3b16fb85/slides/submitted-20261115/submission-record.json)
+- 依据：课程当前进度记录及总监督管理复核；依据日期 2026-11-10；[本人认可 A v3 与 3 号提交安排](https://github.com/CercaTrovato/olist-repurchase-analysis/blob/b688bda713ad80b55cff8e922b103ff95281768a/slides/a-v3-20261115/decision.json)；[本人确认提交与展示安排](https://github.com/CercaTrovato/olist-repurchase-analysis/blob/fc5186ecb804149cb5aad177d5c10dfb3b16fb85/slides/submitted-20261115/submission-record.json)；[11/23 最终13页展示准备与Q&A](https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/presentation-prep-20261123/presentation-prep-20261123.md)
 
 ### 本人下一步：团队四月名单复现与交接说明 · `my-team-april`
 
@@ -205,14 +205,14 @@ Six Sigma 展示已确定为 11 月 25 日（周三），Week 13、第 2 组；�
 
 **后续计划** · 负责人：全组；6 号统筹 · 尚未安排 · 日期未定
 
-按最终13页及13页notes准备；旧v3讲稿/17QA只作历史参考，不视为与最终稿逐字一致。真人计时仍未知。
+Six Sigma 11 月 25 日展示，最终 13 页 Slides 保留本人已提交状态。11/23 已按最终稿准备整份故事、6号第1/2/9页中英讲法、转场、数字与12项Q&A，已完成独立轻量抽检；本人互动练习和真人计时未核。报告仅梳理要求、材料和建议结构，未写正文或代选路线/模型；准确展示钟点待核。
 
 - 本环节交付：每位成员的实际用时、全程用时、转场问题及按页码整理的修订清单。
-- 下一步：按本人安排进行真人计时及问答准备，重点核最终第5、6页修改和第13页备查。
+- 下一步：打开本批展示准备，先用中文讲清项目，再练第1/2/9页并记录真实用时；按实际回答继续Q&A。报告先理解要求，不写正文或代选模型。准确展示钟点及Slides独立回执仍待核。
 - 前置依赖：date-slides-merge
-- 开始／完成：未记录 ／ 未记录；核实日期：2026-11-20
+- 开始／完成：未记录 ／ 未记录；核实日期：2026-11-23
 - 验收：待核 对应交件或活动有可核完成记录
-- 依据：已发布的六人协作与交付倒排
+- 依据：已发布的六人协作与交付倒排；[11/23 最终13页展示准备与Q&A](https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/presentation-prep-20261123/presentation-prep-20261123.md)
 
 ### 交完整报告段落与复跑入口（建议） · `date-report-sections`
 

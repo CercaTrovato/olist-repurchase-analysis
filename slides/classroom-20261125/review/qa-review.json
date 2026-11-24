@@ -1,0 +1,53 @@
+{
+  "schema": "note-review-v2",
+  "note": "slides/classroom-20261125/QA-20261125.md",
+  "scope": "full",
+  "source_sha256": null,
+  "candidate_sha256": "132af8168005834c3eb583c41678bec829c5578a5b24d60aa06c29e90cff780f",
+  "review_file": "author-review.md",
+  "review_sha256": "0ea124d302b603e87730507576b82c976d4a61ee4faf295d5b6e52fe069769dc",
+  "checks": {
+    "understanding": {
+      "status": "passed",
+      "evidence": "Independent stage1 and stage2: definitions, fixed79 protocol, two actual navigation paths; risk sample only"
+    },
+    "sources": {
+      "status": "passed",
+      "evidence": "Original submitted deck preserved; native charts unchanged; test CSV and parameter source checks in stage2"
+    },
+    "warnings": {
+      "status": "passed",
+      "evidence": "Assignment presentation guide/QA, not M/T; applicable XML, arithmetic, source and text-bound checks completed"
+    },
+    "visuals": {
+      "status": "passed",
+      "evidence": "Native PowerPoint PDF plus 720DPI native PNG and same-image scaled QA, actual sample and corrected display inference in stage2"
+    }
+  },
+  "independent_review": {
+    "author_ids": [
+      "is6400-primary-classroom-20261125"
+    ],
+    "reviewer_id": "/root/classroom_deck_review",
+    "perspective": "high-school-beginner",
+    "status": "passed",
+    "candidate_sha256": "132af8168005834c3eb583c41678bec829c5578a5b24d60aa06c29e90cff780f",
+    "report_file": "review-stage-2.md",
+    "report_sha256": "b1057969b968e3e61c6c7f00263e35244652b96e62ee40a6a0ee57aa57c976a8"
+  },
+  "assets": [
+    {
+      "path": "../IS6400_SixSigma_Classroom_20261125.pptx",
+      "sha256": "763f3eb54639798135c987bb5476e4f5ce2804f268eab6a2f0a15b24f3348f11"
+    },
+    {
+      "path": "../IS6400_SixSigma_Classroom_20261125.pdf",
+      "sha256": "96b06e3830a369a7e420a70e280fab63de81bdaacd1612b7fa1c5b0b40880066"
+    },
+    {
+      "path": "review-stage-1.md",
+      "sha256": "a7ec10a5dc8367959b078dac49388870556f8a20d38166abd1962dd76a483eef"
+    }
+  ],
+  "unresolved": []
+}

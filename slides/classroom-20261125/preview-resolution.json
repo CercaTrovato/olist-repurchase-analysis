@@ -1,0 +1,182 @@
+[
+  {
+    "file": "slide-01.png",
+    "pixels": [
+      9600,
+      5400
+    ],
+    "dpi_at_13_333x7_5_in": [
+      720.0,
+      720.0
+    ],
+    "sha256": "c10be3b74a22613834ce781e53a01592bd45a901a917e15e87cdfe8a84f1a44f"
+  },
+  {
+    "file": "slide-02.png",
+    "pixels": [
+      9600,
+      5400
+    ],
+    "dpi_at_13_333x7_5_in": [
+      720.0,
+      720.0
+    ],
+    "sha256": "29b797a9e170914bad88482cd66f6cd0c206ec2dbe400a5d831640ab1e11d79d"
+  },
+  {
+    "file": "slide-03.png",
+    "pixels": [
+      9600,
+      5400
+    ],
+    "dpi_at_13_333x7_5_in": [
+      720.0,
+      720.0
+    ],
+    "sha256": "56508d5811f8dfabe71560c37d0a4482e6dd75c4687eb46e7aeb7c4988b9f192"
+  },
+  {
+    "file": "slide-04.png",
+    "pixels": [
+      9600,
+      5400
+    ],
+    "dpi_at_13_333x7_5_in": [
+      720.0,
+      720.0
+    ],
+    "sha256": "adc2f65c94e33b8c7e046c9896e56242a49fc708b052e0e5cd614c2fa350887b"
+  },
+  {
+    "file": "slide-05.png",
+    "pixels": [
+      9600,
+      5400
+    ],
+    "dpi_at_13_333x7_5_in": [
+      720.0,
+      720.0
+    ],
+    "sha256": "17a4f9e7b47180131aceb9ecc8b62918eeea2a4132f07232f9a091fc69edf84f"
+  },
+  {
+    "file": "slide-06.png",
+    "pixels": [
+      9600,
+      5400
+    ],
+    "dpi_at_13_333x7_5_in": [
+      720.0,
+      720.0
+    ],
+    "sha256": "26c0676cd45a99ac439a2fb1075bac3e41bb29d6763476086f0fe4587530d843"
+  },
+  {
+    "file": "slide-07.png",
+    "pixels": [
+      9600,
+      5400
+    ],
+    "dpi_at_13_333x7_5_in": [
+      720.0,
+      720.0
+    ],
+    "sha256": "4be94fdc7306f71f536e3868a592e301b6e9238a4e59adcdabbb2a886c4603fd"
+  },
+  {
+    "file": "slide-08.png",
+    "pixels": [
+      9600,
+      5400
+    ],
+    "dpi_at_13_333x7_5_in": [
+      720.0,
+      720.0
+    ],
+    "sha256": "4b3d522dc31cf4abb94d4d864ac54539f3742a46430eae1de479e040c4940aa5"
+  },
+  {
+    "file": "slide-09.png",
+    "pixels": [
+      9600,
+      5400
+    ],
+    "dpi_at_13_333x7_5_in": [
+      720.0,
+      720.0
+    ],
+    "sha256": "9cd1f2f85fcbd155e39c16a535a0d0d37142f74dd76e5e436f53bba1e541669c"
+  },
+  {
+    "file": "slide-10.png",
+    "pixels": [
+      9600,
+      5400
+    ],
+    "dpi_at_13_333x7_5_in": [
+      720.0,
+      720.0
+    ],
+    "sha256": "62de4f3ebaa8e795159240cf8205908fea04862e441d23823cf4b363c02f4aaa"
+  },
+  {
+    "file": "slide-11.png",
+    "pixels": [
+      9600,
+      5400
+    ],
+    "dpi_at_13_333x7_5_in": [
+      720.0,
+      720.0
+    ],
+    "sha256": "3a38e0a792cfb70f762092a558277410173d31a5388869ba4048039e485d68f9"
+  },
+  {
+    "file": "slide-12.png",
+    "pixels": [
+      9600,
+      5400
+    ],
+    "dpi_at_13_333x7_5_in": [
+      720.0,
+      720.0
+    ],
+    "sha256": "f787dc170511c8f3bf1d7b61c5f828a2695b54b0de7435fcf1957ec224e96c8a"
+  },
+  {
+    "file": "slide-13.png",
+    "pixels": [
+      9600,
+      5400
+    ],
+    "dpi_at_13_333x7_5_in": [
+      720.0,
+      720.0
+    ],
+    "sha256": "08c4730b4cdd1c6b4e007e4d23669a7cc10db62e0f8086704b25f2b5a924168b"
+  },
+  {
+    "file": "slide-14.png",
+    "pixels": [
+      9600,
+      5400
+    ],
+    "dpi_at_13_333x7_5_in": [
+      720.0,
+      720.0
+    ],
+    "sha256": "886c75e2269f8160192e261a36a088df729547ba1d728b8c5292bf699f50f0b8"
+  },
+  {
+    "file": "slide-15.png",
+    "pixels": [
+      9600,
+      5400
+    ],
+    "dpi_at_13_333x7_5_in": [
+      720.0,
+      720.0
+    ],
+    "sha256": "15c5add5c784b518291c9abf1cd1900fb8fa1ed22de8d8dac907a97c383dfd91"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "1": {
+    "en": "Hello everyone. We are Team Six Sigma. We use Olist's historical e-commerce orders to study customer repurchase. Our business question is which existing customers should receive limited attention. We compare equal-sized prediction lists and use customer groups to understand who those lists miss.",
+    "zh": "先介绍Olist历史订单和客户复购主题，再提出有限名额的问题。6号负责；目标约25秒，不等于真人计时。"
+  },
+  "2": {
+    "en": "Our workflow connects prediction and customer segmentation. Customer histories use information available before each snapshot. October is for training and January for model development. We compare equal-sized lists, then join scores, groups and outcomes to diagnose coverage. We also load the saved screening-stage model for an April test, with May and June stability checks. The content trial remains a proposal.",
+    "zh": "6号约35秒。先共同输入，再左预测右分群，再群内诊断。新增测试使用保存的H04规格模型；后续R3群检查仍是另一保存阶段。不要把两者说成同一个拟合文件。"
+  },
+  "3": {
+    "en": "We create one row per customer at each prediction date. Inputs describe the previous six calendar months. The label records an eligible approved positive-value order in the next ninety days. October supplies 21,160 training customers and 211 repeat buyers. January supplies 29,368 customers and 230 buyers for development. April supplies 37,813 customers and 299 buyers for frozen-model testing. The January process example selects 2,937 people; April selects 3,782. Preprocessing is learned only from October. We do not refit on the test snapshots.",
+    "zh": "1号约60秒。十月标签区间[2017-10-01,2017-12-30)，一月[2018-01-01,2018-04-01)，四月[2018-04-01,2018-06-30)。四月测试不调参由本人核验；不宣称首次看到四月。"
+  },
+  "4": {
+    "en": "We describe three customer groups using historical recency, frequency and spending. The transformation and K-means centers are learned on October and applied to January. Group names summarize profiles rather than manual cutoffs. The long-inactive group contains ninety repeat buyers among 12,330 customers. These differences motivate delivery and review feature ideas. The newest proposed combinations differ from the fields already tested, so their predictive benefit remains untested.",
+    "zh": "2号约50秒。37/135天是中位数，不是人工阈值。F/M先log1p，R保留天数，再按十月标准化。新G1/G2不等于实际F1/F2。"
+  },
+  "5": {
+    "en": "The seven-method screening uses the same January customers and 2,937 places. Weighted logistic regression finds fifty buyers, ordinary logistic regression forty-six, CatBoost forty-five and random forest forty-four. Weighted forest and CatBoost find thirty-six and thirty-five; the recency rule finds thirty. We choose the weighted logistic reference for this capacity objective. It has the highest AP, but CatBoost has the highest ROC-AUC. The result is a development comparison, not proof of winning every metric. The next slide uses later R3 saved scores.",
+    "zh": "3号第5/6页共140秒预算。LR根据历史线索学习评分；复购者少，加权让少数复购案例的训练错误占更大分量，不改变样本人数。recency按R从小到大选，即最近买过优先。AP概括不同阈值的精确率/召回率表现；ROC-AUC看真实复购者能否排在未复购者前面，两者都不是整体准确率。第5页H04 v0.2缓存；第6页后R3不同名单。无系统GridSearch最优证明。后备14测试的是实际保存H04规格模型。"
+  },
+  "6": {
+    "en": "In the later R3 checks, all methods use the same January cohort and Top 10% capacity. The weighted baseline finds fifty buyers. Delivery fields find forty-eight, review fields forty-six, a group label fifty, and separate group models forty-nine. These are negative results for the tested variants only. October five-fold mean hits are seven unweighted and six point eight weighted, so weighting does not win every diagnostic. Each fold selects 424 customers, which is not directly comparable with the January count of fifty.",
+    "zh": "3号续。F1已知送达数/平均配送时长/迟到比例；F2已知评分数/平均分/低分比例。CV仅十月分层五折shuffle、seed2026。群模型的H05表示先拟合全十月，不能称整个流程完全折内隔离。"
+  },
+  "7": {
+    "en": "The later R3 global list finds fifty buyers, but only two of the ninety long-inactive repeat buyers. Only seventy-three of this group enter the global list. A separate group-only comparison fixes capacity at seventy-nine, finding one buyer unweighted and two weighted. These are different lists. More group places do not by themselves prove better within-group ranking. The group diagnostics identify a coverage gap rather than a proven causal explanation for every missed buyer.",
+    "zh": "5号约55秒。2190+73+674=2937；21+2+27=50；漏88。79沿用既有群内诊断协议的固定规模，与旧H04全局该群79席一致；当前R3全局该群73席，但群内对照继续各取79以保持同容量。现有记录不证明79是业务最优配额，本次没有按命中数重选它。"
+  },
+  "8": {
+    "en": "The proposal randomly assigns reachable, consenting long-inactive customers equally to a themed shopping guide or a generic guide. Both groups receive contact, with the same channel, format and timing. We compare ninety-day repurchase using all randomized customers in the denominator. This tests the content theme, not contact versus no contact. The trial has not run. Detecting a fifty-percent relative improvement requires 21,308 people in total under the planning assumptions, exceeding the historical pool of 12,330. Reachability and sample size must be checked first.",
+    "zh": "4号约60秒。相对50%不是50个百分点；基线90/12330约0.730%，目标约1.095%。双侧alpha .05，power .80，1:1。历史池不是已同意可触达人数。"
+  },
+  "9": {
+    "en": "Our simple weighted reference found fifty buyers versus forty-six in January. In the April frozen-model test, it found sixty-five versus sixty-four, ahead of the recency rule at forty-five. The advantage is modest and is not uniform across months. The tested extensions did not improve January Top 10% hits. Group diagnosis still reveals missed buyers and supports a content-test proposal. Next, we check reachability and sample size before an approved trial. Thank you.",
+    "zh": "6号约35秒。四月测试属已保存H04规格模型；五月普通67高于加权65，保留不利结果。加权三期都高于recency，但不声称稳定显著胜普通。"
+  },
+  "10": {
+    "en": "The baseline uses seven numerical fields and state. Numerical fields use log-one-plus and training-fitted standardization. State is one-hot encoded. The frozen pipeline expands the raw eight fields to thirty-four columns. Scores rank every eligible customer; there is no fixed zero-point-five selection threshold. Balanced class weights change fitting influence, not sample counts. The raw weighted output is used for ranking rather than assumed calibrated purchase probability.",
+    "zh": "八字段不等于八个编码后系数。R/F/M、平均明细行数、运费占比、近30天订单/金额、州。无SMOTE/下采样。"
+  },
+  "11": {
+    "en": "The group models change allocation of a fixed global capacity. The baseline gives long-inactive customers seventy-three places and finds two buyers. Adding group ID gives 181 places and finds two; separate models give 518 and find four. At the equal group-only capacity of seventy-nine, the counts are two, two and one. Better coverage and better within-group ranking therefore need separate evidence.",
+    "zh": "此表为一月R3，不是四月测试。分群模型群0/1分别拟合、群2全局兜底。"
+  },
+  "12": {
+    "en": "Capacity checks retain the later January R3 scores. At five percent both logistic models find thirty-one buyers; at ten percent the counts are forty-six and fifty; at twenty percent seventy-three and seventy-five. The October five-fold spread is sample standard deviation, not a confidence interval. These are internal diagnostics, not five independent future periods.",
+    "zh": "R3一月20%加权75；旧H04规格缓存74，不混表。"
+  },
+  "13": {
+    "en": "The left column contains fields already tested by the R3 models. The right column contains newer proposals with different definitions. The tested delivery and review results cannot establish that every proposed feature combination is ineffective. New proposals require matched validation before adoption.",
+    "zh": "旧v3第14页现第13页。delivery_days_log不能在通用管道再次log1p。"
+  },
+  "14": {
+    "en": "These are actual predictions from saved, already fitted pipelines. October trained the models; January supported development. The April test has 37,813 customers and 299 buyers. At the same 3,782 places, weighted LR finds sixty-five, ordinary LR sixty-four and recency forty-five. Precision is 1.72 percent and recall 21.74 percent. May finds sixty-five versus sixty-seven, and June fifty-nine versus fifty-three. We keep the selected model fixed. Outcome windows overlap, so the months are reported separately.",
+    "zh": "完整来源为research/frozen-temporal-test-20261125。本人已核验四月表现未用于调参；程序仅load/predict，模型hash原件未变。四月共同56、独有9/8，p=1不是等效证明。Wilson参考区间不覆盖训练/时间漂移。"
+  },
+  "15": {
+    "en": "These settings are recorded configurations rather than a claimed global optimum. Logistic regression uses C equal to one and up to two thousand iterations. Forest depth and minimum leaf size control complexity. CatBoost uses three hundred iterations and learning rate zero point zero five. K-means uses three groups and twenty starts. Three clusters were checked for initialization stability, not proven optimal by an undocumented elbow search. October cross-validation is separate from January model screening and April testing.",
+    "zh": "参数语义与实际值分开。LR的C越小正则越强；max_iter是上限而非实际轮数；KMeans n_init20不是20群。AI assistance: Codex supported slide editing and evaluation scripting; numerical results were checked against saved models and input data."
+  }
+}

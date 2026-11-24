@@ -7,21 +7,21 @@
   "board_scope": "active",
   "group": "Six Sigma",
   "my_role": "业务目标与项目统筹（6 号）",
-  "summary": "11/25本人核验四月表现未用于调参；已加载原冻结H04规格八字段LR完成四月测试，并补五月/六月检查，全程无训练或调参。加权前10%命中65/65/59，普通64/67/53，最近购买45/57/48；三期分别报告、不改选模型。最终13页Slides保留本人已提交状态；本人演练、课堂展示与正式报告状态未升级。",
-  "stage": "Slides 本人确认已提交｜11 月 25 日 Week 13 第 2 组展示",
-  "updated_at": "2026-11-25T01:13:59+08:00",
+  "summary": "11/25课堂更新版已制作：15页（9主讲/6备查），本人仍负责1/2/9页；补十月训练、一月验证、四月冻结测试与三期结果、参数备查，讲者备注/中英讲稿/QA已齐。原13页已交原件与提交状态保持，不重交Canvas。新版通读、真人计时、正式展示与报告完成未由材料更新推定。",
+  "stage": "11/25课堂新版15页已制作｜原13页已提交记录保留",
+  "updated_at": "2026-11-25T02:03:50+08:00",
   "reviewed_at": "2026-11-20",
-  "progress_as_of": "2026-11-17",
+  "progress_as_of": "2026-11-25",
   "task_scope_complete": false,
   "next_action": {
-    "title": "按最终 13 页版本准备 11 月 25 日课堂展示：各成员核对自己页面、数字和转场，再按本人安排进行真人计时与问答准备。已有提交回执可补存以核准确时刻和实际账号；不再催 3 号提交，不修改或重新提交已交附件。",
+    "title": "使用11/25课堂新版核对本人第1/2/9页并真人计时；1号留意第3页训练/验证/测试，3号留意第5/6页文字与第14/15页备查。准确展示钟点和原Slides独立回执另核，不重新提交附件。",
     "owner": "全组按最终页码准备；本人统筹；回执另行补存",
     "basis": "agreed"
   },
   "blockers": [
     "真人计时、成员掌握与问答准备未核完成；展示安排为 11 月 25 日课堂，准确钟点未新核。",
     "Slides 已由本人确认提交；成功页面、准确时刻及实际账号未独立核验，证据补存不构成再次提交要求。",
-    "已提交文件由团队最后修改，本轮只归档与差异核对；未重新执行完整科学审查，最终报告另行推进。"
+    "已交13页原件按原证据保留；本次课堂更新含冻结测试补充和一次独立风险抽检，不代替最终报告整体核验或团队对新版的实际通读。"
   ],
   "tasks": [
     {
@@ -1423,6 +1423,54 @@
       "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/research/frozen-temporal-test-20261125/verification.json",
       "observed_at": "2026-11-25",
       "sha256": "4f2bef56477290f216ecd0457faea6559f7deb09197eba71cb885a743457971e"
+    },
+    {
+      "id": "ppt-classroom-20261125",
+      "kind": "web",
+      "label": "11/25课堂15页可编辑PPTX",
+      "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/slides/classroom-20261125/IS6400_SixSigma_Classroom_20261125.pptx",
+      "observed_at": "2026-11-25",
+      "sha256": "763f3eb54639798135c987bb5476e4f5ce2804f268eab6a2f0a15b24f3348f11"
+    },
+    {
+      "id": "ppt-classroom-pdf-20261125",
+      "kind": "web",
+      "label": "11/25原生PDF预览",
+      "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/slides/classroom-20261125/IS6400_SixSigma_Classroom_20261125.pdf",
+      "observed_at": "2026-11-25",
+      "sha256": "96b06e3830a369a7e420a70e280fab63de81bdaacd1612b7fa1c5b0b40880066"
+    },
+    {
+      "id": "ppt-classroom-guide-20261125",
+      "kind": "web",
+      "label": "11/25中英讲稿与转场",
+      "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/slides/classroom-20261125/Speaker-Guide-20261125.md",
+      "observed_at": "2026-11-25",
+      "sha256": "512d2046b63583401052b732974bb91d2bb38c19e837f1d349f66ace37656386"
+    },
+    {
+      "id": "ppt-classroom-qa-20261125",
+      "kind": "web",
+      "label": "11/25参数/划分/测试Q&A",
+      "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/slides/classroom-20261125/QA-20261125.md",
+      "observed_at": "2026-11-25",
+      "sha256": "132af8168005834c3eb583c41678bec829c5578a5b24d60aa06c29e90cff780f"
+    },
+    {
+      "id": "ppt-classroom-review-20261125",
+      "kind": "web",
+      "label": "本批独立风险抽检与定向复核",
+      "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/slides/classroom-20261125/review/review-stage-2.md",
+      "observed_at": "2026-11-25",
+      "sha256": "b1057969b968e3e61c6c7f00263e35244652b96e62ee40a6a0ee57aa57c976a8"
+    },
+    {
+      "id": "ppt-classroom-report-20261125",
+      "kind": "web",
+      "label": "课堂版本更新与同步范围回传",
+      "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/slides/classroom-20261125/README.md",
+      "observed_at": "2026-11-25",
+      "sha256": "d39edc48d966a4db4a960073ae4b37032042db26c97c69107b5fa03394729ce4"
     }
   ]
 }

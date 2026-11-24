@@ -1,0 +1,61 @@
+{
+  "source_sha256": "9452af19a145bc491532fb414c2d1704eecb9362998ca14eed59814486cbd8b2",
+  "candidate_sha256": "763f3eb54639798135c987bb5476e4f5ce2804f268eab6a2f0a15b24f3348f11",
+  "slides": 15,
+  "main_slides": 9,
+  "backup_slides": 6,
+  "visible_changed_original_pages": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    9,
+    12
+  ],
+  "appended_pages": [
+    14,
+    15
+  ],
+  "unchanged_original_pages": [
+    4,
+    7,
+    8,
+    10,
+    11,
+    13
+  ],
+  "original_chart_and_embedding_parts_preserved": 6,
+  "notes_pages": 15,
+  "member_pages_unchanged": {
+    "role01": [
+      3
+    ],
+    "role02": [
+      4
+    ],
+    "role03": [
+      5,
+      6
+    ],
+    "role04": [
+      8
+    ],
+    "role05": [
+      7
+    ],
+    "role06": [
+      1,
+      2,
+      9
+    ]
+  },
+  "model_test_source": "77d50b613961245fc67617df743068af557d7f8f / research/frozen-temporal-test-20261125",
+  "style": {
+    "burgundy": "541B35",
+    "heading": "Georgia",
+    "body": "Calibri"
+  },
+  "submitted_original_modified": false,
+  "canvas_resubmission": false
+}

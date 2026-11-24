@@ -2,9 +2,9 @@
   "schema_version": 1,
   "assignment_id": "IS6400-A06",
   "course": "IS6400",
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-25",
   "timezone": "Asia/Shanghai",
-  "source_revision": "a48c8da55c7d9062189df7afbea7360e36318a961d311714b3f983b54710907e",
+  "source_revision": "6e6e264a3be8ec06f6f27244a489f486b500f63de9477dc4acd699ba2c619027",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
   "stale": false,
   "scheduling_policy": {
@@ -64,7 +64,7 @@
       "blocked_by": [],
       "estimated_minutes": null,
       "observed_on": "2026-11-20",
-      "date_state": "next_7_days"
+      "date_state": "today"
     },
     {
       "id": "my-delivery",
@@ -81,7 +81,7 @@
       "blocked_by": [],
       "estimated_minutes": null,
       "observed_on": "2026-11-23",
-      "date_state": "next_7_days"
+      "date_state": "today"
     },
     {
       "id": "date-slides-target",

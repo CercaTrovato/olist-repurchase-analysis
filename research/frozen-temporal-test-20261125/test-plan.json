@@ -1,0 +1,46 @@
+{
+  "schema": "frozen-temporal-test-plan-v1",
+  "locked_at": "2026-11-25T01:06:41.717030+08:00",
+  "user_confirmation": {
+    "date": "2026-11-25",
+    "statement": "用户核验四月表现没有用于调参；本次要求用冻结模型测试并给出数据。",
+    "status": "user_verified_not_reaudited_as_complete_historical_chronology"
+  },
+  "model_identity": "Saved H04-specification LR8 pipeline, fitted on all October; distinct from later R3 saved scores/lists",
+  "primary": "frozen_weighted_lr8",
+  "comparators": [
+    "frozen_unweighted_lr8",
+    "recency_rule"
+  ],
+  "dates": [
+    "2018-04-01",
+    "2018-05-01",
+    "2018-06-01"
+  ],
+  "primary_date": "2018-04-01",
+  "primary_fraction": 0.1,
+  "additional_fixed_fractions": [
+    0.05,
+    0.2
+  ],
+  "history": "six calendar months before each snapshot",
+  "outcome": "approved positive merchandise-value order in [snapshot,snapshot+90 days)",
+  "ranking": "score descending, customer ID ascending; ceil(N*fraction)",
+  "prohibits": [
+    "fitting",
+    "preprocessing refit",
+    "parameter changes",
+    "model reselection from test results",
+    "creating incomplete 90-day labels"
+  ],
+  "history_disclosure": "April has existing historical results; this run is a new execution with saved weights, not a first-ever opening of April.",
+  "uncertainty": "Wilson 95% intervals conditional on fixed model/list and approximate independent customer sampling; excludes training/time drift uncertainty",
+  "overlapping_windows": "Report months separately; no pooling as independent tests.",
+  "source_sha256": {
+    "E:\\app-data\\codex\\outputs\\is6400-weighted-april-20261110\\weighted-lr8.joblib": "ffd60ea2051658162e8cc5d34c0ebdbb512b55d5c500e878d9c9ed4b11295b0f",
+    "E:\\app-data\\codex\\outputs\\is6400-round3-20261111\\baselines\\private\\LR8.joblib": "2ff2d390e53534bacef1c98c6fc86e1089de762fdbff1494f9780bca9d527ee6",
+    "E:\\app-data\\codex\\outputs\\is6400-team-intake-20261110\\H02_candidate_v2.zip": "3b58f4e493e825a76ccc569f205cfa0db5d27e22b13389c3c00ff958a316419a",
+    "E:\\app-data\\codex\\outputs\\olist-round1-local-20261107\\role-01\\build_h02.py": "679bdeb28b685e1662dba97460f2670cfaf985c53406060115a422cfbc3bd461",
+    "D:\\上课资料\\CityU\\IS6400_Business_Data_Analytics\\assignment\\graded\\A06-group-project\\work\\data\\source-manifest.json": "117b3b6758f31e9c8a1f56809a9fb58a57b6849fb39e8e6b637cc166bd5e2498"
+  }
+}

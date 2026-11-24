@@ -1,0 +1,204 @@
+{
+  "schema": "frozen-temporal-test-verification-v1",
+  "status": "completed",
+  "no_fit_or_tuning_calls": true,
+  "original_sources_unchanged": true,
+  "april_rebuilt_matches_H02": true,
+  "january_identity_checks": [
+    {
+      "method": "frozen_weighted_lr8",
+      "N": 29368,
+      "hits": 50,
+      "AP": 0.029797090647111658
+    },
+    {
+      "method": "frozen_unweighted_lr8",
+      "N": 29368,
+      "hits": 46,
+      "AP": 0.028239133954362627
+    }
+  ],
+  "model_parameters": {
+    "primary": {
+      "classifier": {
+        "C": 1.0,
+        "class_weight": "balanced",
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": null,
+        "max_iter": 2000,
+        "multi_class": "deprecated",
+        "n_jobs": null,
+        "penalty": "l2",
+        "random_state": 2026,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "raw_fields": [
+        "R",
+        "F",
+        "M",
+        "average_item_rows",
+        "freight_share",
+        "recent30_orders",
+        "recent30_spend",
+        "state"
+      ],
+      "transformed_columns": 34,
+      "coefficient_sha256": "d148dc879b2fe8800ea6c6651e1f501f8d5d96bbf7b4c1fec1dd8e01f1f982ab"
+    },
+    "reference": {
+      "classifier": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": null,
+        "max_iter": 2000,
+        "multi_class": "deprecated",
+        "n_jobs": null,
+        "penalty": "l2",
+        "random_state": 2026,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "raw_fields": [
+        "R",
+        "F",
+        "M",
+        "average_item_rows",
+        "freight_share",
+        "recent30_orders",
+        "recent30_spend",
+        "state"
+      ],
+      "transformed_columns": 34,
+      "coefficient_sha256": "3f09c07266e2a5df6d4b9a036049fe7a6b423484cf78fea81192ccf8b1c8eea3"
+    }
+  },
+  "source_counts": {
+    "orders_rows": 99441,
+    "orders_unique_order_id": 99441,
+    "orders_unique_customer_id": 99441,
+    "items_rows": 112650,
+    "items_unique_order_item_keys": 112650,
+    "items_unique_order_id": 98666,
+    "customers_rows": 99441,
+    "customers_unique_customer_id": 99441,
+    "customers_unique_customer_unique_id": 96096,
+    "products_rows": 32951,
+    "translations_rows": 71,
+    "order_rows_after_item_and_customer_joins": 99441,
+    "item_orders_without_order_record": 0,
+    "customer_rows_without_order_record": 0,
+    "orders_without_customer_or_unique_id": 0,
+    "orders_without_approval_any": 160,
+    "orders_without_items_any": 775,
+    "orders_with_nonpositive_amount_any": 0,
+    "orders_without_approval_and_items": 146,
+    "first_exclusion_customer_or_unique_id": 0,
+    "first_exclusion_missing_approval": 160,
+    "first_exclusion_missing_items": 629,
+    "first_exclusion_nonpositive_amount": 0,
+    "eligible_orders": 98652,
+    "eligible_distinct_customers": 95407,
+    "item_rows_missing_product_match": 0,
+    "item_rows_without_source_category": 1603,
+    "item_rows_with_untranslated_source_category": 24,
+    "untranslated_source_categories": [
+      "pc_gamer",
+      "portateis_cozinha_e_preparadores_de_alimentos"
+    ]
+  },
+  "raw_source_sha256": {
+    "olist_orders_dataset.csv": {
+      "bytes": 17654914,
+      "sha256": "8df58ef3d2d7e9944010f7beecd9b75367f5588ec6e3c91cec19ae3345ef9ecf"
+    },
+    "olist_order_items_dataset.csv": {
+      "bytes": 15438671,
+      "sha256": "0bc4d068c4fe38cbb01bd90e8746e3c613fe7b4baef75fab7b0e329701c3e279"
+    },
+    "olist_customers_dataset.csv": {
+      "bytes": 9033957,
+      "sha256": "983a422239e1712ded753b3bf9ecf47dc73f144d306029dcfa99e70a226883d2"
+    },
+    "olist_products_dataset.csv": {
+      "bytes": 2379446,
+      "sha256": "3e6569628a17fbc75fd206ee357b59e20364b9afa90f5b6cd5b4d624c58aa9cc"
+    },
+    "product_category_name_translation.csv": {
+      "bytes": 2613,
+      "sha256": "a81f0d1f27b27e7293f761bc79e3ce8f348ee39c4b3ed3e49bde38f478586278"
+    }
+  },
+  "windows": [
+    {
+      "split": "frozen_temporal_test",
+      "snapshot_date": "2018-04-01",
+      "history_start_inclusive": "2017-10-01",
+      "label_start_inclusive": "2018-04-01",
+      "label_end_exclusive": "2018-06-30",
+      "customers": 37813,
+      "positives": 299,
+      "prevalence": 0.007907333456747679,
+      "history_orders": 38715,
+      "future_eligible_orders_all_customers": 19831,
+      "category_flags": 37737,
+      "customers_with_category_flags": 37132,
+      "historical_item_rows_without_category": 804,
+      "training_customer_overlap": 361,
+      "calendar_coverage_check": true,
+      "source_system_completeness_proven": false
+    },
+    {
+      "split": "frozen_temporal_test",
+      "snapshot_date": "2018-05-01",
+      "history_start_inclusive": "2017-11-01",
+      "label_start_inclusive": "2018-05-01",
+      "label_end_exclusive": "2018-07-30",
+      "customers": 40025,
+      "positives": 284,
+      "prevalence": 0.007095565271705184,
+      "history_orders": 40954,
+      "future_eligible_orders_all_customers": 18747,
+      "category_flags": 39983,
+      "customers_with_category_flags": 39332,
+      "historical_item_rows_without_category": 804,
+      "training_customer_overlap": 331,
+      "calendar_coverage_check": true,
+      "source_system_completeness_proven": false
+    },
+    {
+      "split": "frozen_temporal_test",
+      "snapshot_date": "2018-06-01",
+      "history_start_inclusive": "2017-12-01",
+      "label_start_inclusive": "2018-06-01",
+      "label_end_exclusive": "2018-08-30",
+      "customers": 39804,
+      "positives": 271,
+      "prevalence": 0.00680836096874686,
+      "history_orders": 40692,
+      "future_eligible_orders_all_customers": 18928,
+      "category_flags": 39827,
+      "customers_with_category_flags": 39170,
+      "historical_item_rows_without_category": 732,
+      "training_customer_overlap": 304,
+      "calendar_coverage_check": true,
+      "source_system_completeness_proven": false
+    }
+  ],
+  "python": "3.12.3",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "sklearn": "1.5.1",
+  "script_sha256": "d3b33b5015bdfd7e369de32bce38842b615ee13a8939f3635f7d90995df71343",
+  "plan_sha256": "02d9011c7bfcaf04755ec1b47bd32d1deea196d31d09b62a1ff7a28e7fcce26b",
+  "metrics_sha256": "7708ccc53970530a8607c7a2a2d6adec5065440d89d9f3242cdadd40263b4917"
+}

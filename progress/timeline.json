@@ -3,10 +3,10 @@
   "assignment_id": "IS6400-A06",
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
-  "as_of": "2026-11-23",
-  "basis_revision": "7c26ed4ee8203ed92a8618d04087cbd680d35993663495b582b56e5f394f8d80",
+  "as_of": "2026-11-25",
+  "basis_revision": "fd7d6347e83e128b7d8d982a35cb6bebd829274e6039e06999fba0a8d8e49c34",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "Six Sigma 11 月 25 日展示，最终 13 页 Slides 保留本人已提交状态。11/23 已按最终稿准备整份故事、6号第1/2/9页中英讲法、转场、数字与12项Q&A，已完成独立轻量抽检；本人互动练习和真人计时未核。报告仅梳理要求、材料和建议结构，未写正文或代选路线/模型；准确展示钟点待核。",
+  "summary": "11/25本人核验四月表现未用于调参；已加载原冻结H04规格八字段LR完成四月测试，并补五月/六月检查，全程无训练或调参。加权前10%命中65/65/59，普通64/67/53，最近购买45/57/48；三期分别报告、不改选模型。最终13页Slides保留本人已提交状态；本人演练、课堂展示与正式报告状态未升级。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
@@ -3480,6 +3480,69 @@
             "next_action": "保留已核的阶段成果和原始证据；当前行动在未完成条目另列。",
             "my_next_action": null
           }
+        }
+      ]
+    },
+    {
+      "id": "frozen-temporal-test-20261125",
+      "title": "已有冻结H04模型的三期时间测试（本机补充）",
+      "status": "done",
+      "owner": "本人 · 6号（本机测试辅助）",
+      "owner_role": "me",
+      "scope": "supporting",
+      "summary": "11/25本人核验四月表现未用于调参；已加载原冻结H04规格八字段LR完成四月测试，并补五月/六月检查，全程无训练或调参。加权前10%命中65/65/59，普通64/67/53，最近购买45/57/48；三期分别报告、不改选模型。最终13页Slides保留本人已提交状态；本人演练、课堂展示与正式报告状态未升级。",
+      "deliverable": "固定权重、三期27行指标、源码/计划/独审/哈希与课堂解释。",
+      "next_action": "用于展示问答补充并交总监督核看板；不根据测试成绩换模型，不修改已交Slides。",
+      "my_next_action": null,
+      "depends_on": [],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "frozen",
+          "label": "已有权重和预处理载入、无拟合/调参、原指纹不变",
+          "status": "pass",
+          "evidence": [
+            "frozen-test-verification-20261125"
+          ]
+        },
+        {
+          "id": "data",
+          "label": "完整90天窗口与四月H02对齐、全部月份结果保留",
+          "status": "pass",
+          "evidence": [
+            "frozen-test-verification-20261125"
+          ]
+        },
+        {
+          "id": "review",
+          "label": "独立风险抽检与配对解释缺口定向关闭",
+          "status": "pass",
+          "evidence": [
+            "frozen-test-20261125"
+          ]
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": "2026-11-25",
+      "completed_on": "2026-11-25",
+      "observed_on": "2026-11-25",
+      "estimated_minutes": null,
+      "state_basis": "本人明确要求的新本机测试辅助，非成员新交件；不计主团队任务完成度，不推定课堂展示、本人学会或正式报告完成。",
+      "evidence": [
+        {
+          "label": "冻结测试结果与公开聚合数据",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/tree/main/research/frozen-temporal-test-20261125"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-25",
+          "status": "done",
+          "note": "本人确认四月表现未用于调参；固定既有权重实际完成三期测试，未修改参数或按结果换模型。"
         }
       ]
     }

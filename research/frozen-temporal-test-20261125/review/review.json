@@ -1,0 +1,53 @@
+{
+  "schema": "note-review-v2",
+  "note": "research/frozen-temporal-test-20261125/README.md",
+  "scope": "full",
+  "source_sha256": null,
+  "candidate_sha256": "2f47185812c6a03b631c7366515b16eaa2792927b86e7f3b2871bf8e64d461ff",
+  "review_file": "author-review.md",
+  "review_sha256": "0bfc7e486b5a0e81f60ab2379168ea4263581fc91cc35e499a3eeb16fb8dbe0a",
+  "checks": {
+    "understanding": {
+      "status": "passed",
+      "evidence": "Independent stage1 then source stage2; paired-metric bridge repaired; risk sample only"
+    },
+    "sources": {
+      "status": "passed",
+      "evidence": "Actual frozen weight loads, no fit calls, raw/H02 alignment, private predictions and metric records"
+    },
+    "warnings": {
+      "status": "passed",
+      "evidence": "Assignment test supplement; applicable arithmetic, SHA and data checks completed, not a M/T section-gate claim"
+    },
+    "visuals": {
+      "status": "not_applicable",
+      "evidence": "No new visual exports or diagrams, only Markdown and machine-readable data; formal Obsidian display untested"
+    }
+  },
+  "independent_review": {
+    "author_ids": [
+      "is6400-primary-frozen-test-20261125"
+    ],
+    "reviewer_id": "/root/frozen_test_review",
+    "perspective": "high-school-beginner",
+    "status": "passed",
+    "candidate_sha256": "2f47185812c6a03b631c7366515b16eaa2792927b86e7f3b2871bf8e64d461ff",
+    "report_file": "review-stage-2.md",
+    "report_sha256": "826ad2efc60ec952c917db732483f6ab1189002ad92d6c537e097bdd40b0dd6c"
+  },
+  "assets": [
+    {
+      "path": "review-stage-1.md",
+      "sha256": "f257e6987e14b696d82afa1ec836467bcb44bd446fb238bfda075938933cdada"
+    },
+    {
+      "path": "../verification.json",
+      "sha256": "4f2bef56477290f216ecd0457faea6559f7deb09197eba71cb885a743457971e"
+    },
+    {
+      "path": "../metrics.csv",
+      "sha256": "7708ccc53970530a8607c7a2a2d6adec5065440d89d9f3242cdadd40263b4917"
+    }
+  ],
+  "unresolved": []
+}

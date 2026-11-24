@@ -7,9 +7,9 @@
   "board_scope": "active",
   "group": "Six Sigma",
   "my_role": "业务目标与项目统筹（6 号）",
-  "summary": "Six Sigma 展示已确定为 11 月 25 日（周三），Week 13、第 2 组；具体钟点未新核。最终 13 页 PPT 仍为本人确认已提交 Canvas，独立回执待补。接下来按最终稿准备展示与问答，报告继续推进。",
+  "summary": "11/25本人核验四月表现未用于调参；已加载原冻结H04规格八字段LR完成四月测试，并补五月/六月检查，全程无训练或调参。加权前10%命中65/65/59，普通64/67/53，最近购买45/57/48；三期分别报告、不改选模型。最终13页Slides保留本人已提交状态；本人演练、课堂展示与正式报告状态未升级。",
   "stage": "Slides 本人确认已提交｜11 月 25 日 Week 13 第 2 组展示",
-  "updated_at": "2026-11-20T02:00:22+08:00",
+  "updated_at": "2026-11-25T01:13:59+08:00",
   "reviewed_at": "2026-11-20",
   "progress_as_of": "2026-11-17",
   "task_scope_complete": false,
@@ -1407,6 +1407,22 @@
       "locator": "https://github.com/CercaTrovato/cityu-ai-course-notes/blob/main/IS6400_Business_Data_Analytics/review/notes-update-20261118.md",
       "observed_at": "2026-11-20",
       "sha256": "29dee557c5c95858e6c5f2c3a919fb057ae373818c584d546c31f6f64fa3e625"
+    },
+    {
+      "id": "frozen-test-20261125",
+      "kind": "web",
+      "label": "冻结模型三期测试及用户核验事实（测试执行完成）",
+      "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/research/frozen-temporal-test-20261125/README.md",
+      "observed_at": "2026-11-25",
+      "sha256": "2f47185812c6a03b631c7366515b16eaa2792927b86e7f3b2871bf8e64d461ff"
+    },
+    {
+      "id": "frozen-test-verification-20261125",
+      "kind": "web",
+      "label": "模型指纹、无训练调用、H02一致与真实运行结果",
+      "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/research/frozen-temporal-test-20261125/verification.json",
+      "observed_at": "2026-11-25",
+      "sha256": "4f2bef56477290f216ecd0457faea6559f7deb09197eba71cb885a743457971e"
     }
   ]
 }

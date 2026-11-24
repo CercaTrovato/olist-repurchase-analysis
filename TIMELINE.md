@@ -1,8 +1,8 @@
 # IS6400 · 项目时间线
 
-Six Sigma 11 月 25 日展示，最终 13 页 Slides 保留本人已提交状态。11/23 已按最终稿准备整份故事、6号第1/2/9页中英讲法、转场、数字与12项Q&A，已完成独立轻量抽检；本人互动练习和真人计时未核。报告仅梳理要求、材料和建议结构，未写正文或代选路线/模型；准确展示钟点待核。
+11/25本人核验四月表现未用于调参；已加载原冻结H04规格八字段LR完成四月测试，并补五月/六月检查，全程无训练或调参。加权前10%命中65/65/59，普通64/67/53，最近购买45/57/48；三期分别报告、不改选模型。最终13页Slides保留本人已提交状态；本人演练、课堂展示与正式报告状态未升级。
 
-进度依据截至 2026-11-23；时区 Asia/Shanghai。完成日期未知时只记录核实日期。
+进度依据截至 2026-11-25；时区 Asia/Shanghai。完成日期未知时只记录核实日期。
 
 [结构化时间线](progress/timeline.json) · [个人助手每日事项入口](progress/daily-plan.json) · [如何读取](ASSISTANT-README.md)
 
@@ -605,6 +605,19 @@ A/B对照材料和当时选择B的记录保留；后续反馈后改回A，当前
 - 开始／完成：2026-11-15 ／ 2026-11-15；核实日期：2026-11-20
 - 验收：✓ 最终20文件哈希 + manifest 与 Git 一致；✓ 最终文件归档/结构/导出及差异核对完成；✓ 本人确认已提交与回执独立核验分开
 - 依据：[当前A第一稿协作入口](https://github.com/CercaTrovato/olist-repurchase-analysis/tree/main/slides/a-draft-20261115)；[A v2 认可状态：本人转述已核原消息](https://github.com/CercaTrovato/olist-repurchase-analysis/blob/07bfcac704da37deb34d15ebf7fe8b0e5e2e685e/slides/a-draft-20261115/decision.json)；[本人认可 A v3 与 3 号提交安排](https://github.com/CercaTrovato/olist-repurchase-analysis/blob/b688bda713ad80b55cff8e922b103ff95281768a/slides/a-v3-20261115/decision.json)；[本人确认提交与展示安排](https://github.com/CercaTrovato/olist-repurchase-analysis/blob/fc5186ecb804149cb5aad177d5c10dfb3b16fb85/slides/submitted-20261115/submission-record.json)
+
+### 已有冻结H04模型的三期时间测试（本机补充） · `frozen-temporal-test-20261125`
+
+**已完成所述交付** · 负责人：本人 · 6号（本机测试辅助） · 尚未安排 · 日期未定
+
+11/25本人核验四月表现未用于调参；已加载原冻结H04规格八字段LR完成四月测试，并补五月/六月检查，全程无训练或调参。加权前10%命中65/65/59，普通64/67/53，最近购买45/57/48；三期分别报告、不改选模型。最终13页Slides保留本人已提交状态；本人演练、课堂展示与正式报告状态未升级。
+
+- 本环节交付：固定权重、三期27行指标、源码/计划/独审/哈希与课堂解释。
+- 下一步：用于展示问答补充并交总监督核看板；不根据测试成绩换模型，不修改已交Slides。
+- 前置依赖：无已登记前置
+- 开始／完成：2026-11-25 ／ 2026-11-25；核实日期：2026-11-25
+- 验收：✓ 已有权重和预处理载入、无拟合/调参、原指纹不变；✓ 完整90天窗口与四月H02对齐、全部月份结果保留；✓ 独立风险抽检与配对解释缺口定向关闭
+- 依据：[冻结测试结果与公开聚合数据](https://github.com/CercaTrovato/olist-repurchase-analysis/tree/main/research/frozen-temporal-test-20261125)
 
 ## 维护约定
 

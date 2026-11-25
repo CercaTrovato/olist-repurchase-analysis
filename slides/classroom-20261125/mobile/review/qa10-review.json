@@ -1,0 +1,53 @@
+{
+  "schema": "note-review-v2",
+  "note": "slides/classroom-20261125/mobile/QA10.md",
+  "scope": "full",
+  "source_sha256": null,
+  "candidate_sha256": "4030c108764ebff5ada622ca073f5f61f790c09da7208c50d92bb3d6631c4469",
+  "review_file": "author-review.md",
+  "review_sha256": "b50a6c01be2ecdbe8c9e58f58a586a768ca16ce3addadeae84e9009951553da7",
+  "checks": {
+    "understanding": {
+      "status": "passed",
+      "evidence": "Independent risk sample Q7 and script navigation; fixed group/global objects clarified."
+    },
+    "sources": {
+      "status": "passed",
+      "evidence": "Author checked all 10 items against approved classroom speaker/QA material; independent sample source slide7/11."
+    },
+    "warnings": {
+      "status": "passed",
+      "evidence": "Mobile cue cards rather than M/T notes; actual page count and text preserved."
+    },
+    "visuals": {
+      "status": "passed",
+      "evidence": "All 13 pages rendered and author-viewed; Poppler word bounds and pypdf body font sizes checked. Independent Q1/7/10 final display sample."
+    }
+  },
+  "independent_review": {
+    "author_ids": [
+      "is6400-mobile-primary"
+    ],
+    "reviewer_id": "/root/mobile_presenter_review",
+    "perspective": "high-school-beginner",
+    "status": "passed",
+    "candidate_sha256": "4030c108764ebff5ada622ca073f5f61f790c09da7208c50d92bb3d6631c4469",
+    "report_file": "review-stage-2.md",
+    "report_sha256": "3420b790dcfb3e3047182b72c1d400161f5cd43e762f10b61eea5700d2d00c4f"
+  },
+  "assets": [
+    {
+      "path": "../IS6400_QA10_Mobile.pdf",
+      "sha256": "28ee6c010514bfae0bbb636b37c1574d0ba3790d3e0add7c7deec08ce5cb73f9"
+    },
+    {
+      "path": "review-stage-1.md",
+      "sha256": "903986dbdd289dff8e4e26623a14a523662d4cf3c5e68dbbacccd2caf8e9b64b"
+    },
+    {
+      "path": "pdf-layout-check.json",
+      "sha256": "c4136863a8acf7fd273546de6e4541341021739cd5bad8c4fe99310067eccdc1"
+    }
+  ],
+  "unresolved": []
+}

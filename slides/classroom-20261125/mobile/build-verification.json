@@ -1,0 +1,35 @@
+{
+  "files": {
+    "content.json": {
+      "bytes": 27373,
+      "sha256": "4a55b4ccdb670818082d26b1c89720917fa1643a8a60e437489bef70fdcafc0a"
+    },
+    "IS6400_QA10_Mobile.pdf": {
+      "bytes": 138172,
+      "sha256": "28ee6c010514bfae0bbb636b37c1574d0ba3790d3e0add7c7deec08ce5cb73f9"
+    },
+    "IS6400_Slides_1-2-9_Mobile.pdf": {
+      "bytes": 76987,
+      "sha256": "24437eb17a4bbf8b19e01ff85a753dcf4fce4aeea807100a8aac5b834ccf2f5f"
+    },
+    "QA10.md": {
+      "sha256": "4030c108764ebff5ada622ca073f5f61f790c09da7208c50d92bb3d6631c4469",
+      "bytes": 6561
+    },
+    "README.md": {
+      "bytes": 567,
+      "sha256": "af780b0f269c9bd272e555d885e18e26a01940e6b39996132834bb2ef210e03e"
+    },
+    "Slides-1-2-9.md": {
+      "sha256": "f07ee02edec6f39a267d966285933d2fcb6952f90dd02d1f14de2ae7c6f8e037",
+      "bytes": 1502
+    }
+  },
+  "pdf_pages": {
+    "script": 3,
+    "qa": 10
+  },
+  "text_boxes": 79,
+  "minimum_bottom": 75,
+  "source_guide_unchanged": true
+}

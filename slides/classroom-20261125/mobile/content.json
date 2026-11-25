@@ -1,0 +1,758 @@
+{
+  "source_guide_sha256": "512d2046b63583401052b732974bb91d2bb38c19e837f1d349f66ace37656386",
+  "scripts": [
+    {
+      "slide": 1,
+      "title": "Opening",
+      "lead": "",
+      "paragraphs": [
+        "Hello everyone. We are Team Six Sigma. We use Olist's historical e-commerce orders to study customer repurchase.",
+        "Our business question is which existing customers should receive limited attention. We compare equal-sized prediction lists and use customer groups to understand who those lists miss."
+      ],
+      "transition": "Let me show how the analysis fits together."
+    },
+    {
+      "slide": 2,
+      "title": "How the analysis fits together",
+      "lead": "",
+      "paragraphs": [
+        "Our workflow connects prediction and customer segmentation. Customer histories use information available before each snapshot.",
+        "October is for training and January for model development. We compare equal-sized lists, then join scores, groups and outcomes to diagnose coverage.",
+        "We also load the saved screening-stage model for an April test, with May and June stability checks. The content trial remains a proposal."
+      ],
+      "transition": "Next, my teammate will explain our customer snapshots and the training, validation and test periods."
+    },
+    {
+      "slide": 9,
+      "title": "Conclusions",
+      "lead": "To bring the findings together, we have three conclusions.",
+      "paragraphs": [
+        "Our simple weighted reference found fifty buyers versus forty-six in January.",
+        "In the April frozen-model test, it found sixty-five versus sixty-four, ahead of the recency rule at forty-five. The advantage is modest and is not uniform across months.",
+        "The tested extensions did not improve January Top 10% hits. Group diagnosis still reveals missed buyers and supports a content-test proposal.",
+        "Next, we check reachability and sample size before an approved trial. Thank you."
+      ],
+      "transition": "We are happy to take your questions."
+    }
+  ],
+  "qa10": [
+    {
+      "q": "What is your business question?",
+      "zh": "你们研究的业务问题是什么？",
+      "answer": "We study which existing Olist customers are more likely to purchase again within ninety days. Under a fixed contact capacity, prediction ranks customers, while segmentation describes the groups covered or missed by the list. The findings support targeting decisions and a proposed content experiment.",
+      "hint": "研究对象：Olist既有客户。预测用于排序，分群用于画像和名单诊断；不是已经证明营销提升。",
+      "backup": "Slides 1, 2 and 9"
+    },
+    {
+      "q": "How did you split the data?",
+      "zh": "训练集、验证集和测试集怎样划分？",
+      "answer": "We trained on October 2017 and used January 2018 for development and model selection. We then loaded the saved frozen model for April testing, without refitting or changing hyperparameters. May and June are additional temporal checks. Their ninety-day outcome windows overlap, so we report them separately.",
+      "hint": "十月21,160人／211正例；一月29,368／230；四月37,813／299。不是随机60/20/20；十月五折是额外内部诊断。",
+      "backup": "Slides 3 and 14"
+    },
+    {
+      "q": "Which inputs did you use, and how did you avoid leakage?",
+      "zh": "用了什么输入？怎样避免未来信息泄漏？",
+      "answer": "The eight inputs describe RFM, order structure, recent activity and state. They use history before each snapshot; the label records an eligible purchase in the next ninety days. Preprocessing is learned from training data. Later delivery events and review responses are excluded from earlier predictors.",
+      "hint": "八字段：R、F、M、平均明细行数、运费占比、近30天订单数／金额、州。测试X可以进入predict，但不能用于fit或调参。源数据历史回写仍有假设。",
+      "backup": "Slides 3 and 10"
+    },
+    {
+      "q": "Why did you select weighted logistic regression?",
+      "zh": "怎样选最佳模型？为什么选加权逻辑回归？",
+      "answer": "Our main objective is to find repeat buyers within the same 2,937 January places. Weighted LR found fifty buyers versus forty-six for ordinary LR and had the highest AP among the screening candidates. CatBoost had the highest ROC-AUC. October cross-validation did not favor weighting on mean hits, so our choice is specific to the January capacity objective.",
+      "hint": "一月七候选同池同名额；不是所有指标都最佳。十月CV普通7.0、加权6.8；前10%是比较条件，不是已经证明的最佳运营容量。",
+      "backup": "Slides 5 and 12"
+    },
+    {
+      "q": "How did you set the model and clustering parameters?",
+      "zh": "参数如何设置？是系统搜索出的最优参数吗？",
+      "answer": "LR used C=1, L2 and up to 2,000 iterations. Forest used 300 trees, depth 8 and leaf size 20. CatBoost used 300 rounds, depth 6, learning rate 0.05 and L2=5. K-means used three clusters and twenty starts. These were fixed configurations; we did not establish a global optimum through exhaustive search.",
+      "hint": "预测模型seed 2026；聚类seed 42。K-means++，最多300轮，tol=0.0001。20 starts不是20群；三群检查过初始化稳定性，不等于证明k=3最优。",
+      "backup": "Slide 15"
+    },
+    {
+      "q": "If segmentation did not improve prediction, why use it?",
+      "zh": "分群没提高预测，为什么仍有价值？",
+      "answer": "Segmentation provides interpretable customer profiles and shows which groups the prediction list covers or misses. In the later January baseline, only two of ninety long-inactive repeat buyers were selected. That coverage gap motivates feature hypotheses and a content-test proposal, even though the tested variants did not improve overall Top 10% hits.",
+      "hint": "你的主线：预测找名单；分群做画像、查覆盖和遗漏、提出可检验想法。已测配送48、评价46、加群号50、群模型49，基线50；新组合仍未测。",
+      "backup": "Slides 6, 7, 9 and 13"
+    },
+    {
+      "q": "What is the difference between 73 and 79?",
+      "zh": "73席和固定79席有什么区别？为什么518席命中4人不够证明更好？",
+      "answer": "Seventy-three is the number of long-inactive customers included in the global list of 2,937. Seventy-nine is a separate group-only comparison size. Separate group models include 518 long-inactive customers in the global list and find four buyers. When each method selects 79 from this group, they find one buyer versus two for the weighted baseline. More group places do not prove better ranking.",
+      "hint": "79沿用已有群内比较协议，与旧八字段筛选阶段该群的全局席位一致；不是业务最优配额，也不是在2,937席外追加79席。",
+      "backup": "Slides 7 and 11"
+    },
+    {
+      "q": "What did the frozen-model tests show?",
+      "zh": "冻结测试结果怎样？为什么五月不换普通LR？",
+      "answer": "At April Top 10%, weighted LR found sixty-five buyers, ordinary LR sixty-four and recency forty-five. Precision was 1.72 percent and recall 21.74 percent. May favored ordinary LR, 67 versus 65; June favored weighted LR, 59 versus 53. We keep the selected model fixed during testing rather than reselecting it from those results.",
+      "hint": "测试加载保存的H04规格八字段管道，不是后续R3拟合文件。四月AP=0.020365，AUC=0.606916。四月表现未用于调参由本人核验。",
+      "backup": "Slide 14"
+    },
+    {
+      "q": "Is the gain significant, and does it prove business value?",
+      "zh": "优势显著吗？1.72%的精确率是否有业务价值？",
+      "answer": "The observed gain is modest. In April, the LR lists share fifty-six buyers; weighted LR uniquely finds nine and ordinary LR eight. This does not establish significant superiority. Precision of 1.72 percent exceeds the population rate of about 0.79 percent, but ranking performance alone does not prove marketing uplift or profit.",
+      "hint": "65/3,782是Precision；65/299是Recall。四月配对次要检验p=1.0不证明等效。真实联系成本、增量响应和利润尚未验证。",
+      "backup": "Slides 9 and 14"
+    },
+    {
+      "q": "How would you test the business proposal?",
+      "zh": "业务试验具体怎样做？样本够吗？",
+      "answer": "We propose randomly assigning reachable, consenting long-inactive customers equally to a themed shopping guide or a generic guide. Both groups receive contact under the same conditions. We compare ninety-day repurchase using all randomized customers. The trial has not run. Detecting a fifty-percent relative improvement requires 21,308 people under the planning assumptions, more than the historical pool of 12,330.",
+      "hint": "测试内容主题，不是联系vs不联系。历史基线90/12,330≈0.730%；相对+50%目标≈1.095%，不是加50个百分点。双侧5%、power80%；先核同意、触达和样本量。",
+      "backup": "Slide 8"
+    }
+  ],
+  "format": {
+    "script_page_points": [
+      390,
+      1000
+    ],
+    "qa_page_points": [
+      390,
+      844
+    ],
+    "script_body_pt": 24,
+    "script_leading_pt": 33,
+    "qa_body_pt": 22,
+    "qa_chinese_cue_pt": 16
+  },
+  "layout": [
+    {
+      "page": 1,
+      "font": "PhoneBold",
+      "size": 28,
+      "top": 940,
+      "bottom": 906,
+      "text": "Opening"
+    },
+    {
+      "page": 1,
+      "font": "Phone",
+      "size": 24,
+      "top": 888,
+      "bottom": 756,
+      "text": "Hello everyone. We are Team Six Sigma. We use Olist's historical e-commerce orders to study customer repurchase."
+    },
+    {
+      "page": 1,
+      "font": "Phone",
+      "size": 24,
+      "top": 742,
+      "bottom": 511,
+      "text": "Our business question is which existing customers should receive limited attention. We compare equal-sized prediction lists and use customer groups to understand who those lists miss."
+    },
+    {
+      "page": 1,
+      "font": "PhoneBold",
+      "size": 12,
+      "top": 470,
+      "bottom": 454,
+      "text": "NEXT"
+    },
+    {
+      "page": 1,
+      "font": "Phone",
+      "size": 24,
+      "top": 447,
+      "bottom": 381,
+      "text": "Let me show how the analysis fits together."
+    },
+    {
+      "page": 2,
+      "font": "PhoneBold",
+      "size": 28,
+      "top": 940,
+      "bottom": 872,
+      "text": "How the analysis fits together"
+    },
+    {
+      "page": 2,
+      "font": "Phone",
+      "size": 24,
+      "top": 854,
+      "bottom": 689,
+      "text": "Our workflow connects prediction and customer segmentation. Customer histories use information available before each snapshot."
+    },
+    {
+      "page": 2,
+      "font": "Phone",
+      "size": 24,
+      "top": 675,
+      "bottom": 477,
+      "text": "October is for training and January for model development. We compare equal-sized lists, then join scores, groups and outcomes to diagnose coverage."
+    },
+    {
+      "page": 2,
+      "font": "Phone",
+      "size": 24,
+      "top": 463,
+      "bottom": 298,
+      "text": "We also load the saved screening-stage model for an April test, with May and June stability checks. The content trial remains a proposal."
+    },
+    {
+      "page": 2,
+      "font": "PhoneBold",
+      "size": 12,
+      "top": 257,
+      "bottom": 241,
+      "text": "NEXT"
+    },
+    {
+      "page": 2,
+      "font": "Phone",
+      "size": 24,
+      "top": 234,
+      "bottom": 102,
+      "text": "Next, my teammate will explain our customer snapshots and the training, validation and test periods."
+    },
+    {
+      "page": 3,
+      "font": "PhoneBold",
+      "size": 28,
+      "top": 940,
+      "bottom": 906,
+      "text": "Conclusions"
+    },
+    {
+      "page": 3,
+      "font": "Phone",
+      "size": 24,
+      "top": 888,
+      "bottom": 822,
+      "text": "To bring the findings together, we have three conclusions."
+    },
+    {
+      "page": 3,
+      "font": "Phone",
+      "size": 24,
+      "top": 808,
+      "bottom": 709,
+      "text": "Our simple weighted reference found fifty buyers versus forty-six in January."
+    },
+    {
+      "page": 3,
+      "font": "Phone",
+      "size": 24,
+      "top": 695,
+      "bottom": 497,
+      "text": "In the April frozen-model test, it found sixty-five versus sixty-four, ahead of the recency rule at forty-five. The advantage is modest and is not uniform across months."
+    },
+    {
+      "page": 3,
+      "font": "Phone",
+      "size": 24,
+      "top": 483,
+      "bottom": 318,
+      "text": "The tested extensions did not improve January Top 10% hits. Group diagnosis still reveals missed buyers and supports a content-test proposal."
+    },
+    {
+      "page": 3,
+      "font": "Phone",
+      "size": 24,
+      "top": 304,
+      "bottom": 205,
+      "text": "Next, we check reachability and sample size before an approved trial. Thank you."
+    },
+    {
+      "page": 3,
+      "font": "PhoneBold",
+      "size": 12,
+      "top": 164,
+      "bottom": 148,
+      "text": "Q&A"
+    },
+    {
+      "page": 3,
+      "font": "Phone",
+      "size": 24,
+      "top": 141,
+      "bottom": 75,
+      "text": "We are happy to take your questions."
+    },
+    {
+      "page": 1,
+      "font": "PhoneBold",
+      "size": 25,
+      "top": 784,
+      "bottom": 724,
+      "text": "What is your business question?"
+    },
+    {
+      "page": 1,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 714,
+      "bottom": 691,
+      "text": "你们研究的业务问题是什么？"
+    },
+    {
+      "page": 1,
+      "font": "Phone",
+      "size": 22,
+      "top": 675,
+      "bottom": 375,
+      "text": "We study which existing Olist customers are more likely to purchase again within ninety days. Under a fixed contact capacity, prediction ranks customers, while segmentation describes the groups covered or missed by the list. The findings support targeting decisions and a proposed content experiment."
+    },
+    {
+      "page": 1,
+      "font": "PhoneZH",
+      "size": 13,
+      "top": 357,
+      "bottom": 338,
+      "text": "中文提示"
+    },
+    {
+      "page": 1,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 331,
+      "bottom": 262,
+      "text": "研究对象：Olist既有客户。预测用于排序，分群用于画像和名单诊断；不是已经证明营销提升。"
+    },
+    {
+      "page": 1,
+      "font": "PhoneBold",
+      "size": 12,
+      "top": 250,
+      "bottom": 233,
+      "text": "Slides 1, 2 and 9"
+    },
+    {
+      "page": 2,
+      "font": "PhoneBold",
+      "size": 25,
+      "top": 784,
+      "bottom": 754,
+      "text": "How did you split the data?"
+    },
+    {
+      "page": 2,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 744,
+      "bottom": 721,
+      "text": "训练集、验证集和测试集怎样划分？"
+    },
+    {
+      "page": 2,
+      "font": "Phone",
+      "size": 22,
+      "top": 705,
+      "bottom": 375,
+      "text": "We trained on October 2017 and used January 2018 for development and model selection. We then loaded the saved frozen model for April testing, without refitting or changing hyperparameters. May and June are additional temporal checks. Their ninety-day outcome windows overlap, so we report them separately."
+    },
+    {
+      "page": 2,
+      "font": "PhoneZH",
+      "size": 13,
+      "top": 357,
+      "bottom": 338,
+      "text": "中文提示"
+    },
+    {
+      "page": 2,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 331,
+      "bottom": 262,
+      "text": "十月21,160人／211正例；一月29,368／230；四月37,813／299。不是随机60/20/20；十月五折是额外内部诊断。"
+    },
+    {
+      "page": 2,
+      "font": "PhoneBold",
+      "size": 12,
+      "top": 250,
+      "bottom": 233,
+      "text": "Slides 3 and 14"
+    },
+    {
+      "page": 3,
+      "font": "PhoneBold",
+      "size": 25,
+      "top": 784,
+      "bottom": 694,
+      "text": "Which inputs did you use, and how did you avoid leakage?"
+    },
+    {
+      "page": 3,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 684,
+      "bottom": 661,
+      "text": "用了什么输入？怎样避免未来信息泄漏？"
+    },
+    {
+      "page": 3,
+      "font": "Phone",
+      "size": 22,
+      "top": 645,
+      "bottom": 345,
+      "text": "The eight inputs describe RFM, order structure, recent activity and state. They use history before each snapshot; the label records an eligible purchase in the next ninety days. Preprocessing is learned from training data. Later delivery events and review responses are excluded from earlier predictors."
+    },
+    {
+      "page": 3,
+      "font": "PhoneZH",
+      "size": 13,
+      "top": 327,
+      "bottom": 308,
+      "text": "中文提示"
+    },
+    {
+      "page": 3,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 301,
+      "bottom": 209,
+      "text": "八字段：R、F、M、平均明细行数、运费占比、近30天订单数／金额、州。测试X可以进入predict，但不能用于fit或调参。源数据历史回写仍有假设。"
+    },
+    {
+      "page": 3,
+      "font": "PhoneBold",
+      "size": 12,
+      "top": 197,
+      "bottom": 180,
+      "text": "Slides 3 and 10"
+    },
+    {
+      "page": 4,
+      "font": "PhoneBold",
+      "size": 25,
+      "top": 784,
+      "bottom": 694,
+      "text": "Why did you select weighted logistic regression?"
+    },
+    {
+      "page": 4,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 684,
+      "bottom": 661,
+      "text": "怎样选最佳模型？为什么选加权逻辑回归？"
+    },
+    {
+      "page": 4,
+      "font": "Phone",
+      "size": 22,
+      "top": 645,
+      "bottom": 285,
+      "text": "Our main objective is to find repeat buyers within the same 2,937 January places. Weighted LR found fifty buyers versus forty-six for ordinary LR and had the highest AP among the screening candidates. CatBoost had the highest ROC-AUC. October cross-validation did not favor weighting on mean hits, so our choice is specific to the January capacity objective."
+    },
+    {
+      "page": 4,
+      "font": "PhoneZH",
+      "size": 13,
+      "top": 267,
+      "bottom": 248,
+      "text": "中文提示"
+    },
+    {
+      "page": 4,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 241,
+      "bottom": 172,
+      "text": "一月七候选同池同名额；不是所有指标都最佳。十月CV普通7.0、加权6.8；前10%是比较条件，不是已经证明的最佳运营容量。"
+    },
+    {
+      "page": 4,
+      "font": "PhoneBold",
+      "size": 12,
+      "top": 160,
+      "bottom": 143,
+      "text": "Slides 5 and 12"
+    },
+    {
+      "page": 5,
+      "font": "PhoneBold",
+      "size": 25,
+      "top": 784,
+      "bottom": 724,
+      "text": "How did you set the model and clustering parameters?"
+    },
+    {
+      "page": 5,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 714,
+      "bottom": 691,
+      "text": "参数如何设置？是系统搜索出的最优参数吗？"
+    },
+    {
+      "page": 5,
+      "font": "Phone",
+      "size": 22,
+      "top": 675,
+      "bottom": 375,
+      "text": "LR used C=1, L2 and up to 2,000 iterations. Forest used 300 trees, depth 8 and leaf size 20. CatBoost used 300 rounds, depth 6, learning rate 0.05 and L2=5. K-means used three clusters and twenty starts. These were fixed configurations; we did not establish a global optimum through exhaustive search."
+    },
+    {
+      "page": 5,
+      "font": "PhoneZH",
+      "size": 13,
+      "top": 357,
+      "bottom": 338,
+      "text": "中文提示"
+    },
+    {
+      "page": 5,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 331,
+      "bottom": 239,
+      "text": "预测模型seed 2026；聚类seed 42。K-means++，最多300轮，tol=0.0001。20 starts不是20群；三群检查过初始化稳定性，不等于证明k=3最优。"
+    },
+    {
+      "page": 5,
+      "font": "PhoneBold",
+      "size": 12,
+      "top": 227,
+      "bottom": 210,
+      "text": "Slide 15"
+    },
+    {
+      "page": 6,
+      "font": "PhoneBold",
+      "size": 25,
+      "top": 784,
+      "bottom": 694,
+      "text": "If segmentation did not improve prediction, why use it?"
+    },
+    {
+      "page": 6,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 684,
+      "bottom": 661,
+      "text": "分群没提高预测，为什么仍有价值？"
+    },
+    {
+      "page": 6,
+      "font": "Phone",
+      "size": 22,
+      "top": 645,
+      "bottom": 315,
+      "text": "Segmentation provides interpretable customer profiles and shows which groups the prediction list covers or misses. In the later January baseline, only two of ninety long-inactive repeat buyers were selected. That coverage gap motivates feature hypotheses and a content-test proposal, even though the tested variants did not improve overall Top 10% hits."
+    },
+    {
+      "page": 6,
+      "font": "PhoneZH",
+      "size": 13,
+      "top": 297,
+      "bottom": 278,
+      "text": "中文提示"
+    },
+    {
+      "page": 6,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 271,
+      "bottom": 179,
+      "text": "你的主线：预测找名单；分群做画像、查覆盖和遗漏、提出可检验想法。已测配送48、评价46、加群号50、群模型49，基线50；新组合仍未测。"
+    },
+    {
+      "page": 6,
+      "font": "PhoneBold",
+      "size": 12,
+      "top": 167,
+      "bottom": 150,
+      "text": "Slides 6, 7, 9 and 13"
+    },
+    {
+      "page": 7,
+      "font": "PhoneBold",
+      "size": 25,
+      "top": 784,
+      "bottom": 724,
+      "text": "What is the difference between 73 and 79?"
+    },
+    {
+      "page": 7,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 714,
+      "bottom": 668,
+      "text": "73席和固定79席有什么区别？为什么518席命中4人不够证明更好？"
+    },
+    {
+      "page": 7,
+      "font": "Phone",
+      "size": 22,
+      "top": 652,
+      "bottom": 262,
+      "text": "Seventy-three is the number of long-inactive customers included in the global list of 2,937. Seventy-nine is a separate group-only comparison size. Separate group models include 518 long-inactive customers in the global list and find four buyers. When each method selects 79 from this group, they find one buyer versus two for the weighted baseline. More group places do not prove better ranking."
+    },
+    {
+      "page": 7,
+      "font": "PhoneZH",
+      "size": 13,
+      "top": 244,
+      "bottom": 225,
+      "text": "中文提示"
+    },
+    {
+      "page": 7,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 218,
+      "bottom": 149,
+      "text": "79沿用已有群内比较协议，与旧八字段筛选阶段该群的全局席位一致；不是业务最优配额，也不是在2,937席外追加79席。"
+    },
+    {
+      "page": 7,
+      "font": "PhoneBold",
+      "size": 12,
+      "top": 137,
+      "bottom": 120,
+      "text": "Slides 7 and 11"
+    },
+    {
+      "page": 8,
+      "font": "PhoneBold",
+      "size": 25,
+      "top": 784,
+      "bottom": 724,
+      "text": "What did the frozen-model tests show?"
+    },
+    {
+      "page": 8,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 714,
+      "bottom": 691,
+      "text": "冻结测试结果怎样？为什么五月不换普通LR？"
+    },
+    {
+      "page": 8,
+      "font": "Phone",
+      "size": 22,
+      "top": 675,
+      "bottom": 345,
+      "text": "At April Top 10%, weighted LR found sixty-five buyers, ordinary LR sixty-four and recency forty-five. Precision was 1.72 percent and recall 21.74 percent. May favored ordinary LR, 67 versus 65; June favored weighted LR, 59 versus 53. We keep the selected model fixed during testing rather than reselecting it from those results."
+    },
+    {
+      "page": 8,
+      "font": "PhoneZH",
+      "size": 13,
+      "top": 327,
+      "bottom": 308,
+      "text": "中文提示"
+    },
+    {
+      "page": 8,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 301,
+      "bottom": 209,
+      "text": "测试加载保存的H04规格八字段管道，不是后续R3拟合文件。四月AP=0.020365，AUC=0.606916。四月表现未用于调参由本人核验。"
+    },
+    {
+      "page": 8,
+      "font": "PhoneBold",
+      "size": 12,
+      "top": 197,
+      "bottom": 180,
+      "text": "Slide 14"
+    },
+    {
+      "page": 9,
+      "font": "PhoneBold",
+      "size": 25,
+      "top": 784,
+      "bottom": 694,
+      "text": "Is the gain significant, and does it prove business value?"
+    },
+    {
+      "page": 9,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 684,
+      "bottom": 638,
+      "text": "优势显著吗？1.72%的精确率是否有业务价值？"
+    },
+    {
+      "page": 9,
+      "font": "Phone",
+      "size": 22,
+      "top": 622,
+      "bottom": 322,
+      "text": "The observed gain is modest. In April, the LR lists share fifty-six buyers; weighted LR uniquely finds nine and ordinary LR eight. This does not establish significant superiority. Precision of 1.72 percent exceeds the population rate of about 0.79 percent, but ranking performance alone does not prove marketing uplift or profit."
+    },
+    {
+      "page": 9,
+      "font": "PhoneZH",
+      "size": 13,
+      "top": 304,
+      "bottom": 285,
+      "text": "中文提示"
+    },
+    {
+      "page": 9,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 278,
+      "bottom": 209,
+      "text": "65/3,782是Precision；65/299是Recall。四月配对次要检验p=1.0不证明等效。真实联系成本、增量响应和利润尚未验证。"
+    },
+    {
+      "page": 9,
+      "font": "PhoneBold",
+      "size": 12,
+      "top": 197,
+      "bottom": 180,
+      "text": "Slides 9 and 14"
+    },
+    {
+      "page": 10,
+      "font": "PhoneBold",
+      "size": 25,
+      "top": 784,
+      "bottom": 724,
+      "text": "How would you test the business proposal?"
+    },
+    {
+      "page": 10,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 714,
+      "bottom": 691,
+      "text": "业务试验具体怎样做？样本够吗？"
+    },
+    {
+      "page": 10,
+      "font": "Phone",
+      "size": 22,
+      "top": 675,
+      "bottom": 255,
+      "text": "We propose randomly assigning reachable, consenting long-inactive customers equally to a themed shopping guide or a generic guide. Both groups receive contact under the same conditions. We compare ninety-day repurchase using all randomized customers. The trial has not run. Detecting a fifty-percent relative improvement requires 21,308 people under the planning assumptions, more than the historical pool of 12,330."
+    },
+    {
+      "page": 10,
+      "font": "PhoneZH",
+      "size": 13,
+      "top": 237,
+      "bottom": 218,
+      "text": "中文提示"
+    },
+    {
+      "page": 10,
+      "font": "PhoneZH",
+      "size": 16,
+      "top": 211,
+      "bottom": 119,
+      "text": "测试内容主题，不是联系vs不联系。历史基线90/12,330≈0.730%；相对+50%目标≈1.095%，不是加50个百分点。双侧5%、power80%；先核同意、触达和样本量。"
+    },
+    {
+      "page": 10,
+      "font": "PhoneBold",
+      "size": 12,
+      "top": 107,
+      "bottom": 90,
+      "text": "Slide 8"
+    }
+  ]
+}

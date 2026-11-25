@@ -1,0 +1,214 @@
+{
+  "files": {
+    "IS6400_Slides_1-2-9_Mobile.pdf": {
+      "sha256": "24437eb17a4bbf8b19e01ff85a753dcf4fce4aeea807100a8aac5b834ccf2f5f",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 390.0,
+          "height_pt": 1000.0,
+          "body_font_pt": 24,
+          "body_characters": 341,
+          "edge_flags": 0,
+          "fonts": [
+            "",
+            "/AAAAAA+Arial-BoldMT",
+            "/AAAAAA+ArialMT",
+            "/Helvetica"
+          ]
+        },
+        {
+          "page": 2,
+          "width_pt": 390.0,
+          "height_pt": 1000.0,
+          "body_font_pt": 24,
+          "body_characters": 515,
+          "edge_flags": 0,
+          "fonts": [
+            "",
+            "/AAAAAA+Arial-BoldMT",
+            "/AAAAAA+ArialMT",
+            "/Helvetica"
+          ]
+        },
+        {
+          "page": 3,
+          "width_pt": 390.0,
+          "height_pt": 1000.0,
+          "body_font_pt": 24,
+          "body_characters": 567,
+          "edge_flags": 0,
+          "fonts": [
+            "",
+            "/AAAAAA+Arial-BoldMT",
+            "/AAAAAA+ArialMT",
+            "/Helvetica"
+          ]
+        }
+      ]
+    },
+    "IS6400_QA10_Mobile.pdf": {
+      "sha256": "28ee6c010514bfae0bbb636b37c1574d0ba3790d3e0add7c7deec08ce5cb73f9",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 390.0,
+          "height_pt": 844.0,
+          "body_font_pt": 22,
+          "body_characters": 301,
+          "edge_flags": 0,
+          "fonts": [
+            "",
+            "/AAAAAA+Arial-BoldMT",
+            "/AAAAAA+ArialMT",
+            "/AAAAAA+SimHei",
+            "/Helvetica"
+          ]
+        },
+        {
+          "page": 2,
+          "width_pt": 390.0,
+          "height_pt": 844.0,
+          "body_font_pt": 22,
+          "body_characters": 307,
+          "edge_flags": 0,
+          "fonts": [
+            "",
+            "/AAAAAA+Arial-BoldMT",
+            "/AAAAAA+ArialMT",
+            "/AAAAAA+SimHei",
+            "/Helvetica"
+          ]
+        },
+        {
+          "page": 3,
+          "width_pt": 390.0,
+          "height_pt": 844.0,
+          "body_font_pt": 22,
+          "body_characters": 304,
+          "edge_flags": 0,
+          "fonts": [
+            "",
+            "/AAAAAA+Arial-BoldMT",
+            "/AAAAAA+ArialMT",
+            "/AAAAAA+SimHei",
+            "/Helvetica"
+          ]
+        },
+        {
+          "page": 4,
+          "width_pt": 390.0,
+          "height_pt": 844.0,
+          "body_font_pt": 22,
+          "body_characters": 359,
+          "edge_flags": 0,
+          "fonts": [
+            "",
+            "/AAAAAA+Arial-BoldMT",
+            "/AAAAAA+ArialMT",
+            "/AAAAAA+SimHei",
+            "/Helvetica"
+          ]
+        },
+        {
+          "page": 5,
+          "width_pt": 390.0,
+          "height_pt": 844.0,
+          "body_font_pt": 22,
+          "body_characters": 302,
+          "edge_flags": 0,
+          "fonts": [
+            "",
+            "/AAAAAA+Arial-BoldMT",
+            "/AAAAAA+ArialMT",
+            "/AAAAAA+SimHei",
+            "/AAAAAB+SimHei",
+            "/Helvetica"
+          ]
+        },
+        {
+          "page": 6,
+          "width_pt": 390.0,
+          "height_pt": 844.0,
+          "body_font_pt": 22,
+          "body_characters": 354,
+          "edge_flags": 0,
+          "fonts": [
+            "",
+            "/AAAAAA+Arial-BoldMT",
+            "/AAAAAA+ArialMT",
+            "/AAAAAA+SimHei",
+            "/AAAAAB+SimHei",
+            "/Helvetica"
+          ]
+        },
+        {
+          "page": 7,
+          "width_pt": 390.0,
+          "height_pt": 844.0,
+          "body_font_pt": 22,
+          "body_characters": 397,
+          "edge_flags": 0,
+          "fonts": [
+            "",
+            "/AAAAAA+Arial-BoldMT",
+            "/AAAAAA+ArialMT",
+            "/AAAAAA+SimHei",
+            "/AAAAAB+SimHei",
+            "/Helvetica"
+          ]
+        },
+        {
+          "page": 8,
+          "width_pt": 390.0,
+          "height_pt": 844.0,
+          "body_font_pt": 22,
+          "body_characters": 329,
+          "edge_flags": 0,
+          "fonts": [
+            "",
+            "/AAAAAA+Arial-BoldMT",
+            "/AAAAAA+ArialMT",
+            "/AAAAAA+SimHei",
+            "/AAAAAB+SimHei",
+            "/Helvetica"
+          ]
+        },
+        {
+          "page": 9,
+          "width_pt": 390.0,
+          "height_pt": 844.0,
+          "body_font_pt": 22,
+          "body_characters": 330,
+          "edge_flags": 0,
+          "fonts": [
+            "",
+            "/AAAAAA+Arial-BoldMT",
+            "/AAAAAA+ArialMT",
+            "/AAAAAA+SimHei",
+            "/AAAAAB+SimHei",
+            "/Helvetica"
+          ]
+        },
+        {
+          "page": 10,
+          "width_pt": 390.0,
+          "height_pt": 844.0,
+          "body_font_pt": 22,
+          "body_characters": 417,
+          "edge_flags": 0,
+          "fonts": [
+            "",
+            "/AAAAAA+Arial-BoldMT",
+            "/AAAAAA+ArialMT",
+            "/AAAAAA+SimHei",
+            "/AAAAAB+SimHei",
+            "/Helvetica"
+          ]
+        }
+      ]
+    }
+  },
+  "issues": [],
+  "method": "Poppler actual word bounding boxes and pypdf text-run point sizes; all 13 pages"
+}

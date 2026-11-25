@@ -7,9 +7,9 @@
   "board_scope": "active",
   "group": "Six Sigma",
   "my_role": "业务目标与项目统筹（6 号）",
-  "summary": "11/25课堂更新版已制作：15页（9主讲/6备查），本人仍负责1/2/9页；补十月训练、一月验证、四月冻结测试与三期结果、参数备查，讲者备注/中英讲稿/QA已齐。原13页已交原件与提交状态保持，不重交Canvas。新版通读、真人计时、正式展示与报告完成未由材料更新推定。",
+  "summary": "11/25课堂更新版已制作：15页（9主讲/6备查），本人仍负责1/2/9页；补十月训练、一月验证、四月冻结测试与三期结果、参数备查，讲者备注/中英讲稿/QA已齐。原13页已交原件与提交状态保持，不重交Canvas。新版通读、真人计时、正式展示与报告完成未由材料更新推定。 另附本人1/2/9页手机大字英文讲稿3页（24pt）及10题问答10页（英文22pt、中文提示16pt），只完成材料制作，不升级本人排练状态。",
   "stage": "11/25课堂新版15页已制作｜原13页已提交记录保留",
-  "updated_at": "2026-11-25T02:03:50+08:00",
+  "updated_at": "2026-11-25T10:40:54+08:00",
   "reviewed_at": "2026-11-20",
   "progress_as_of": "2026-11-25",
   "task_scope_complete": false,
@@ -1470,7 +1470,23 @@
       "label": "课堂版本更新与同步范围回传",
       "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/slides/classroom-20261125/README.md",
       "observed_at": "2026-11-25",
-      "sha256": "d39edc48d966a4db4a960073ae4b37032042db26c97c69107b5fa03394729ce4"
+      "sha256": "ab406a4b55b5584ebc75cdaf8e8bf20f21e74d6be2ee6479befc18da3e0c9b81"
+    },
+    {
+      "id": "mobile-script-20261125",
+      "kind": "web",
+      "label": "手机大字英文讲稿｜第1/2/9页，24pt",
+      "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/slides/classroom-20261125/mobile/IS6400_Slides_1-2-9_Mobile.pdf",
+      "observed_at": "2026-11-25",
+      "sha256": "24437eb17a4bbf8b19e01ff85a753dcf4fce4aeea807100a8aac5b834ccf2f5f"
+    },
+    {
+      "id": "mobile-qa10-20261125",
+      "kind": "web",
+      "label": "手机10题Q&A｜英文短答与中文提示",
+      "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/slides/classroom-20261125/mobile/IS6400_QA10_Mobile.pdf",
+      "observed_at": "2026-11-25",
+      "sha256": "28ee6c010514bfae0bbb636b37c1574d0ba3790d3e0add7c7deec08ce5cb73f9"
     }
   ]
 }

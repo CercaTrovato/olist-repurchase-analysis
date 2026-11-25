@@ -1,5 +1,7 @@
 # Six Sigma · 11 月 25 日课堂更新版
 
+[手机大字英文讲稿与10题Q&A](mobile/README.md) · 本人第1/2/9页，讲稿24pt。
+
 - [可编辑PPTX](IS6400_SixSigma_Classroom_20261125.pptx)
 - [PowerPoint原生PDF预览](IS6400_SixSigma_Classroom_20261125.pdf)
 - [中英讲稿与转场](Speaker-Guide-20261125.md)

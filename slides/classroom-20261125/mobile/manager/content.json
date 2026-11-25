@@ -1,0 +1,144 @@
+{
+  "scripts": [
+    {
+      "slide": 1,
+      "title": "Who should we contact first?",
+      "paragraphs": [
+        "Hello everyone. We are Team Six Sigma. We studied Olist's past online orders to answer a practical question: with a limited marketing budget, which customers should we contact first?",
+        "We want to find people likely to buy again and understand who our list is missing."
+      ],
+      "transition": "Let me explain how we do that.",
+      "zh": "先说经理要作的决定：预算有限，先联系谁？用历史购买行为排优先名单，并检查遗漏。不要先报算法、快照或模型文件。"
+    },
+    {
+      "slide": 2,
+      "title": "Our approach",
+      "paragraphs": [
+        "We use past purchases to make a priority list, then check who actually buys again later.",
+        "We also check which types of customers the list covers or misses. This helps a manager decide whom to contact first and which group may need a different message."
+      ],
+      "transition": "Next, my teammate will explain the data behind our analysis.",
+      "zh": "先排名单，再看后来谁真的买了；再检查名单偏向哪些客户、漏了哪些客户。分群与预测的用途都保留，改成经理能理解的动作。技术划分和参数留备查及同伴展开。"
+    },
+    {
+      "slide": 9,
+      "title": "What the results mean",
+      "paragraphs": [
+        "Both January lists contained about three thousand customers. Our chosen method found fifty people who later bought again, compared with forty-six for the original method. In April, the figures were sixty-five and sixty-four. The gain was small.",
+        "Adding delivery records, reviews or customer groups did not improve the January list. But the groups did show who was being missed.",
+        "For customers who have not bought recently, we propose testing a home-goods shopping guide against a general guide. Thank you."
+      ],
+      "transition": "We are happy to take your questions.",
+      "zh": "先讲观察到的差别：一月50对46、四月65对64，提升有限；已测额外特征未提高主命中。分群用于看遗漏。最后明确下一步比较家居用品主题指南与通用指南，这是提议，不是已产生的营销效果。"
+    }
+  ],
+  "word_count_including_transitions": 193,
+  "format": {
+    "pages": 3,
+    "page_pt": [
+      390,
+      1000
+    ],
+    "body_pt": 24,
+    "leading_pt": 33
+  },
+  "timing": "未真人计时，不由词数推定完成排练。",
+  "layout": [
+    {
+      "page": 1,
+      "size": 28,
+      "bottom": 872,
+      "text": "Who should we contact first?"
+    },
+    {
+      "page": 1,
+      "size": 24,
+      "bottom": 623,
+      "text": "Hello everyone. We are Team Six Sigma. We studied Olist's past online orders to answer a practical question: with a limited marketing budget, which customers should we contact first?"
+    },
+    {
+      "page": 1,
+      "size": 24,
+      "bottom": 510,
+      "text": "We want to find people likely to buy again and understand who our list is missing."
+    },
+    {
+      "page": 1,
+      "size": 12,
+      "bottom": 453,
+      "text": "NEXT"
+    },
+    {
+      "page": 1,
+      "size": 24,
+      "bottom": 413,
+      "text": "Let me explain how we do that."
+    },
+    {
+      "page": 2,
+      "size": 28,
+      "bottom": 906,
+      "text": "Our approach"
+    },
+    {
+      "page": 2,
+      "size": 24,
+      "bottom": 789,
+      "text": "We use past purchases to make a priority list, then check who actually buys again later."
+    },
+    {
+      "page": 2,
+      "size": 24,
+      "bottom": 577,
+      "text": "We also check which types of customers the list covers or misses. This helps a manager decide whom to contact first and which group may need a different message."
+    },
+    {
+      "page": 2,
+      "size": 12,
+      "bottom": 520,
+      "text": "NEXT"
+    },
+    {
+      "page": 2,
+      "size": 24,
+      "bottom": 447,
+      "text": "Next, my teammate will explain the data behind our analysis."
+    },
+    {
+      "page": 3,
+      "size": 28,
+      "bottom": 906,
+      "text": "What the results mean"
+    },
+    {
+      "page": 3,
+      "size": 24,
+      "bottom": 591,
+      "text": "Both January lists contained about three thousand customers. Our chosen method found fifty people who later bought again, compared with forty-six for the original method. In April, the figures were sixty-five and sixty-four. The gain was small."
+    },
+    {
+      "page": 3,
+      "size": 24,
+      "bottom": 412,
+      "text": "Adding delivery records, reviews or customer groups did not improve the January list. But the groups did show who was being missed."
+    },
+    {
+      "page": 3,
+      "size": 24,
+      "bottom": 233,
+      "text": "For customers who have not bought recently, we propose testing a home-goods shopping guide against a general guide. Thank you."
+    },
+    {
+      "page": 3,
+      "size": 12,
+      "bottom": 176,
+      "text": "Q&A"
+    },
+    {
+      "page": 3,
+      "size": 24,
+      "bottom": 103,
+      "text": "We are happy to take your questions."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "pages": 3,
+  "body_pt": 24,
+  "word_count_including_transitions": 193,
+  "word_edge_flags": [],
+  "minimum_text_bottom_pt": 103,
+  "files": {
+    "content.json": "749ec4759a41556cff8e0ee508a45f19de0baf44b602a06b81c7370e63739ed7",
+    "IS6400_Slides_1-2-9_Manager_Mobile.pdf": "1c1a5b1847277a6962952fe6f779e92870997bd9dfe0a81dbd8c8eb212dd9369",
+    "Manager-Script.md": "ed526c03965dccfbc15674a86666a857a3759a0e89b97e3a04ca0b62de5d7c4e",
+    "README.md": "25e5adb659b2ca31a83729f47f20ab0e9abd14212395458aa236e3f103fad449"
+  }
+}

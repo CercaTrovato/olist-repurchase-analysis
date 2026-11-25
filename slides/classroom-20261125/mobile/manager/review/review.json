@@ -1,0 +1,49 @@
+{
+  "schema": "note-review-v2",
+  "note": "slides/classroom-20261125/mobile/manager/Manager-Script.md",
+  "scope": "full",
+  "source_sha256": null,
+  "candidate_sha256": "ed526c03965dccfbc15674a86666a857a3759a0e89b97e3a04ca0b62de5d7c4e",
+  "review_file": "author-review.md",
+  "review_sha256": "a62d1c6f2edf69cdac2b6e4ad0fd3a7074173b4cb3c4a2ece4ac99733972585c",
+  "checks": {
+    "understanding": {
+      "status": "passed",
+      "evidence": "Nontechnical manager framing; independent candidate-first sample found objects and capacity, repaired and source checked."
+    },
+    "sources": {
+      "status": "passed",
+      "evidence": "Original classroom slide5/6/8/9/14; January2937 and50/46, April65/64; content proposal only."
+    },
+    "warnings": {
+      "status": "passed",
+      "evidence": "Three-page speaker cue card, not M/T template; no marketing causal claim or fitted-model identity merger."
+    },
+    "visuals": {
+      "status": "passed",
+      "evidence": "Author viewed all3 final pages, 24pt body, word-bound check0; independent final changed-page sample."
+    }
+  },
+  "independent_review": {
+    "author_ids": [
+      "is6400-manager-primary"
+    ],
+    "reviewer_id": "/root/manager_script_review",
+    "perspective": "high-school-beginner",
+    "status": "passed",
+    "candidate_sha256": "ed526c03965dccfbc15674a86666a857a3759a0e89b97e3a04ca0b62de5d7c4e",
+    "report_file": "review-stage-2.md",
+    "report_sha256": "46bc2bd2fb22955877a2942d65902a385120998ba754ebcc02882abc9abda5e7"
+  },
+  "assets": [
+    {
+      "path": "../IS6400_Slides_1-2-9_Manager_Mobile.pdf",
+      "sha256": "1c1a5b1847277a6962952fe6f779e92870997bd9dfe0a81dbd8c8eb212dd9369"
+    },
+    {
+      "path": "review-stage-1.md",
+      "sha256": "22103bbc69f17fa335aa3065e719b8d7decea42b84792b0d1ee634b026e452b0"
+    }
+  ],
+  "unresolved": []
+}

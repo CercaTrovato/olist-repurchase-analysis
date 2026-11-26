@@ -1,0 +1,8 @@
+{
+  "semantic_candidate_files_unchanged": true,
+  "administrative_updates": [
+    "acceptance.json review status and report SHA",
+    "GROUP-MESSAGE.md speaker clarification and first EDA expansion"
+  ],
+  "reviewed_core_manifest_sha256": "5c5369afc37665178dd2c04a3c3c0cdef26e85a2c4e9ddd75596d3928c9a4b97"
+}

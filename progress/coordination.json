@@ -5,9 +5,9 @@
   "root_thread_id": "01a1b491-403e-7651-9aba-13e5b647af93",
   "model": "gpt-6.1-sol",
   "status": "ready_for_review",
-  "updated_at": "2026-11-26T21:36:28+08:00",
-  "summary": "本人转述团队交由本人统一处理18项，并确认名单主线＋概率/价值独立扩展。18项已形成可核写作准备包：修元数据/口径、补45行实验身份、表和10张SVG/PDF；新增固定F0/G1/G2开发对照50/49/48，未重选测试模型。独立抽检及最终core封包核验完成。下一步按23页建议分工写正文；正式报告正文尚未开始，未提交。",
-  "report_path": "IS6400_Business_Data_Analytics/assignment/graded/A06-group-project/notes/supervision-repairs-20261126.md",
+  "updated_at": "2026-11-27T00:30:23+08:00",
+  "summary": "本人已认可7页单栏IEEE样张；严谨写作规则、更新编号样张、六章23页结构、六人岗位卡及10篇期刊DOI候选已整理并定向抽检。下一步本人发群收承接/时间反馈，六岗交英文素材、本人统一合稿；不要求组员LaTeX。完整报告待写，成员认领/内部日期未冒称确认，正式提交未发生。",
+  "report_path": "IS6400_Business_Data_Analytics/assignment/graded/A06-group-project/notes/supervision-writing-20261127.md",
   "decisions": [
     {
       "id": "IS6400-D01",
@@ -275,6 +275,17 @@
       "status": "decided",
       "answer": "名单主线＋概率/价值扩展（推荐）",
       "answer_source": "本人于2026-11-26在本会话对报告范围问题直接选择；并转述组员交由本人统一修补18项。"
+    },
+    {
+      "id": "IS6400-WRITING-STYLE-20261127",
+      "question": "报告模板与写作规则如何确定？",
+      "recommendation": "采用已认可单栏样张并执行本轮论文写作规则，再按六岗分子节。",
+      "options": [
+        "已认可样张＋严谨引用/编号规则＋六岗素材交件"
+      ],
+      "status": "decided",
+      "answer": "本人认可样张，明确交叉引用、真实期刊/URL、首次全称、加粗图表标签和正文/题注不同写法；授权整理分工并发布GitHub。",
+      "answer_source": "本会话本人2026-11-27直接消息；成员承接和内部时间不是本次已确认事实。"
     }
   ]
 }

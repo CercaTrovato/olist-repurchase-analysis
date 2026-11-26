@@ -1,0 +1,15 @@
+{
+  "as_of": "2026-11-27",
+  "user_base_layout_accepted": true,
+  "user_requested_rigor_rules": true,
+  "roles_prepared": 6,
+  "roles_accepted_by_members": false,
+  "internal_dates_basis": "proposed",
+  "formal_submission_performed": false,
+  "new_model_fits": 0,
+  "papers_metadata_verified": 10,
+  "paper_fulltext_claim_verification": "pending each actual writer",
+  "template_pdf": "template/IS6400_Report_Layout_Sample_v2.pdf",
+  "independent_review": "completed; exact risk sample and boundaries in review/independent-review.md",
+  "independent_report_sha256": "e6a95e0b07f3aa4b949f034f7f2959596d911f9baac3f399f8a7235489903f48"
+}

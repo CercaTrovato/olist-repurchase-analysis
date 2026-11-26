@@ -3,23 +3,23 @@
   "assignment_id": "IS6400-A06",
   "course": "IS6400",
   "timezone": "Asia/Shanghai",
-  "as_of": "2026-11-26",
-  "basis_revision": "171b02d1829f34cd2ca388accb7be4f8017637c590326d117505dd39d4eb6056",
+  "as_of": "2026-11-27",
+  "basis_revision": "78d50832b3506e14f8785e65e56342d0675c4a5df32b83e47ab7604724e9c979",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "summary": "本人转述团队交由本人统一处理18项，并确认名单主线＋概率/价值独立扩展。18项已形成可核写作准备包：修元数据/口径、补45行实验身份、表和10张SVG/PDF；新增固定F0/G1/G2开发对照50/49/48，未重选测试模型。独立抽检及最终core封包核验完成。下一步按23页建议分工写正文；正式报告正文尚未开始，未提交。",
+  "summary": "本人已认可7页单栏IEEE样张；严谨写作规则、更新编号样张、六章23页结构、六人岗位卡及10篇期刊DOI候选已整理并定向抽检。下一步本人发群收承接/时间反馈，六岗交英文素材、本人统一合稿；不要求组员LaTeX。完整报告待写，成员认领/内部日期未冒称确认，正式提交未发生。",
   "date_policy": "日期建议不等于承诺；未知实际开始、完成日期与工时保留 null。",
   "items": [
     {
       "id": "scope",
-      "title": "展示完成，报告范围待确认",
+      "title": "报告范围与基本模板已由本人确认",
       "status": "done",
       "owner": "本人 · 总监督",
       "owner_role": "me",
       "scope": "team",
-      "summary": "本人确认名单主线＋概率/价值独立扩展，工作基线与run身份已整理。",
+      "summary": "本人已认可7页单栏IEEE样张；严谨写作规则、更新编号样张、六章23页结构、六人岗位卡及10篇期刊DOI候选已整理并定向抽检。下一步本人发群收承接/时间反馈，六岗交英文素材、本人统一合稿；不要求组员LaTeX。完整报告待写，成员认领/内部日期未冒称确认，正式提交未发生。",
       "deliverable": "决定方法冻结后怎样评价，并清楚披露哪些时期已经看过。",
-      "next_action": "按修补包writing-brief的23页框架协调六岗正式写作认领；使用已核表图/registry，概率与价值单独成章，定稿前核Canvas最新格式和全文。",
-      "my_next_action": "按修补包writing-brief的23页框架协调六岗正式写作认领；使用已核表图/registry，概率与价值单独成章，定稿前核Canvas最新格式和全文。",
+      "next_action": "本人发群提供写作入口，确认六人子节和建议11/30 22:00 HKT首稿时间；按岗位卡写英文稿/图表/公式/底数据/引用，统一融合。",
+      "my_next_action": "本人发群提供写作入口，确认六人子节和建议11/30 22:00 HKT首稿时间；按岗位卡写英文稿/图表/公式/底数据/引用，统一融合。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -39,7 +39,7 @@
       },
       "started_on": null,
       "completed_on": "2026-11-26",
-      "observed_on": "2026-11-26",
+      "observed_on": "2026-11-27",
       "estimated_minutes": null,
       "state_basis": "沿用已有核验；未凭文件存在推定正式提交。 本日期为总监督建议，待相关成员确认，不改变正式截止。 原内部建议日期已过，实际完成未证；旧日期保存在 history，不自动改期或判迟交。",
       "evidence": [
@@ -186,6 +186,11 @@
           "status": "done",
           "note": "本人确认当前报告准备范围，旧历史冻结未知不倒填。",
           "previous_status": "needs_review"
+        },
+        {
+          "observed_on": "2026-11-27",
+          "status": "done",
+          "note": "本人认可模板，写作规则/分工已备，发群与实际承接继续分开。"
         }
       ]
     },
@@ -704,15 +709,15 @@
     },
     {
       "id": "delivery",
-      "title": "Slides 已提交，课堂展示与报告继续",
+      "title": "展示已完成，报告进入六岗写作准备",
       "status": "in_progress",
       "owner": "全组；本人负责统筹",
       "owner_role": "team",
       "scope": "team",
-      "summary": "本人转述团队交由本人统一处理18项，并确认名单主线＋概率/价值独立扩展。18项已形成可核写作准备包：修元数据/口径、补45行实验身份、表和10张SVG/PDF；新增固定F0/G1/G2开发对照50/49/48，未重选测试模型。独立抽检及最终core封包核验完成。下一步按23页建议分工写正文；正式报告正文尚未开始，未提交。",
+      "summary": "本人已认可7页单栏IEEE样张；严谨写作规则、更新编号样张、六章23页结构、六人岗位卡及10篇期刊DOI候选已整理并定向抽检。下一步本人发群收承接/时间反馈，六岗交英文素材、本人统一合稿；不要求组员LaTeX。完整报告待写，成员认领/内部日期未冒称确认，正式提交未发生。",
       "deliverable": "按同一版结论交 Slides、讲稿与报告，再核排练和提交回执。",
-      "next_action": "按修补包writing-brief的23页框架协调六岗正式写作认领；使用已核表图/registry，概率与价值单独成章，定稿前核Canvas最新格式和全文。",
-      "my_next_action": "按修补包writing-brief的23页框架协调六岗正式写作认领；使用已核表图/registry，概率与价值单独成章，定稿前核Canvas最新格式和全文。",
+      "next_action": "本人发群提供写作入口，确认六人子节和建议11/30 22:00 HKT首稿时间；按岗位卡写英文稿/图表/公式/底数据/引用，统一融合。",
+      "my_next_action": "本人发群提供写作入口，确认六人子节和建议11/30 22:00 HKT首稿时间；按岗位卡写英文稿/图表/公式/底数据/引用，统一融合。",
       "depends_on": [
         "ppt-a-first-draft-review",
         "date-slides"
@@ -765,7 +770,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-26",
+      "observed_on": "2026-11-27",
       "estimated_minutes": null,
       "state_basis": "Slides 本人确认已提交；课堂展示/报告与回执独立核验仍分别待完成。",
       "evidence": [
@@ -910,20 +915,25 @@
           "observed_on": "2026-11-26",
           "status": "in_progress",
           "note": "18项准备统一处理完成，转正式章节认领/写作。"
+        },
+        {
+          "observed_on": "2026-11-27",
+          "status": "in_progress",
+          "note": "本人认可模板，写作规则/分工已备，发群与实际承接继续分开。"
         }
       ]
     },
     {
       "id": "my-delivery",
-      "title": "本人下一步：确认报告审计范围并组织正文分工",
+      "title": "本人下一步：发群确认承接并组织英文素材交件",
       "status": "in_progress",
       "owner": "本人 · 统筹",
       "owner_role": "me",
       "scope": "team",
-      "summary": "本人转述团队交由本人统一处理18项，并确认名单主线＋概率/价值独立扩展。18项已形成可核写作准备包：修元数据/口径、补45行实验身份、表和10张SVG/PDF；新增固定F0/G1/G2开发对照50/49/48，未重选测试模型。独立抽检及最终core封包核验完成。下一步按23页建议分工写正文；正式报告正文尚未开始，未提交。",
+      "summary": "本人已认可7页单栏IEEE样张；严谨写作规则、更新编号样张、六章23页结构、六人岗位卡及10篇期刊DOI候选已整理并定向抽检。下一步本人发群收承接/时间反馈，六岗交英文素材、本人统一合稿；不要求组员LaTeX。完整报告待写，成员认领/内部日期未冒称确认，正式提交未发生。",
       "deliverable": "完成核对或交接，并将实际答复更新回任务记录。",
-      "next_action": "按修补包writing-brief的23页框架协调六岗正式写作认领；使用已核表图/registry，概率与价值单独成章，定稿前核Canvas最新格式和全文。",
-      "my_next_action": "按修补包writing-brief的23页框架协调六岗正式写作认领；使用已核表图/registry，概率与价值单独成章，定稿前核Canvas最新格式和全文。",
+      "next_action": "本人发群提供写作入口，确认六人子节和建议11/30 22:00 HKT首稿时间；按岗位卡写英文稿/图表/公式/底数据/引用，统一融合。",
+      "my_next_action": "本人发群提供写作入口，确认六人子节和建议11/30 22:00 HKT首稿时间；按岗位卡写英文稿/图表/公式/底数据/引用，统一融合。",
       "depends_on": [],
       "dependency_gates": [],
       "acceptance": [
@@ -940,7 +950,7 @@
       },
       "started_on": null,
       "completed_on": null,
-      "observed_on": "2026-11-26",
+      "observed_on": "2026-11-27",
       "estimated_minutes": null,
       "state_basis": "11/26 本人确认 11/25 展示已完成、无教师反馈；最终报告正文未开始，当前先确认审计采用范围及六岗认领，不编造内部承诺日期。正式报告截止由独立 deadline 入口保留。",
       "evidence": [
@@ -1052,6 +1062,11 @@
           "observed_on": "2026-11-26",
           "status": "in_progress",
           "note": "18项准备统一处理完成，转正式章节认领/写作。"
+        },
+        {
+          "observed_on": "2026-11-27",
+          "status": "in_progress",
+          "note": "本人认可模板，写作规则/分工已备，发群与实际承接继续分开。"
         }
       ]
     },
@@ -1923,17 +1938,17 @@
     },
     {
       "id": "date-report-sections",
-      "title": "交完整报告段落与复跑入口（建议）",
+      "title": "六人英文首稿与可编辑素材（建议）",
       "status": "planned",
       "owner": "全组；提交代表待确认",
       "owner_role": "team",
       "scope": "team",
-      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "summary": "按六岗位卡交文字/图表/公式/数据/引用；是否承接与时间待本人发群确认。",
       "deliverable": "交完整报告段落与复跑入口（建议）",
-      "next_action": "按修补包writing-brief的23页框架协调六岗正式写作认领；使用已核表图/registry，概率与价值单独成章，定稿前核Canvas最新格式和全文。",
+      "next_action": "本人发群提供写作入口，确认六人子节和建议11/30 22:00 HKT首稿时间；按岗位卡写英文稿/图表/公式/底数据/引用，统一融合。",
       "my_next_action": null,
       "depends_on": [
-        "report-repairs-20261126"
+        "report-writing-release-20261127"
       ],
       "dependency_gates": [],
       "acceptance": [
@@ -1944,7 +1959,7 @@
         }
       ],
       "target": {
-        "value": "2026-11-28T21:00:00+08:00",
+        "value": "2026-11-30T22:00:00+08:00",
         "precision": "datetime",
         "basis": "proposed"
       },
@@ -1975,13 +1990,23 @@
           "status": "planned",
           "note": "修补准备已完成；写作认领待实际确认，旧日期仍建议。",
           "previous_dependencies": []
+        },
+        {
+          "observed_on": "2026-11-27",
+          "status": "planned",
+          "note": "更新未获约定的内部建议首稿时间；不是成员承诺。",
+          "previous_target": {
+            "value": "2026-11-28T21:00:00+08:00",
+            "precision": "datetime",
+            "basis": "proposed"
+          }
         }
       ],
       "milestone_kind": "internal"
     },
     {
       "id": "date-report-review",
-      "title": "报告合稿、复跑与核数（建议）",
+      "title": "交叉核数、引用支持与证据补齐（建议）",
       "status": "planned",
       "owner": "全组；提交代表待确认",
       "owner_role": "team",
@@ -2033,14 +2058,14 @@
     },
     {
       "id": "date-report-freeze",
-      "title": "团队核准报告定稿（建议）",
+      "title": "形成报告合稿待审版（建议）",
       "status": "planned",
       "owner": "全组；提交代表待确认",
       "owner_role": "team",
       "scope": "team",
-      "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
+      "summary": "6号统一融合，5号核关键数字/引用；尚不是全组定稿确认。",
       "deliverable": "团队核准报告定稿（建议）",
-      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "next_action": "收齐各岗素材并完成统一结构、编号、缩写和引用整合。",
       "my_next_action": null,
       "depends_on": [
         "date-report-review"
@@ -2079,6 +2104,12 @@
           "observed_on": "2026-11-26",
           "status": "planned",
           "note": "本人确认正文未开始；原内部日期仍为建议，按审计与实际认领接续。"
+        },
+        {
+          "observed_on": "2026-11-27",
+          "status": "planned",
+          "note": "12/4定位合稿待审版，12/5全组通读另列；原内部节点为建议。",
+          "previous_title": "团队核准报告定稿（建议）"
         }
       ],
       "milestone_kind": "internal"
@@ -2092,10 +2123,10 @@
       "scope": "team",
       "summary": "渠道：组内拟定。这是交付节点；实际制作、审批和提交状态须分别核验。",
       "deliverable": "经确认的代表提交报告（建议）",
-      "next_action": "核对本节点交件负责人、前置版本与实际回执。",
+      "next_action": "本人最终核准后由实际代表提交，保留23:59前缓冲与成功回执。",
       "my_next_action": null,
       "depends_on": [
-        "date-report-freeze"
+        "date-report-full-read"
       ],
       "dependency_gates": [],
       "acceptance": [
@@ -2106,7 +2137,7 @@
         }
       ],
       "target": {
-        "value": "2026-12-05T18:00:00+08:00",
+        "value": "2026-12-06T18:00:00+08:00",
         "precision": "datetime",
         "basis": "proposed"
       },
@@ -2131,6 +2162,16 @@
           "observed_on": "2026-11-26",
           "status": "planned",
           "note": "本人确认正文未开始；原内部日期仍为建议，按审计与实际认领接续。"
+        },
+        {
+          "observed_on": "2026-11-27",
+          "status": "planned",
+          "note": "内部提交缓冲改为12/6 18:00建议，官方23:59不变；并未执行提交。",
+          "previous_target": {
+            "value": "2026-12-05T18:00:00+08:00",
+            "precision": "datetime",
+            "basis": "proposed"
+          }
         }
       ],
       "milestone_kind": "internal"
@@ -3963,7 +4004,387 @@
           "note": "本人授权统一处理并确认采用范围；实际结果和残余现实边界见处理报告。"
         }
       ]
+    },
+    {
+      "id": "report-writing-release-20261127",
+      "title": "写作规则、编号样张和六人岗位卡已备",
+      "status": "done",
+      "owner": "本人统一处理（Codex辅助）",
+      "owner_role": "me",
+      "scope": "supporting",
+      "summary": "本人已认可7页单栏IEEE样张；严谨写作规则、更新编号样张、六章23页结构、六人岗位卡及10篇期刊DOI候选已整理并定向抽检。下一步本人发群收承接/时间反馈，六岗交英文素材、本人统一合稿；不要求组员LaTeX。完整报告待写，成员认领/内部日期未冒称确认，正式提交未发生。",
+      "deliverable": "写作规则、六章23页结构、六人岗位卡、交件模板、期刊DOI候选与7页v2样张。",
+      "next_action": "本人发群提供写作入口，确认六人子节和建议11/30 22:00 HKT首稿时间；按岗位卡写英文稿/图表/公式/底数据/引用，统一融合。",
+      "my_next_action": null,
+      "depends_on": [
+        "scope",
+        "report-repairs-20261126"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "prepared",
+          "label": "规则/六卡/来源候选/样张已核并独立抽检",
+          "status": "pass",
+          "evidence": [
+            "writing-start-20261127",
+            "writing-review-20261127"
+          ]
+        }
+      ],
+      "target": {
+        "value": null,
+        "precision": "unknown",
+        "basis": "unknown"
+      },
+      "started_on": "2026-11-27",
+      "completed_on": "2026-11-27",
+      "observed_on": "2026-11-27",
+      "estimated_minutes": null,
+      "state_basis": "本环节只验收制作与发布准备，不推定成员承接/正文/正式提交。",
+      "evidence": [
+        {
+          "label": "写作入口",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/report-writing-20261127/README.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-27",
+          "status": "done",
+          "note": "本人认可样张，新增规则与六岗交件包已制作；实际发群待本人。"
+        }
+      ]
+    },
+    {
+      "id": "date-report-full-read",
+      "title": "全组通读并确认报告定稿（建议）",
+      "status": "planned",
+      "owner": "全组；提交代表待确认",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "逐人读实际合稿，核本人内容/身份/贡献和关键结论；未发生不记已完成。",
+      "deliverable": "全组真实审阅意见与定稿版本。",
+      "next_action": "本人协调全组实际通读与问题关闭。",
+      "my_next_action": "组织实际通读，收真实确认。",
+      "depends_on": [
+        "date-report-freeze"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "read",
+          "label": "全组通读与版本确认有实际记录",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-12-05T21:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-27",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "已发布的六人协作与交付倒排",
+          "url": null
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-27",
+          "status": "planned",
+          "note": "新列内部建议，待本人/组员确认，不代表承诺。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "write-role-01",
+      "title": "1号YE Yuhan报告子节与素材首稿（建议）",
+      "status": "planned",
+      "owner": "1号 · YE Yuhan",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "按role-01岗位卡写指定英文子节，交可编辑图表/公式/底数据与引用；承接待本人发群后反馈。",
+      "deliverable": "Word/Markdown英文稿、图表/公式/底数据/图源/引用及未决问题。",
+      "next_action": "阅读岗位卡role-01，向本人回报承接和时间，再按卡交首稿。",
+      "my_next_action": null,
+      "depends_on": [
+        "report-writing-release-20261127"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "received",
+          "label": "实际收到完整英文素材包",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-30T22:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-27",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "1号岗位卡",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/report-writing-20261127/roles/role-01.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-27",
+          "status": "planned",
+          "note": "写作安排已拟，成员承接和内部日期待实际确认。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "write-role-02",
+      "title": "2号LIU Xiuqi报告子节与素材首稿（建议）",
+      "status": "planned",
+      "owner": "2号 · LIU Xiuqi",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "按role-02岗位卡写指定英文子节，交可编辑图表/公式/底数据与引用；承接待本人发群后反馈。",
+      "deliverable": "Word/Markdown英文稿、图表/公式/底数据/图源/引用及未决问题。",
+      "next_action": "阅读岗位卡role-02，向本人回报承接和时间，再按卡交首稿。",
+      "my_next_action": null,
+      "depends_on": [
+        "report-writing-release-20261127"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "received",
+          "label": "实际收到完整英文素材包",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-30T22:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-27",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "2号岗位卡",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/report-writing-20261127/roles/role-02.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-27",
+          "status": "planned",
+          "note": "写作安排已拟，成员承接和内部日期待实际确认。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "write-role-03",
+      "title": "3号SUN Bo报告子节与素材首稿（建议）",
+      "status": "planned",
+      "owner": "3号 · SUN Bo",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "按role-03岗位卡写指定英文子节，交可编辑图表/公式/底数据与引用；承接待本人发群后反馈。",
+      "deliverable": "Word/Markdown英文稿、图表/公式/底数据/图源/引用及未决问题。",
+      "next_action": "阅读岗位卡role-03，向本人回报承接和时间，再按卡交首稿。",
+      "my_next_action": null,
+      "depends_on": [
+        "report-writing-release-20261127"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "received",
+          "label": "实际收到完整英文素材包",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-30T22:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-27",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "3号岗位卡",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/report-writing-20261127/roles/role-03.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-27",
+          "status": "planned",
+          "note": "写作安排已拟，成员承接和内部日期待实际确认。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "write-role-04",
+      "title": "4号CHEN Hanyu报告子节与素材首稿（建议）",
+      "status": "planned",
+      "owner": "4号 · CHEN Hanyu",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "按role-04岗位卡写指定英文子节，交可编辑图表/公式/底数据与引用；承接待本人发群后反馈。",
+      "deliverable": "Word/Markdown英文稿、图表/公式/底数据/图源/引用及未决问题。",
+      "next_action": "阅读岗位卡role-04，向本人回报承接和时间，再按卡交首稿。",
+      "my_next_action": null,
+      "depends_on": [
+        "report-writing-release-20261127"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "received",
+          "label": "实际收到完整英文素材包",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-30T22:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-27",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "4号岗位卡",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/report-writing-20261127/roles/role-04.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-27",
+          "status": "planned",
+          "note": "写作安排已拟，成员承接和内部日期待实际确认。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "write-role-05",
+      "title": "5号LIU Yuwei报告子节与素材首稿（建议）",
+      "status": "planned",
+      "owner": "5号 · LIU Yuwei",
+      "owner_role": "team",
+      "scope": "team",
+      "summary": "按role-05岗位卡写指定英文子节，交可编辑图表/公式/底数据与引用；承接待本人发群后反馈。",
+      "deliverable": "Word/Markdown英文稿、图表/公式/底数据/图源/引用及未决问题。",
+      "next_action": "阅读岗位卡role-05，向本人回报承接和时间，再按卡交首稿。",
+      "my_next_action": null,
+      "depends_on": [
+        "report-writing-release-20261127"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "received",
+          "label": "实际收到完整英文素材包",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-30T22:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-27",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "5号岗位卡",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/report-writing-20261127/roles/role-05.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-27",
+          "status": "planned",
+          "note": "写作安排已拟，成员承接和内部日期待实际确认。"
+        }
+      ],
+      "milestone_kind": "internal"
+    },
+    {
+      "id": "write-role-06",
+      "title": "6号LI Binxiong报告子节与素材首稿（建议）",
+      "status": "planned",
+      "owner": "6号 · LI Binxiong",
+      "owner_role": "me",
+      "scope": "team",
+      "summary": "按role-06岗位卡写指定英文子节，交可编辑图表/公式/底数据与引用；承接待本人发群后反馈。",
+      "deliverable": "Word/Markdown英文稿、图表/公式/底数据/图源/引用及未决问题。",
+      "next_action": "阅读岗位卡role-06，向本人回报承接和时间，再按卡交首稿。",
+      "my_next_action": "按6号卡写业务/扩展/合稿材料。",
+      "depends_on": [
+        "report-writing-release-20261127"
+      ],
+      "dependency_gates": [],
+      "acceptance": [
+        {
+          "id": "received",
+          "label": "实际收到完整英文素材包",
+          "status": "unknown"
+        }
+      ],
+      "target": {
+        "value": "2026-11-30T22:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "started_on": null,
+      "completed_on": null,
+      "observed_on": "2026-11-27",
+      "estimated_minutes": null,
+      "state_basis": "沿用原截止记录；内部节点为建议，日期已过不自动标迟交。",
+      "evidence": [
+        {
+          "label": "6号岗位卡",
+          "url": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/report-writing-20261127/roles/role-06.md"
+        }
+      ],
+      "history": [
+        {
+          "observed_on": "2026-11-27",
+          "status": "planned",
+          "note": "写作安排已拟，成员承接和内部日期待实际确认。"
+        }
+      ],
+      "milestone_kind": "internal"
     }
   ],
-  "basis_management_revision": "d6a3d473b45f4460b7939422aa822bbc755deeddd8163d56468dac15e783c32a"
+  "basis_management_revision": "5bd73f500e61cd8593595039d78454c19ab280a8c4ae8046276d30e083dfd418"
 }

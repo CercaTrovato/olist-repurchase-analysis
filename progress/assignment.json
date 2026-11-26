@@ -7,20 +7,20 @@
   "board_scope": "active",
   "group": "Six Sigma",
   "my_role": "业务目标与项目统筹（6 号）",
-  "summary": "本人转述团队交由本人统一处理18项，并确认名单主线＋概率/价值独立扩展。18项已形成可核写作准备包：修元数据/口径、补45行实验身份、表和10张SVG/PDF；新增固定F0/G1/G2开发对照50/49/48，未重选测试模型。独立抽检及最终core封包核验完成。下一步按23页建议分工写正文；正式报告正文尚未开始，未提交。",
-  "stage": "18项修补准备完成｜可分工写报告正文",
-  "updated_at": "2026-11-26T21:47:58+08:00",
-  "reviewed_at": "2026-11-26",
-  "progress_as_of": "2026-11-26",
+  "summary": "本人已认可7页单栏IEEE样张；严谨写作规则、更新编号样张、六章23页结构、六人岗位卡及10篇期刊DOI候选已整理并定向抽检。下一步本人发群收承接/时间反馈，六岗交英文素材、本人统一合稿；不要求组员LaTeX。完整报告待写，成员认领/内部日期未冒称确认，正式提交未发生。",
+  "stage": "模板与写作规则已定｜六人写作安排已备待发群",
+  "updated_at": "2026-11-27T00:30:23+08:00",
+  "reviewed_at": "2026-11-27",
+  "progress_as_of": "2026-11-27",
   "task_scope_complete": false,
   "next_action": {
-    "title": "按修补包writing-brief的23页框架协调六岗正式写作认领；使用已核表图/registry，概率与价值单独成章，定稿前核Canvas最新格式和全文。",
-    "owner": "本人统筹六岗写作，具体认领待实际确认",
+    "title": "本人发群提供写作入口，确认六人子节和建议11/30 22:00 HKT首稿时间；按岗位卡写英文稿/图表/公式/底数据/引用，统一融合。",
+    "owner": "本人统筹；成员承接待实际反馈",
     "basis": "proposed"
   },
   "blockers": [
-    "正式报告正文未开始，章节认领、全文合稿/通读与正式提交仍待执行；12/6 23:59 HKT截止保留。",
-    "真实触达/同意/成本、源系统历史修改日志不能由现有数据补造，报告按修补包明确限制。"
+    "六人写作承接、内部日期、稿件/素材收件和全组通读仍待真实回报；完整报告尚未合成。",
+    "现实触达/成本与源系统历史日志没有新证据，按本包披露，不编造完成。"
   ],
   "tasks": [
     {
@@ -38,7 +38,7 @@
       "title": "六人职责与交接方案",
       "status": "done",
       "owner": null,
-      "note": "六岗已认领；协作指南已发布，本人已分发任务。11 月 8–9 日各岗首轮附件已在群里交接。 GitHub 已同步首轮交接与当前待办。 2026-11-11 本人明确确认第三轮任务已发群；成员接单与回传另记。",
+      "note": "六岗已认领；协作指南已发布，本人已分发任务。11 月 8–9 日各岗首轮附件已在群里交接。 GitHub 已同步首轮交接与当前待办。 2026-11-11 本人明确确认第三轮任务已发群；成员接单与回传另记。 11/27另备正式报告子节写作安排，尚待本人发群和成员承接/时间回报；不覆盖此前六岗已认领事实。",
       "evidence": [
         "supervision-confirmation",
         "local-team-guide",
@@ -46,7 +46,9 @@
         "team-dispatch-confirmation",
         "team-wechat-intake",
         "github-current-status",
-        "round3-dispatch-confirmed"
+        "round3-dispatch-confirmed",
+        "writing-start-20261127",
+        "writing-roles-20261127"
       ]
     },
     {
@@ -63,7 +65,9 @@
         "post-presentation-facts-20261126",
         "report-gap-audit-20261126",
         "repair18-report-20261126",
-        "repair18-register-20261126"
+        "repair18-register-20261126",
+        "writing-start-20261127",
+        "writing-roles-20261127"
       ]
     },
     {
@@ -144,7 +148,7 @@
       "title": "最终报告与复现核验",
       "status": "todo",
       "owner": "全组",
-      "note": "18项报告准备已由本人借助Codex统一处理、独立抽样检查完成。正式正文尚未开始，按23页建议进入实际章节认领/写作。",
+      "note": "模板基线本人已认可，写作规则与六人章节任务已备；完整正文待成员交稿合稿。",
       "evidence": [
         "local-team-guide",
         "report-page",
@@ -154,7 +158,9 @@
         "post-presentation-facts-20261126",
         "report-gap-audit-20261126",
         "repair18-report-20261126",
-        "repair18-register-20261126"
+        "repair18-register-20261126",
+        "writing-start-20261127",
+        "writing-roles-20261127"
       ]
     },
     {
@@ -1598,6 +1604,54 @@
       "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/raw/refs/heads/main/report-prep/report-preparation-reviewed-20261126.zip",
       "observed_at": "2026-11-26",
       "sha256": "2644e3c28ae376ba156e304fa742611dcb4647853ea0793a790b5e2e9edb69c5"
+    },
+    {
+      "id": "writing-start-20261127",
+      "kind": "web",
+      "label": "报告写作入口",
+      "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/report-writing-20261127/README.md",
+      "observed_at": "2026-11-27",
+      "sha256": "7655622e03a0b6048a4b1696e4a23c1b0b3a1314ca68442f75bafe7bb5852b63"
+    },
+    {
+      "id": "writing-rules-20261127",
+      "kind": "web",
+      "label": "统一论文写作规则",
+      "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/report-writing-20261127/WRITING-RULES.md",
+      "observed_at": "2026-11-27",
+      "sha256": "803ef3f3fcdf9b72d9e75c30c9a7d39e621988000c0548dac0f3cdf0c969d553"
+    },
+    {
+      "id": "writing-roles-20261127",
+      "kind": "web",
+      "label": "六人写作安排（承接待回报）",
+      "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/report-writing-20261127/ROLES.md",
+      "observed_at": "2026-11-27",
+      "sha256": "4b69bb16d3c9d4258a5dd2c9a0bf1a5816fc03e54a36df41b6f4ad2326ca2bbd"
+    },
+    {
+      "id": "writing-template-20261127",
+      "kind": "web",
+      "label": "已认可基线的编号修订样张",
+      "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/report-writing-20261127/template/IS6400_Report_Layout_Sample_v2.pdf",
+      "observed_at": "2026-11-27",
+      "sha256": "7de04c1546984cea960f02c30c7c5a1d120cf638e02896156f94b2245e8c3c36"
+    },
+    {
+      "id": "writing-references-20261127",
+      "kind": "web",
+      "label": "10篇期刊DOI候选与范围",
+      "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/report-writing-20261127/references/verified-journals.csv",
+      "observed_at": "2026-11-27",
+      "sha256": "c5a5dc6caf530a5944b9bd864f4271d4be79b31a2bc4eab4ce4dc61cb0ef84da"
+    },
+    {
+      "id": "writing-review-20261127",
+      "kind": "web",
+      "label": "本批独立风险抽检",
+      "locator": "https://github.com/CercaTrovato/olist-repurchase-analysis/blob/main/docs/team/report-writing-20261127/review/independent-review.md",
+      "observed_at": "2026-11-27",
+      "sha256": "e6a95e0b07f3aa4b949f034f7f2959596d911f9baac3f399f8a7235489903f48"
     }
   ]
 }

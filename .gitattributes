@@ -15,3 +15,13 @@ report-prep/20261126/figures/*.svg whitespace=-blank-at-eol
 report-prep/20261126/data/feature-experiment-plan.json whitespace=cr-at-eol
 report-prep/20261126/data/feature-experiment-verification.json whitespace=cr-at-eol
 report-prep/20261126/review/*.json whitespace=cr-at-eol
+
+# Preserve reviewed writing-package bytes and declared line endings.
+docs/team/report-writing-20261127/** -text
+docs/team/report-writing-20261127/**/*.svg whitespace=-blank-at-eol
+docs/team/report-writing-20261127/**/*.csv whitespace=cr-at-eol
+docs/team/report-writing-20261127/**/*.json whitespace=cr-at-eol
+
+# Vendored IEEE class and reviewed generator retain their original whitespace.
+docs/team/report-writing-20261127/template/IEEEtran.cls whitespace=-blank-at-eol,-blank-at-eof
+docs/team/report-writing-20261127/template/make_figures.py whitespace=-blank-at-eof

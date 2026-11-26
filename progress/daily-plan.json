@@ -2,9 +2,9 @@
   "schema_version": 1,
   "assignment_id": "IS6400-A06",
   "course": "IS6400",
-  "as_of": "2026-11-26",
+  "as_of": "2026-11-27",
   "timezone": "Asia/Shanghai",
-  "source_revision": "e0e3797561a8b2e4c1f714ecf697299f2e89907e3675b22cc4ee83b57241c2e1",
+  "source_revision": "c93a08f7f79e423b2fa7e452e9436bd2269650c304f15d80f0ec335ae3b6cb7a",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
   "stale": false,
   "scheduling_policy": {
@@ -50,6 +50,23 @@
       "date_state": "past_due_unverified"
     },
     {
+      "id": "write-role-06",
+      "title": "6号LI Binxiong报告子节与素材首稿（建议）",
+      "owner": "6号 · LI Binxiong",
+      "status": "planned",
+      "personal_action": "按6号卡写业务/扩展/合稿材料。",
+      "readiness": "ready",
+      "target": {
+        "value": "2026-11-30T22:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "blocked_by": [],
+      "estimated_minutes": null,
+      "observed_on": "2026-11-27",
+      "date_state": "next_7_days"
+    },
+    {
       "id": "date-slides-target",
       "title": "补存已提交 Slides 的独立回执（不重交）",
       "owner": "本人或实际提交人提供记录",
@@ -68,10 +85,10 @@
     },
     {
       "id": "delivery",
-      "title": "Slides 已提交，课堂展示与报告继续",
+      "title": "展示已完成，报告进入六岗写作准备",
       "owner": "全组；本人负责统筹",
       "status": "in_progress",
-      "personal_action": "按修补包writing-brief的23页框架协调六岗正式写作认领；使用已核表图/registry，概率与价值单独成章，定稿前核Canvas最新格式和全文。",
+      "personal_action": "本人发群提供写作入口，确认六人子节和建议11/30 22:00 HKT首稿时间；按岗位卡写英文稿/图表/公式/底数据/引用，统一融合。",
       "readiness": "ready",
       "target": {
         "value": null,
@@ -80,7 +97,7 @@
       },
       "blocked_by": [],
       "estimated_minutes": null,
-      "observed_on": "2026-11-26",
+      "observed_on": "2026-11-27",
       "date_state": "unscheduled"
     },
     {
@@ -102,10 +119,10 @@
     },
     {
       "id": "my-delivery",
-      "title": "本人下一步：确认报告审计范围并组织正文分工",
+      "title": "本人下一步：发群确认承接并组织英文素材交件",
       "owner": "本人 · 统筹",
       "status": "in_progress",
-      "personal_action": "按修补包writing-brief的23页框架协调六岗正式写作认领；使用已核表图/registry，概率与价值单独成章，定稿前核Canvas最新格式和全文。",
+      "personal_action": "本人发群提供写作入口，确认六人子节和建议11/30 22:00 HKT首稿时间；按岗位卡写英文稿/图表/公式/底数据/引用，统一融合。",
       "readiness": "ready",
       "target": {
         "value": null,
@@ -114,8 +131,27 @@
       },
       "blocked_by": [],
       "estimated_minutes": null,
-      "observed_on": "2026-11-26",
+      "observed_on": "2026-11-27",
       "date_state": "unscheduled"
+    },
+    {
+      "id": "date-report-full-read",
+      "title": "全组通读并确认报告定稿（建议）",
+      "owner": "全组；提交代表待确认",
+      "status": "planned",
+      "personal_action": "组织实际通读，收真实确认。",
+      "readiness": "waiting_dependency",
+      "target": {
+        "value": "2026-12-05T21:00:00+08:00",
+        "precision": "datetime",
+        "basis": "proposed"
+      },
+      "blocked_by": [
+        "date-report-freeze"
+      ],
+      "estimated_minutes": null,
+      "observed_on": "2026-11-27",
+      "date_state": "later"
     },
     {
       "id": "date-report",

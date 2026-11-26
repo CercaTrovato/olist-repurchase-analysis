@@ -1,0 +1,18 @@
+{
+  "template": "IEEEtran 1.8b, journal, onecolumn; course adaptation",
+  "paper": "A4",
+  "margins_mm": 25,
+  "body_font": "Times New Roman",
+  "body_font_physical_pt": 11,
+  "body_baseline_physical_pt": 22,
+  "headings": "Roman numbered small caps; lettered italic subsections",
+  "figure_caption": "Below; bold label Fig. n.; regular description, 11pt/22pt",
+  "table_caption": "Above; bold label Table Roman.; regular/small-caps description, 11pt/22pt",
+  "equations": "centred, right-numbered, local symbol explanations",
+  "references": "Appendix — References; numbered [n]; 11pt/22pt",
+  "scope": "7-page layout sample with selected real development results; not complete 20–25-page report",
+  "user_style_approval_pending": false,
+  "six_person_writing_assignment_prepared": true,
+  "running_references": "Figure n / Table Roman. / Equation (n) via automatic references",
+  "updated": "2026-11-27"
+}

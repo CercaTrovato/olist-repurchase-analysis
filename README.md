@@ -1,5 +1,8 @@
 # Olist 复购预测与客户分析
 
+> **2026-11-27：报告写作规则、已认可模板与六人岗位卡已发布。** [统一入口](docs/team/report-writing-20261127/README.md)。组员交Word/Markdown及可编辑素材，不要求LaTeX；承接和建议首稿日期待本人发群后反馈。
+
+
 > **18项统一处理已形成写作准备包：** [GitHub处理报告](report-prep/20261126/README.md) · [带独立报告完整下载](report-prep/report-preparation-reviewed-20261126.zip)。新增F0/G1/G2为50/49/48；正式正文下一步按23页简报分工。
 
 > **11/26：** 本人确认11/25展示完成、没有老师反馈，报告正文未开始。[报告前审计与六岗建议](docs/report-gap-audit-20261126/README.md)：优先修记录和整理已有证据，不默认重训。

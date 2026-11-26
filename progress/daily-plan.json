@@ -2,11 +2,11 @@
   "schema_version": 1,
   "assignment_id": "IS6400-A06",
   "course": "IS6400",
-  "as_of": "2026-11-25",
+  "as_of": "2026-11-26",
   "timezone": "Asia/Shanghai",
-  "source_revision": "2c00a544fdfb1c3f94bba7bda7f5a041fdc3be9eddd7cee7b555868f785a9108",
+  "source_revision": "adca1c856498ba50fb671444ab11f1e7d7bd7316a8b8a4de2bb4d141e371125b",
   "repository_url": "https://github.com/CercaTrovato/olist-repurchase-analysis",
-  "stale": false,
+  "stale": true,
   "scheduling_policy": {
     "advisory_only": true,
     "unknown_effort_is_null": true,
@@ -50,28 +50,11 @@
       "date_state": "past_due_unverified"
     },
     {
-      "id": "date-presentation",
-      "title": "Six Sigma 展示：Week 13 第 2 组",
-      "owner": "全组；提交代表待确认",
-      "status": "planned",
-      "personal_action": "使用11/25课堂新版核对本人第1/2/9页并真人计时；1号留意第3页训练/验证/测试，3号留意第5/6页文字与第14/15页备查。准确展示钟点和原Slides独立回执另核，不重新提交附件。",
-      "readiness": "ready",
-      "target": {
-        "value": "2026-11-25",
-        "precision": "date",
-        "basis": "agreed"
-      },
-      "blocked_by": [],
-      "estimated_minutes": null,
-      "observed_on": "2026-11-25",
-      "date_state": "today"
-    },
-    {
       "id": "my-delivery",
       "title": "本人下一步：准备 11 月 25 日课堂展示",
       "owner": "本人 · 统筹",
       "status": "in_progress",
-      "personal_action": "使用11/25课堂新版核对本人第1/2/9页并真人计时；1号留意第3页训练/验证/测试，3号留意第5/6页文字与第14/15页备查。准确展示钟点和原Slides独立回执另核，不重新提交附件。",
+      "personal_action": "本人评审审计R02范围单及六岗建议；先整理实验身份、修R3元数据、数据时间图和三期完整报告表，再确认正文分工；不默认开启新模型训练。",
       "readiness": "ready",
       "target": {
         "value": "2026-11-25",
@@ -80,8 +63,8 @@
       },
       "blocked_by": [],
       "estimated_minutes": null,
-      "observed_on": "2026-11-25",
-      "date_state": "today"
+      "observed_on": "2026-11-26",
+      "date_state": "past_due_unverified"
     },
     {
       "id": "date-slides-target",
@@ -105,7 +88,7 @@
       "title": "Slides 已提交，课堂展示与报告继续",
       "owner": "全组；本人负责统筹",
       "status": "in_progress",
-      "personal_action": "使用11/25课堂新版核对本人第1/2/9页并真人计时；1号留意第3页训练/验证/测试，3号留意第5/6页文字与第14/15页备查。准确展示钟点和原Slides独立回执另核，不重新提交附件。",
+      "personal_action": "本人评审审计R02范围单及六岗建议；先整理实验身份、修R3元数据、数据时间图和三期完整报告表，再确认正文分工；不默认开启新模型训练。",
       "readiness": "ready",
       "target": {
         "value": null,
@@ -114,7 +97,7 @@
       },
       "blocked_by": [],
       "estimated_minutes": null,
-      "observed_on": "2026-11-25",
+      "observed_on": "2026-11-26",
       "date_state": "unscheduled"
     },
     {
@@ -136,10 +119,10 @@
     },
     {
       "id": "scope",
-      "title": "11/25课堂15页更新版与原13页提交记录",
+      "title": "展示完成，报告范围待确认",
       "owner": "本人 · 总监督",
       "status": "needs_review",
-      "personal_action": "使用11/25课堂新版核对本人第1/2/9页并真人计时；1号留意第3页训练/验证/测试，3号留意第5/6页文字与第14/15页备查。准确展示钟点和原Slides独立回执另核，不重新提交附件。",
+      "personal_action": "本人评审审计R02范围单及六岗建议；先整理实验身份、修R3元数据、数据时间图和三期完整报告表，再确认正文分工；不默认开启新模型训练。",
       "readiness": "ready",
       "target": {
         "value": null,
@@ -148,8 +131,28 @@
       },
       "blocked_by": [],
       "estimated_minutes": null,
-      "observed_on": "2026-11-25",
+      "observed_on": "2026-11-26",
       "date_state": "unscheduled"
+    },
+    {
+      "id": "date-report",
+      "title": "最终报告",
+      "owner": "全组；提交代表待确认",
+      "status": "planned",
+      "personal_action": "本人评审审计R02范围单及六岗建议；先整理实验身份、修R3元数据、数据时间图和三期完整报告表，再确认正文分工；不默认开启新模型训练。",
+      "readiness": "waiting_dependency",
+      "target": {
+        "value": "2026-12-06T23:59:00+08:00",
+        "precision": "datetime",
+        "basis": "official"
+      },
+      "blocked_by": [
+        "scope",
+        "team-april"
+      ],
+      "estimated_minutes": null,
+      "observed_on": "2026-11-26",
+      "date_state": "later"
     },
     {
       "id": "my-liu-reminder-20261116",
@@ -209,5 +212,6 @@
       },
       "status": "planned"
     }
-  ]
+  ],
+  "management_sync_note": "本批课程源已更新，依本次分工待总监督复核共享management并重新同源导出/发布；不以旧绑定宣称当前可执行。"
 }

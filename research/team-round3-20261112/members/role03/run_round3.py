@@ -219,32 +219,17 @@ def main() -> None:
     prediction_frame.to_csv(OUT / "january-predictions.csv", index=False)
     pd.DataFrame(jan_rows).to_csv(OUT / "january-comparison.csv", index=False)
 
-    metadata = {
-        "round": "round3",
-        "feature_version": "round3-role01-time-v1",
-        "train_snapshot": TRAIN_DATE,
-        "validation_snapshot": VALIDATION_DATE,
-        "cv": {
-            "method": "StratifiedKFold",
-            "folds": 5,
-            "shuffle": True,
-            "random_state": 2026,
-            "fit_scope": "October training snapshot only",
-        },
-        "variants": VARIANTS,
-        "models": ["LogisticRegression", "LogisticRegressionWeighted"],
-        "ranking": "score descending, customer_unique_id ascending for ties",
-        "capacities": [0.05, 0.10, 0.20],
-        "group_models": "Not run: October customer-level group labels were not supplied in the permitted inputs.",
-    }
-    (OUT / "run-metadata.json").write_text(
-        json.dumps(metadata, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    from metadata_helpers import write_metadata
+    write_metadata(OUT, OUT, "base", invocation_mode="trained_base_pipeline")
     print(cv_summary.to_string(index=False))
     print(jan_rows)
     print(f"Wrote Round3 outputs to {OUT}")
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    if "--metadata-only" in sys.argv:
+        from metadata_helpers import metadata_cli
+        metadata_cli("base")
+    else:
+        main()

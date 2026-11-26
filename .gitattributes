@@ -6,3 +6,12 @@
 *.zip binary
 *.pptx binary
 *.png binary
+
+# Reviewed report-preparation artifacts are bound by byte-level SHA-256.
+report-prep/20261126/** -text
+# Matplotlib SVG path attributes intentionally contain end-of-line spaces.
+report-prep/20261126/figures/*.svg whitespace=-blank-at-eol
+# Preserve the executed Windows JSON plan/receipt bytes without flagging CRLF.
+report-prep/20261126/data/feature-experiment-plan.json whitespace=cr-at-eol
+report-prep/20261126/data/feature-experiment-verification.json whitespace=cr-at-eol
+report-prep/20261126/review/*.json whitespace=cr-at-eol

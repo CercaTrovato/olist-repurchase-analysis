@@ -1,15 +1,69 @@
 {
+  "schema": "role03-evidence-metadata-v2",
   "round": "round3",
-  "feature_version": "round3-role01-time-v1",
   "train_snapshot": "2017-10-01",
   "validation_snapshot": "2018-01-01",
+  "invocation_mode": "metadata_only",
+  "execution_scope": "metadata regeneration from saved results; no fit/predict executed in this invocation",
+  "original_training_environment": "not reconstructed from this regeneration",
+  "regeneration_environment": {
+    "python": "3.12.3",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "sklearn": "1.5.1"
+  },
   "cv": {
     "method": "StratifiedKFold",
     "folds": 5,
     "shuffle": true,
     "random_state": 2026,
-    "fit_scope": "October training snapshot only"
+    "fit_scope": "October training snapshot only",
+    "january_role": "development and candidate comparison, not an independent blind test"
   },
+  "ranking": "score descending, customer_unique_id ascending for ties",
+  "capacities": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "model_settings": {
+    "C": 1.0,
+    "class_weight": "balanced where weighted, otherwise None",
+    "penalty": "l2",
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "max_iter": 2000,
+    "random_state": 2026
+  },
+  "saved_artifacts": {
+    "january-comparison.csv": {
+      "sha256": "5b2867579918b453abf575a71c375f9c10d086b6f3fa4e210c31700997002485",
+      "rows": 18
+    },
+    "cv-summary.csv": {
+      "sha256": "220bf18ff2857980b6631b7e5cd5812ef4ceeeab46d512a8817e334cb904715c",
+      "rows": 6
+    },
+    "group-model-comparison.csv": {
+      "sha256": "98352ca30a49697e402172d34099d73571556726cb81df51842c312a9b506c06",
+      "rows": 9
+    },
+    "group-cv-summary.csv": {
+      "sha256": "2a86c295df3b2cd970d5f24e5e92311c068c44d2b127a2ea7e8ca42654a4e2c1",
+      "rows": 3
+    }
+  },
+  "group_models": {
+    "status": "saved_results_available",
+    "methods": [
+      "B_global_with_cluster",
+      "C_segmented_group2_global_fallback",
+      "F0_global_weighted"
+    ],
+    "new_fits_in_this_regeneration": 0,
+    "representation_scope": "H05 mapping fitted once on all October; conditional group CV. Imputation/scaling/encoding and LR fit within each fold; clustering is not refitted per fold."
+  },
+  "feature_version": "round3-role01-time-v1",
   "variants": {
     "F0_base": [],
     "F1_delivery": [
@@ -26,27 +80,5 @@
   "models": [
     "LogisticRegression",
     "LogisticRegressionWeighted"
-  ],
-  "ranking": "score descending, customer_unique_id ascending for ties",
-  "capacities": [
-    0.05,
-    0.1,
-    0.2
-  ],
-  "group_labels": {
-    "training": "training_clusters.csv",
-    "validation": "validation_clusters.csv",
-    "cluster_version": "H05-km3-v1",
-    "training_label_source": "Recomputed by build_training_clusters.py using the H05-km3-v1 configuration."
-  },
-  "group_models": {
-    "status": "run",
-    "script": "run_group_models.py",
-    "methods": [
-      "F0_global_weighted",
-      "B_global_with_cluster",
-      "C_segmented_group2_global_fallback"
-    ],
-    "selection": "F0 remains primary; B is secondary because Top 10% hits tie F0; C is not selected."
-  }
+  ]
 }

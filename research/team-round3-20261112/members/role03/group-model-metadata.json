@@ -1,24 +1,73 @@
 {
+  "schema": "role03-evidence-metadata-v2",
+  "round": "round3",
   "train_snapshot": "2017-10-01",
   "validation_snapshot": "2018-01-01",
-  "cluster_version": "H05-km3-v1",
-  "training_clusters": "training_clusters.csv",
-  "validation_clusters": "Round3_role03_prediction_v1\\validation_clusters.csv",
-  "methods": {
-    "F0_global_weighted": "Global weighted logistic regression.",
-    "B_global_with_cluster": "Global weighted logistic regression with cluster_id.",
-    "C_segmented_group2_global_fallback": "Separate weighted models for groups 0 and 1; group 2 uses the global weighted model."
+  "invocation_mode": "metadata_only",
+  "execution_scope": "metadata regeneration from saved results; no fit/predict executed in this invocation",
+  "original_training_environment": "not reconstructed from this regeneration",
+  "regeneration_environment": {
+    "python": "3.12.3",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "sklearn": "1.5.1"
   },
   "cv": {
     "method": "StratifiedKFold",
     "folds": 5,
+    "shuffle": true,
     "random_state": 2026,
-    "selection_metric": "Not selected using January labels; January is fixed validation."
+    "fit_scope": "October training snapshot only",
+    "january_role": "development and candidate comparison, not an independent blind test",
+    "representation_scope": "H05 mapping fitted once on all October; conditional group CV. Imputation/scaling/encoding and LR fit within each fold; clustering is not refitted per fold.",
+    "selection_metric": "January Top10% hits informed development comparison. CV summaries are separate internal diagnostics."
   },
   "ranking": "score descending, customer_unique_id ascending for ties",
   "capacities": [
     0.05,
     0.1,
     0.2
-  ]
+  ],
+  "model_settings": {
+    "C": 1.0,
+    "class_weight": "balanced where weighted, otherwise None",
+    "penalty": "l2",
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "max_iter": 2000,
+    "random_state": 2026
+  },
+  "saved_artifacts": {
+    "january-comparison.csv": {
+      "sha256": "5b2867579918b453abf575a71c375f9c10d086b6f3fa4e210c31700997002485",
+      "rows": 18
+    },
+    "cv-summary.csv": {
+      "sha256": "220bf18ff2857980b6631b7e5cd5812ef4ceeeab46d512a8817e334cb904715c",
+      "rows": 6
+    },
+    "group-model-comparison.csv": {
+      "sha256": "98352ca30a49697e402172d34099d73571556726cb81df51842c312a9b506c06",
+      "rows": 9
+    },
+    "group-cv-summary.csv": {
+      "sha256": "2a86c295df3b2cd970d5f24e5e92311c068c44d2b127a2ea7e8ca42654a4e2c1",
+      "rows": 3
+    }
+  },
+  "group_models": {
+    "status": "saved_results_available",
+    "methods": [
+      "B_global_with_cluster",
+      "C_segmented_group2_global_fallback",
+      "F0_global_weighted"
+    ],
+    "new_fits_in_this_regeneration": 0,
+    "representation_scope": "H05 mapping fitted once on all October; conditional group CV. Imputation/scaling/encoding and LR fit within each fold; clustering is not refitted per fold."
+  },
+  "methods": {
+    "F0_global_weighted": "Global weighted logistic regression",
+    "B_global_with_cluster": "Global weighted LR with categorical cluster_id",
+    "C_segmented_group2_global_fallback": "Separate weighted LR for groups0/1, global model for group2; fallback to global if a training group has one class"
+  }
 }

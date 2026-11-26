@@ -267,36 +267,16 @@ def main() -> None:
     prediction.to_csv(OUT / "group-model-predictions.csv", index=False)
     pd.DataFrame(comparison).to_csv(OUT / "group-model-comparison.csv", index=False)
 
-    metadata = {
-        "train_snapshot": TRAIN_DATE,
-        "validation_snapshot": VALIDATION_DATE,
-        "cluster_version": "H05-km3-v1",
-        "training_clusters": "training_clusters.csv",
-        "validation_clusters": str(VALIDATION_CLUSTERS.relative_to(ROOT)),
-        "methods": {
-            "F0_global_weighted": "Global weighted logistic regression.",
-            "B_global_with_cluster": "Global weighted logistic regression with cluster_id.",
-            "C_segmented_group2_global_fallback": (
-                "Separate weighted models for groups 0 and 1; group 2 uses "
-                "the global weighted model."
-            ),
-        },
-        "cv": {
-            "method": "StratifiedKFold",
-            "folds": 5,
-            "random_state": 2026,
-            "selection_metric": "Not selected using January labels; January is fixed validation.",
-        },
-        "ranking": "score descending, customer_unique_id ascending for ties",
-        "capacities": [0.05, 0.10, 0.20],
-    }
-    (OUT / "group-model-metadata.json").write_text(
-        json.dumps(metadata, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    from metadata_helpers import write_metadata
+    write_metadata(OUT, OUT, "group", invocation_mode="trained_group_pipeline")
     print(cv_summary.to_string(index=False))
     print(pd.DataFrame(comparison).query("top_fraction == 0.1").to_string(index=False))
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    if "--metadata-only" in sys.argv:
+        from metadata_helpers import metadata_cli
+        metadata_cli("group")
+    else:
+        main()
